@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-11-04 13:53+0000\n"
-"PO-Revision-Date: 2021-10-29 19:12+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2021-11-16 06:12+0000\n"
+"Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
-"docs-client-configuration-42/zh_CN/>\n"
+"docs-client-configuration-manager-42-mu-424/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2068,8 +2068,7 @@ msgid ""
 "network as the machine you want to install, or you have a DHCP relay that "
 "allows you to cross all routers in between;"
 msgstr ""
-"{productname} 服务器（或其代理之一）与您要安装的计算机位于同一本地网络中，或"
-"者您具有可用于跨越两者之间的所有路由器的 DHCP 中继；"
+"{productname} 服务器（或其代理之一）与您要安装的计算机位于同一本地网络中，或者您具有可用于跨越两者之间的所有路由器的 DHCP 中继；"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:13
@@ -2299,7 +2298,9 @@ msgstr ""
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:22
 #, no-wrap
 msgid "$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/initrd\n"
-msgstr "$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/initrd\n"
+msgstr ""
+"$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/"
+"initrd\n"
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:23
@@ -2343,7 +2344,8 @@ msgstr "使用 [command]``mksusecd`` 修改现有的 ISO 映像："
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:31
 #, no-wrap
 msgid "$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
-msgstr "$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
+msgstr ""
+"$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
 
 #. type: Title =
 #: modules/client-configuration/pages/autoinst-profiles.adoc:1
@@ -4144,7 +4146,9 @@ msgstr "指定适当的父频道："
 #: modules/client-configuration/pages/bootstrap-repository.adoc:32
 #, no-wrap
 msgid "mgr-create-bootstrap-repo -c SLE-15-x86_64 --with-parent-channel sle-product-sled15-pool-x86_64\n"
-msgstr "mgr-create-bootstrap-repo -c SLE-15-x86_64 --with-parent-channel sle-product-sled15-pool-x86_64\n"
+msgstr ""
+"mgr-create-bootstrap-repo -c SLE-15-x86_64 --with-parent-channel sle-product-"
+"sled15-pool-x86_64\n"
 
 #. type: Title ===
 #: modules/client-configuration/pages/bootstrap-repository.adoc:33
@@ -7853,10 +7857,9 @@ msgstr ""
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Registering openSUSE Clients"
+#, no-wrap
 msgid "Registering openSUSE Leap Clients"
-msgstr "注册 openSUSE 客户端"
+msgstr "注册 openSUSE Leap 客户端"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:2
@@ -8666,14 +8669,13 @@ msgstr "出现提示时，输入您的 {redhat} 门户用户名和口令。"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:24
 msgid "Run command:"
-msgstr ""
+msgstr "运行命令："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:25
-#, fuzzy, no-wrap
-#| msgid "subscription-manager register\n"
+#, no-wrap
 msgid "subscription-manager activate\n"
-msgstr "subscription-manager register\n"
+msgstr "subscription-manager activate\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:26
@@ -9020,28 +9022,7 @@ msgstr "Red Hat 频道 - CLI"
 #. type: Table
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:72
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:69
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version\n"
-#| "| Base Channel\n"
-#| "| Client Channel\n"
-#| "| Tools Channel\n"
-#| "\n"
-#| "| {redhat} 6\n"
-#| "| rhel-x86_64-server-6\n"
-#| "| -\n"
-#| "| res6-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {redhat} 7\n"
-#| "| rhel-x86_64-server-7\n"
-#| "| -\n"
-#| "| res7-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {redhat} 8\n"
-#| "| rhel-x86_64-server-8\n"
-#| "| -\n"
-#| "| res8-suse-manager-tools-x86_64\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -9065,23 +9046,23 @@ msgid ""
 "\n"
 msgstr ""
 "| 操作系统版本\n"
-"|基础频道\n"
-"|客户端频道\n"
-"|工具频道\n"
+"| 基础频道\n"
+"| 客户端频道\n"
+"| 工具频道\n"
 "\n"
-"|{redhat} 6\n"
+"| {redhat} 6\n"
 "| rhel-x86_64-server-6\n"
-"|-\n"
+"| -\n"
 "| res6-suse-manager-tools-x86_64\n"
 "\n"
 "| {redhat} 7\n"
 "| rhel-x86_64-server-7\n"
-"|-\n"
+"| -\n"
 "| res7-suse-manager-tools-x86_64\n"
 "\n"
 "| {redhat} 8\n"
-"|rhel-x86_64-server-8\n"
-"|-\n"
+"| rhel8-pool-x86_64\n"
+"| -\n"
 "| res8-suse-manager-tools-x86_64\n"
 "\n"
 
@@ -9841,34 +9822,34 @@ msgstr "{sles}{nbsp}15{nbsp}SP3"
 msgid ""
 "Use the instructions in this chapter for preparing all {sle} products, "
 "including:"
-msgstr ""
+msgstr "请按照本章中的说明准备所有 {sle} 产品，包括："
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:7
 msgid "{sles} for SAP"
-msgstr ""
+msgstr "{sles} for SAP"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:8
 msgid "{sle} Desktop"
-msgstr ""
+msgstr "{sle} Desktop"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:9
 msgid "{sle}"
-msgstr ""
+msgstr "{sle}"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:10
 msgid "{sle} Real Time"
-msgstr ""
+msgstr "{sle} Real Time"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:11
 msgid ""
 "You can also use these instructions for older {sle} versions and service "
 "packs."
-msgstr ""
+msgstr "您也可以按照这些说明准备较旧的 {sle} 版本和服务包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sle.adoc:13
@@ -10366,28 +10347,7 @@ msgstr "ES 频道 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-sleses.adoc:24
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version\n"
-#| "| Base Channel\n"
-#| "| Client Channel\n"
-#| "| Tools Channel\n"
-#| "\n"
-#| "| {es} 6\n"
-#| "| rhel-x86_64-server-6\n"
-#| "| -\n"
-#| "| res6-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {es} 7\n"
-#| "| rhel-x86_64-server-7\n"
-#| "| -\n"
-#| "| res7-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {es} 8\n"
-#| "| rhel-x86_64-server-8\n"
-#| "| -\n"
-#| "| res8-suse-manager-tools-x86_64\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -10411,9 +10371,9 @@ msgid ""
 "\n"
 msgstr ""
 "| 操作系统版本\n"
-"|基础频道\n"
-"|客户端频道\n"
-"|工具频道\n"
+"| 基础频道\n"
+"| 客户端频道\n"
+"| 工具频道\n"
 "\n"
 "| {es} 6\n"
 "| rhel-x86_64-server-6\n"
@@ -10426,7 +10386,7 @@ msgstr ""
 "| res7-suse-manager-tools-x86_64\n"
 "\n"
 "| {es} 8\n"
-"| rhel-x86_64-server-8\n"
+"| rhel8-pool-x86_64\n"
 "| -\n"
 "| res8-suse-manager-tools-x86_64\n"
 "\n"
@@ -14768,7 +14728,7 @@ msgstr "curl -Sks https://server_hostname/pub/bootstrap/bootstrap-sles15.sh | /b
 msgid ""
 "To avoid problems, make sure the bootstrap script is executed using "
 "[command]``bash``."
-msgstr ""
+msgstr "为避免出现问题，请确保引导脚本是使用 [command]``bash`` 执行的。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:48
@@ -14861,24 +14821,17 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-cli.adoc:10
-#, fuzzy
-#| msgid ""
-#| "Add or edit the FQDN of the {productname} Server or of the Proxy as the "
-#| "`master`, and add the activation key to the client configuration file:"
 msgid ""
 "In the file add or edit the FQDN of the {productname} Server or Proxy, and "
 "the activation key if any. Also add the other configuration parameters "
 "listed below."
-msgstr ""
-"在客户端配置文件中添加或编辑 {productname} 服务器或代理的 FQDN（作为 "
-"`master`），并添加激活密钥："
+msgstr "在文件中添加或编辑 {productname} 服务器或代理的 FQDN 以及激活密钥（如果有）。另外请添加以下其他配置参数。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-cli.adoc:11
-#, fuzzy, no-wrap
-#| msgid "master: PROXY123.EXAMPLE.COM\n"
+#, no-wrap
 msgid "master: SERVER.EXAMPLE.COM\n"
-msgstr "master: PROXY123.EXAMPLE.COM\n"
+msgstr "master: SERVER.EXAMPLE.COM\n"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-cli.adoc:12
@@ -14888,30 +14841,21 @@ msgid ""
 "  susemanager:\n"
 "    activation_key: \"<Activation_Key_Name>\"\n"
 msgstr ""
+"grains:\n"
+"  susemanager:\n"
+"    activation_key: \"激活密钥名称\"\n"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-cli.adoc:13
-#, fuzzy, no-wrap
-#| msgid ""
-#| "master: SERVER.EXAMPLE.COM\n"
-#| "server_id_use_src: adler42\n"
-#| "enable_legacy_startup_events: False\n"
-#| "enable_fqdns_grains: False\n"
-#| "grains:\n"
-#| "  susemanager:\n"
-#| "    activation_key: \"<Activation_Key_Name>\"\n"
+#, no-wrap
 msgid ""
 "server_id_use_crc: adler32\n"
 "enable_legacy_startup_events: False\n"
 "enable_fqdns_grains: False\n"
 msgstr ""
-"master: SERVER.EXAMPLE.COM\n"
-"server_id_use_src: adler42\n"
+"server_id_use_crc: adler32\n"
 "enable_legacy_startup_events: False\n"
 "enable_fqdns_grains: False\n"
-"grains:\n"
-"  susemanager:\n"
-"    activation_key: \"<Activation_Key_Name>\"\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-cli.adoc:16
@@ -22057,8 +22001,6 @@ msgstr "{sle} 和 {opensuse}（基于 zypp）与 {rhel} 或 {debian} 客户端�
 
 #. type: delimited block =
 #: modules/client-configuration/pages/system-locking.adoc:26
-#, fuzzy
-#| msgid "traditional versus Salt clients."
 msgid "Traditional versus Salt clients."
 msgstr "传统客户端与 Salt 客户端。"
 
@@ -23512,27 +23454,27 @@ msgstr ""
 #: modules/client-configuration/pages/tshoot-clients.adoc:104
 #, no-wrap
 msgid "Salt clients shown as down and DNS settings"
-msgstr ""
+msgstr "显示为关闭的 Salt 客户端和 DNS 设置"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:105
 msgid ""
 "Even if the Salt client is running, actions such as package refresh or apply "
 "states can be marked as failed with the message:"
-msgstr ""
+msgstr "即使 Salt 客户端正在运行，软件包刷新或应用状态这样的操作也可能会标示为失败，并显示以下消息："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:106
 #, no-wrap
 msgid "Minion is down or could not be contacted.\n"
-msgstr ""
+msgstr "受控端已关闭或无法联系。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:107
 msgid ""
 "In this case try rescheduling the action.  If rescheduling succeeds, the "
 "cause of the problem can be a wrong DNS configuration."
-msgstr ""
+msgstr "在此情况下，请尝试重新安排该操作。如果重新安排成功，发生问题的原因可能在于 DNS 配置有误。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:108
@@ -23544,6 +23486,9 @@ msgid ""
 "before the actual action to ensure the client is actually running and the "
 "action can be triggered."
 msgstr ""
+"Salt 客户端重启动时，或者系统在刷新 grain 时，客户端会计算其 FQDN grain，并在 grain 继续执行前保持无响应状态。当 "
+"{productname} 服务器上安排的操作将要执行时，{productname} 服务器会先于实际操作向客户端发出 ``test."
+"ping``，以确保客户端实际上正在运行，可以触发该操作。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:109
@@ -23553,13 +23498,15 @@ msgid ""
 "seconds, then the action is set to fail with the message that the client is "
 "down or could not be contacted."
 msgstr ""
+"默认情况下，{productname} 服务器会等待 5 秒来获得 ``test.ping`` 命令的响应。如果在 5 "
+"秒内未收到响应，则会将该操作设置为失败，并显示消息指出客户端已关闭或无法联系。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:110
 msgid ""
 "To correct this, fix the DNS resolution on the client, so the client does "
 "not get stuck for 5 seconds while solving its FQDN."
-msgstr ""
+msgstr "要解决此问题，请修复客户端上的 DNS 解析，使客户端在解析其 FQDN 时不会卡顿 5 秒时间。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:111
@@ -23568,6 +23515,8 @@ msgid ""
 "salt_presence_ping_timeout`` in the ``/etc/rhn/rhn.conf`` file on the "
 "{productname} Server to a value higher than 4."
 msgstr ""
+"如果无法修复，请尝试将 {productname} 服务器上 ``/etc/rhn/rhn.conf`` 文件中 ``java."
+"salt_presence_ping_timeout`` 的值增至大于 4 的值。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:112
@@ -23578,19 +23527,18 @@ msgstr "例如："
 #: modules/client-configuration/pages/tshoot-clients.adoc:113
 #, no-wrap
 msgid "java.salt_presence_ping_timeout = 6\n"
-msgstr ""
+msgstr "java.salt_presence_ping_timeout = 6\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:114
 msgid "After that, restart ``spacewalk-services`` with:"
-msgstr ""
+msgstr "之后，使用以下命令重启动 ``spacewalk-services``："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:115
-#, fuzzy, no-wrap
-#| msgid "spacewalk-service restart\n"
+#, no-wrap
 msgid "spacewalk-services restart\n"
-msgstr "spacewalk-service restart\n"
+msgstr "spacewalk-services restart\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/tshoot-clients.adoc:116
@@ -23599,6 +23547,8 @@ msgid ""
 "check if a minion is unreachable or unresponsive, causing the {productname} "
 "Server to be slower or less responsive overall."
 msgstr ""
+"将此值增大会使 {productname} 服务器花费更长时间检查受控端是否无法连接或无响应，导致 {productname} "
+"服务器总体速度更慢或响应能力更低。"
 
 #. type: Title =
 #: modules/client-configuration/pages/vhm-aws.adoc:1
@@ -23608,15 +23558,10 @@ msgstr "VHM 和 Amazon Web Services"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-aws.adoc:2
-#, fuzzy
-#| msgid ""
-#| "You can use a virtual host manager (VHM) to gather instances from "
-#| "Amazon Web Services (AWS)."
 msgid ""
 "You can use a virtual host manager (VHM) to gather instances from Amazon Web "
 "Services (AWS)."
-msgstr ""
-"您可以使用虚拟主机管理器 (VHM) 收集 Amazon Web Services (AWS) 中的实例。"
+msgstr "您可以使用虚拟主机管理器 (VHM) 收集 Amazon Web Services (AWS) 中的实例。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-aws.adoc:3
