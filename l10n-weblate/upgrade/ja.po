@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
 "POT-Creation-Date: 2021-10-12 09:01+0000\n"
-"PO-Revision-Date: 2021-10-29 13:48+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2021-11-17 05:12+0000\n"
+"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
-"docs-upgrade-42/ja/>\n"
+"docs-upgrade-manager-42-mu-424/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2305,7 +2305,7 @@ msgstr "spacewalk-service stop\n"
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:9
 #: modules/upgrade/pages/server-z.adoc:9
 msgid "Refresh software repositories:"
-msgstr ""
+msgstr "ソフトウェアリポジトリを更新します。"
 
 #. type: delimited block -
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:10
@@ -2343,15 +2343,12 @@ msgstr "zypper patch\n"
 #. type: Plain text
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:15
 #: modules/upgrade/pages/server-z.adoc:15
-#, fuzzy, no-wrap
-#| msgid ""
-#| "This command only applies patches.\n"
-#| "  To apply all outstanding updates, use [command]``zypper up`` instead.\n"
+#, no-wrap
 msgid ""
 "  This command only applies patches.\n"
 "  To apply all outstanding updates, use [command]``zypper up`` instead.\n"
 msgstr ""
-"このコマンドはパッチを適用するだけです。\n"
+"  このコマンドはパッチを適用するだけです。\n"
 "  未適用の更新をすべて更新するには、代わりに[command]``zypper up``を使用します。\n"
 
 #. type: Plain text
