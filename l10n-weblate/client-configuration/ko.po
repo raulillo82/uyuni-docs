@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-11-04 13:53+0000\n"
-"PO-Revision-Date: 2021-11-16 11:14+0000\n"
+"PO-Revision-Date: 2021-11-17 05:12+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-424/ko/>\n"
@@ -8865,10 +8865,9 @@ msgstr "명령 실행:"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:25
-#, fuzzy, no-wrap
-#| msgid "subscription-manager register\n"
+#, no-wrap
 msgid "subscription-manager activate\n"
-msgstr "subscription-manager register\n"
+msgstr "subscription-manager activate\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:26
@@ -9219,28 +9218,7 @@ msgstr "Red Hat 채널- CLI"
 #. type: Table
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:72
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:69
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version\n"
-#| "| Base Channel\n"
-#| "| Client Channel\n"
-#| "| Tools Channel\n"
-#| "\n"
-#| "| {redhat} 6\n"
-#| "| rhel-x86_64-server-6\n"
-#| "| -\n"
-#| "| res6-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {redhat} 7\n"
-#| "| rhel-x86_64-server-7\n"
-#| "| -\n"
-#| "| res7-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {redhat} 8\n"
-#| "| rhel-x86_64-server-8\n"
-#| "| -\n"
-#| "| res8-suse-manager-tools-x86_64\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -9279,7 +9257,7 @@ msgstr ""
 " | res7-suse-manager-tools-x86_64\n"
 " \n"
 " | {redhat} 8\n"
-" | rhel-x86_64-server-8\n"
+" | rhel8-pool-x86_64\n"
 " | -\n"
 " | res8-suse-manager-tools-x86_64\n"
 "\n"
@@ -10605,28 +10583,7 @@ msgstr "ES 채널 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-sleses.adoc:24
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version\n"
-#| "| Base Channel\n"
-#| "| Client Channel\n"
-#| "| Tools Channel\n"
-#| "\n"
-#| "| {es} 6\n"
-#| "| rhel-x86_64-server-6\n"
-#| "| -\n"
-#| "| res6-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {es} 7\n"
-#| "| rhel-x86_64-server-7\n"
-#| "| -\n"
-#| "| res7-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {es} 8\n"
-#| "| rhel-x86_64-server-8\n"
-#| "| -\n"
-#| "| res8-suse-manager-tools-x86_64\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -10665,7 +10622,7 @@ msgstr ""
 " | res7-suse-manager-tools-x86_64\n"
 " \n"
 " | {es} 8\n"
-" | rhel-x86_64-server-8\n"
+" | rhel8-pool-x86_64\n"
 " | -\n"
 " | res8-suse-manager-tools-x86_64\n"
 "\n"
@@ -15259,24 +15216,19 @@ msgstr "Salt 클라이언트에서 [literal]``minion`` 구성 파일을 엽니�
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-cli.adoc:10
-#, fuzzy
-#| msgid ""
-#| "Add or edit the FQDN of the {productname} Server or of the Proxy as the "
-#| "`master`, and add the activation key to the client configuration file:"
 msgid ""
 "In the file add or edit the FQDN of the {productname} Server or Proxy, and "
 "the activation key if any. Also add the other configuration parameters "
 "listed below."
 msgstr ""
-"{productname} 서버 또는 프록시의 FQDN을 `master` 로 추가하거나 편집한 후 클라"
-"이언트 구성 파일에 활성화 키를 추가합니다."
+"파일에서 {productname} 서버 또는 프록시의 FQDN, 활성화 키를 추가하거나 편집합니다. 또한 아래 나열된 다른 구성 "
+"파라미터를 추가하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-cli.adoc:11
-#, fuzzy, no-wrap
-#| msgid "master: PROXY123.EXAMPLE.COM\n"
+#, no-wrap
 msgid "master: SERVER.EXAMPLE.COM\n"
-msgstr "master: PROXY123.EXAMPLE.COM\n"
+msgstr "master: SERVER.EXAMPLE.COM\n"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-cli.adoc:12
@@ -15292,27 +15244,15 @@ msgstr ""
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-cli.adoc:13
-#, fuzzy, no-wrap
-#| msgid ""
-#| "master: SERVER.EXAMPLE.COM\n"
-#| "server_id_use_src: adler42\n"
-#| "enable_legacy_startup_events: False\n"
-#| "enable_fqdns_grains: False\n"
-#| "grains:\n"
-#| "  susemanager:\n"
-#| "    activation_key: \"<Activation_Key_Name>\"\n"
+#, no-wrap
 msgid ""
 "server_id_use_crc: adler32\n"
 "enable_legacy_startup_events: False\n"
 "enable_fqdns_grains: False\n"
 msgstr ""
-"master: SERVER.EXAMPLE.COM\n"
-"server_id_use_src: adler42\n"
+"server_id_use_crc: adler32\n"
 "enable_legacy_startup_events: False\n"
 "enable_fqdns_grains: False\n"
-"grains:\n"
-"  susemanager:\n"
-"    activation_key: \"<Activation_Key_Name>\"\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-cli.adoc:16
@@ -22568,8 +22508,6 @@ msgstr "{sle} 및 {opensuse} (zypp-based) vs {rhel} 또는 {debian} 클라이언
 
 #. type: delimited block =
 #: modules/client-configuration/pages/system-locking.adoc:26
-#, fuzzy
-#| msgid "traditional versus Salt clients."
 msgid "Traditional versus Salt clients."
 msgstr "기존 클라이언트 vs Salt 클라이언트."
 
@@ -24148,10 +24086,9 @@ msgstr "그리고 다음을 사용하여 ``spacewalk-services``를 다시 시작
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:115
-#, fuzzy, no-wrap
-#| msgid "spacewalk-service restart\n"
+#, no-wrap
 msgid "spacewalk-services restart\n"
-msgstr "spacewalk-service restart\n"
+msgstr "spacewalk-services restart\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/tshoot-clients.adoc:116
