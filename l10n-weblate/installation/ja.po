@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-11-02 16:21+0000\n"
-"PO-Revision-Date: 2021-11-17 05:12+0000\n"
+"PO-Revision-Date: 2021-11-18 02:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-424/ja/>\n"
@@ -1720,23 +1720,15 @@ msgstr "{productname} {productnumber}プロキシ"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:2
-#, fuzzy
-#| msgid ""
-#| "{susemgr} is a {suse} product within the {sle} product family.  This "
-#| "section describes how to install {susemgr} Server from the {sle} "
-#| "installation media.  For this topic we assume that you already have valid "
-#| "organization credentials with {scc} and have obtained a registration code "
-#| "for your {susemgr}."
 msgid ""
 "{susemgr} Proxy is a {suse} product within the {sle} product family.  This "
 "section describes how to install {susemgr} Proxy from {sle} installation "
 "media.  It assumes you already have valid organization credentials with "
 "{scc} and have obtained a registration code for your {susemgr} Proxy."
 msgstr ""
-"{susemgr}は、{sle}製品ファミリ内の{suse}製品です。  このセクションでは、{sle}"
-"インストールメディアから{susemgr}サーバをインストールする方法について説明しま"
-"す。  このトピックでは、{scc}で有効な組織資格情報がすでにあり、{susemgr}の登"
-"録コードを取得している必要があります。"
+"{susemgr} Proxyは、{sle}製品ファミリ内の{suse}製品です。  "
+"このセクションでは、{sle}インストールメディアから{susemgr}Proxyをインストールする方法について説明します。  "
+"{scc}で有効な組織資格情報がすでにあり、{susemgr}Proxyの登録コードを取得している必要があります。"
 
 #. type: delimited block =
 #: modules/installation/pages/install-proxy-unified.adoc:4
@@ -3273,9 +3265,8 @@ msgid ""
 "working you should allow to install also recommended packages.  In `/etc/"
 "zypp/zypp.conf` change:"
 msgstr ""
-"JeOSは、必要なパッケージのみをインストールするように設定されています。  動作"
-"するすべての機能を取得するには、推奨パッケージもインストールできるようにする"
-"必要があります。  ``/etc/zypp/zypp.conf``で、"
+"JeOSは、必要なパッケージのみをインストールするように設定されています。  "
+"動作するすべての機能を取得するには、推奨パッケージもインストールできるようにする必要があります。  ``/etc/zypp/zypp.conf``で、"
 
 #. type: delimited block -
 #: modules/installation/pages/install-vm.adoc:33
@@ -3572,22 +3563,7 @@ msgstr "{productname}サーバの外部ポートの要件"
 
 #. type: Table
 #: modules/installation/pages/ports.adoc:10
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Port number | Protocol | Used By | Notes\n"
-#| "| 22          |          |         | Required for ssh-push and ssh-push-tunnel contact methods.\n"
-#| "| 67          | TCP/UDP  | DHCP    | Required only if clients are requesting IP addresses from the server.\n"
-#| "| 69          | TCP/UDP  | TFTP    | Required if server is used as a PXE server for automated client installation.\n"
-#| "| 80          | TCP      | HTTP    | Required temporarily for some bootstrap repositories and automated installations.\n"
-#| "Port 80 is not used to serve the {webui}.\n"
-#| "| 443         | TCP      | HTTPS   | {webui}, client, and proxy requests.\n"
-#| "| 4505        |  TCP     | salt    | Required to accept communication requests from clients.\n"
-#| "The client initiates the connection, and it stays open to receive commands from the Salt master.\n"
-#| "| 4506        | TCP      | salt    | Required to accept communication requests from clients.\n"
-#| "The client initiates the connection, and it stays open to report results back to the Salt master.\n"
-#| "| 5222        | TCP      | osad    | Required to push OSAD actions to clients.\n"
-#| "| 5269        | TCP      | jabberd | Required to push actions to and from a proxy.\n"
-#| "| 25151       | TCP      | Cobbler |\n"
+#, no-wrap
 msgid ""
 "| Port number | Protocol | Used By | Notes\n"
 "| 22          |          |         | Required for ssh-push and ssh-push-tunnel contact methods.\n"
@@ -3605,12 +3581,16 @@ msgid ""
 "| 25151       | TCP      | Cobbler |\n"
 msgstr ""
 "| ポート番号 | プロトコル | 使用元 | 注意\n"
-"| 22          |          |         | ssh-pushおよびssh-push-tunnelの接続メソッドに必要です。\n"
+"| 22          |          |         | ssh-pushおよびssh-push-tunnelの接続メソッドに必要です。"
+"\n"
 " | 67          | TCP/UDP  | DHCP    | クライアントがサーバからIPアドレスをリクエストしている場合のみ必要です。\n"
-" | 69          | TCP/UDP  | TFTP    | 自動化されたクライアントのインストールのためにサーバがPXEサーバとして使用されている場合に必要です。\n"
-" | 80          | TCP      | HTTP    | 一部のブートストラップリポジトリおよび自動化されたインストールのために一時的に必要です。\n"
+" | 69          | TCP/UDP  | TFTP    | "
+"自動化されたクライアントのインストールのためにサーバがPXEサーバとして使用されている場合に必要です。\n"
+" | 80          | TCP      | HTTP    | "
+"一部のブートストラップリポジトリおよび自動化されたインストールのために一時的に必要です。\n"
 "ポート80は{webui}を操作するためには使用されません。\n"
-" | 443         | TCP      | HTTPS   | {webui}、クライアント、およびプロキシがリクエストします。\n"
+" | 443         | TCP      | HTTPS   | "
+"{webui}、クライアント、およびサーバとプロキシ(``tftpsync``)がリクエストします。\n"
 " | 4505        |  TCP     | salt    | クライアントからの通信リクエストを受け入れるために必要です。\n"
 "クライアントは、接続を開始し、開いたままになり、Saltマスタからのコマンドを受信します。\n"
 " | 4506        | TCP      | salt    | クライアントからの通信リクエストを受け入れるために必要です。\n"
@@ -3763,20 +3743,7 @@ msgstr "{productname}プロキシの外部ポートの要件"
 
 #. type: Table
 #: modules/installation/pages/ports.adoc:27
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Port number | Protocol | Used By | Notes\n"
-#| "| 22          |          |         | Required for ssh-push and ssh-push-tunnel contact methods.\n"
-#| "Clients connected to the proxy initiate check in on the server and hop through to clients.\n"
-#| "| 67          | TCP/UDP  | DHCP    | Required only if clients are requesting IP addresses from the server.\n"
-#| "| 69          | TCP/UDP  | TFTP    | Required if the server is used as a PXE server for automated client installation.\n"
-#| "| 443         | TCP      | HTTPS   | {webui}, client, and proxy requests.\n"
-#| "| 4505        | TCP      | salt    | Required to accept communication requests from clients.\n"
-#| "The client initiates the connection, and it stays open to receive commands from the Salt master.\n"
-#| "| 4506        | TCP      | salt    | Required to accept communication requests from clients.\n"
-#| "The client initiates the connection, and it stays open to report results back to the Salt master.\n"
-#| "| 5222        | TCP      |         | Required to push OSAD actions to clients.\n"
-#| "| 5269        | TCP      |         | Required to push actions to and from the server.\n"
+#, no-wrap
 msgid ""
 "| Port number | Protocol | Used By | Notes\n"
 "| 22          |          |         | Required for ssh-push and ssh-push-tunnel contact methods.\n"
@@ -3795,8 +3762,10 @@ msgstr ""
 "|22          |          |         | ssh-pushおよびssh-push-tunnelの接続メソッドに必要です。\n"
 "プロキシに接続されているクライアントは、サーバへのチェックインを開始し、クライアントにホップします。\n"
 " | 67          | TCP/UDP  | DHCP    | クライアントがサーバからIPアドレスをリクエストしている場合のみ必要です。\n"
-" | 69          | TCP/UDP  | TFTP    | 自動化されたクライアントのインストールのためにサーバがPXEサーバとして使用されている場合に必要です。\n"
-" | 443         | TCP      | HTTPS   | {webui}、クライアント、およびプロキシがリクエストします。\n"
+" | 69          | TCP/UDP  | TFTP    | "
+"自動化されたクライアントのインストールのためにサーバがPXEサーバとして使用されている場合に必要です。\n"
+" | 443         | TCP      | HTTPS   | "
+"{webui}、クライアント、およびサーバとプロキシ(``tftpsync``)がリクエストします。\n"
 " | 4505        | TCP      | salt    | クライアントからの通信リクエストを受け入れるために必要です。\n"
 "クライアントは、接続を開始し、開いたままになり、Saltマスタからのコマンドを受信します。\n"
 " | 4506        | TCP      | salt    | クライアントからの通信リクエストを受け入れるために必要です。\n"
@@ -3950,44 +3919,34 @@ msgid ""
 "installed with the Unified Installer and registered to {productname} using "
 "bootstrap script or GUI."
 msgstr ""
+"従来のプロキシをSaltプロキシに移行することはできません。 {productname}プロキシシステムは、Unified Installerとともにイン"
+"ストールされブートストラップスクリプトまたはGUIを使用して{productname}に登録される、Saltまたは従来のクライアントです。"
 
 #. For more information about reinstalling proxies, see xref:installation:proxy-setup.adoc#replace-susemgrproxy[].
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:3
-#, fuzzy
-#| msgid ""
-#| "For more information about the setup wizard, see xref:installation:setup-"
-#| "wizard.adoc[]."
 msgid ""
 "For more information about reinstalling proxies, see xref:installation:proxy-"
 "setup.adoc[]."
-msgstr ""
-"セットアップウィザードの詳細については、xref:installation:setup-wizard.adoc[]"
-"を参照してください。"
+msgstr "プロキシの再インストールの詳細については、xref:installation:proxy-setup.adoc[]を参照してください。"
 
 #. type: delimited block =
 #: modules/installation/pages/proxy-registration.adoc:4
-#, fuzzy
-#| msgid ""
-#| "If you want to change a traditional proxy to a Salt proxy, you need to "
-#| "reinstall the proxy.  For more information about reinstalling proxies, "
-#| "see xref:installation:proxy-setup.adoc#replace-susemgrproxy[]."
 msgid ""
 "Migrating a traditional proxy to a Salt proxy is not possible.  If you want "
 "to change a traditional proxy to a Salt proxy, you need to reinstall the "
 "proxy.  For more information about reinstalling proxies, see xref:"
 "installation:proxy-setup.adoc[]."
 msgstr ""
-"従来のプロキシをSaltプロキシに変更する場合、プロキシを再インストールする必要"
-"があります。  プロキシの再インストールの詳細については、xref:installation:"
-"proxy-setup.adoc#replace-susemgrproxy[]を参照してください。"
+"従来のプロキシをSaltプロキシに移行することはできません。従来のプロキシをSaltプロキシに変更する場合、プロキシを再インストールする必要があります。"
+"  プロキシの再インストールの詳細については、xref:installation:proxy-setup.adoc[]を参照してください。"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:5
 msgid ""
 "After the Salt client is succesfully bootstrapped, it needs to be configured "
 "as a`{productname} Proxy."
-msgstr ""
+msgstr "Saltクライアントが正常にブートストラップされた後、 `{productname}プロキシとして設定する必要があります。"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:6
@@ -4524,7 +4483,9 @@ msgstr "{productname}サーバの証明書に使用したパスワードを入�
 #: modules/installation/pages/uyuni-proxy-setup.adoc:41
 #, no-wrap
 msgid "Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion?"
-msgstr "Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion?（SSH-Push Salt Minionのプロキシ処理に既存のSSHキーを使用しますか?）"
+msgstr ""
+"Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion"
+"?（SSH-Push Salt Minionのプロキシ処理に既存のSSHキーを使用しますか?）"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:39
@@ -4541,7 +4502,9 @@ msgstr ""
 #: modules/installation/pages/uyuni-proxy-setup.adoc:43
 #, no-wrap
 msgid "Create and Populate Configuration Channel rhn_proxy_config_1000010001?"
-msgstr "Create and Populate Configuration Channel rhn_proxy_config_1000010001?（設定チャンネルrhn_proxy_config_1000010001を作成および入力しますか?）"
+msgstr ""
+"Create and Populate Configuration Channel "
+"rhn_proxy_config_1000010001?（設定チャンネルrhn_proxy_config_1000010001を作成および入力しますか?）"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:41
@@ -5041,7 +5004,7 @@ msgstr ""
 #: modules/installation/pages/proxy-setup.adoc:105
 #, no-wrap
 msgid "Serving big files"
-msgstr ""
+msgstr "大きいファイルの処理"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:106
@@ -5050,11 +5013,13 @@ msgid ""
 "through the proxy.  On the PROXY_HOSTNAME system, copy the big files to the "
 "[path]``/srv/www/htdocs/pub`` directory."
 msgstr ""
+"ISOイメージなどの大きいファイルをプロキシ経由でネットワークに配布する必要がある場合。PROXY_HOSTNAMEシステムでは、大きいファイルを[pat"
+"h]``/srv/www/htdocs/pub``ディレクトリにコピーします。"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:107
 msgid "Then, files can be downloaded from http://PROXY_HOSTNAME/pub."
-msgstr ""
+msgstr "その後、http://PROXY_HOSTNAME/pubからファイルをダウンロードできます。"
 
 #. type: Title =
 #: modules/installation/pages/pubcloud-requirements.adoc:1
@@ -6174,7 +6139,9 @@ msgstr ""
 #: modules/installation/pages/uyuni-server-setup.adoc:62
 #, no-wrap
 msgid "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
-msgstr "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
+msgstr ""
+"GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts "
+"elevator=noop transparent_hugepage=never\"\n"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:67
