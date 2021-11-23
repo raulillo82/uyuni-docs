@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-11-02 16:21+0000\n"
-"PO-Revision-Date: 2021-11-18 21:13+0000\n"
+"PO-Revision-Date: 2021-11-23 21:46+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-424/ja/>\n"
@@ -572,7 +572,7 @@ msgstr ""
 #: modules/installation/pages/general-requirements.adoc:21
 msgid ""
 "For more information about using SCC, see https://scc.suse.com/docs/help."
-msgstr "SCCの使用の詳細については、 https://scc.suse.com/docs/helpを参照してください。"
+msgstr "SCCの使用の詳細については、link:https://scc.suse.com/docs/help[]を参照してください。"
 
 #. type: Title ==
 #: modules/installation/pages/general-requirements.adoc:22
@@ -3946,7 +3946,7 @@ msgstr ""
 msgid ""
 "After the Salt client is succesfully bootstrapped, it needs to be configured "
 "as a`{productname} Proxy."
-msgstr "Saltクライアントが正常にブートストラップされた後、 `{productname}プロキシとして設定する必要があります。"
+msgstr "Saltクライアントが正常にブートストラップされた後、{productname}プロキシとして設定する必要があります。"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:6
@@ -5019,7 +5019,7 @@ msgstr ""
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:107
 msgid "Then, files can be downloaded from http://PROXY_HOSTNAME/pub."
-msgstr "その後、http://PROXY_HOSTNAME/pubからファイルをダウンロードできます。"
+msgstr "その後、http://PROXY_HOSTNAME/pub[]からファイルをダウンロードできます。"
 
 #. type: Title =
 #: modules/installation/pages/pubcloud-requirements.adoc:1
