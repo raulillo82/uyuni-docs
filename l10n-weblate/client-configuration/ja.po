@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-11-04 13:53+0000\n"
-"PO-Revision-Date: 2021-11-17 05:12+0000\n"
-"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
+"PO-Revision-Date: 2021-11-23 21:46+0000\n"
+"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-424/ja/>\n"
 "Language: ja\n"
@@ -3627,8 +3627,7 @@ msgid ""
 "Navigate to menu:Systems[System List], select the client you want to change, "
 "and go to the [guimenu]``Formulas`` tab to enable the DHCPd formula."
 msgstr ""
-"menu:[システム][[システム一覧]]に移動し、変更するクライアントを選択し、"
-"［[guimenu]``式``］タブに移動してDHCPd式を有効にします。"
+"menu:システム[システム一覧]に移動し、変更するクライアントを選択し、［[guimenu]``式``］タブに移動してDHCPd式を有効にします。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:35
@@ -4029,9 +4028,8 @@ msgid ""
 "In the {productname} {webui}, navigate to [guimenu]``Systems``, select the "
 "client to provision, and go to the menu:Provisioning[Autoinstallation] tab."
 msgstr ""
-"{productname} {webui}で、［[guimenu]``システム``］に移動し、プロビジョニング"
-"するクライアントを選択し、menu:[プロビジョニング][[自動インストール]]タブに移"
-"動します。"
+"{productname} {webui}で、［[guimenu]``システム``］に移動し、プロビジョニングするクライアントを選択し、menu:プロビジ"
+"ョニング[自動インストール]タブに移動します。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-unattended.adoc:14
@@ -15600,8 +15598,8 @@ msgid ""
 "If you used the script to register the Salt client, open the {productname} "
 "{webui} and navigate to menu:Salt[Keys] to accept the client key."
 msgstr ""
-"スクリプトを使用してSaltクライアントを登録する場合は、{productname}の{webui}"
-"を開いて、menu:[Salt][[Keys]]に移動し、クライアントキーを受け入れます。"
+"スクリプトを使用してSaltクライアントを登録する場合は、{productname}の{webui}を開いて、menu:Salt[Keys]に移動し、クラ"
+"イアントキーを受け入れます。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/registration-bootstrap.adoc:51
