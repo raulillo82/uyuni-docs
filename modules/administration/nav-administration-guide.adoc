@@ -1,5 +1,3 @@
-// Administration Guide Antora Navigation List
-// PDF Administration Guide
 ifdef::backend-pdf[]
 = [.title]#{productname} {productnumber}#: Administration Guide
 include::./branding/pdf/entities.adoc[]

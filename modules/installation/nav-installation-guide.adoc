@@ -1,6 +1,3 @@
-// Installation Guide Antora Navigation List
-
-// PDF Installation Guide
 ifdef::backend-pdf[]
 = [.title]#{productname} {productnumber}#: Installation Guide
 include::./branding/pdf/entities.adoc[]

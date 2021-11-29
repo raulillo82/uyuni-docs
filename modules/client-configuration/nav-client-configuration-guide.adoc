@@ -1,11 +1,8 @@
-// Client Configuration Guide Antora Navivation List
-// PDF Client Configuration Guide
 ifdef::backend-pdf[]
 = [.title]#{productname} {productnumber}#: Client Configuration Guide
 include::./branding/pdf/entities.adoc[]
 :toclevels: 3
 :doctype: book
-
 endif::[]
 
 

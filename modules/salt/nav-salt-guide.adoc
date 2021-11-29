@@ -1,6 +1,3 @@
-// Salt Guide Antora Navigation List
-
-// PDF Salt Guide
 ifdef::backend-pdf[]
 = [.title]#{productname} {productnumber}#: Salt Guide
 include::./branding/pdf/entities.adoc[]

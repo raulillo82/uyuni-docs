@@ -1,6 +1,3 @@
-// Upgrade Guide Antora Navigation List
-
-// PDF Upgrade Guide
 ifdef::backend-pdf[]
 = [.title]#{productname} {productnumber}#: Upgrade Guide
 include::./branding/pdf/entities.adoc[]

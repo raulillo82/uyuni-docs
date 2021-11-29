@@ -1,6 +1,3 @@
-// Large Deployments Guide Antora Navigation List
-
-// PDF Large Deployments Guide
 ifdef::backend-pdf[]
 = [.title]#{productname} {productnumber}#: Large Deployments Guide
 include::./branding/pdf/entities.adoc[]

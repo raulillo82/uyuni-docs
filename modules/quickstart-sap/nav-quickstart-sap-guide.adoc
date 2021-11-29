@@ -1,6 +1,3 @@
-// Quickstart Guide - SAP Antora Navigation List
-
-// PDF Installation Guide
 ifdef::backend-pdf[]
 = [.title]#{productname} {productnumber}#: Quick Start - SAP
 include::./branding/pdf/entities.adoc[]

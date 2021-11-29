@@ -1,6 +1,3 @@
-// Retail Guide Antora Navigation List
-
-// PDF Retail Guide
 ifdef::backend-pdf[]
 = [.title]#{productname} {productnumber}#: Retail Guide
 include::./branding/pdf/entities.adoc[]

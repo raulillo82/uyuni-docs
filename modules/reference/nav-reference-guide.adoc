@@ -1,5 +1,3 @@
-// Reference Guide Antora Navigation List
-
 ifdef::backend-pdf[]
 = [.title]#{productname} {productnumber}#: Reference Guide
 include::./branding/pdf/entities.adoc[]

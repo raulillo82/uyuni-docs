@@ -1,6 +1,3 @@
-// Cookbook Antora Navigation List
-
-// PDF Cookbook
 ifdef::backend-pdf[]
 = [.title]#{productname} {productnumber}#: Cookbook
 include::./branding/pdf/entities.adoc[]

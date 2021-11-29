@@ -18,7 +18,7 @@ msgstr ""
 #. type: Title =
 #: modules/installation/nav-installation-guide.adoc:1
 #, no-wrap
-msgid "Installation Guide: {productname} {productnumber}"
+msgid "[.title]#{productname} {productnumber}#: Installation Guide"
 msgstr ""
 
 #. type: Plain text

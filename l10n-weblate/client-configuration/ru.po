@@ -18,7 +18,7 @@ msgstr ""
 #. type: Title =
 #: modules/client-configuration/nav-client-configuration-guide.adoc:1
 #, no-wrap
-msgid "Client Configuration Guide: {productname} {productnumber}"
+msgid "[.title]#{productname} {productnumber}#: Client Configuration Guide"
 msgstr ""
 
 #. type: Plain text
