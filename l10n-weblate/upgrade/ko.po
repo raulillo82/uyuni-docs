@@ -24,7 +24,7 @@ msgstr ""
 #, fuzzy, no-wrap
 #| msgid "Upgrade Guide: {productname} {productnumber}"
 msgid "[.title]#{productname} {productnumber}#: Upgrade Guide"
-msgstr "업그레이드 가이드: {productname} {productnumber}"
+msgstr "[.title]#{productname} {productnumber}#: 업그레이드 가이드"
 
 #. type: Plain text
 #: modules/upgrade/nav-upgrade-guide.adoc:2

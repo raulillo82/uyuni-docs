@@ -23,7 +23,7 @@ msgstr ""
 #: modules/client-configuration/nav-client-configuration-guide.adoc:1
 #, no-wrap
 msgid "[.title]#{productname} {productnumber}#: Client Configuration Guide"
-msgstr ""
+msgstr "[.title]#{productname} {productnumber}#: 客户端配置指南"
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:2

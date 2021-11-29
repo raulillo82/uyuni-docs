@@ -24,7 +24,7 @@ msgstr ""
 #, fuzzy, no-wrap
 #| msgid "{productname} {productnumber} Proxy"
 msgid "[.title]#{productname} {productnumber}#: Installation Guide"
-msgstr "{productname} {productnumber} Proxy"
+msgstr "[.title]#{productname} {productnumber}#: 安装指南"
 
 #. type: Plain text
 #: modules/installation/nav-installation-guide.adoc:2

@@ -23,7 +23,7 @@ msgstr ""
 #, fuzzy, no-wrap
 #| msgid "{productname} {productnumber} Proxy"
 msgid "[.title]#{productname} {productnumber}#: Installation Guide"
-msgstr "{productname} {productnumber} 프록시"
+msgstr "[.title]#{productname} {productnumber}#: 설치 안내서"
 
 #. type: Plain text
 #: modules/installation/nav-installation-guide.adoc:2
