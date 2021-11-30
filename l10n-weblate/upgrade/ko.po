@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
-"POT-Creation-Date: 2021-11-29 14:38+0100\n"
-"PO-Revision-Date: 2021-10-29 13:48+0000\n"
+"POT-Creation-Date: 2021-10-12 09:01+0000\n"
+"PO-Revision-Date: 2021-11-24 13:09+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
-"Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/docs-"
-"upgrade-42/ko/>\n"
+"Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
+"docs-upgrade-manager-42-mu-424/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,8 +21,7 @@ msgstr ""
 
 #. type: Title =
 #: modules/upgrade/nav-upgrade-guide.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Upgrade Guide: {productname} {productnumber}"
+#, no-wrap
 msgid "[.title]#{productname} {productnumber}#: Upgrade Guide"
 msgstr "[.title]#{productname} {productnumber}#: 업그레이드 가이드"
 
@@ -172,9 +171,7 @@ msgstr ""
 msgid ""
 "This table shows the PostgreSQL version required for each version of "
 "{productname} and {SLES}:"
-msgstr ""
-"이 테이블은 {productname} 및 {SLES}의 각 버전에 필요한 PostgreSQL 버전을 보여"
-"줍니다."
+msgstr "이 테이블은 {productname} 및 {SLES}의 각 버전에 필요한 PostgreSQL 버전을 보여줍니다."
 
 #. type: Block title
 #: modules/upgrade/pages/db-intro.adoc:5
@@ -270,11 +267,10 @@ msgid ""
 "documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-"
 "migration-10.html"
 msgstr ""
-"버전 9.4 또는 9.6과 같은 이전 데이터베이스 버전을 사용하는 경우 "
-"{productname} 마이그레이션을 시작하기 전에 PostgreSQL을 버전 10으로 마이그레"
-"이션해야 합니다. PostgreSQL 9에서 버전 10으로 업그레이드하려면 link:https://"
-"documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-"
-"migration-10.html[]을 참조하십시오."
+"버전 9.4 또는 9.6과 같은 이전 데이터베이스 버전을 사용하는 경우 {productname} 마이그레이션을 시작하기 전에 "
+"PostgreSQL을 버전 10으로 마이그레이션해야 합니다. PostgreSQL 9에서 버전 10으로 업그레이드하려면 "
+"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
+"suse-manager/upgrade/db-migration-10.html[]을 참조하십시오."
 
 #. type: Title =
 #: modules/upgrade/pages/db-migration-10.adoc:1
@@ -315,11 +311,10 @@ msgid ""
 "html#sp.migration.postgresql.  You cannot migrate directly from "
 "PostgreSQL{nbsp}9.4 to version 10."
 msgstr ""
-"{productname} 3.2에서 PostgreSQL{nbsp}9.4를 실행하는 경우, https://"
-"documentation.suse.com/external-tree/en-us/suma/3.2/susemanager-best-"
-"practices/html/book.suma.best.practices/bp.sp.migration.html#sp.migration."
-"postgresql에서 제품 설명서를 참조하십시오.   PostgreSQL{nbsp}9.4에서 버전 10"
-"으로 직접 마이그레이션할 수 없습니다."
+"{productname} 3.2에서 PostgreSQL{nbsp}9.4를 실행하는 경우, link:https://documentation."
+"suse.com/external-tree/en-us/suma/3.2/susemanager-best-practices/html/book."
+"suma.best.practices/bp.sp.migration.html#sp.migration.postgresq[]l에서 제품 설명서를 "
+"참조하십시오.   PostgreSQL{nbsp}9.4에서 버전 10으로 직접 마이그레이션할 수 없습니다."
 
 #. type: Title ==
 #: modules/upgrade/pages/db-migration-10.adoc:5
@@ -470,9 +465,7 @@ msgstr "항상 데이터베이스를 백업한 후 마이그레이션을 수행�
 msgid ""
 "PostgreSQL upgrades can be performed in two ways: a regular upgrade, or a "
 "fast upgrade:"
-msgstr ""
-"PostgreSQL 업그레이드는 일반 업그레이드와 빠른 업그레이드의 두 가지 방법으로 "
-"수행할 수 있습니다."
+msgstr "PostgreSQL 업그레이드는 일반 업그레이드와 빠른 업그레이드의 두 가지 방법으로 수행할 수 있습니다."
 
 #. type: Plain text
 #: modules/upgrade/pages/db-migration-10.adoc:21
@@ -752,8 +745,7 @@ msgid ""
 "using PostgreSQL version 12 or 13, depending on the underlying operating "
 "system:"
 msgstr ""
-"최신 {productname} 버전으로 업그레이드하려면 기본 운영 체제에 따라 "
-"PostgreSQL 버전 12 또는 13을 사용해야 합니다."
+"최신 {productname} 버전으로 업그레이드하려면 기본 운영 체제에 따라 PostgreSQL 버전 12 또는 13을 사용해야 합니다."
 
 #. type: Plain text
 #: modules/upgrade/pages/db-migration-13.adoc:4
@@ -877,14 +869,13 @@ msgid ""
 "The [path]``pg-migrate-12-to-13.sh`` or [path]``pg-migrate-10-to-13.sh`` "
 "script performs these operations:"
 msgstr ""
-"[path]``pg-migrate-12-to-13.sh`` 또는 [path]``pg-migrate-10-to-13.sh`` 스크립"
-"트가 다음 작업을 수행합니다."
+"[path]``pg-migrate-12-to-13.sh`` 또는 [path]``pg-migrate-10-to-13.sh`` 스크립트가 "
+"다음 작업을 수행합니다."
 
 #. type: Plain text
 #: modules/upgrade/pages/db-migration-13.adoc:33
 msgid "Check if PostgreSQL{nbsp}13 is installed and install it if necessary"
-msgstr ""
-"PostgreSQL{nbsp}13이 설치되어 있는지 확인하고 필요한 경우 설치하십시오."
+msgstr "PostgreSQL{nbsp}13이 설치되어 있는지 확인하고 필요한 경우 설치하십시오."
 
 #. type: Plain text
 #: modules/upgrade/pages/db-migration-13.adoc:34
@@ -956,11 +947,10 @@ msgid ""
 "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
 "upgrade/db-migration-10.html."
 msgstr ""
-"이 섹션에서는 최신 버전으로의 PostgreSQL 데이터베이스 업그레이드에 대해 설명"
-"합니다.  PostgreSQL 13을 이미 사용 중인 경우에는 이 마이그레이션을 수행할 필"
-"요가 없습니다.  기존 버전(예: 버전 9.6)을 사용 중인 경우에는 link:https://"
-"documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-"
-"migration-10.html[]에서 참조하십시오."
+"이 섹션에서는 최신 버전으로의 PostgreSQL 데이터베이스 업그레이드에 대해 설명합니다.  PostgreSQL 13을 이미 사용 중인 "
+"경우에는 이 마이그레이션을 수행할 필요가 없습니다.  기존 버전(예: 버전 9.6)을 사용 중인 경우에는 "
+"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
+"suse-manager/upgrade/db-migration-10.html[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/upgrade/pages/db-migration-xy.adoc:24
@@ -1057,8 +1047,8 @@ msgid ""
 "On the {productname} Server, create a local directory for the openSUSE "
 "Leap{nbsp}{opensuse-version} installation media:"
 msgstr ""
-"{productname} 서버에서 openSUSE Leap{nbsp}{opensuse-version} 설치 미디어용 로"
-"컬 디렉토리를 생성합니다."
+"{productname} 서버에서 openSUSE Leap{nbsp}{opensuse-version} 설치 미디어용 로컬 디렉토리를 "
+"생성합니다."
 
 #. type: delimited block -
 #: modules/upgrade/pages/proxy-autoyast-uyuni.adoc:9
@@ -1071,9 +1061,7 @@ msgstr "mkdir -p /srv/images/opensuse152\n"
 msgid ""
 "Download an ISO image with the installation sources, and mount the ISO image "
 "on your server:"
-msgstr ""
-"설치 원본이 포함된 ISO 이미지를 다운로드하고 이 ISO 이미지를 서버에 마운트합"
-"니다."
+msgstr "설치 원본이 포함된 ISO 이미지를 다운로드하고 이 ISO 이미지를 서버에 마운트합니다."
 
 #. type: delimited block -
 #: modules/upgrade/pages/proxy-autoyast-uyuni.adoc:11
@@ -1118,8 +1106,8 @@ msgid ""
 "[command]``spacewalk-common-channels`` command to add the appropriate "
 "channels:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 root로 [command]``spacewalk-common-"
-"channels`` 명령을 사용하여 적절한 채널을 추가합니다."
+"{productname} 서버의 명령 프롬프트에서 root로 [command]``spacewalk-common-channels`` 명령을 "
+"사용하여 적절한 채널을 추가합니다."
 
 #. type: delimited block -
 #: modules/upgrade/pages/proxy-autoyast-uyuni.adoc:18
@@ -1167,9 +1155,7 @@ msgstr ""
 msgid ""
 "In the [guimenu]``Create Autoinstallable Distribution`` section, use these "
 "parameters:"
-msgstr ""
-"[guimenu]``자동 설치 가능한 배포판 생성`` 섹션에서 다음 파라미터를 사용합니"
-"다."
+msgstr "[guimenu]``자동 설치 가능한 배포판 생성`` 섹션에서 다음 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/upgrade/pages/proxy-autoyast-uyuni.adoc:23
@@ -1275,12 +1261,11 @@ msgid ""
 "profiles/tree/master/AutoYaST.  For valid AutoYaST upgrade settings, see "
 "https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade."
 msgstr ""
-"자동 설치 프로파일에는 시스템을 설치하는 데 필요한 모든 설치 및 구성 데이터"
-"가 포함되어 있습니다.  설치 완료 후 실행될 스크립트도 포함할 수 있습니다.  시"
-"작 지점으로 사용할 수 있는 예제 스크립트는  https://github.com/SUSE/manager-"
-"build-profiles/tree/master/AutoYaST를 참조하십시오.  유효한 AutoYaST 업그레이"
-"드 설정에 대해서는 https://doc.opensuse.org/projects/autoyast/#CreateProfile-"
-"upgrade를 참조하십시오."
+"자동 설치 프로파일에는 시스템을 설치하는 데 필요한 모든 설치 및 구성 데이터가 포함되어 있습니다.  설치 완료 후 실행될 스크립트도 "
+"포함할 수 있습니다.  시작 지점으로 사용할 수 있는 예제 스크립트는  link:https://github.com/SUSE/"
+"manager-build-profiles/tree/master/AutoYaST[]를 참조하십시오.  유효한 AutoYaST 업그레이드 "
+"설정에 대해서는 link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-"
+"upgrade[]를 참조하십시오."
 
 #. type: Block title
 #: modules/upgrade/pages/proxy-autoyast-uyuni.adoc:36
@@ -1303,8 +1288,8 @@ msgid ""
 "For example scripts that you can use as a starting point, see https://github."
 "com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 msgstr ""
-"시작 지점으로 사용할 수 있는 예제 스크립트는 https://github.com/SUSE/manager-"
-"build-profiles/tree/master/AutoYaST를 참조하십시오."
+"시작 지점으로 사용할 수 있는 예제 스크립트는 link:https://github.com/SUSE/"
+"manager-build-profiles/tree/master/AutoYaST[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/upgrade/pages/proxy-autoyast-uyuni.adoc:39
@@ -1391,9 +1376,8 @@ msgid ""
 "select the proxy, navigate to the [guimenu]``Provisioning`` tab, and select "
 "the autoinstallation profile you uploaded."
 msgstr ""
-"{productname} 서버 {webui}에서 menu:시스템[시스템 목록]으로 이동하여 프록시"
-"를 선택한 후 [guimenu]``프로비저닝`` 탭으로 이동하고 업로드한 자동 설치 프로"
-"파일을 선택합니다."
+"{productname} 서버 {webui}에서 menu:시스템[시스템 목록]으로 이동하여 프록시를 선택한 후 "
+"[guimenu]``프로비저닝`` 탭으로 이동하고 업로드한 자동 설치 프로파일을 선택합니다."
 
 #. type: Plain text
 #: modules/upgrade/pages/proxy-autoyast-uyuni.adoc:51
@@ -1617,9 +1601,8 @@ msgid ""
 "openSUSE Leap 15.0, 15.1, and 15.2) in {productname} with "
 "[command]``spacewalk-common-channels``, an error like this is shown:"
 msgstr ""
-"[command]``spacewalk-common-channels``을 사용하여 {productname}에서 URL이 동"
-"일한 리포지토리를 2개 이상 추가(openSUSE Leap 15.0, 15.1 및 15.2용 클라이언"
-"트 도구)하면 다음 오류가 표시됩니다."
+"[command]``spacewalk-common-channels``을 사용하여 {productname}에서 URL이 동일한 리포지토리를 "
+"2개 이상 추가(openSUSE Leap 15.0, 15.1 및 15.2용 클라이언트 도구)하면 다음 오류가 표시됩니다."
 
 #. type: delimited block -
 #: modules/upgrade/pages/proxy-uyuni.adoc:11
@@ -1850,10 +1833,9 @@ msgid ""
 "see https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
 "upgrade/proxy-intro.html."
 msgstr ""
-"3.2에서 4.2로 업그레이드하려면, 우선 3.2에서 4.1로 업그레이드한 후 4.1에서 "
-"4.2로 업그레이드하십시오. 3.2에서 4.1로의 업그레이드에 대한 자세한 내용은 "
-"https://documentation.suse.com/external-tree/ko-kr/suma/4.1/suse-manager/"
-"upgrade/proxy-intro.html에서 참조하십시오."
+"3.2에서 4.2로 업그레이드하려면, 우선 3.2에서 4.1로 업그레이드한 후 4.1에서 4.2로 업그레이드하십시오. 3.2에서 "
+"4.1로의 업그레이드에 대한 자세한 내용은 link:https://documentation.suse.com/external-tree/"
+"ko-kr/suma/4.1/suse-manager/upgrade/proxy-intro.html[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/upgrade/pages/proxy-x.adoc:4
@@ -1861,8 +1843,7 @@ msgid ""
 "For more information on upgrading from 4.1 to 4.2, see xref:upgrade:proxy-y-"
 "z.adoc[]"
 msgstr ""
-"4.1에서 4.2로 업그레이드하는 방법에 대한 자세한 내용은 xref:upgrade:proxy-y-"
-"z.adoc[]에서 참조하십시오."
+"4.1에서 4.2로 업그레이드하는 방법에 대한 자세한 내용은 xref:upgrade:proxy-y-z.adoc[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/upgrade/pages/proxy-y-z.adoc:1
@@ -1877,9 +1858,8 @@ msgid ""
 "version 4.1 as target product.  Always select to upgrade {productname} Proxy "
 "4.0 to {productname} Proxy 4.2 only."
 msgstr ""
-"{productname} Proxy 4.0을 업그레이드할 때 버전 4.1을 대상 제품으로 업그레이드"
-"하는 옵션을 무시하십시오.  항상 {productname} Proxy 4.0에서 {productname} "
-"Proxy 4.2로 업그레이드만 선택하십시오."
+"{productname} Proxy 4.0을 업그레이드할 때 버전 4.1을 대상 제품으로 업그레이드하는 옵션을 무시하십시오.  항상 "
+"{productname} Proxy 4.0에서 {productname} Proxy 4.2로 업그레이드만 선택하십시오."
 
 #. type: Title ==
 #: modules/upgrade/pages/proxy-y-z.adoc:4
@@ -1939,42 +1919,11 @@ msgid ""
 msgstr "프록시에서 업데이트할 패키지를 선택한 후 선택 사항을 적용합니다."
 
 #. type: Title =
-#: modules/upgrade/pages/server-intro.adoc:1
 #: modules/upgrade/pages/server-intro-uyuni.adoc:1
+#: modules/upgrade/pages/server-intro.adoc:1
 #, no-wrap
 msgid "Upgrade the Server"
 msgstr "서버 업그레이드"
-
-#. type: Plain text
-#: modules/upgrade/pages/server-intro.adoc:4
-msgid ""
-"Upgrading to the next major version.  For example, upgrading from 3.2 to 4.0 "
-"or to 4.1.  See xref:upgrade:server-x.adoc[]."
-msgstr ""
-"다음 주 버전으로 업그레이드합니다.  예를 들면, 3.2에서 4.0 또는 4.1로 업그레"
-"이드가 이에 해당합니다.  xref:upgrade:server-x.adoc[]를 참조하십시오."
-
-#. type: Plain text
-#: modules/upgrade/pages/server-intro.adoc:6
-msgid ""
-"Upgrading to the next minor version.  This is often referred to as a service "
-"pack (SP) migration.  For example, upgrading from 4.1 to 4.2 or from 4.0 to "
-"4.2.  See xref:upgrade:server-y.adoc[]."
-msgstr ""
-"다음 부 버전으로 업그레이드합니다.  이를 서비스 팩(SP) 마이그레이션이라고 합"
-"니다.  예를 들면, 4.1에서 4.2로의 업그레이드가 이에 해당합니다.  xref:"
-"upgrade:server-y.adoc[]를 참조하십시오."
-
-#. type: Plain text
-#: modules/upgrade/pages/server-intro.adoc:8
-msgid ""
-"Upgrading within the same minor version.  This is often referred to as a "
-"maintenance update.  For example, upgrading from 4.2.0 to 4.2.1.  See xref:"
-"upgrade:server-z.adoc[]."
-msgstr ""
-"동일한 부 버전으로 업그레이드합니다.  이를 유지보수 업데이트라고 합니다.  예"
-"를 들면, 4.2.0에서 4.2.1로의 업그레이드가 이에 해당합니다.  xref:upgrade:"
-"server-z.adoc[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/upgrade/pages/server-intro-uyuni.adoc:2
@@ -1983,9 +1932,8 @@ msgid ""
 "notes for information about which upgrade strategy to use to upgrade to the "
 "next version:"
 msgstr ""
-"{productname}은(는) 롤링 릴리스 버전 관리 스키마를 사용합니다.  다음 버전으"
-"로 업그레이드하기 위해 사용할 수 있는 업그레이드 전략에 대한 정보는 릴리스 노"
-"트를 확인하십시오."
+"{productname}은(는) 롤링 릴리스 버전 관리 스키마를 사용합니다.  다음 버전으로 업그레이드하기 위해 사용할 수 있는 "
+"업그레이드 전략에 대한 정보는 릴리스 노트를 확인하십시오."
 
 #. type: Labeled list
 #: modules/upgrade/pages/server-intro-uyuni.adoc:3
@@ -2020,6 +1968,37 @@ msgstr ""
 "제, Salt 또는 PostgreSQL 데이터베이스 등의 구성 요소가 업그레이드됩니다.  자"
 "세한 내용은 xref:upgrade:server-major-upgrade-uyuni.adoc[]에서 참조하십시오."
 
+#. type: Plain text
+#: modules/upgrade/pages/server-intro.adoc:4
+msgid ""
+"Upgrading to the next major version.  For example, upgrading from 3.2 to 4.0 "
+"or to 4.1.  See xref:upgrade:server-x.adoc[]."
+msgstr ""
+"다음 주 버전으로 업그레이드합니다.  예를 들면, 3.2에서 4.0 또는 4.1로 업그레"
+"이드가 이에 해당합니다.  xref:upgrade:server-x.adoc[]를 참조하십시오."
+
+#. type: Plain text
+#: modules/upgrade/pages/server-intro.adoc:6
+msgid ""
+"Upgrading to the next minor version.  This is often referred to as a service "
+"pack (SP) migration.  For example, upgrading from 4.1 to 4.2 or from 4.0 to "
+"4.2.  See xref:upgrade:server-y.adoc[]."
+msgstr ""
+"다음 부 버전으로 업그레이드합니다.  이를 서비스 팩(SP) 마이그레이션이라고 합"
+"니다.  예를 들면, 4.1에서 4.2로의 업그레이드가 이에 해당합니다.  xref:"
+"upgrade:server-y.adoc[]를 참조하십시오."
+
+#. type: Plain text
+#: modules/upgrade/pages/server-intro.adoc:8
+msgid ""
+"Upgrading within the same minor version.  This is often referred to as a "
+"maintenance update.  For example, upgrading from 4.2.0 to 4.2.1.  See xref:"
+"upgrade:server-z.adoc[]."
+msgstr ""
+"동일한 부 버전으로 업그레이드합니다.  이를 유지보수 업데이트라고 합니다.  예"
+"를 들면, 4.2.0에서 4.2.1로의 업그레이드가 이에 해당합니다.  xref:upgrade:"
+"server-z.adoc[]를 참조하십시오."
+
 #. type: Title =
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:1
 #, no-wrap
@@ -2048,9 +2027,8 @@ msgid ""
 "upgrade, see the release notes at https://www.uyuni-project.org/pages/stable-"
 "version.html."
 msgstr ""
-"추가적인 수동 단계가 몇 가지 필요할 수 있으며 이 정보는 릴리스 노트에서만 제"
-"공됩니다.  업그레이드와 관련된 중요한 추가 정보는 릴리스 노트(link:https://"
-"www.uyuni-project.org/pages/stable-version.html)를 참조하십시오."
+"추가적인 수동 단계가 몇 가지 필요할 수 있으며 이 정보는 릴리스 노트에서만 제공됩니다.  업그레이드와 관련된 중요한 추가 정보는 릴리스 "
+"노트(link:https://www.uyuni-project.org/pages/stable-version.html[])를 참조하십시오."
 
 #. type: Plain text
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:4
@@ -2089,9 +2067,8 @@ msgid ""
 "Before running the [command]``server-migrator.sh`` script, check whether the "
 "most recent version of the [package]``susemanager`` package is installed:"
 msgstr ""
-"[command]``server-migrator.sh`` 스크립트를 실행하기 전, "
-"[package]``susemanager`` 패키지의 가장 최신 버전이 설치되어 있는지 확인하십시"
-"오."
+"[command]``server-migrator.sh`` 스크립트를 실행하기 전, [package]``susemanager`` 패키지의 "
+"가장 최신 버전이 설치되어 있는지 확인하십시오."
 
 #. type: delimited block -
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:8
@@ -2115,9 +2092,7 @@ msgstr ""
 #. type: Plain text
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:10
 msgid "To migrate the database to PostgreSQL 12 run the migrate script:"
-msgstr ""
-"데이터베이스를 PostgreSQL 12로 마이그레이션하려면 마이그레이션 스크립트를 실"
-"행합니다."
+msgstr "데이터베이스를 PostgreSQL 12로 마이그레이션하려면 마이그레이션 스크립트를 실행합니다."
 
 #. type: Plain text
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:12
@@ -2133,9 +2108,7 @@ msgstr ""
 msgid ""
 "To migrate the database to PostgreSQL 13 from PostgreSQL 12 run the "
 "migration script:"
-msgstr ""
-"데이터베이스를 PostgreSQL 12에서 PostgreSQL 13으로 마이그레이션하려면 마이그"
-"레이션 스크립트를 실행합니다."
+msgstr "데이터베이스를 PostgreSQL 12에서 PostgreSQL 13으로 마이그레이션하려면 마이그레이션 스크립트를 실행합니다."
 
 #. type: Plain text
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:15
@@ -2152,16 +2125,13 @@ msgstr ""
 msgid ""
 "To migrate the database to PostgreSQL 13 from PostgreSQL 10 run the "
 "migration script:"
-msgstr ""
-"데이터베이스를 PostgreSQL 10에서 PostgreSQL 13으로 마이그레이션하려면 마이그"
-"레이션 스크립트를 실행합니다."
+msgstr "데이터베이스를 PostgreSQL 10에서 PostgreSQL 13으로 마이그레이션하려면 마이그레이션 스크립트를 실행합니다."
 
 #. type: Plain text
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:19
 msgid ""
 "After the migration is complete, manually reboot the {productname} Server:"
-msgstr ""
-"마이그레이션이 완료된 후에는, {productname} 서버를 수동으로 재부팅합니다."
+msgstr "마이그레이션이 완료된 후에는, {productname} 서버를 수동으로 재부팅합니다."
 
 #. type: delimited block -
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:20
@@ -2232,8 +2202,7 @@ msgstr ""
 msgid ""
 "On the {productname} Server, at the command prompt, as root, stop the "
 "spacewalk services:"
-msgstr ""
-"{productname} 서버의 명령 프롬프트에서 root로 Spacewalk 서비스를 중지합니다."
+msgstr "{productname} 서버의 명령 프롬프트에서 root로 Spacewalk 서비스를 중지합니다."
 
 #. type: delimited block -
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:8
@@ -2248,7 +2217,7 @@ msgstr "spacewalk-service stop\n"
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:9
 #: modules/upgrade/pages/server-z.adoc:9
 msgid "Refresh software repositories:"
-msgstr ""
+msgstr "소프트웨어 리포지토리 새로 고침:"
 
 #. type: delimited block -
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:10
@@ -2286,16 +2255,13 @@ msgstr "zypper patch\n"
 #. type: Plain text
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:15
 #: modules/upgrade/pages/server-z.adoc:15
-#, fuzzy, no-wrap
-#| msgid ""
-#| "This command only applies patches.\n"
-#| "  To apply all outstanding updates, use [command]``zypper up`` instead.\n"
+#, no-wrap
 msgid ""
 "  This command only applies patches.\n"
 "  To apply all outstanding updates, use [command]``zypper up`` instead.\n"
 msgstr ""
-"이 명령은 패치에만 적용됩니다.\n"
-"  적용되지 않은 모든 패치를 적용하려면 [command]``zypper up``을 대신 사용합니다.\n"
+"  이 명령은 패치에만 적용됩니다.\n"
+"  적용되지 않은 모든 업데이트를 적용하려면 [command]``zypper up``을 대신 사용합니다.\n"
 
 #. type: Plain text
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:16
@@ -2391,66 +2357,8 @@ msgid ""
 "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
 "upgrade/server-x.html"
 msgstr ""
-"주 버전 업그레이드에 대한 기존 설명서 및 지침은 https://documentation.suse."
-"com/external-tree/ko-kr/suma/4.1/suse-manager/upgrade/server-x.html에서 참조"
-"하십시오."
-
-#. type: Title =
-#: modules/upgrade/pages/server-y.adoc:1
-#, no-wrap
-msgid "Server - Minor Version Upgrade (Y Upgrade)"
-msgstr "서버 - 부 버전 업그레이드(Y 업그레이드)"
-
-#. type: Plain text
-#: modules/upgrade/pages/server-y.adoc:2
-msgid ""
-"You can upgrade {productname} to the next minor version using either the "
-"{yast} online migration tool or the Zypper command line tool.  This is often "
-"referred to as a product migration, service pack migration, or SP "
-"migration.  This procedure does not replace the server with an updated "
-"copy.  It is an in-place upgrade."
-msgstr ""
-"{yast} 온라인 마이그레이션 도구 또는 Zypper 명령줄 도구를 사용하여 "
-"{productname}을(를) 다음 부 버전으로 업그레이드할 수 있습니다.  이는 제품 마"
-"이그레이션, 서비스 팩 마이그레이션 또는 SP 마이그레이션이라고도 합니다.  이 "
-"절차는 서버를 업데이트된 복사본으로 바꾸지 않습니다.  이 작업을 현재 위치에 "
-"업그레이드라고 합니다."
-
-#. type: Plain text
-#: modules/upgrade/pages/server-y.adoc:3
-msgid ""
-"Example: [literal]``4.1.x`` → [literal]``4.2.0`` or [literal]``4.0.x`` → "
-"[literal]``4.2.0`"
-msgstr ""
-"예: [literal]``4.1.x`` → [literal]``4.2.0`` or [literal]``4.0.x`` → "
-"[literal]``4.2.0``"
-
-#. type: Plain text
-#: modules/upgrade/pages/server-y.adoc:4
-msgid ""
-"The upgrade from version 4.0 to 4.2 will also upgrade the base OS from "
-"SLES 15 SP1 to SLES 15 SP3​, and the PostgreSQL database from version{nbsp}10 "
-"to 13 with an additional step.  For more information about the database "
-"upgrade, see xref:upgrade:db-migration-13.adoc[]."
-msgstr ""
-"4.0에서 4.2 버전으로의 업그레이드도 기본 OS를 SLES 15 SP1에서 SLES 15 SP3로 "
-"업그레이드하며 추가 단계를 통해 PostgreSQL 데이터베이스를 10{nbsp}에서 13 버"
-"전으로 업그레이드할 수 있습니다.  데이터베이스 업그레이드에 대한 자세한 정보"
-"는 xref:upgrade:db-migration-13.adoc[]에서 참조하십시오."
-
-#. type: delimited block =
-#: modules/upgrade/pages/server-y.adoc:5
-msgid ""
-"Upgrades should be run from a text console, rather than a graphical "
-"interface like GNOME.  If you are logged into a GNOME session running on the "
-"machine you are going to migrate, you will need to switch to a text "
-"console.  This does not apply if you are logged in from a remote machine "
-"(unless you are running a VNC session with GNOME)."
-msgstr ""
-"업그레이드는 GNOME과 같은 그래픽 인터페이스가 아닌 텍스트 콘솔에서 실행해야 "
-"합니다.  마이그레이션을 수행할 시스템에서 실행 중인 GNOME 세션에 로그인한 경"
-"우 텍스트 콘솔로 전환해야 합니다.  원격 시스템에서 로그인한 경우는 여기에 해"
-"당하지 않습니다(GNOME을 사용하여 VNC 세션을 실행 중인 경우 제외)."
+"주 버전 업그레이드에 대한 기존 설명서 및 지침은 link:https://documentation.suse.com/"
+"external-tree/en-us/suma/4.1/suse-manager/upgrade/server-x.html[]에서 참조하십시오."
 
 #
 #
@@ -2496,10 +2404,8 @@ msgid ""
 "Patches[Manage Patches > Unpublished].  You must publish or delete them "
 "before you upgrade."
 msgstr ""
-"{productname} 4.0에서 4.2로 업그레이드하기 전 게시되지 않은 패키지가 없는지 "
-"확인합니다.  menu:패치[패치 관리 > 게시되지 않음]으로 이동하여 게시되지 않은 "
-"패키지를 확인합니다.  해당 패키지를 게시하거나 삭제한 후 업그레이드해야 합니"
-"다."
+"{productname} 4.0에서 4.2로 업그레이드하기 전 게시되지 않은 패키지가 없는지 확인합니다.  menu:패치[패치 관리 > "
+"게시되지 않음]으로 이동하여 게시되지 않은 패키지를 확인합니다.  해당 패키지를 게시하거나 삭제한 후 업그레이드해야 합니다."
 
 #. type: delimited block =
 #: modules/upgrade/pages/server-y-yast.adoc:5
@@ -2508,8 +2414,8 @@ msgid ""
 "For more information, see https://www.suse.com/releasenotes/x86_64/SUSE-"
 "MANAGER/4.1/index.html#_dropped_features."
 msgstr ""
-"자세한 내용은 link:https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/4.1/"
-"index.html#_dropped_features[]를 참조하십시오."
+"자세한 내용은 link:https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/4.1/index."
+"html#_dropped_features[]를 참조하십시오."
 
 #. type: Block title
 #: modules/upgrade/pages/server-y-yast.adoc:6
@@ -2585,18 +2491,14 @@ msgstr ""
 msgid ""
 "Log in on the text console as root.  If you are upgrading from 4.1 to 4.2, "
 "run the database migration script:"
-msgstr ""
-"텍스트 콘솔에 root로 로그인하고 4.1에서 4.2로 업그레이드하는 경우, 데이터베이"
-"스 마이그레이션 스크립트를 실행합니다."
+msgstr "텍스트 콘솔에 root로 로그인하고 4.1에서 4.2로 업그레이드하는 경우, 데이터베이스 마이그레이션 스크립트를 실행합니다."
 
 #. type: Plain text
 #: modules/upgrade/pages/server-y-yast.adoc:18
 #: modules/upgrade/pages/server-y-zypper.adoc:16
 msgid ""
 "If you are upgrading from 4.0 to 4.2, run the database migration script:"
-msgstr ""
-"4.0에서 4.2로 업그레이드하는 경우, 데이터베이스 마이그레이션 스크립트를 실행"
-"합니다."
+msgstr "4.0에서 4.2로 업그레이드하는 경우, 데이터베이스 마이그레이션 스크립트를 실행합니다."
 
 #. type: Plain text
 #: modules/upgrade/pages/server-y-yast.adoc:20
@@ -2624,9 +2526,8 @@ msgid ""
 "required packages, open the [path]``/etc/zypp/zypp.conf`` configuration file "
 "and set these variables:"
 msgstr ""
-"업그레이드 중 {yast}가 모든 권장 패키지를 설치합니다.  이 작업으로 인해 시스"
-"템의 설치 크기가 크게 증가할 수 있습니다.  필수 패키지만 설치하려면 [path]``/"
-"etc/zypp/zypp.conf`` 구성 파일을 열고 변수를 다음과 같이 설정하십시오."
+"업그레이드 중 {yast}가 모든 권장 패키지를 설치합니다.  이 작업으로 인해 시스템의 설치 크기가 크게 증가할 수 있습니다.  필수 "
+"패키지만 설치하려면 [path]``/etc/zypp/zypp.conf`` 구성 파일을 열고 변수를 다음과 같이 설정하십시오."
 
 #. type: delimited block -
 #: modules/upgrade/pages/server-y-yast.adoc:24
@@ -2706,6 +2607,63 @@ msgstr ""
 #: modules/upgrade/pages/server-y-zypper.adoc:24
 msgid "You must install all updates before performing the upgrade."
 msgstr "모든 업데이트를 설치한 후 업그레이드를 수행해야 합니다."
+
+#. type: Title =
+#: modules/upgrade/pages/server-y.adoc:1
+#, no-wrap
+msgid "Server - Minor Version Upgrade (Y Upgrade)"
+msgstr "서버 - 부 버전 업그레이드(Y 업그레이드)"
+
+#. type: Plain text
+#: modules/upgrade/pages/server-y.adoc:2
+msgid ""
+"You can upgrade {productname} to the next minor version using either the "
+"{yast} online migration tool or the Zypper command line tool.  This is often "
+"referred to as a product migration, service pack migration, or SP "
+"migration.  This procedure does not replace the server with an updated "
+"copy.  It is an in-place upgrade."
+msgstr ""
+"{yast} 온라인 마이그레이션 도구 또는 Zypper 명령줄 도구를 사용하여 "
+"{productname}을(를) 다음 부 버전으로 업그레이드할 수 있습니다.  이는 제품 마"
+"이그레이션, 서비스 팩 마이그레이션 또는 SP 마이그레이션이라고도 합니다.  이 "
+"절차는 서버를 업데이트된 복사본으로 바꾸지 않습니다.  이 작업을 현재 위치에 "
+"업그레이드라고 합니다."
+
+#. type: Plain text
+#: modules/upgrade/pages/server-y.adoc:3
+msgid ""
+"Example: [literal]``4.1.x`` → [literal]``4.2.0`` or [literal]``4.0.x`` → "
+"[literal]``4.2.0`"
+msgstr ""
+"예: [literal]``4.1.x`` → [literal]``4.2.0`` or [literal]``4.0.x`` → "
+"[literal]``4.2.0``"
+
+#. type: Plain text
+#: modules/upgrade/pages/server-y.adoc:4
+msgid ""
+"The upgrade from version 4.0 to 4.2 will also upgrade the base OS from "
+"SLES 15 SP1 to SLES 15 SP3​, and the PostgreSQL database from version{nbsp}10 "
+"to 13 with an additional step.  For more information about the database "
+"upgrade, see xref:upgrade:db-migration-13.adoc[]."
+msgstr ""
+"4.0에서 4.2 버전으로의 업그레이드도 기본 OS를 SLES 15 SP1에서 SLES 15 SP3로 "
+"업그레이드하며 추가 단계를 통해 PostgreSQL 데이터베이스를 10{nbsp}에서 13 버"
+"전으로 업그레이드할 수 있습니다.  데이터베이스 업그레이드에 대한 자세한 정보"
+"는 xref:upgrade:db-migration-13.adoc[]에서 참조하십시오."
+
+#. type: delimited block =
+#: modules/upgrade/pages/server-y.adoc:5
+msgid ""
+"Upgrades should be run from a text console, rather than a graphical "
+"interface like GNOME.  If you are logged into a GNOME session running on the "
+"machine you are going to migrate, you will need to switch to a text "
+"console.  This does not apply if you are logged in from a remote machine "
+"(unless you are running a VNC session with GNOME)."
+msgstr ""
+"업그레이드는 GNOME과 같은 그래픽 인터페이스가 아닌 텍스트 콘솔에서 실행해야 "
+"합니다.  마이그레이션을 수행할 시스템에서 실행 중인 GNOME 세션에 로그인한 경"
+"우 텍스트 콘솔로 전환해야 합니다.  원격 시스템에서 로그인한 경우는 여기에 해"
+"당하지 않습니다(GNOME을 사용하여 VNC 세션을 실행 중인 경우 제외)."
 
 #. type: Title =
 #: modules/upgrade/pages/server-z.adoc:1
@@ -2867,9 +2825,7 @@ msgstr "[path]``/etc/hosts`` 파일을 확인하여 필요한 경우 수정합�
 msgid ""
 "Check [path]``/etc/setup_env.sh`` on the target system, and ensure the "
 "database name is set:"
-msgstr ""
-"대상 시스템에서 [path]``/etc/setup_env.sh``를 확인하여 데이터베이스 이름이 설"
-"정되어 있는지 확인합니다."
+msgstr "대상 시스템에서 [path]``/etc/setup_env.sh``를 확인하여 데이터베이스 이름이 설정되어 있는지 확인합니다."
 
 #. type: delimited block -
 #: modules/upgrade/pages/troubleshooting.adoc:14

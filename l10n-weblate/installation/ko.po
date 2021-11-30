@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-29 14:38+0100\n"
-"PO-Revision-Date: 2021-10-29 19:12+0000\n"
+"POT-Creation-Date: 2021-11-02 16:21+0000\n"
+"PO-Revision-Date: 2021-11-24 12:39+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
-"Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/docs-"
-"installation-42/ko/>\n"
+"Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
+"docs-installation-manager-42-mu-424/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,8 +20,7 @@ msgstr ""
 
 #. type: Title =
 #: modules/installation/nav-installation-guide.adoc:1
-#, fuzzy, no-wrap
-#| msgid "{productname} {productnumber} Proxy"
+#, no-wrap
 msgid "[.title]#{productname} {productnumber}#: Installation Guide"
 msgstr "[.title]#{productname} {productnumber}#: 설치 안내서"
 
@@ -200,11 +199,9 @@ msgid ""
 "{suse} operating systems, including {rhel}, {centos}, and {oracle}, only the "
 "latest available version is under general support."
 msgstr ""
-"{suse} 운영 체제의 경우, 버전 및 SP 레벨이 일반 지원(일반 또는 LTSS)에 속해"
-"야 {productname}에서 지원될 수 있습니다.  지원되는 제품 버전에 대한 상세 정보"
-"는 https://www.suse.com/lifecycle을 참조하십시오.  {rhel}, {centos} 및 "
-"{oracle} 등 {suse} 이외의 운영 체제에서는 사용할 수 있는 최신 버전만 일반 지"
-"원됩니다."
+"{suse} 운영 체제의 경우, 버전 및 SP 레벨이 일반 지원(일반 또는 LTSS)에 속해야 {productname}에서 지원될 수 "
+"있습니다.  지원되는 제품 버전에 대한 상세 정보는 link:https://www.suse.com/lifecycle[]을 참조하십시오.  "
+"{rhel}, {centos} 및 {oracle} 등 {suse} 이외의 운영 체제에서는 사용할 수 있는 최신 버전만 일반 지원됩니다."
 
 #. type: Table
 #: modules/installation/pages/client-requirements.adoc:6
@@ -400,8 +397,8 @@ msgid ""
 "enough for the operating system and for the workload you want to perform on "
 "the client, with these additions for {productname}:"
 msgstr ""
-"클라이언트 하드웨어를 설정할 때, {productname}을(를) 추가하여 클라이언트에서 "
-"수행할 워크로드 및 운영 체제를 위한 충분한 공간이 있는지 확인해야 합니다."
+"클라이언트 하드웨어를 설정할 때, {productname}을(를) 추가하여 클라이언트에서 수행할 워크로드 및 운영 체제를 위한 충분한 "
+"공간이 있는지 확인해야 합니다."
 
 #. type: Block title
 #: modules/installation/pages/client-requirements.adoc:20
@@ -513,7 +510,7 @@ msgstr "절차: SCC 조직 인증서 가져오기"
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:14
 msgid "Navigate to https://scc.suse.com/login in your Web browser."
-msgstr "웹 브라우저에서 https://scc.suse.com/login으로 이동합니다."
+msgstr "웹 브라우저에서 link:https://scc.suse.com/login[]으로 이동합니다."
 
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:15
@@ -562,34 +559,21 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:21
-#, fuzzy
-#| msgid ""
-#| "For more information about setting up a DNS server, see https://"
-#| "documentation.suse.com/sles/15-SP3/html/SLES-all/cha-dns.html."
 msgid ""
 "For more information about using SCC, see https://scc.suse.com/docs/help."
-msgstr ""
-"DNS 서버 설정에 대한 자세한 내용은 https://documentation.suse.com/sles/15-"
-"SP3/html/SLES-all/cha-dns.html을 참조하십시오."
+msgstr "SCC 사용에 대한 자세한 내용은 link:https://scc.suse.com/docs/help[]에서 참조하십시오."
 
 #. type: Title ==
 #: modules/installation/pages/general-requirements.adoc:22
-#, fuzzy, no-wrap
-#| msgid "Obtain the Unified Installer"
+#, no-wrap
 msgid "Unified Installer"
-msgstr "통합 설치 프로그램 가져오기"
+msgstr "통합 설치 프로그램"
 
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:23
-#, fuzzy
-#| msgid ""
-#| "{susemgr} Server and Proxy can be installed with the {sle} Unified "
-#| "Installer."
 msgid ""
 "{susemgr} Server and Proxy are installed with the {sle} Unified Installer."
-msgstr ""
-"{susemgr} 서버 및 프록시는 {sle} 통합 설치 프로그램을 사용하여 설치할 수 있습"
-"니다."
+msgstr "{susemgr} 서버 및 프록시는 {sle} 통합 설치 프로그램을 사용하여 설치됩니다."
 
 #. REMARK What about Uyuni?
 #. type: Plain text
@@ -607,30 +591,18 @@ msgid ""
 "If not already done, download the {sle} Unified Installer from https://"
 "download.suse.com/index.jsp."
 msgstr ""
+"아직 수행하지 않은 경우 link:https://download.suse.com/index.jsp[]에서 {sle} 통합 설치 프로그램을 "
+"다운로드합니다."
 
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:26
-#, fuzzy
-#| msgid ""
-#| "If not already done, download the {sle} Unified Installer from https://"
-#| "download.suse.com/index.jsp.  Direct link to {sle} {sles-version} {sp-"
-#| "version}, required to install SUSE Manager: https://download.suse.com/"
-#| "index.jsp?product_id=&search=Search&families=22609&version=68287.  For a "
-#| "later version or a different architecture, such as {ibmz}, select the "
-#| "respective item.  With the Unified Installer you can install many SLE-"
-#| "based base products such as SLES, SLES for SAP Applications, or {susemgr}."
 msgid ""
 "For a later version or a different architecture, such as {ibmz}, select the "
 "respective item.  With the Unified Installer you can install many SLE-based "
 "base products such as SLES, SLES for SAP Applications, or {susemgr}."
 msgstr ""
-"아직 수행하지 않은 경우, https://download.suse.com/index.jsp에서 {sle} 통합 "
-"설치 프로그램을 다운로드하십시오.  SUSE Manager 을 설치하기 위해 필요한 "
-"{sle} {sles-version} {sp-version}에 대한 직접 연결:  https://download.suse."
-"com/index.jsp?product_id=&search=Search&families=22609&version=68287.   "
-"{ibmz} 등의 최신 버전 또는 다른 아키텍처는 각 항목을 선택하십시오.  통합 설치"
-"프로그램을 사용하면 SLES, SLES for SAP Applications 또는 {susemgr} 등 여러 "
-"SLE 기반 기본 제품을 설치할 수 있습니다."
+"{ibmz} 등의 최신 버전 또는 다른 아키텍처는 각 항목을 선택하십시오.  통합 설치 프로그램을 사용하면 SLES, SLES for "
+"SAP Applications 또는 {susemgr} 등 여러 SLE 기반 기본 제품을 설치할 수 있습니다."
 
 #. type: Title ==
 #: modules/installation/pages/general-requirements.adoc:27
@@ -1156,9 +1128,7 @@ msgstr ""
 msgid ""
 "On your {productname} Server, use this command to find all available storage "
 "devices:"
-msgstr ""
-"{productname} 서버에서 이 명령을 사용하여 사용할 수 있는 모든 저장소 장치를 "
-"찾습니다."
+msgstr "{productname} 서버에서 이 명령을 사용하여 사용할 수 있는 모든 저장소 장치를 찾습니다."
 
 #. type: delimited block -
 #: modules/installation/pages/hardware-requirements.adoc:30
@@ -1180,8 +1150,8 @@ msgid ""
 "Use the [command]``suma-storage`` command with the device names to set up "
 "the external disks as the locations for the database and repositories:"
 msgstr ""
-"장치 이름과 함께 [command]``suma-storage`` 명령을 사용하여 외부 디스크를 데이"
-"터베이스 및 리포지토리의 위치로 설정합니다."
+"장치 이름과 함께 [command]``suma-storage`` 명령을 사용하여 외부 디스크를 데이터베이스 및 리포지토리의 위치로 "
+"설정합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/hardware-requirements.adoc:33
@@ -1474,10 +1444,9 @@ msgid ""
 "for use with [systemitem]``HYPERPAV``.  The database storage disk should "
 "have:"
 msgstr ""
-"데이터베이스 저장소를 위한 추가 디스크가 필요합니다.  "
-"[systemitem]``HYPERPAV``에서 사용이 선호되므로 [systemitem]``zFCP`` 또는 "
-"[systemitem]``DASD`` 장치여야 합니다.  데이터베이스 저장소 디스크의 용량은 다"
-"음과 같아야 합니다."
+"데이터베이스 저장소를 위한 추가 디스크가 필요합니다.  [systemitem]``HYPERPAV``에서 사용이 선호되므로 "
+"[systemitem]``zFCP`` 또는 [systemitem]``DASD`` 장치여야 합니다.  데이터베이스 저장소 디스크의 용량은 "
+"다음과 같아야 합니다."
 
 #. type: Plain text
 #: modules/installation/pages/install-ibmz.adoc:20
@@ -1595,10 +1564,9 @@ msgid ""
 "hardware, see https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-"
 "zseries.html."
 msgstr ""
-"이 섹션은 {sle} 제품군의 제품으로 {productname}을(를) 설치하는 방법을 설명합"
-"니다.  {ibmz} 하드웨어에서의 제품 배포에 대한 일반 정보는 https://"
-"documentation.suse.com/sles/15-SP3/html/SLES-all/cha-zseries.html을 참조하십"
-"시오."
+"이 섹션은 {sle} 제품군의 제품으로 {productname}을(를) 설치하는 방법을 설명합니다.  {ibmz} 하드웨어에서의 제품 "
+"배포에 대한 일반 정보는 link:https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
+"cha-zseries.html[]을 참조하십시오."
 
 #. type: Block title
 #: modules/installation/pages/install-ibmz.adoc:36
@@ -1683,9 +1651,7 @@ msgstr "**업데이트 날짜:** {docdate}\n"
 msgid ""
 "This book provides guidance on installing {productname}.  It is split into "
 "three sections:"
-msgstr ""
-"이 가이드는 {productname}의 설치를 안내합니다.  다음과 같은 3개의 섹션으로 구"
-"성되었습니다."
+msgstr "이 가이드는 {productname}의 설치를 안내합니다.  다음과 같은 3개의 섹션으로 구성되었습니다."
 
 #. type: Plain text
 #: modules/installation/pages/install-overview.adoc:4
@@ -1712,295 +1678,6 @@ msgstr ""
 "니다."
 
 #. type: Title =
-#: modules/installation/pages/install-proxy.adoc:1
-#, no-wrap
-msgid "Install {productname} Proxy from packages"
-msgstr "패키지에서 {productname} 프록시 설치"
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:2
-msgid ""
-"To install {productname} Proxy from packages, you will need to start by "
-"installing {sles} media.  This section covers the KVM settings required to "
-"perform a {sles} installation as the base for {productname} Proxy.  In this "
-"section, we use a KVM and a virtual machine manager as a sandbox for the "
-"installation."
-msgstr ""
-"패키지에서 {productname} 프록시를 설치하려면 {sles} 미디어를 설치하여 시작해"
-"야 합니다.  이 섹션에서는 {productname} 프록시의 기본으로 {sles}를 설치하기 "
-"위해 필요한 KVM 설정에 대해 설명합니다.  이 섹션에서는 KVM 및 가상 머신 관리"
-"자를 설치용 샌드박스로 사용합니다."
-
-#. type: Title ==
-#: modules/installation/pages/install-proxy.adoc:3
-#: modules/installation/pages/install-server.adoc:3
-#, no-wrap
-msgid "SLES KVM Requirements"
-msgstr "SLES KVM 요구사항"
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:4
-msgid ""
-"Use these settings to create a new virtual machine with [command]``virt-"
-"manager`` (replace [literal]``<version>`` with the actual version string):"
-msgstr ""
-"이러한 설정을 사용하여 [command]``virt-manager``([literal]``<version>``을 실"
-"제 버전 문자열로 바꿈) 명령을 통해 새 가상 머신을 생성합니다."
-
-#. type: Table
-#: modules/installation/pages/install-proxy.adoc:5
-#, no-wrap
-msgid ""
-"| KVM Settings for SLES\n"
-"| Installation Method: | Local install media (ISO image or CDROM)\n"
-"| OS:                  | Linux\n"
-"| Version:             |``SLE-``[literal]``<version>````-Server-x86_64-GM-DVD1.iso``\n"
-"| Memory:              | _Test Server_ Minumum 2{nbsp}GB\n"
-"|                      | _Production Server_ Minimum 8{nbsp}GB\n"
-"| CPUs:                | 2\n"
-"| Storage Format:      | ISO 3{nbsp}GB\n"
-"| Disk Space:          | 230{nbsp}GB split between\n"
-"|                      | [path]``/`` _(root)_ Minimum 24{nbsp}GB\n"
-"|                      | (Virtual Disk 1) [path]``/srv`` Minimum 100{nbsp}GB\n"
-"|                      | (Virtual Disk 2) [path]``/var/cache`` _(Squid)_ Minimum 100{nbsp}GB\n"
-"| Name:                | example-proxy\n"
-"| Network              | Bridge br0\n"
-msgstr ""
-"| SLES를 위한 KVM 설정\n"
-"| 설치 방법: | 로컬 설치 미디어(ISO 이미지 또는 CDROM)\n"
-" | OS:                  | Linux\n"
-" | 버전:              |``SLE-``[literal]``<version>````-Server-x86_64-GM-DVD1.iso``\n"
-" | 메모리:              | _테스트 서버_ 최고 2GB\n"
-" |                      | _프로덕션 서버_ 최소 8GB\n"
-" | CPU:                | 2\n"
-" | 저장소 형식:      | ISO 3GB\n"
-" | 디스크 공간:          | 분할된 230GB\n"
-" |                      | [path]``/`` _(루트)_ 최소 24GB\n"
-" |                      | (가상 디스크 1) [path]``/srv`` 최소 100GB\n"
-" |                      | (가상 디스크 2) [path]``/var/cache`` _(Squid)_ 최소 100GB\n"
-" | 이름:                | example-proxy\n"
-" | 네트워크              | Bridge br0\n"
-
-#. type: Title ===
-#: modules/installation/pages/install-proxy.adoc:6
-#: modules/installation/pages/install-server.adoc:6
-#, no-wrap
-msgid "SLES KVM Settings"
-msgstr "SLES KVM 설정"
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:7
-msgid ""
-"This section covers the {productname} Proxy installation, using the full "
-"installation media with KVM and [command]``virt-manager``.  Before you "
-"begin, you will need to have created an account with {scc}, and downloaded "
-"the {sles} installation media."
-msgstr ""
-"이 섹션에서는 KVM 및 [command]``virt-manager`` 명령을 통해 전체 설치 미디어"
-"를 사용한 {productname} 프록시의 설치에 대해 설명합니다.  시작하기 전, {scc}"
-"를 사용하여 계정을 생성하고 {sles} 설치 미디어를 다운로드해야 합니다."
-
-#. type: Block title
-#: modules/installation/pages/install-proxy.adoc:8
-#: modules/installation/pages/install-server.adoc:8
-#, no-wrap
-msgid "Procedure: Preparing for SLES Installation"
-msgstr "절차: SLES 설치 준비"
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:9
-msgid ""
-"In the Virtual Machine Manager tool ([command]``virt-manager``), click menu:"
-"File[New Virtual Machine]."
-msgstr ""
-"Virtual Machine Manager 도구([command]``virt-manager``)에서 menu:File[새 가"
-"상 머신]을 클릭합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:10
-msgid "Click btn:[Local install media (ISO image or CDROM)]."
-msgstr "btn:[로컬 설치 미디어(ISO 이미지 또는 CDROM)]를 클릭합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:11
-msgid ""
-"In the [guimenu]``Create a new virtual machine`` dialog, click btn:[Browse] "
-"and locate the full SLES image you downloaded from your SCC account."
-msgstr ""
-"[guimenu]``새 가상 머신 생성`` 대화 상자에서 btn:[찾아보기]를 클릭한 후 SCC "
-"계정에서 다운로드한 전체 SLES 이미지를 찾습니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:12
-msgid "Configure your machine with at least 2 GB RAM and a minimum of 2 CPUs."
-msgstr "RAM이 2GB 이상이고 CPU가 2개 이상으로 머신을 구성해야 합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:13
-msgid ""
-"Create a storage device with a minimum of 230 GB storage space for the "
-"installation."
-msgstr "설치를 위해 저장소 공간이 230GB 이상인 저장소 장치를 생성합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:14
-msgid ""
-"During the SLES installation this disk should be partitioned into the "
-"following partitions:"
-msgstr "SLES를 설치하는 동안 이 디스크의 파티션을 다음과 같이 구성해야 합니다."
-
-#. type: Table
-#: modules/installation/pages/install-proxy.adoc:15
-#, no-wrap
-msgid ""
-"| Disk Space Requirements\n"
-"| 100{nbsp}GB XFS partition (or dedicated virtual disk) for [path]``/srv/``\n"
-"| 100{nbsp}GB XFS partition (or dedicated virtual disk) for [path]``/var/cache/``\n"
-msgstr ""
-"| 디스크 공간 요구사항\n"
-"| [path]``/srv/`` 를 위한 100GB XFS 파티션(또는 전용 가상 디스크)\n"
-"| [path]``/var/cache/`` 를 위한 100GB XFS 파티션(또는 전용 가상 디스크)\n"
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:16
-#: modules/installation/pages/install-server.adoc:16
-msgid ""
-"The remaining storage space will be used by the operating system for the "
-"root partition."
-msgstr "나머지 저장소 공간은 루트 파티션을 위해 운영 체제에서 사용됩니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:17
-msgid ""
-"Click btn:[Finish] to save the installation settings and begin the "
-"installation."
-msgstr "btn:[완료]를 클릭하여 설치 설정을 저장하고 설치를 시작합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:18
-msgid ""
-"For more information on installing {sles}, see https://documentation.suse."
-"com/sles/15-SP3/html/SLES-all/article-installation.html."
-msgstr ""
-"{sles} 설치에 대한 자세한 내용은 https://documentation.suse.com/sles/15-SP3/"
-"html/SLES-all/art-sicle-installquickation.html을 참조하십시오."
-
-#. type: Title ==
-#: modules/installation/pages/install-proxy.adoc:19
-#, no-wrap
-msgid "Change SLES for SUSE Manager Proxy"
-msgstr "SUSE Manager Proxy용 SLES 변경"
-
-#. type: Block title
-#: modules/installation/pages/install-proxy.adoc:20
-#, no-wrap
-msgid "Procedure: Changing SLES for {productname} Proxy Installation"
-msgstr "절차: {productname} 프록시를 설치하기 위해 SLES 변경"
-
-#.  Most steps are currently needed because of 4.0 workarounds
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:21
-#: modules/installation/pages/install-vm.adoc:25
-msgid "Log in as `root`."
-msgstr "`root` 로 로그인합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:22
-#: modules/installation/pages/install-vm.adoc:26
-msgid "Uninstall the `sles-release` package:"
-msgstr "`sles-release` 패키지의 설치를 제거합니다."
-
-#. type: delimited block -
-#: modules/installation/pages/install-proxy.adoc:23
-#: modules/installation/pages/install-vm.adoc:27
-#, no-wrap
-msgid "rpm -e --nodeps sles-release\n"
-msgstr "rpm -e --nodeps sles-release\n"
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:24
-msgid ""
-"Register {productname} Proxy with SCC (for example, replace "
-"`<productversion>` with `{productnumber}` and `<architecture>` with "
-"`x86_64`):"
-msgstr ""
-"SCC를 사용하여 {productname} 프록시를 등록합니다(예: ``<productversion>``을 "
-"``{productnumber}``(으)로 바꾸고 ``<architecture>``를 ``x86_64``로 바꿈)."
-
-#. type: delimited block -
-#: modules/installation/pages/install-proxy.adoc:25
-#, no-wrap
-msgid ""
-"SUSEConnect -e <EMAIL_ADDRESS> -r <SUSE_MANAGER_PROXY_CODE> \\\n"
-"  -p SUSE-Manager-Proxy/<productversion>/<architecture>\n"
-msgstr ""
-"SUSEConnect -e <EMAIL_ADDRESS> -r <SUSE_MANAGER_PROXY_CODE> \\\n"
-"  -p SUSE-Manager-Proxy/<productversion>/<architecture>\n"
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:26
-#: modules/installation/pages/install-vm.adoc:30
-msgid "Add {productname} repositories:"
-msgstr "{productname} 리포지토리 추가:"
-
-#. type: delimited block -
-#: modules/installation/pages/install-proxy.adoc:27
-#, no-wrap
-msgid ""
-"SUSEConnect -p sle-module-basesystem/15.3/x86_64\n"
-"SUSEConnect -p sle-module-server-applications/15.3/x86_64\n"
-"SUSEConnect -p sle-module-suse-manager-proxy/4.2/x86_64\n"
-msgstr ""
-"SUSEConnect -p sle-module-basesystem/15.3/x86_64\n"
-"SUSEConnect -p sle-module-server-applications/15.3/x86_64\n"
-"SUSEConnect -p sle-module-suse-manager-proxy/4.2/x86_64\n"
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:28
-msgid "Check that you have allowed installing recommended packages."
-msgstr "권장 패키지 설치를 허용했는지 확인합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:29
-msgid "Check the settings in `/etc/zypp/zypp.conf`:"
-msgstr "``/etc/zypp/zypp.conf``에서 설정을 확인합니다."
-
-#. type: delimited block -
-#: modules/installation/pages/install-proxy.adoc:30
-#: modules/installation/pages/install-vm.adoc:35
-#, no-wrap
-msgid "solver.onlyRequires = false\n"
-msgstr "solver.onlyRequires = false\n"
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:31
-msgid "Install the {productname} Proxy pattern:"
-msgstr "{productname} 프록시 패턴을 설치합니다."
-
-#. type: delimited block -
-#: modules/installation/pages/install-proxy.adoc:32
-#, no-wrap
-msgid "zypper in -t pattern suma_proxy\n"
-msgstr "zypper in -t pattern suma_proxy\n"
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:33
-#: modules/installation/pages/install-uyuni.adoc:17
-#: modules/installation/pages/install-vm.adoc:44
-msgid "Reboot."
-msgstr "재부팅합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-proxy.adoc:34
-#: modules/installation/pages/install-proxy-unified.adoc:31
-msgid ""
-"Continue with registering the installed {productname} Proxy as a client: "
-"xref:proxy-registration.adoc[]."
-msgstr ""
-"설치된 {productname} 프록시를 클라이언트로 등록을 계속합니다. xref:proxy-"
-"registration.adoc[]"
-
-#. type: Title =
 #: modules/installation/pages/install-proxy-unified.adoc:1
 #, no-wrap
 msgid "{productname} {productnumber} Proxy"
@@ -2008,22 +1685,14 @@ msgstr "{productname} {productnumber} 프록시"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:2
-#, fuzzy
-#| msgid ""
-#| "{susemgr} is a {suse} product within the {sle} product family.  This "
-#| "section describes how to install {susemgr} Server from the {sle} "
-#| "installation media.  For this topic we assume that you already have valid "
-#| "organization credentials with {scc} and have obtained a registration code "
-#| "for your {susemgr}."
 msgid ""
 "{susemgr} Proxy is a {suse} product within the {sle} product family.  This "
 "section describes how to install {susemgr} Proxy from {sle} installation "
 "media.  It assumes you already have valid organization credentials with "
 "{scc} and have obtained a registration code for your {susemgr} Proxy."
 msgstr ""
-"{susemgr}은(는) {sle} 제품군 내의 {suse} 제품입니다. 이 섹션에서는 {sle} 설"
-"치 미디어에서 {susemgr} 서버를 설치하는 방법을 설명합니다. 이 주제에서는 "
-"{scc}에 대한 유효한 조직 자격 증명이 이미 있고 {susemgr}에 대한 등록 코드를 "
+"{susemgr} 프록시는 {sle} 제품군 내의 {suse} 제품입니다. 이 섹션에서는 {sle} 설치 미디어에서 {susemgr} "
+"프록시를 설치하는 방법을 설명합니다. {scc}에 대한 유효한 조직 자격 증명이 이미 있고 {susemgr} 프록시에 대한 등록 코드를 "
 "획득했다고 가정합니다."
 
 #. type: delimited block =
@@ -2062,9 +1731,7 @@ msgstr ""
 msgid ""
 "{productname} Proxy is an open source (GPLv2) solution that provides the "
 "following features:"
-msgstr ""
-"{productname} 프록시는 다음과 같은 기능을 제공하는 오픈 소스(GPLv2) 솔루션입"
-"니다."
+msgstr "{productname} 프록시는 다음과 같은 기능을 제공하는 오픈 소스(GPLv2) 솔루션입니다."
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:7
@@ -2255,6 +1922,14 @@ msgstr "Server Applications 모듈"
 msgid "SUSE Manager Proxy Module"
 msgstr "SUSE Manager Proxy 모듈"
 
+#. type: Plain text
+#: modules/installation/pages/install-proxy-unified.adoc:31
+#: modules/installation/pages/install-proxy.adoc:34
+msgid ""
+"Continue with registering the installed {productname} Proxy as a client: "
+"xref:proxy-registration.adoc[]."
+msgstr "설치된 {productname} 프록시를 클라이언트로 등록을 계속합니다. xref:proxy-registration.adoc[]"
+
 #. type: Title =
 #: modules/installation/pages/install-proxy-uyuni.adoc:1
 #, no-wrap
@@ -2352,8 +2027,8 @@ msgid ""
 "For more information about the stable version of {productname}, see https://"
 "www.uyuni-project.org/pages/stable-version.html."
 msgstr ""
-"{productname}의 안정화 버전에 대한 자세한 내용은 https://www.uyuni-project."
-"org/pages/stable-version.html을 참조하십시오."
+"{productname}의 안정화 버전에 대한 자세한 내용은 link:https://www.uyuni-project.org/pages/"
+"stable-version.html[]을 참조하십시오."
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-uyuni.adoc:17
@@ -2362,8 +2037,8 @@ msgid ""
 "For more information about the development version of {productname}, see "
 "https://www.uyuni-project.org/pages/devel-version.html."
 msgstr ""
-"{productname}의 개발 버전에 대한 자세한 내용은 https://www.uyuni-project.org/"
-"pages/devel-version.html을 참조하십시오."
+"{productname}의 개발 버전에 대한 자세한 내용은 link:https://www.uyuni-project.org/pages/"
+"devel-version.html[]을 참조하십시오."
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-uyuni.adoc:18
@@ -2374,6 +2049,285 @@ msgid ""
 msgstr ""
 "설치가 완료되면 {productname}의 설정을 진행할 수 있습니다.  자세한 내용은 "
 "xref:installation:uyuni-proxy-registration.adoc[]에서 참조하십시오."
+
+#. type: Title =
+#: modules/installation/pages/install-proxy.adoc:1
+#, no-wrap
+msgid "Install {productname} Proxy from packages"
+msgstr "패키지에서 {productname} 프록시 설치"
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:2
+msgid ""
+"To install {productname} Proxy from packages, you will need to start by "
+"installing {sles} media.  This section covers the KVM settings required to "
+"perform a {sles} installation as the base for {productname} Proxy.  In this "
+"section, we use a KVM and a virtual machine manager as a sandbox for the "
+"installation."
+msgstr ""
+"패키지에서 {productname} 프록시를 설치하려면 {sles} 미디어를 설치하여 시작해"
+"야 합니다.  이 섹션에서는 {productname} 프록시의 기본으로 {sles}를 설치하기 "
+"위해 필요한 KVM 설정에 대해 설명합니다.  이 섹션에서는 KVM 및 가상 머신 관리"
+"자를 설치용 샌드박스로 사용합니다."
+
+#. type: Title ==
+#: modules/installation/pages/install-proxy.adoc:3
+#: modules/installation/pages/install-server.adoc:3
+#, no-wrap
+msgid "SLES KVM Requirements"
+msgstr "SLES KVM 요구사항"
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:4
+msgid ""
+"Use these settings to create a new virtual machine with [command]``virt-"
+"manager`` (replace [literal]``<version>`` with the actual version string):"
+msgstr ""
+"이러한 설정을 사용하여 [command]``virt-manager``([literal]``<version>``을 실제 버전 문자열로 바꿈)"
+" 명령을 통해 새 가상 머신을 생성합니다."
+
+#. type: Table
+#: modules/installation/pages/install-proxy.adoc:5
+#, no-wrap
+msgid ""
+"| KVM Settings for SLES\n"
+"| Installation Method: | Local install media (ISO image or CDROM)\n"
+"| OS:                  | Linux\n"
+"| Version:             |``SLE-``[literal]``<version>````-Server-x86_64-GM-DVD1.iso``\n"
+"| Memory:              | _Test Server_ Minumum 2{nbsp}GB\n"
+"|                      | _Production Server_ Minimum 8{nbsp}GB\n"
+"| CPUs:                | 2\n"
+"| Storage Format:      | ISO 3{nbsp}GB\n"
+"| Disk Space:          | 230{nbsp}GB split between\n"
+"|                      | [path]``/`` _(root)_ Minimum 24{nbsp}GB\n"
+"|                      | (Virtual Disk 1) [path]``/srv`` Minimum 100{nbsp}GB\n"
+"|                      | (Virtual Disk 2) [path]``/var/cache`` _(Squid)_ Minimum 100{nbsp}GB\n"
+"| Name:                | example-proxy\n"
+"| Network              | Bridge br0\n"
+msgstr ""
+"| SLES를 위한 KVM 설정\n"
+"| 설치 방법: | 로컬 설치 미디어(ISO 이미지 또는 CDROM)\n"
+" | OS:                  | Linux\n"
+" | 버전:              |``SLE-``[literal]``<version>````-Server-x86_64-GM-DVD1.iso``\n"
+" | 메모리:              | _테스트 서버_ 최고 2GB\n"
+" |                      | _프로덕션 서버_ 최소 8GB\n"
+" | CPU:                | 2\n"
+" | 저장소 형식:      | ISO 3GB\n"
+" | 디스크 공간:          | 분할된 230GB\n"
+" |                      | [path]``/`` _(루트)_ 최소 24GB\n"
+" |                      | (가상 디스크 1) [path]``/srv`` 최소 100GB\n"
+" |                      | (가상 디스크 2) [path]``/var/cache`` _(Squid)_ 최소 100GB\n"
+" | 이름:                | example-proxy\n"
+" | 네트워크              | Bridge br0\n"
+
+#. type: Title ===
+#: modules/installation/pages/install-proxy.adoc:6
+#: modules/installation/pages/install-server.adoc:6
+#, no-wrap
+msgid "SLES KVM Settings"
+msgstr "SLES KVM 설정"
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:7
+msgid ""
+"This section covers the {productname} Proxy installation, using the full "
+"installation media with KVM and [command]``virt-manager``.  Before you "
+"begin, you will need to have created an account with {scc}, and downloaded "
+"the {sles} installation media."
+msgstr ""
+"이 섹션에서는 KVM 및 [command]``virt-manager`` 명령을 통해 전체 설치 미디어"
+"를 사용한 {productname} 프록시의 설치에 대해 설명합니다.  시작하기 전, {scc}"
+"를 사용하여 계정을 생성하고 {sles} 설치 미디어를 다운로드해야 합니다."
+
+#. type: Block title
+#: modules/installation/pages/install-proxy.adoc:8
+#: modules/installation/pages/install-server.adoc:8
+#, no-wrap
+msgid "Procedure: Preparing for SLES Installation"
+msgstr "절차: SLES 설치 준비"
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:9
+msgid ""
+"In the Virtual Machine Manager tool ([command]``virt-manager``), click menu:"
+"File[New Virtual Machine]."
+msgstr ""
+"Virtual Machine Manager 도구([command]``virt-manager``)에서 menu:File[새 가"
+"상 머신]을 클릭합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:10
+msgid "Click btn:[Local install media (ISO image or CDROM)]."
+msgstr "btn:[로컬 설치 미디어(ISO 이미지 또는 CDROM)]를 클릭합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:11
+msgid ""
+"In the [guimenu]``Create a new virtual machine`` dialog, click btn:[Browse] "
+"and locate the full SLES image you downloaded from your SCC account."
+msgstr ""
+"[guimenu]``새 가상 머신 생성`` 대화 상자에서 btn:[찾아보기]를 클릭한 후 SCC "
+"계정에서 다운로드한 전체 SLES 이미지를 찾습니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:12
+msgid "Configure your machine with at least 2 GB RAM and a minimum of 2 CPUs."
+msgstr "RAM이 2GB 이상이고 CPU가 2개 이상으로 머신을 구성해야 합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:13
+msgid ""
+"Create a storage device with a minimum of 230 GB storage space for the "
+"installation."
+msgstr "설치를 위해 저장소 공간이 230GB 이상인 저장소 장치를 생성합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:14
+msgid ""
+"During the SLES installation this disk should be partitioned into the "
+"following partitions:"
+msgstr "SLES를 설치하는 동안 이 디스크의 파티션을 다음과 같이 구성해야 합니다."
+
+#. type: Table
+#: modules/installation/pages/install-proxy.adoc:15
+#, no-wrap
+msgid ""
+"| Disk Space Requirements\n"
+"| 100{nbsp}GB XFS partition (or dedicated virtual disk) for [path]``/srv/``\n"
+"| 100{nbsp}GB XFS partition (or dedicated virtual disk) for [path]``/var/cache/``\n"
+msgstr ""
+"| 디스크 공간 요구사항\n"
+"| [path]``/srv/`` 를 위한 100GB XFS 파티션(또는 전용 가상 디스크)\n"
+"| [path]``/var/cache/`` 를 위한 100GB XFS 파티션(또는 전용 가상 디스크)\n"
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:16
+#: modules/installation/pages/install-server.adoc:16
+msgid ""
+"The remaining storage space will be used by the operating system for the "
+"root partition."
+msgstr "나머지 저장소 공간은 루트 파티션을 위해 운영 체제에서 사용됩니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:17
+msgid ""
+"Click btn:[Finish] to save the installation settings and begin the "
+"installation."
+msgstr "btn:[완료]를 클릭하여 설치 설정을 저장하고 설치를 시작합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:18
+msgid ""
+"For more information on installing {sles}, see https://documentation.suse."
+"com/sles/15-SP3/html/SLES-all/article-installation.html."
+msgstr ""
+"{sles} 설치에 대한 자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/html/"
+"SLES-all/art-sicle-installquickation.html[]을 참조하십시오."
+
+#. type: Title ==
+#: modules/installation/pages/install-proxy.adoc:19
+#, no-wrap
+msgid "Change SLES for SUSE Manager Proxy"
+msgstr "SUSE Manager Proxy용 SLES 변경"
+
+#. type: Block title
+#: modules/installation/pages/install-proxy.adoc:20
+#, no-wrap
+msgid "Procedure: Changing SLES for {productname} Proxy Installation"
+msgstr "절차: {productname} 프록시를 설치하기 위해 SLES 변경"
+
+#.  Most steps are currently needed because of 4.0 workarounds
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:21
+#: modules/installation/pages/install-vm.adoc:25
+msgid "Log in as `root`."
+msgstr "`root` 로 로그인합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:22
+#: modules/installation/pages/install-vm.adoc:26
+msgid "Uninstall the `sles-release` package:"
+msgstr "`sles-release` 패키지의 설치를 제거합니다."
+
+#. type: delimited block -
+#: modules/installation/pages/install-proxy.adoc:23
+#: modules/installation/pages/install-vm.adoc:27
+#, no-wrap
+msgid "rpm -e --nodeps sles-release\n"
+msgstr "rpm -e --nodeps sles-release\n"
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:24
+msgid ""
+"Register {productname} Proxy with SCC (for example, replace "
+"`<productversion>` with `{productnumber}` and `<architecture>` with "
+"`x86_64`):"
+msgstr ""
+"SCC를 사용하여 {productname} 프록시를 등록합니다(예: ``<productversion>``을 "
+"``{productnumber}``(으)로 바꾸고 ``<architecture>``를 ``x86_64``로 바꿈)."
+
+#. type: delimited block -
+#: modules/installation/pages/install-proxy.adoc:25
+#, no-wrap
+msgid ""
+"SUSEConnect -e <EMAIL_ADDRESS> -r <SUSE_MANAGER_PROXY_CODE> \\\n"
+"  -p SUSE-Manager-Proxy/<productversion>/<architecture>\n"
+msgstr ""
+"SUSEConnect -e <EMAIL_ADDRESS> -r <SUSE_MANAGER_PROXY_CODE> \\\n"
+"  -p SUSE-Manager-Proxy/<productversion>/<architecture>\n"
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:26
+#: modules/installation/pages/install-vm.adoc:30
+msgid "Add {productname} repositories:"
+msgstr "{productname} 리포지토리 추가:"
+
+#. type: delimited block -
+#: modules/installation/pages/install-proxy.adoc:27
+#, no-wrap
+msgid ""
+"SUSEConnect -p sle-module-basesystem/15.3/x86_64\n"
+"SUSEConnect -p sle-module-server-applications/15.3/x86_64\n"
+"SUSEConnect -p sle-module-suse-manager-proxy/4.2/x86_64\n"
+msgstr ""
+"SUSEConnect -p sle-module-basesystem/15.3/x86_64\n"
+"SUSEConnect -p sle-module-server-applications/15.3/x86_64\n"
+"SUSEConnect -p sle-module-suse-manager-proxy/4.2/x86_64\n"
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:28
+msgid "Check that you have allowed installing recommended packages."
+msgstr "권장 패키지 설치를 허용했는지 확인합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:29
+msgid "Check the settings in `/etc/zypp/zypp.conf`:"
+msgstr "``/etc/zypp/zypp.conf``에서 설정을 확인합니다."
+
+#. type: delimited block -
+#: modules/installation/pages/install-proxy.adoc:30
+#: modules/installation/pages/install-vm.adoc:35
+#, no-wrap
+msgid "solver.onlyRequires = false\n"
+msgstr "solver.onlyRequires = false\n"
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:31
+msgid "Install the {productname} Proxy pattern:"
+msgstr "{productname} 프록시 패턴을 설치합니다."
+
+#. type: delimited block -
+#: modules/installation/pages/install-proxy.adoc:32
+#, no-wrap
+msgid "zypper in -t pattern suma_proxy\n"
+msgstr "zypper in -t pattern suma_proxy\n"
+
+#. type: Plain text
+#: modules/installation/pages/install-proxy.adoc:33
+#: modules/installation/pages/install-uyuni.adoc:17
+#: modules/installation/pages/install-vm.adoc:44
+msgid "Reboot."
+msgstr "재부팅합니다."
 
 #. type: Title =
 #: modules/installation/pages/install-pubcloud.adoc:1
@@ -2402,191 +2356,6 @@ msgstr ""
 "그러나 {productname}을(를) 사용하려면 몇 가지 추가 설정 단계를 수행해야 합니"
 "다. 공용 클라우드 설정 지침은 xref:installation:pubcloud-setup.adoc[]을 참조"
 "하십시오."
-
-#. type: Title =
-#: modules/installation/pages/install-server.adoc:1
-#, no-wrap
-msgid "Installing {productname} Server"
-msgstr "{productname} 서버 설치"
-
-#.  better disabling for now; needs a complete overhaul
-#.  2019-06-04, ke
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:2
-msgid ""
-"This chapter provides the required KVM settings for installation of {sles} "
-"media as the base for {productname}.  A kernel virtual machine KVM combined "
-"with Virtual Machine Manager ([command]``virt-manager``) will be used as a "
-"sandbox for this installation."
-msgstr ""
-"이 장에서는 {productname}용 베이스로 {sles} 미디어를 설치하기 위한 필수 KVM "
-"설정을 제공합니다.  가상 커널 가상 머신 관리자([command]``virt-manager``)와 "
-"통합된 KVM은 이 설치를 위한 샌드박스로 사용할 수 있습니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:4
-msgid ""
-"Enter the following settings when creating a new virtual machine using "
-"[command]``virt-manager`` (replace [replaceable]``version`` with the actual "
-"version string):"
-msgstr ""
-"[command]``virt-manager`` 명령을 사용하여 새 가상 머신을 생성할 때 다음 명령"
-"을 입력하십시오([replaceable]``버전``을 실제 버전 문자열로 바꿈)."
-
-#. type: Table
-#: modules/installation/pages/install-server.adoc:5
-#, no-wrap
-msgid ""
-"| KVM Settings for SLES\n"
-"| Installation Method: | Local install media (ISO image or CDROM)\n"
-"| OS:                  | Linux\n"
-"| Version:             |``SLE-[replaceable]``version``-Server-x86_64-GM-DVD1.iso``\n"
-"| Memory:              | 4096{nbsp}MB\n"
-"| CPUs:                | 2\n"
-"| Storage Format:      | ISO 3{nbsp}GB\n"
-"| Disk Space:          | 234{nbsp}GB split between 4{nbsp}GB swap and 130{nbsp}GB mounted at [path]``/var/spacewalk/``\n"
-"|                      | (Virtual Disk 1) and 50{nbsp}GB mounted at [path]``/var/lib/pgsql``\n"
-"|                      | (Virtual Disk 2). The rest for the root partition (100{nbsp}GB+).\n"
-"| Name:                | example-server\n"
-"| Network              | Bridge br0\n"
-msgstr ""
-"| SLES를 위한 KVM 설정\n"
-"| 설치 방법: | 로컬 설치 미디어(ISO 이미지 또는 CDROM)\n"
-" | OS:                  | Linux\n"
-" | 버전:              |``SLE-[replaceable]``version``-Server-x86_64-GM-DVD1.iso``\n"
-" | 메모리:              | 4096MB\n"
-" | CPU:                | 2\n"
-" | 저장소 형식:      | ISO 3GB\n"
-" | 디스크 공간:          | 분할된 234GB 4GB 스왑 및 [path]``/var/spacewalk/``\n"
-"에 마운트된 130GB |                      | (가상 디스크 1) 및 [path]``/var/lib/pgsql``\n"
-"에 마운트된 50GB |                      | (가상 디스크 2) 루트 파티션의 나머지(100GB+).\n"
-" | 이름:                | example-server\n"
-" | 네트워크              | Bridge br0\n"
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:7
-msgid ""
-"This section provides guidance on installation of {productname} utilizing "
-"the full installation media with KVM and [command]``virt-manager``.  This "
-"section assumes you have previously setup an account with SCC and downloaded "
-"the SLES full installation media."
-msgstr ""
-"이 섹션에서는 KVM 및 [command]``virt-manager`` 명령을 사용한 {productname}의 "
-"설치에 대해 설명합니다. 이 섹션에서는 사용자가 이전에 SCC로 계정을 생성하고 "
-"SLES 전체 설치 미디어를 다운로드한 것으로 가정합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:9
-msgid "In [command]``virt-manager`` select menu:File[New Virtual Machine]."
-msgstr "[command]``virt-manager``에서 menu:File[새 가상 머신]을 선택합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:10
-msgid "Select btn:[Local install media (ISO image or CDROM)]."
-msgstr "btn:[로컬 설치 미디어(ISO 이미지 또는 CDROM)]를 선택합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:11
-msgid ""
-"Ensure btn:[Use ISO Image] is selected then click btn:[Browse] and locate "
-"the full SLES image you downloaded from your SCC account."
-msgstr ""
-"btn:[ISO 이미지 사용] 이 선택되었는지 확인한 후 btn:[찾아보기]를 클릭하여 "
-"SCC 계정에서 다운로드한 전체 SLES 이미지를 찾습니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:12
-msgid ""
-"Configure your machine with at least 4096 MB RAM and a minimum of 2 CPUs."
-msgstr "RAM이 4096MB 이상이고 CPU가 2개 이상으로 머신을 구성해야 합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:13
-msgid ""
-"Create a storage device with a minimum of 234 GB storage space for the "
-"installation."
-msgstr "설치를 위해 저장소 공간이 234GB 이상인 저장소 장치를 생성합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:14
-msgid ""
-"During the partitioning setup of the SLES installation this disk should be "
-"partitioned into the following disks:"
-msgstr ""
-"SLES의 파티션을 설정하는 동안 이 디스크는 다음 디스크에 파티션이 구성되어야 "
-"합니다."
-
-#. type: Table
-#: modules/installation/pages/install-server.adoc:15
-#, no-wrap
-msgid ""
-"| Disk Space Requirements\n"
-"|4{nbsp}GB Swap space\n"
-"|130{nbsp}GB XFS partition (or dedicated virtual disk) for [path]``/var/spacewalk/``\n"
-"|50{nbsp}GB XFS partition (or dedicated virtual disk) for [path]``/var/lib/pgsql/``\n"
-msgstr ""
-"| 디스크 공간 요구사항\n"
-"|4GB 스왑 공간\n"
-"|[path]``/var/spacewalk/`` 를 위한 130GB XFS 파티션(또는 전용 가상 디스크)\n"
-"|[path]``/var/lib/pgsql/`` 를 위한 50GB XFS 파티션(또는 전용 가상 디스크)\n"
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:17
-msgid "Select btn:[Finish] to begin the installation."
-msgstr "btn:[완료]를 선택하여 설치를 시작합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:18
-msgid ""
-"Installation of {sles} will begin.  For more information on completing an "
-"installation of {sles}, see: https://documentation.suse.com/sles/15-SP3/html/"
-"SLES-all/article-installation.html."
-msgstr ""
-"{sles}의 설치가 시작됩니다.  {sles} 설치 완료에 대한 자세한 내용은 https://"
-"documentation.suse.com/sles/15-SP3/html/SLES-all/article-installation.html을 "
-"참조하십시오."
-
-#. type: Title ==
-#: modules/installation/pages/install-server.adoc:19
-#, no-wrap
-msgid "Selecting the {productname} Extension"
-msgstr "{productname} 확장 선택"
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:20
-msgid ""
-"During {sles} installation, you will be presented with the "
-"[systemitem]``Extension and Module Selection`` screen."
-msgstr ""
-"{sles}를 설치하는 동안 [systemitem]``확장 및 모듈 선택`` 화면이 표시됩니다."
-
-#. type: delimited block =
-#: modules/installation/pages/install-server.adoc:21
-msgid ""
-"This screen will not be shown if you have skipped the registration step at "
-"the beginning of the installation process.  Ensure you have registered with "
-"{suse} and logged in."
-msgstr ""
-"이 화면은 설치 절차를 시작할 때 등록 단계를 건너뛰면 표시됩니다.  {suse}에 등"
-"록하고 로그인했는지 확인합니다."
-
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:22
-msgid ""
-"Select the {productname} Extension and then click the btn:[Next] button."
-msgstr "{productname} 확장을 선택한 후 btn:[다음] 버튼을 클릭합니다."
-
-#. TODO Update image its outdated!
-#. type: Plain text
-#: modules/installation/pages/install-server.adoc:23
-msgid "Complete the {sles} installation."
-msgstr "{sles}의 설치를 완료합니다."
-
-#. type: Target for macro image
-#: modules/installation/pages/install-server.adoc:24
-#, no-wrap
-msgid "manager-extension.png"
-msgstr "manager-extension.png"
 
 #. type: Title =
 #: modules/installation/pages/install-server-unified.adoc:1
@@ -2809,9 +2578,8 @@ msgid ""
 "all the required modules by using the [command]``SUSEConnect --status-text`` "
 "command at a command prompt.  For {susemgr} Server, the expected modules are:"
 msgstr ""
-"설치 절차가 완료되면 명령 프롬프트에서 [command]``SUSEConnect --status-"
-"text`` 명령을 사용하여 모든 필수 모듈이 설치되었는지 확인할 수 있습니다.  "
-"{susemgr} 서버에서 예상되는 모듈은 다음과 같습니다."
+"설치 절차가 완료되면 명령 프롬프트에서 [command]``SUSEConnect --status-text`` 명령을 사용하여 모든 필수 "
+"모듈이 설치되었는지 확인할 수 있습니다.  {susemgr} 서버에서 예상되는 모듈은 다음과 같습니다."
 
 #. type: Plain text
 #: modules/installation/pages/install-server-unified.adoc:36
@@ -2842,6 +2610,188 @@ msgstr ""
 "한 내용은 xref:installation:server-setup.adoc[]에서 참조하십시오."
 
 #. type: Title =
+#: modules/installation/pages/install-server.adoc:1
+#, no-wrap
+msgid "Installing {productname} Server"
+msgstr "{productname} 서버 설치"
+
+#.  better disabling for now; needs a complete overhaul
+#.  2019-06-04, ke
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:2
+msgid ""
+"This chapter provides the required KVM settings for installation of {sles} "
+"media as the base for {productname}.  A kernel virtual machine KVM combined "
+"with Virtual Machine Manager ([command]``virt-manager``) will be used as a "
+"sandbox for this installation."
+msgstr ""
+"이 장에서는 {productname}용 베이스로 {sles} 미디어를 설치하기 위한 필수 KVM "
+"설정을 제공합니다.  가상 커널 가상 머신 관리자([command]``virt-manager``)와 "
+"통합된 KVM은 이 설치를 위한 샌드박스로 사용할 수 있습니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:4
+msgid ""
+"Enter the following settings when creating a new virtual machine using "
+"[command]``virt-manager`` (replace [replaceable]``version`` with the actual "
+"version string):"
+msgstr ""
+"[command]``virt-manager`` 명령을 사용하여 새 가상 머신을 생성할 때 다음 명령을 "
+"입력하십시오([replaceable]``버전``을 실제 버전 문자열로 바꿈)."
+
+#. type: Table
+#: modules/installation/pages/install-server.adoc:5
+#, no-wrap
+msgid ""
+"| KVM Settings for SLES\n"
+"| Installation Method: | Local install media (ISO image or CDROM)\n"
+"| OS:                  | Linux\n"
+"| Version:             |``SLE-[replaceable]``version``-Server-x86_64-GM-DVD1.iso``\n"
+"| Memory:              | 4096{nbsp}MB\n"
+"| CPUs:                | 2\n"
+"| Storage Format:      | ISO 3{nbsp}GB\n"
+"| Disk Space:          | 234{nbsp}GB split between 4{nbsp}GB swap and 130{nbsp}GB mounted at [path]``/var/spacewalk/``\n"
+"|                      | (Virtual Disk 1) and 50{nbsp}GB mounted at [path]``/var/lib/pgsql``\n"
+"|                      | (Virtual Disk 2). The rest for the root partition (100{nbsp}GB+).\n"
+"| Name:                | example-server\n"
+"| Network              | Bridge br0\n"
+msgstr ""
+"| SLES를 위한 KVM 설정\n"
+"| 설치 방법: | 로컬 설치 미디어(ISO 이미지 또는 CDROM)\n"
+" | OS:                  | Linux\n"
+" | 버전:              |``SLE-[replaceable]``version``-Server-x86_64-GM-DVD1.iso``\n"
+" | 메모리:              | 4096MB\n"
+" | CPU:                | 2\n"
+" | 저장소 형식:      | ISO 3GB\n"
+" | 디스크 공간:          | 분할된 234GB 4GB 스왑 및 [path]``/var/spacewalk/``\n"
+"에 마운트된 130GB |                      | (가상 디스크 1) 및 [path]``/var/lib/pgsql``\n"
+"에 마운트된 50GB |                      | (가상 디스크 2) 루트 파티션의 나머지(100GB+).\n"
+" | 이름:                | example-server\n"
+" | 네트워크              | Bridge br0\n"
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:7
+msgid ""
+"This section provides guidance on installation of {productname} utilizing "
+"the full installation media with KVM and [command]``virt-manager``.  This "
+"section assumes you have previously setup an account with SCC and downloaded "
+"the SLES full installation media."
+msgstr ""
+"이 섹션에서는 KVM 및 [command]``virt-manager`` 명령을 사용한 {productname}의 "
+"설치에 대해 설명합니다. 이 섹션에서는 사용자가 이전에 SCC로 계정을 생성하고 "
+"SLES 전체 설치 미디어를 다운로드한 것으로 가정합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:9
+msgid "In [command]``virt-manager`` select menu:File[New Virtual Machine]."
+msgstr "[command]``virt-manager``에서 menu:File[새 가상 머신]을 선택합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:10
+msgid "Select btn:[Local install media (ISO image or CDROM)]."
+msgstr "btn:[로컬 설치 미디어(ISO 이미지 또는 CDROM)]를 선택합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:11
+msgid ""
+"Ensure btn:[Use ISO Image] is selected then click btn:[Browse] and locate "
+"the full SLES image you downloaded from your SCC account."
+msgstr ""
+"btn:[ISO 이미지 사용] 이 선택되었는지 확인한 후 btn:[찾아보기]를 클릭하여 "
+"SCC 계정에서 다운로드한 전체 SLES 이미지를 찾습니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:12
+msgid ""
+"Configure your machine with at least 4096 MB RAM and a minimum of 2 CPUs."
+msgstr "RAM이 4096MB 이상이고 CPU가 2개 이상으로 머신을 구성해야 합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:13
+msgid ""
+"Create a storage device with a minimum of 234 GB storage space for the "
+"installation."
+msgstr "설치를 위해 저장소 공간이 234GB 이상인 저장소 장치를 생성합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:14
+msgid ""
+"During the partitioning setup of the SLES installation this disk should be "
+"partitioned into the following disks:"
+msgstr "SLES의 파티션을 설정하는 동안 이 디스크는 다음 디스크에 파티션이 구성되어야 합니다."
+
+#. type: Table
+#: modules/installation/pages/install-server.adoc:15
+#, no-wrap
+msgid ""
+"| Disk Space Requirements\n"
+"|4{nbsp}GB Swap space\n"
+"|130{nbsp}GB XFS partition (or dedicated virtual disk) for [path]``/var/spacewalk/``\n"
+"|50{nbsp}GB XFS partition (or dedicated virtual disk) for [path]``/var/lib/pgsql/``\n"
+msgstr ""
+"| 디스크 공간 요구사항\n"
+"|4GB 스왑 공간\n"
+"|[path]``/var/spacewalk/`` 를 위한 130GB XFS 파티션(또는 전용 가상 디스크)\n"
+"|[path]``/var/lib/pgsql/`` 를 위한 50GB XFS 파티션(또는 전용 가상 디스크)\n"
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:17
+msgid "Select btn:[Finish] to begin the installation."
+msgstr "btn:[완료]를 선택하여 설치를 시작합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:18
+msgid ""
+"Installation of {sles} will begin.  For more information on completing an "
+"installation of {sles}, see: https://documentation.suse.com/sles/15-SP3/html/"
+"SLES-all/article-installation.html."
+msgstr ""
+"{sles}의 설치가 시작됩니다.  {sles} 설치 완료에 대한 자세한 내용은 link:https://documentation.suse."
+"com/sles/15-SP3/html/SLES-all/article-installation.html[]을 참조하십시오."
+
+#. type: Title ==
+#: modules/installation/pages/install-server.adoc:19
+#, no-wrap
+msgid "Selecting the {productname} Extension"
+msgstr "{productname} 확장 선택"
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:20
+msgid ""
+"During {sles} installation, you will be presented with the "
+"[systemitem]``Extension and Module Selection`` screen."
+msgstr ""
+"{sles}를 설치하는 동안 [systemitem]``확장 및 모듈 선택`` 화면이 표시됩니다."
+
+#. type: delimited block =
+#: modules/installation/pages/install-server.adoc:21
+msgid ""
+"This screen will not be shown if you have skipped the registration step at "
+"the beginning of the installation process.  Ensure you have registered with "
+"{suse} and logged in."
+msgstr ""
+"이 화면은 설치 절차를 시작할 때 등록 단계를 건너뛰면 표시됩니다.  {suse}에 등"
+"록하고 로그인했는지 확인합니다."
+
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:22
+msgid ""
+"Select the {productname} Extension and then click the btn:[Next] button."
+msgstr "{productname} 확장을 선택한 후 btn:[다음] 버튼을 클릭합니다."
+
+#. TODO Update image its outdated!
+#. type: Plain text
+#: modules/installation/pages/install-server.adoc:23
+msgid "Complete the {sles} installation."
+msgstr "{sles}의 설치를 완료합니다."
+
+#. type: Target for macro image
+#: modules/installation/pages/install-server.adoc:24
+#, no-wrap
+msgid "manager-extension.png"
+msgstr "manager-extension.png"
+
+#. type: Title =
 #: modules/installation/pages/install-uyuni.adoc:1
 #, no-wrap
 msgid "Install Uyuni Server with openSUSE"
@@ -2866,8 +2816,8 @@ msgid ""
 "For more information about the latest version and updates of openSUSE Leap, "
 "see https://doc.opensuse.org/release-notes/."
 msgstr ""
-"openSUSE Leap의 최신 버전 및 업데이트에 대한 자세한 내용은 https://doc."
-"opensuse.org/release-notes/를 참조하십시오."
+"openSUSE Leap의 최신 버전 및 업데이트에 대한 자세한 내용은 link:https://doc.opensuse.org/"
+"release-notes/[]를 참조하십시오."
 
 #. type: Title ==
 #: modules/installation/pages/install-uyuni.adoc:5
@@ -2910,9 +2860,7 @@ msgstr ""
 msgid ""
 "Add the repository for installing the {productname} Server software as "
 "[systemitem]``root``:"
-msgstr ""
-"[systemitem]``루트``로 {productname} 서버 소프트웨어를 설치하기 위한 리포지토"
-"리를 추가합니다."
+msgstr "[systemitem]``루트``로 {productname} 서버 소프트웨어를 설치하기 위한 리포지토리를 추가합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/install-uyuni.adoc:12
@@ -3000,8 +2948,8 @@ msgid ""
 "In the following table replace _version_ with the actual product version "
 "string.  Find the JeOS image at https://download.suse.com/."
 msgstr ""
-"다음 테이블에서 _버전_을 실제 제품 버전 문자열로 바꿉니다.  JeOS 이미지는 "
-"https://download.suse.com/에서 제공됩니다."
+"다음 테이블에서 _버전_을 실제 제품 버전 문자열로 바꿉니다.  JeOS 이미지는 link:https://download.suse.com/"
+"[]에서 제공됩니다."
 
 #. type: Table
 #: modules/installation/pages/install-vm.adoc:7
@@ -3047,8 +2995,8 @@ msgid ""
 "For more information on virtualization, see https://documentation.suse.com/"
 "sles/15-SP3/html/SLES-all/book-virtualization.html."
 msgstr ""
-"가상화에 대한 자세한 내용은 https://documentation.suse.com/sles/15-SP3/html/"
-"SLES-all/book-virtualization.html을 참조하십시오."
+"가상화에 대한 자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/html/"
+"SLES-all/book-virtualization.html[]을 참조하십시오."
 
 #. type: Title ==
 #: modules/installation/pages/install-vm.adoc:10
@@ -3212,9 +3160,8 @@ msgid ""
 "working you should allow to install also recommended packages.  In `/etc/"
 "zypp/zypp.conf` change:"
 msgstr ""
-"JeOS는 필수 패키지만 설치하도록 구성됩니다.  모든 기능이 작동하도록 하려면 권"
-"장 패키지도 설치하도록 허용해야 합니다.  ``/etc/zypp/zypp.conf``에서 다음과 "
-"같이 변경합니다."
+"JeOS는 필수 패키지만 설치하도록 구성됩니다.  모든 기능이 작동하도록 하려면 권장 패키지도 설치하도록 허용해야 합니다.  ``/etc/"
+"zypp/zypp.conf``에서 다음과 같이 변경합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/install-vm.adoc:33
@@ -3292,8 +3239,7 @@ msgid ""
 "Exit the partitioner and install the {productname} pattern (approximately "
 "730 packages, using 1.4 GB of disk space when installed):"
 msgstr ""
-"파티션 도구를 종료하고 {productname} 패턴을 설치합니다(약 730개 패키지, 설치 "
-"시 1.4GB의 디스크 공간 사용)."
+"파티션 도구를 종료하고 {productname} 패턴을 설치합니다(약 730개 패키지, 설치 시 1.4GB의 디스크 공간 사용)."
 
 #. type: delimited block -
 #: modules/installation/pages/install-vm.adoc:43
@@ -3347,9 +3293,8 @@ msgid ""
 "documentation.suse.com/sles/15-SP3/html/SLES-all/cha-network.html#sec-"
 "network-yast-change-host."
 msgstr ""
-"호스트 이름 및 DNS의 구성에 대한 자세한 내용은 https://documentation.suse."
-"com/sles/15-SP3/html/SLES-all/cha-network.html#sec-network-yast-change-host"
-"를 참조하십시오."
+"호스트 이름 및 DNS의 구성에 대한 자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/"
+"html/SLES-all/cha-network.html#sec-network-yast-change-host[]를 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation/pages/network-requirements.adoc:6
@@ -3374,8 +3319,8 @@ msgid ""
 "For more information about setting up a DNS server, see https://"
 "documentation.suse.com/sles/15-SP3/html/SLES-all/cha-dns.html."
 msgstr ""
-"DNS 서버 설정에 대한 자세한 내용은 https://documentation.suse.com/sles/15-"
-"SP3/html/SLES-all/cha-dns.html을 참조하십시오."
+"DNS 서버 설정에 대한 자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/html/"
+"SLES-all/cha-dns.html[]을 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation/pages/network-requirements.adoc:9
@@ -3399,9 +3344,9 @@ msgid ""
 "{sle} installation, see https://documentation.suse.com/sles/15-SP3/html/SLES-"
 "all/cha-boot-parameters.html#sec-boot-parameters-advanced-proxy."
 msgstr ""
-"{sle} 설치 중에 {scc}에 액세스하기 위해 프록시를 구성하는 것에 대한 자세한 내"
-"용은 https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-boot-"
-"parameters.html#sec-boot-parameters-advanced-proxy를 참조하십시오."
+"{sle} 설치 중에 {scc}에 액세스하기 위해 프록시를 구성하는 것에 대한 자세한 내용은 "
+"link:https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-boot-"
+"parameters.html#sec-boot-parameters-advanced-proxy[]를 참조하십시오."
 
 #. type: delimited block =
 #: modules/installation/pages/network-requirements.adoc:12
@@ -3508,22 +3453,7 @@ msgstr "{productname} 서버의 외부 포트 요구사항"
 
 #. type: Table
 #: modules/installation/pages/ports.adoc:10
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Port number | Protocol | Used By | Notes\n"
-#| "| 22          |          |         | Required for ssh-push and ssh-push-tunnel contact methods.\n"
-#| "| 67          | TCP/UDP  | DHCP    | Required only if clients are requesting IP addresses from the server.\n"
-#| "| 69          | TCP/UDP  | TFTP    | Required if server is used as a PXE server for automated client installation.\n"
-#| "| 80          | TCP      | HTTP    | Required temporarily for some bootstrap repositories and automated installations.\n"
-#| "Port 80 is not used to serve the {webui}.\n"
-#| "| 443         | TCP      | HTTPS   | {webui}, client, and proxy requests.\n"
-#| "| 4505        |  TCP     | salt    | Required to accept communication requests from clients.\n"
-#| "The client initiates the connection, and it stays open to receive commands from the Salt master.\n"
-#| "| 4506        | TCP      | salt    | Required to accept communication requests from clients.\n"
-#| "The client initiates the connection, and it stays open to report results back to the Salt master.\n"
-#| "| 5222        | TCP      | osad    | Required to push OSAD actions to clients.\n"
-#| "| 5269        | TCP      | jabberd | Required to push actions to and from a proxy.\n"
-#| "| 25151       | TCP      | Cobbler |\n"
+#, no-wrap
 msgid ""
 "| Port number | Protocol | Used By | Notes\n"
 "| 22          |          |         | Required for ssh-push and ssh-push-tunnel contact methods.\n"
@@ -3541,12 +3471,14 @@ msgid ""
 "| 25151       | TCP      | Cobbler |\n"
 msgstr ""
 "| 포트 번호 | 프로토콜 | 사용 대상 | 참고\n"
-"| 22          |          |         | ssh-push 및 ssh-push-tunnel 통신 방법에서 필요합니다.\n"
+"| 22          |          |         | ssh-push 및 ssh-push-tunnel 통신 방법에서 "
+"필요합니다.\n"
 " | 67          | TCP/UDP  | DHCP    | 클라이언트가 서버의 IP 주소를 요청할 때만 필요합니다.\n"
 " | 69          | TCP/UDP  | TFTP    | 자동 클라이언트 설치를 위해 서버가 PXE로 사용될 때 필요합니다.\n"
 " | 80          | TCP      | HTTP    | 일부 부트스트랩 리포지토리 및 자동 설치에서 일시적으로 필요합니다.\n"
 " 80 포트는 {webui}를 제공하기 위해 사용되지 않습니다.\n"
-" | 443         | TCP      | HTTPS   | {webui}, 클라이언트 및 프록시 요청입니다.\n"
+" | 443         | TCP      | HTTPS   | {webui}, 클라이언트, 서버 및 프록시(``tftpsync``) "
+"요청입니다.\n"
 " | 4505        |  TCP     | salt    | 클라이언트로부터의 통신 요청을 수락하기 위해 필요합니다.\n"
 " 클라이언트가 연결을 시작하며, Salt 마스터로부터 명령을 수신하기 위해 열려 있는 상태를 유지합니다.\n"
 " | 4506        | TCP      | salt    | 클라이언트로부터의 통신 요청을 수락하기 위해 필요합니다.\n"
@@ -3655,10 +3587,9 @@ msgid ""
 "destination port.  You can use this command to find out which ports are "
 "ephemeral ports:"
 msgstr ""
-"32768 이상 포트는 사용 후 삭제 포트로 사용됩니다.  이러한 포트는 대부분 TCP "
-"연결을 수신하기 위해 사용됩니다.  TCP 연결 요청이 수신되면, 발신자가 이러한 "
-"사용 후 삭제 포트 번호 중 하나를 선택하여 대상 포트로 사용합니다.  이 명령을 "
-"사용하여 임시 포트인 포트를 찾을 수 있습니다."
+"32768 이상 포트는 사용 후 삭제 포트로 사용됩니다.  이러한 포트는 대부분 TCP 연결을 수신하기 위해 사용됩니다.  TCP 연결 "
+"요청이 수신되면, 발신자가 이러한 사용 후 삭제 포트 번호 중 하나를 선택하여 대상 포트로 사용합니다.  이 명령을 사용하여 임시 포트인 "
+"포트를 찾을 수 있습니다."
 
 #. type: delimited block -
 #: modules/installation/pages/ports.adoc:22
@@ -3699,20 +3630,7 @@ msgstr "{productname} 프록시의 외부 포트 요구사항"
 
 #. type: Table
 #: modules/installation/pages/ports.adoc:27
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Port number | Protocol | Used By | Notes\n"
-#| "| 22          |          |         | Required for ssh-push and ssh-push-tunnel contact methods.\n"
-#| "Clients connected to the proxy initiate check in on the server and hop through to clients.\n"
-#| "| 67          | TCP/UDP  | DHCP    | Required only if clients are requesting IP addresses from the server.\n"
-#| "| 69          | TCP/UDP  | TFTP    | Required if the server is used as a PXE server for automated client installation.\n"
-#| "| 443         | TCP      | HTTPS   | {webui}, client, and proxy requests.\n"
-#| "| 4505        | TCP      | salt    | Required to accept communication requests from clients.\n"
-#| "The client initiates the connection, and it stays open to receive commands from the Salt master.\n"
-#| "| 4506        | TCP      | salt    | Required to accept communication requests from clients.\n"
-#| "The client initiates the connection, and it stays open to report results back to the Salt master.\n"
-#| "| 5222        | TCP      |         | Required to push OSAD actions to clients.\n"
-#| "| 5269        | TCP      |         | Required to push actions to and from the server.\n"
+#, no-wrap
 msgid ""
 "| Port number | Protocol | Used By | Notes\n"
 "| 22          |          |         | Required for ssh-push and ssh-push-tunnel contact methods.\n"
@@ -3728,11 +3646,13 @@ msgid ""
 "| 5269        | TCP      |         | Required to push actions to and from the server.\n"
 msgstr ""
 "| 포트 번호 | 프로토콜 | 사용 대상 | 참고\n"
-"| 22          |          |         | ssh-push 및 ssh-push-tunnel 통신 방법에서 필요합니다.\n"
+"| 22          |          |         | ssh-push 및 ssh-push-tunnel 통신 방법에서 "
+"필요합니다.\n"
 " 프록시에 연결된 클라이언트가 서버에서 체크인을 시작하며 클라이언트를 통해 호핑을 수행합니다.\n"
 " | 67          | TCP/UDP  | DHCP    | 클라이언트가 서버의 IP 주소를 요청할 때만 필요합니다.\n"
 " | 69          | TCP/UDP  | TFTP    | 자동 클라이언트 설치를 위해 서버가 PXE로 사용될 때 필요합니다.\n"
-" | 443         | TCP      | HTTPS   | {webui}, 클라이언트 및 프록시 요청입니다.\n"
+" | 443         | TCP      | HTTPS   | {webui}, 클라이언트, 서버 및 프록시(``tftpsync``) "
+"요청입니다.\n"
 " | 4505        | TCP      | salt    | 클라이언트로부터의 통신 요청을 수락하기 위해 필요합니다.\n"
 " 클라이언트가 연결을 시작하며, Salt 마스터로부터 명령을 수신하기 위해 열려 있는 상태를 유지합니다.\n"
 " | 4506        | TCP      | salt    | 클라이언트로부터의 통신 요청을 수락하기 위해 필요합니다.\n"
@@ -3836,9 +3756,8 @@ msgid ""
 "clients and perform updates.  In most cases, allowing access to these URLs "
 "is sufficient:"
 msgstr ""
-"{productname}에서 클라이언트를 등록하고 업데이트를 수행하기 위해 액세스할 수 "
-"있어야 하는 URL이 몇 개 있습니다.  대부분의 경우에는 해당 URL에 대한 액세스"
-"를 허용하는 것으로 충분합니다."
+"{productname}에서 클라이언트를 등록하고 업데이트를 수행하기 위해 액세스할 수 있어야 하는 URL이 몇 개 있습니다.  대부분의 "
+"경우에는 해당 URL에 대한 액세스를 허용하는 것으로 충분합니다."
 
 #. type: Plain text
 #: modules/installation/pages/ports.adoc:40
@@ -3885,44 +3804,34 @@ msgid ""
 "installed with the Unified Installer and registered to {productname} using "
 "bootstrap script or GUI."
 msgstr ""
+"기존 프록시를 Salt 프록시로 마이그레이션할 수 없습니다. {productname} Proxy 시스템은 통합 설치 프로그램으로 설치하고 "
+"부트스트랩 스크립트 또는 GUI를 사용하여 {productname}에 등록해야 하는 Salt 또는 기존 클라이언트입니다."
 
 #. For more information about reinstalling proxies, see xref:installation:proxy-setup.adoc#replace-susemgrproxy[].
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:3
-#, fuzzy
-#| msgid ""
-#| "For more information about the setup wizard, see xref:installation:setup-"
-#| "wizard.adoc[]."
 msgid ""
 "For more information about reinstalling proxies, see xref:installation:proxy-"
 "setup.adoc[]."
-msgstr ""
-"설정 마법사에 대한 자세한 내용은 xref:installation:setup-wizard.adoc[]을 참조"
-"하십시오."
+msgstr "프록시 재설치에 대한 자세한 내용은 xref:installation:proxy-setup.adoc[]에서 참조하십시오."
 
 #. type: delimited block =
 #: modules/installation/pages/proxy-registration.adoc:4
-#, fuzzy
-#| msgid ""
-#| "If you want to change a traditional proxy to a Salt proxy, you need to "
-#| "reinstall the proxy.  For more information about reinstalling proxies, "
-#| "see xref:installation:proxy-setup.adoc#replace-susemgrproxy[]."
 msgid ""
 "Migrating a traditional proxy to a Salt proxy is not possible.  If you want "
 "to change a traditional proxy to a Salt proxy, you need to reinstall the "
 "proxy.  For more information about reinstalling proxies, see xref:"
 "installation:proxy-setup.adoc[]."
 msgstr ""
-"기존 프록시를 Salt 프록시로 변경하려면 프록시를 다시 설치해야 합니다. 프록시 "
-"재설치에 대한 자세한 내용은 xref:installation:proxy-setup.adoc#replace-"
-"susemgrproxy[]를 참조하십시오."
+"기존 프록시를 Salt 프록시로 마이그레이션할 수 없습니다.  기존 프록시를 Salt 프록시로 변경하려면 프록시를 재설치해야 합니다. "
+"프록시 재설치에 대한 자세한 내용은 xref:installation:proxy-setup.adoc[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:5
 msgid ""
 "After the Salt client is succesfully bootstrapped, it needs to be configured "
 "as a`{productname} Proxy."
-msgstr ""
+msgstr "Salt 클라이언트를 부트스트랩한 후에는{productname} Proxy로 구성해야 합니다."
 
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:6
@@ -3995,9 +3904,7 @@ msgstr "proxy-key.png"
 msgid ""
 "From the [guimenu]``Child Channels`` listing select the recommended channels "
 "by clicking the ``include recommended`` icon:"
-msgstr ""
-"[guimenu]``하위 채널`` 목록에서 ``권장에 포함`` 아이콘을 클릭하여 권장 채널"
-"을 선택합니다."
+msgstr "[guimenu]``하위 채널`` 목록에서 ``권장에 포함`` 아이콘을 클릭하여 권장 채널을 선택합니다."
 
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:14
@@ -4199,8 +4106,8 @@ msgid ""
 "As root, enter the following commands on the proxy using your {productname} "
 "Server or parent Proxy (named [replaceable]``PARENT``):"
 msgstr ""
-"root로 {productname} 서버 또는 상위 프록시(이름: [replaceable]``PARENT``)를 "
-"사용하여 프록시에서 다음 명령을 입력합니다."
+"root로 {productname} 서버 또는 상위 프록시(이름: [replaceable]``PARENT``)를 사용하여 프록시에서 다음 "
+"명령을 입력합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/proxy-setup.adoc:9
@@ -4258,9 +4165,8 @@ msgid ""
 "values provided between brackets ``[]``.  Here is some information about the "
 "requested settings:"
 msgstr ""
-"대화형 [command]``configure-proxy.sh`` 스크립트를 실행합니다.  추가적으로 입"
-"력하지 않고 kbd:[Enter]를 눌러 스크립트가 괄호 ``[]`` 사이에 입력된 기본값을 "
-"사용하도록 합니다.  요청되는 설정에 대한 정보는 다음과 같습니다."
+"대화형 [command]``configure-proxy.sh`` 스크립트를 실행합니다.  추가적으로 입력하지 않고 kbd:[Enter]를 "
+"눌러 스크립트가 괄호 ``[]`` 사이에 입력된 기본값을 사용하도록 합니다.  요청되는 설정에 대한 정보는 다음과 같습니다."
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:14
@@ -4414,8 +4320,8 @@ msgid ""
 "The country code must be two upper case letters.  For a complete list of "
 "country codes, see https://www.iso.org/obp/ui/#search."
 msgstr ""
-"국가 코드는 대문자 2자여야 합니다.  전체 국가 코드 목록은 https://www.iso."
-"org/obp/ui/#search를 참조하십시오."
+"국가 코드는 대문자 2자여야 합니다.  전체 국가 코드 목록은 link:https://www.iso.org/obp/ui/#search[]"
+"를 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation/pages/proxy-setup.adoc:34
@@ -4562,9 +4468,7 @@ msgstr ""
 msgid ""
 "On the {productname} Proxy, install the [package]``susemanager-tftpsync-"
 "recv`` package:"
-msgstr ""
-"{productname} 프록시에 [package]``susemanager-tftpsync-recv`` 패키지를 설치합"
-"니다."
+msgstr "{productname} 프록시에 [package]``susemanager-tftpsync-recv`` 패키지를 설치합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/proxy-setup.adoc:51
@@ -4580,8 +4484,8 @@ msgid ""
 "On the {productname} Proxy, run the [command]``configure-tftpsync.sh`` setup "
 "script and enter the requested information:"
 msgstr ""
-"{productname} 프록시에서 [command]``configure-tftpsync.sh`` 설정 스크립트를 "
-"실행한 후 요청되는 정보를 입력합니다."
+"{productname} 프록시에서 [command]``configure-tftpsync.sh`` 설정 스크립트를 실행한 후 요청되는 "
+"정보를 입력합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/proxy-setup.adoc:53
@@ -4677,10 +4581,9 @@ msgid ""
 "{productname} Proxy using DHCP.  Use this DHCP configuration for the zone "
 "that contains the clients to be provisioned:"
 msgstr ""
-"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다.  기본"
-"적으로 PXE(tftp)가 설치되고 활성화됩니다.  클라이언트가 DHCP를 사용하여 "
-"{productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다.  프로비저닝할 클라"
-"이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
+"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다.  기본적으로 PXE(tftp)가 설치되고 "
+"활성화됩니다.  클라이언트가 DHCP를 사용하여 {productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다.  프로비저닝할 "
+"클라이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
 
 #. type: delimited block -
 #: modules/installation/pages/proxy-setup.adoc:65
@@ -4961,7 +4864,7 @@ msgstr ""
 #: modules/installation/pages/proxy-setup.adoc:105
 #, no-wrap
 msgid "Serving big files"
-msgstr ""
+msgstr "대용량 파일 제공"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:106
@@ -4970,11 +4873,13 @@ msgid ""
 "through the proxy.  On the PROXY_HOSTNAME system, copy the big files to the "
 "[path]``/srv/www/htdocs/pub`` directory."
 msgstr ""
+"ISO 이미지 등의 대용량 파일을 프록시를 통해 네트워크에 배포해야 하는 경우, PROXY_HOSTNAME 시스템에서 대용량 파일을 "
+"[path]``/srv/www/htdocs/pub`` 디렉토리로 복사합니다."
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:107
 msgid "Then, files can be downloaded from http://PROXY_HOSTNAME/pub."
-msgstr ""
+msgstr "그 후에는 link:http://PROXY_HOSTNAME/pub[]에서 파일을 다운로드할 수 있습니다."
 
 #. type: Title =
 #: modules/installation/pages/pubcloud-requirements.adoc:1
@@ -5183,8 +5088,7 @@ msgid ""
 "When you launch your instance, you can log in to the {productname} Server "
 "and use this command to find all available storage devices:"
 msgstr ""
-"인스턴스를 시작할 때 {productname} 서버에 로그인하고 이 명령을 사용하여 사용 "
-"가능한 모든 스토리지 장치를 찾을 수 있습니다."
+"인스턴스를 시작할 때 {productname} 서버에 로그인하고 이 명령을 사용하여 사용 가능한 모든 스토리지 장치를 찾을 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-requirements.adoc:23
@@ -5205,8 +5109,7 @@ msgid ""
 "uses it as the location for the database and repositories:"
 msgstr ""
 "[command]``suma-storage `` 명령어로 외부 디스크를 설정할 수 있습니다. 이렇게 "
-"하면``/manager_storage``에 마운트된 XFS 파티션이 생성되고 이를 데이터베이스 "
-"및 리포지토리의 위치로 사용합니다."
+"하면``/manager_storage``에 마운트된 XFS 파티션이 생성되고 이를 데이터베이스 및 리포지토리의 위치로 사용합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/pubcloud-requirements.adoc:25
@@ -5255,9 +5158,7 @@ msgstr ""
 msgid ""
 "Follow the cloud providers instructions to SSH into the instance, and run "
 "this command to start set up:"
-msgstr ""
-"클라우드 제공자의 지침에 따라 SSH를 통해 인스턴스에 연결한 후 다음 명령을 실"
-"행하여 설정을 시작하십시오."
+msgstr "클라우드 제공자의 지침에 따라 SSH를 통해 인스턴스에 연결한 후 다음 명령을 실행하여 설정을 시작하십시오."
 
 #. type: delimited block -
 #: modules/installation/pages/pubcloud-setup.adoc:5
@@ -5342,8 +5243,7 @@ msgstr "SUSEConnect -p sle-module-public-cloud/15.3/x86_64\n"
 #. type: Plain text
 #: modules/installation/pages/pubcloud-setup.adoc:18
 msgid "For {productname} Server on a public cloud, the expected modules are:"
-msgstr ""
-"공용 클라우드의 {productname} 서버에서 예상되는 모듈은 다음과 같습니다."
+msgstr "공용 클라우드의 {productname} 서버에서 예상되는 모듈은 다음과 같습니다."
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-setup.adoc:24
@@ -5361,8 +5261,7 @@ msgstr "{webui}에서 설정을 완료합니다."
 msgid ""
 "Open the {productname} {webui} with a web browser, using an address like "
 "this:"
-msgstr ""
-"다음과 같은 주소를 사용하여 웹 브라우저에서 {productname} {webui}를 엽니다."
+msgstr "다음과 같은 주소를 사용하여 웹 브라우저에서 {productname} {webui}를 엽니다."
 
 #. type: delimited block -
 #: modules/installation/pages/pubcloud-setup.adoc:27
@@ -5404,9 +5303,7 @@ msgstr ""
 msgid ""
 "You can retrieve the instance name or ID from the public cloud instance web "
 "console, or from the command prompt:"
-msgstr ""
-"인스턴스 이름 또는 ID는 공용 클라우드 인스턴스 웹 콘솔 또는 명령 프롬프트에"
-"서 검색할 수 있습니다."
+msgstr "인스턴스 이름 또는 ID는 공용 클라우드 인스턴스 웹 콘솔 또는 명령 프롬프트에서 검색할 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-setup.adoc:32
@@ -5551,8 +5448,7 @@ msgstr "SUSE Manager 서버 설정"
 #: modules/installation/pages/server-setup.adoc:2
 #: modules/installation/pages/uyuni-server-setup.adoc:2
 msgid "This section covers {productname} Server setup, using these procedures:"
-msgstr ""
-"이 섹션에서는 다음 절차를 사용한 {productname} 서버 설정에 대해 설명합니다."
+msgstr "이 섹션에서는 다음 절차를 사용한 {productname} 서버 설정에 대해 설명합니다."
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:3
@@ -5891,10 +5787,9 @@ msgid ""
 "give you access to the SUSE product downloads.  You will find your "
 "organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"소프트웨어 저장소를 SCC와 동기화하기 전에 {susemgr}에 조직 자격 증명을 입력해"
-"야 합니다. 이전 버전에서는 미러 자격 증명이 대신 사용되었습니다. 조직 자격 증"
-"명을 통해 SUSE 제품 다운로드에 액세스할 수 있습니다. https://scc.suse.com/"
-"organizations에서 조직 자격 증명을 찾을 수 있습니다."
+"소프트웨어 저장소를 SCC와 동기화하기 전에 {susemgr}에 조직 자격 증명을 입력해야 합니다. 이전 버전에서는 미러 자격 증명이 "
+"대신 사용되었습니다. 조직 자격 증명을 통해 SUSE 제품 다운로드에 액세스할 수 있습니다. link:https://scc.suse."
+"com/organizations[]에서 조직 자격 증명을 찾을 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:46
@@ -6056,17 +5951,18 @@ msgid ""
 "etc/default/grub`` and added to the line "
 "[option]``GRUB_CMDLINE_LINUX_DEFAULT``, for example:"
 msgstr ""
-"_Transparant Huge Pages_ 를 비활성화하려면 [option]``transparent_hugepage`` "
-"커널 파라미터를 [option]``안 함``으로 설정합니다. 변경은 [path]``/etc/"
-"default/grub``에서 수행되고 [option]``GRUB_CMDLINE_LINUX_DEFAULT`` 라인에 추"
-"가되어야 하며, 그러한 예는 다음과 같습니다."
+"_Transparant Huge Pages_ 를 비활성화하려면 [option]``transparent_hugepage`` 커널 파라미터를 "
+"[option]``안 함``으로 설정합니다. 변경은 [path]``/etc/default/grub``에서 수행되고 "
+"[option]``GRUB_CMDLINE_LINUX_DEFAULT`` 라인에 추가되어야 하며, 그러한 예는 다음과 같습니다."
 
 #. type: delimited block -
 #: modules/installation/pages/server-setup.adoc:66
 #: modules/installation/pages/uyuni-server-setup.adoc:62
 #, no-wrap
 msgid "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
-msgstr "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
+msgstr ""
+"GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts "
+"elevator=noop transparent_hugepage=never\"\n"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:67
@@ -6085,8 +5981,8 @@ msgid ""
 "Monitor the channel synchronization process in real-time by viewing channel "
 "log files located in the directory [path]``/var/log/rhn/reposync``:"
 msgstr ""
-"[path]``/var/log/rhn/reposync`` 디렉토리의 채널 로그 파일을 검토하여 채널 동"
-"기화 진행 상황을 실시간으로 모니터링합니다."
+"[path]``/var/log/rhn/reposync`` 디렉토리의 채널 로그 파일을 검토하여 채널 동기화 진행 상황을 실시간으로 "
+"모니터링합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/server-setup.adoc:69
@@ -6213,10 +6109,8 @@ msgid ""
 "shown for the user you have granted access to.  Use these buttons on the "
 "card to edit or revoke access:"
 msgstr ""
-"btn:[새 인증서 추가]를 클릭하고 액세스 권한을 부여할 사용자의 사용자 이름 및 "
-"암호를 입력한 후 btn:[저장]을 클릭합니다.  액세스 권한을 부여한 사용자를 위"
-"한 새 인증서 카드가 표시됩니다. 카드에서 이 버튼을 사용하여 액세스를 수정하거"
-"나 철회합니다."
+"btn:[새 인증서 추가]를 클릭하고 액세스 권한을 부여할 사용자의 사용자 이름 및 암호를 입력한 후 btn:[저장]을 클릭합니다.  "
+"액세스 권한을 부여한 사용자를 위한 새 인증서 카드가 표시됩니다. 카드에서 이 버튼을 사용하여 액세스를 수정하거나 철회합니다."
 
 #. type: Plain text
 #: modules/installation/pages/setup-wizard.adoc:12
@@ -6441,8 +6335,8 @@ msgid ""
 "[command]``spacewalk-common-channels`` is part of the [package]``spacewalk-"
 "utils`` package:"
 msgstr ""
-"[command]``spacewalk-common-channels``는 [package]``spacewalk-utils`` 패키지"
-"의 일부입니다."
+"[command]``spacewalk-common-channels``는 [package]``spacewalk-utils`` 패키지의 "
+"일부입니다."
 
 #. type: delimited block -
 #: modules/installation/pages/uyuni-proxy-registration.adoc:8
@@ -6623,10 +6517,9 @@ msgid ""
 "{productname} Proxy using DHCP.  Use this DHCP configuration for the zone "
 "which contains the clients to be provisioned:"
 msgstr ""
-"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다. 기본적"
-"으로 PXE(tftp)가 설치되고 활성화됩니다.  클라이언트는 DHCP를 사용하여 "
-"{productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다. 프로비저닝할 클라"
-"이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
+"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다. 기본적으로 PXE(tftp)가 설치되고 "
+"활성화됩니다.  클라이언트는 DHCP를 사용하여 {productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다. 프로비저닝할 "
+"클라이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-proxy-setup.adoc:70
@@ -6903,9 +6796,9 @@ msgid ""
 "credentials give you access to the {suse} product downloads.  You will find "
 "your organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"소프트웨어 리포지토리를 SCC와 동기화하기 전, {productname}에 조직 인증서를 입"
-"력해야 합니다. 조직 인증서를 통해 {suse} 제품 다운로드에 액세스할 수 있습니"
-"다. https://scc.suse.com/organizations에서 조직 인증서는 찾을 수 있습니다."
+"소프트웨어 리포지토리를 SCC와 동기화하기 전, {productname}에 조직 인증서를 입력해야 합니다. 조직 인증서를 통해 {suse}"
+" 제품 다운로드에 액세스할 수 있습니다. link:https://scc.suse.com/organizations[]에서 조직 인증서는 "
+"찾을 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-server-setup.adoc:43
@@ -7042,10 +6935,8 @@ msgid ""
 "menu:Systems[System Details] section for that client.  From this page, you "
 "can apply any required updates."
 msgstr ""
-"[guimenu]``가장 중요한 시스템`` 창은 소프트웨어 업데이트가 필요한 모든 클라이"
-"언트를 보여줍니다.  목록에서 클라이언트 이름을 클릭하면 해당 클라이언트의 "
-"menu:시스템[시스템 정보] 섹션으로 이동합니다. 이 페이지에서 필수 업데이트를 "
-"적용할 수 있습니다."
+"[guimenu]``가장 중요한 시스템`` 창은 소프트웨어 업데이트가 필요한 모든 클라이언트를 보여줍니다.  목록에서 클라이언트 이름을 "
+"클릭하면 해당 클라이언트의 menu:시스템[시스템 정보] 섹션으로 이동합니다. 이 페이지에서 필수 업데이트를 적용할 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/webui-setup.adoc:9
@@ -7084,9 +6975,8 @@ msgid ""
 "registered in the past thirty days.  Click the name of a client in the list "
 "to be taken to the menu:Systems[System Details] section for that client."
 msgstr ""
-"[guimenu]``최근 등록된 시스템`` 창은 최근 30일 이내에 등록한 모든 클라이언트"
-"를 보여줍니다.  목록에서 클라이언트 이름을 클릭하면 해당 클라이언트의 menu:시"
-"스템[시스템 정보] 섹션으로 이동합니다."
+"[guimenu]``최근 등록된 시스템`` 창은 최근 30일 이내에 등록한 모든 클라이언트를 보여줍니다.  목록에서 클라이언트 이름을 "
+"클릭하면 해당 클라이언트의 menu:시스템[시스템 정보] 섹션으로 이동합니다."
 
 #. type: Title ==
 #: modules/installation/pages/webui-setup.adoc:13
@@ -7181,11 +7071,9 @@ msgid ""
 "For more information about the system set manager, see xref:client-"
 "configuration:system-set-manager.adoc[]."
 msgstr ""
-"선택한 시스템 아이콘은 현재 선택한 시스템의 수를 원 안에 표시합니다.  선택한 "
-"시스템 아이콘을 클릭하여 menu:시스템[시스템 세트 관리자 > 개요]로 이동합니"
-"다.  지우개 아이콘을 클릭하여 모든 시스템의 선택을 취소합니다.   시스템 세트 "
-"관리자에 대한 자세한 내용은 xref:client-configuration:system-set-manager."
-"adoc[]에서 참조하십시오."
+"선택한 시스템 아이콘은 현재 선택한 시스템의 수를 원 안에 표시합니다.  선택한 시스템 아이콘을 클릭하여 menu:시스템[시스템 세트 "
+"관리자 > 개요]로 이동합니다.  지우개 아이콘을 클릭하여 모든 시스템의 선택을 취소합니다.   시스템 세트 관리자에 대한 자세한 내용은 "
+"xref:client-configuration:system-set-manager.adoc[]에서 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation/pages/webui-setup.adoc:25
@@ -7246,10 +7134,8 @@ msgid ""
 "indexed and appear in search results.  If you need to force a rebuild of the "
 "search index, use this command at the command prompt:"
 msgstr ""
-"배포를 추가하거나 채널을 새로 동기화하거나 {productname} 서버에 시스템을 등록"
-"하는 경우 색인이 생성되고 검색 결과에 표시되는 데 몇 분 정도 걸릴 수 있습니"
-"다. 검색 색인을 강제로 다시 작성해야하는 경우 명령 프롬프트에서 다음 명령을 "
-"사용하십시오."
+"배포를 추가하거나 채널을 새로 동기화하거나 {productname} 서버에 시스템을 등록하는 경우 색인이 생성되고 검색 결과에 표시되는 "
+"데 몇 분 정도 걸릴 수 있습니다. 검색 색인을 강제로 다시 작성해야하는 경우 명령 프롬프트에서 다음 명령을 사용하십시오."
 
 #. type: delimited block -
 #: modules/installation/pages/webui-setup.adoc:34
@@ -7495,9 +7381,6 @@ msgstr ""
 "스를 다시 시작하십시오. 인터넷 연결 속도가 느리거나 한 번에 여러 클라이언트에"
 "서 정기적으로 작업을 수행하는 경우 이 설정을 더 높은 숫자로 변경하면 유용할 "
 "수 있습니다."
-
-#~ msgid "Installation Guide: {productname} {productnumber}"
-#~ msgstr "설치 안내서: {productname} {productnumber}"
 
 #~ msgid ""
 #~ "{susemgr} Proxy is a {suse} product within the {sle} product family.  "
