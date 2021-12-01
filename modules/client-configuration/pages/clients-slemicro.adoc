@@ -1,4 +1,4 @@
-[clients-slemicro]]
+[[clients-slemicro]]
 = Registering {micro} Clients
 
 This section contains information about registering clients running these {nbsp}{micro} operating systems:
