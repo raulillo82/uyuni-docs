@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-30 17:03+0000\n"
+"POT-Creation-Date: 2021-12-01 11:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -223,12 +223,12 @@ msgstr ""
 msgid "xref:clients-slemicro.adoc[SLE Micro Clients]"
 msgstr ""
 
+#.  Alibaba Cloud Linux Client Registration
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:41
 msgid "xref:clients-microos.adoc[openSUSE MicroOS]"
 msgstr ""
 
-#.  Alibaba Cloud Linux Client Registration
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:42
 msgid ""
