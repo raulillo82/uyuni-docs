@@ -3084,6 +3084,22 @@ msgstr ""
 "니다.  데이터베이스 업그레이드에 대한 자세한 정보는 xref:upgrade:db-intro."
 "adoc[]에서 참조하십시오."
 
+#, no-wrap
+#~ msgid "Upgrade Guide: {productname} {productnumber}"
+#~ msgstr "업그레이드 가이드: {productname} {productnumber}"
+
+#, no-wrap
+#~ msgid ""
+#~ "  This command only applies patches.\n"
+#~ "  To apply all outstanding updates, use [command]``zypper up`` instead.\n"
+#~ msgstr ""
+#~ "  이 명령은 패치에만 적용됩니다.\n"
+#~ "  적용되지 않은 모든 업데이트를 적용하려면 [command]``zypper up``을 대신 사용합니다.\n"
+
+#, no-wrap
+#~ msgid "Restart the spacewalk services:\n"
+#~ msgstr "Spacewalk 서비스를 재시작합니다.\n"
+
 #~ msgid ""
 #~ "In case of upgrading from {productname} 4.0 to 4.2, ensure you do not "
 #~ "have any unpublished packages.  Check for unpublished packages by "

@@ -3154,6 +3154,22 @@ msgstr ""
 "をアップグレードする必要があります。  データベースのアップグレードの詳細につ"
 "いては、xref:upgrade:db-intro.adoc[]を参照してください。"
 
+#, no-wrap
+#~ msgid "Upgrade Guide: {productname} {productnumber}"
+#~ msgstr "アップグレードガイド: {productname} {productnumber}"
+
+#, no-wrap
+#~ msgid ""
+#~ "  This command only applies patches.\n"
+#~ "  To apply all outstanding updates, use [command]``zypper up`` instead.\n"
+#~ msgstr ""
+#~ "  このコマンドはパッチを適用するだけです。\n"
+#~ "  未適用の更新をすべて更新するには、代わりに[command]``zypper up``を使用します。\n"
+
+#, no-wrap
+#~ msgid "Restart the spacewalk services:\n"
+#~ msgstr "spacewalkサービスを再起動します。\n"
+
 #~ msgid ""
 #~ "In case of upgrading from {productname} 4.0 to 4.2, ensure you do not "
 #~ "have any unpublished packages.  Check for unpublished packages by "

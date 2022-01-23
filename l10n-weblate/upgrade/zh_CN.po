@@ -2943,6 +2943,22 @@ msgstr ""
 "除了升级服务器外，还需升级其他底层技术，包括数据库。  有关升级数据库的详细信"
 "息，请参见 xref:upgrade:db-intro.adoc[]。"
 
+#, no-wrap
+#~ msgid "Upgrade Guide: {productname} {productnumber}"
+#~ msgstr "升级指南: {productname} {productnumber}"
+
+#, no-wrap
+#~ msgid ""
+#~ "  This command only applies patches.\n"
+#~ "  To apply all outstanding updates, use [command]``zypper up`` instead.\n"
+#~ msgstr ""
+#~ "  此命令仅会应用补丁。\n"
+#~ "  要应用所有未进行的更新，可使用 [command]``zypper up``。\n"
+
+#, no-wrap
+#~ msgid "Restart the spacewalk services:\n"
+#~ msgstr "重启动 spacewalk 服务：\n"
+
 #~ msgid ""
 #~ "In case of upgrading from {productname} 4.0 to 4.2, ensure you do not "
 #~ "have any unpublished packages.  Check for unpublished packages by "
