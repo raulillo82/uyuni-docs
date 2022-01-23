@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
-"POT-Creation-Date: 2021-11-30 17:03+0000\n"
+"POT-Creation-Date: 2022-01-23 16:13+0000\n"
 "PO-Revision-Date: 2021-11-16 11:14+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -2105,7 +2105,6 @@ msgstr ""
 "新旨在修复 Bug 并改进功能，有时也包含一些新功能。"
 
 #.  It is recommended to install them in due time.
-#.  In general, these steps are required:
 #. type: Plain text
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:4
 msgid ""
@@ -2943,11 +2942,9 @@ msgstr ""
 "除了升级服务器外，还需升级其他底层技术，包括数据库。  有关升级数据库的详细信"
 "息，请参见 xref:upgrade:db-intro.adoc[]。"
 
-#, no-wrap
 #~ msgid "Upgrade Guide: {productname} {productnumber}"
 #~ msgstr "升级指南: {productname} {productnumber}"
 
-#, no-wrap
 #~ msgid ""
 #~ "  This command only applies patches.\n"
 #~ "  To apply all outstanding updates, use [command]``zypper up`` instead.\n"
@@ -2955,7 +2952,6 @@ msgstr ""
 #~ "  此命令仅会应用补丁。\n"
 #~ "  要应用所有未进行的更新，可使用 [command]``zypper up``。\n"
 
-#, no-wrap
 #~ msgid "Restart the spacewalk services:\n"
 #~ msgstr "重启动 spacewalk 服务：\n"
 

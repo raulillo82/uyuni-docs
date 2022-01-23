@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
-"POT-Creation-Date: 2021-11-30 17:03+0000\n"
+"POT-Creation-Date: 2022-01-23 16:13+0000\n"
 "PO-Revision-Date: 2021-11-18 02:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/docs-"
@@ -2259,7 +2259,6 @@ msgstr ""
 "入する場合もあります。"
 
 #.  It is recommended to install them in due time.
-#.  In general, these steps are required:
 #. type: Plain text
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:4
 msgid ""
@@ -3154,11 +3153,9 @@ msgstr ""
 "をアップグレードする必要があります。  データベースのアップグレードの詳細につ"
 "いては、xref:upgrade:db-intro.adoc[]を参照してください。"
 
-#, no-wrap
 #~ msgid "Upgrade Guide: {productname} {productnumber}"
 #~ msgstr "アップグレードガイド: {productname} {productnumber}"
 
-#, no-wrap
 #~ msgid ""
 #~ "  This command only applies patches.\n"
 #~ "  To apply all outstanding updates, use [command]``zypper up`` instead.\n"
@@ -3166,7 +3163,6 @@ msgstr ""
 #~ "  このコマンドはパッチを適用するだけです。\n"
 #~ "  未適用の更新をすべて更新するには、代わりに[command]``zypper up``を使用します。\n"
 
-#, no-wrap
 #~ msgid "Restart the spacewalk services:\n"
 #~ msgstr "spacewalkサービスを再起動します。\n"
 

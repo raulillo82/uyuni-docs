@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
-"POT-Creation-Date: 2021-11-30 17:03+0000\n"
+"POT-Creation-Date: 2022-01-23 16:13+0000\n"
 "PO-Revision-Date: 2021-11-24 13:09+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/docs-upgrade-"
@@ -2198,7 +2198,6 @@ msgstr ""
 "종 제공됩니다."
 
 #.  It is recommended to install them in due time.
-#.  In general, these steps are required:
 #. type: Plain text
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:4
 msgid ""
@@ -3084,11 +3083,9 @@ msgstr ""
 "니다.  데이터베이스 업그레이드에 대한 자세한 정보는 xref:upgrade:db-intro."
 "adoc[]에서 참조하십시오."
 
-#, no-wrap
 #~ msgid "Upgrade Guide: {productname} {productnumber}"
 #~ msgstr "업그레이드 가이드: {productname} {productnumber}"
 
-#, no-wrap
 #~ msgid ""
 #~ "  This command only applies patches.\n"
 #~ "  To apply all outstanding updates, use [command]``zypper up`` instead.\n"
@@ -3096,7 +3093,6 @@ msgstr ""
 #~ "  이 명령은 패치에만 적용됩니다.\n"
 #~ "  적용되지 않은 모든 업데이트를 적용하려면 [command]``zypper up``을 대신 사용합니다.\n"
 
-#, no-wrap
 #~ msgid "Restart the spacewalk services:\n"
 #~ msgstr "Spacewalk 서비스를 재시작합니다.\n"
 

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-30 17:03+0000\n"
+"POT-Creation-Date: 2022-01-23 16:13+0000\n"
 "PO-Revision-Date: 2021-11-24 15:15+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -2046,6 +2046,7 @@ msgid ""
 "adjust the boot order in the BIOS."
 msgstr "要从安装媒体引导统一安装程序，可能需要在 BIOS 中调整引导顺序。"
 
+#.  image::unifiedinstaller-install.png[scaledwidth=80%] (this image is with server selected.
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:14
 msgid ""
@@ -7467,7 +7468,6 @@ msgstr ""
 "置默认超时值。请在更改此参数后重启动 tomcat 服务。如果您的因特网连接速度很"
 "慢，或者经常一次对很多客户端执行操作，将此设置更改为更高的数值可能会有帮助。"
 
-#, no-wrap
 #~ msgid "Installation Guide: {productname} {productnumber}"
 #~ msgstr "安装指南: {productname} {productnumber}"
 
@@ -7483,7 +7483,6 @@ msgstr ""
 #~ "com/lifecycle[]。对于非 {suse} 操作系统，包括 {rhel}、{centos} 和 "
 #~ "{oracle}，只有最新可用版本才享受标准支持。"
 
-#, no-wrap
 #~ msgid ""
 #~ "| Operating System\n"
 #~ "| Architecture\n"
@@ -7657,7 +7656,6 @@ msgstr ""
 #~ "有关安装 {sles} 的详细信息，请参见 https://documentation.suse.com/sles/15-"
 #~ "SP3/html/SLES-all/art-sle-installquick.html[]。"
 
-#, no-wrap
 #~ msgid ""
 #~ "SUSEConnect -e <EMAIL_ADDRESS> -r <SUSE_MANAGER_PROXY_CODE> \\\n"
 #~ "  -p SUSE-Manager-Proxy/<productversion>/<architecture>\n"

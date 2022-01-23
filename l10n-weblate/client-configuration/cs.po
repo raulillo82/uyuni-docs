@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-01 11:05+0000\n"
+"POT-Creation-Date: 2022-01-23 16:13+0000\n"
 "PO-Revision-Date: 2021-10-21 17:54+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/uyuni/docs-client-"
@@ -20095,10 +20095,8 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:43
-msgid ""
-"This is the directory that the ``skuba`` service creates after the cluster "
-"has been bootstrapped. Take a note of the new file location for adding the "
-"cluster in the {productname} {webui}."
+#, no-wrap
+msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
 msgstr ""
 
 #. type: Plain text
@@ -21727,15 +21725,16 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:18
+#, no-wrap
 msgid ""
-"This is the directory that the ``skuba`` service creates after the cluster "
-"has been bootstrapped.  Take a note of the new file location for adding the "
-"cluster in the {productname} {webui}."
+"This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped.\n"
+"Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
 msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:19
-msgid "Provide a way to authenticate."
+#, no-wrap
+msgid "Provide a way to authenticate.\n"
 msgstr ""
 
 #. type: Plain text

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-30 17:03+0000\n"
+"POT-Creation-Date: 2022-01-23 16:13+0000\n"
 "PO-Revision-Date: 2021-11-24 10:05+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/docs-"
@@ -2131,6 +2131,7 @@ msgstr ""
 "インストールイメージからUnified Installerを起動するには、BIOSで起動順序を調整"
 "する必要がある場合があります。"
 
+#.  image::unifiedinstaller-install.png[scaledwidth=80%] (this image is with server selected.
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:14
 msgid ""
@@ -7934,7 +7935,6 @@ msgstr ""
 "クライアントで定期的に同時にアクションを実行する場合、この設定を大きい数値に"
 "変更すると有効な場合があります。"
 
-#, no-wrap
 #~ msgid "Installation Guide: {productname} {productnumber}"
 #~ msgstr "インストールガイド: {productname} {productnumber}"
 
@@ -7952,7 +7952,6 @@ msgstr ""
 #~ "{suse}以外のオペレーティングシステムでは、利用できる最新バージョンのみが全"
 #~ "般的にサポートされます。"
 
-#, no-wrap
 #~ msgid ""
 #~ "| Operating System\n"
 #~ "| Architecture\n"
@@ -8130,7 +8129,6 @@ msgstr ""
 #~ "{sles}のインストールの詳細については、 https://documentation.suse.com/"
 #~ "sles/15-SP3/html/SLES-all/article-installation.html[]を参照してください。"
 
-#, no-wrap
 #~ msgid ""
 #~ "SUSEConnect -e <EMAIL_ADDRESS> -r <SUSE_MANAGER_PROXY_CODE> \\\n"
 #~ "  -p SUSE-Manager-Proxy/<productversion>/<architecture>\n"
