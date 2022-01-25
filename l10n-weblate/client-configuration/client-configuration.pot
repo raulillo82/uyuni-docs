@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-30 10:15+0000\n"
+"POT-Creation-Date: 2022-01-25 18:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19088,10 +19088,11 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:43
+#, no-wrap
 msgid ""
 "This is the directory that the ``skuba`` service creates after the cluster "
 "has been bootstrapped. Take a note of the new file location for adding the "
-"cluster in the {productname} {webui}."
+"cluster in the {productname} {webui}.\n"
 msgstr ""
 
 #. type: Plain text
@@ -20718,15 +20719,18 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:18
+#, no-wrap
 msgid ""
 "This is the directory that the ``skuba`` service creates after the cluster "
-"has been bootstrapped.  Take a note of the new file location for adding the "
-"cluster in the {productname} {webui}."
+"has been bootstrapped.\n"
+"Take a note of the new file location for adding the cluster in the "
+"{productname} {webui}.\n"
 msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:19
-msgid "Provide a way to authenticate."
+#, no-wrap
+msgid "Provide a way to authenticate.\n"
 msgstr ""
 
 #. type: Plain text

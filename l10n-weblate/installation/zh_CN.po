@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-30 10:15+0000\n"
+"POT-Creation-Date: 2022-01-25 18:14+0000\n"
 "PO-Revision-Date: 2021-11-24 17:15+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -326,8 +326,8 @@ msgid ""
 "{aarch64}"
 msgstr ""
 "| {almalinux} 8 | {x86_64}、{aarch64} | {cross} | {check} | {amazon} 2 | "
-"{x86_64}、{aarch64} | {cross} | {check} | {centos} 8 | "
-"{x86_64}、{ppc64le}、{aarch64}"
+"{x86_64}、{aarch64} | {cross} | {check} | {centos} 8 | {x86_64}、{ppc64le}、"
+"{aarch64}"
 
 #. type: Table
 #: modules/installation/pages/client-requirements.adoc:8
@@ -1729,6 +1729,7 @@ msgid ""
 "adjust the boot order in the BIOS."
 msgstr "要从安装媒体引导统一安装程序，可能需要在 BIOS 中调整引导顺序。"
 
+#.  image::unifiedinstaller-install.png[scaledwidth=80%] (this image is with server selected.
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:14
 msgid ""
@@ -2873,8 +2874,8 @@ msgid ""
 "In the following table replace _version_ with the actual product version "
 "string.  Find the JeOS image at https://download.suse.com/."
 msgstr ""
-"在下表中，请将 _version_ 替换为实际产品版本字符串。在 link:https://download.suse.com/[]上找到 JeOS "
-"映像。"
+"在下表中，请将 _version_ 替换为实际产品版本字符串。在 link:https://download."
+"suse.com/[]上找到 JeOS 映像。"
 
 #. type: Table
 #: modules/installation/pages/install-vm.adoc:7
@@ -3846,7 +3847,8 @@ msgid ""
 "For more information about bootstrap scripts, see xref:client-configuration:"
 "registration-bootstrap.adoc[]."
 msgstr ""
-"有关引导脚本的详细信息，请参见 xref:client-configuration:registration-bootstrap.adoc[]。"
+"有关引导脚本的详细信息，请参见 xref:client-configuration:registration-"
+"bootstrap.adoc[]。"
 
 #. type: Block title
 #: modules/installation/pages/proxy-registration.adoc:23
@@ -5574,8 +5576,9 @@ msgid ""
 "give you access to the SUSE product downloads.  You will find your "
 "organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"在与 SCC 同步软件储存库之前，需在 {susemgr} 中输入组织身份凭证。在以前的版本中，使用的是所谓的镜像身份凭证。您可以使用组织身份凭证访问 "
-"SUSE 产品下载内容。可以在 link:https://scc.suse.com/organizations[]中找到您的组织身份凭证。"
+"在与 SCC 同步软件储存库之前，需在 {susemgr} 中输入组织身份凭证。在以前的版本"
+"中，使用的是所谓的镜像身份凭证。您可以使用组织身份凭证访问 SUSE 产品下载内"
+"容。可以在 link:https://scc.suse.com/organizations[]中找到您的组织身份凭证。"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:46
@@ -5731,18 +5734,16 @@ msgid ""
 "etc/default/grub`` and added to the line "
 "[option]``GRUB_CMDLINE_LINUX_DEFAULT``, for example:"
 msgstr ""
-"要禁用__透明巨页__，请将 [option]``transparent_hugepage`` 内核参数设置为 [option]``never``。"
-"必须在 [path]``/etc/default/grub`` 中更改此设置，并将其添加到 "
-"[option]``GRUB_CMDLINE_LINUX_DEFAULT`` 行，例如："
+"要禁用__透明巨页__，请将 [option]``transparent_hugepage`` 内核参数设置为 "
+"[option]``never``。必须在 [path]``/etc/default/grub`` 中更改此设置，并将其添"
+"加到 [option]``GRUB_CMDLINE_LINUX_DEFAULT`` 行，例如："
 
 #. type: delimited block -
 #: modules/installation/pages/server-setup.adoc:66
 #: modules/installation/pages/uyuni-server-setup.adoc:62
 #, no-wrap
 msgid "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
-msgstr ""
-"GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts "
-"elevator=noop transparent_hugepage=never\"\n"
+msgstr "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:67
@@ -6529,8 +6530,9 @@ msgid ""
 "credentials give you access to the {suse} product downloads.  You will find "
 "your organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"在与 SCC 同步软件储存库之前，需在 {productname} 中输入组织身份凭证。您可以使用组织身份凭证访问 {suse} 产品下载内容。可以在 "
-"link:https://scc.suse.com/organizations[]中找到您的组织身份凭证。"
+"在与 SCC 同步软件储存库之前，需在 {productname} 中输入组织身份凭证。您可以使"
+"用组织身份凭证访问 {suse} 产品下载内容。可以在 link:https://scc.suse.com/"
+"organizations[]中找到您的组织身份凭证。"
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-server-setup.adoc:43

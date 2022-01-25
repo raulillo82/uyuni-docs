@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
-"POT-Creation-Date: 2021-09-28 11:09+0000\n"
+"POT-Creation-Date: 2022-01-25 18:14+0000\n"
 "PO-Revision-Date: 2021-11-18 02:13+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
-"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
-"docs-upgrade-manager-42-mu-423/ja/>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/docs-"
+"upgrade-manager-42-mu-423/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -272,10 +272,11 @@ msgid ""
 "documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-"
 "migration-10.html"
 msgstr ""
-"バージョン9.4または9.6などの古いデータベースバージョンを使用している場合は、{productname}の移行を開始する前に、PostgreSQLをバ"
-"ージョン10に移行する必要があります。PostgreSQL "
-"9からバージョン10にアップグレードするには、link:https://documentation.suse.com/external-tree/"
-"en-us/suma/4.1/suse-manager/upgrade/db-migration-10.html[]を参照してください。"
+"バージョン9.4または9.6などの古いデータベースバージョンを使用している場合は、"
+"{productname}の移行を開始する前に、PostgreSQLをバージョン10に移行する必要があ"
+"ります。PostgreSQL 9からバージョン10にアップグレードするには、link:https://"
+"documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-"
+"migration-10.html[]を参照してください。"
 
 #
 #
@@ -982,10 +983,11 @@ msgid ""
 "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
 "upgrade/db-migration-10.html."
 msgstr ""
-"このセクションでは、PostgreSQLデータベースを最新バージョンにアップグレードする方法について説明します。  すでにPostgreSQL "
-"13を使用している場合、この移行を実行する必要はありません。  バージョン 9."
-"6などの古いバージョンを使用している場合は、link:https://documentation.suse.com/external-tree/"
-"en-us/suma/4.1/suse-manager/upgrade/db-migration-10.html[]を参照してください。"
+"このセクションでは、PostgreSQLデータベースを最新バージョンにアップグレードす"
+"る方法について説明します。  すでにPostgreSQL 13を使用している場合、この移行を"
+"実行する必要はありません。  バージョン 9.6などの古いバージョンを使用している"
+"場合は、link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
+"suse-manager/upgrade/db-migration-10.html[]を参照してください。"
 
 #. type: Plain text
 #: modules/upgrade/pages/db-migration-xy.adoc:24
@@ -1905,16 +1907,19 @@ msgid ""
 "see https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
 "upgrade/proxy-intro.html."
 msgstr ""
-"3.2から 4.2にアップグレードするには、まず3.2から4.1にアップグレードし、4.1から4.2にアップグレードする必要があります。  3.2から4."
-"1にアップグレードする方法の詳細については、link:https://documentation.suse.com/external-tree/"
-"en-us/suma/4.1/suse-manager/upgrade/proxy-intro.html[]を参照してください。"
+"3.2から 4.2にアップグレードするには、まず3.2から4.1にアップグレードし、4.1か"
+"ら4.2にアップグレードする必要があります。  3.2から4.1にアップグレードする方法"
+"の詳細については、link:https://documentation.suse.com/external-tree/en-us/"
+"suma/4.1/suse-manager/upgrade/proxy-intro.html[]を参照してください。"
 
 #. type: Plain text
 #: modules/upgrade/pages/proxy-x.adoc:4
 msgid ""
 "For more information on upgrading from 4.1 to 4.2, see xref:upgrade:proxy-y-"
 "z.adoc[]"
-msgstr "4.1から4.2へのアップグレードの詳細については、xref:upgrade:proxy-y-z.adoc[]を参照してください。"
+msgstr ""
+"4.1から4.2へのアップグレードの詳細については、xref:upgrade:proxy-y-z.adoc[]を"
+"参照してください。"
 
 #. type: Title =
 #: modules/upgrade/pages/proxy-y-z.adoc:1
@@ -1929,9 +1934,10 @@ msgid ""
 "version 4.1 as target product.  Always select to upgrade {productname} Proxy "
 "4.0 to {productname} Proxy 4.2 only."
 msgstr ""
-"{productname}プロキシ 4.0をアップグレードする場合は、ターゲット製品としてバージョン4."
-"1にアップグレードするオプションは無視してください。  {productname}プロキシ4.0を{productname}プロキシ4."
-"2にのみアップグレードすることを常に選択してください。"
+"{productname}プロキシ 4.0をアップグレードする場合は、ターゲット製品としてバー"
+"ジョン4.1にアップグレードするオプションは無視してください。  {productname}プ"
+"ロキシ4.0を{productname}プロキシ4.2にのみアップグレードすることを常に選択して"
+"ください。"
 
 #. type: Title ==
 #: modules/upgrade/pages/proxy-y-z.adoc:4
@@ -2253,7 +2259,6 @@ msgstr ""
 "入する場合もあります。"
 
 #.  It is recommended to install them in due time.
-#.  In general, these steps are required:
 #. type: Plain text
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:4
 msgid ""
@@ -2479,9 +2484,10 @@ msgid ""
 "Patches[Manage Patches > Unpublished].  You must publish or delete them "
 "before you upgrade."
 msgstr ""
-"{productname} 4.0から4.2にアップグレードする前に、未発行のパッチがないことを確認してください。  "
-"未発行のパッチを確認するには、menu:パッチ[パッチの管理 > Unpublished（未発行）]に移動します。  "
-"アップグレードする前に、未発行のパッチを発行または削除する必要があります。"
+"{productname} 4.0から4.2にアップグレードする前に、未発行のパッチがないことを"
+"確認してください。  未発行のパッチを確認するには、menu:パッチ[パッチの管理 > "
+"Unpublished（未発行）]に移動します。  アップグレードする前に、未発行のパッチ"
+"を発行または削除する必要があります。"
 
 #. type: delimited block =
 #: modules/upgrade/pages/server-y-yast.adoc:5
@@ -2490,8 +2496,8 @@ msgid ""
 "For more information, see https://www.suse.com/releasenotes/x86_64/SUSE-"
 "MANAGER/4.1/index.html#_dropped_features."
 msgstr ""
-"詳細については、link:https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/4.1/index."
-"html#_dropped_features[]を参照してください。"
+"詳細については、link:https://www.suse.com/releasenotes/x86_64/SUSE-"
+"MANAGER/4.1/index.html#_dropped_features[]を参照してください。"
 
 #. type: Block title
 #: modules/upgrade/pages/server-y-yast.adoc:6

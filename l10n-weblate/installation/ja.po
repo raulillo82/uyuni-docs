@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-30 10:15+0000\n"
+"POT-Creation-Date: 2022-01-25 18:14+0000\n"
 "PO-Revision-Date: 2021-11-18 02:13+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
-"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
-"docs-installation-manager-42-mu-423/ja/>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/docs-"
+"installation-manager-42-mu-423/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -331,8 +331,8 @@ msgid ""
 "{aarch64}"
 msgstr ""
 "| {almalinux} 8 | {x86_64}、{aarch64} | {cross} | {check} | {amazon} 2 | "
-"{x86_64}、{aarch64} | {cross} | {check} | {centos} 8 | "
-"{x86_64}、{ppc64le}、{aarch64}"
+"{x86_64}、{aarch64} | {cross} | {check} | {centos} 8 | {x86_64}、{ppc64le}、"
+"{aarch64}"
 
 #. type: Table
 #: modules/installation/pages/client-requirements.adoc:8
@@ -1814,6 +1814,7 @@ msgstr ""
 "インストールイメージからUnified Installerを起動するには、BIOSで起動順序を調整"
 "する必要がある場合があります。"
 
+#.  image::unifiedinstaller-install.png[scaledwidth=80%] (this image is with server selected.
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:14
 msgid ""
@@ -2325,8 +2326,9 @@ msgid ""
 "`<productversion>` with `{productnumber}` and `<architecture>` with "
 "`x86_64`):"
 msgstr ""
-"SCCで{productname}プロキシを登録します(``<productversion>``を``{productnumber}``に置き換えたり、`"
-"`<architecture>``を``x86_64``に置き換えるなど)。"
+"SCCで{productname}プロキシを登録します(``<productversion>``を"
+"``{productnumber}``に置き換えたり、``<architecture>``を``x86_64``に置き換える"
+"など)。"
 
 #. type: delimited block -
 #: modules/installation/pages/install-proxy.adoc:25
@@ -3225,8 +3227,8 @@ msgid ""
 "Register {productname} with SCC (for example, replace `<productnumber>` with "
 "`{productnumber}` and `<architecture>` with `x86_64`):"
 msgstr ""
-"SCCで{productname}を登録します(``<productnumber>``を``{productnumber}``に置き換えたり、 "
-"``<architecture>``を``x86_64``に置き換えるなど)。"
+"SCCで{productname}を登録します(``<productnumber>``を``{productnumber}``に置き"
+"換えたり、 ``<architecture>``を``x86_64``に置き換えるなど)。"
 
 #. type: delimited block -
 #: modules/installation/pages/install-vm.adoc:29
@@ -3261,8 +3263,9 @@ msgid ""
 "working you should allow to install also recommended packages.  In `/etc/"
 "zypp/zypp.conf` change:"
 msgstr ""
-"JeOSは、必要なパッケージのみをインストールするように設定されています。  "
-"動作するすべての機能を取得するには、推奨パッケージもインストールできるようにする必要があります。  ``/etc/zypp/zypp.conf``で、"
+"JeOSは、必要なパッケージのみをインストールするように設定されています。  動作"
+"するすべての機能を取得するには、推奨パッケージもインストールできるようにする"
+"必要があります。  ``/etc/zypp/zypp.conf``で、"
 
 #. type: delimited block -
 #: modules/installation/pages/install-vm.adoc:33
@@ -3281,8 +3284,8 @@ msgid ""
 "Install [package]#yast2-storage-ng# with all required dependencies (approx. "
 "40 packages, 30 MB when installed)."
 msgstr ""
-"すべての必要な依存関係を設定して[package]##yast2-storage-"
-"ng##をインストールします(約40個のパッケージでは、インストール時に30MB)。"
+"すべての必要な依存関係を設定して[package]##yast2-storage-ng##をインストールし"
+"ます(約40個のパッケージでは、インストール時に30MB)。"
 
 #. type: Plain text
 #: modules/installation/pages/install-vm.adoc:37
@@ -4062,8 +4065,8 @@ msgid ""
 "For more information about bootstrap scripts, see xref:client-configuration:"
 "registration-bootstrap.adoc[]."
 msgstr ""
-"ブートストラップスクリプトの詳細については、xref:client-configuration:registration-bootstrap."
-"adoc[]を参照してください。"
+"ブートストラップスクリプトの詳細については、xref:client-configuration:"
+"registration-bootstrap.adoc[]を参照してください。"
 
 #. type: Block title
 #: modules/installation/pages/proxy-registration.adoc:23
@@ -4082,7 +4085,8 @@ msgstr "proxy-bootstrap.png"
 msgid ""
 "Alternatively, in the SUSE Manager Web UI, navigate to menu:"
 "System[Bootstrapping]."
-msgstr "または、SUSE Manager Web UIで、menu:システム[ブートストラップ]に移動します。"
+msgstr ""
+"または、SUSE Manager Web UIで、menu:システム[ブートストラップ]に移動します。"
 
 #. type: Block title
 #: modules/installation/pages/proxy-registration.adoc:26
@@ -4164,7 +4168,9 @@ msgstr "プロキシチェーン"
 msgid ""
 "It is possible to arrange Salt proxies in a chain.  In such a case, the "
 "upstream proxy is named `parent`."
-msgstr "Saltプロキシはチェーンで編成できます。  その場合、上流プロキシの名前が``parent``になります。"
+msgstr ""
+"Saltプロキシはチェーンで編成できます。  その場合、上流プロキシの名前が"
+"``parent``になります。"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:5
@@ -4174,8 +4180,9 @@ msgid ""
 "must be able to reach the {productname} Server or a parent proxy on these "
 "ports."
 msgstr ""
-"TCPポート``4505``および``4506``がプロキシで開いていることを確認してください。  "
-"プロキシは、これらのポートで{productname}サーバまたは親プロキシにアクセスできる必要があります。"
+"TCPポート``4505``および``4506``がプロキシで開いていることを確認してくださ"
+"い。  プロキシは、これらのポートで{productname}サーバまたは親プロキシにアクセ"
+"スできる必要があります。"
 
 #. type: Title ==
 #: modules/installation/pages/proxy-setup.adoc:6
@@ -4408,8 +4415,9 @@ msgid ""
 "the {productname} installation.  For example, if your proxy is in the US and "
 "your {productname} is in DE, enter `DE` for the proxy."
 msgstr ""
-"［[guimenu]``国コード``］フィールドに{productname}のインストール中に設定した国コードを入力します。  "
-"たとえば、プロキシが米国にある場合に{productname}がドイツにあると、プロキシに``DE``と入力します。"
+"［[guimenu]``国コード``］フィールドに{productname}のインストール中に設定した"
+"国コードを入力します。  たとえば、プロキシが米国にある場合に{productname}がド"
+"イツにあると、プロキシに``DE``と入力します。"
 
 #. type: delimited block =
 #: modules/installation/pages/proxy-setup.adoc:33
@@ -4458,9 +4466,7 @@ msgstr "{productname}サーバの証明書に使用したパスワードを入�
 #: modules/installation/pages/uyuni-proxy-setup.adoc:41
 #, no-wrap
 msgid "Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion?"
-msgstr ""
-"Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion"
-"?（SSH-Push Salt Minionのプロキシ処理に既存のSSHキーを使用しますか?）"
+msgstr "Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion?（SSH-Push Salt Minionのプロキシ処理に既存のSSHキーを使用しますか?）"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:39
@@ -4477,9 +4483,7 @@ msgstr ""
 #: modules/installation/pages/uyuni-proxy-setup.adoc:43
 #, no-wrap
 msgid "Create and Populate Configuration Channel rhn_proxy_config_1000010001?"
-msgstr ""
-"Create and Populate Configuration Channel "
-"rhn_proxy_config_1000010001?（設定チャンネルrhn_proxy_config_1000010001を作成および入力しますか?）"
+msgstr "Create and Populate Configuration Channel rhn_proxy_config_1000010001?（設定チャンネルrhn_proxy_config_1000010001を作成および入力しますか?）"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:41
@@ -5029,7 +5033,8 @@ msgid ""
 "Within this network configuration DNS resolution must be provided: `hostname "
 "-f` must return the fully qualified domain name (FQDN)."
 msgstr ""
-"このネットワーク設定内では、DNSの解決を提供する必要があります。``hostname -f``は、完全修飾ドメイン名(FQDN)を返す必要があります。"
+"このネットワーク設定内では、DNSの解決を提供する必要があります。``hostname -"
+"f``は、完全修飾ドメイン名(FQDN)を返す必要があります。"
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-requirements.adoc:7
@@ -6092,9 +6097,7 @@ msgstr ""
 #: modules/installation/pages/uyuni-server-setup.adoc:62
 #, no-wrap
 msgid "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
-msgstr ""
-"GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts "
-"elevator=noop transparent_hugepage=never\"\n"
+msgstr "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:67

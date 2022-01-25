@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
-"POT-Creation-Date: 2021-09-28 11:09+0000\n"
+"POT-Creation-Date: 2022-01-25 18:14+0000\n"
 "PO-Revision-Date: 2021-10-29 19:12+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -921,9 +921,10 @@ msgid ""
 "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
 "upgrade/db-migration-10.html."
 msgstr ""
-"本节介绍如何将 PostgreSQL 数据库升级到最新版本。如果您已在使用 PostgreSQL 13，则无需进行此迁移。如果使用的版本较早（如版本 9."
-"6），请参见 link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
-"suse-manager/upgrade/db-migration-10.html[]。"
+"本节介绍如何将 PostgreSQL 数据库升级到最新版本。如果您已在使用 PostgreSQL "
+"13，则无需进行此迁移。如果使用的版本较早（如版本 9.6），请参见 link:https://"
+"documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-"
+"migration-10.html[]。"
 
 #. type: Plain text
 #: modules/upgrade/pages/db-migration-xy.adoc:24
@@ -1778,9 +1779,9 @@ msgid ""
 "see https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
 "upgrade/proxy-intro.html."
 msgstr ""
-"要从 3.2 升级到 4.2，必须先从 3.2 升级到 4.1，然后再从 4.1 升级到 4.2。有关从 3.2 升级到 4.1 的详细信息，请参见 "
-"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
-"suse-manager/upgrade/proxy-intro.html[]。"
+"要从 3.2 升级到 4.2，必须先从 3.2 升级到 4.1，然后再从 4.1 升级到 4.2。有关"
+"从 3.2 升级到 4.1 的详细信息，请参见 link:https://documentation.suse.com/"
+"external-tree/en-us/suma/4.1/suse-manager/upgrade/proxy-intro.html[]。"
 
 #. type: Plain text
 #: modules/upgrade/pages/proxy-x.adoc:4
@@ -1802,8 +1803,8 @@ msgid ""
 "version 4.1 as target product.  Always select to upgrade {productname} Proxy "
 "4.0 to {productname} Proxy 4.2 only."
 msgstr ""
-"升级 {productname} Proxy 4.0 时，请忽略将其升级到版本 4.1 作为目标产品的选项。一律选择将仅将 {productname} "
-"Proxy 4.0 升级到 {productname} Proxy 4.2。"
+"升级 {productname} Proxy 4.0 时，请忽略将其升级到版本 4.1 作为目标产品的选"
+"项。一律选择将仅将 {productname} Proxy 4.0 升级到 {productname} Proxy 4.2。"
 
 #. type: Title ==
 #: modules/upgrade/pages/proxy-y-z.adoc:4
@@ -2104,7 +2105,6 @@ msgstr ""
 "新旨在修复 Bug 并改进功能，有时也包含一些新功能。"
 
 #.  It is recommended to install them in due time.
-#.  In general, these steps are required:
 #. type: Plain text
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:4
 msgid ""
@@ -2321,8 +2321,9 @@ msgid ""
 "Patches[Manage Patches > Unpublished].  You must publish or delete them "
 "before you upgrade."
 msgstr ""
-"从 {productname} 4.0 升级到 4.2 之前，请确保您没有任何未发布的补丁。请导航到menu:补丁[管理补丁 > "
-"未发布]，检查有无未发布的补丁。在升级前，必须发布或删除此类补丁。"
+"从 {productname} 4.0 升级到 4.2 之前，请确保您没有任何未发布的补丁。请导航到"
+"menu:补丁[管理补丁 > 未发布]，检查有无未发布的补丁。在升级前，必须发布或删除"
+"此类补丁。"
 
 #. type: delimited block =
 #: modules/upgrade/pages/server-y-yast.adoc:5
@@ -2331,8 +2332,8 @@ msgid ""
 "For more information, see https://www.suse.com/releasenotes/x86_64/SUSE-"
 "MANAGER/4.1/index.html#_dropped_features."
 msgstr ""
-"有关详细信息，请参见 link:https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/4.1/"
-"index.html#_dropped_features[]。"
+"有关详细信息，请参见 link:https://www.suse.com/releasenotes/x86_64/SUSE-"
+"MANAGER/4.1/index.html#_dropped_features[]。"
 
 #. type: Block title
 #: modules/upgrade/pages/server-y-yast.adoc:6
