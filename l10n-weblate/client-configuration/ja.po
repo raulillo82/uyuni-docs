@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-26 07:50+0000\n"
+"POT-Creation-Date: 2022-01-25 18:14+0000\n"
 "PO-Revision-Date: 2021-11-24 00:14+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/docs-"
@@ -25260,14 +25260,10 @@ msgstr "``skuba``設定ディレクトリをクラスタから管理ノードに
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:43
-msgid ""
-"This is the directory that the ``skuba`` service creates after the cluster "
-"has been bootstrapped. Take a note of the new file location for adding the "
-"cluster in the {productname} {webui}."
-msgstr ""
-"これは、クラスタをブートストラップした後に``skuba``サービスが作成したディレク"
-"トリです。{productname}の{webui}でクラスタを追加するために、新しいファイルの"
-"場所をメモします。"
+#, fuzzy, no-wrap
+#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
+msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
+msgstr "これは、クラスタをブートストラップした後に``skuba``サービスが作成したディレクトリです。{productname}の{webui}でクラスタを追加するために、新しいファイルの場所をメモします。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:44
@@ -27251,18 +27247,18 @@ msgstr "プロシージャ: 管理ノードの設定"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:18
+#, fuzzy, no-wrap
+#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
 msgid ""
-"This is the directory that the ``skuba`` service creates after the cluster "
-"has been bootstrapped.  Take a note of the new file location for adding the "
-"cluster in the {productname} {webui}."
-msgstr ""
-"これは、クラスタをブートストラップした後に``skuba``サービスが作成したディレク"
-"トリです。  {productname}の{webui}でクラスタを追加するために、新しいファイル"
-"の場所をメモします。"
+"This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped.\n"
+"Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
+msgstr "これは、クラスタをブートストラップした後に``skuba``サービスが作成したディレクトリです。{productname}の{webui}でクラスタを追加するために、新しいファイルの場所をメモします。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:19
-msgid "Provide a way to authenticate."
+#, fuzzy, no-wrap
+#| msgid "Provide a way to authenticate."
+msgid "Provide a way to authenticate.\n"
 msgstr "認証方法を提供します。"
 
 #. type: Plain text
@@ -28853,6 +28849,15 @@ msgid ""
 msgstr ""
 "詳細については、link:https://www.suse.com/products/terms_and_conditions.pdf[]"
 "を参照するか、{suse}にお問い合わせください。"
+
+#~ msgid ""
+#~ "This is the directory that the ``skuba`` service creates after the "
+#~ "cluster has been bootstrapped.  Take a note of the new file location for "
+#~ "adding the cluster in the {productname} {webui}."
+#~ msgstr ""
+#~ "これは、クラスタをブートストラップした後に``skuba``サービスが作成したディ"
+#~ "レクトリです。  {productname}の{webui}でクラスタを追加するために、新しい"
+#~ "ファイルの場所をメモします。"
 
 #~ msgid "Client Configuration Guide: {productname} {productnumber}"
 #~ msgstr "クライアント設定ガイド: {productname} {productnumber}"

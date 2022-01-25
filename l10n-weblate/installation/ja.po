@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-26 07:50+0000\n"
+"POT-Creation-Date: 2022-01-25 18:14+0000\n"
 "PO-Revision-Date: 2021-11-18 02:13+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/docs-"
@@ -1816,6 +1816,7 @@ msgstr ""
 "インストールイメージからUnified Installerを起動するには、BIOSで起動順序を調整"
 "する必要がある場合があります。"
 
+#.  image::unifiedinstaller-install.png[scaledwidth=80%] (this image is with server selected.
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:14
 msgid ""
@@ -4072,41 +4073,59 @@ msgid "Modify a bootstrap script for the proxy if needed."
 msgstr "必要に応じてプロキシのブートストラップスクリプトを変更します。"
 
 #.  What's up with:
-#.  Enable Remote Configuration
-#.  Enable Remote Commands
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:23
+#, fuzzy
+#| msgid ""
+#| "If you want to run the proxy on a traditional client (system type "
+#| "``Management``) uncheck [guimenu]``Bootstrap using Salt``.  Using Salt is "
+#| "the default.  For more information about bootstrap scripts, see xref:"
+#| "client-configuration:registration-bootstrap.adoc[]."
 msgid ""
 "If you want to run the proxy on a traditional client (system type "
 "``Management``) uncheck [guimenu]``Bootstrap using Salt``.  Using Salt is "
-"the default.  For more information about bootstrap scripts, see xref:client-"
-"configuration:registration-bootstrap.adoc[]."
+"the default."
 msgstr ""
 "従来のクライアント(システムの種類``管理``)でプロキシを実行する場合、"
 "［[guimenu]``Saltを使用するブートストラップ``］のチェックを外します。  Saltの"
 "使用がデフォルトです。  ブートストラップスクリプトの詳細については、xref:"
 "client-configuration:registration-bootstrap.adoc[]を参照してください。"
 
-#. type: Block title
+#.  Enable Remote Configuration
+#.  Enable Remote Commands
+#. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:24
+#, fuzzy
+#| msgid ""
+#| "For more information, see xref:client-configuration:registration-"
+#| "bootstrap.adoc[]."
+msgid ""
+"For more information about bootstrap scripts, see xref:client-configuration:"
+"registration-bootstrap.adoc[]."
+msgstr ""
+"詳細については、xref:client-configuration:registration-bootstrap.adoc[]を参照"
+"してください。"
+
+#. type: Block title
+#: modules/installation/pages/proxy-registration.adoc:25
 #, no-wrap
 msgid "Modifying Bootstrap Script"
 msgstr "ブートストラップスクリプトの変更"
 
 #. type: Target for macro image
-#: modules/installation/pages/proxy-registration.adoc:25
+#: modules/installation/pages/proxy-registration.adoc:26
 #, no-wrap
 msgid "proxy-bootstrap.png"
 msgstr "proxy-bootstrap.png"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:26
+#: modules/installation/pages/proxy-registration.adoc:27
 msgid "Bootstrap the client with the bootstrap script."
 msgstr ""
 "ブートストラップスクリプトを使用してクライアントをブートストラップします。"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:27
+#: modules/installation/pages/proxy-registration.adoc:28
 msgid ""
 "For Salt clients, accept the key on the menu:Salt[Keys] page by checking the "
 "appropriate checkbox."
@@ -4115,12 +4134,12 @@ msgstr ""
 "は、適切なチェックボックスにチェックを付けます。"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:28
+#: modules/installation/pages/proxy-registration.adoc:29
 msgid "When accepted, it will appear in the menu:Systems[Overview]."
 msgstr "受け入れると、menu:システム[概要]に表示されます。"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:29
+#: modules/installation/pages/proxy-registration.adoc:30
 msgid ""
 "Navigate to menu:System Details[Software > Software Channels], and check "
 "that the four proxy channels ([systemitem]``Pool`` and "
@@ -4133,7 +4152,7 @@ msgstr ""
 "ことを確認します。"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:30
+#: modules/installation/pages/proxy-registration.adoc:31
 msgid ""
 "[systemitem]``SLE-PRODUCT-Pool`` must be the base channel and the others are "
 "child channels."
@@ -4142,19 +4161,19 @@ msgstr ""
 "ルである必要があります。"
 
 #. type: Block title
-#: modules/installation/pages/proxy-registration.adoc:31
+#: modules/installation/pages/proxy-registration.adoc:32
 #, no-wrap
 msgid "Proxy Channels"
 msgstr "プロキシチャンネル"
 
 #. type: Target for macro image
-#: modules/installation/pages/proxy-registration.adoc:32
+#: modules/installation/pages/proxy-registration.adoc:33
 #, no-wrap
 msgid "sles15-proxy-channels.png"
 msgstr "sles15-proxy-channels.png"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:33
+#: modules/installation/pages/proxy-registration.adoc:34
 msgid ""
 "Continue with setting up the registered {productname} Proxy: xref:proxy-"
 "setup.adoc[]."

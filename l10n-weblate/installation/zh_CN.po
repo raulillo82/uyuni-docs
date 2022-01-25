@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-26 07:50+0000\n"
+"POT-Creation-Date: 2022-01-25 18:14+0000\n"
 "PO-Revision-Date: 2021-11-24 17:15+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -1731,6 +1731,7 @@ msgid ""
 "adjust the boot order in the BIOS."
 msgstr "要从安装媒体引导统一安装程序，可能需要在 BIOS 中调整引导顺序。"
 
+#.  image::unifiedinstaller-install.png[scaledwidth=80%] (this image is with server selected.
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:14
 msgid ""
@@ -3854,51 +3855,69 @@ msgid "Modify a bootstrap script for the proxy if needed."
 msgstr "根据需要修改代理的引导脚本。"
 
 #.  What's up with:
-#.  Enable Remote Configuration
-#.  Enable Remote Commands
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:23
+#, fuzzy
+#| msgid ""
+#| "If you want to run the proxy on a traditional client (system type "
+#| "``Management``) uncheck [guimenu]``Bootstrap using Salt``.  Using Salt is "
+#| "the default.  For more information about bootstrap scripts, see xref:"
+#| "client-configuration:registration-bootstrap.adoc[]."
 msgid ""
 "If you want to run the proxy on a traditional client (system type "
 "``Management``) uncheck [guimenu]``Bootstrap using Salt``.  Using Salt is "
-"the default.  For more information about bootstrap scripts, see xref:client-"
-"configuration:registration-bootstrap.adoc[]."
+"the default."
 msgstr ""
 "如果您要在传统客户端（``管理``系统类型）上运行代理，请取消选中[guimenu]``使"
 "用 Salt 引导``。使用 Salt 是默认设置。有关引导脚本的详细信息，请参见 xref:"
 "client-configuration:registration-bootstrap.adoc[]。"
 
-#. type: Block title
+#.  Enable Remote Configuration
+#.  Enable Remote Commands
+#. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:24
+#, fuzzy
+#| msgid ""
+#| "For more information, see xref:client-configuration:registration-"
+#| "bootstrap.adoc[]."
+msgid ""
+"For more information about bootstrap scripts, see xref:client-configuration:"
+"registration-bootstrap.adoc[]."
+msgstr ""
+"有关详细信息，请参见 xref:client-configuration:registration-bootstrap."
+"adoc[]。"
+
+#. type: Block title
+#: modules/installation/pages/proxy-registration.adoc:25
 #, no-wrap
 msgid "Modifying Bootstrap Script"
 msgstr "修改引导脚本"
 
 #. type: Target for macro image
-#: modules/installation/pages/proxy-registration.adoc:25
+#: modules/installation/pages/proxy-registration.adoc:26
 #, no-wrap
 msgid "proxy-bootstrap.png"
 msgstr "proxy-bootstrap.png"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:26
+#: modules/installation/pages/proxy-registration.adoc:27
 msgid "Bootstrap the client with the bootstrap script."
 msgstr "使用引导脚本引导客户端。"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:27
+#: modules/installation/pages/proxy-registration.adoc:28
 msgid ""
 "For Salt clients, accept the key on the menu:Salt[Keys] page by checking the "
 "appropriate checkbox."
 msgstr "对于 Salt 客户端，请选中相应的复选框接受 menu:Salt[密钥]页上的密钥。"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:28
+#: modules/installation/pages/proxy-registration.adoc:29
 msgid "When accepted, it will appear in the menu:Systems[Overview]."
 msgstr "接受后，该密钥将显示在menu:系统[概览]中。"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:29
+#: modules/installation/pages/proxy-registration.adoc:30
 msgid ""
 "Navigate to menu:System Details[Software > Software Channels], and check "
 "that the four proxy channels ([systemitem]``Pool`` and "
@@ -3910,26 +3929,26 @@ msgstr ""
 "[systemitem]``Updates``）以及建议的频道是否已选中。"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:30
+#: modules/installation/pages/proxy-registration.adoc:31
 msgid ""
 "[systemitem]``SLE-PRODUCT-Pool`` must be the base channel and the others are "
 "child channels."
 msgstr "[systemitem]``SLE-PRODUCT-Pool`` 必须是基础频道，其他频道是子频道。"
 
 #. type: Block title
-#: modules/installation/pages/proxy-registration.adoc:31
+#: modules/installation/pages/proxy-registration.adoc:32
 #, no-wrap
 msgid "Proxy Channels"
 msgstr "代理频道"
 
 #. type: Target for macro image
-#: modules/installation/pages/proxy-registration.adoc:32
+#: modules/installation/pages/proxy-registration.adoc:33
 #, no-wrap
 msgid "sles15-proxy-channels.png"
 msgstr "sles15-proxy-channels.png"
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:33
+#: modules/installation/pages/proxy-registration.adoc:34
 msgid ""
 "Continue with setting up the registered {productname} Proxy: xref:proxy-"
 "setup.adoc[]."

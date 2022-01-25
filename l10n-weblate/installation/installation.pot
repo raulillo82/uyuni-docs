@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-26 07:50+0000\n"
+"POT-Creation-Date: 2022-01-25 18:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1399,6 +1399,7 @@ msgid ""
 "adjust the boot order in the BIOS."
 msgstr ""
 
+#.  image::unifiedinstaller-install.png[scaledwidth=80%] (this image is with server selected.
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:14
 msgid ""
@@ -3246,48 +3247,54 @@ msgid "Modify a bootstrap script for the proxy if needed."
 msgstr ""
 
 #.  What's up with:
-#.  Enable Remote Configuration
-#.  Enable Remote Commands
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:23
 msgid ""
 "If you want to run the proxy on a traditional client (system type "
 "``Management``) uncheck [guimenu]``Bootstrap using Salt``.  Using Salt is "
-"the default.  For more information about bootstrap scripts, see "
+"the default."
+msgstr ""
+
+#.  Enable Remote Configuration
+#.  Enable Remote Commands
+#. type: Plain text
+#: modules/installation/pages/proxy-registration.adoc:24
+msgid ""
+"For more information about bootstrap scripts, see "
 "xref:client-configuration:registration-bootstrap.adoc[]."
 msgstr ""
 
 #. type: Block title
-#: modules/installation/pages/proxy-registration.adoc:24
+#: modules/installation/pages/proxy-registration.adoc:25
 #, no-wrap
 msgid "Modifying Bootstrap Script"
 msgstr ""
 
 #. type: Target for macro image
-#: modules/installation/pages/proxy-registration.adoc:25
+#: modules/installation/pages/proxy-registration.adoc:26
 #, no-wrap
 msgid "proxy-bootstrap.png"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:26
+#: modules/installation/pages/proxy-registration.adoc:27
 msgid "Bootstrap the client with the bootstrap script."
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:27
+#: modules/installation/pages/proxy-registration.adoc:28
 msgid ""
 "For Salt clients, accept the key on the menu:Salt[Keys] page by checking the "
 "appropriate checkbox."
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:28
+#: modules/installation/pages/proxy-registration.adoc:29
 msgid "When accepted, it will appear in the menu:Systems[Overview]."
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:29
+#: modules/installation/pages/proxy-registration.adoc:30
 msgid ""
 "Navigate to menu:System Details[Software > Software Channels], and check "
 "that the four proxy channels ([systemitem]``Pool`` and "
@@ -3296,26 +3303,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:30
+#: modules/installation/pages/proxy-registration.adoc:31
 msgid ""
 "[systemitem]``SLE-PRODUCT-Pool`` must be the base channel and the others are "
 "child channels."
 msgstr ""
 
 #. type: Block title
-#: modules/installation/pages/proxy-registration.adoc:31
+#: modules/installation/pages/proxy-registration.adoc:32
 #, no-wrap
 msgid "Proxy Channels"
 msgstr ""
 
 #. type: Target for macro image
-#: modules/installation/pages/proxy-registration.adoc:32
+#: modules/installation/pages/proxy-registration.adoc:33
 #, no-wrap
 msgid "sles15-proxy-channels.png"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/proxy-registration.adoc:33
+#: modules/installation/pages/proxy-registration.adoc:34
 msgid ""
 "Continue with setting up the registered {productname} Proxy: "
 "xref:proxy-setup.adoc[]."
