@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:14+0000\n"
-"PO-Revision-Date: 2021-06-04 21:57+0000\n"
-"Last-Translator: Luiz Fernando Ranghetti <elchevive68@gmail.com>\n"
+"PO-Revision-Date: 2022-01-31 23:12+0000\n"
+"Last-Translator: Rodrigo Macedo <rmsolucoeseminformatic4@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/uyuni/"
-"docs-root-42/pt_BR/>\n"
+"docs-root-manager-42-mu-422/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. * xref:index-webui-branding-2019.adoc[What is SUSE Manager?]
 #. * xref:release-notes-version-4.0.adoc[Doc Release Notes]
@@ -216,17 +216,14 @@ msgstr ""
 
 #. type: Table
 #: modules/ROOT/pages/index.adoc:18
-#, fuzzy
-#| msgid ""
-#| "Download All PDFs icon:caret-right[] icon:file-archive[link=\"../uyuni-"
-#| "docs_en-pdf.zip\"]"
 msgid ""
 "The following documentation is available for {productname} version "
 "{productnumber}.  Download All PDFs icon:caret-right[] icon:file-"
 "archive[link=\"../uyuni-docs_en-pdf.zip\"]"
 msgstr ""
-"Baixar todos os PDFs icon:caret-right[] icon:file-archive[link=\"../uyuni-"
-"docs_en-pdf.zip\"]"
+"A seguinte documentação está disponível para {productname} versão "
+"{productnumber}.  Baixe todos os PDFs icon:caret-right[] icon:file-"
+"archive[link=\"../uyuni-docs_en-pdf.zip\"]"
 
 #. | Architecture               | xref:architecture:architecture-intro.adoc[HTML] link:../pdf/suse_manager_architecture.pdf[PDF]
 #. type: Table
