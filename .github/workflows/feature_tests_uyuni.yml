@@ -42,7 +42,7 @@ jobs:
         gem install prawn-gmagick
         asciidoctor --version
         asciidoctor-pdf --version
-
+        
     - name: '[TOOLCHAIN] Install Antora XREF Validator'
       run: |
         npm i -g @antora/cli@2.2 
