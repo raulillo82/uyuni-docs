@@ -30,25 +30,23 @@ jobs:
         sudo apt-key add Release.key
         sudo add-apt-repository -y -u 'deb https://download.opensuse.org/repositories/systemsmanagement:/Uyuni:/Utils/xUbuntu_20.04/ ./'
         sudo apt-get install -y po4a
-
     - name: '[TOOLCHAIN] Install Asciidoctor and Asciidoctor PDF'
       run: |
         gem install asciidoctor
         gem install asciidoctor-pdf --pre
+        sudo apt-get install -y graphicsmagick
+        sudo apt-get install -y libgraphicsmagick1-dev
+        gem install prawn-gmagick -v 0.0.9
         gem install rouge
         gem install pygments.rb
         gem install coderay
-        sudo apt-get install libgraphicsmagick1-dev
-        gem install prawn-gmagick
         asciidoctor --version
         asciidoctor-pdf --version
-        
     - name: '[TOOLCHAIN] Install Antora XREF Validator'
       run: |
         npm i -g @antora/cli@2.2 
         npm i -g @antora/site-generator-default@2.2
         npm i -g gitlab:antora/xref-validator#v1.0.0-alpha.12
-
     - name: '[TOOLCHAIN] Lunr/Antora Custom Docker Image'
       run: docker build -t lunr/antora:custom -f Dockerfile.custom .
 
@@ -56,17 +54,15 @@ jobs:
       run: |
         make configure-suma
         NODE_PATH="$(npm ls -g --parseable @antora/site-generator-default)/node_modules" antora --generator @antora/xref-validator site.yml
-
     - name: '[BUILD] SUMA Docs with Lunr/Antora Custom Docker Image'
       run: |
         make configure-suma
         docker run -u $UID --privileged -e DOCSEARCH_ENABLED=true -e DOCSEARCH_ENGINE=lunr -v $GITHUB_WORKSPACE:/antora/ --rm -t lunr/antora:custom site.yml --generator antora-site-generator-lunr
         #cd build/
         ls -a
-
     - name: '[BUILD] SUMA PDF Documents with Asciidoctor-pdf'
       run: |
         sudo locale-gen zh_CN.UTF-8 ja_JP.UTF-8 es_ES.UTF-8 ko_KR.UTF-8 cs_CZ.UTF-8 en_US.UTF-8
         sudo update-locale LANG=zh_CN.UTF-8
         make configure-uyuni
-        make pdf-all-uyuni
+        make pdf-all-uyuni-zh_CN
