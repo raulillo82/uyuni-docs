@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:13+0000\n"
-"PO-Revision-Date: 2021-10-29 19:12+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-02-09 12:12+0000\n"
+"Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-423/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Title =
 #: modules/client-configuration/nav-client-configuration-guide.adoc:1
@@ -7855,7 +7855,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:1
 #, no-wrap
 msgid "Registering openSUSE Leap Clients"
-msgstr "注册 openSUSE 客户端"
+msgstr "注册 openSUSE Leap 客户端"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:2
@@ -24193,10 +24193,10 @@ msgstr "将 ``skuba`` 配置目录从您的群集复制到管理节点。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:43
-#, fuzzy, no-wrap
-#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
+#, no-wrap
 msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
-msgstr "这是 ``skuba`` 服务在群集引导后创建的目录。请记下该新文件位置，以便在 {productname} {webui} 中添加该群集。"
+msgstr ""
+"这是 ``skuba`` 服务在群集引导后创建的目录。请记下该新文件位置，以便在 {productname} {webui} 中添加该群集。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:44
@@ -26050,19 +26050,19 @@ msgstr "过程：配置管理节点"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:18
-#, fuzzy, no-wrap
-#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
+#, no-wrap
 msgid ""
 "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped.\n"
 "Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
-msgstr "这是 ``skuba`` 服务在群集引导后创建的目录。请记下该新文件位置，以便在 {productname} {webui} 中添加该群集。"
+msgstr ""
+"这是 ``skuba`` 服务在群集引导后创建的目录。\n"
+"请记下该新文件位置，以便在 {productname} {webui} 中添加该群集。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:19
-#, fuzzy, no-wrap
-#| msgid "Provide a way to authenticate."
+#, no-wrap
 msgid "Provide a way to authenticate.\n"
-msgstr "提供进行身份验证的方式。"
+msgstr "提供进行身份验证的方式。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:20
