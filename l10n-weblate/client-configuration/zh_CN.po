@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-23 16:13+0000\n"
-"PO-Revision-Date: 2021-11-16 11:14+0000\n"
+"PO-Revision-Date: 2022-02-09 12:11+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-424/zh_CN/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Title =
 #: modules/client-configuration/nav-client-configuration-guide.adoc:1
@@ -2520,24 +2520,14 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:22
-#, fuzzy
-#| msgid ""
-#| "Copy the contents of your autoinstallation file into the [guimenu]``File "
-#| "Contents`` field, or upload the file directly using the [guimenu]``File "
-#| "to Upload`` field.  For more information about the details to include "
-#| "here, see xref:client-configuration:autoinst-profiles."
-#| "adoc#autoyast[AutoYast Profiles] or xref:client-configuration:autoinst-"
-#| "profiles.adoc#kickstart[Kickstart Profiles]."
 msgid ""
 "For more information about the details to include here, see xref:client-"
 "configuration:autoinst-profiles.adoc#autoyast[AutoYast Profiles] or xref:"
 "client-configuration:autoinst-profiles.adoc#kickstart[Kickstart Profiles]."
 msgstr ""
-"将自动安装文件的内容复制到[guimenu]``文件内容``字段，或使用[guimenu]``要上载"
-"的文件``字段直接上载文件。  有关此处要包含的细节的详细信息，请参见 xref:"
-"client-configuration:autoinst-profiles.adoc#autoyast[AutoYast 配置文件]或 "
-"xref:client-configuration:autoinst-profiles.adoc#kickstart[Kickstart 配置文"
-"件]。"
+"有关此处要包含的细节的详细信息，请参见 xref:client-configuration:autoinst-profiles."
+"adoc#autoyast[AutoYast 配置文件]或 xref:client-configuration:autoinst-profiles."
+"adoc#kickstart[Kickstart 配置文件]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:23
@@ -2557,19 +2547,14 @@ msgstr "单击 btn:[创建 Kickstart 配置文件]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:28
-#, fuzzy
-#| msgid ""
-#| "This field is populated from the distributions available.  If the base "
-#| "channel you need is not available, check that you have created the "
-#| "distribution correctly."
 msgid ""
 "In the [guimenu]``Base Channel`` field, select the base channel to use for "
 "this profile.  This field is populated from the distributions available.  If "
 "the base channel you need is not available, check that you have created the "
 "distribution correctly."
 msgstr ""
-"系统会根据可用的发行套件填充此字段。  如果您需要的基础频道不可用，请检查您是"
-"否正确创建了发行套件。"
+"在[guimenu]``基础频道``字段中，选择要用于此配置文件的基础频道。系统会根据可用的发行套件填充此字段。如果您需要的基础频道不可用，请检查您是否正"
+"确创建了发行套件。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:29
@@ -2811,27 +2796,17 @@ msgstr "单击 btn:[创建列表]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:58
-#, fuzzy
-#| msgid "File Preservation for {kickstart}"
 msgid "Include the file preservation list in your {kickstart} profile."
-msgstr "{kickstart} 的文件保留"
+msgstr "将该文件保留列表包含到 {kickstart} 配置文件中。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:59
-#, fuzzy
-#| msgid ""
-#| "Include the file preservation list in your {kickstart} profile.  Navigate "
-#| "to menu:Systems[Autoinstallation > Profiles] and select the profile you "
-#| "want to edit, go to the menu:System Details[File Preservation] subtab, "
-#| "and select the file preservation list to include."
 msgid ""
 "Navigate to menu:Systems[Autoinstallation > Profiles] and select the profile "
 "you want to edit, go to the menu:System Details[File Preservation] subtab, "
 "and select the file preservation list to include."
 msgstr ""
-"将该文件保留列表包含到 {kickstart} 配置文件中。  导航到menu:系统[自动安装 > "
-"配置文件]，选择要编辑的配置文件，转到menu:系统细节[文件保留]子选项卡，然后选"
-"择要包含的文件保留列表。"
+"导航到menu:系统[自动安装 > 配置文件]，选择要编辑的配置文件，转到menu:系统细节[文件保留]子选项卡，然后选择要包含的文件保留列表。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-profiles.adoc:60
@@ -5725,15 +5700,6 @@ msgstr "创建自动安装配置文件"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:46
-#, fuzzy
-#| msgid ""
-#| "Autoinstallation profiles contain all the installation and configuration "
-#| "data needed to install a system.  They can also contain scripts to be "
-#| "executed after the installation is complete.  For example scripts that "
-#| "you can use as a starting point, see https://github.com/SUSE/manager-"
-#| "build-profiles/tree/master/AutoYaST.  For valid AutoYaST upgrade "
-#| "settings, see https://doc.opensuse.org/projects/autoyast/#CreateProfile-"
-#| "upgrade."
 msgid ""
 "Autoinstallation profiles contain all the installation and configuration "
 "data needed to install a system.  They can also contain scripts to be "
@@ -5741,21 +5707,20 @@ msgid ""
 "can use as a starting point, see https://github.com/SUSE/manager-build-"
 "profiles/tree/master/AutoYaST."
 msgstr ""
-"自动安装配置文件包含安装系统所需的所有安装和配置数据， 还包含在完成安装后需要"
-"执行的脚本。 例如，可用作着手点的脚本，请参见 https://github.com/SUSE/"
-"manager-build-profiles/tree/master/AutoYaST[]。有关有效的 AutoYaST 升级设置，"
-"请参见 https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]。"
+"自动安装配置文件包含安装系统所需的所有安装和配置数据，还包含在完成安装后需要执行的脚本。例如，可用作着手点的脚本，请参见 https://github."
+"com/SUSE/manager-build-profiles/tree/master/AutoYaST。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:47
 msgid "For valid AutoYaST upgrade settings, see"
-msgstr ""
+msgstr "有关有效的 AutoYaST 升级设置，请参见"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:48
 msgid ""
 "link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]."
 msgstr ""
+"link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:50
@@ -5768,25 +5733,13 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:51
-#, fuzzy
-#| msgid ""
-#| "For example scripts that you can use as a starting point, see https://"
-#| "github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 msgid "For example scripts that you can use as a starting point, see"
-msgstr ""
-"例如，可用作着手点的脚本，请参见 https://github.com/SUSE/manager-build-"
-"profiles/tree/master/AutoYaST[]。"
+msgstr "例如，可用作着手点的脚本，请参见"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:52
-#, fuzzy
-#| msgid ""
-#| "For example autoinstallation profiles, see https://github.com/SUSE/"
-#| "manager-build-profiles/tree/master/AutoYaST."
 msgid "https://github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
-msgstr ""
-"有关自动安装配置文件的示例，请参见 https://github.com/SUSE/manager-build-"
-"profiles/tree/master/AutoYaST[]。"
+msgstr "https://github.com/SUSE/manager-build-profiles/tree/master/AutoYaST。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:53
@@ -14770,14 +14723,10 @@ msgstr "为避免出现问题，请确保引导脚本是使用 [command]``bash``
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:48
-#, fuzzy
-#| msgid ""
-#| "The script downloads the required dependencies located in the "
-#| "repositories directory you created earlier."
 msgid ""
 "This script downloads the required dependencies located in the repositories "
 "directory you created earlier."
-msgstr "该脚本会下载位于您先前创建的储存库目录下的所需依赖项。"
+msgstr "此脚本会下载位于您先前创建的储存库目录下的所需依赖项。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:49
@@ -14868,8 +14817,7 @@ msgid ""
 "the activation key if any. Also add the other configuration parameters "
 "listed below."
 msgstr ""
-"在文件中添加或编辑 {productname} 服务器或代理的 FQDN 以及激活密钥（如果有）。"
-"另外请添加以下其他配置参数。"
+"在文件中添加或编辑 {productname} Server 或 Proxy 的 FQDN 以及激活密钥（如果有）。另外请添加以下其他配置参数。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-cli.adoc:11
@@ -21325,10 +21273,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features.adoc:11
-#, fuzzy
-#| msgid ""
-#| "The operating system you run on a client is supported by the organization "
-#| "that supplies the operating system."
 msgid ""
 "The operating system running on a client is supported by the organization "
 "that supplies the operating system."
@@ -21336,62 +21280,7 @@ msgstr "客户端上运行的操作系统由提供操作系统的组织支持。
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features.adoc:13
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Operating System\n"
-#| "| Architecture\n"
-#| "| Traditional Clients\n"
-#| "| Salt Clients\n"
-#| "\n"
-#| "| {sle} 15\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 12\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 11\n"
-#| "| {x86}, {x86_64}, {ipf}, {ppc64}, {ibmz}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 15\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 12\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {micro}\n"
-#| "| {x86_64}, {ppc64le}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {opensuse} Leap 15\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 8\n"
-#| "| {x86_64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 7\n"
-#| "| {x86_64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {alibabaclo} 2\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
+#, no-wrap
 msgid ""
 "| Operating System\n"
 "| Architecture\n"
@@ -21568,65 +21457,76 @@ msgstr ""
 "| {x86_64}、{aarch64}\n"
 "| {cross}\n"
 "| {check}\n"
+"\n"
+"| {almalinux} 8\n"
+"| {x86_64}、{aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {amazon} 2\n"
+"| {x86_64}、{aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {centos} 8\n"
+"| {x86_64}、{ppc64le}、{aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {centos} 7\n"
+"| {x86_64}、{ppc64le}、{aarch64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {debian} 10\n"
+"| {x86_64}、{aarch64}、armv7l、i586\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {debian} 9\n"
+"| {x86_64}、{aarch64}、armv7l、i586\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {oracle} 8\n"
+"| {x86_64}、{aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {oracle} 7\n"
+"| {x86_64}、{aarch64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {rhel} 8\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {rhel} 7\n"
+"| {x86_64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {rocky} 8\n"
+"| {x86_64}、{ppc64le}、{aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {ubuntu} 20.04\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {ubuntu} 18.04\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features.adoc:15
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Operating System\n"
-#| "| Architecture\n"
-#| "| Traditional Clients\n"
-#| "| Salt Clients\n"
-#| "\n"
-#| "| {sle} 15\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 12\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 11\n"
-#| "| {x86}, {x86_64}, {ipf}, {ppc64}, {ibmz}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 15\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 12\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {micro}\n"
-#| "| {x86_64}, {ppc64le}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {opensuse} Leap 15\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 8\n"
-#| "| {x86_64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 7\n"
-#| "| {x86_64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {alibabaclo} 2\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
+#, no-wrap
 msgid ""
 "| Operating System\n"
 "| Architecture\n"
@@ -21794,10 +21694,71 @@ msgstr ""
 "| {check}\n"
 "| {check}\n"
 "\n"
-"| {alibabaclo} 2\n"
+"| {almalinux} 8\n"
 "| {x86_64}、{aarch64}\n"
 "| {cross}\n"
 "| {check}\n"
+"\n"
+"| {amazon} 2\n"
+"| {x86_64}、{aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {centos} 8\n"
+"| {x86_64}、{aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {centos} 7\n"
+"| {x86_64}、{aarch64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {debian} 10\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {debian} 9\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {oracle} 8\n"
+"| {x86_64}、{aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {oracle} 7\n"
+"| {x86_64}、{aarch64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {rhel} 8\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {rhel} 7\n"
+"| {x86_64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {rocky} 8\n"
+"| {x86_64}、{aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {ubuntu} 20.04\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {ubuntu} 18.04\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features.adoc:16
@@ -23829,10 +23790,9 @@ msgid ""
 "before the actual action to ensure the client is actually running and the "
 "action can be triggered."
 msgstr ""
-"Salt 客户端重启动时，或者系统在刷新 grain 时，客户端会计算其 FQDN grain，并"
-"在 grain 继续执行前保持无响应状态。当 {productname} 服务器上安排的操作将要执"
-"行时，{productname} 服务器会先于实际操作向客户端发出 ``test.ping``，以确保客"
-"户端实际上正在运行，可以触发该操作。"
+"Salt 客户端重启动时，或者系统在刷新 grain 时，客户端会计算其 FQDN grain，并在 grain 继续执行前保持无响应状态。当 "
+"{productname} Server 上安排的操作将要执行时，{productname} Server 会先于实际操作向客户端发出 ``test."
+"ping``，以确保客户端实际上正在运行，可以触发该操作。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:109
@@ -23842,9 +23802,8 @@ msgid ""
 "seconds, then the action is set to fail with the message that the client is "
 "down or could not be contacted."
 msgstr ""
-"默认情况下，{productname} 服务器会等待 5 秒来获得 ``test.ping`` 命令的响应。"
-"如果在 5 秒内未收到响应，则会将该操作设置为失败，并显示消息指出客户端已关闭或"
-"无法联系。"
+"默认情况下，{productname} Server 会等待 5 秒来获得 ``test.ping`` 命令的响应。如果在 5 "
+"秒内未收到响应，则会将该操作设置为失败，并显示消息指出客户端已关闭或无法联系。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:110
@@ -23862,8 +23821,8 @@ msgid ""
 "salt_presence_ping_timeout`` in the ``/etc/rhn/rhn.conf`` file on the "
 "{productname} Server to a value higher than 4."
 msgstr ""
-"如果无法修复，请尝试将 {productname} 服务器上 ``/etc/rhn/rhn.conf`` 文件中 "
-"``java.salt_presence_ping_timeout`` 的值增至大于 4 的值。"
+"如果无法修复，请尝试将 {productname} Server 上 ``/etc/rhn/rhn.conf`` 文件中 ``java."
+"salt_presence_ping_timeout`` 的值增至大于 4 的值。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:112
@@ -23894,8 +23853,8 @@ msgid ""
 "check if a minion is unreachable or unresponsive, causing the {productname} "
 "Server to be slower or less responsive overall."
 msgstr ""
-"将此值增大会使 {productname} 服务器花费更长时间检查受控端是否无法连接或无响"
-"应，导致 {productname} 服务器总体速度更慢或响应能力更低。"
+"将此值增大会使 {productname} Server 花费更长时间检查受控端是否无法连接或无响应，导致 {productname} Server "
+"总体速度更慢或响应能力更低。"
 
 #. type: Title =
 #: modules/client-configuration/pages/vhm-aws.adoc:1
@@ -24693,10 +24652,10 @@ msgstr "将 ``skuba`` 配置目录从您的群集复制到管理节点。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:43
-#, fuzzy, no-wrap
-#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
+#, no-wrap
 msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
-msgstr "这是 ``skuba`` 服务在群集引导后创建的目录。请记下该新文件位置，以便在 {productname} {webui} 中添加该群集。"
+msgstr ""
+"这是 ``skuba`` 服务在群集引导后创建的目录。请记下该新文件位置，以便在 {productname} {webui} 中添加该群集。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:44
@@ -26550,19 +26509,19 @@ msgstr "过程：配置管理节点"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:18
-#, fuzzy, no-wrap
-#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
+#, no-wrap
 msgid ""
 "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped.\n"
 "Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
-msgstr "这是 ``skuba`` 服务在群集引导后创建的目录。请记下该新文件位置，以便在 {productname} {webui} 中添加该群集。"
+msgstr ""
+"这是 ``skuba`` 服务在群集引导后创建的目录。\n"
+"请记下该新文件位置，以便在 {productname} {webui} 中添加该群集。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:19
-#, fuzzy, no-wrap
-#| msgid "Provide a way to authenticate."
+#, no-wrap
 msgid "Provide a way to authenticate.\n"
-msgstr "提供进行身份验证的方式。"
+msgstr "提供进行身份验证的方式。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:20
