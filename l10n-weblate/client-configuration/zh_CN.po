@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-02 09:58+0000\n"
-"PO-Revision-Date: 2022-02-09 12:12+0000\n"
+"PO-Revision-Date: 2022-02-10 04:12+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-425/zh_CN/>\n"
@@ -12091,10 +12091,9 @@ msgid ""
 "within the DMZ is authorized to open a connection to the internal network, "
 "including the {productname} Server."
 msgstr ""
-"在客户端无法直接访问 {productname} 服务器的环境中，将会采用通过 SSH 推送和通"
-"过 Salt SSH 推送的方法。在此环境中，客户端位于受防火墙保护的区域，该区域称为 "
-"DMZ。DMZ 内的所有系统均无权打开连至内部网络（包括 {productname} 服务器）的连"
-"接。"
+"在客户端无法直接访问 {productname} 服务器的环境中，将会采用通过 SSH 推送和通过 Salt SSH "
+"推送的方法。在此环境中，客户端位于受防火墙保护的区域，该区域称为 DMZ。DMZ 内的所有系统均无权打开连至内部网络（包括 {productname} "
+"服务器）的连接。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-intro.adoc:5
@@ -12431,9 +12430,8 @@ msgid ""
 "authorized to open a connection to the internal network, including the "
 "{productname} Server."
 msgstr ""
-"通过 SSH 推送方法用于传统客户端无法直接访问 {productname} 服务器的环境。在此"
-"环境中，客户端位于受防火墙保护的区域，该区域称为 DMZ。DMZ 内的所有系统均无权"
-"打开连至内部网络（包括 {productname} 服务器）的连接。"
+"通过 SSH 推送方法用于传统客户端无法直接访问 {productname} 服务器的环境。在此环境中，客户端位于受防火墙保护的区域，该区域称为 DMZ。"
+"DMZ 内的所有系统均无权打开连至内部网络（包括 {productname} 服务器）的连接。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:3
@@ -12585,7 +12583,8 @@ msgid ""
 "#ALL    ALL=(ALL) ALL   # WARNING! Only use this together with 'Defaults targetpw'!\n"
 msgstr ""
 "#Defaults targetpw   # ask for the password of the target user i.e. root\n"
-"#ALL    ALL=(ALL) ALL   # WARNING! Only use this together with 'Defaults targetpw'!\n"
+"#ALL    ALL=(ALL) ALL   # WARNING! Only use this together with 'Defaults "
+"targetpw'!\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:21
@@ -12847,7 +12846,9 @@ msgstr "可选：如果您需要编辑某个现有激活密钥，可以使用以
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:52
 #, no-wrap
 msgid "client.activationkey.setDetails(key, '1-mykey', {'contact_method' : 'ssh-push'})\n"
-msgstr "client.activationkey.setDetails(key, '1-mykey', {'contact_method' : 'ssh-push'})\n"
+msgstr ""
+"client.activationkey.setDetails(key, '1-mykey', {'contact_method' : 'ssh-"
+"push'})\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:53
@@ -13202,9 +13203,8 @@ msgid ""
 "authorized to open a connection to the internal network, including the "
 "{productname} Server."
 msgstr ""
-"通过 Salt SSH 推送方法用于 Salt 客户端无法直接访问 {productname} 服务器的环"
-"境。在此环境中，客户端位于受防火墙保护的区域，该区域称为 DMZ。DMZ 内的所有系"
-"统均无权打开连至内部网络（包括 {productname} 服务器）的连接。"
+"通过 Salt SSH 推送方法用于 Salt 客户端无法直接访问 {productname} 服务器的环境。在此环境中，客户端位于受防火墙保护的区域，"
+"该区域称为 DMZ。DMZ 内的所有系统均无权打开连至内部网络（包括 {productname} 服务器）的连接。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:3
@@ -13382,7 +13382,8 @@ msgid ""
 "taskomatic.com.redhat.rhn.taskomatic.task.SSHMinionActionExecutor.parallel_threads = <number>\n"
 "org.quartz.threadPool.threadCount = <value of parallel_threads + 20>\n"
 msgstr ""
-"taskomatic.com.redhat.rhn.taskomatic.task.SSHMinionActionExecutor.parallel_threads = <number>\n"
+"taskomatic.com.redhat.rhn.taskomatic.task.SSHMinionActionExecutor.parallel_th"
+"reads = <number>\n"
 "org.quartz.threadPool.threadCount = <value of parallel_threads + 20>\n"
 
 #. type: Plain text
@@ -13488,9 +13489,8 @@ msgid ""
 "authorized to open a connection to the internal network, including the "
 "{productname} Server."
 msgstr ""
-"通过 SSH 推送方法用于客户端无法直接访问 {productname} 服务器的环境。在此环境"
-"中，客户端位于受防火墙保护的区域，该区域称为 DMZ。DMZ 内的所有系统均无权打开"
-"连至内部网络（包括 {productname} 服务器）的连接。"
+"通过 SSH 推送方法用于客户端无法直接访问 {productname} 服务器的环境。在此环境中，客户端位于受防火墙保护的区域，该区域称为 DMZ。"
+"DMZ 内的所有系统均无权打开连至内部网络（包括 {productname} 服务器）的连接。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:5
@@ -14858,7 +14858,8 @@ msgid ""
 "echo\n"
 "#exit 1\n"
 msgstr ""
-"echo \"Enable this script: comment (with #'s) this block (or, at least just\"\n"
+"echo \"Enable this script: comment (with #'s) this block (or, at least just\""
+"\n"
 "echo \"the exit below)\"\n"
 "echo\n"
 "#exit 1\n"
@@ -14872,7 +14873,8 @@ msgid ""
 "ACTIVATION_KEYS=1-sles15\n"
 "ORG_GPG_KEY=\n"
 msgstr ""
-"# can be edited, but probably correct (unless created during initial install):\n"
+"# can be edited, but probably correct (unless created during initial "
+"install):\n"
 "# NOTE: ACTIVATION_KEYS *must* be used to bootstrap a client machine.\n"
 "ACTIVATION_KEYS=1-sles15\n"
 "ORG_GPG_KEY=\n"
@@ -14937,7 +14939,9 @@ msgstr "或者，在客户端上运行以下命令："
 #: modules/client-configuration/pages/registration-bootstrap.adoc:46
 #, no-wrap
 msgid "curl -Sks https://server_hostname/pub/bootstrap/bootstrap-sles15.sh | /bin/bash\n"
-msgstr "curl -Sks https://server_hostname/pub/bootstrap/bootstrap-sles15.sh | /bin/bash\n"
+msgstr ""
+"curl -Sks https://server_hostname/pub/bootstrap/bootstrap-sles15.sh | /bin/"
+"bash\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/registration-bootstrap.adoc:47
@@ -23351,7 +23355,8 @@ msgstr ""
 #: modules/client-configuration/pages/tshoot-clients.adoc:35
 #, no-wrap
 msgid "mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
-msgstr "mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
+msgstr ""
+"mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:36
