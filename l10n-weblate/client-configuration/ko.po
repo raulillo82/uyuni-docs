@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-02 09:58+0000\n"
-"PO-Revision-Date: 2022-02-10 13:12+0000\n"
+"PO-Revision-Date: 2022-02-11 07:39+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-425/ko/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Title =
 #: modules/client-configuration/nav-client-configuration-guide.adoc:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[.title]#{productname} {productnumber}#: Client Configuration Guide"
 msgstr "[.title]#{productname} {productnumber}#: 클라이언트 구성 가이드"
 
@@ -699,11 +699,8 @@ msgstr "[guimenu]``키`` 필드에 활성화 키의 이름을 입력합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:18
-#, fuzzy
-#| msgid "For example, ``SLES12-SP4`` for {sles}{nbsp}12{nbsp}SP4."
 msgid "For example, ``SLES15-SP3`` for {sles}{nbsp}15{nbsp}SP3."
-msgstr ""
-"예를 들어 {sles}{nbsp}12{nbsp}SP4에 대해서는 ``SLES12-SP4``를 입력합니다."
+msgstr "예를 들어, {sles}{nbsp}15{nbsp}SP3에 대해서는 ``SLES15-SP3``를 입력합니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/activation-keys.adoc:19
@@ -1182,17 +1179,15 @@ msgstr "활성화 키 레이블 이름의 예:"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/activation-keys.adoc:75
-#, fuzzy, no-wrap
-#| msgid "sles12-sp2-web_server-room_129-x86_64\n"
+#, no-wrap
 msgid "sles15-sp3-web_server-room_129-x86_64\n"
-msgstr "sles12-sp2-web_server-room_129-x86_64\n"
+msgstr "sles15-sp3-web_server-room_129-x86_64\n"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/activation-keys.adoc:76
-#, fuzzy, no-wrap
-#| msgid "sles12-sp2-test_packages-blg_502-room_21-ppc64le\n"
+#, no-wrap
 msgid "sles15-sp3-test_packages-blg_502-room_21-ppc64le\n"
-msgstr "sles12-sp2-test_packages-blg_502-room_21-ppc64le\n"
+msgstr "sles15-sp3-test_packages-blg_502-room_21-ppc64le\n"
 
 #. type: Block title
 #: modules/client-configuration/pages/activation-keys.adoc:78
