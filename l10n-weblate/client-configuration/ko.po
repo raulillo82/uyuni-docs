@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:14+0000\n"
-"PO-Revision-Date: 2022-02-10 13:12+0000\n"
+"PO-Revision-Date: 2022-02-11 10:12+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-422/ko/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Title =
 #: modules/client-configuration/nav-client-configuration-guide.adoc:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[.title]#{productname} {productnumber}#: Client Configuration Guide"
 msgstr "[.title]#{productname} {productnumber}#: 클라이언트 구성 가이드"
 
