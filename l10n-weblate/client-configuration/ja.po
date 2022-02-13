@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:13+0000\n"
-"PO-Revision-Date: 2022-02-13 12:12+0000\n"
+"PO-Revision-Date: 2022-02-14 02:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-423/ja/>\n"
@@ -25417,10 +25417,11 @@ msgstr "``skuba``設定ディレクトリをクラスタから管理ノードに
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:43
-#, fuzzy, no-wrap
-#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
+#, no-wrap
 msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
-msgstr "これは、クラスタをブートストラップした後に``skuba``サービスが作成したディレクトリです。{productname}の{webui}でクラスタを追加するために、新しいファイルの場所をメモします。"
+msgstr ""
+"これは、クラスタをブートストラップした後に``skuba``サービスが作成したディレクトリです。{productname}の{webui}でクラスタを追加"
+"するために、新しいファイルの場所をメモします。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:44
@@ -27404,19 +27405,19 @@ msgstr "プロシージャ: 管理ノードの設定"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:18
-#, fuzzy, no-wrap
-#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
+#, no-wrap
 msgid ""
 "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped.\n"
 "Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
-msgstr "これは、クラスタをブートストラップした後に``skuba``サービスが作成したディレクトリです。{productname}の{webui}でクラスタを追加するために、新しいファイルの場所をメモします。"
+msgstr ""
+"これは、クラスタをブートストラップした後に``skuba``サービスが作成したディレクトリです。\n"
+"{productname}の{webui}でクラスタを追加するために、新しいファイルの場所をメモします。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:19
-#, fuzzy, no-wrap
-#| msgid "Provide a way to authenticate."
+#, no-wrap
 msgid "Provide a way to authenticate.\n"
-msgstr "認証方法を提供します。"
+msgstr "認証方法を提供します。\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:20
