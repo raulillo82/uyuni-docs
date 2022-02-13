@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-23 16:13+0000\n"
-"PO-Revision-Date: 2021-11-23 21:46+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
-"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/docs-"
-"client-configuration-manager-42-mu-424/ja/>\n"
+"PO-Revision-Date: 2022-02-13 15:12+0000\n"
+"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
+"docs-client-configuration-manager-42-mu-424/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Title =
 #: modules/client-configuration/nav-client-configuration-guide.adoc:1
@@ -2688,25 +2688,14 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:22
-#, fuzzy
-#| msgid ""
-#| "Copy the contents of your autoinstallation file into the [guimenu]``File "
-#| "Contents`` field, or upload the file directly using the [guimenu]``File "
-#| "to Upload`` field.  For more information about the details to include "
-#| "here, see xref:client-configuration:autoinst-profiles."
-#| "adoc#autoyast[AutoYast Profiles] or xref:client-configuration:autoinst-"
-#| "profiles.adoc#kickstart[Kickstart Profiles]."
 msgid ""
 "For more information about the details to include here, see xref:client-"
 "configuration:autoinst-profiles.adoc#autoyast[AutoYast Profiles] or xref:"
 "client-configuration:autoinst-profiles.adoc#kickstart[Kickstart Profiles]."
 msgstr ""
-"自動インストールファイルの内容を［[guimenu]``ファイルの内容``］フィールドにコ"
-"ピーするか、または［[guimenu]``アップロードするファイル``］フィールドを使用し"
-"てファイルを直接アップロードします。  ここに記載する詳細については、xref:"
-"client-configuration:autoinst-profiles.adoc#autoyast[AutoYastプロファイル]ま"
-"たはxref:client-configuration:autoinst-profiles.adoc#kickstart[Kickstartプロ"
-"ファイル]を参照してください。"
+"ここに記載する詳細については、xref:client-configuration:autoinst-profiles."
+"adoc#autoyast[AutoYastプロファイル]またはxref:client-configuration:autoinst-profiles."
+"adoc#kickstart[Kickstartプロファイル]を参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:23
@@ -2726,20 +2715,14 @@ msgstr "［btn:[キックスタートプロファイルを作成]］をクリッ
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:28
-#, fuzzy
-#| msgid ""
-#| "This field is populated from the distributions available.  If the base "
-#| "channel you need is not available, check that you have created the "
-#| "distribution correctly."
 msgid ""
 "In the [guimenu]``Base Channel`` field, select the base channel to use for "
 "this profile.  This field is populated from the distributions available.  If "
 "the base channel you need is not available, check that you have created the "
 "distribution correctly."
 msgstr ""
-"このフィールドは利用できるディストリビューションから入力されます。  必要な"
-"ベースチャンネルが利用できない場合、ディストリビューションを正しく作成したこ"
-"とを確認してください。"
+"［[guimenu]``ベースチャンネル``］フィールドで、このプロファイルに使用するベースチャンネルを選択します。このフィールドは利用できるディストリビ"
+"ューションから入力されます。  必要なベースチャンネルが利用できない場合、ディストリビューションを正しく作成したことを確認してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:29
@@ -3004,27 +2987,18 @@ msgstr "［btn:[一覧の作成]］をクリックします。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:58
-#, fuzzy
-#| msgid "File Preservation for {kickstart}"
 msgid "Include the file preservation list in your {kickstart} profile."
-msgstr "{kickstart}のファイル保持"
+msgstr "{kickstart}プロファイルにファイル保持一覧を含めます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:59
-#, fuzzy
-#| msgid ""
-#| "Include the file preservation list in your {kickstart} profile.  Navigate "
-#| "to menu:Systems[Autoinstallation > Profiles] and select the profile you "
-#| "want to edit, go to the menu:System Details[File Preservation] subtab, "
-#| "and select the file preservation list to include."
 msgid ""
 "Navigate to menu:Systems[Autoinstallation > Profiles] and select the profile "
 "you want to edit, go to the menu:System Details[File Preservation] subtab, "
 "and select the file preservation list to include."
 msgstr ""
-"{kickstart}プロファイルにファイル保持一覧を含めます。  menu:システム[自動イン"
-"ストール > プロファイル]に移動して編集するプロファイルを選択し、menu:システム"
-"の詳細[ファイル保持]サブタブに移動して、含めるファイル保持一覧を選択します。"
+"menu:システム[自動インストール > "
+"プロファイル]に移動して編集するプロファイルを選択し、menu:システムの詳細[ファイル保持]サブタブに移動して、含めるファイル保持一覧を選択します。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-profiles.adoc:60
@@ -6013,15 +5987,6 @@ msgstr "自動インストールプロファイルの作成"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:46
-#, fuzzy
-#| msgid ""
-#| "Autoinstallation profiles contain all the installation and configuration "
-#| "data needed to install a system.  They can also contain scripts to be "
-#| "executed after the installation is complete.  For example scripts that "
-#| "you can use as a starting point, see https://github.com/SUSE/manager-"
-#| "build-profiles/tree/master/AutoYaST.  For valid AutoYaST upgrade "
-#| "settings, see https://doc.opensuse.org/projects/autoyast/#CreateProfile-"
-#| "upgrade."
 msgid ""
 "Autoinstallation profiles contain all the installation and configuration "
 "data needed to install a system.  They can also contain scripts to be "
@@ -6029,24 +5994,22 @@ msgid ""
 "can use as a starting point, see https://github.com/SUSE/manager-build-"
 "profiles/tree/master/AutoYaST."
 msgstr ""
-"自動インストールプロファイルには、システムをインストールするために必要なイン"
-"ストールデータおよび設定データがすべて含まれています。  インストール完了後に"
-"実行するスクリプトを含めることもできます。  手始めに使用できるスクリプトのサ"
-"ンプルは、link:https://github.com/SUSE/manager-build-profiles/tree/master/"
-"AutoYaST[]を参照してください。  有効なAutoYaSTアップグレード設定は、link:"
-"https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]を参照して"
-"ください。"
+"自動インストールプロファイルには、システムをインストールするために必要なインストールデータおよび設定データがすべて含まれています。  "
+"インストール完了後に実行するスクリプトを含めることもできます。  手始めに使用できるスクリプトのサンプルは、link:https://github."
+"com/SUSE/manager-build-profiles/tree/master/AutoYaST[]を参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:47
 msgid "For valid AutoYaST upgrade settings, see"
-msgstr ""
+msgstr "有効なAutoYaSTアップグレード設定については、"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:48
 msgid ""
 "link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]."
 msgstr ""
+"link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-"
+"upgrade[]を参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:50
@@ -6059,25 +6022,14 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:51
-#, fuzzy
-#| msgid ""
-#| "For example scripts that you can use as a starting point, see https://"
-#| "github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 msgid "For example scripts that you can use as a starting point, see"
-msgstr ""
-"手始めに使用できるスクリプトのサンプルは、link:https://github.com/SUSE/"
-"manager-build-profiles/tree/master/AutoYaST[]を参照してください。"
+msgstr "手始めに使用できるスクリプトのサンプルは、"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:52
-#, fuzzy
-#| msgid ""
-#| "For example autoinstallation profiles, see https://github.com/SUSE/"
-#| "manager-build-profiles/tree/master/AutoYaST."
 msgid "https://github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 msgstr ""
-"自動インストールプロファイルのサンプルについては、link:https://github.com/"
-"SUSE/manager-build-profiles/tree/master/AutoYaST[]を参照してください。"
+"https://github.com/SUSE/manager-build-profiles/tree/master/AutoYaSTを参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:53
@@ -9162,13 +9114,13 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:24
 msgid "Run command:"
-msgstr "コマンドの実行:"
+msgstr "コマンドを実行します。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:25
 #, no-wrap
 msgid "subscription-manager activate\n"
-msgstr "サブスクリプションマネージャ有効化\n"
+msgstr "サブスクリプションマネージャ登録\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:26
@@ -10383,8 +10335,7 @@ msgstr "{sles}{nbsp}15{nbsp}SP3"
 msgid ""
 "Use the instructions in this chapter for preparing all {sle} products, "
 "including:"
-msgstr ""
-"以下を含むすべての{sle}の製品を準備するには、この章の手順を使用してください。"
+msgstr "以下を含むすべての{sle}製品を準備する際には、この章の手順を使用してください。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:7
@@ -10411,8 +10362,7 @@ msgstr "{sle} Real Time"
 msgid ""
 "You can also use these instructions for older {sle} versions and service "
 "packs."
-msgstr ""
-"これらの手順は、古い{sle}のバージョンおよびサービスパックにも使用できます。"
+msgstr "これらの手順は、古い{sle}バージョンおよびサービスパックにも使用できます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sle.adoc:13
@@ -15601,22 +15551,14 @@ msgstr "curl -Sks https://server_hostname/pub/bootstrap/bootstrap-sles15.sh | /b
 msgid ""
 "To avoid problems, make sure the bootstrap script is executed using "
 "[command]``bash``."
-msgstr ""
-"問題を回避するには、ブートストラップスクリプトが[command]``bash``を使用して実"
-"行されていることを確認してください。"
+msgstr "問題を回避するには、ブートストラップスクリプトが [command]``bash``を使用して実行されていることを確認してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:48
-#, fuzzy
-#| msgid ""
-#| "The script downloads the required dependencies located in the "
-#| "repositories directory you created earlier."
 msgid ""
 "This script downloads the required dependencies located in the repositories "
 "directory you created earlier."
-msgstr ""
-"このスクリプトは、前に作成したリポジトリディレクトリにある必要な依存関係をダ"
-"ウンロードします。"
+msgstr "このスクリプトは、前に作成したリポジトリディレクトリにある必要な依存関係をダウンロードします。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:49
@@ -15714,9 +15656,8 @@ msgid ""
 "the activation key if any. Also add the other configuration parameters "
 "listed below."
 msgstr ""
-"ファイルで、{productname}サーバまたはプロキシのFQDN、およびアクティベーション"
-"キー(ある場合)を追加または編集します。 また以下にリストされている他の設定パラ"
-"メータを追加します。"
+"ファイルで、{productname}サーバまたはプロキシのFQDNと、アクティベーションキー(存在する場合)を追加または編集します。以下にリストされてい"
+"る他の設定パラメータも追加します。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-cli.adoc:11
@@ -15732,7 +15673,7 @@ msgid ""
 "  susemanager:\n"
 "    activation_key: \"<Activation_Key_Name>\"\n"
 msgstr ""
-"グレイン:\n"
+"grains:\n"
 "  susemanager:\n"
 "    activation_key: \"<Activation_Key_Name>\"\n"
 
@@ -22335,16 +22276,10 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features.adoc:11
-#, fuzzy
-#| msgid ""
-#| "The operating system you run on a client is supported by the organization "
-#| "that supplies the operating system."
 msgid ""
 "The operating system running on a client is supported by the organization "
 "that supplies the operating system."
-msgstr ""
-"クライアントで実行しているオペレーティングシステムは、オペレーティングシステ"
-"ムを提供している組織によってサポートされています。"
+msgstr "クライアントで実行されているオペレーティングシステムは、オペレーティングシステムを提供している組織によってサポートされています。"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features.adoc:13
@@ -24964,8 +24899,7 @@ msgid ""
 "Even if the Salt client is running, actions such as package refresh or apply "
 "states can be marked as failed with the message:"
 msgstr ""
-"Saltクライアントが実行されている場合でも、パッケージの更新や状態の適用などの"
-"アクションは、次のメッセージで失敗としてマークされる可能性があります。"
+"Saltクライアントが実行されている場合でも、パッケージの更新や状態の適用などのアクションは、次のメッセージで失敗としてマークされる可能性があります。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:106
@@ -24979,8 +24913,7 @@ msgid ""
 "In this case try rescheduling the action.  If rescheduling succeeds, the "
 "cause of the problem can be a wrong DNS configuration."
 msgstr ""
-"この場合、アクションのスケジュールを変更してみてください。スケジュールの変更"
-"が成功した場合、問題の原因はDNS設定の誤りである可能性があります。"
+"この場合、アクションのスケジュールを変更してみてください。スケジュールの変更が成功した場合、問題の原因はDNS設定の誤りである可能性があります。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:108
