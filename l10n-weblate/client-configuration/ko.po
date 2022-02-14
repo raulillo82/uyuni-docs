@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-23 16:13+0000\n"
-"PO-Revision-Date: 2022-02-14 05:12+0000\n"
+"PO-Revision-Date: 2022-02-14 10:12+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-424/ko/>\n"
@@ -608,6 +608,7 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:4
+#, fuzzy
 msgid "An activation key can specify:"
 msgstr "활성화 키는 다음을 지정할 수 있습니다."
 
@@ -5892,7 +5893,8 @@ msgstr "올바른 AutoYaST 업그레이드 설정은 다음을 참조하십시�
 #, fuzzy
 msgid ""
 "link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]."
-msgstr "링크:https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]."
+msgstr ""
+"link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:50
