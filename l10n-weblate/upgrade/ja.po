@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
 "POT-Creation-Date: 2022-01-25 18:14+0000\n"
-"PO-Revision-Date: 2022-02-14 10:12+0000\n"
+"PO-Revision-Date: 2022-02-15 02:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-upgrade-manager-42-mu-422/ja/>\n"
@@ -2450,21 +2450,16 @@ msgid ""
 "This type of upgrade does not apply for 4.2.  For older documentation and "
 "instructions on major version upgrade, see:"
 msgstr ""
+"このタイプのアップグレードは4.2には適用されません。メジャーバージョンのアップグレードに関する古いドキュメントと手順については、次を参照してください:"
 
 #. type: Plain text
 #: modules/upgrade/pages/server-x.adoc:3
-#, fuzzy
-#| msgid ""
-#| "For older documentation and instructions on major version upgrade, see "
-#| "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
-#| "upgrade/server-x.html"
 msgid ""
 "link:https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-"
 "manager/upgrade/server-x.html[]"
 msgstr ""
-"メジャーバージョンのアップグレードに関する古いドキュメントと手順については、 "
-"https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
-"upgrade/server-x.html を参照してください"
+"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
+"suse-manager/upgrade/server-x.html[]"
 
 #
 #
