@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-23 16:13+0000\n"
-"PO-Revision-Date: 2022-02-11 10:11+0000\n"
+"PO-Revision-Date: 2022-02-14 05:12+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-424/ko/>\n"
@@ -2647,8 +2647,8 @@ msgid ""
 "the base channel you need is not available, check that you have created the "
 "distribution correctly."
 msgstr ""
-"[guimenu]``기본 채널`` 필드에서 이 프로파일에 사용할 기본 채널을 선택합니다. 이 필드는 사용 가능한 배포에서 채워집니다.  "
-"필요한 기본 채널을 사용할 수 없는 경우 배포를 올바르게 생성하였는지 확인하십시오."
+"[guimenu]]``기본 채널`` 필드에서 이 프로파일에 사용할 기본 채널을 선택합니다.  이 필드는 사용 가능한 배포에서 "
+"채워집니다.  필요한 기본 채널을 사용할 수 없는 경우 배포를 올바르게 생성하였는지 확인하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:29
@@ -2909,7 +2909,7 @@ msgstr "btn:[목록 생성]을 클릭합니다."
 #, fuzzy
 #| msgid "File Preservation for {kickstart}"
 msgid "Include the file preservation list in your {kickstart} profile."
-msgstr "{kickstart}를 위한 파일 보관"
+msgstr "{kickstart} 프로파일에 파일 보관 목록 포함"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:59
@@ -5877,12 +5877,9 @@ msgid ""
 "can use as a starting point, see https://github.com/SUSE/manager-build-"
 "profiles/tree/master/AutoYaST."
 msgstr ""
-"자동 설치 프로파일에는 시스템을 설치하는 데 필요한 모든 설치 및 구성 데이터"
-"가 포함되어 있습니다.  설치 완료 후 실행될 스크립트도 포함할 수 있습니다.  시"
-"작 지점으로 사용할 수 있는 예제 스크립트는  link:https://github.com/SUSE/"
-"manager-build-profiles/tree/master/AutoYaST[]를 참조하십시오.  유효한 "
-"AutoYaST 업그레이드 설정에 대해서는 link:https://doc.opensuse.org/projects/"
-"autoyast/#CreateProfile-upgrade[]를 참조하십시오."
+"자동 설치 프로파일에는 시스템을 설치하는 데 필요한 모든 설치 및 구성 데이터가 포함되어 있습니다.  설치 완료 후 실행될 스크립트도 "
+"포함할 수 있습니다.  시작 지점으로 사용할 수 있는 예제 스크립트는 link:https://github.com/SUSE/"
+"manager-build-profiles/tree/master/AutoYaST[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:47
@@ -5895,8 +5892,7 @@ msgstr "올바른 AutoYaST 업그레이드 설정은 다음을 참조하십시�
 #, fuzzy
 msgid ""
 "link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]."
-msgstr ""
-"link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]."
+msgstr "링크:https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:50
@@ -5914,9 +5910,7 @@ msgstr ""
 #| "For example scripts that you can use as a starting point, see https://"
 #| "github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 msgid "For example scripts that you can use as a starting point, see"
-msgstr ""
-"시작 지점으로 사용할 수 있는 예제 스크립트는 link:https://github.com/SUSE/"
-"manager-build-profiles/tree/master/AutoYaST[]를 참조하십시오."
+msgstr "시작 지점으로 사용할 수 있는 예제 스크립트는 다음을 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:52
@@ -5925,9 +5919,7 @@ msgstr ""
 #| "For example autoinstallation profiles, see https://github.com/SUSE/"
 #| "manager-build-profiles/tree/master/AutoYaST."
 msgid "https://github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
-msgstr ""
-"자동 설치 프로파일의 예는 link:https://github.com/SUSE/manager-build-"
-"profiles/tree/master/AutoYaST[]를 참조하십시오."
+msgstr "https://github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:53
@@ -8975,7 +8967,7 @@ msgstr "명령 실행:"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "subscription-manager activate\n"
 msgstr "subscription-manager activate\n"
 
@@ -9339,7 +9331,7 @@ msgstr "Red Hat 채널- CLI"
 #. type: Table
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:72
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -10716,7 +10708,7 @@ msgstr "ES 채널 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-sleses.adoc:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -15315,9 +15307,7 @@ msgstr "문제를 해결하려면 [command]``bash`` 명령을 사용하여 부�
 msgid ""
 "This script downloads the required dependencies located in the repositories "
 "directory you created earlier."
-msgstr ""
-"스크립트는 앞서 생성한 리포지토리 디렉토리에 있는 필수 종속성을 다운로드합니"
-"다."
+msgstr "이 스크립트는 앞서 생성한 리포지토리 디렉토리에 있는 필수 종속성을 다운로드합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:49
@@ -15409,17 +15399,18 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-cli.adoc:10
+#, fuzzy
 msgid ""
 "In the file add or edit the FQDN of the {productname} Server or Proxy, and "
 "the activation key if any. Also add the other configuration parameters "
 "listed below."
 msgstr ""
-"파일에서 {productname} 서버 또는 프록시의 FQDN, 활성화 키를 추가하거나 편집합"
-"니다. 또한 아래 나열된 다른 구성 파라미터를 추가하십시오."
+"파일에서 {productname} 서버 또는 프록시의 FQDN과 활성화 키(있는 경우)를 추가하거나 편집합니다. 또한 아래 나열된 다른 "
+"구성 매개변수를 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-cli.adoc:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "master: SERVER.EXAMPLE.COM\n"
 msgstr "master: SERVER.EXAMPLE.COM\n"
 
@@ -21978,8 +21969,7 @@ msgstr ""
 msgid ""
 "The operating system running on a client is supported by the organization "
 "that supplies the operating system."
-msgstr ""
-"클라이언트에서 실행하는 운영 체제는 운영 체제를 제공하는 조직이 지원합니다."
+msgstr "클라이언트에서 실행되는 운영 체제는 운영 체제를 제공하는 조직이 지원합니다."
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features.adoc:13
@@ -22215,6 +22205,72 @@ msgstr ""
 "| {x86_64}, {aarch64}\n"
 "| {cross}\n"
 "| {check}\n"
+"\n"
+"| {almalinux} 8\n"
+"| {x86_64}, {aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {amazon} 2\n"
+"| {x86_64}, {aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {centos} 8\n"
+"| {x86_64}, {ppc64le}, {aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {centos} 7\n"
+"| {x86_64}, {ppc64le}, {aarch64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {debian} 10\n"
+"| {x86_64}, {aarch64}, armv7l, i586\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {debian} 9\n"
+"| {x86_64}, {aarch64}, armv7l, i586\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {oracle} 8\n"
+"| {x86_64}, {aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {oracle} 7\n"
+"| {x86_64}, {aarch64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {rhel} 8\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {rhel} 7\n"
+"| {x86_64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {rocky} 8\n"
+"| {x86_64}, {ppc64le}, {aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {ubuntu} 20.04\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {ubuntu} 18.04\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features.adoc:15
@@ -22441,10 +22497,71 @@ msgstr ""
 "| {check}\n"
 "| {check}\n"
 "\n"
-"| {alibabaclo} 2\n"
+"| {almalinux} 8\n"
 "| {x86_64}, {aarch64}\n"
 "| {cross}\n"
 "| {check}\n"
+"\n"
+"| {amazon} 2\n"
+"| {x86_64}, {aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {centos} 8\n"
+"| {x86_64}, {aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {centos} 7\n"
+"| {x86_64}, {aarch64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {debian} 10\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {debian} 9\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {oracle} 8\n"
+"| {x86_64}, {aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {oracle} 7\n"
+"| {x86_64}, {aarch64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {rhel} 8\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {rhel} 7\n"
+"| {x86_64}\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
+"| {rocky} 8\n"
+"| {x86_64}, {aarch64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {ubuntu} 20.04\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
+"| {ubuntu} 18.04\n"
+"| {x86_64}\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features.adoc:16
@@ -23015,6 +23132,7 @@ msgstr "{sle} 및 {opensuse} (zypp-based) vs {rhel} 또는 {debian} 클라이언
 
 #. type: delimited block =
 #: modules/client-configuration/pages/system-locking.adoc:26
+#, fuzzy
 msgid "Traditional versus Salt clients."
 msgstr "기존 클라이언트 vs Salt 클라이언트."
 
@@ -24562,7 +24680,7 @@ msgid ""
 "In this case try rescheduling the action.  If rescheduling succeeds, the "
 "cause of the problem can be a wrong DNS configuration."
 msgstr ""
-"이 경우 작업의 일정을 변경해 보십시오. 성공적으로 일정을 변경할 수 있는 경우 잘못된 DNS 구성이 문제의 원인일 수 있습니다."
+"이 경우 작업의 일정을 변경해 보십시오.  성공적으로 일정을 변경할 수 있는 경우 잘못된 DNS 구성이 문제의 원인일 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:108
@@ -24576,9 +24694,8 @@ msgid ""
 "action can be triggered."
 msgstr ""
 "Salt 클라이언트가 다시 시작되거나 그레인이 새로 고쳐지는 경우, 클라이언트는 FQDN 그레인을 계산하고 그레인이 진행될 때까지 "
-"응답하지 않습니다. \n"
-" {productname} 서버에서 예약된 작업이 실행될 때 {productname} 서버는 클라이언트를 대상으로 ``test.ping``"
-"을 수행한 후 실제 작업을 수행하여 클라이언트가 실제로 실행되고 있고 작업이 트리거될 수 있는지 확인합니다."
+"응답하지 않습니다.  {productname} 서버에서 예약된 작업이 실행될 때 {productname} 서버는 클라이언트를 대상으로 "
+"``test.ping``을 수행한 후 실제 작업을 수행하여 클라이언트가 실제로 실행되고 있고 작업이 트리거될 수 있는지 확인합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:109
@@ -24629,7 +24746,7 @@ msgstr "그리고 다음을 사용하여 ``spacewalk-services``를 다시 시작
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "spacewalk-services restart\n"
 msgstr "spacewalk-services restart\n"
 
@@ -25498,7 +25615,9 @@ msgstr "클러스터에서 관리 노드까지 ``skuba`` 구성 디렉토리를 
 #, fuzzy, no-wrap
 #| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
 msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
-msgstr "클러스터가 부트스트래핑된 후 ``skuba`` 서비스가 생성하는 디렉토리입니다. {productname} {webui}에 클러스터를 추가하기 위해 새 파일 위치를 적어 두십시오."
+msgstr ""
+"클러스터가 부트스트래핑된 후 ``skuba`` 서비스가 생성하는 디렉토리입니다. {productname} {webui}에 클러스터를 "
+"추가하기 위해 새 파일 위치를 적어 두십시오.\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:44
@@ -27451,14 +27570,16 @@ msgstr "절차: 관리 노드 구성"
 msgid ""
 "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped.\n"
 "Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
-msgstr "클러스터가 부트스트래핑된 후 ``skuba`` 서비스가 생성하는 디렉토리입니다. {productname} {webui}에 클러스터를 추가하기 위해 새 파일 위치를 적어 두십시오."
+msgstr ""
+"클러스터가 부트스트래핑된 후 ``skuba`` 서비스가 생성하는 디렉토리입니다.\n"
+"{productname} {webui}에 클러스터를 추가하기 위해 새 파일 위치를 적어 두십시오.\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:19
 #, fuzzy, no-wrap
 #| msgid "Provide a way to authenticate."
 msgid "Provide a way to authenticate.\n"
-msgstr "인증 방식을 입력합니다."
+msgstr "인증 방식을 입력합니다.\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:20
