@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
 "POT-Creation-Date: 2022-01-25 18:14+0000\n"
-"PO-Revision-Date: 2022-02-14 05:12+0000\n"
+"PO-Revision-Date: 2022-02-14 10:12+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-upgrade-manager-42-mu-422/ko/>\n"
@@ -2103,9 +2103,8 @@ msgid ""
 "available in the release notes.  For important extra information about your "
 "upgrade, see the release notes at:"
 msgstr ""
-"추가적인 수동 단계가 몇 가지 필요할 수 있으며 이 정보는 릴리스 노트에서만 제"
-"공됩니다.  업그레이드와 관련된 중요한 추가 정보는 릴리스 노트(link:https://"
-"www.uyuni-project.org/pages/stable-version.html[])를 참조하십시오."
+"추가적인 수동 단계가 몇 가지 필요할 수 있으며 이 정보는 릴리스 노트에서만 제공됩니다.  업그레이드와 관련된 중요한 추가 정보는 릴리스 "
+"노트에서 참조하십시오."
 
 #. type: delimited block =
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:4
@@ -2454,9 +2453,8 @@ msgid ""
 "link:https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-"
 "manager/upgrade/server-x.html[]"
 msgstr ""
-"주 버전 업그레이드에 대한 기존 설명서 및 지침은 link:https://documentation."
-"suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/server-x.html[]에"
-"서 참조하십시오."
+"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
+"suse-manager/upgrade/server-x.html[]"
 
 #
 #
