@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:14+0000\n"
-"PO-Revision-Date: 2022-02-14 02:12+0000\n"
+"PO-Revision-Date: 2022-02-15 02:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-422/ja/>\n"
@@ -2209,9 +2209,7 @@ msgstr ""
 #: modules/client-configuration/pages/autoinst-intro.adoc:13
 msgid ""
 "you are able to set up a new DHCP server or to configure an existing one;"
-msgstr ""
-"新しいDHCPサーバをセットアップするか、既存のDHCPサーバを設定することができ"
-"る。"
+msgstr "新しいDHCPサーバをセットアップするか、既存のDHCPサーバを設定することができる。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:14
@@ -22189,9 +22187,7 @@ msgstr ""
 #: modules/client-configuration/pages/supported-features.adoc:8
 msgid ""
 "{cross} clients running this operating system are not supported by {suse}"
-msgstr ""
-"{cross}このオペレーティングシステムを実行しているクライアントは{suse}ではサ"
-"ポートされていません。"
+msgstr "{cross}このオペレーティングシステムを実行しているクライアントは{suse}ではサポートされていません。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:9
