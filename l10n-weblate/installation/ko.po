@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-23 16:13+0000\n"
-"PO-Revision-Date: 2022-02-14 10:12+0000\n"
+"PO-Revision-Date: 2022-02-16 11:12+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-424/ko/>\n"
@@ -20,9 +20,9 @@ msgstr ""
 
 #. type: Title =
 #: modules/installation/nav-installation-guide.adoc:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[.title]#{productname} {productnumber}#: Installation Guide"
-msgstr "[.title]#{productname} {productnumber}#: Installation Guide"
+msgstr "[.title]#{productname} {productnumber}#: 설치 안내서"
 
 #. type: Plain text
 #: modules/installation/nav-installation-guide.adoc:2
@@ -210,13 +210,11 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/installation/pages/client-requirements.adoc:5
-#, fuzzy
 msgid "link:https://www.suse.com/lifecycle[]"
 msgstr "link:https://www.suse.com/lifecycle[]"
 
 #. type: delimited block =
 #: modules/installation/pages/client-requirements.adoc:6
-#, fuzzy
 msgid ""
 "For non-{suse} operating systems, including {rhel}, {centos}, and {oracle}, "
 "only the latest available version is under general support."
@@ -225,62 +223,7 @@ msgstr ""
 
 #. type: Table
 #: modules/installation/pages/client-requirements.adoc:8
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Operating System\n"
-#| "| Architecture\n"
-#| "| Traditional Clients\n"
-#| "| Salt Clients\n"
-#| "\n"
-#| "| {sle} 15\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 12\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 11\n"
-#| "| {x86}, {x86_64}, {ipf}, {ppc64}, {ibmz}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 15\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 12\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {micro}\n"
-#| "| {x86_64}, {ppc64le}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {opensuse} Leap 15\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 8\n"
-#| "| {x86_64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 7\n"
-#| "| {x86_64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {alibabaclo} 2\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
+#, no-wrap
 msgid ""
 "| Operating System\n"
 "| Architecture\n"
@@ -516,62 +459,7 @@ msgstr ""
 
 #. type: Table
 #: modules/installation/pages/client-requirements.adoc:10
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Operating System\n"
-#| "| Architecture\n"
-#| "| Traditional Clients\n"
-#| "| Salt Clients\n"
-#| "\n"
-#| "| {sle} 15\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 12\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 11\n"
-#| "| {x86}, {x86_64}, {ipf}, {ppc64}, {ibmz}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 15\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 12\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {micro}\n"
-#| "| {x86_64}, {ppc64le}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {opensuse} Leap 15\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 8\n"
-#| "| {x86_64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 7\n"
-#| "| {x86_64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {alibabaclo} 2\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
+#, no-wrap
 msgid ""
 "| Operating System\n"
 "| Architecture\n"
@@ -2629,17 +2517,13 @@ msgstr "RAM이 2GB 이상이고 CPU가 2개 이상으로 머신을 구성해야 
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy.adoc:13
-#, fuzzy
-#| msgid ""
-#| "During the SLES installation this disk should be partitioned into the "
-#| "following partitions:"
 msgid ""
 "Create a storage device with a minimum of 230 GB storage space for the "
 "installation.  During the SLES installation this disk should be partitioned "
 "into the following partitions:"
 msgstr ""
-"설치를 위한 최소 230 GB의 저장소가 있는 저장 장치를 생성합니다. SLES를 설치하는 동안 이 디스크의 파티션을 다음과 같이 "
-"구성해야 합니다."
+"설치를 위한 최소 230GB의 저장소가 있는 저장 장치를 생성합니다. SLES를 설치하는 동안 이 디스크의 파티션을 다음과 같이 구성해야 "
+"합니다."
 
 #. type: Table
 #: modules/installation/pages/install-proxy.adoc:14
@@ -2670,19 +2554,11 @@ msgstr "btn:[완료]를 클릭하여 설치 설정을 저장하고 설치를 시
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy.adoc:17
-#, fuzzy
-#| msgid ""
-#| "For more information about reinstalling proxies, see xref:installation:"
-#| "proxy-setup.adoc[]."
 msgid "For more information on installing {sles}, see:"
-msgstr "{sles} 설치에 대한 자세한 내용은 다음을 참조하세요."
+msgstr "{sles} 설치에 대한 자세한 내용은 다음에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy.adoc:18
-#, fuzzy
-#| msgid ""
-#| "For more information on installing {sles}, see https://documentation.suse."
-#| "com/sles/15-SP3/html/SLES-all/article-installation.html."
 msgid ""
 "link:https://documentation.suse.com/sles/15-SP3/html/SLES-all/article-"
 "installation.html[]."
@@ -2734,10 +2610,7 @@ msgstr ""
 
 #. type: delimited block -
 #: modules/installation/pages/install-proxy.adoc:25
-#, fuzzy, no-wrap
-#| msgid ""
-#| "SUSEConnect -e <EMAIL_ADDRESS> -r <SUSE_MANAGER_PROXY_CODE> \\\n"
-#| "  -p SUSE-Manager-Proxy/<productversion>/<architecture>\n"
+#, no-wrap
 msgid ""
 "SUSEConnect -e <EMAIL_ADDRESS> -r <SUSE_MANAGER_PROXY_CODE> \\\n"
 "-p SUSE-Manager-Proxy/<productversion>/<architecture>\n"
@@ -2765,8 +2638,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy.adoc:28
-#, fuzzy
-#| msgid "Check that you have allowed installing recommended packages."
 msgid ""
 "Check that you have allowed installing recommended packages.  Check the "
 "settings in `/etc/zypp/zypp.conf`:"
@@ -4273,7 +4144,6 @@ msgstr "SUSE Manager 프록시 등록"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:2
-#, fuzzy
 msgid ""
 "Migrating a traditional proxy to a Salt proxy is not possible.  "
 "{productname} Proxy systems are Salt or traditional clients that are "
@@ -5348,13 +5218,12 @@ msgstr ""
 
 #. type: Title ===
 #: modules/installation/pages/proxy-setup.adoc:105
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Serving big files"
-msgstr "대용량 파일 서비스 제공"
+msgstr "대용량 파일 제공"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:106
-#, fuzzy
 msgid ""
 "If you need to distribute big files such as ISO images to your network "
 "through the proxy.  On the PROXY_HOSTNAME system, copy the big files to the "
