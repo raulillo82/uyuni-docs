@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:14+0000\n"
-"PO-Revision-Date: 2022-02-14 05:12+0000\n"
+"PO-Revision-Date: 2022-02-16 11:12+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-422/ko/>\n"
@@ -20,10 +20,9 @@ msgstr ""
 
 #. type: Title =
 #: modules/installation/nav-installation-guide.adoc:1
-#, fuzzy, no-wrap
-#| msgid "{productname} {productnumber} Proxy"
+#, no-wrap
 msgid "[.title]#{productname} {productnumber}#: Installation Guide"
-msgstr "[.title]#{productname} {productnumber}#: Installation Guide"
+msgstr "[.title]#{productname} {productnumber}#: 설치 안내서"
 
 #. type: Plain text
 #: modules/installation/nav-installation-guide.adoc:2
