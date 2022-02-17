@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-02 09:58+0000\n"
-"PO-Revision-Date: 2022-02-17 07:27+0000\n"
+"PO-Revision-Date: 2022-02-17 09:12+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-425/ko/>\n"
@@ -1530,9 +1530,7 @@ msgstr ""
 msgid ""
 "For more information about KIWI, see http://doc.opensuse.org/projects/kiwi/"
 "doc/."
-msgstr ""
-"KIWI에 대한 자세한 정보는 link:http://doc.opensuse.org/projects/kiwi/doc/[]"
-"를 참조하십시오."
+msgstr "KIWI에 대한 자세한 정보는 http://doc.opensuse.org/projects/kiwi/doc/에서 참조하십시오."
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-cdrom.adoc:21
@@ -1789,8 +1787,8 @@ msgid ""
 "operating systems, you can download installation media from https://www.suse."
 "com/download/."
 msgstr ""
-"{productname} 서버에 설치 미디어를 복사합니다.  {suse} 운영 체제의 경우 link:"
-"https://www.suse.com/download/[]에서 설치 미디어를 다운로드할 수 있습니다."
+"{productname} 서버에 설치 미디어를 복사합니다.  {suse} 운영 체제의 경우 https://www.suse.com/"
+"download/에서 설치 미디어를 다운로드할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-distributions.adoc:11
@@ -2190,8 +2188,8 @@ msgid ""
 "The autoinstallation features of SUSE Manager are based on a software named "
 "Cobbler.  For more information, see https://cobbler.github.io/quickstart/."
 msgstr ""
-"SUSE Manager의 자동 설치 기능은 Cobbler 소프트웨어를 기반으로 합니다.  자세"
-"한 설명은 link:https://cobbler.github.io/quickstart/[]를 참조하십시오."
+"SUSE Manager의 자동 설치 기능은 Cobbler 소프트웨어를 기반으로 합니다.  자세한 설명은 https://cobbler."
+"github.io/quickstart/를 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:1
@@ -2735,10 +2733,9 @@ msgid ""
 "installation files, see https://doc.opensuse.org/projects/autoyast/#cha-"
 "configuration-installation-options."
 msgstr ""
-"{ay} 설치 파일은 {ay} 설치 프로그램에 방향을 제공하는 XML 파일입니다. {ay}에"
-"서는 이 파일을 \"제어 파일\"이라고 부릅니다.  {ay} 설치 파일의 전체 구문은 "
-"link:https://doc.opensuse.org/projects/autoyast/#cha-configuration-"
-"installation-options[]를 참조하십시오."
+"{ay} 설치 파일은 {ay} 설치 프로그램에 방향을 제공하는 XML 파일입니다. {ay}에서는 이 파일을 \"제어 파일\"이라고 "
+"부릅니다.  {ay} 설치 파일의 전체 구문은 https://doc.opensuse.org/projects/autoyast/#cha-"
+"configuration-installation-options를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:43
@@ -2752,13 +2749,11 @@ msgid ""
 "about using variables in {ay} scripts, see xref:client-configuration:"
 "autoinst-profiles#variables[Variables]."
 msgstr ""
-"{suse}는 사용자 정의 파일의 시작점으로 사용할 수 있는 {ay} 설치 파일의 템플릿"
-"을 제공합니다.  이 템플릿은 이름이 [path]``AutoYast``인 디렉토리의 link:"
-"https://github.com/SUSE/manager-build-profiles[]에서 확인할 수 있습니다.  이"
-"러한 각 프로파일은 사용하기 전 일부 변수를 설정해야 합니다.  필요한 변수는 스"
-"크립트에 포함된 [path]``README`` 파일에서 확인합니다.  {ay} 스크립트에서 변"
-"수 사용에 대한 자세한 설명은 xref:client-configuration:autoinst-"
-"profiles#variables[변수]를 참조하십시오."
+"{suse}는 사용자 정의 파일의 시작점으로 사용할 수 있는 {ay} 설치 파일의 템플릿을 제공합니다.  이 템플릿은 이름이 "
+"[path]``AutoYast``인 디렉토리의 https://github.com/SUSE/manager-build-profiles에서 "
+"확인할 수 있습니다.  이러한 각 프로파일은 사용하기 전 일부 변수를 설정해야 합니다.  필요한 변수는 스크립트에 포함된 "
+"[path]``README`` 파일에서 확인합니다.  {ay} 스크립트에서 변수 사용에 대한 자세한 설명은 xref:client-"
+"configuration:autoinst-profiles#variables[변수]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:44
@@ -2804,9 +2799,7 @@ msgstr ""
 msgid ""
 "For more information about {ay}, see https://doc.opensuse.org/projects/"
 "autoyast/."
-msgstr ""
-"{ay}에 대한 자세한 내용은 link:https://doc.opensuse.org/projects/autoyast/[]"
-"를 참조하십시오."
+msgstr "{ay}에 대한 자세한 내용은 https://doc.opensuse.org/projects/autoyast/를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:50
@@ -5502,8 +5495,8 @@ msgid ""
 "For example autoinstallation profiles, see https://github.com/SUSE/manager-"
 "build-profiles/tree/master/AutoYaST."
 msgstr ""
-"자동 설치 프로파일의 예는 link:https://github.com/SUSE/manager-build-"
-"profiles/tree/master/AutoYaST[]를 참조하십시오."
+"자동 설치 프로파일의 예는 https://github.com/SUSE/manager-build-profiles/tree/master/"
+"AutoYaST를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:30
@@ -5924,8 +5917,8 @@ msgid ""
 "For more information, see https://documentation.suse.com/sles/15-SP3/html/"
 "SLES-all/article-modules.html."
 msgstr ""
-"자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
-"article-modules.html[]을 참조하십시오."
+"자세한 내용은 https://documentation.suse.com/sles/15-SP3/html/SLES-all/article-"
+"modules.html을 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:42
@@ -6201,11 +6194,10 @@ msgid ""
 "documentation.suse.com/sles/15-SP3/html/SLES-all/cha-upgrade-paths.html#sec-"
 "upgrade-paths-supported."
 msgstr ""
-"{scc}가 제공하는 경우 {suse}는 {sle}{nbsp}12 이상 버전에서 서비스 팩 건너뛰기"
-"를 지원합니다. 예를 들어, SP1을 설치하지 않아도 {sle}{nbsp}15에서 SP2로 업그"
-"레이드할 수 있습니다. 지원되는 {sle} 업그레이드 경로는 link:https://"
-"documentation.suse.com/sles/15-SP3/html/SLES-all/cha-upgrade-paths.html#sec-"
-"upgrade-paths-supported[]를 참조하십시오."
+"{scc}가 제공하는 경우 {suse}는 {sle}{nbsp}12 이상 버전에서 서비스 팩 건너뛰기를 지원합니다. 예를 들어, SP1을 "
+"설치하지 않아도 {sle}{nbsp}15에서 SP2로 업그레이드할 수 있습니다. 지원되는 {sle} 업그레이드 경로는 "
+"https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-upgrade-paths."
+"html#sec-upgrade-paths-supported를 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:9
@@ -7578,12 +7570,11 @@ msgid ""
 "issues/28#issuecomment-656579382 and https://github.com/stevemeier/cefs/"
 "issues/28#issuecomment-656573607."
 msgstr ""
-"CEFS의 원저자는 도움이 됐으면 하는 마음으로 최선을 다해 패치나 정오표를 제공"
-"하지만 정확성이나 최신 상태를 보장하지는 않습니다.   따라서 패치 날짜가 부정"
-"확할 수 있습니다. 한번은 게시 날짜가 한 달 이상 늦은 날짜로 표시된 적도 있습"
-"니다.  이러한 경우에 대한 자세한 내용은 link:https://github.com/stevemeier/"
-"cefs/issues/28#issuecomment-656579382[] 및 link:https://github.com/"
-"stevemeier/cefs/issues/28#issuecomment-656573607[]을 참조하십시오."
+"CEFS의 원저자는 도움이 됐으면 하는 마음으로 최선을 다해 패치나 정오표를 제공하지만 정확성이나 최신 상태를 보장하지는 않습니다.   "
+"따라서 패치 날짜가 부정확할 수 있습니다. 한번은 게시 날짜가 한 달 이상 늦은 날짜로 표시된 적도 있습니다.  이러한 경우에 대한 "
+"자세한 내용은 https://github.com/stevemeier/cefs/issues/28#issuecomment-656579382 "
+"및 https://github.com/stevemeier/cefs/issues/28#issuecomment-656573607을 "
+"참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:37
@@ -7739,9 +7730,7 @@ msgstr "ln -s /usr/local/bin/cent-errata.sh /etc/cron.daily\n"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-centos.adoc:54
 msgid "For more information on this tool, see https://cefs.steve-meier.de/."
-msgstr ""
-"이 도구에 대한 자세한 내용은 link:https://cefs.steve-meier.de/[]를 참조하십시"
-"오."
+msgstr "이 도구에 대한 자세한 내용은 https://cefs.steve-meier.de/를 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-debian.adoc:1
@@ -8411,9 +8400,8 @@ msgid ""
 "metadata are provided by Oracle, not by {suse}.  {oracle} base media "
 "repositories are freely available for download from https://yum.oracle.com/."
 msgstr ""
-"{oracle} 리포지토리 URL은 {scc}가 제공하지만 패키지 및 메타데이터는 {suse}가 "
-"아닌 Oracle이 제공합니다.  {oracle} 기본 미디어 리포지토리는 link:https://"
-"yum.oracle.com/[]에서 무료로 다운로드할 수 있습니다."
+"{oracle} 리포지토리 URL은 {scc}가 제공하지만 패키지 및 메타데이터는 {suse}가 아닌 Oracle이 제공합니다.  "
+"{oracle} 기본 미디어 리포지토리는 https://yum.oracle.com/에서 무료로 다운로드할 수 있습니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-oracle.adoc:4
@@ -13433,8 +13421,8 @@ msgid ""
 "For more information about the [path]``/etc/salt/minion`` configuration "
 "file, see https://docs.saltstack.com/en/latest/ref/configuration/minion.html."
 msgstr ""
-"[path]``/etc/salt/minion`` 구성 파일에 대한 자세한 내용은 link:https://docs."
-"saltstack.com/en/latest/ref/configuration/minion.html[]을 참조하십시오."
+"[path]``/etc/salt/minion`` 구성 파일에 대한 자세한 내용은 https://docs.saltstack.com/en/"
+"latest/ref/configuration/minion.html을 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/contact-methods-salt.adoc:1
@@ -13758,8 +13746,8 @@ msgid ""
 "For more information about Salt SSH, see https://docs.saltstack.com/en/"
 "latest/topics/ssh/."
 msgstr ""
-"Salt SSH에 대한 자세한 내용은 link:https://docs.saltstack.com/en/latest/"
-"topics/ssh/[]에서 참조하십시오."
+"Salt SSH에 대한 자세한 내용은 https://docs.saltstack.com/en/latest/topics/ssh/에서 "
+"참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:1
@@ -21965,9 +21953,8 @@ msgid ""
 "(normal or LTSS) to be supported with {productname}.  For details on "
 "supported product versions, see https://www.suse.com/lifecycle."
 msgstr ""
-"클라이언트 운영 체제 버전 및 SP 수준에는 {productname}로 지원될 일반 지원(일"
-"반 또는 LTSS)이 적용되어야 합니다.  지원되는 제품 버전에 대한 상세 정보는 "
-"link:https://www.suse.com/lifecycle[]를 참조하십시오."
+"클라이언트 운영 체제 버전 및 SP 수준에는 {productname}로 지원될 일반 지원(일반 또는 LTSS)이 적용되어야 합니다.  "
+"지원되는 제품 버전에 대한 상세 정보는 https://www.suse.com/lifecycle에서 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features.adoc:11
