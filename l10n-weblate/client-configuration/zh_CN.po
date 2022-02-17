@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:13+0000\n"
-"PO-Revision-Date: 2022-02-09 12:12+0000\n"
+"PO-Revision-Date: 2022-02-17 09:11+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-423/zh_CN/>\n"
@@ -652,9 +652,8 @@ msgid ""
 "between the activation key and the client is recorded only for historical "
 "purposes."
 msgstr ""
-"在注册客户端时需使用激活密钥，之后将不再使用。  无论激活密钥指定了什么内容，"
-"注册好客户端后，就能以任何方式对其进行更改。  记录激活密钥与客户端之间的关联"
-"仅为了历史记载。"
+"在注册客户端时需使用激活密钥，之后将不再使用。无论激活密钥指定了什么内容，注册好客户端后，就能以任何方式对其进行更改。记录激活密钥与客户端之间的关联仅为了"
+"历史记载。"
 
 #. type: Target for macro image
 #: modules/client-configuration/pages/activation-keys.adoc:12
@@ -825,9 +824,8 @@ msgid ""
 "specify multiple keys in a {kickstart} profile, navigate to menu:"
 "Systems[Autoinstallation] and edit the profile you want to use."
 msgstr ""
-"在 {productname} 服务器的命令提示符处，使用 [command]``rhnreg_ks`` 命令并用逗"
-"号分隔密钥名称。  要在 {kickstart} 配置文件中指定多个密钥，请导航到menu:系统"
-"[自动安装]，然后编辑您要使用的配置文件。"
+"在 {productname} 服务器的命令提示符处，使用 [command]``rhnreg_ks`` 命令并用逗号分隔密钥名称。要在 "
+"{kickstart} 配置文件中指定多个密钥，请导航到menu:系统[自动安装]，然后编辑您要使用的配置文件。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:34
@@ -1698,9 +1696,7 @@ msgstr ""
 msgid ""
 "You must also have a base channel synchronized on your {productname} Server "
 "for the same operating system version as those files."
-msgstr ""
-"对于与这些文件相同的操作系统版本，您还必须在 {productname} 服务器上同步基础频"
-"道。"
+msgstr "对于与这些文件相同的操作系统版本，您还必须在 {productname} 服务器上同步基础频道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-distributions.adoc:6
@@ -1748,8 +1744,8 @@ msgid ""
 "operating systems, you can download installation media from https://www.suse."
 "com/download/."
 msgstr ""
-"将安装媒体复制到您的 {productname} 服务器上。  对于 {suse} 操作系统，您可以"
-"从 https://www.suse.com/download/ 下载安装媒体。"
+"将安装媒体复制到您的 {productname} 服务器上。对于 {suse} 操作系统，您可以从 https://www.suse.com/"
+"download/ 下载安装媒体。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-distributions.adoc:11
@@ -1809,9 +1805,8 @@ msgid ""
 "[package]``tftpboot-installation``.  You can determine its exact name with "
 "the command [command]``zypper se tftpboot-installation``"
 msgstr ""
-"在 {productname} 服务器上，安装名称以 [package]``tftpboot-installation`` 开头"
-"的软件包。 您可以通过 [command]``zypper se tftpboot-installation`` 命令确定它"
-"的确切名称"
+"在 {productname} 服务器上，安装名称以 [package]``tftpboot-installation`` 开头的软件包。 您可以通过 "
+"[command]``zypper se tftpboot-installation`` 命令确定它的确切名称"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-distributions.adoc:18
@@ -3903,9 +3898,8 @@ msgid ""
 "Salt on clients.  When products are synchronized, bootstrap repositories are "
 "automatically created and regenerated on the {productname} Server."
 msgstr ""
-"引导储存库包含在引导期间注册 Salt 或传统客户端所需的软件包，以及在客户端上安"
-"装 Salt 所需的软件包。  同步产品时，会自动在 {productname} 服务器上创建及重新"
-"生成引导储存库。"
+"引导储存库包含在引导期间注册 Salt 或传统客户端所需的软件包，以及在客户端上安装 Salt 所需的软件包。同步产品时，会自动在 "
+"{productname} 服务器上创建及重新生成引导储存库。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/bootstrap-repository.adoc:3
@@ -6163,8 +6157,8 @@ msgid ""
 "[command]``spacewalk-common-channels`` command to add the appropriate "
 "channels."
 msgstr ""
-"在 {productname} Server 上的命令提示符下，以 root 身份使用 "
-"[command]``spacewalk-common-channels`` 命令添加相应的频道。"
+"在 {productname} 服务器上的命令提示符处，以 root 身份使用 [command]``spacewalk-common-"
+"channels`` 命令添加相应的频道。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/client-upgrades-uyuni.adoc:3
@@ -8049,9 +8043,8 @@ msgid ""
 "daily for all synchronized products.  You can manually create the bootstrap "
 "repository from the command prompt, using this command:"
 msgstr ""
-"要注册您的 OpenSUSE 客户端，需要有引导储存库。  默认会自动创建并且每天会为所"
-"有同步的产品重新生成引导储存库。  您可以在命令提示符处使用以下命令手动创建引"
-"导储存库："
+"要注册您的 OpenSUSE 客户端，需要有引导储存库。 默认会自动创建并且每天会为所有同步的产品重新生成引导储存库。 "
+"您可以在命令提示符处使用以下命令手动创建引导储存库："
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-oracle.adoc:1
@@ -9326,9 +9319,8 @@ msgid ""
 "daily for all synchronized products.  You can manually create the bootstrap "
 "repository from the command prompt, using this command:"
 msgstr ""
-"要注册您的 {redhat} 客户端，需要有引导储存库。  默认会自动创建并且每天会为所"
-"有同步的产品重新生成引导储存库。  您可以在命令提示符处使用以下命令手动创建引"
-"导储存库："
+"要注册您的 {redhat} "
+"客户端，需要有引导储存库。默认会自动创建并且每天会为所有同步的产品重新生成引导储存库。您可以在命令提示符处使用以下命令手动创建引导储存库："
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:121
@@ -9958,9 +9950,8 @@ msgid ""
 "daily for all synchronized products.  You can manually create the bootstrap "
 "repository from the command prompt, using this command:"
 msgstr ""
-"要注册您的 {sle} 客户端，需要有引导储存库。  默认会自动创建并且每天会为所有同"
-"步的产品重新生成引导储存库。  您可以在命令提示符处使用以下命令手动创建引导储"
-"存库："
+"要注册您的 {sle} "
+"客户端，需要有引导储存库。默认会自动创建并且每天会为所有同步的产品重新生成引导储存库。您可以在命令提示符处使用以下命令手动创建引导储存库："
 
 #
 #. type: Title =
@@ -10867,9 +10858,8 @@ msgid ""
 "daily for all synchronized products.  You can manually create the bootstrap "
 "repository from the command prompt, using this command:"
 msgstr ""
-"要注册您的 {ubuntu} 客户端，需要有引导储存库。  默认会自动创建并且每天会为所"
-"有同步的产品重新生成引导储存库。  您可以在命令提示符处使用以下命令手动创建引"
-"导储存库："
+"要注册您的 {ubuntu} "
+"客户端，需要有引导储存库。默认会自动创建并且每天会为所有同步的产品重新生成引导储存库。您可以在命令提示符处使用以下命令手动创建引导储存库："
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:44
@@ -13076,9 +13066,8 @@ msgid ""
 "anywhere.  All future SSH sessions are authorized via a key/certificate "
 "pair.  These parameters are configured in menu:Systems[Bootstrapping]."
 msgstr ""
-"如果您要配置通过 Salt SSH 推送方法，可以修改注册系统时使用的参数，包括主机、"
-"激活密钥和口令。  口令只能用于引导，不会保存在任何位置。  所有将来的 SSH 会话"
-"均通过密钥/证书对获得授权。  这些参数在menu:系统[引导]中配置。"
+"如果您要配置通过 Salt SSH 推送方法，可以修改注册系统时使用的参数，包括主机、激活密钥和口令。口令只能用于引导，不会保存在任何位置。  "
+"所有将来的 SSH 会话均通过密钥/证书对获得授权。这些参数在menu:系统[引导]中配置。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:19
@@ -15111,9 +15100,9 @@ msgid ""
 "Server.  For more information about using multiple servers, see xref:large-"
 "deployments:multi-server.adoc[]."
 msgstr ""
-"请不要将 {productname} Server 注册到其自身。必须单独管理 {productname} "
-"Server，或者使用另一个独立的 {productname} Server 对其进行管理。有关使用多个"
-"服务器的详细信息，请参见 xref:large-deployments:multi-server.adoc[]。"
+"请不要将 {productname} 服务器注册到其自身。必须单独管理 {productname} 服务器，或者使用另一个独立的 "
+"{productname} 服务器对其进行管理。有关使用多个服务器的详细信息，请参见 xref:large-deployments:multi-"
+"server.adoc[]。"
 
 #
 #
@@ -15607,8 +15596,8 @@ msgid ""
 "[command]``spacewalk-common-channels`` command to add the appropriate "
 "channels:"
 msgstr ""
-"在 {productname} Server 上的命令提示符下，以 root 身份使用 "
-"[command]``spacewalk-common-channels`` 命令添加相应的频道："
+"在 {productname} 服务器上的命令提示符下，以 root 身份使用 [command]``spacewalk-common-"
+"channels`` 命令添加相应的频道："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/add_channels_cli.adoc:3
@@ -15676,9 +15665,8 @@ msgid ""
 "[command]``spacewalk-common-channels`` command to add the appropriate "
 "channels.  Ensure you specify the correct architecture:"
 msgstr ""
-"在 {productname} Server 上的命令提示符下，以 root 身份使用 "
-"[command]``spacewalk-common-channels`` 命令添加相应的频道。请确保指定正确的体"
-"系结构："
+"在 {productname} 服务器上的命令提示符处，以 root 身份使用 [command]``spacewalk-common-"
+"channels`` 命令添加相应的频道。请确保指定正确的体系结构："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/addchannels_novendor_cli_multiarch.adoc:3
@@ -15704,8 +15692,7 @@ msgid ""
 "At the command prompt on the {productname} Server, as root, use the "
 "[command]``mgr-sync`` command to add the appropriate channels:"
 msgstr ""
-"在 {productname} Server 上的命令提示符下，以 root 身份使用 [command]``mgr-"
-"sync`` 命令添加相应的频道："
+"在 {productname} 服务器上的命令提示符处，以 root 身份使用 [command]``mgr-sync`` 命令添加相应的频道："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/addchannels_vendor_cli.adoc:3
@@ -16092,8 +16079,7 @@ msgid ""
 "assigned to the client you are registering."
 msgstr ""
 "在 {productname} 服务器上的命令提示符处，检查 [path]``/srv/www/htdocs/pub/`` "
-"目录的内容。  此目录包含所有可用的公共密钥。  记下为您正在注册的客户端指派的"
-"频道适用的密钥。"
+"目录的内容。此目录包含所有可用的公共密钥。记下为您正在注册的客户端指派的频道适用的密钥。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:6
@@ -22857,8 +22843,8 @@ msgid ""
 "available unsupported bootstrap repositories with the [option]``--force`` "
 "option, for example:"
 msgstr ""
-"在 {productname} Server 上的命令提示符下，以 root 身份使用 [option]``--"
-"force``选项列出不受支持的可用引导储存库，例如："
+"在 {productname} 服务器上的命令提示符下，以 root 身份使用 "
+"[option]``--force``选项列出不受支持的可用引导储存库，例如："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:47
