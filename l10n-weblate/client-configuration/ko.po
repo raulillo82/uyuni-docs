@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-02 09:58+0000\n"
-"PO-Revision-Date: 2022-02-16 04:11+0000\n"
+"PO-Revision-Date: 2022-02-17 07:27+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-425/ko/>\n"
@@ -608,7 +608,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:4
-#, fuzzy
 msgid "An activation key can specify:"
 msgstr "활성화 키는 다음을 지정할 수 있습니다."
 
@@ -848,9 +847,8 @@ msgid ""
 "could cause client registration to fail.  Check that these values do not "
 "have conflicting information before you begin:"
 msgstr ""
-"일부 값들 사이의 충돌로 인해 클라이언트 등록이 실패할 수 있으므로 활성화 키"
-"를 결합할 때 주의하십시오.  시작하기 전에 다음 값에 서로 충돌하는 정보가 있는"
-"지 확인하십시오."
+"일부 값들 사이의 충돌로 인해 클라이언트 등록이 실패할 수 있으므로 활성화 키를 결합할 때 주의하십시오.  시작하기 전에 다음 값에 서로 "
+"충돌하는 정보가 있는지 확인하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:35
@@ -1077,7 +1075,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:60
 msgid "These options create bandwidth usage:"
-msgstr "다음 옵션은 대역폭을 사용합니다."
+msgstr "이러한 옵션은 대역폭 사용량을 생성합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:61
@@ -1139,8 +1137,7 @@ msgstr "키 레이블을 생성할 때 다음과 같은 팁을 참고하십시�
 msgid ""
 "OS naming (mandatory): Keys should always refer to the OS they provide "
 "settings for"
-msgstr ""
-"OS 명명(필수): 키는 항상 자신이 설정을 제공하는 대상인 OS를 참조해야 합니다."
+msgstr "OS 명명(필수): 키는 항상 자신이 설정을 제공하는 대상인 OS를 참조해야 합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:69
@@ -1576,8 +1573,7 @@ msgid ""
 "Edit the [path]``isolinux.cfg`` file to default to 'ks'.  Change the 'ks' "
 "section to read:"
 msgstr ""
-"[path]``isolinux.cfg`` 파일을 편집하여 기본값을 ‘ks’로 설정합니다.  ‘ks’ 섹션"
-"을 다음과 같이 변경합니다."
+"[path]``isolinux.cfg`` 파일을 편집하여 기본값을 ‘ks’로 설정합니다.  ‘ks’ 섹션을 다음과 같이 변경합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-cdrom.adoc:26
@@ -1854,9 +1850,8 @@ msgid ""
 "[package]``tftpboot-installation``.  You can determine its exact name with "
 "the command [command]``zypper se tftpboot-installation``"
 msgstr ""
-"{productname} 서버에서 이름이 [package]``tftpboot-installation``으로 시작하"
-"는 패키지를 설치합니다.  정확한 이름은 [command]``zypper se tftpboot-"
-"installation`` 명령으로 확인할 수 있습니다."
+"{productname} 서버에서 이름이 [package]``tftpboot-installation``으로 시작하는 패키지를 "
+"설치합니다.  정확한 이름은 [command]``zypper se tftpboot-installation`` 명령으로 확인할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-distributions.adoc:18
@@ -2066,8 +2061,7 @@ msgstr ""
 #: modules/client-configuration/pages/autoinst-intro.adoc:4
 msgid ""
 "There are several ways to install an operating system from {productname}:"
-msgstr ""
-"{productname}에서는 다음과 같이 여러 방법으로 운영 체제를 설치할 수 있습니다."
+msgstr "{productname}에서는 다음과 같이 여러 방법으로 운영 체제를 설치할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:5
@@ -2084,9 +2078,7 @@ msgstr "PXE 부팅을 사용하여 네트워크에서 설치"
 msgid ""
 "preparing an installation CD-ROM or an USB key, and then going to the "
 "machine to boot on that medium;"
-msgstr ""
-"설치 CD-ROM 또는 USB 키를 준비한 후 시스템으로 이동하여 해당 미디어를 부팅하"
-"여 설치"
+msgstr "설치 CD-ROM 또는 USB 키를 준비한 후 시스템으로 이동하여 해당 미디어를 부팅하여 설치"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:8
@@ -2118,8 +2110,7 @@ msgid ""
 "The network boot installation method works on unformatted machines.  "
 "However, it can only be performed in certain network configurations:"
 msgstr ""
-"네트워크 부팅 설치 방법은 포맷되지 않은 시스템에서 작동합니다. 그러나 다음과 "
-"같은 특정 네트워크 구성에서만 수행될 수 있습니다."
+"네트워크 부팅 설치 방법은 포맷되지 않은 시스템에서 작동합니다. 그러나 다음과 같은 특정 네트워크 구성에서만 수행될 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:12
@@ -2128,8 +2119,8 @@ msgid ""
 "network as the machine you want to install, or you have a DHCP relay that "
 "allows you to cross all routers in between;"
 msgstr ""
-"{productname} 서버 또는 프록시 중 하나가 설치하는 시스템과 동일한 로컬 네트워"
-"크에 있거나 그 사이의 모든 라우터를 통과하는 DHCP 릴레이가 있는 경우"
+"{productname} 서버 또는 프록시 중 하나가 설치하는 시스템과 동일한 로컬 네트워크에 있거나 그 사이의 모든 라우터를 통과하는 "
+"DHCP 릴레이가 있는 경우"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:13
@@ -2333,9 +2324,7 @@ msgstr "절차: 초기 RAM 디스크에 GPG 키 추가"
 msgid ""
 "Create a directory with a path identical to the one that is used during the "
 "boot process to find the GPG key:"
-msgstr ""
-"GPG 키를 찾기 위해 부팅 프로세스 중 사용된 동일한 경로로 디렉토리를 생성합니"
-"다."
+msgstr "GPG 키를 찾기 위해 부팅 프로세스 중 사용된 동일한 경로로 디렉토리를 생성합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:18
@@ -2360,15 +2349,15 @@ msgstr "$ cp /srv/www/htdocs/pub/mgr-gpg-pub.key tftproot/usr/lib/rpm/gnupg/keys
 msgid ""
 "Inside the top level directory, package the content and append it to the "
 "[path]``initrd`` that is part of your installation media files:"
-msgstr ""
-"최상위 디렉토리 내에서 컨텐트를 패키지화하고 설치 미디어 파일의 일부인 "
-"[path]``initrd``에 추가합니다."
+msgstr "최상위 디렉토리 내에서 컨텐트를 패키지화하고 설치 미디어 파일의 일부인 [path]``initrd``에 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:22
 #, no-wrap
 msgid "$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/initrd\n"
-msgstr "$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/initrd\n"
+msgstr ""
+"$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/"
+"initrd\n"
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:23
@@ -2412,7 +2401,8 @@ msgstr "[command]``mksusecd``를 사용하여 기존 ISO 이미지를 추가합�
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:31
 #, no-wrap
 msgid "$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
-msgstr "$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
+msgstr ""
+"$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
 
 #. type: Title =
 #: modules/client-configuration/pages/autoinst-profiles.adoc:1
@@ -2450,9 +2440,7 @@ msgstr ""
 msgid ""
 "Within {productname}, you can use two different types of profiles, depending "
 "on the operating system of the clients you want to install:"
-msgstr ""
-"{productname}에서 설치하려는 클라이언트의 운영 체제에 따라 두 가지 유형의 프"
-"로파일을 사용할 수 있습니다."
+msgstr "{productname}에서 설치하려는 클라이언트의 운영 체제에 따라 두 가지 유형의 프로파일을 사용할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:5
@@ -2479,8 +2467,8 @@ msgid ""
 "For information about how to declare profiles, see xref:client-configuration:"
 "autoinst-profiles.adoc#declare-profile[Declare the Profile]"
 msgstr ""
-"프로파일을 선언하는 방법은 xref:client-configuration :autoinst-profiles."
-"adoc#declare-profile[프로파일 선언]을 참조하십시오."
+"프로파일을 선언하는 방법은 xref:client-configuration :autoinst-profiles.adoc#declare-"
+"profile[프로파일 선언]을 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:9
@@ -2601,20 +2589,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:22
-#, fuzzy
-#| msgid ""
-#| "Copy the contents of your autoinstallation file into the [guimenu]``File "
-#| "Contents`` field, or upload the file directly using the [guimenu]``File "
-#| "to Upload`` field.  For more information about the details to include "
-#| "here, see xref:client-configuration:autoinst-profiles."
-#| "adoc#autoyast[AutoYast Profiles] or xref:client-configuration:autoinst-"
-#| "profiles.adoc#kickstart[Kickstart Profiles]."
 msgid ""
 "For more information about the details to include here, see xref:client-"
 "configuration:autoinst-profiles.adoc#autoyast[AutoYast Profiles] or xref:"
 "client-configuration:autoinst-profiles.adoc#kickstart[Kickstart Profiles]."
 msgstr ""
-"여기에 포함되는 세부 정보에 대한 자세한 설명은, xref:client-configuration:autoinst-profiles."
+"여기에 포함되는 세부 정보에 대한 자세한 설명은 xref:client-configuration:autoinst-profiles."
 "adoc#autoyast[AutoYast 프로파일] 또는 xref:client-configuration:autoinst-profiles."
 "adoc#kickstart[Kickstart 프로파일]을 참조하십시오."
 
@@ -2636,11 +2616,6 @@ msgstr "btn:[Kickstart 프로파일 생성]을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:28
-#, fuzzy
-#| msgid ""
-#| "This field is populated from the distributions available.  If the base "
-#| "channel you need is not available, check that you have created the "
-#| "distribution correctly."
 msgid ""
 "In the [guimenu]``Base Channel`` field, select the base channel to use for "
 "this profile.  This field is populated from the distributions available.  If "
@@ -2730,10 +2705,9 @@ msgid ""
 "Systems[System List], select the client you want to provision, and navigate "
 "to the menu:Provisioning[Autoinstallation] subtab."
 msgstr ""
-"menu:시스템[자동 설치 > 프로파일]로 이동해 편집하려는 프로파일의 이름을 클릭"
-"하여 자동 설치 프로파일의 상세 정보 및 설정을 변경할 수 있습니다.  또는 menu:"
-"시스템[시스템 목록]으로 이동하여 프로비저닝할 클라이언트를 선택한 후 menu:프"
-"로비저닝[자동 설치] 하위 탭으로 이동합니다."
+"menu:시스템[자동 설치 > 프로파일]로 이동해 편집하려는 프로파일의 이름을 클릭하여 자동 설치 프로파일의 상세 정보 및 설정을 변경할 "
+"수 있습니다.  또는 menu:시스템[시스템 목록]으로 이동하여 프로비저닝할 클라이언트를 선택한 후 menu:프로비저닝[자동 설치] 하위 "
+"탭으로 이동합니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-profiles.adoc:40
@@ -2791,9 +2765,7 @@ msgstr ""
 msgid ""
 "Here are the most important sections in the {ay} installation file for "
 "installing with SUSE Manager:"
-msgstr ""
-"이 섹션이 SUSE Manager를 사용한 설치를 위한 {ay} 설치 파일에서 가장 중요한 부"
-"분입니다."
+msgstr "이 섹션이 SUSE Manager를 사용한 설치를 위한 {ay} 설치 파일에서 가장 중요한 부분입니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:45
@@ -2806,17 +2778,15 @@ msgid ""
 "``<general>$SNIPPET('spacewalk/sles_no_signature_checks')</general>` "
 "disables signature checks"
 msgstr ""
-"``<general>$SNIPPET('spacewalk/sles_no_signature_checks')</general>`` 은 서"
-"명 확인을 비활성화합니다."
+"``<general>$SNIPPET('spacewalk/sles_no_signature_checks')</general>`` 은 서명 "
+"확인을 비활성화합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:47
 msgid ""
 "``<software>`` allows to specify the correct product for the Unified "
 "Installer"
-msgstr ""
-"``<software>`` 를 사용하면 통합 설치 프로그램에 올바른 제품을 지정할 수 있습"
-"니다."
+msgstr "``<software>`` 를 사용하면 통합 설치 프로그램에 올바른 제품을 지정할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:48
@@ -2906,19 +2876,11 @@ msgstr "btn:[목록 생성]을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:58
-#, fuzzy
-#| msgid "File Preservation for {kickstart}"
 msgid "Include the file preservation list in your {kickstart} profile."
 msgstr "{kickstart} 프로파일에 파일 보관 목록 포함"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:59
-#, fuzzy
-#| msgid ""
-#| "Include the file preservation list in your {kickstart} profile.  Navigate "
-#| "to menu:Systems[Autoinstallation > Profiles] and select the profile you "
-#| "want to edit, go to the menu:System Details[File Preservation] subtab, "
-#| "and select the file preservation list to include."
 msgid ""
 "Navigate to menu:Systems[Autoinstallation > Profiles] and select the profile "
 "you want to edit, go to the menu:System Details[File Preservation] subtab, "
@@ -3024,10 +2986,9 @@ msgid ""
 "can then be defined for all the clients installed from the same profile.  To "
 "do that, add these lines to the [guimenu]``Variables`` text box:"
 msgstr ""
-"예를 들어, 클라이언트의 IP 주소를 가진 변수와 게이트웨이의 주소를 가진 변수"
-"를 생성할 수 있습니다.  그러면 이러한 변수를 동일한 프로파일에서 설치된 모든 "
-"클라이언트에 대해 정의할 수 있습니다.  이 작업을 수행하려면 [guimenu]``변수"
-"`` 텍스트 상자에 다음 줄을 추가합니다."
+"예를 들어, 클라이언트의 IP 주소를 가진 변수와 게이트웨이의 주소를 가진 변수를 생성할 수 있습니다.  그러면 이러한 변수를 동일한 "
+"프로파일에서 설치된 모든 클라이언트에 대해 정의할 수 있습니다.  이 작업을 수행하려면 [guimenu]``변수`` 텍스트 상자에 다음 "
+"줄을 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-profiles.adoc:70
@@ -3046,9 +3007,8 @@ msgid ""
 "substitute the value.  For example, the [option]``network`` part of a "
 "{kickstart} file may look like the following:"
 msgstr ""
-"변수를 사용하려면 프로파일에서 [option]``$`` 기호를 앞에 추가하여 변수를 대체"
-"합니다.  예를 들어, {kickstart} 파일의 [option]``네트워크`` 부분은 다음과 같"
-"습니다."
+"변수를 사용하려면 프로파일에서 [option]``$`` 기호를 앞에 추가하여 변수를 대체합니다.  예를 들어, {kickstart} "
+"파일의 [option]``네트워크`` 부분은 다음과 같습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-profiles.adoc:72
@@ -3101,8 +3061,8 @@ msgid ""
 "Use a snippet by inserting the [option]``$SNIPPET()`` macro in your "
 "autoinstallation file.  For example, in {kickstart}:"
 msgstr ""
-"자동 설치 파일에 [option]``$SNIPPET()`` 매크로를 삽입하여 코드 조각을 사용합"
-"니다.  예를 들어 {kickstart}에서는 다음과 같습니다."
+"자동 설치 파일에 [option]``$SNIPPET()`` 매크로를 삽입하여 코드 조각을 사용합니다.  예를 들어 {kickstart}"
+"에서는 다음과 같습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-profiles.adoc:78
@@ -3144,9 +3104,7 @@ msgstr ""
 msgid ""
 "This example sets up a {kickstart} snippet for a common hard drive partition "
 "configuration:"
-msgstr ""
-"다음 예에서는 일반 하드 드라이브 파티션 구성에 대한 {kickstart} 코드 조각을 "
-"다음과 같이 설정합니다."
+msgstr "다음 예에서는 일반 하드 드라이브 파티션 구성에 대한 {kickstart} 코드 조각을 다음과 같이 설정합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-profiles.adoc:83
@@ -3526,9 +3484,7 @@ msgstr ""
 msgid ""
 "Alternatively, if your DHCP server is registered at {productname}, you can "
 "configure it using the DHCPd formula instead:"
-msgstr ""
-"또는 DHCP 서버가 {productname}에 등록된 경우 DHCPd 수식을 대신 사용하여 구성"
-"할 수 있습니다."
+msgstr "또는 DHCP 서버가 {productname}에 등록된 경우 DHCPd 수식을 대신 사용하여 구성할 수 있습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:33
@@ -3542,8 +3498,8 @@ msgid ""
 "Navigate to menu:Systems[System List], select the client you want to change, "
 "and go to the [guimenu]``Formulas`` tab to enable the DHCPd formula."
 msgstr ""
-"menu:시스템[시스템 목록]으로 이동하여 변경할 클라이언트를 선택한 후 "
-"[guimenu]``수식`` 탭으로 이동하여 DHCPd 수식을 활성화합니다."
+"menu:시스템[시스템 목록]으로 이동하여 변경할 클라이언트를 선택한 후 [guimenu]``수식`` 탭으로 이동하여 DHCPd 수식을 "
+"활성화합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:35
@@ -3625,8 +3581,8 @@ msgid ""
 "On the {productname} Server, at the command prompt, as root, install the "
 "[systemitem]``susemanager-tftpsync`` package:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 루트 권한으로 "
-"[systemitem]``susemanager-tftpsync`` 패키지를 설치합니다."
+"{productname} 서버의 명령 프롬프트에서 루트 권한으로 [systemitem]``susemanager-tftpsync`` "
+"패키지를 설치합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:46
@@ -3640,8 +3596,8 @@ msgid ""
 "On the {productname} Proxy, at the command prompt, as root, install the "
 "[systemitem]``susemanager-tftpsync-recv`` package:"
 msgstr ""
-"{productname} 프록시의 명령 프롬프트에서 루트 권한으로 "
-"[systemitem]``susemanager-tftpsync-recv`` 패키지를 설치합니다."
+"{productname} 프록시의 명령 프롬프트에서 루트 권한으로 [systemitem]``susemanager-tftpsync-"
+"recv`` 패키지를 설치합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:48
@@ -4000,12 +3956,11 @@ msgid ""
 "[literal]``<hw_addr>`` with its hardware address such as "
 "[literal]``00:25:22:71:e7:c6``:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 [systemitem]``system."
-"createSystemRecord`` API를 호출합니다.  이 예에서 [literal]``name``을 클라이"
-"언트의 이름으로 바꾸고, [literal]``<profile>``을 프로파일 레이블로 바꾸며, "
-"[literal]``<iface>``를 [literal]``eth0``과 같이 클라이언트의 인터페이스 이름"
-"으로 바꾸고, [literal]``<hw_addr>``을 [literal]``00:25:22:71:e7:c6``과 같은 "
-"하드웨어 주소로 바꿉니다."
+"{productname} 서버의 명령 프롬프트에서 [systemitem]``system.createSystemRecord`` API를 "
+"호출합니다.  이 예에서 [literal]``name``을 클라이언트의 이름으로 바꾸고, [literal]``<profile>``을 "
+"프로파일 레이블로 바꾸며, [literal]``<iface>``를 [literal]``eth0``과 같이 클라이언트의 인터페이스 이름으로 "
+"바꾸고, [literal]``<hw_addr>``을 [literal]``00:25:22:71:e7:c6``과 같은 하드웨어 주소로 "
+"바꿉니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-unattended.adoc:21
@@ -4103,9 +4058,8 @@ msgid ""
 "instead.  To enable this behavior, add or edit this value in [path]``/etc/"
 "rhn/rhn.conf``:"
 msgstr ""
-"기본적으로 기존 리포지토리는 최신 패키지로만 업데이트됩니다.  대신, 빈 리포지"
-"토리로 항상 시작하도록 구성할 수 있습니다.  이 동작을 활성화하려면 다음과 같"
-"이 [path]``/etc/rhn/rhn.conf``에서 이 값을 추가하거나 편집하십시오."
+"기본적으로 기존 리포지토리는 최신 패키지로만 업데이트됩니다.  대신, 빈 리포지토리로 항상 시작하도록 구성할 수 있습니다.  이 동작을 "
+"활성화하려면 다음과 같이 [path]``/etc/rhn/rhn.conf``에서 이 값을 추가하거나 편집하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/bootstrap-repository.adoc:9
@@ -4126,9 +4080,8 @@ msgid ""
 "enabled.  To disable it, add or edit this value in [path]``/etc/rhn/rhn."
 "conf``:"
 msgstr ""
-"기본적으로 부트스트랩 리포지토리 자동 재생성은 활성화되어 있습니다.  이 작업"
-"을 비활성화하려면 다음과 같이 [path]``/etc/rhn/rhn.conf``에서 이 값을 추가하"
-"거나 편집하십시오."
+"기본적으로 부트스트랩 리포지토리 자동 재생성은 활성화되어 있습니다.  이 작업을 비활성화하려면 다음과 같이 [path]``/etc/rhn/"
+"rhn.conf``에서 이 값을 추가하거나 편집하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/bootstrap-repository.adoc:12
@@ -4151,11 +4104,10 @@ msgid ""
 "If you want to makes changes to this file, do not edit it directly.  "
 "Instead, create a copy in the same directory and edit your copy:"
 msgstr ""
-"도구는 각 배포에 어떤 패키지가 필요한지에 대한 정보가 포함된 데이터 파일을 사"
-"용합니다.  이 데이터 파일은 [path]``/usr/share/susemanager/"
-"mgr_bootstrap_data.py``에 저장되어 있습니다.  {suse}는 이 파일을 정기적으로 "
-"업데이트합니다.  이 파일을 변경하고 싶은 경우 직접 편집하지 마십시오.  대신, "
-"다음과 같이 동일한 디렉토리에 사본을 생성하고 이 사본을 편집하십시오."
+"도구는 각 배포에 어떤 패키지가 필요한지에 대한 정보가 포함된 데이터 파일을 사용합니다.  이 데이터 파일은 [path]``/usr/"
+"share/susemanager/mgr_bootstrap_data.py``에 저장되어 있습니다.  {suse}는 이 파일을 정기적으로 "
+"업데이트합니다.  이 파일을 변경하고 싶은 경우 직접 편집하지 마십시오.  대신, 다음과 같이 동일한 디렉토리에 사본을 생성하고 이 "
+"사본을 편집하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/bootstrap-repository.adoc:15
@@ -4173,8 +4125,8 @@ msgid ""
 "When you have made your changes, configure {productname} to use the new "
 "file.  Add or edit this value in [path]``/etc/rhn/rhn.conf``:"
 msgstr ""
-"변경을 완료했으면 새 파일을 사용하도록 {productname}을(를) 구성하십시오.  다"
-"음과 같이 [path]``/etc/rhn/rhn.conf``에서 이 값을 추가하거나 편집하십시오."
+"변경을 완료했으면 새 파일을 사용하도록 {productname}을(를) 구성하십시오.  다음과 같이 [path]``/etc/rhn/rhn."
+"conf``에서 이 값을 추가하거나 편집하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/bootstrap-repository.adoc:17
@@ -4216,10 +4168,6 @@ msgstr "절차: {sle}용 부트스트랩 리포지토리 생성"
 
 #. type: Plain text
 #: modules/client-configuration/pages/bootstrap-repository.adoc:22
-#, fuzzy
-#| msgid ""
-#| "At the command prompt on the {productname} Server, as root, list the "
-#| "available bootstrap repositories:"
 msgid ""
 "At the command prompt on the {productname} Server, as root, list the "
 "available distributions to create repositories for:"
@@ -4238,9 +4186,7 @@ msgstr "mgr-create-bootstrap-repo -l\n"
 msgid ""
 "Create the bootstrap repository, using the appropriate repository name as "
 "the product label:"
-msgstr ""
-"다음과 같이 적절한 리포지토리 이름을 제품 레이블로 사용해 부트스트랩 리포지토"
-"리를 생성합니다."
+msgstr "다음과 같이 적절한 리포지토리 이름을 제품 레이블로 사용해 부트스트랩 리포지토리를 생성합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/bootstrap-repository.adoc:25
@@ -4250,7 +4196,6 @@ msgstr "mgr-create-bootstrap-repo -c SLE-version-x86_64\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/bootstrap-repository.adoc:26
-#, fuzzy
 msgid ""
 "Alternatively, use the number shown next to the distribiution name in the "
 "list of available distributions."
@@ -4319,7 +4264,9 @@ msgstr "다음과 같이 적절한 상위 채널을 지정합니다."
 #: modules/client-configuration/pages/bootstrap-repository.adoc:33
 #, no-wrap
 msgid "mgr-create-bootstrap-repo -c SLE-15-x86_64 --with-parent-channel sle-product-sled15-pool-x86_64\n"
-msgstr "mgr-create-bootstrap-repo -c SLE-15-x86_64 --with-parent-channel sle-product-sled15-pool-x86_64\n"
+msgstr ""
+"mgr-create-bootstrap-repo -c SLE-15-x86_64 --with-parent-channel sle-product-"
+"sled15-pool-x86_64\n"
 
 #. type: Title ===
 #: modules/client-configuration/pages/bootstrap-repository.adoc:34
@@ -4823,8 +4770,7 @@ msgstr "이 파일을 종종 minion 파일이라고도 합니다."
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy-cli.adoc:10
 msgid "Add the proxy FQDN as the `master` to the client configuration file:"
-msgstr ""
-"다음과 같이 프록시 FQDN을 클라이언트 구성 파일에 `master` 로 추가합니다."
+msgstr "다음과 같이 프록시 FQDN을 클라이언트 구성 파일에 `master` 로 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/client-proxy-cli.adoc:11
@@ -4851,9 +4797,7 @@ msgstr "systemctl restart salt-minion\n"
 msgid ""
 "On the server, accept the new client key; replace [systemitem]``<client>`` "
 "with the name of your client:"
-msgstr ""
-"서버에서 새로운 클라이언트 키를 수락하고, [systemitem]``<client>``를 클라이언"
-"트 이름으로 대체합니다."
+msgstr "서버에서 새로운 클라이언트 키를 수락하고, [systemitem]``<client>``를 클라이언트 이름으로 대체합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/client-proxy-cli.adoc:15
@@ -4934,9 +4878,7 @@ msgstr ""
 msgid ""
 "To view available options type [command]``mgr-bootstrap --help`` from the "
 "command line:"
-msgstr ""
-"사용 가능한 옵션을 보려면 명령줄에서 다음과 같이 [command]``mgr-bootstrap --"
-"help``를 입력하십시오."
+msgstr "사용 가능한 옵션을 보려면 명령줄에서 다음과 같이 [command]``mgr-bootstrap --help``를 입력하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/client-proxy-script.adoc:9
@@ -4957,10 +4899,9 @@ msgid ""
 "bootstrap script and [systemitem]`` <client.example.com>`` with the host "
 "name of your client:"
 msgstr ""
-"클라이언트에서 직접 또는 프록시에서 [command]``ssh``로 부트스트랩 스크립트를 "
-"실행합니다.  다음과 같이 [systemitem]``<bootstrap>``을 부트스트랩 스크립트 이"
-"름으로, [systemitem]`` <client.example.com>``을 클라이언트의 호스트 이름으로 "
-"대체합니다."
+"클라이언트에서 직접 또는 프록시에서 [command]``ssh``로 부트스트랩 스크립트를 실행합니다.  다음과 같이 "
+"[systemitem]``<bootstrap>``을 부트스트랩 스크립트 이름으로, [systemitem]`` <client.example."
+"com>``을 클라이언트의 호스트 이름으로 대체합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/client-proxy-script.adoc:12
@@ -5152,9 +5093,7 @@ msgstr "btn:[부트스트랩]을 클릭하여 등록을 시작합니다."
 msgid ""
 "When the bootstrap process has completed, your client is listed at menu:"
 "Systems[System List]."
-msgstr ""
-"부트스트랩 프로세스가 완료되면 클라이언트가 menu:시스템[시스템 목록]에 나열됩"
-"니다."
+msgstr "부트스트랩 프로세스가 완료되면 클라이언트가 menu:시스템[시스템 목록]에 나열됩니다."
 
 #
 #. 2020-11-26, ke: we now have this info in client-proxy-script.adoc.
@@ -5185,12 +5124,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:3
-#, fuzzy
-#| msgid ""
-#| "These sections contain information on registering Salt clients to a proxy "
-#| "using the {webui}, commands on the command line, or a bootstrap script.  "
-#| "There is also information on registering traditional clients using a "
-#| "bootstrap script."
 msgid ""
 "These sections contain information on registering Salt clients to a proxy "
 "using the {webui}, commands on the command line, or a bootstrap script.  "
@@ -5199,8 +5132,8 @@ msgid ""
 "one {productname} Proxy to another one or to the {productname} Server."
 msgstr ""
 "이 섹션에는 {webui}, 명령줄의 명령 또는 부트스트랩 스크립트를 사용해 프록시에 Salt 클라이언트를 등록하는 내용이 포함되어 "
-"있습니다.   부트스트랩 스크립트를 사용해 기존 클라이언트를 등록하는 내용도 있습니다.  또한 한 {productname} 프록시에서 "
-"다른 프록시 또는 {productname} 서버로 클라이언트를 이동하는 프로시저도 있습니다."
+"있습니다.   부트스트랩 스크립트를 사용해 기존 클라이언트를 등록하는 내용도 있습니다.  또한 {productname} 프록시에서 다른 "
+"프록시 또는 {productname} 서버로 클라이언트를 이동하는 프로시저도 있습니다."
 
 #.  Here starts what you can see on the server about proxy connected clients
 #. type: Plain text
@@ -5212,9 +5145,8 @@ msgid ""
 "Proxy], then select the [guimenu]``Proxy`` subtab of the "
 "[guimenu]``Details`` tab."
 msgstr ""
-"{webui} 내에서 프록시 페이지에는 Salt 클라이언트와 기존 클라이언트에 관한 정"
-"보가 표시됩니다.  프록시에 연결된 클라이언트 목록은 menu:시스템[시스템 목록 "
-"> 프록시]에서 프록시 이름을 클릭한 다음, [guimenu]``상세 정보`` 탭의 "
+"{webui} 내에서 프록시 페이지에는 Salt 클라이언트와 기존 클라이언트에 관한 정보가 표시됩니다.  프록시에 연결된 클라이언트 "
+"목록은 menu:시스템[시스템 목록 > 프록시]에서 프록시 이름을 클릭한 다음, [guimenu]``상세 정보`` 탭의 "
 "[guimenu]``프록시`` 하위 탭을 선택하면 볼 수 있습니다."
 
 #. type: Plain text
@@ -5230,16 +5162,12 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/client-proxy.adoc:6
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Move Clients between Proxies"
 msgstr "프록시 간 클라이언트 이동"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:7
-#, fuzzy
-#| msgid ""
-#| "If you decide to move any of your clients between proxies or the server "
-#| "you need to repeat the registration process from the beginning."
 msgid ""
 "You can move Salt and Salt SSH push clients between proxies without the need "
 "to repeat the registration process."
@@ -5247,10 +5175,6 @@ msgstr "등록 프로세스를 반복할 필요 없이 프록시 간에 Salt 및
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-proxy.adoc:8
-#, fuzzy
-#| msgid ""
-#| "If you decide to move any of your clients between proxies or the server "
-#| "you need to repeat the registration process from the beginning."
 msgid ""
 "If you want to move a traditional client between proxies you must repeat the "
 "registration process from the beginning."
@@ -5259,16 +5183,12 @@ msgstr "프록시 간에 기존 클라이언트를 이동하려면 처음부터 
 #.  Procede as follows:
 #. type: Block title
 #: modules/client-configuration/pages/client-proxy.adoc:9
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Procedure: Moving Salt or  Salt SSH Push Client between Proxies"
 msgstr "프로시저: 프록시 간 Salt 또는  Salt SSH 푸시 클라이언트 이동"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:10
-#, fuzzy
-#| msgid ""
-#| "In the {productname} {webui}, navigate to the [guimenu]``System Details`` "
-#| "page for the client you want to lock."
 msgid ""
 "In the {productname} {webui}, navigate to the [guimenu]``System Details`` "
 "page for the client you want to move between proxies."
@@ -5277,9 +5197,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:11
-#, fuzzy
-#| msgid ""
-#| "Navigate to the [guimenu]``Groups`` tab, and the [guimenu]``Join`` subtab."
 msgid ""
 "Navigate to the [guimenu]``Connection`` tab.  Then follow the "
 "[guimenu]``Change proxy`` link to see the drop-down menu."
@@ -5288,10 +5205,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:12
-#, fuzzy
-#| msgid ""
-#| "In the [guimenu]``Proxy`` field, select the proxy server you want to "
-#| "register to."
 msgid ""
 "From the [guimenu]``New Proxy`` drop-down menu select the proxy you want the "
 "client to move to, and click btn:[Change Proxy]."
@@ -5299,17 +5212,12 @@ msgstr "[guimenu]``새 프록시`` 드롭다운 메뉴에서 클라이언트가 
 
 #. type: Block title
 #: modules/client-configuration/pages/client-proxy.adoc:13
-#, fuzzy, no-wrap
-#| msgid "Procedure: Adding Multiple Clients to a Group with SSM"
+#, no-wrap
 msgid "Procedure: Moving Multiple Salt or Salt SSH Push Clients between Proxies with SSM"
 msgstr "프로시저: SSM으로 여러 프록시 간 Salt 또는 Salt SSH 푸시 클라이언트를 이동"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:14
-#, fuzzy
-#| msgid ""
-#| "In the {productname} {webui}, navigate to menu:Systems[System List] and "
-#| "check each client to add, this adds the clients to the system set manager."
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "check each client to move, this adds the clients to the system set manager."
@@ -5319,10 +5227,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:15
-#, fuzzy
-#| msgid ""
-#| "Navigate to menu:Systems[System Set Manager], and go to the "
-#| "[guimenu]``Groups`` tab."
 msgid ""
 "Navigate to menu:Systems[System Set Manager], and go to the menu:"
 "Misc[Proxy]`` tab."
@@ -5330,7 +5234,6 @@ msgstr "menu:시스템[시스템 세트 관리자]로 이동한 후 menu:기타[
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:16
-#, fuzzy
 msgid ""
 "From the [guimenu]``New Proxy`` drop-down menu select the proxy you want the "
 "clients to move to, and click btn:[Change Proxy]."
@@ -5338,7 +5241,6 @@ msgstr "[guimenu]``새 프록시`` 드롭다운 메뉴에서 클라이언트를 
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:17
-#, fuzzy
 msgid ""
 "The same functionality is also available with the [systemitem]``system."
 "changeProxy`` API call."
@@ -5346,13 +5248,12 @@ msgstr "[systemitem]``system.changeProxy`` API 호출을 통해서도 동일한 
 
 #. type: Title ===
 #: modules/client-configuration/pages/client-proxy.adoc:18
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Background Information"
 msgstr "배경 정보"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:19
-#, fuzzy
 msgid ""
 "The effect of this function differs between normal Salt clients and Salt SSH "
 "push clients."
@@ -5360,14 +5261,12 @@ msgstr "이 함수의 효과는 일반 Salt 클라이언트와 Salt SSH 푸시 �
 
 #. type: Title ====
 #: modules/client-configuration/pages/client-proxy.adoc:20
-#, fuzzy, no-wrap
-#| msgid "Cloned Salt Clients"
+#, no-wrap
 msgid "Normal Salt Clients"
 msgstr "일반 Salt 클라이언트"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:21
-#, fuzzy
 msgid ""
 "The function schedules a Salt state action, which modifies [literal]``master:"
 "`` setting in the [path]``susemanager.conf`` Salt client configuration file "
@@ -5379,7 +5278,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-proxy.adoc:22
-#, fuzzy
 msgid ""
 "Changing [literal]``master:`` by manually editing the [path]``susemanager."
 "conf`` file has the same effect and is supported, too."
@@ -5389,7 +5287,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:23
-#, fuzzy
 msgid ""
 "When the minion restarts and reconnects via the new proxy, the server "
 "updates the proxy path in the database and schedules another action for "
@@ -5400,14 +5297,12 @@ msgstr ""
 
 #. type: Title ====
 #: modules/client-configuration/pages/client-proxy.adoc:24
-#, fuzzy, no-wrap
-#| msgid "Cloned Salt Clients"
+#, no-wrap
 msgid "Salt SSH Push Clients"
 msgstr "Salt SSH 푸시 클라이언트"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:25
-#, fuzzy
 msgid ""
 "The function updates the proxy path immediately in the database and new "
 "action for refreshing the channel URLs is scheduled."
@@ -5415,13 +5310,12 @@ msgstr "이 함수는 데이터베이스에서 즉시 프록시 경로를 업데
 
 #. type: Title ==
 #: modules/client-configuration/pages/client-proxy.adoc:26
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Move Clients from Proxies to the Server"
 msgstr "프록시에서 서버로 클라이언트 이동"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:27
-#, fuzzy
 msgid ""
 "If you want to move a Salt client from a proxy to the server, select "
 "[literal]``None`` from proxy list."
@@ -5429,10 +5323,6 @@ msgstr "Salt 클라이언트를 프록시에서 서버로 이동하려면 프록
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:28
-#, fuzzy
-#| msgid ""
-#| "If you decide to move any of your clients between proxies or the server "
-#| "you need to repeat the registration process from the beginning."
 msgid ""
 "If you want to move a traditional client to the server you must repeat the "
 "registration process from the beginning."
@@ -5463,8 +5353,7 @@ msgstr "업그레이드 준비"
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:4
 msgid ""
 "Before you can upgrade your clients, you need to make these preparations:"
-msgstr ""
-"클라이언트를 업그레이드하려면 먼저 다음과 같은 준비 작업을 마쳐야 합니다."
+msgstr "클라이언트를 업그레이드하려면 먼저 다음과 같은 준비 작업을 마쳐야 합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:5
@@ -5621,9 +5510,7 @@ msgstr ""
 msgid ""
 "Use these variables in your autointallation profiles for automating in-place "
 "upgrades:"
-msgstr ""
-"현재 위치에 업그레이드를 자동화하기 위해 자동 설치 프로파일에서 다음 변수를 "
-"사용하십시오."
+msgstr "현재 위치에 업그레이드를 자동화하기 위해 자동 설치 프로파일에서 다음 변수를 사용하십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:31
@@ -5664,8 +5551,11 @@ msgid ""
 msgstr ""
 " <listentry>\n"
 "     <ask_on_error config:type=\"boolean\">true</ask_on_error>\n"
-"     <media_url>https://$redhat_management_server/ks/dist/child/$channel_prefix-sle-module-web-scripting15-sp1-pool-x86_64/$distro_label</media_url>\n"
-"     <name>$channel_prefix SLE-Module-Web-Scripting15-SP1 Pool for x86_64 </name>\n"
+"     <media_url>https://$redhat_management_server/ks/dist/child/"
+"$channel_prefix-sle-module-web-scripting15-sp1-pool-x86_64/"
+"$distro_label</media_url>\n"
+"     <name>$channel_prefix SLE-Module-Web-Scripting15-SP1 Pool for x86_64 "
+"</name>\n"
 "     <product>Web Scripting Module 15 SP1 x86_64 Pool</product>\n"
 "</listentry>\n"
 
@@ -5697,17 +5587,15 @@ msgid ""
 "select the clients you want to provision to add them to the system set "
 "manager."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 조달할 클라이"
-"언트를 선택하고 선택한 클라이언트에 시스템 세트 관리자를 추가합니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 조달할 클라이언트를 선택하고 선택한 클라이언트에 "
+"시스템 세트 관리자를 추가합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:39
 msgid ""
 "Navigate to menu:Systems[System Set Manager > Overview] and click the "
 "[guimenu]``Provisioning`` tab."
-msgstr ""
-"menu:시스템[시스템 세트 관리자 > 개요]로 이동하여 [guimenu]``조달`` 탭을 클릭"
-"합니다."
+msgstr "menu:시스템[시스템 세트 관리자 > 개요]로 이동하여 [guimenu]``조달`` 탭을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:40
@@ -5734,15 +5622,13 @@ msgstr "절차: Cobbler를 사용한 클라이언트 업그레이드"
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:43
 msgid "At the command prompt, as root, check the available Cobbler profiles:"
-msgstr ""
-"다음과 같이 명령 프롬프트에서 루트 권한으로 사용 가능한 Cobbler 프로파일을 확"
-"인합니다."
+msgstr "다음과 같이 명령 프롬프트에서 루트 권한으로 사용 가능한 Cobbler 프로파일을 확인합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:44
 #, no-wrap
 msgid "cobbler profile list\n"
-msgstr "cobbler profile list\n"
+msgstr "cobbler 프로파일 목록\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:45
@@ -5753,7 +5639,8 @@ msgstr "다음과 같이 선택한 프로파일로 ISO 파일을 빌드합니다
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:46
 #, no-wrap
 msgid "cobbler buildiso --iso=/tmp/SLE_15-sp1.iso --profiles=SLE_15-sp1:1:Example\n"
-msgstr "cobbler buildiso --iso=/tmp/SLE_15-sp1.iso --profiles=SLE_15-sp1:1:Example\n"
+msgstr ""
+"cobbler buildiso --iso=/tmp/SLE_15-sp1.iso --profiles=SLE_15-sp1:1:Example\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:47
@@ -5798,9 +5685,7 @@ msgstr "마이그레이션 준비"
 msgid ""
 "Before you can migrate your client from SLE{nbsp}12 to SLE{nbsp}15{nbsp}, "
 "you need to:"
-msgstr ""
-"클라이언트를 SLE{nbsp}12에서 SLE{nbsp}15{nbsp}로 마이그레이션하려면 먼저 다"
-"음 작업을 수행해야 합니다."
+msgstr "클라이언트를 SLE{nbsp}12에서 SLE{nbsp}15{nbsp}로 마이그레이션하려면 먼저 다음 작업을 수행해야 합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:6
@@ -5829,8 +5714,7 @@ msgid ""
 "On the {productname} Server, create a local directory for the SLE{nbsp}"
 "15{nbsp}SP2 installation media:"
 msgstr ""
-"다음과 같이 {productname} 서버에서 SLE{nbsp}15{nbsp}SP2 설치 미디어에 대해 로"
-"컬 디렉토리를 생성합니다."
+"다음과 같이 {productname} 서버에서 SLE{nbsp}15{nbsp}SP2 설치 미디어에 대해 로컬 디렉토리를 생성합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/client-upgrades-major.adoc:12
@@ -6067,15 +5951,6 @@ msgstr "자동 설치 프로파일 생성"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:46
-#, fuzzy
-#| msgid ""
-#| "Autoinstallation profiles contain all the installation and configuration "
-#| "data needed to install a system.  They can also contain scripts to be "
-#| "executed after the installation is complete.  For example scripts that "
-#| "you can use as a starting point, see https://github.com/SUSE/manager-"
-#| "build-profiles/tree/master/AutoYaST.  For valid AutoYaST upgrade "
-#| "settings, see https://doc.opensuse.org/projects/autoyast/#CreateProfile-"
-#| "upgrade."
 msgid ""
 "Autoinstallation profiles contain all the installation and configuration "
 "data needed to install a system.  They can also contain scripts to be "
@@ -6084,18 +5959,16 @@ msgid ""
 "profiles/tree/master/AutoYaST."
 msgstr ""
 "자동 설치 프로파일에는 시스템을 설치하는 데 필요한 모든 설치 및 구성 데이터가 포함되어 있습니다.  설치 완료 후 실행될 스크립트도 "
-"포함할 수 있습니다.  시작 지점으로 사용할 수 있는 예제 스크립트는 link:https://github.com/SUSE/"
-"manager-build-profiles/tree/master/AutoYaST[]를 참조하십시오."
+"포함할 수 있습니다.  시작 지점으로 사용할 수 있는 예제 스크립트는 https://github.com/SUSE/"
+"manager-build-profiles/tree/master/AutoYaST를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:47
-#, fuzzy
 msgid "For valid AutoYaST upgrade settings, see"
 msgstr "올바른 AutoYaST 업그레이드 설정은 다음을 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:48
-#, fuzzy
 msgid ""
 "link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]."
 msgstr ""
@@ -6112,19 +5985,11 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:51
-#, fuzzy
-#| msgid ""
-#| "For example scripts that you can use as a starting point, see https://"
-#| "github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 msgid "For example scripts that you can use as a starting point, see"
 msgstr "시작 지점으로 사용할 수 있는 예제 스크립트는 다음을 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:52
-#, fuzzy
-#| msgid ""
-#| "For example autoinstallation profiles, see https://github.com/SUSE/"
-#| "manager-build-profiles/tree/master/AutoYaST."
 msgid "https://github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 msgstr "https://github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 
@@ -6242,12 +6107,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:68
-#, fuzzy
-#| msgid ""
-#| "Next time the client synchronizes with the {productname} Server, it "
-#| "receives a re-installation job.  The re-installation job fetches the new "
-#| "kernel and initrd packages.  It also writes a new [path]``/boot/grub/menu."
-#| "lst``, containing pointers to the new kernel and initrd packages."
 msgid ""
 "Next time the client synchronizes with the {productname} Server, it receives "
 "a re-installation job.  The re-installation job fetches the new kernel and "
@@ -6307,8 +6166,7 @@ msgid ""
 "You can also migrate openSUSE Leap to a later minor version or to the "
 "corresponding SLE SP level, for example:"
 msgstr ""
-"또한 openSUSE Leap을 이후 부 버전으로 또는 해당 SLE SP 수준으로 마이그레이션"
-"할 수 있습니다. 예는 다음과 같습니다."
+"또한 openSUSE Leap을 이후 부 버전으로 또는 해당 SLE SP 수준으로 마이그레이션할 수 있습니다. 예는 다음과 같습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:4
@@ -6485,9 +6343,7 @@ msgstr "절차: 제품 대량 마이그레이션 수행"
 msgid ""
 "List available migration targets, and take note of the system IDs you want "
 "to migrate:"
-msgstr ""
-"다음과 같이 사용 가능한 마이그레이션 대상을 나열하고, 마이그레이션하려는 시스"
-"템 ID를 적어 둡니다."
+msgstr "다음과 같이 사용 가능한 마이그레이션 대상을 나열하고, 마이그레이션하려는 시스템 ID를 적어 둡니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:25
@@ -6787,10 +6643,9 @@ msgid ""
 "upgrade paths, see https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
 "cha-upgrade-paths.html"
 msgstr ""
-"{suse} 운영 체제를 사용하는 SCC 등록 클라이언트의 경우 {productname} {webui} "
-"내에서 업그레이드를 수행할 수 있습니다. 지원되는 {sle}{nbsp}15 업그레이드 경"
-"로는 link:https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-"
-"upgrade-paths.html[]에서 참조하십시오."
+"{suse} 운영 체제를 사용하는 SCC 등록 클라이언트의 경우 {productname} {webui} 내에서 업그레이드를 수행할 수 "
+"있습니다. 지원되는 {sle}{nbsp}15 업그레이드 경로는 https://documentation.suse.com/sles/"
+"15-SP3/html/SLES-all/cha-upgrade-paths.html에서 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades.adoc:4
@@ -6916,7 +6771,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:10
 #: modules/client-configuration/pages/clients-ubuntu.adoc:9
 msgid "The products you need for this procedure are:"
-msgstr "이 절차에 필요한 제품은 다음과 같습니다."
+msgstr "이 프로시저에 필요한 제품은 다음과 같습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-alibaba.adoc:9
@@ -6950,9 +6805,7 @@ msgstr ""
 msgid ""
 "Alternatively, you can add channels at the command prompt.  The channels you "
 "need for this procedure are:"
-msgstr ""
-"또는 명령 프롬프트에서 채널을 추가할 수 있습니다.  이 절차에 필요한 채널은 다"
-"음과 같습니다."
+msgstr "또는 명령 프롬프트에서 채널을 추가할 수 있습니다.  이 프로시저에 필요한 채널은 다음과 같습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-alibaba.adoc:12
@@ -6990,7 +6843,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:24
 #: modules/client-configuration/pages/clients-ubuntu.adoc:15
 msgid "The channels you need for this procedure are:"
-msgstr "이 절차에 필요한 채널은 다음과 같습니다."
+msgstr "이 프로시저에 필요한 채널은 다음과 같습니다."
 
 #. type: Table
 #: modules/client-configuration/pages/clients-alibaba.adoc:16
@@ -7223,13 +7076,11 @@ msgstr ""
 #: modules/client-configuration/pages/clients-rocky.adoc:8
 msgid ""
 "For example, when working with `x86_64` architecture, you need this product:"
-msgstr ""
-"예를 들어, `x86_64` 아키텍처에서 작업 시 필요한 제품은 다음과 같습니다."
+msgstr "예를 들어, `x86_64` 아키텍처에서 작업 시 필요한 제품은 다음과 같습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-almalinux.adoc:9
-#, fuzzy, no-wrap
-#| msgid "Amazon Linux Products - WebUI"
+#, no-wrap
 msgid "{almalinux} Products - WebUI"
 msgstr "{almalinux} 제품 - WebUI"
 
@@ -7246,8 +7097,7 @@ msgstr ""
 #. type: Block title
 #: modules/client-configuration/pages/clients-almalinux.adoc:12
 #: modules/client-configuration/pages/clients-almalinux.adoc:15
-#, fuzzy, no-wrap
-#| msgid "Amazon Linux Channels - CLI"
+#, no-wrap
 msgid "{almalinux} Channels - CLI"
 msgstr "{almalinux} 채널 - CLI"
 
@@ -7567,8 +7417,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-oracle.adoc:8
 msgid ""
 "For example, when working with `x86_64` architecture, you need this products:"
-msgstr ""
-"예를 들어, `x86_64` 아키텍처에서 작업 시 필요한 제품은 다음과 같습니다."
+msgstr "예를 들어, `x86_64` 아키텍처에서 작업 시 필요한 제품은 다음과 같습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-centos.adoc:10
@@ -7765,8 +7614,8 @@ msgid ""
 "On the {productname} Server, from the command prompt, as root, add the ``sle-"
 "module-development-tools`` module:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 루트 권한으로 다음과 같이 ``sle-"
-"module-development-tools`` 모듈을 추가합니다."
+"{productname} 서버의 명령 프롬프트에서 루트 권한으로 다음과 같이 ``sle-module-development-tools`` "
+"모듈을 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-centos.adoc:40
@@ -7788,14 +7637,15 @@ msgstr "zypper in  perl-Text-Unidecode\n"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-centos.adoc:43
 msgid "Add or edit this line in [path]``/etc/rhn/rhn.conf``:"
-msgstr ""
-"[path]``/etc/rhn/rhn.conf``에서 다음과 같은 줄을 추가하거나 편집합니다."
+msgstr "[path]``/etc/rhn/rhn.conf``에서 다음과 같은 줄을 추가하거나 편집합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-centos.adoc:44
 #, no-wrap
 msgid "java.allow_adding_patches_via_api = centos7-updates-x86_64,centos7-x86_64,centos7-extras-x86_64\n"
-msgstr "java.allow_adding_patches_via_api = centos7-updates-x86_64,centos7-x86_64,centos7-extras-x86_64\n"
+msgstr ""
+"java.allow_adding_patches_via_api = "
+"centos7-updates-x86_64,centos7-x86_64,centos7-extras-x86_64\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-centos.adoc:45
@@ -7833,29 +7683,11 @@ msgstr ""
 msgid ""
 "This script fetches the errata details from an external errata service, "
 "unpacks it, and publishes the details:"
-msgstr ""
-"이 스크립트는 외부 정오표 서비스에서 정오표 상세 정보를 가져와 압축을 풀고 상"
-"세 정보를 게시합니다."
+msgstr "이 스크립트는 외부 정오표 서비스에서 정오표 상세 정보를 가져와 압축을 풀고 상세 정보를 게시합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-centos.adoc:51
-#, fuzzy, no-wrap
-#| msgid ""
-#| "#!/bin/bash\n"
-#| "mkdir -p /usr/local/centos\n"
-#| "cd /usr/local/centos\n"
-#| "rm *.xml\n"
-#| "wget -c http://cefs.steve-meier.de/errata.latest.xml\n"
-#| "#wget -c https://www.redhat.com/security/data/oval/com.redhat.rhsa-all.xml\n"
-#| "wget -c https://www.redhat.com/security/data/oval/com.redhat.rhsa-RHEL7.xml\n"
-#| "wget -c http://cefs.steve-meier.de/errata-import.tar\n"
-#| "tar xvf errata-import.tar\n"
-#| "chmod +x /usr/local/centos/errata-import.pl\n"
-#| "export SPACEWALK_USER='<adminname>';export SPACEWALK_PASS='<password>'\n"
-#| "/usr/local/centos/errata-import.pl --server '<servername>' \\\n"
-#| "--errata /usr/local/centos/errata.latest.xml  \\\n"
-#| "--include-channels=centos7-updates-x86_64,centos7-x86_64,centos7-extras-x86_64 \\\n"
-#| "--publish --rhsa-oval /usr/local/centos/com.redhat.rhsa-RHEL7.xml\n"
+#, no-wrap
 msgid ""
 "#!/bin/bash\n"
 "mkdir -p /usr/local/centos\n"
@@ -7972,9 +7804,7 @@ msgstr "등록 준비"
 msgid ""
 "Some preparation is required before you can register {debian} clients to the "
 "{productname} Server:"
-msgstr ""
-"{debian} 클라이언트를 {productname} 서버에 등록하려면 다음과 같은 약간의 준비"
-"가 필요합니다."
+msgstr "{debian} 클라이언트를 {productname} 서버에 등록하려면 다음과 같은 약간의 준비가 필요합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-debian.adoc:8
@@ -7983,9 +7813,8 @@ msgid ""
 "before you attempt to register.  On the client, at the command prompt, as "
 "root, run:"
 msgstr ""
-"Debian{nbsp}9을 사용 중인 경우 필수 패키지를 클라이언트에 설치한 후 등록을 시"
-"도하십시오.  클라이언트의 명령 프롬프트에서 루트 권한으로 다음과 같이 실행합"
-"니다."
+"Debian{nbsp}9을 사용 중인 경우 필수 패키지를 클라이언트에 설치한 후 등록을 시도하십시오.  클라이언트의 명령 프롬프트에서 "
+"루트 권한으로 다음과 같이 실행합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-debian.adoc:9
@@ -8122,9 +7951,8 @@ msgid ""
 "default, bootstrap repositories are regenerated daily.  You can manually "
 "create the bootstrap repository from the command prompt, using this command:"
 msgstr ""
-"{debian} 클라이언트를 등록하려면 부트스트랩 리포지토리가 필요합니다.  기본적"
-"으로 부트스트랩 리포지토리는 매일 재생성됩니다.  명령 프롬프트에서 다음 명령"
-"을 사용해 부트스트랩 리포지토리를 수동으로 생성할 수 있습니다."
+"{debian} 클라이언트를 등록하려면 부트스트랩 리포지토리가 필요합니다.  기본적으로 부트스트랩 리포지토리는 매일 재생성됩니다.  명령 "
+"프롬프트에서 다음 명령을 사용해 부트스트랩 리포지토리를 수동으로 생성할 수 있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-debian.adoc:29
@@ -8274,9 +8102,7 @@ msgstr "절차: Salt 설치 및 구성"
 msgid ""
 "On the client, at the command prompt, as root, retrieve the SSL certificate "
 "file from the server:"
-msgstr ""
-"클라이언트의 명령 프롬프트에서 루트 권한으로 서버에서 SSL 인증서 파일을 가져"
-"옵니다."
+msgstr "클라이언트의 명령 프롬프트에서 루트 권한으로 서버에서 SSL 인증서 파일을 가져옵니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-microos.adoc:16
@@ -8323,8 +8149,8 @@ msgid ""
 "Create a new file called [path]``/etc/salt/minion.d/susemanager-"
 "transactional.conf`` with this content:"
 msgstr ""
-"이 컨텐트를 사용하여 이름이 [path]``/etc/salt/minion.d/susemanager-"
-"transactional .conf``인 새 파일을 생성합니다."
+"이 컨텐트를 사용하여 이름이 [path]``/etc/salt/minion.d/susemanager-transactional.conf`인 "
+"새 파일을 생성합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-microos.adoc:23
@@ -8560,10 +8386,8 @@ msgid ""
 "daily for all synchronized products.  You can manually create the bootstrap "
 "repository from the command prompt, using this command:"
 msgstr ""
-"openSUSE 클라이언트를 등록하려면 부트스트랩 리포지토리가 필요합니다.  기본적"
-"으로 부트스트랩 리포지토리는 자동으로 생성되며 동기화된 모든 제품에 대해 매"
-"일 재생성됩니다.  명령 프롬프트에서 다음 명령을 사용해 부트스트랩 리포지토리"
-"를 수동으로 생성할 수 있습니다."
+"openSUSE 클라이언트를 등록하려면 부트스트랩 리포지토리가 필요합니다.  기본적으로 부트스트랩 리포지토리는 자동으로 생성되며 동기화된 "
+"모든 제품에 대해 매일 재생성됩니다.  명령 프롬프트에서 다음 명령을 사용해 부트스트랩 리포지토리를 수동으로 생성할 수 있습니다."
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-oracle.adoc:1
@@ -8846,7 +8670,9 @@ msgstr "Google Compute Engine:"
 #: modules/client-configuration/pages/clients-pubcloud.adoc:15
 #, no-wrap
 msgid "zypper rm cloud-regionsrv-client-plugin-gce regionServiceClientConfigGCE regionServiceCertsGCE\n"
-msgstr "zypper rm cloud-regionsrv-client-plugin-gce regionServiceClientConfigGCE regionServiceCertsGCE\n"
+msgstr ""
+"zypper rm cloud-regionsrv-client-plugin-gce regionServiceClientConfigGCE "
+"regionServiceCertsGCE\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-pubcloud.adoc:16
@@ -8926,10 +8752,9 @@ msgid ""
 "root without a password.  To do this, open the [path]``/etc/sudoers.d/"
 "waagent`` file, and add or edit this line:"
 msgstr ""
-"클라우드 공급자가 Microsoft Azure인 경우 사용자 이름 및 암호를 사용하여 로그"
-"인할 수 있습니다.  이렇게 하려면 AzureUser가 암호를 사용하지 않고 루트 권한으"
-"로 명령을 실행할 수 있도록 허용해야 합니다.  이 작업을 수행하려면 [path]``/"
-"etc/sudoers.d/ waagent`` 파일을 열고 다음 줄을 추가하거나 편집합니다."
+"클라우드 공급자가 Microsoft Azure인 경우 사용자 이름 및 암호를 사용하여 로그인할 수 있습니다.  이렇게 하려면 "
+"AzureUser가 암호를 사용하지 않고 루트 권한으로 명령을 실행할 수 있도록 허용해야 합니다.  이 작업을 수행하려면 [path]``/"
+"etc/sudoers.d/waagent`` 파일을 열고 다음 줄을 추가하거나 편집합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-pubcloud.adoc:24
@@ -8953,9 +8778,7 @@ msgstr ""
 msgid ""
 "When the bootstrap process has completed successfully, your client is listed "
 "at menu:Systems[System List]."
-msgstr ""
-"부트스트랩 프로세스가 완료된 후에는 클라이언트가 menu:시스템[시스템 목록]에 "
-"나열됩니다."
+msgstr "부트스트랩 프로세스가 완료된 후에는 클라이언트가 menu:시스템[시스템 목록]에 나열됩니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-pubcloud.adoc:27
@@ -9185,9 +9008,7 @@ msgstr "절차: 클라이언트를 구독 관리자에 등록"
 msgid ""
 "On the client system, at the command prompt, register with the subscription "
 "manager tool:"
-msgstr ""
-"클라이언트 시스템의 명령 프롬프트에서 다음과 같이 구독 관리자 도구로 등록합니"
-"다."
+msgstr "클라이언트 시스템의 명령 프롬프트에서 다음과 같이 구독 관리자 도구로 등록합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:22
@@ -9203,14 +9024,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:24
-#, fuzzy
 msgid "Run command:"
 msgstr "명령 실행:"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:25
-#, fuzzy, no-wrap
-#| msgid "subscription-manager register\n"
+#, no-wrap
 msgid "subscription-manager activate\n"
 msgstr "subscription-manager activate\n"
 
@@ -9219,9 +9038,7 @@ msgstr "subscription-manager activate\n"
 msgid ""
 "Copy your entitlement certificate and key from the client system, to a "
 "location that the {productname} Server can access:"
-msgstr ""
-"다음과 같이 클라이언트 시스템에서 {productname} 서버가 액세스할 수 있는 위치"
-"로 자격 인증서 및 키를 복사합니다."
+msgstr "다음과 같이 클라이언트 시스템에서 {productname} 서버가 액세스할 수 있는 위치로 자격 인증서 및 키를 복사합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:27
@@ -9243,9 +9060,7 @@ msgstr ""
 msgid ""
 "Copy the {redhat} CA Certificate file from the client system, to the same "
 "web location as the entitlement certificate and key:"
-msgstr ""
-"다음과 같이 클라이언트 시스템에서 자격 인증서 및 키와 동일한 웹 위치로 "
-"{redhat} CA 인증서 파일을 복사합니다."
+msgstr "다음과 같이 클라이언트 시스템에서 자격 인증서 및 키와 동일한 웹 위치로 {redhat} CA 인증서 파일을 복사합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:30
@@ -9291,9 +9106,7 @@ msgstr ""
 msgid ""
 "Click btn:[Create Stored Key/Cert] and set these parameters for the "
 "entitlement certificate:"
-msgstr ""
-"btn:[저장된 키/인증서 생성]을 클릭하고 자격 인증서에 대해 다음 파라미터를 설"
-"정합니다."
+msgstr "btn:[저장된 키/인증서 생성]을 클릭하고 자격 인증서에 대해 다음 파라미터를 설정합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:35
@@ -9339,9 +9152,7 @@ msgstr "btn:[키 생성]을 클릭합니다."
 msgid ""
 "Click btn:[Create Stored Key/Cert] and set these parameters for the "
 "entitlement key:"
-msgstr ""
-"btn:[저장된 키/인증서 생성]을 클릭하고 자격 키에 대해 다음 파라미터를 설정합"
-"니다."
+msgstr "btn:[저장된 키/인증서 생성]을 클릭하고 자격 키에 대해 다음 파라미터를 설정합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:40
@@ -9366,9 +9177,7 @@ msgstr ""
 msgid ""
 "Click btn:[Create Stored Key/Cert] and set these parameters for the {redhat} "
 "certificate:"
-msgstr ""
-"btn:[저장된 키/인증서 생성]을 클릭하고 {redhat} 인증서에 대해 다음 파라미터"
-"를 설정합니다."
+msgstr "btn:[저장된 키/인증서 생성]을 클릭하고 {redhat} 인증서에 대해 다음 파라미터를 설정합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:45
@@ -9401,10 +9210,9 @@ msgid ""
 "for this to work correctly.  You can use the subscription manager tool to "
 "get the URLs of the repositories you want to mirror:"
 msgstr ""
-"Red Hat CDN에서 소프트웨어를 미러링하려면 URL로 CDN에 링크된 사용자 정의 채"
-"널 및 리포지토리를 {productname}에 생성해야 합니다.  이 작업이 제대로 수행되"
-"려면 Red Hat 포털에 이러한 제품에 대한 자격이 있어야 합니다.  미러링하려는 리"
-"포지토리의 URL을 다음과 같이 구독 관리자 도구를 사용해 가져올 수 있습니다."
+"Red Hat CDN에서 소프트웨어를 미러링하려면 URL로 CDN에 링크된 사용자 정의 채널 및 리포지토리를 {productname}에 "
+"생성해야 합니다.  이 작업이 제대로 수행되려면 Red Hat 포털에 이러한 제품에 대한 자격이 있어야 합니다.  미러링하려는 "
+"리포지토리의 URL을 다음과 같이 구독 관리자 도구를 사용해 가져올 수 있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:51
@@ -9437,7 +9245,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:52
 #: modules/client-configuration/pages/clients-sleses.adoc:43
 msgid "The details you need for this procedure are:"
-msgstr "이 절차에 필요한 상세 정보는 다음과 같습니다."
+msgstr "이 프로시저에 필요한 상세 정보는 다음과 같습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:55
@@ -9574,28 +9382,7 @@ msgstr "Red Hat 채널- CLI"
 #. type: Table
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:72
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:69
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version\n"
-#| "| Base Channel\n"
-#| "| Client Channel\n"
-#| "| Tools Channel\n"
-#| "\n"
-#| "| {redhat} 6\n"
-#| "| rhel-x86_64-server-6\n"
-#| "| -\n"
-#| "| res6-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {redhat} 7\n"
-#| "| rhel-x86_64-server-7\n"
-#| "| -\n"
-#| "| res7-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {redhat} 8\n"
-#| "| rhel-x86_64-server-8\n"
-#| "| -\n"
-#| "| res8-suse-manager-tools-x86_64\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -9798,8 +9585,7 @@ msgstr "절차: {rhel} 클라이언트에 대해 시스템 그룹 생성"
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:98
 msgid ""
 "On the {productname} Server {webui}, navigate to menu:Systems[System Groups]."
-msgstr ""
-"{productname} 서버 {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다."
+msgstr "{productname} 서버 {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:99
@@ -9921,10 +9707,8 @@ msgid ""
 "daily for all synchronized products.  You can manually create the bootstrap "
 "repository from the command prompt, using this command:"
 msgstr ""
-"{redhat} 클라이언트를 등록하려면 부트스트랩 리포지토리가 필요합니다.  기본적"
-"으로 부트스트랩 리포지토리는 자동으로 생성되며 동기화된 모든 제품에 대해 매"
-"일 재생성됩니다.  명령 프롬프트에서 다음 명령을 사용해 부트스트랩 리포지토리"
-"를 수동으로 생성할 수 있습니다."
+"{redhat} 클라이언트를 등록하려면 부트스트랩 리포지토리가 필요합니다.  기본적으로 부트스트랩 리포지토리는 자동으로 생성되며 동기화된 "
+"모든 제품에 대해 매일 재생성됩니다.  명령 프롬프트에서 다음 명령을 사용해 부트스트랩 리포지토리를 수동으로 생성할 수 있습니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:123
@@ -10085,9 +9869,7 @@ msgstr ""
 msgid ""
 "Copy the {redhat} CA Certificate file from the client system, to the same "
 "location as the entitlement certificate and key:"
-msgstr ""
-"다음과 같이 클라이언트 시스템에서 자격 인증서 및 키와 동일한 위치로 {redhat} "
-"CA 인증서 파일을 복사합니다."
+msgstr "다음과 같이 클라이언트 시스템에서 자격 인증서 및 키와 동일한 위치로 {redhat} CA 인증서 파일을 복사합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:26
@@ -10151,10 +9933,9 @@ msgid ""
 "correctly.  You can use the yum utility to get the URLs of the repositories "
 "you want to mirror:"
 msgstr ""
-"RHUI에서 소프트웨어를 미러링하려면 URL로 RHUI에 링크된 사용자 정의 채널 및 리"
-"포지토리를 {productname}에 생성해야 합니다.  이 작업이 제대로 수행되려면 Red "
-"Hat 포털에 이러한 제품에 대한 자격이 있어야 합니다.  미러링하려는 리포지토리"
-"의 URL을 다음과 같이 yum 유틸리티를 사용해 가져올 수 있습니다."
+"RHUI에서 소프트웨어를 미러링하려면 URL로 RHUI에 링크된 사용자 정의 채널 및 리포지토리를 {productname}에 생성해야 "
+"합니다.  이 작업이 제대로 수행되려면 Red Hat 포털에 이러한 제품에 대한 자격이 있어야 합니다.  미러링하려는 리포지토리의 "
+"URL을 다음과 같이 yum 유틸리티를 사용해 가져올 수 있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:49
@@ -10211,8 +9992,8 @@ msgid ""
 "You can use these commands on the {redhat} client to get the values from the "
 "cloud instance metadata API at [systemitem]``169.254.169.254``:"
 msgstr ""
-"{redhat} 클라이언트에서 다음 명령을 사용해 [systemitem]``169.254.169.254``의 "
-"클라우드 인스턴스 메타데이터 API에서 값을 가져올 수 있습니다."
+"{redhat} 클라이언트에서 다음 명령을 사용해 [systemitem]``169.254.169.254``의 클라우드 인스턴스 메타데이터 "
+"API에서 값을 가져올 수 있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:76
@@ -10221,8 +10002,12 @@ msgid ""
 "echo \"X-RHUI-ID=$(curl -s http://169.254.169.254/latest/dynamic/instance-identity/document|base64|tr -d '\\n')\"\n"
 "echo \"X-RHUI-SIGNATURE=$(curl -s http://169.254.169.254/latest/dynamic/instance-identity/signature|base64|tr -d '\\n')\"\n"
 msgstr ""
-"echo \"X-RHUI-ID=$(curl -s http://169.254.169.254/latest/dynamic/instance-identity/document|base64|tr -d '\\n')\"\n"
-"echo \"X-RHUI-SIGNATURE=$(curl -s http://169.254.169.254/latest/dynamic/instance-identity/signature|base64|tr -d '\\n')\"\n"
+"echo \"X-RHUI-ID=$(curl -s http://169.254.169.254/latest/dynamic/"
+"instance-identity/document|base64|tr -d '\\n"
+"')\"\n"
+"echo \"X-RHUI-SIGNATURE=$(curl -s http://169.254.169.254/latest/dynamic/"
+"instance-identity/signature|base64|tr -d '\\n"
+"')\"\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:77
@@ -10230,8 +10015,8 @@ msgid ""
 "Open the [path]``/etc/rhn/spacewalk-repo-sync/extra_headers.conf`` "
 "configuration file, and add or edit these lines with the correct information:"
 msgstr ""
-"[path]``/etc/rhn/spacewalk-repo-sync/extra_headers.conf`` 구성 파일을 열고, "
-"다음과 같은 줄을 추가하거나 정확한 정보로 편집합니다."
+"[path]``/etc/rhn/spacewalk-repo-sync/extra_headers.conf`` 구성 파일을 열고, 다음과 같은 "
+"줄을 추가하거나 정확한 정보로 편집합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:78
@@ -10304,8 +10089,7 @@ msgstr ""
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-rocky.adoc:9
-#, fuzzy, no-wrap
-#| msgid "Oracle Products - WebUI"
+#, no-wrap
 msgid "{rocky} Products - WebUI"
 msgstr "{rocky} 제품 - WebUI"
 
@@ -10322,8 +10106,7 @@ msgstr ""
 #. type: Block title
 #: modules/client-configuration/pages/clients-rocky.adoc:12
 #: modules/client-configuration/pages/clients-rocky.adoc:15
-#, fuzzy, no-wrap
-#| msgid "Oracle Channels - CLI"
+#, no-wrap
 msgid "{rocky} Channels - CLI"
 msgstr "{rocky} 채널 - CLI"
 
@@ -10439,24 +10222,20 @@ msgstr "{sles}{nbsp}15{nbsp}SP3"
 msgid ""
 "Use the instructions in this chapter for preparing all {sle} products, "
 "including:"
-msgstr ""
-"다음을 포함하여 모든 {sle} 제품을 준비하려면 이 장의 지침을 사용하십시오."
+msgstr "다음을 포함하여 모든 {sle} 제품을 준비하려면 이 장의 지침을 사용하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:7
-#, fuzzy
 msgid "{sles} for SAP"
-msgstr "SAP용 {sles}"
+msgstr "{sles} for SAP"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:8
-#, fuzzy
 msgid "{sle} Desktop"
-msgstr "{sle} Desktop"
+msgstr "{sle} 데스크톱"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:9
-#, fuzzy
 msgid "{sle}"
 msgstr "{sle}"
 
@@ -10467,7 +10246,6 @@ msgstr "{sle} Real Time"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:11
-#, fuzzy
 msgid ""
 "You can also use these instructions for older {sle} versions and service "
 "packs."
@@ -10556,10 +10334,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:20
-#, fuzzy
-#| msgid ""
-#| "At the command prompt on the {productname} Server, as root, use the "
-#| "[command]``mgr-sync`` command to add the appropriate channels:"
 msgid ""
 "To find channel names of older products, at the command prompt on the "
 "{productname} Server, as root, use the [command]``mgr-sync`` command:"
@@ -10569,13 +10343,12 @@ msgstr ""
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-sle.adoc:21
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "mgr-sync list --help\n"
 msgstr "mgr-sync list --help\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sle.adoc:22
-#, fuzzy
 msgid ""
 "Then specify the argument you are interested in.  For example, "
 "[literal]``channels``:"
@@ -10583,16 +10356,14 @@ msgstr "그런 다음 원하는 인수를 지정합니다.  예를 들어, [lite
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-sle.adoc:23
-#, fuzzy, no-wrap
-#| msgid "mgr-sync refresh --refresh-channels\n"
+#, no-wrap
 msgid "mgr-sync list channels [-c]\n"
 msgstr "mgr-sync list channels [-c]\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:24
 msgid "To add the client tools, add these channels from the command prompt:"
-msgstr ""
-"클라이언트 도구를 추가하려면 명령 프롬프트에서 다음 채널을 추가하십시오."
+msgstr "클라이언트 도구를 추가하려면 명령 프롬프트에서 다음 채널을 추가하십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-sle.adoc:25
@@ -10654,10 +10425,8 @@ msgid ""
 "daily for all synchronized products.  You can manually create the bootstrap "
 "repository from the command prompt, using this command:"
 msgstr ""
-"{sle} 클라이언트를 등록하려면 부트스트랩 리포지토리가 필요합니다.  기본적으"
-"로 부트스트랩 리포지토리는 자동으로 생성되며 동기화된 모든 제품에 대해 매일 "
-"재생성됩니다.  명령 프롬프트에서 다음 명령을 사용해 부트스트랩 리포지토리를 "
-"수동으로 생성할 수 있습니다."
+"{sle} 클라이언트를 등록하려면 부트스트랩 리포지토리가 필요합니다.  기본적으로 부트스트랩 리포지토리는 자동으로 생성되며 동기화된 모든 "
+"제품에 대해 매일 재생성됩니다.  명령 프롬프트에서 다음 명령을 사용해 부트스트랩 리포지토리를 수동으로 생성할 수 있습니다."
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-slemicro.adoc:1
@@ -10731,8 +10500,8 @@ msgid ""
 "For more information on transactional updates, see https://documentation."
 "suse.com/sles/15-SP3/html/SLES-all/cha-transactional-updates.html"
 msgstr ""
-"트랜잭션 업데이트에 대한 자세한 내용은 link:https://documentation.suse.com/"
-"sles/15-SP3/html/SLES-all/cha-transactional-updates.html[]에서 참조하십시오."
+"트랜잭션 업데이트에 대한 자세한 내용은 https://documentation.suse.com/sles/15-SP3/html/"
+"SLES-all/cha-transactional-updates.html에서 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:10
@@ -10829,15 +10598,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:3
-#, fuzzy
-#| msgid ""
-#| "The {es} software channels provided by {suse} only provide updates to "
-#| "packages, they do not provide the packages themselves.  To register {es} "
-#| "clients, you need to create custom empty base and child channels on your "
-#| "{productname} Server, then import the {redhat} or {centos} packages into "
-#| "the custom channels.  You must obtain the initial packages directly from "
-#| "{redhat} or {centos} before you can apply the updates provided by the "
-#| "{es} software channels."
 msgid ""
 "The {es} software channels provided by {suse} only provide updates to "
 "packages, they do not provide the packages themselves.  To register {es} "
@@ -10985,8 +10745,7 @@ msgid ""
 "{productname} requires tools channels that contain additional software.  "
 "This procedure creates these tools channels:"
 msgstr ""
-"{productname}에는 추가 소프트웨어가 포함된 도구 채널이 필요합니다.   이 절차"
-"에서는 이러한 도구 채널을 생성합니다."
+"{productname}에는 추가 소프트웨어가 포함된 도구 채널이 필요합니다.   이 프로시저에서는 이러한 도구 채널을 생성합니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-sleses.adoc:19
@@ -11030,28 +10789,7 @@ msgstr "ES 채널 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-sleses.adoc:24
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version\n"
-#| "| Base Channel\n"
-#| "| Client Channel\n"
-#| "| Tools Channel\n"
-#| "\n"
-#| "| {es} 6\n"
-#| "| rhel-x86_64-server-6\n"
-#| "| -\n"
-#| "| res6-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {es} 7\n"
-#| "| rhel-x86_64-server-7\n"
-#| "| -\n"
-#| "| res7-suse-manager-tools-x86_64\n"
-#| "\n"
-#| "| {es} 8\n"
-#| "| rhel-x86_64-server-8\n"
-#| "| -\n"
-#| "| res8-suse-manager-tools-x86_64\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -11156,8 +10894,8 @@ msgid ""
 "Replace [command]``<os_name>`` with either ``sleses6``, ``sleses7``, or "
 "``sleses8``:"
 msgstr ""
-"다음과 같이 [command]``<os_name>``을 ``sleses6``, ``sleses7`` 또는 "
-"``sleses8``으로 교체합니다."
+"다음과 같이 [command]``<os_name>``을 ``sleses6``, ``sleses7`` 또는 ``sleses8``으로 "
+"교체합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-sleses.adoc:36
@@ -11587,10 +11325,9 @@ msgid ""
 "the [filename]``sudoers`` file.  Replace [systemitem]``<user>`` with the "
 "name of the user that is bootstrapping the client in the {webui}:"
 msgstr ""
-"이 줄을 [filename]``sudoers`` 파일 끝에 추가하여 사용자에게 "
-"[command]``sudo`` 액세스 권한을 부여합니다.  다음과 같이 "
-"[systemitem]``<user>``를 {webui}에서 클라이언트를 부트스트래핑하고 있는 사용"
-"자의 이름으로 교체합니다."
+"이 줄을 [filename]``sudoers`` 파일 끝에 추가하여 사용자에게 [command]``sudo`` 액세스 권한을 "
+"부여합니다.  다음과 같이 [systemitem]``<user>``를 {webui}에서 클라이언트를 부트스트래핑하고 있는 사용자의 "
+"이름으로 교체합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:38
@@ -11623,10 +11360,8 @@ msgid ""
 "daily for all synchronized products.  You can manually create the bootstrap "
 "repository from the command prompt, using this command:"
 msgstr ""
-"{ubuntu} 클라이언트를 등록하려면 부트스트랩 리포지토리가 필요합니다.  기본적"
-"으로 부트스트랩 리포지토리는 자동으로 생성되며 동기화된 모든 제품에 대해 매"
-"일 재생성됩니다.  명령 프롬프트에서 다음 명령을 사용해 부트스트랩 리포지토리"
-"를 수동으로 생성할 수 있습니다."
+"{ubuntu} 클라이언트를 등록하려면 부트스트랩 리포지토리가 필요합니다.  기본적으로 부트스트랩 리포지토리는 자동으로 생성되며 동기화된 "
+"모든 제품에 대해 매일 재생성됩니다.  명령 프롬프트에서 다음 명령을 사용해 부트스트랩 리포지토리를 수동으로 생성할 수 있습니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:44
@@ -11640,9 +11375,7 @@ msgstr "문제 해결: `spacecmd` {ubuntu} 18.04 Clients 설치"
 msgid ""
 "With default configuration settings, the installation of "
 "[package]``spacecmd`` may fail with:"
-msgstr ""
-"기본 구성 설정을 사용하면 [package]``spacecmd``의 설치가 실패하고 다음 메시지"
-"가 표시될 수 있습니다."
+msgstr "기본 구성 설정을 사용하면 [package]``spacecmd``의 설치가 실패하고 다음 메시지가 표시될 수 있습니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:46
@@ -11885,9 +11618,8 @@ msgid ""
 "traditional clients.  This table shows the supported features on different "
 "client types:"
 msgstr ""
-"Salt 클라이언트와 기존 클라이언트에 사용할 수 있는 구성 관리 기능은 서로 다릅"
-"니다.  아래 표에는 서로 다른 클라이언트 유형에서 지원되는 기능이 표시되어 있"
-"습니다."
+"Salt 클라이언트와 기존 클라이언트에 사용할 수 있는 구성 관리 기능은 서로 다릅니다.  아래 표에는 서로 다른 클라이언트 유형에서 "
+"지원되는 기능이 표시되어 있습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:9
@@ -12024,18 +11756,14 @@ msgstr ""
 msgid ""
 "[path]``mgr-cfg-client``: provides a command line interface to the client "
 "features of the configuration management system."
-msgstr ""
-"[path]``mgr-cfg-client``: 구성 관리 시스템의 클라이언트 기능에 명령줄 인터페"
-"이스 제공"
+msgstr "[path]``mgr-cfg-client``: 구성 관리 시스템의 클라이언트 기능에 명령줄 인터페이스 제공"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:17
 msgid ""
 "[path]``mgr-cfg-management``: provides a command line interface to manage "
 "{productname} configuration."
-msgstr ""
-"[path]``mgr-cfg-management``: {productname} 구성을 관리할 수 있는 명령줄 인터"
-"페이스 제공"
+msgstr "[path]``mgr-cfg-management``: {productname} 구성을 관리할 수 있는 명령줄 인터페이스 제공"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:18
@@ -12150,9 +11878,7 @@ msgstr "구성 파일, 디렉토리 또는 심볼 링크 추가"
 msgid ""
 "When you have created a configuration channel you can add a configuration "
 "file, directory, or symbolic link:"
-msgstr ""
-"구성 채널을 생성했으면 이제 구성 파일, 디렉토리 또는 심볼 링크 link:를 추가"
-"할 수 있습니다."
+msgstr "구성 채널을 생성했으면 이제 구성 파일, 디렉토리 또는 심볼 링크를 추가할 수 있습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:39
@@ -12256,10 +11982,8 @@ msgid ""
 "and navigating to the [guimenu]``Configuration`` tab.  To subscribe multiple "
 "clients to a configuration channel, you can use the system set manager (SSM)."
 msgstr ""
-"menu:시스템[시스템 목록]으로 이동하여 가입하려는 클라이언트를 선택하고 "
-"[guimenu]``구성`` 탭으로 이동하여 개별 클라이언트를 구성 채널에 가입할 수 있"
-"습니다.  여러 클라이언트를 구성 채널에 가입하려면 시스템 세트 관리자(SSM)를 "
-"사용하면 됩니다."
+"menu:시스템[시스템 목록]으로 이동하여 가입하려는 클라이언트를 선택하고 [guimenu]``구성`` 탭으로 이동하여 개별 클라이언트를 "
+"구성 채널에 가입할 수 있습니다.  여러 클라이언트를 구성 채널에 가입하려면 시스템 세트 관리자(SSM)를 사용하면 됩니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:51
@@ -12283,8 +12007,7 @@ msgid ""
 "Configuration[Subscribe to Channels] subtab to see the list of available "
 "configuration channels."
 msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[채널에 가입] 하위 탭에"
-"서 사용 가능한 구성 채널의 목록을 확인합니다."
+"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[채널에 가입] 하위 탭에서 사용 가능한 구성 채널의 목록을 확인합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:54
@@ -12392,8 +12115,7 @@ msgid ""
 "Configuration[Compare Files] subtab to the list of available configuration "
 "files."
 msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[파일 비교] 하위 탭에서 "
-"사용 가능한 구성 채널의 목록으로 이동합니다."
+"menu:시스템[시스템 세트 관리자]로 이동하여 menu:구성[파일 비교] 하위 탭에서 사용 가능한 구성 채널의 목록으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:67
@@ -12430,12 +12152,10 @@ msgid ""
 "addition to variables for custom system information, the following standard "
 "macros are supported:"
 msgstr ""
-"1개의 파일을 저장하고 동일한 구성을 공유할 수 있다는 점이 유용하지만, 경우에 "
-"따라 동일한 구성 파일의 여러 변형이 필요하거나 호스트 이름 및 MAC 주소와 같"
-"은 시스템별 세부 정보만 다른 구성 파일이 필요할 수 있습니다.  이러한 경우에"
-"는 구성 파일 내에서 매크로 또는 변수를 사용할 수 있습니다.  이 작업을 통해 변"
-"형이 수백 또는 수천 개인 1개의 파일을 업로드 및 배포할 수 있습니다.  사용자 "
-"정의 시스템 정보를 위한 변수뿐만 아니라 다음 표준 매크로도 지원됩니다."
+"1개의 파일을 저장하고 동일한 구성을 공유할 수 있다는 점이 유용하지만, 경우에 따라 동일한 구성 파일의 여러 변형이 필요하거나 호스트 "
+"이름 및 MAC 주소와 같은 시스템별 세부 정보만 다른 구성 파일이 필요할 수 있습니다.  이러한 경우에는 구성 파일 내에서 매크로 또는 "
+"변수를 사용할 수 있습니다.  이 작업을 통해 변형이 수백 또는 수천 개인 1개의 파일을 업로드 및 배포할 수 있습니다.  사용자 정의 "
+"시스템 정보를 위한 변수뿐만 아니라 다음 표준 매크로도 지원됩니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/configuration-management.adoc:71
@@ -12518,10 +12238,9 @@ msgid ""
 "as recorded in {productname}'s system profile.  In this example, the "
 "deployed version will look similar to this:"
 msgstr ""
-"파일이 {productname} {webui} 또는 {productname} 구성 클라이언트"
-"([command]``mgrcfg-client``)의 명령줄에서 예약된 작업을 통해 개별 시스템에 전"
-"달되는 경우 변수는 {productname}의 시스템 프로파일에 기록된 시스템의 호스트 "
-"이름 및 IP 주소로 대체됩니다.  이 예에서 배포된 버전은 다음과 같습니다."
+"파일이 {productname} {webui} 또는 {productname} 구성 클라이언트([command]``mgrcfg-"
+"client``)의 명령줄에서 예약된 작업을 통해 개별 시스템에 전달되는 경우 변수는 {productname}의 시스템 프로파일에 기록된 "
+"시스템의 호스트 이름 및 IP 주소로 대체됩니다.  이 예에서 배포된 버전은 다음과 같습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/configuration-management.adoc:76
@@ -12542,10 +12261,9 @@ msgid ""
 "macro in a configuration file to have the value substituted on any system "
 "containing it.  The macro would look like this:"
 msgstr ""
-"사용자 정의 시스템 정보를 수집하려면 사용자 정의 정보 매크로(``rhn.system."
-"custom_info``)에 키 레이블을 삽입합니다.  예를 들어, \"asset\"이라는 레이블"
-"의 키를 개발한 경우 구성 파일의 사용자 정의 정보 매크로에 추가하여 이 키를 포"
-"함한 모든 시스템에서 값을 대체할 수 있습니다.  매크로는 다음과 같습니다."
+"사용자 정의 시스템 정보를 수집하려면 사용자 정의 정보 매크로(``rhn.system.custom_info``)에 키 레이블을 "
+"삽입합니다.  예를 들어, \"asset\"이라는 레이블의 키를 개발한 경우 구성 파일의 사용자 정의 정보 매크로에 추가하여 이 키를 "
+"포함한 모든 시스템에서 값을 대체할 수 있습니다.  매크로는 다음과 같습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/configuration-management.adoc:78
@@ -12558,9 +12276,7 @@ msgstr "asset={@ rhn.system.custom_info(asset) @}\n"
 msgid ""
 "When the file is deployed to a system containing a value for that key, the "
 "macro gets translated, resulting in a string similar to this:"
-msgstr ""
-"해당 키에 대한 값을 포함한 시스템으로 파일이 배포되면 매크로가 번역되어 다음"
-"과 유사한 문자열이 제공됩니다."
+msgstr "해당 키에 대한 값을 포함한 시스템으로 파일이 배포되면 매크로가 번역되어 다음과 유사한 문자열이 제공됩니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/configuration-management.adoc:80
@@ -12574,8 +12290,7 @@ msgid ""
 "To include a default value (for example, if one is required to prevent "
 "errors), you can append it to the custom information macro, like this:"
 msgstr ""
-"예를 들어, 오류를 방지하기 위해 기본값이 필요한 경우 기본값을 포함하려면 다음"
-"과 같이 사용자 정의 정보 매크로에 추가할 수 있습니다."
+"예를 들어, 오류를 방지하기 위해 기본값이 필요한 경우 기본값을 포함하려면 다음과 같이 사용자 정의 정보 매크로에 추가할 수 있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/configuration-management.adoc:82
@@ -12811,8 +12526,8 @@ msgid ""
 "At the command prompt on the {productname} Server, as root, start the "
 "[systemitem]``osa-dispatcher`` service:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 루트 권한으로 다음과 같이 "
-"[systemitem]``osa-dispatcher`` 서비스를 시작합니다."
+"{productname} 서버의 명령 프롬프트에서 루트 권한으로 다음과 같이 [systemitem]``osa-dispatcher`` "
+"서비스를 시작합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-osad.adoc:17
@@ -12843,9 +12558,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-osad.adoc:20
 msgid "On each client, as root, start the [systemitem]``osad`` service:"
-msgstr ""
-"각 클라이언트에서 루트 권한으로 다음과 같이 [systemitem]``osad`` 서비스를 시"
-"작합니다."
+msgstr "각 클라이언트에서 루트 권한으로 다음과 같이 [systemitem]``osad`` 서비스를 시작합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-osad.adoc:21
@@ -12928,8 +12641,8 @@ msgid ""
 "[systemitem]``jabberd`` by editing the [path]``/etc/security/limits.conf`` "
 "configuration file and adding these lines:"
 msgstr ""
-"이 문제를 해결하려면 [path]``/etc/security/limits.conf`` 구성 파일을 편집하"
-"고 다음 줄을 추가하여 [systemitem]``jabberd``의 파일 한도를 높이면 됩니다."
+"이 문제를 해결하려면 [path]``/etc/security/limits.conf`` 구성 파일을 편집하고 다음 줄을 추가하여 "
+"[systemitem]``jabberd``의 파일 한도를 높이면 됩니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-osad.adoc:29
@@ -13059,11 +12772,10 @@ msgid ""
 "default are `1232` and `1233`.  To overwrite these, you can add two custom "
 "port numbers greater than 1024 to [path]``/etc/rhn/rhn.conf``:"
 msgstr ""
-"SSH를 통한 터널링 연결의 경우 사용 가능한 포트 번호가 두 개 필요합니다. 하나"
-"는 터널링 HTTP를 위한 것이고 다른 하나는 HTTPS를 통한 터널링을 위한 것입니다"
-"(HTTP는 등록 프로세스 중에만 필요함).  기본적으로 사용되는 포트 번호는 "
-"`1232` 및 `1233` 입니다.  이 번호를 덮어쓰려면 다음과 같이 1024보다 큰 사용"
-"자 정의 포트 번호 두 개를 [path]``/etc/rhn/rhn.conf``에 추가하면 됩니다."
+"SSH를 통한 터널링 연결의 경우 사용 가능한 포트 번호가 두 개 필요합니다. 하나는 터널링 HTTP를 위한 것이고 다른 하나는 "
+"HTTPS를 통한 터널링을 위한 것입니다(HTTP는 등록 프로세스 중에만 필요함).  기본적으로 사용되는 포트 번호는 `1232` 및 "
+"`1233` 입니다.  이 번호를 덮어쓰려면 다음과 같이 1024보다 큰 사용자 정의 포트 번호 두 개를 [path]``/etc/rhn/"
+"rhn.conf``에 추가하면 됩니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:10
@@ -13080,9 +12792,7 @@ msgstr ""
 msgid ""
 "If you would like your clients to be contacted using their hostnames instead "
 "of an IP address, set this option:"
-msgstr ""
-"IP 주소 대신에 호스트 이름을 사용해 클라이언트에 연결하고 싶다면 다음 옵션을 "
-"설정하십시오."
+msgstr "IP 주소 대신에 호스트 이름을 사용해 클라이언트에 연결하고 싶다면 다음 옵션을 설정하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:12
@@ -13098,9 +12808,9 @@ msgid ""
 "Set [systemitem]``taskomatic.ssh_push_workers`` in [path]``/etc/rhn/rhn."
 "conf``:"
 msgstr ""
-"클라이언트에 병렬로 연결하는 데 사용할 스레드의 수를 조정할 수도 있습니다.  "
-"기본적으로 두 개의 병렬 스레드를 사용합니다.   [path]``/etc/rhn/rhn.conf``에"
-"서 [systemitem]``taskomatic.ssh_push_workers``를 다음과 같이 설정합니다."
+"클라이언트에 병렬로 연결하는 데 사용할 스레드의 수를 조정할 수도 있습니다.  기본적으로 두 개의 병렬 스레드를 사용합니다.   "
+"[path]``/etc/rhn/rhn.conf``에서 [systemitem]``taskomatic.ssh_push_workers``를 "
+"다음과 같이 설정합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:14
@@ -13143,9 +12853,7 @@ msgstr "각 클라이언트 시스템에서 적절한 권한 없는 사용자를
 msgid ""
 "On each client system, open the [path]``/etc/sudoers`` file and comment out "
 "these lines:"
-msgstr ""
-"각 클라이언트 시스템에서 [path]``/etc/sudoers`` 파일을 열고 다음과 같은 줄을 "
-"코멘트 아웃합니다."
+msgstr "각 클라이언트 시스템에서 [path]``/etc/sudoers`` 파일을 열고 다음과 같은 줄을 코멘트 아웃합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:20
@@ -13162,9 +12870,7 @@ msgstr ""
 msgid ""
 "On each client system, in the `User privilege specification` section, add "
 "these lines:"
-msgstr ""
-"각 클라이언트 시스템의 ‘사용자 권한 사양’ 섹션에서 다음과 같은 줄을 추가합니"
-"다."
+msgstr "각 클라이언트 시스템의 ‘사용자 권한 사양’ 섹션에서 다음과 같은 줄을 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:22
@@ -13183,9 +12889,7 @@ msgstr ""
 msgid ""
 "On each client system, in the [path]``/home/<user>/.bashrc`` file, add these "
 "lines:"
-msgstr ""
-"각 클라이언트 시스템의 [path]``/home/<user>/.bashrc`` 파일에 다음과 같은 줄"
-"을 추가합니다."
+msgstr "각 클라이언트 시스템의 [path]``/home/<user>/.bashrc`` 파일에 다음과 같은 줄을 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:24
@@ -13204,8 +12908,8 @@ msgid ""
 "configuration file, add or amend this line to include the unprivileged "
 "username:"
 msgstr ""
-"{productname} 서버의 [path]``/etc/rhn/rhn.conf`` 구성 파일에서 다음과 같은 줄"
-"을 추가하거나 수정하여 권한이 없는 사용자 이름을 포함합니다."
+"{productname} 서버의 [path]``/etc/rhn/rhn.conf`` 구성 파일에서 다음과 같은 줄을 추가하거나 수정하여 "
+"권한이 없는 사용자 이름을 포함합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:26
@@ -13279,8 +12983,7 @@ msgstr "절차: SSH를 통한 푸시로 클라이언트 등록"
 msgid ""
 "At the command prompt on the {productname} Server, as root, execute this "
 "command:"
-msgstr ""
-"{productname} 서버의 명령 프롬프트에서 루트 권한으로 다음 명령을 실행합니다."
+msgstr "{productname} 서버의 명령 프롬프트에서 루트 권한으로 다음 명령을 실행합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:34
@@ -13394,9 +13097,7 @@ msgstr "절차: 등록한 시스템을 SSH를 통한 푸시로 마이그레이�
 msgid ""
 "At the command prompt on the {productname} Server, as root, set up the "
 "client:"
-msgstr ""
-"{productname} 서버의 명령 프롬프트에서 루트 권한으로 다음과 같이 클라이언트"
-"를 설정합니다."
+msgstr "{productname} 서버의 명령 프롬프트에서 루트 권한으로 다음과 같이 클라이언트를 설정합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:49
@@ -13423,14 +13124,15 @@ msgstr ""
 msgid ""
 "OPTIONAL: If you need to edit an existing activation key, you can do so with "
 "this command:"
-msgstr ""
-"옵션: 기존 활성화 키를 편집해야 하는 경우 다음 명령을 사용할 수 있습니다."
+msgstr "옵션: 기존 활성화 키를 편집해야 하는 경우 다음 명령을 사용할 수 있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:52
 #, no-wrap
 msgid "client.activationkey.setDetails(key, '1-mykey', {'contact_method' : 'ssh-push'})\n"
-msgstr "client.activationkey.setDetails(key, '1-mykey', {'contact_method' : 'ssh-push'})\n"
+msgstr ""
+"client.activationkey.setDetails(key, '1-mykey', {'contact_method' : 'ssh-"
+"push'})\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:53
@@ -13451,18 +13153,14 @@ msgstr "절차: SSH를 통한 푸시로 클라이언트를 프록시에 등록"
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:55
 msgid ""
 "At the command prompt on the {productname} Proxy, as root, set up the client:"
-msgstr ""
-"{productname} 프록시의 명령 프롬프트에서 루트 권한으로 다음과 같이 클라이언트"
-"를 설정합니다."
+msgstr "{productname} 프록시의 명령 프롬프트에서 루트 권한으로 다음과 같이 클라이언트를 설정합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:57
 msgid ""
 "At the command prompt on the {productname} Server, copy the SSH key to the "
 "proxy:"
-msgstr ""
-"{productname} 서버의 명령 프롬프트에서 다음과 같이 SSH 키를 프록시에 복사합니"
-"다."
+msgstr "{productname} 서버의 명령 프롬프트에서 다음과 같이 SSH 키를 프록시에 복사합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:58
@@ -13568,9 +13266,7 @@ msgstr ""
 msgid ""
 "If you modify the `rhnsd` configuration file, execute this command as root "
 "to restart the daemon and pick up your changes:"
-msgstr ""
-"`rhnsd` 구성 파일을 수정하는 경우 루트 권한으로 다음 명령을 실행하여 데몬을 "
-"다시 시작하고 변경 사항을 적용하십시오."
+msgstr "`rhnsd` 구성 파일을 수정하는 경우 루트 권한으로 다음 명령을 실행하여 데몬을 다시 시작하고 변경 사항을 적용하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-rhnsd.adoc:13
@@ -13595,8 +13291,8 @@ msgid ""
 "On {sle}{nbsp}12 and later, the default time interval is set in [path]``/etc/"
 "systemd/system/timers.target.wants/rhnsd.timer``, in this section:"
 msgstr ""
-"{sle}{nbsp}12 이후에서는 기본 시간 간격이 다음 섹션과 같이 [path]``/etc/"
-"systemd/system/timers.target.wants/rhnsd.timer``에 설정됩니다."
+"{sle}{nbsp}12 이후에서는 기본 시간 간격이 다음 섹션과 같이 [path]``/etc/systemd/system/timers."
+"target.wants/rhnsd.timer``에 설정됩니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-rhnsd.adoc:17
@@ -13616,8 +13312,8 @@ msgid ""
 "You can create an overriding drop-in file for [path]``rhnsd.timer`` using "
 "[command]``systemctl``:"
 msgstr ""
-"다음과 같이 [command]``systemctl``을 사용해 [path]``rhnsd.timer``에 대해 무효"
-"화 드롭인 파일을 생성할 수 있습니다."
+"다음과 같이 [command]``systemctl``을 사용해 [path]``rhnsd.timer``에 대해 무효화 드롭인 파일을 생성할 "
+"수 있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-rhnsd.adoc:19
@@ -13722,9 +13418,7 @@ msgstr "service salt-minion restart\n"
 msgid ""
 "On the {productname} Server, at the command prompt, accept all available "
 "Salt clients:"
-msgstr ""
-"{productname} 서버의 명령 프롬프트에서 다음과 같이 사용 가능한 모든 Salt 클라"
-"이언트를 수락합니다."
+msgstr "{productname} 서버의 명령 프롬프트에서 다음과 같이 사용 가능한 모든 Salt 클라이언트를 수락합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-salt-cfgfile.adoc:10
@@ -13976,10 +13670,9 @@ msgid ""
 "``parallel_threads`` upwards.  We recommend you keep the number of parallel "
 "actions low, to avoid problems:"
 msgstr ""
-"기본적으로 한 번에 20건의 Salt SSH 작업을 실행할 수 있습니다.  구성 파일에 다"
-"음과 같은 줄을 추가하고 ``parallel_threads``의 값을 상향 조정하여 병렬로 실행"
-"할 수 있는 작업의 수를 늘릴 수 있습니다.  문제를 방지하기 위해 병렬 작업의 수"
-"를 다음과 같이 낮게 유지하는 것이 좋습니다."
+"기본적으로 한 번에 20건의 Salt SSH 작업을 실행할 수 있습니다.  구성 파일에 다음과 같은 줄을 추가하고 "
+"``parallel_threads``의 값을 상향 조정하여 병렬로 실행할 수 있는 작업의 수를 늘릴 수 있습니다.  문제를 방지하기 위해 "
+"병렬 작업의 수를 다음과 같이 낮게 유지하는 것이 좋습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:23
@@ -13988,7 +13681,8 @@ msgid ""
 "taskomatic.com.redhat.rhn.taskomatic.task.SSHMinionActionExecutor.parallel_threads = <number>\n"
 "org.quartz.threadPool.threadCount = <value of parallel_threads + 20>\n"
 msgstr ""
-"taskomatic.com.redhat.rhn.taskomatic.task.SSHMinionActionExecutor.parallel_threads = <number>\n"
+"taskomatic.com.redhat.rhn.taskomatic.task.SSHMinionActionExecutor.parallel_th"
+"reads = <number>\n"
 "org.quartz.threadPool.threadCount = <value of parallel_threads + 20>\n"
 
 #. type: Plain text
@@ -14027,8 +13721,8 @@ msgid ""
 "There are some features that are not yet supported on Push via Salt SSH.  "
 "These features do not work on Salt SSH clients:"
 msgstr ""
-"Salt SSH를 통한 푸시에서는 아직 지원하지 않는 몇 가지 기능이 있습니다.   다"
-"음 기능은 Salt SSH 클라이언트에서 작동하지 않습니다."
+"Salt SSH를 통한 푸시에서는 아직 지원하지 않는 몇 가지 기능이 있습니다.   다음 기능은 Salt SSH 클라이언트에서 작동하지 "
+"않습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:28
@@ -14189,14 +13883,12 @@ msgid ""
 "database.  For Salt clients, this information is stored in a Salt pillar.  "
 "You can retrieve this information from a Salt client with a command such as:"
 msgstr ""
-"기존 클라이언트의 경우, 이 정보는 {productname} 데이터베이스에 저장됩니다.  "
-"Salt 클라이언트의 경우, 이 정보는 Salt 열에 저장됩니다.  이 정보는 다음과 같"
-"은 명령을 사용하여 Salt 클라이언트에서 검색할 수 있습니다."
+"기존 클라이언트의 경우, 이 정보는 {productname} 데이터베이스에 저장됩니다.  Salt 클라이언트의 경우, 이 정보는 Salt "
+"열에 저장됩니다.  이 정보는 다음과 같은 명령을 사용하여 Salt 클라이언트에서 검색할 수 있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/custom-info.adoc:10
-#, fuzzy, no-wrap
-#| msgid "salt $minionid pillar.get custom_info:key1"
+#, no-wrap
 msgid "salt $minionid pillar.get custom_info:key1\n"
 msgstr "salt $minionid pillar.get custom_info:key1\n"
 
@@ -14299,9 +13991,7 @@ msgstr "절차: 클라이언트 삭제"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "select the client to delete."
-msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 삭제하려는 클"
-"라이언트를 선택합니다."
+msgstr "{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 삭제하려는 클라이언트를 선택합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/delete-clients.adoc:5
@@ -14607,9 +14297,7 @@ msgstr "절차: 사용자 정의 패치 생성"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Patches[Manage Patches], "
 "click btn:[Create Patch]."
-msgstr ""
-"{productname} {webui}에서 menu:패치[패치 관리]로 이동하여 btn:[패치 생성]을 "
-"클릭합니다."
+msgstr "{productname} {webui}에서 menu:패치[패치 관리]로 이동하여 btn:[패치 생성]을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:7
@@ -14689,9 +14377,7 @@ msgstr ""
 msgid ""
 "OPTIONAL: In the ``Bugs`` section, specify the information of any related "
 "bugs, using these details:"
-msgstr ""
-"옵션: ``버그`` 섹션에서 다음 상세 정보를 사용해 관련이 있는 모든 버그에 관한 "
-"정보를 지정합니다."
+msgstr "옵션: ``버그`` 섹션에서 다음 상세 정보를 사용해 관련이 있는 모든 버그에 관한 정보를 지정합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:20
@@ -15027,9 +14713,7 @@ msgstr ""
 msgid ""
 "Navigate to menu:Systems[System Set Manager] and naviagte to the "
 "[guimenu]``Patches`` tab."
-msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``패치`` 탭으로 이동합니"
-"다."
+msgstr "menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``패치`` 탭으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:70
@@ -15404,8 +15088,8 @@ msgid ""
 "Alternatively, you can access the bootstrap script over HTTPS.  Replace "
 "``example.com`` with the host name of your {productname} Server:"
 msgstr ""
-"또는 HTTPS를 통해 부트스트랩 스크립트에 액세스할 수 있습니다.  ``example."
-"com``을 다음과 같은 {productname} 서버의 호스트 이름으로 바꿉니다."
+"또는 HTTPS를 통해 부트스트랩 스크립트에 액세스할 수 있습니다.  ``example.com``을 다음과 같은 {productname} "
+"서버의 호스트 이름으로 바꿉니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-bootstrap.adoc:21
@@ -15493,9 +15177,7 @@ msgstr "절차: 부트스트랩 스크립트 수정"
 msgid ""
 "On your {productname} server, as root at the command line change to the "
 "bootstrap directory with:"
-msgstr ""
-"{productname} 서버의 명령줄에서 루트 권한으로 다음과 같이 부트스트랩 디렉토리"
-"로 변경합니다."
+msgstr "{productname} 서버의 명령줄에서 루트 권한으로 다음과 같이 부트스트랩 디렉토리로 변경합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-bootstrap.adoc:29
@@ -15536,9 +15218,8 @@ msgid ""
 "beginning of the line.  This activates the script.  Enter the name of the "
 "key for this script in the ``ACTIVATION_KEYS=`` field:"
 msgstr ""
-"아래와 같은 텍스트가 나올 때까지 아래로 스크롤합니다.  ``exit 1``이 파일에 있"
-"는 경우 해시 또는 파운드 기호(&#35;)를 줄 첫머리에 입력하여 코멘트 아웃합니"
-"다.  이렇게 하면 스크립트가 활성화됩니다.  이 스크립트의 키 이름을 "
+"아래와 같은 텍스트가 나올 때까지 아래로 스크롤합니다.  ``exit 1``이 파일에 있는 경우 해시 또는 파운드 기호(&#35;)를 줄 "
+"첫머리에 입력하여 코멘트 아웃합니다.  이렇게 하면 스크립트가 활성화됩니다.  이 스크립트의 키 이름을 "
 "``ACTIVATION_KEYS=`` 필드에 다음과 같이 입력합니다."
 
 #. type: delimited block -
@@ -15550,7 +15231,8 @@ msgid ""
 "echo\n"
 "#exit 1\n"
 msgstr ""
-"echo \"Enable this script: comment (with #'s) this block (or, at least just\"\n"
+"echo \"Enable this script: comment (with #'s) this block (or, at least just\""
+"\n"
 "echo \"the exit below)\"\n"
 "echo\n"
 "#exit 1\n"
@@ -15615,8 +15297,8 @@ msgid ""
 "Run this command to execute the bootstrap script on the client; replace "
 "[systemitem]`` EXAMPLE.COM`` with the host name of your client:"
 msgstr ""
-"다음 명령을 실행하여 클라이언트에서 부트스트랩 스크립트를 실행하고, "
-"[systemitem]`` EXAMPLE.COM``을 클라이언트의 호스트 이름으로 교체합니다."
+"다음 명령을 실행하여 클라이언트에서 부트스트랩 스크립트를 실행하고, [systemitem]`` EXAMPLE.COM``을 클라이언트의 "
+"호스트 이름으로 교체합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-bootstrap.adoc:44
@@ -15633,11 +15315,12 @@ msgstr "또는 클라이언트에서 다음 명령을 실행합니다."
 #: modules/client-configuration/pages/registration-bootstrap.adoc:46
 #, no-wrap
 msgid "curl -Sks https://server_hostname/pub/bootstrap/bootstrap-sles15.sh | /bin/bash\n"
-msgstr "curl -Sks https://server_hostname/pub/bootstrap/bootstrap-sles15.sh | /bin/bash\n"
+msgstr ""
+"curl -Sks https://server_hostname/pub/bootstrap/bootstrap-sles15.sh | /bin/"
+"bash\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/registration-bootstrap.adoc:47
-#, fuzzy
 msgid ""
 "To avoid problems, make sure the bootstrap script is executed using "
 "[command]``bash``."
@@ -15645,10 +15328,6 @@ msgstr "문제를 해결하려면 [command]``bash`` 명령을 사용하여 부�
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:48
-#, fuzzy
-#| msgid ""
-#| "The script downloads the required dependencies located in the "
-#| "repositories directory you created earlier."
 msgid ""
 "This script downloads the required dependencies located in the repositories "
 "directory you created earlier."
@@ -15738,28 +15417,21 @@ msgstr ""
 msgid ""
 "On the Salt client, open the [literal]``minion`` configuration file.  The "
 "configuration file is either located at:"
-msgstr ""
-"Salt 클라이언트에서 [literal]``minion`` 구성 파일을 엽니다.  구성 파일의 위치"
-"는 다음 중 하나입니다."
+msgstr "Salt 클라이언트에서 [literal]``minion`` 구성 파일을 엽니다.  구성 파일의 위치는 다음 중 하나입니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-cli.adoc:10
-#, fuzzy
-#| msgid ""
-#| "Add or edit the FQDN of the {productname} Server or of the Proxy as the "
-#| "`master`, and add the activation key to the client configuration file:"
 msgid ""
 "In the file add or edit the FQDN of the {productname} Server or Proxy, and "
 "the activation key if any. Also add the other configuration parameters "
 "listed below."
 msgstr ""
 "파일에서 {productname} 서버 또는 프록시의 FQDN과 활성화 키(있는 경우)를 추가하거나 편집합니다. 또한 아래 나열된 다른 "
-"구성 매개변수를 추가합니다."
+"구성 파라미터를 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-cli.adoc:11
-#, fuzzy, no-wrap
-#| msgid "master: PROXY123.EXAMPLE.COM\n"
+#, no-wrap
 msgid "master: SERVER.EXAMPLE.COM\n"
 msgstr "master: SERVER.EXAMPLE.COM\n"
 
@@ -15793,8 +15465,8 @@ msgid ""
 "On the {productname} Server, accept the new client key; replace "
 "[systemitem]``<client>`` with the name of your client:"
 msgstr ""
-"{productname} 서버에서 새로운 클라이언트 키를 수락하고, 다음과 같이 "
-"[systemitem]``<client>``를 클라이언트의 이름으로 교체합니다."
+"{productname} 서버에서 새로운 클라이언트 키를 수락하고, 다음과 같이 [systemitem]``<client>``를 "
+"클라이언트의 이름으로 교체합니다."
 
 #
 #
@@ -16082,10 +15754,6 @@ msgstr "openSUSE 클라이언트 등록"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-overview-opensuse.adoc:2
-#, fuzzy
-#| msgid ""
-#| "You can register {opennsuse} clients to your {productname} Server.  The "
-#| "method and details varies depending on the operating system of the client."
 msgid ""
 "You can register {opensuse} clients to your {productname} Server.  The "
 "method and details varies depending on the operating system of the client."
@@ -16412,8 +16080,7 @@ msgid ""
 "Local repositories are disabled during onboarding.  After a client has "
 "completed onboarding, you can add local repositories to these locations:"
 msgstr ""
-"로컬 리포지토리는 온보딩 중에 비활성화됩니다.  클라이언트가 온보딩을 완료하"
-"고 나면 다음 위치에 로컬 리포지토리를 추가할 수 있습니다."
+"로컬 리포지토리는 온보딩 중에 비활성화됩니다.  클라이언트가 온보딩을 완료하고 나면 다음 위치에 로컬 리포지토리를 추가할 수 있습니다."
 
 #. type: Table
 #: modules/client-configuration/pages/repositories.adoc:10
@@ -16506,12 +16173,9 @@ msgid ""
 "Provisioning[Snapshots] tab to see the changes that rolling back to the "
 "selected snapshot makes to:"
 msgstr ""
-"menu:시스템[시스템 목록]으로 이동해 관리하려는 클라이언트를 선택하여 스냅샷"
-"을 관리합니다.  menu:조달[스냅샷] 탭으로 이동하여 선택한 클라이언트의 모든 현"
-"재 스냅샷 목록을 확인합니다.  스냅샷의 이름을 클릭하여 스냅샷에 기록된 변경 "
-"사항을 더 자세히 알아봅니다.  선택한 스냅샷에 대한 롤백으로 인해 다음 항목에 "
-"발생하는 변경 사항을 menu:조달[스냅샷] 탭의 하위 탭을 사용해 확인할 수 있습니"
-"다."
+"menu:시스템[시스템 목록]으로 이동해 관리하려는 클라이언트를 선택하여 스냅샷을 관리합니다.  menu:조달[스냅샷] 탭으로 이동하여 "
+"선택한 클라이언트의 모든 현재 스냅샷 목록을 확인합니다.  스냅샷의 이름을 클릭하여 스냅샷에 기록된 변경 사항을 더 자세히 알아봅니다.  "
+"선택한 스냅샷에 대한 롤백으로 인해 다음 항목에 발생하는 변경 사항을 menu:조달[스냅샷] 탭의 하위 탭을 사용해 확인할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/snapshots.adoc:7
@@ -16700,9 +16364,8 @@ msgid ""
 "[command]``spacewalk-common-channels`` command to add the appropriate "
 "channels.  Ensure you specify the correct architecture:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 root 권한으로 [command]``spacewalk-"
-"common-channels`` 명령을 사용해 적절한 채널을 추가합니다.  다음과 같이 올바"
-"른 아키텍처를 지정했는지 확인합니다."
+"{productname} 서버의 명령 프롬프트에서 root 권한으로 [command]``spacewalk-common-channels`` "
+"명령을 사용해 적절한 채널을 추가합니다.  다음과 같이 올바른 아키텍처를 지정했는지 확인합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/addchannels_novendor_cli_multiarch.adoc:3
@@ -16728,8 +16391,8 @@ msgid ""
 "At the command prompt on the {productname} Server, as root, use the "
 "[command]``mgr-sync`` command to add the appropriate channels:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 root 권한으로 다음과 같이 "
-"[command]``mgr-sync`` 명령을 사용해 적절한 채널을 추가합니다."
+"{productname} 서버의 명령 프롬프트에서 root 권한으로 다음과 같이 [command]``mgr-sync`` 명령을 사용해 "
+"적절한 채널을 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/addchannels_vendor_cli.adoc:3
@@ -16748,9 +16411,7 @@ msgstr ""
 msgid ""
 "Synchronization starts automatically.  If you want to synchronize the "
 "channels manually, use:"
-msgstr ""
-"동기화가 자동으로 시작됩니다.  채널을 수동으로 동기화하려면 다음 명령을 사용"
-"하십시오."
+msgstr "동기화가 자동으로 시작됩니다.  채널을 수동으로 동기화하려면 다음 명령을 사용하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/addchannels_vendor_cli.adoc:5
@@ -16848,8 +16509,8 @@ msgid ""
 "At the command prompt on the {productname} Server, as root, use the "
 "[command]``tail`` command to check the synchronization log file:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 루트 권한으로 다음과 같이 "
-"[command]``tail`` 명령을 사용해 동기화 로그 파일을 확인합니다."
+"{productname} 서버의 명령 프롬프트에서 루트 권한으로 다음과 같이 [command]``tail`` 명령을 사용해 동기화 로그 "
+"파일을 확인합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:3
@@ -16875,8 +16536,7 @@ msgstr ""
 #. type: Block title
 #: modules/client-configuration/pages/snippets/check_sync_webui_suma.adoc:1
 #: modules/client-configuration/pages/snippets/check_sync_webui_uyuni.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Procedure: Checking Synchronization Progress"
+#, no-wrap
 msgid "Procedure: Checking Synchronization Progress from the {webui}"
 msgstr "프로시저: {webui}에서 동기화 진행 상태 확인"
 
@@ -16926,9 +16586,7 @@ msgstr ""
 msgid ""
 "When you have created all the channels, you can associate them with the "
 "repositories you created:"
-msgstr ""
-"모든 채널을 생성했으면 생성한 리포지토리를 다음과 같이 채널과 연결할 수 있습"
-"니다."
+msgstr "모든 채널을 생성했으면 생성한 리포지토리를 다음과 같이 채널과 연결할 수 있습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/manual_associate.adoc:2
@@ -17256,9 +16914,7 @@ msgstr "{cross} 이 기능을 사용할 수 없습니다."
 msgid ""
 "{question} the feature is under consideration, and may or may not be made "
 "available at a later date"
-msgstr ""
-"{question} 이 기능은 현재 고려 중이며, 이후에 사용할 수도 있고 사용하지 못할 "
-"수도 있습니다."
+msgstr "{question} 이 기능은 현재 고려 중이며, 이후에 사용할 수도 있고 사용하지 못할 수도 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features-alibaba.adoc:8
@@ -18630,176 +18286,7 @@ msgstr "{debian} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-debian.adoc:11
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Feature\n"
-#| "| {debian}{nbsp}9\n"
-#| "| {debian}{nbsp}10\n"
-#| "\n"
-#| "| Client\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System packages\n"
-#| "| {debian} Community\n"
-#| "| {debian} Community\n"
-#| "\n"
-#| "| Registration\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Install packages\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Apply patches\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Remote commands\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System package states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Group custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Organization custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System set manager (SSM)\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Product migration\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
-#| "| Basic Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Advanced Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Virtual Guest Installation (Kickstart), as Host OS\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Virtual Guest Installation (image template), as Host OS\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System deployment (PXE/Kickstart)\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| System redeployment (Kickstart)\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Contact methods\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "\n"
-#| "| Works with {productname} Proxy\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Action chains\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Staging (pre-download of packages)\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Duplicate package reporting\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| CVE auditing\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| SCAP auditing\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Package verification\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Package locking\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| System locking\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Maintenance Windows\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System snapshot\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Configuration file management\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Package profiles\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "\n"
-#| "| Power management\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| Monitoring\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Docker buildhost\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Build Docker image with OS\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Kiwi buildhost\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Build Kiwi image with OS\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Recurring Actions\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| AppStreams\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
-#| "| Yomi\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {debian}{nbsp}9\n"
@@ -21599,218 +21086,7 @@ msgstr "{ubuntu} 운영 체제에서 지원하는 기능"
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:12
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Feature\n"
-#| "| {ubuntu}{nbsp}16.04\n"
-#| "| {ubuntu}{nbsp}18.04\n"
-#| "| {ubuntu}{nbsp}20.04\n"
-#| "\n"
-#| "| Client\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System packages\n"
-#| "| {ubuntu} Community\n"
-#| "| {ubuntu} Community\n"
-#| "| {ubuntu} Community\n"
-#| "\n"
-#| "| Registration\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Install packages\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Apply patches\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Remote commands\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System package states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Group custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Organization custom states\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System set manager (SSM)\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Product migration\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
-#| "| Basic Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Advanced Virtual Guest Management {star}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Virtual Guest Installation (Kickstart), as Host OS\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Virtual Guest Installation (image template), as Host OS\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| System deployment (PXE/Kickstart)\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| System redeployment (Kickstart)\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Contact methods\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "| {salt}: ZeroMQ, Salt-SSH\n"
-#| "\n"
-#| "| Works with {productname} Proxy\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Action chains\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Staging (pre-download of packages)\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Duplicate package reporting\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| CVE auditing\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| SCAP auditing\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Package verification\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Package locking\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Maintenance Windows\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| System locking\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| System snapshot\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Configuration file management\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Package profiles\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "| {salt}: Profiles supported, Sync not supported\n"
-#| "\n"
-#| "| Power management\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| Monitoring\n"
-#| "| {cross}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Docker buildhost\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "| {question}\n"
-#| "\n"
-#| "| Build Docker image with OS\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| Kiwi buildhost\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Build Kiwi image with OS\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "| {cross}\n"
-#| "\n"
-#| "| Recurring Actions\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "| {salt}\n"
-#| "\n"
-#| "| AppStreams\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
-#| "| Yomi\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "| N/A\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Feature\n"
 "| {ubuntu}{nbsp}16.04\n"
@@ -22028,7 +21304,7 @@ msgstr ""
 "| {ubuntu}{nbsp}18.04\n"
 "| {ubuntu}{nbsp}20.04\n"
 "\n"
-"| 클라이언트t\n"
+"| 클라이언트\n"
 "| {check}\n"
 "| {check}\n"
 "| {check}\n"
@@ -22671,8 +21947,7 @@ msgstr "{check} 이 운영 체제를 실행하는 클라이언트를 {suse}에�
 #: modules/client-configuration/pages/supported-features.adoc:8
 msgid ""
 "{cross} clients running this operating system are not supported by {suse}"
-msgstr ""
-"{cross} 이 운영 체제를 실행하는 클라이언트를 {suse}에서 지원하지 않습니다."
+msgstr "{cross} 이 운영 체제를 실행하는 클라이언트를 {suse}에서 지원하지 않습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:9
@@ -22696,10 +21971,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features.adoc:11
-#, fuzzy
-#| msgid ""
-#| "The operating system you run on a client is supported by the organization "
-#| "that supplies the operating system."
 msgid ""
 "The operating system running on a client is supported by the organization "
 "that supplies the operating system."
@@ -22707,62 +21978,7 @@ msgstr "클라이언트에서 실행되는 운영 체제는 운영 체제를 제
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features.adoc:13
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Operating System\n"
-#| "| Architecture\n"
-#| "| Traditional Clients\n"
-#| "| Salt Clients\n"
-#| "\n"
-#| "| {sle} 15\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 12\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 11\n"
-#| "| {x86}, {x86_64}, {ipf}, {ppc64}, {ibmz}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 15\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 12\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {micro}\n"
-#| "| {x86_64}, {ppc64le}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {opensuse} Leap 15\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 8\n"
-#| "| {x86_64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 7\n"
-#| "| {x86_64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {alibabaclo} 2\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
+#, no-wrap
 msgid ""
 "| Operating System\n"
 "| Architecture\n"
@@ -23008,62 +22224,7 @@ msgstr ""
 
 #. type: Table
 #: modules/client-configuration/pages/supported-features.adoc:15
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Operating System\n"
-#| "| Architecture\n"
-#| "| Traditional Clients\n"
-#| "| Salt Clients\n"
-#| "\n"
-#| "| {sle} 15\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 12\n"
-#| "| {x86_64}, {ppc64le}, {ibmz}, ARM\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sle} 11\n"
-#| "| {x86}, {x86_64}, {ipf}, {ppc64}, {ibmz}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 15\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} for SAP 12\n"
-#| "| {x86_64}, {ppc64le}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {micro}\n"
-#| "| {x86_64}, {ppc64le}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {opensuse} Leap 15\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 8\n"
-#| "| {x86_64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {sles} ES 7\n"
-#| "| {x86_64}\n"
-#| "| {check}\n"
-#| "| {check}\n"
-#| "\n"
-#| "| {alibabaclo} 2\n"
-#| "| {x86_64}, {aarch64}\n"
-#| "| {cross}\n"
-#| "| {check}\n"
+#, no-wrap
 msgid ""
 "| Operating System\n"
 "| Architecture\n"
@@ -23312,7 +22473,6 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features.adoc:17
-#, fuzzy
 msgid "{debian} and {ubuntu} lists the {x86_64} architecture as amd64."
 msgstr "{debian} 및 {ubuntu}에서는 {x86_64} 아키텍처가 amd64로 표시됩니다."
 
@@ -23329,9 +22489,9 @@ msgid ""
 "additional services and features.  The ``spacewalk-utils`` package in "
 "{productname} is fully supported by {suse}, and contains these tools:"
 msgstr ""
-"``spacewalk-utils`` 및 ``spacewalk-utils-extras`` 패키지를 통해 추가 서비스 "
-"및 기능을 제공할 수 있습니다. {productname}의 ``spacewalk-utils`` 패키지는 "
-"{suse}에서 완전하게 지원되며, 다음 도구가 포함됩니다."
+"``spacewalk-utils`` 및 ``spacewalk-utils-extras`` 패키지를 통해 추가 서비스 및 기능을 제공할 수 "
+"있습니다. {productname}의 ``spacewalk-utils`` 패키지는 {suse}에서 완전하게 지원되며, 다음 도구가 "
+"포함됩니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/supported-features.adoc:20
@@ -23515,9 +22675,7 @@ msgstr "절차: 단일 클라이언트를 그룹에 추가"
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "click the name of the client to add."
-msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 클라이"
-"언트의 이름을 클릭합니다."
+msgstr "{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 클라이언트의 이름을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:17
@@ -23527,7 +22685,7 @@ msgstr "menu:그룹[조인] 탭으로 이동합니다."
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:18
 msgid "Check the group to join and click btn:[Join Selected Groups]."
-msgstr "조인할 그룹의 확인란을 선택하고 btn:[선택한 그룹 조인]을 클릭합니다"
+msgstr "조인할 그룹의 확인란을 선택하고 btn:[선택한 그룹 조인]을 클릭합니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/system-groups.adoc:19
@@ -23541,8 +22699,7 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System Groups] and "
 "click the name of the group to add clients to."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동하여 클라이언트를 "
-"추가할 그룹의 이름을 클릭합니다."
+"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동하여 클라이언트를 추가할 그룹의 이름을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:21
@@ -23566,17 +22723,15 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "check each client to add, this adds the clients to the system set manager."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 각 클"
-"라이언트의 확인란을 선택하면 클라이언트가 시스템 세트 관리자에 추가됩니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 추가할 각 클라이언트의 확인란을 선택하면 "
+"클라이언트가 시스템 세트 관리자에 추가됩니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:25
 msgid ""
 "Navigate to menu:Systems[System Set Manager], and go to the "
 "[guimenu]``Groups`` tab."
-msgstr ""
-"menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``그룹`` 탭으로 이동합니"
-"다."
+msgstr "menu:시스템[시스템 세트 관리자]로 이동한 후 [guimenu]``그룹`` 탭으로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:26
@@ -23611,10 +22766,9 @@ msgid ""
 "representation of your system groups by navigating to menu:"
 "Systems[Visualization > Systems Grouping]."
 msgstr ""
-"menu:시스템[시스템 그룹]으로 이동하여 그룹의 이름을 클릭한 후 [guimenu]``시스"
-"템`` 탭으로 이동하여 어떤 클라이언트가 그룹에 있는지 확인할 수 있습니다.  또"
-"는 menu:시스템[시각화 > 시스템 그룹화]로 이동하여 시스템 그룹을 시각적으로 표"
-"현한 것을 볼 수 있습니다."
+"menu:시스템[시스템 그룹]으로 이동하여 그룹의 이름을 클릭한 후 [guimenu]``시스템`` 탭으로 이동하여 어떤 클라이언트가 "
+"그룹에 있는지 확인할 수 있습니다.  또는 menu:시스템[시각화 > 시스템 그룹화]로 이동하여 시스템 그룹을 시각적으로 표현한 것을 볼 "
+"수 있습니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/system-groups.adoc:31
@@ -23641,10 +22795,9 @@ msgid ""
 "the group.  Click the icon to see more information about the updates "
 "available and to apply them to the clients."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다.  그룹 내 "
-"클라이언트 중 어느 하나에 대해서라도 사용할 수 있는 업데이트가 있는 경우 목록"
-"에 아이콘이 표시됩니다.  사용 가능한 업데이트에 대한 자세한 정보를 확인하고 "
-"업데이트를 클라이언트에 적용하려면 아이콘을 클릭합니다."
+"{productname} {webui}에서 menu:시스템[시스템 그룹]으로 이동합니다.  그룹 내 클라이언트 중 어느 하나에 대해서라도 "
+"사용할 수 있는 업데이트가 있는 경우 목록에 아이콘이 표시됩니다.  사용 가능한 업데이트에 대한 자세한 정보를 확인하고 업데이트를 "
+"클라이언트에 적용하려면 아이콘을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:34
@@ -23872,10 +23025,8 @@ msgstr "{sle} 및 {opensuse} (zypp-based) vs {rhel} 또는 {debian} 클라이언
 
 #. type: delimited block =
 #: modules/client-configuration/pages/system-locking.adoc:26
-#, fuzzy
-#| msgid "traditional versus Salt clients."
 msgid "Traditional versus Salt clients."
-msgstr "기존 클라이언트 vs Salt 클라이언트."
+msgstr "기존 클라이언트와 Salt 클라이언트 비교"
 
 #. type: Title ===
 #: modules/client-configuration/pages/system-locking.adoc:27
@@ -24038,9 +23189,7 @@ msgstr ""
 msgid ""
 "The actions available for use in SSM are listed in this table.  The icons in "
 "this table indicate:"
-msgstr ""
-"SSM에 사용할 수 있는 작업이 아래 표에 나열되어 있습니다.  이 표의 아이콘에는 "
-"다음과 같은 의미가 있습니다."
+msgstr "SSM에 사용할 수 있는 작업이 아래 표에 나열되어 있습니다.  이 표의 아이콘에는 다음과 같은 의미가 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:4
@@ -24131,27 +23280,21 @@ msgstr "SSM에 대한 클라이언트를 다음 몇 가지 방식으로 선택�
 msgid ""
 "Navigate to menu:Systems[System List] and check the clients you want to work "
 "with."
-msgstr ""
-"menu:시스템[시스템 목록]으로 이동하여 작업하려는 클라이언트의 확인란을 선택합"
-"니다."
+msgstr "menu:시스템[시스템 목록]으로 이동하여 작업하려는 클라이언트의 확인란을 선택합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:11
 msgid ""
 "Navigate to menu:Systems[System Groups], and click btn:[Use in SSM] for the "
 "system group you want to work with."
-msgstr ""
-"menu:시스템[시스템 그룹]으로 이동하여 작업하려는 시스템 그룹에 대해 btn:[SSM"
-"에서 사용]을 클릭합니다."
+msgstr "menu:시스템[시스템 그룹]으로 이동하여 작업하려는 시스템 그룹에 대해 btn:[SSM에서 사용]을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:12
 msgid ""
 "Navigate to menu:Systems[System Groups], check the group you want to work "
 "with, and click btn:[Work with Group]."
-msgstr ""
-"menu:시스템[시스템 그룹]으로 이동하여 작업하려는 그룹의 확인란을 선택하고, "
-"btn:[그룹 작업]을 클릭합니다."
+msgstr "menu:시스템[시스템 그룹]으로 이동하여 작업하려는 그룹의 확인란을 선택하고, btn:[그룹 작업]을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:13
@@ -24160,8 +23303,8 @@ msgid ""
 "Systems[System Set Manager], or click the [guimenu]``systems selected`` icon "
 "in the top menu bar."
 msgstr ""
-"작업하려는 클라이언트를 선택했으면 menu:시스템[시스템 세트 관리자]로 이동하거"
-"나 상단 메뉴 모음에서 [guimenu]``선택한 시스템`` 아이콘을 클릭합니다."
+"작업하려는 클라이언트를 선택했으면 menu:시스템[시스템 세트 관리자]로 이동하거나 상단 메뉴 모음에서 [guimenu]``선택한 "
+"시스템`` 아이콘을 클릭합니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/system-set-manager.adoc:14
@@ -24210,8 +23353,8 @@ msgid ""
 "the clients you want to work with, and navigate to menu:Systems[System Set "
 "Manager]."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 작업하려는 클"
-"라이언트의 확인란을 선택하고 menu:시스템[시스템 세트 관리자]로 이동합니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 작업하려는 클라이언트의 확인란을 선택하고 "
+"menu:시스템[시스템 세트 관리자]로 이동합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:20
@@ -24308,10 +23451,9 @@ msgid ""
 "system type for, select the [guimenu]``Add-On System Type``, and click "
 "either btn:[Add System Type] or btn:[Remove System Type]."
 msgstr ""
-"menu:시스템[시스템 목록 > 시스템 유형]으로 이동하여 추가 시스템 유형을 조정"
-"할 수 있습니다.  추가 시스템 유형을 변경하려는 클라이언트의 확인란을 선택하"
-"고, [guimenu]``추가 시스템 유형``을 선택하고, btn:[시스템 유형 추가] 또는 "
-"btn:[시스템 유형 제거]를 클릭합니다."
+"menu:시스템[시스템 목록 > 시스템 유형]으로 이동하여 추가 시스템 유형을 조정할 수 있습니다.  추가 시스템 유형을 변경하려는 "
+"클라이언트의 확인란을 선택하고, [guimenu]``추가 시스템 유형``을 선택하고, btn:[시스템 유형 추가] 또는 btn:[시스템 "
+"유형 제거]를 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-types.adoc:6
@@ -24361,8 +23503,8 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List], "
 "identify the client you want to change, and take a note of the hostname."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 변경하려는 클"
-"라이언트를 식별하고, 호스트 이름을 적어 둡니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 변경하려는 클라이언트를 식별하고, 호스트 이름을 "
+"적어 둡니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-types.adoc:12
@@ -24439,9 +23581,7 @@ msgstr "절차: 명령 프롬프트에서 기존 클라이언트를 Salt로 변�
 msgid ""
 "On the client to be changed, at the command prompt, use your package manager "
 "to remove these packages:"
-msgstr ""
-"변경할 클라이언트의 명령 프롬프트에서 패키지 관리자를 사용해 다음 패키지를 제"
-"거합니다."
+msgstr "변경할 클라이언트의 명령 프롬프트에서 패키지 관리자를 사용해 다음 패키지를 제거합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/system-types.adoc:22
@@ -24561,9 +23701,7 @@ msgstr "베어 메탈 시스템"
 msgid ""
 "If a bare metal system on the network is not automatically added to the "
 "[guilabel]``Systems`` list, check these things first:"
-msgstr ""
-"네트워크의 베어메탈 시스템이 [guilabel]``시스템`` 목록에 자동으로 추가되지 않"
-"는 경우 먼저 다음 사항을 확인하십시오."
+msgstr "네트워크의 베어메탈 시스템이 [guilabel]``시스템`` 목록에 자동으로 추가되지 않는 경우 먼저 다음 사항을 확인하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:15
@@ -24607,8 +23745,7 @@ msgid ""
 "The DHCP server must be responding to DHCP requests during boot. Check the "
 "PXE boot messages to ensure that:"
 msgstr ""
-"DHCP 서버는 부팅 중에 DHCP 요청에 반드시 응답해야 합니다. PXE 부팅 메시지에"
-"서 다음 사항이 이루어지고 있는지 확인합니다."
+"DHCP 서버는 부팅 중에 DHCP 요청에 반드시 응답해야 합니다. PXE 부팅 메시지에서 다음 사항이 이루어지고 있는지 확인합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:20
@@ -24637,9 +23774,8 @@ msgid ""
 "automatic shutdown to help diagnose the problem. To disable automatic "
 "shutdown:"
 msgstr ""
-"부팅 직후 파란색 Cobbler 메뉴가 보이면 검색이 시작된 것입니다.  완료되지 않"
-"는 경우 문제 진단에 도움이 되도록 일시적으로 자동 종료를 비활성화하십시오. 자"
-"동 종료를 비활성화하려면 다음과 같이 하십시오."
+"부팅 직후 파란색 Cobbler 메뉴가 보이면 검색이 시작된 것입니다.  완료되지 않는 경우 문제 진단에 도움이 되도록 일시적으로 자동 "
+"종료를 비활성화하십시오. 자동 종료를 비활성화하려면 다음과 같이 하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:24
@@ -24742,7 +23878,8 @@ msgstr ""
 #: modules/client-configuration/pages/tshoot-clients.adoc:35
 #, no-wrap
 msgid "mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
-msgstr "mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
+msgstr ""
+"mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:36
@@ -24832,9 +23969,8 @@ msgid ""
 "available unsupported bootstrap repositories with the [option]``--force`` "
 "option, for example:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 root 권한으로 다음 예와 같이 "
-"[option]``--force`` 옵션을 이용해 사용 가능한 미지원 부트스트랩 리포지토리를 "
-"나열합니다."
+"{productname} 서버의 명령 프롬프트에서 root 권한으로 다음 예와 같이 [option]``--force`` 옵션을 이용해 "
+"사용 가능한 미지원 부트스트랩 리포지토리를 나열합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:47
@@ -24876,9 +24012,7 @@ msgstr "복제된 Salt 클라이언트"
 msgid ""
 "If you have used your hypervisor clone utility, and attempted to register "
 "the cloned Salt client, you might get this error:"
-msgstr ""
-"하이퍼바이저 복제 유틸리티를 사용한 후 복제된 Salt 클라이언트를 등록하려 했다"
-"면 다음과 같은 오류가 표시될 수 있습니다."
+msgstr "하이퍼바이저 복제 유틸리티를 사용한 후 복제된 Salt 클라이언트를 등록하려 했다면 다음과 같은 오류가 표시될 수 있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:53
@@ -24950,9 +24084,7 @@ msgstr ""
 msgid ""
 "On the {productname} Server, at the command prompt, use this command to "
 "disable the FQDNS grain:"
-msgstr ""
-"{productname} 서버의 명령 프롬프트에서 다음 명령을 사용해 FQDNS grain을 비활"
-"성화합니다."
+msgstr "{productname} 서버의 명령 프롬프트에서 다음 명령을 사용해 FQDNS grain을 비활성화합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:61
@@ -24967,9 +24099,8 @@ msgid ""
 "needs to process.  If you have a large number of clients, you can execute "
 "the command in batch mode instead:"
 msgstr ""
-"이 명령을 실행하면 각 클라이언트가 다시 시작되고 서버가 처리해야 하는 Salt 이"
-"벤트를 생성합니다.  클라이언트의 수가 매우 많은 경우 대신에 다음과 같이 배치 "
-"모드로 명령을 실행할 수 있습니다."
+"이 명령을 실행하면 각 클라이언트가 다시 시작되고 서버가 처리해야 하는 Salt 이벤트를 생성합니다.  클라이언트의 수가 매우 많은 경우 "
+"대신에 다음과 같이 배치 모드로 명령을 실행할 수 있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:63
@@ -25066,8 +24197,7 @@ msgid ""
 "On the {productname} Server, at the command prompt, use this command to "
 "enable the ``start_event_grains`` configuration helper:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 다음 명령을 사용해 "
-"``start_event_grains`` 구성 도우미를 활성화합니다."
+"{productname} 서버의 명령 프롬프트에서 다음 명령을 사용해 ``start_event_grains`` 구성 도우미를 활성화합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:74
@@ -25082,9 +24212,8 @@ msgid ""
 "file, and applies it when the client is restarted.  If you have a large "
 "number of clients, you can execute the command in batch mode instead:"
 msgstr ""
-"이 명령은 필요한 구성을 클라이언트의 구성에 추가하고, 클라이언트가 다시 시작"
-"할 때 이 구성을 적용합니다.  클라이언트가 수가 매우 많은 경우 대신에 다음과 "
-"같이 배치 모드로 명령을 실행할 수 있습니다."
+"이 명령은 필요한 구성을 클라이언트의 구성에 추가하고, 클라이언트가 다시 시작할 때 이 구성을 적용합니다.  클라이언트가 수가 매우 많은 "
+"경우 대신에 다음과 같이 배치 모드로 명령을 실행할 수 있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:76
@@ -25116,9 +24245,7 @@ msgstr ""
 msgid ""
 "To correct this behavior, specify additional FQDNs as grains in the client "
 "configuration file on the proxy:"
-msgstr ""
-"이러한 동작을 교정하려면 다음과 같이 프록시의 클라이언트 구성 파일에서 추가 "
-"FQDN을 grain으로 지정하십시오."
+msgstr "이러한 동작을 교정하려면 다음과 같이 프록시의 클라이언트 구성 파일에서 추가 FQDN을 grain으로 지정하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:80
@@ -25152,11 +24279,9 @@ msgid ""
 "to access the repository is denied, even though the certificate is "
 "accurate.  The error message received is:"
 msgstr ""
-"{redhat} 컨텐트 제공 네트워크(CDN) 채널은 경우에 따라 여러 인증서를 제공하지"
-"만 {productname} {webui}는 1개의 인증서만 임포트할 수 있습니다.  CDN이 "
-"{productname} {webui}에서 알고 있는 인증서와 다른 인증서를 제공하는 경우, 인"
-"증서가 올바르더라도 유효성 검사에 실패하고 리포지토리에 대한 액세스가 거부됩"
-"니다.  수신된 오류 메시지는 다음과 같습니다."
+"{redhat} 컨텐트 제공 네트워크(CDN) 채널은 경우에 따라 여러 인증서를 제공하지만 {productname} {webui}는 "
+"1개의 인증서만 임포트할 수 있습니다.  CDN이 {productname} {webui}에서 알고 있는 인증서와 다른 인증서를 제공하는 "
+"경우, 인증서가 올바르더라도 유효성 검사에 실패하고 리포지토리에 대한 액세스가 거부됩니다.  수신된 오류 메시지는 다음과 같습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:83
@@ -25190,8 +24315,8 @@ msgid ""
 "To resolve this issue, merge all valid certificates into a single ``.pem`` "
 "file, and rebuild the certificates for use by {productname}:"
 msgstr ""
-"이 문제를 해결하려면 유효한 모든 인증서를 단일 ``.pem`` 파일로 병합한 후 "
-"{productname}: 에서 사용하도록 인증서를 다시 빌드하십시오."
+"이 문제를 해결하려면 유효한 모든 인증서를 단일 ``.pem`` 파일로 병합한 후 {productname}에서 사용하도록 인증서를 다시 "
+"빌드하십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/tshoot-clients.adoc:85
@@ -25205,8 +24330,8 @@ msgid ""
 "On the {redhat} client, at the command prompt, as root, gather all current "
 "certificates from ``/etc/pki/entitlement/`` in a single ``rh-cert.pem`` file:"
 msgstr ""
-"{redhat} 클라이언트의 명령 프롬프트에서, 루트 권한으로 단일 ``rh-cert.pem`` "
-"파일의 ``/etc/pki/entitlement/``에서 모든 현재 인증서를 수집합니다."
+"{redhat} 클라이언트의 명령 프롬프트에서, 루트 권한으로 단일 ``rh-cert.pem`` 파일의 ``/etc/pki/"
+"entitlement/``에서 모든 현재 인증서를 수집합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:87
@@ -25219,9 +24344,7 @@ msgstr "cat 866705146090697087.pem 3539668047766796506.pem redhat-entitlement- a
 msgid ""
 "Gather all current keys from ``/etc/pki/entitlement/`` in a single ``rh-key."
 "pem`` file:"
-msgstr ""
-"단일 ``rh-key. pem`` 파일의 ``/etc/pki/entitlement/``에서 모든 현재 키를 수집"
-"합니다."
+msgstr "단일 ``rh-key. pem`` 파일의 ``/etc/pki/entitlement/``에서 모든 현재 키를 수집합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:89
@@ -25307,11 +24430,6 @@ msgstr "이전 클라이언트 등록"
 #. * Result: the client is successfully registered
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:96
-#, fuzzy
-#| msgid ""
-#| "To register and use {centos}{nbsp}6, {oracle}{nbsp}6, {rhel}{nbsp}6, or "
-#| "{sleses}{nbsp}6 clients, you need to configure the {productname} Server "
-#| "to support older types of SSL encryption."
 msgid ""
 "To register and use {centos}{nbsp}6, {oracle}{nbsp}6, {rhel}{nbsp}6, {sleses}"
 "{nbsp}6, or {sles} 11 clients, you need to configure the {productname} "
@@ -25345,7 +24463,8 @@ msgstr ""
 "위 오류로 인해 ‘<Repository_Name>’ 리포지토리를 건너뛰는 중입니다.\n"
 "‘www.example.com’에 대한 다운로드 (curl) 오류:\n"
 "오류 코드: 알 수 없는 오류\n"
-"오류 메시지: error:1409442E:SSL routines:SSL3_READ_BYTES:tlsv1 alert protocol version\n"
+"오류 메시지: error:1409442E:SSL routines:SSL3_READ_BYTES:tlsv1 alert protocol "
+"version\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:99
@@ -25373,12 +24492,10 @@ msgid ""
 "apache2/ssl-global.conf`` configuration file, locate the "
 "[systemitem]``SSLProtocol`` line, and update it to read:"
 msgstr ""
-"이 오류는 Apache에 TLS{nbsp}v1.2가 필요하지만 이전 운영 체제가 이 버전의 TLS "
-"프로토콜을 지원하지 않기 때문에 발생합니다.  이 오류를 수정하려면 서버의 "
-"Apache가 넓은 범위의 프로토콜 버전을 수락하도록 강제해야 합니다.  "
-"{productname} 서버에서 루트 권한으로 [path]``/etc/apache2/ssl-global.conf`` "
-"구성 파일을 열고, [systemitem]``SSLProtocol`` 줄을 찾아 다음과 같이 업데이트"
-"합니다."
+"이 오류는 Apache에 TLS{nbsp}v1.2가 필요하지만 이전 운영 체제가 이 버전의 TLS 프로토콜을 지원하지 않기 때문에 "
+"발생합니다.  이 오류를 수정하려면 서버의 Apache가 넓은 범위의 프로토콜 버전을 수락하도록 강제해야 합니다.  "
+"{productname} 서버에서 루트 권한으로 [path]``/etc/apache2/ssl-global.conf`` 구성 파일을 열고, "
+"[systemitem]``SSLProtocol`` 줄을 찾아 다음과 같이 업데이트합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:102
@@ -25409,8 +24526,7 @@ msgid ""
 "Even if the Salt client is running, actions such as package refresh or apply "
 "states can be marked as failed with the message:"
 msgstr ""
-"Salt 클라이언트가 실행 중인 경우에도 패키지 새로 고침 또는 적용 상태 등의 작"
-"업이 실패로 표시되며 다음 메시지가 표시됩니다."
+"Salt 클라이언트가 실행 중인 경우에도 패키지 새로 고침 또는 적용 상태 등의 작업이 실패로 표시되며 다음 메시지가 표시됩니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:106
@@ -25420,7 +24536,6 @@ msgstr "Minion이 작동 중지되거나 연결할 수 없습니다.\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:107
-#, fuzzy
 msgid ""
 "In this case try rescheduling the action.  If rescheduling succeeds, the "
 "cause of the problem can be a wrong DNS configuration."
@@ -25429,7 +24544,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:108
-#, fuzzy
 msgid ""
 "When the Salt client is restarted, or in case the grains are refreshed, the "
 "client calculates its FQDN grains, and it is unresponsive until the grains "
@@ -25444,7 +24558,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:109
-#, fuzzy
 msgid ""
 "By default, {productname} Server waits for 5 seconds to get the response "
 "from ``test.ping`` command.  If the response is not received within 5 "
@@ -25456,7 +24569,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:110
-#, fuzzy
 msgid ""
 "To correct this, fix the DNS resolution on the client, so the client does "
 "not get stuck for 5 seconds while solving its FQDN."
@@ -25491,8 +24603,7 @@ msgstr "그리고 다음을 사용하여 ``spacewalk-services``를 다시 시작
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:115
-#, fuzzy, no-wrap
-#| msgid "spacewalk-service restart\n"
+#, no-wrap
 msgid "spacewalk-services restart\n"
 msgstr "spacewalk-services restart\n"
 
@@ -25594,9 +24705,7 @@ msgstr ""
 msgid ""
 "In the [guimenu]``Add an Amazon EC2 Virtual Host Manager`` section, use "
 "these parameters:"
-msgstr ""
-"[guimenu]``Amazon EC2 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미터"
-"를 사용합니다."
+msgstr "[guimenu]``Amazon EC2 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-aws.adoc:11
@@ -25686,9 +24795,7 @@ msgstr ""
 msgid ""
 "To see which objects and resources have been inventoried, navigate to menu:"
 "Systems[System List > Virtual Systems]."
-msgstr ""
-"어떤 객체 및 리소스가 목록에 포함되었는지 확인하려면 menu:시스템[시스템 목록 "
-"> 가상 시스템]으로 이동하십시오."
+msgstr "어떤 객체 및 리소스가 목록에 포함되었는지 확인하려면 menu:시스템[시스템 목록 > 가상 시스템]으로 이동하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-aws.adoc:20
@@ -25697,8 +24804,8 @@ msgid ""
 "{productname} Server in the format of an ``i`` followed by seventeen "
 "hexadecimal digits:"
 msgstr ""
-"Amazon 공용 클라우드에서 실행되는 인스턴스는 ``i`` 뒤에 17개의 16진 숫자가 나"
-"오는 형식으로 {productname} 서버에 UUID를 보고합니다."
+"Amazon 공용 클라우드에서 실행되는 인스턴스는 ``i`` 뒤에 17개의 16진 숫자가 나오는 형식으로 {productname} 서버에 "
+"UUID를 보고합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/vhm-aws.adoc:21
@@ -25731,10 +24838,9 @@ msgid ""
 "this is to create a new IAM user (Identity and Access Management) specific "
 "to this task, create a policy as follows and attach to the user:"
 msgstr ""
-"SUSE Manager가 AWS에서 필요한 정보를 수집하기 위해서는 VHM에 EC2 인스턴스 및 "
-"주소를 설명할 수 있는 권한이 필요합니다.  이러한 권한을 부여할 수 있는 한 가"
-"지 방법은 이 작업과 관련된 새 IAM 사용자(ID 및 액세스 관리)를 생성하고 다음"
-"과 같이 정책을 생성한 후 사용자에게 연결하는 것입니다."
+"SUSE Manager가 AWS에서 필요한 정보를 수집하기 위해서는 VHM에 EC2 인스턴스 및 주소를 설명할 수 있는 권한이 "
+"필요합니다.  이러한 권한을 부여할 수 있는 한 가지 방법은 이 작업과 관련된 새 IAM 사용자(ID 및 액세스 관리)를 생성하고 다음과 "
+"같이 정책을 생성한 후 사용자에게 연결하는 것입니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/vhm-aws.adoc:25
@@ -25830,9 +24936,7 @@ msgstr ""
 msgid ""
 "In the [guimenu]``Add an Azure Virtual Host Manager`` section, use these "
 "parameters:"
-msgstr ""
-"[guimenu]``Azure 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미터를 사"
-"용합니다."
+msgstr "[guimenu]``Azure 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-azure.adoc:12
@@ -25912,8 +25016,8 @@ msgid ""
 "If the permissions are not set correctly, you might receive an error like "
 "this when you run [command]``virtual-host-gatherer``:"
 msgstr ""
-"권한이 올바르게 설정되지 않으면 [command]``virtual-host-gatherer``를 실행할 "
-"때 다음과 같은 오류를 수신할 수 있습니다."
+"권한이 올바르게 설정되지 않으면 [command]``virtual-host-gatherer``를 실행할 때 다음과 같은 오류를 수신할 수 "
+"있습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/vhm-azure.adoc:26
@@ -25927,9 +25031,7 @@ msgstr "일반 오류: [AuthorizationFailed] 객체 ID가 ‘object_ID’인 'cl
 msgid ""
 "To determine the correct credentials, run this command at the prompt on the "
 "{productname} Server:"
-msgstr ""
-"인증서가 올바른지 확인하려면 다음과 같이 {productname} 서버의 프롬프트에서 다"
-"음 명령을 실행하십시오."
+msgstr "인증서가 올바른지 확인하려면 다음과 같이 {productname} 서버의 프롬프트에서 다음 명령을 실행하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/vhm-azure.adoc:28
@@ -25981,9 +25083,7 @@ msgstr "Azure UUID"
 msgid ""
 "Instances running on the Azure public cloud report this UUID to the "
 "{productname} Server:"
-msgstr ""
-"Azure 공용 클라우드에서 실행되는 인스턴스는 다음과 같이 이 UUID를 "
-"{productname} 서버에 보고합니다."
+msgstr "Azure 공용 클라우드에서 실행되는 인스턴스는 다음과 같이 이 UUID를 {productname} 서버에 보고합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/vhm-azure.adoc:33
@@ -26083,9 +25183,8 @@ msgid ""
 "editing the configuration file.  Open [path]``/etc/rhn/rhn.conf`` and add "
 "this line at the end of the file:"
 msgstr ""
-"구성 파일을 편집하여 시스템 잠금 수식을 비활성화함으로써 자동으로 적용되지 않"
-"게 할 수 있습니다.  [path]``/etc/rhn/rhn.conf``를 열고 다음 줄을 파일 끝에 추"
-"가합니다."
+"구성 파일을 편집하여 시스템 잠금 수식을 비활성화함으로써 자동으로 적용되지 않게 할 수 있습니다.  [path]``/etc/rhn/rhn."
+"conf``를 열고 다음 줄을 파일 끝에 추가합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:10
@@ -26125,8 +25224,8 @@ msgstr ""
 msgid ""
 "When using Salt or {productname} (either via UI or API) on any {caasp} nodes:"
 msgstr ""
-"{caasp} 노드에서 (UI 또는 API를 통해) Salt 또는 {productname}를 사용할 때 주"
-"의할 사항은 다음과 같습니다."
+"{caasp} 노드에서 (UI 또는 API를 통해) Salt 또는 {productname}을(를) 사용할 때 주의할 사항은 다음과 "
+"같습니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/vhm-caasp.adoc:16
@@ -26158,9 +25257,7 @@ msgstr "Cobbler를 통해 전원 관리 작업을 발급하지 마십시오."
 msgid ""
 "Do not install a package if it breaks or conflicts the `patterns-caasp-Node-"
 "x.y`"
-msgstr ""
-"패키지가 ``patterns-caasp-Node-x.y``를 중단하거나 이와 상충하는 경우 패키지"
-"를 설치하지 마십시오."
+msgstr "패키지가 ``patterns-caasp-Node-x.y``를 중단하거나 이와 상충하는 경우 패키지를 설치하지 마십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/vhm-caasp.adoc:22
@@ -26168,9 +25265,8 @@ msgid ""
 "Do not remove a package if it breaks or conflicts or is one of the packages "
 "related with the `patterns-caasp-Node-x.y`"
 msgstr ""
-"패키지가 ``patterns-caasp-Node-x.y``를 중단하거나 이와 상충하는 경우, 또는 "
-"``patterns-caasp-Node-x.y``와 관련된 패키지 중 하나인 경우 패키지를 제거하지 "
-"마십시오."
+"패키지가 ``patterns-caasp-Node-x.y``를 중단하거나 이와 상충하는 경우, 또는 ``patterns-caasp-"
+"Node-x.y``와 관련된 패키지 중 하나인 경우 패키지를 제거하지 마십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/vhm-caasp.adoc:23
@@ -26178,9 +25274,8 @@ msgid ""
 "Do not upgrade a package if it breaks or conflicts or is one of the packages "
 "related with the `patterns-caasp-Node-x.y`"
 msgstr ""
-"패키지가 ``patterns-caasp-Node-x.y``를 중단하거나 이와 상충하는 경우, 또는 "
-"``patterns-caasp-Node-x.y``와 관련된 패키지 중 하나인 경우 패키지를 업그레이"
-"드하지 마십시오."
+"패키지가 ``patterns-caasp-Node-x.y``를 중단하거나 이와 상충하는 경우, 또는 ``patterns-caasp-"
+"Node-x.y``와 관련된 패키지 중 하나인 경우 패키지를 업그레이드하지 마십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/vhm-caasp.adoc:24
@@ -26288,8 +25383,7 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List] and "
 "click the name of the client to elect as the management node."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 관리 노드로 "
-"선택할 클라이언트의 이름을 클릭합니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 관리 노드로 선택할 클라이언트의 이름을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:36
@@ -26358,8 +25452,7 @@ msgstr "클러스터에서 관리 노드까지 ``skuba`` 구성 디렉토리를 
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:43
-#, fuzzy, no-wrap
-#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
+#, no-wrap
 msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
 msgstr ""
 "클러스터가 부트스트래핑된 후 ``skuba`` 서비스가 생성하는 디렉토리입니다. {productname} {webui}에 클러스터를 "
@@ -26370,9 +25463,7 @@ msgstr ""
 msgid ""
 "Provide a way to authentication. There are two ways you can achieve this, "
 "choose the method that best suits your environment:"
-msgstr ""
-"인증 방식을 입력합니다. 다음과 같이 이를 완료할 수 있는 두 가지 방법이 있습니"
-"다. 환경에 가장 적합한 방법을 선택하십시오."
+msgstr "인증 방식을 입력합니다. 다음과 같이 이를 완료할 수 있는 두 가지 방법이 있습니다. 환경에 가장 적합한 방법을 선택하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:45
@@ -26393,9 +25484,8 @@ msgid ""
 "setting up the cluster. There are two ways of using the ``ssh-agent`` with "
 "{caasp}:"
 msgstr ""
-"``ssh-agent`` 소켓을 사용할 수 있습니다. 클러스터를 설정할 때 소켓 경로를 입"
-"력하십시오. ``ssh-agent``를 {caasp}에서 다음 두 가지 방식으로 사용할 수 있습"
-"니다."
+"``ssh-agent`` 소켓을 사용할 수 있습니다. 클러스터를 설정할 때 소켓 경로를 입력하십시오. ``ssh-agent``를 "
+"{caasp}에서 다음 두 가지 방식으로 사용할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:47
@@ -26867,9 +25957,7 @@ msgstr "btn:[생성]을 클릭하고 [guimenu]``파일 기반``을 선택합니�
 msgid ""
 "In the [guimenu]``Add a file-based Virtual Host Manager`` section, use these "
 "parameters:"
-msgstr ""
-"[guimenu]``파일 기반 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미터"
-"를 사용합니다."
+msgstr "[guimenu]``파일 기반 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-file.adoc:12
@@ -26968,10 +26056,13 @@ msgstr ""
 "            \"totalCpuThreads\": 16,\n"
 "            \"type\": \"vmware\",\n"
 "            \"vms\": {\n"
-"                \"49737e0a-c9e6-4ceb-aef8-6a9452f67cb5\": \"4230c60f-3f98-2a65-f7c3-600b26b79c22\",\n"
-"                \"5a2e4e63-a957-426b-bfa8-4169302e4fdb\": \"42307b15-1618-0595-01f2-427ffcddd88e\",\n"
+"                \"49737e0a-c9e6-4ceb-aef8-6a9452f67cb5\": \"4230c60f"
+"-3f98-2a65-f7c3-600b26b79c22\",\n"
+"                \"5a2e4e63-a957-426b-bfa8-4169302e4fdb\": \"42307b15"
+"-1618-0595-01f2-427ffcddd88e\",\n"
 "                \"NSX-gateway\": \"4230d43e-aafe-38ba-5a9e-3cb67c03a16a\",\n"
-"                \"NSX-l3gateway\": \"4230b00f-0b21-0e9d-dfde-6c7b06909d5f\",\n"
+"                \"NSX-l3gateway\": \"4230b00f-0b21-0e9d-dfde-6c7b06909d5f\","
+"\n"
 "                \"NSX-service\": \"4230e924-b714-198b-348b-25de01482fd9\"\n"
 "            }\n"
 "        }\n"
@@ -26984,8 +26075,8 @@ msgid ""
 "For more information, see the man page on your {productname} server for "
 "[command]``virtual-host-gatherer``:"
 msgstr ""
-"자세한 내용은 {productname} 서버의 사용자 지정 페이지에서 [command]``virtual-"
-"host-gatherer``를 검색하십시오."
+"자세한 내용은 {productname} 서버의 사용자 지정 페이지에서 [command]``virtual-host-gatherer``를 "
+"검색하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/vhm-file.adoc:19
@@ -26998,9 +26089,7 @@ msgstr "man virtual-host-gatherer\n"
 msgid ""
 "The `README` file of that package provides background information about the "
 "`type` of a hypervisor, etc.:"
-msgstr ""
-"이 패키지의 `README` 파일은 하이퍼바이버의 ‘유형’ 등에 대한 배경 정보를 제공"
-"합니다."
+msgstr "이 패키지의 `README` 파일은 하이퍼바이버의 ‘유형’ 등에 대한 배경 정보를 제공합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/vhm-file.adoc:21
@@ -27076,8 +26165,7 @@ msgid ""
 "In the [guimenu]``Add a Google Conpute Engine Virtual Host Manager`` "
 "section, use these parameters:"
 msgstr ""
-"[guimenu]``Google Compute Engine 가상 호스트 관리자 추가`` 섹션에서 다음과 같"
-"은 파라미터를 사용합니다."
+"[guimenu]``Google Compute Engine 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-gce.adoc:14
@@ -27185,9 +26273,7 @@ msgstr "GCE UUID"
 msgid ""
 "Instances running on the Google public cloud report this UUID to "
 "{productname} Server:"
-msgstr ""
-"Google 공용 클라우드에서 실행되는 인스턴스는 다음과 같이 이 UUID를 "
-"{productname} 서버에 보고합니다."
+msgstr "Google 공용 클라우드에서 실행되는 인스턴스는 다음과 같이 이 UUID를 {productname} 서버에 보고합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/vhm-gce.adoc:34
@@ -27234,8 +26320,7 @@ msgid ""
 "The [systemitem]``virtual-host-gatherer-Kubernetes`` package installed on "
 "the {productname} Server."
 msgstr ""
-"{productname} 서버에 설치된 [systemitem]``virtual-host-gatherer-Kubernetes`` "
-"패키지"
+"{productname} 서버에 설치된 [systemitem]``virtual-host-gatherer-Kubernetes`` 패키지"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:8
@@ -27292,9 +26377,7 @@ msgstr "btn:[생성]을 클릭하고 [guimenu]``Kubernetes 클러스터``를 선
 msgid ""
 "In the [guimenu]``Add a Kubernetes Virtual Host Manager`` section, use these "
 "parameters:"
-msgstr ""
-"[guimenu]``Kubernetes 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미터"
-"를 사용합니다."
+msgstr "[guimenu]``Kubernetes 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:19
@@ -27376,8 +26459,8 @@ msgid ""
 "You can view runtime data about {kube} images in the {productname} {webui}, "
 "by navigating to menu:Images[Image List]."
 msgstr ""
-"{productname} {webui}에서 menu:이미지[이미지 목록]으로 이동하여 {kube} 이미지"
-"에 대한 런타임 데이터를 볼 수 있습니다."
+"{productname} {webui}에서 menu:이미지[이미지 목록]으로 이동하여 {kube} 이미지에 대한 런타임 데이터를 볼 수 "
+"있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:32
@@ -27395,8 +26478,8 @@ msgid ""
 "A sequence number that increments on every rebuild for images built by "
 "{productname}, or on every import for externally built images."
 msgstr ""
-"{productname}이(가) 빌드한 이미지에 대한 모든 리빌드 또는 외부적으로 빌드되"
-"는 이미지에 대한 각 임포트에서 하나씩 증가하는 시퀀스 번호"
+"{productname}이(가) 빌드한 이미지에 대한 모든 리빌드 또는 외부적으로 빌드되는 이미지에 대한 각 임포트에서 하나씩 증가하는 "
+"시퀀스 번호"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:35
@@ -27524,9 +26607,7 @@ msgstr "이 작업은 [command]``kubectl`` 도구로 할 수 있습니다."
 msgid ""
 "The updated data should now be available in the image list at menu:"
 "Images[Image List]."
-msgstr ""
-"업데이트된 데이터는 이제 menu:이미지[이미지 목록]의 이미지 목록에서 사용할 "
-"수 있어야 합니다."
+msgstr "업데이트된 데이터는 이제 menu:이미지[이미지 목록]의 이미지 목록에서 사용할 수 있어야 합니다."
 
 #.  This procedure needs help. LKB 2019-10-03
 #. type: Block title
@@ -27565,9 +26646,7 @@ msgstr ""
 msgid ""
 "The imported image should now be available in the image list at menu:"
 "Images[Image List]."
-msgstr ""
-"임포트한 이미지는 이제 menu:이미지[이미지 목록]의 이미지 목록에서 사용할 수 "
-"있어야 합니다."
+msgstr "임포트한 이미지는 이제 menu:이미지[이미지 목록]의 이미지 목록에서 사용할 수 있어야 합니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:62
@@ -27581,8 +26660,8 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Images[Image List], locate "
 "the row that contains the image you want to rebuild, and click btn:[Details]."
 msgstr ""
-"{productname} {webui}에서 menu:이미지[이미지 목록]으로 이동하여 다시 빌드하려"
-"는 이미지가 포함된 행을 찾아 btn:[상세 정보]를 클릭합니다."
+"{productname} {webui}에서 menu:이미지[이미지 목록]으로 이동하여 다시 빌드하려는 이미지가 포함된 행을 찾아 btn:["
+"상세 정보]를 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:64
@@ -27602,9 +26681,8 @@ msgid ""
 "is updated in the image list at menu:Images[Image List].  This shows that "
 "the instances are running a previous build of the image."
 msgstr ""
-"다시 빌드하는 작업이 완료되면 menu:이미지[이미지 목록]의 이미지 목록에서 이미"
-"지의 런타임 상태가 업데이트됩니다.  이를 통해 인스턴스가 이미지의 이전 빌드"
-"를 실행 중임을 알 수 있습니다."
+"다시 빌드하는 작업이 완료되면 menu:이미지[이미지 목록]의 이미지 목록에서 이미지의 런타임 상태가 업데이트됩니다.  이를 통해 "
+"인스턴스가 이미지의 이전 빌드를 실행 중임을 알 수 있습니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:67
@@ -27627,8 +26705,8 @@ msgid ""
 "In the {productname} {webui}, navigate to menu:Images[Image List], locate "
 "the row that contains the running instance, and click btn:[Details]."
 msgstr ""
-"{productname} {webui}에서 menu:이미지[이미지 목록]으로 이동하여 실행 중인 인"
-"스턴스가 포함된 행을 찾아 btn:[상세 정보]를 클릭합니다."
+"{productname} {webui}에서 menu:이미지[이미지 목록]으로 이동하여 실행 중인 인스턴스가 포함된 행을 찾아 btn:["
+"상세 정보]를 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:70
@@ -27655,8 +26733,8 @@ msgid ""
 "This section contains a information about the {kube} pods running this image "
 "in all the registered clusters.  The information in this section includes:"
 msgstr ""
-"이 섹션에는 등록한 모든 클러스터에서 이 이미지를 실행하는 {kube} Pod에 대한 "
-"정보가 포함되어 있습니다.  이 섹션의 정보는 다음 사항을 포함합니다."
+"이 섹션에는 등록한 모든 클러스터에서 이 이미지를 실행하는 {kube} Pod에 대한 정보가 포함되어 있습니다.  이 섹션의 정보는 다음 "
+"사항을 포함합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:74
@@ -27780,8 +26858,8 @@ msgid ""
 "For more information about Nutanix integrations, see https://www.nutanix.com/"
 "partners/technology-alliances/suse"
 msgstr ""
-"Nutanix 통합에 대한 자세한 내용은 link:https://www.nutanix.com/partners/"
-"technology-alliances/suse[]에서 참조하십시오."
+"Nutanix 통합에 대한 자세한 내용은 https://www.nutanix.com/partners/technology-alliances/"
+"suse에서 참조하십시오."
 
 #. type: Target for macro image
 #: modules/client-configuration/pages/vhm-nutanix.adoc:4
@@ -27841,9 +26919,7 @@ msgstr "btn:[생성]을 클릭하고 [guimenu]``Nutanix AHV``를 선택합니다
 msgid ""
 "In the [guimenu]``Add a Nutanix AHV Virtual Host Manager`` section, use "
 "these parameters:"
-msgstr ""
-"[guimenu]``Nutanix AHV 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미"
-"터를 사용합니다."
+msgstr "[guimenu]``Nutanix AHV 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-nutanix.adoc:15
@@ -28009,8 +27085,8 @@ msgid ""
 "For more on users, roles, and permissions, see the VMWare vSphere "
 "documentation: https://docs.vmware.com/en/VMware-vSphere/index.html"
 msgstr ""
-"사용자, 역할 및 권한에 대한 자세한 내용은 VMWare vSphere 문서: link:https://"
-"docs.vmware.com/en/VMware-vSphere/index.html[]에서 참조하십시오."
+"사용자, 역할 및 권한에 대한 자세한 내용은 VMWare vSphere 문서(https://docs.vmware.com/en/"
+"VMware-vSphere/index.html)에서 참조하십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-vmware.adoc:10
@@ -28028,9 +27104,7 @@ msgstr "btn:[생성]을 클릭하고 [guimenu]``VMWare 기반``을 선택합니�
 msgid ""
 "In the [guimenu]``Add a VMWare-based Virtual Host Manager`` section, use "
 "these parameters:"
-msgstr ""
-"[guimenu]``VMWare 기반 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미"
-"터를 사용합니다."
+msgstr "[guimenu]``VMWare 기반 가상 호스트 관리자 추가`` 섹션에서 다음과 같은 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-vmware.adoc:16
@@ -28133,9 +27207,7 @@ msgstr ""
 msgid ""
 "On the {productname} Server, at the command prompt, update the CA "
 "certificate record:"
-msgstr ""
-"{productname} 서버의 명령 프롬프트에서 다음과 같이 CA 인증서 레코드를 업데이"
-"트합니다."
+msgstr "{productname} 서버의 명령 프롬프트에서 다음과 같이 CA 인증서 레코드를 업데이트합니다."
 
 #. type: Title =
 #: modules/client-configuration/pages/vhm.adoc:1
@@ -28311,8 +27383,7 @@ msgstr "절차: 관리 노드 구성"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:18
-#, fuzzy, no-wrap
-#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
+#, no-wrap
 msgid ""
 "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped.\n"
 "Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
@@ -28322,8 +27393,7 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:19
-#, fuzzy, no-wrap
-#| msgid "Provide a way to authenticate."
+#, no-wrap
 msgid "Provide a way to authenticate.\n"
 msgstr "인증 방식을 입력합니다.\n"
 
@@ -28332,9 +27402,7 @@ msgstr "인증 방식을 입력합니다.\n"
 msgid ""
 "There are two ways you can authenticate a {caasp} cluster, choose the method "
 "that best suits your environment:"
-msgstr ""
-"다음과 같이 {caasp} 클러스터를 인증할 수 있는 두 가지 방법이 있습니다. 환경"
-"에 가장 적합한 방법을 선택하십시오."
+msgstr "다음과 같이 {caasp} 클러스터를 인증할 수 있는 두 가지 방법이 있습니다. 환경에 가장 적합한 방법을 선택하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:21
@@ -28368,9 +27436,8 @@ msgid ""
 "``ssh-agent`` locally, or forward the `ssh-agent` to the management node "
 "from another machine:"
 msgstr ""
-"``ssh-agent``를 {caasp}에서 두 가지 방식으로 사용할 수 있습니다.  다음과 같"
-"이 ``ssh-agent``를 로컬에서 사용하거나 다른 시스템에서 ``ssh-agent``를 관리 "
-"노드로 전달할 수 있습니다."
+"``ssh-agent``를 {caasp}에서 두 가지 방식으로 사용할 수 있습니다.  다음과 같이 ``ssh-agent``를 로컬에서 "
+"사용하거나 다른 시스템에서 ``ssh-agent``를 관리 노드로 전달할 수 있습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/virt-clusters.adoc:25
@@ -28383,8 +27450,7 @@ msgstr "절차: 로컬 ssh-agent 사용"
 msgid ""
 "On the management node, at the command prompt, start the ``ssh-agent`` "
 "service:"
-msgstr ""
-"관리 노드의 명령 프롬프트에서 다음과 같이 ``ssh-agent`` 서비스를 시작합니다."
+msgstr "관리 노드의 명령 프롬프트에서 다음과 같이 ``ssh-agent`` 서비스를 시작합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/virt-clusters.adoc:27
@@ -28425,8 +27491,8 @@ msgid ""
 "On the system that is providing ``ssh-agent``, at the command prompt, enable "
 "SSH forwarding, and specify the hostname of the management node:"
 msgstr ""
-"``ssh-agent``를 제공하는 시스템의 명령 프롬프트에서 다음과 같이 SSH 전달을 활"
-"성화하고, 관리 노드의 호스트 이름을 지정합니다."
+"``ssh-agent``를 제공하는 시스템의 명령 프롬프트에서 다음과 같이 SSH 전달을 활성화하고, 관리 노드의 호스트 이름을 "
+"지정합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/virt-clusters.adoc:33
@@ -28465,10 +27531,9 @@ msgid ""
 "documentation.suse.com/suse-caasp/4.2/single-html/caasp-deployment/"
 "#_disabling_swap"
 msgstr ""
-"클러스터에 노드를 추가하기 전에 몇 가지 수동 구성을 해야 할 수 있습니다.  시"
-"스템이 {caasp} 노드로 배타적으로 사용되고 있고 스왑이 꺼져 있는지 확인하십시"
-"오.  자세한 내용은 link:https://documentation.suse.com/suse-caasp/4.2/single-"
-"html/caasp-deployment/#_disabling_swap[]에서 참조하십시오."
+"클러스터에 노드를 추가하기 전에 몇 가지 수동 구성을 해야 할 수 있습니다.  시스템이 {caasp} 노드로 배타적으로 사용되고 있고 "
+"스왑이 꺼져 있는지 확인하십시오.  자세한 내용은 https://documentation.suse.com/suse-caasp/4.2/"
+"single-html/caasp-deployment/#_disabling_swap에서 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:59
@@ -28606,14 +27671,11 @@ msgid ""
 "check [guimenu]``Virtualization Host``, and click btn:[Update Properties] to "
 "save the changes.  Restart the Salt minion service to activate the change:"
 msgstr ""
-"Salt 클라이언트의 경우 [systemitem]``가상화 호스트`` 자격을 활성화해야 합니"
-"다.  이렇게 하면 VM 변경 사항을 즉시 볼 수 있습니다.  이를 위해서는 "
-"{productname} {webui}에서 호스트의 [guimenu]``시스템 정보`` 페이지로 이동하"
-"여 [guimenu]``등록 정보`` 탭을 클릭하십시오.  또는 등록 키 수준에서 "
-"[systemitem]``가상화 호스트`` 자격을 추가할 수 있습니다.  [guimenu]``추가 시"
-"스템 유형`` 섹션에서 [guimenu]``가상화 호스트``의 확인란을 선택하고 btn:[등"
-"록 정보 업데이트]를 클릭하여 변경 사항을 저장합니다.  다음과 같이 Salt "
-"Minion 서비스를 다시 시작하여 변경 사항을 활성화합니다."
+"Salt 클라이언트의 경우 [systemitem]``가상화 호스트`` 자격을 활성화해야 합니다.  이렇게 하면 VM 변경 사항을 즉시 볼 "
+"수 있습니다.  이를 위해서는 {productname} {webui}에서 호스트의 [guimenu]``시스템 정보`` 페이지로 이동하여 "
+"[guimenu]``등록 정보`` 탭을 클릭하십시오.  또는 등록 키 수준에서 [systemitem]``가상화 호스트`` 자격을 추가할 "
+"수 있습니다.  [guimenu]``추가 시스템 유형`` 섹션에서 [guimenu]``가상화 호스트``의 확인란을 선택하고 btn:[등록 "
+"정보 업데이트]를 클릭하여 변경 사항을 저장합니다.  다음과 같이 Salt Minion 서비스를 다시 시작하여 변경 사항을 활성화합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:14
@@ -28643,8 +27705,8 @@ msgid ""
 "To disable the [systemitem]``rhnsd`` service, and enable the "
 "[daemon]``osad`` daemon, run these commands as the root user:"
 msgstr ""
-"[systemitem]``rhnsd`` 서비스를 비활성화하고 [daemon]``osad`` 데몬을 활성화하"
-"려면 루트 사용자로 다음 명령을 실행하십시오."
+"[systemitem]``rhnsd`` 서비스를 비활성화하고 [daemon]``osad`` 데몬을 활성화하려면 루트 사용자로 다음 명령을 "
+"실행하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/virt-xenkvm.adoc:16
@@ -28927,8 +27989,7 @@ msgstr ""
 msgid ""
 "In the [guimenu]``Create Autoinstallation Profile`` section, use these "
 "parameters:"
-msgstr ""
-"[guimenu]``자동 설치 프로파일 생성`` 섹션에서 다음 파라미터를 사용합니다."
+msgstr "[guimenu]``자동 설치 프로파일 생성`` 섹션에서 다음 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:55
@@ -29122,9 +28183,7 @@ msgstr ""
 msgid ""
 "Ensure you replace the example IP address in the snippet with the correct IP "
 "address for your {productname} Server:"
-msgstr ""
-"아래 코드 조각의 예시 IP 주소를 {productname} 서버의 정확한 IP 주소로 교체해"
-"야 합니다."
+msgstr "아래 코드 조각의 예시 IP 주소를 {productname} 서버의 정확한 IP 주소로 교체해야 합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/virt-xenkvm.adoc:78
@@ -29273,9 +28332,8 @@ msgid ""
 "[guimenu]``Virtualization`` tab to see all guests registered to this host, "
 "and access the management functions."
 msgstr ""
-"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 관리하려는 게"
-"스트의 VM 호스트를 클릭합니다.  [guimenu]``가상화`` 탭으로 이동하여 이 호스트"
-"에 등록된 모든 게스트를 확인하고 관리 기능에 액세스합니다."
+"{productname} {webui}에서 menu:시스템[시스템 목록]으로 이동하여 관리하려는 게스트의 VM 호스트를 클릭합니다.  "
+"[guimenu]``가상화`` 탭으로 이동하여 이 호스트에 등록된 모든 게스트를 확인하고 관리 기능에 액세스합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:94
@@ -29569,9 +28627,7 @@ msgstr "절차: 클러스터 관리형 가상 게스트 생성"
 msgid ""
 "Follow the ``Creating a Virtual Guest`` procedure on one of the nodes of the "
 "cluster with the following additions:"
-msgstr ""
-"다음을 추가하여 클러스터 노드 중 하나에서 ``가상 게스트 만들기`` 절차를 따르"
-"십시오."
+msgstr "다음을 추가하여 클러스터 노드 중 하나에서 ``가상 게스트 만들기`` 프로시저를 따르십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:33
