@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-23 16:13+0000\n"
-"PO-Revision-Date: 2022-02-16 11:12+0000\n"
+"PO-Revision-Date: 2022-02-17 09:12+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-424/ko/>\n"
@@ -608,7 +608,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:4
-#, fuzzy
 msgid "An activation key can specify:"
 msgstr "활성화 키는 다음을 지정할 수 있습니다."
 
@@ -1078,7 +1077,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:60
 msgid "These options create bandwidth usage:"
-msgstr "다음 옵션은 대역폭을 사용합니다."
+msgstr "이러한 옵션은 대역폭 사용량을 생성합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:61
@@ -1534,9 +1533,7 @@ msgstr ""
 msgid ""
 "For more information about KIWI, see http://doc.opensuse.org/projects/kiwi/"
 "doc/."
-msgstr ""
-"KIWI에 대한 자세한 정보는 link:http://doc.opensuse.org/projects/kiwi/doc/[]"
-"를 참조하십시오."
+msgstr "KIWI에 대한 자세한 정보는 http://doc.opensuse.org/projects/kiwi/doc/에서 참조하십시오."
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-cdrom.adoc:21
@@ -1794,8 +1791,8 @@ msgid ""
 "operating systems, you can download installation media from https://www.suse."
 "com/download/."
 msgstr ""
-"{productname} 서버에 설치 미디어를 복사합니다.  {suse} 운영 체제의 경우 link:"
-"https://www.suse.com/download/[]에서 설치 미디어를 다운로드할 수 있습니다."
+"{productname} 서버에 설치 미디어를 복사합니다.  {suse} 운영 체제의 경우 https://www.suse.com/"
+"download/에서 설치 미디어를 다운로드할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-distributions.adoc:11
@@ -2200,8 +2197,8 @@ msgid ""
 "The autoinstallation features of SUSE Manager are based on a software named "
 "Cobbler.  For more information, see https://cobbler.github.io/quickstart/."
 msgstr ""
-"SUSE Manager의 자동 설치 기능은 Cobbler 소프트웨어를 기반으로 합니다.  자세"
-"한 설명은 link:https://cobbler.github.io/quickstart/[]를 참조하십시오."
+"SUSE Manager의 자동 설치 기능은 Cobbler 소프트웨어를 기반으로 합니다.  자세한 설명은 https://cobbler."
+"github.io/quickstart/를 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:1
@@ -2602,20 +2599,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:22
-#, fuzzy
-#| msgid ""
-#| "Copy the contents of your autoinstallation file into the [guimenu]``File "
-#| "Contents`` field, or upload the file directly using the [guimenu]``File "
-#| "to Upload`` field.  For more information about the details to include "
-#| "here, see xref:client-configuration:autoinst-profiles."
-#| "adoc#autoyast[AutoYast Profiles] or xref:client-configuration:autoinst-"
-#| "profiles.adoc#kickstart[Kickstart Profiles]."
 msgid ""
 "For more information about the details to include here, see xref:client-"
 "configuration:autoinst-profiles.adoc#autoyast[AutoYast Profiles] or xref:"
 "client-configuration:autoinst-profiles.adoc#kickstart[Kickstart Profiles]."
 msgstr ""
-"여기에 포함되는 세부 정보에 대한 자세한 설명은, xref:client-configuration:autoinst-profiles."
+"여기에 포함되는 세부 정보에 대한 자세한 설명은 xref:client-configuration:autoinst-profiles."
 "adoc#autoyast[AutoYast 프로파일] 또는 xref:client-configuration:autoinst-profiles."
 "adoc#kickstart[Kickstart 프로파일]을 참조하십시오."
 
@@ -2637,11 +2626,6 @@ msgstr "btn:[Kickstart 프로파일 생성]을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:28
-#, fuzzy
-#| msgid ""
-#| "This field is populated from the distributions available.  If the base "
-#| "channel you need is not available, check that you have created the "
-#| "distribution correctly."
 msgid ""
 "In the [guimenu]``Base Channel`` field, select the base channel to use for "
 "this profile.  This field is populated from the distributions available.  If "
@@ -2762,10 +2746,9 @@ msgid ""
 "installation files, see https://doc.opensuse.org/projects/autoyast/#cha-"
 "configuration-installation-options."
 msgstr ""
-"{ay} 설치 파일은 {ay} 설치 프로그램에 방향을 제공하는 XML 파일입니다. {ay}에"
-"서는 이 파일을 \"제어 파일\"이라고 부릅니다.  {ay} 설치 파일의 전체 구문은 "
-"link:https://doc.opensuse.org/projects/autoyast/#cha-configuration-"
-"installation-options[]를 참조하십시오."
+"{ay} 설치 파일은 {ay} 설치 프로그램에 방향을 제공하는 XML 파일입니다. {ay}에서는 이 파일을 \"제어 파일\"이라고 "
+"부릅니다.  {ay} 설치 파일의 전체 구문은 https://doc.opensuse.org/projects/autoyast/#cha-"
+"configuration-installation-options를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:43
@@ -2779,13 +2762,11 @@ msgid ""
 "about using variables in {ay} scripts, see xref:client-configuration:"
 "autoinst-profiles#variables[Variables]."
 msgstr ""
-"{suse}는 사용자 정의 파일의 시작점으로 사용할 수 있는 {ay} 설치 파일의 템플릿"
-"을 제공합니다.  이 템플릿은 이름이 [path]``AutoYast``인 디렉토리의 link:"
-"https://github.com/SUSE/manager-build-profiles[]에서 확인할 수 있습니다.  이"
-"러한 각 프로파일은 사용하기 전 일부 변수를 설정해야 합니다.  필요한 변수는 스"
-"크립트에 포함된 [path]``README`` 파일에서 확인합니다.  {ay} 스크립트에서 변"
-"수 사용에 대한 자세한 설명은 xref:client-configuration:autoinst-"
-"profiles#variables[변수]를 참조하십시오."
+"{suse}는 사용자 정의 파일의 시작점으로 사용할 수 있는 {ay} 설치 파일의 템플릿을 제공합니다.  이 템플릿은 이름이 "
+"[path]``AutoYast``인 디렉토리의 https://github.com/SUSE/manager-build-profiles에서 "
+"확인할 수 있습니다.  이러한 각 프로파일은 사용하기 전 일부 변수를 설정해야 합니다.  필요한 변수는 스크립트에 포함된 "
+"[path]``README`` 파일에서 확인합니다.  {ay} 스크립트에서 변수 사용에 대한 자세한 설명은 xref:client-"
+"configuration:autoinst-profiles#variables[변수]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:44
@@ -2835,9 +2816,7 @@ msgstr ""
 msgid ""
 "For more information about {ay}, see https://doc.opensuse.org/projects/"
 "autoyast/."
-msgstr ""
-"{ay}에 대한 자세한 내용은 link:https://doc.opensuse.org/projects/autoyast/[]"
-"를 참조하십시오."
+msgstr "{ay}에 대한 자세한 내용은 https://doc.opensuse.org/projects/autoyast/를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:50
@@ -2907,19 +2886,11 @@ msgstr "btn:[목록 생성]을 클릭합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:58
-#, fuzzy
-#| msgid "File Preservation for {kickstart}"
 msgid "Include the file preservation list in your {kickstart} profile."
 msgstr "{kickstart} 프로파일에 파일 보관 목록 포함"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:59
-#, fuzzy
-#| msgid ""
-#| "Include the file preservation list in your {kickstart} profile.  Navigate "
-#| "to menu:Systems[Autoinstallation > Profiles] and select the profile you "
-#| "want to edit, go to the menu:System Details[File Preservation] subtab, "
-#| "and select the file preservation list to include."
 msgid ""
 "Navigate to menu:Systems[Autoinstallation > Profiles] and select the profile "
 "you want to edit, go to the menu:System Details[File Preservation] subtab, "
@@ -5404,8 +5375,8 @@ msgid ""
 "For example autoinstallation profiles, see https://github.com/SUSE/manager-"
 "build-profiles/tree/master/AutoYaST."
 msgstr ""
-"자동 설치 프로파일의 예는 link:https://github.com/SUSE/manager-build-"
-"profiles/tree/master/AutoYaST[]를 참조하십시오."
+"자동 설치 프로파일의 예는 https://github.com/SUSE/manager-build-profiles/tree/master/"
+"AutoYaST를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:30
@@ -5533,7 +5504,7 @@ msgstr ""
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:44
 #, no-wrap
 msgid "cobbler profile list\n"
-msgstr "cobbler profile list\n"
+msgstr "cobbler 프로파일 목록\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:45
@@ -5835,8 +5806,8 @@ msgid ""
 "For more information, see https://documentation.suse.com/sles/15-SP3/html/"
 "SLES-all/article-modules.html."
 msgstr ""
-"자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
-"article-modules.html[]을 참조하십시오."
+"자세한 내용은 https://documentation.suse.com/sles/15-SP3/html/SLES-all/article-"
+"modules.html을 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:42
@@ -5862,15 +5833,6 @@ msgstr "자동 설치 프로파일 생성"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:46
-#, fuzzy
-#| msgid ""
-#| "Autoinstallation profiles contain all the installation and configuration "
-#| "data needed to install a system.  They can also contain scripts to be "
-#| "executed after the installation is complete.  For example scripts that "
-#| "you can use as a starting point, see https://github.com/SUSE/manager-"
-#| "build-profiles/tree/master/AutoYaST.  For valid AutoYaST upgrade "
-#| "settings, see https://doc.opensuse.org/projects/autoyast/#CreateProfile-"
-#| "upgrade."
 msgid ""
 "Autoinstallation profiles contain all the installation and configuration "
 "data needed to install a system.  They can also contain scripts to be "
@@ -5879,18 +5841,16 @@ msgid ""
 "profiles/tree/master/AutoYaST."
 msgstr ""
 "자동 설치 프로파일에는 시스템을 설치하는 데 필요한 모든 설치 및 구성 데이터가 포함되어 있습니다.  설치 완료 후 실행될 스크립트도 "
-"포함할 수 있습니다.  시작 지점으로 사용할 수 있는 예제 스크립트는 link:https://github.com/SUSE/"
-"manager-build-profiles/tree/master/AutoYaST[]를 참조하십시오."
+"포함할 수 있습니다.  시작 지점으로 사용할 수 있는 예제 스크립트는 https://github.com/SUSE/"
+"manager-build-profiles/tree/master/AutoYaST를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:47
-#, fuzzy
 msgid "For valid AutoYaST upgrade settings, see"
 msgstr "올바른 AutoYaST 업그레이드 설정은 다음을 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:48
-#, fuzzy
 msgid ""
 "link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade[]."
 msgstr ""
@@ -5907,19 +5867,11 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:51
-#, fuzzy
-#| msgid ""
-#| "For example scripts that you can use as a starting point, see https://"
-#| "github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 msgid "For example scripts that you can use as a starting point, see"
 msgstr "시작 지점으로 사용할 수 있는 예제 스크립트는 다음을 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:52
-#, fuzzy
-#| msgid ""
-#| "For example autoinstallation profiles, see https://github.com/SUSE/"
-#| "manager-build-profiles/tree/master/AutoYaST."
 msgid "https://github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 msgstr "https://github.com/SUSE/manager-build-profiles/tree/master/AutoYaST."
 
@@ -6132,11 +6084,10 @@ msgid ""
 "documentation.suse.com/sles/15-SP3/html/SLES-all/cha-upgrade-paths.html#sec-"
 "upgrade-paths-supported."
 msgstr ""
-"{scc}가 제공하는 경우 {suse}는 {sle}{nbsp}12 이상 버전에서 서비스 팩 건너뛰기"
-"를 지원합니다. 예를 들어, SP1을 설치하지 않아도 {sle}{nbsp}15에서 SP2로 업그"
-"레이드할 수 있습니다. 지원되는 {sle} 업그레이드 경로는 link:https://"
-"documentation.suse.com/sles/15-SP3/html/SLES-all/cha-upgrade-paths.html#sec-"
-"upgrade-paths-supported[]를 참조하십시오."
+"{scc}가 제공하는 경우 {suse}는 {sle}{nbsp}12 이상 버전에서 서비스 팩 건너뛰기를 지원합니다. 예를 들어, SP1을 "
+"설치하지 않아도 {sle}{nbsp}15에서 SP2로 업그레이드할 수 있습니다. 지원되는 {sle} 업그레이드 경로는 "
+"https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-upgrade-paths."
+"html#sec-upgrade-paths-supported를 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:9
@@ -6576,10 +6527,9 @@ msgid ""
 "upgrade paths, see https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
 "cha-upgrade-paths.html"
 msgstr ""
-"{suse} 운영 체제를 사용하는 SCC 등록 클라이언트의 경우 {productname} {webui} "
-"내에서 업그레이드를 수행할 수 있습니다. 지원되는 {sle}{nbsp}15 업그레이드 경"
-"로는 link:https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-"
-"upgrade-paths.html[]에서 참조하십시오."
+"{suse} 운영 체제를 사용하는 SCC 등록 클라이언트의 경우 {productname} {webui} 내에서 업그레이드를 수행할 수 "
+"있습니다. 지원되는 {sle}{nbsp}15 업그레이드 경로는 https://documentation.suse.com/sles/"
+"15-SP3/html/SLES-all/cha-upgrade-paths.html에서 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades.adoc:4
@@ -6705,7 +6655,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:10
 #: modules/client-configuration/pages/clients-ubuntu.adoc:9
 msgid "The products you need for this procedure are:"
-msgstr "이 절차에 필요한 제품은 다음과 같습니다."
+msgstr "이 프로시저에 필요한 제품은 다음과 같습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-alibaba.adoc:9
@@ -6739,9 +6689,7 @@ msgstr ""
 msgid ""
 "Alternatively, you can add channels at the command prompt.  The channels you "
 "need for this procedure are:"
-msgstr ""
-"또는 명령 프롬프트에서 채널을 추가할 수 있습니다.  이 절차에 필요한 채널은 다"
-"음과 같습니다."
+msgstr "또는 명령 프롬프트에서 채널을 추가할 수 있습니다.  이 프로시저에 필요한 채널은 다음과 같습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-alibaba.adoc:12
@@ -6779,7 +6727,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:24
 #: modules/client-configuration/pages/clients-ubuntu.adoc:15
 msgid "The channels you need for this procedure are:"
-msgstr "이 절차에 필요한 채널은 다음과 같습니다."
+msgstr "이 프로시저에 필요한 채널은 다음과 같습니다."
 
 #. type: Table
 #: modules/client-configuration/pages/clients-alibaba.adoc:16
@@ -7509,12 +7457,11 @@ msgid ""
 "issues/28#issuecomment-656579382 and https://github.com/stevemeier/cefs/"
 "issues/28#issuecomment-656573607."
 msgstr ""
-"CEFS의 원저자는 도움이 됐으면 하는 마음으로 최선을 다해 패치나 정오표를 제공"
-"하지만 정확성이나 최신 상태를 보장하지는 않습니다.   따라서 패치 날짜가 부정"
-"확할 수 있습니다. 한번은 게시 날짜가 한 달 이상 늦은 날짜로 표시된 적도 있습"
-"니다.  이러한 경우에 대한 자세한 내용은 link:https://github.com/stevemeier/"
-"cefs/issues/28#issuecomment-656579382[] 및 link:https://github.com/"
-"stevemeier/cefs/issues/28#issuecomment-656573607[]을 참조하십시오."
+"CEFS의 원저자는 도움이 됐으면 하는 마음으로 최선을 다해 패치나 정오표를 제공하지만 정확성이나 최신 상태를 보장하지는 않습니다.   "
+"따라서 패치 날짜가 부정확할 수 있습니다. 한번은 게시 날짜가 한 달 이상 늦은 날짜로 표시된 적도 있습니다.  이러한 경우에 대한 "
+"자세한 내용은 https://github.com/stevemeier/cefs/issues/28#issuecomment-656579382 "
+"및 https://github.com/stevemeier/cefs/issues/28#issuecomment-656573607을 "
+"참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:37
@@ -7667,9 +7614,7 @@ msgstr "ln -s /usr/local/bin/cent-errata.sh /etc/cron.daily\n"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-centos.adoc:54
 msgid "For more information on this tool, see https://cefs.steve-meier.de/."
-msgstr ""
-"이 도구에 대한 자세한 내용은 link:https://cefs.steve-meier.de/[]를 참조하십시"
-"오."
+msgstr "이 도구에 대한 자세한 내용은 https://cefs.steve-meier.de/를 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-debian.adoc:1
@@ -8083,8 +8028,8 @@ msgid ""
 "Create a new file called [path]``/etc/salt/minion.d/susemanager-"
 "transactional.conf`` with this content:"
 msgstr ""
-"이 컨텐트를 사용하여 이름이 [path]``/etc/salt/minion.d/susemanager-"
-"transactional .conf``인 새 파일을 생성합니다."
+"이 컨텐트를 사용하여 이름이 [path]``/etc/salt/minion.d/susemanager-transactional.conf`인 "
+"새 파일을 생성합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-microos.adoc:23
@@ -8347,9 +8292,8 @@ msgid ""
 "metadata are provided by Oracle, not by {suse}.  {oracle} base media "
 "repositories are freely available for download from https://yum.oracle.com/."
 msgstr ""
-"{oracle} 리포지토리 URL은 {scc}가 제공하지만 패키지 및 메타데이터는 {suse}가 "
-"아닌 Oracle이 제공합니다.  {oracle} 기본 미디어 리포지토리는 link:https://"
-"yum.oracle.com/[]에서 무료로 다운로드할 수 있습니다."
+"{oracle} 리포지토리 URL은 {scc}가 제공하지만 패키지 및 메타데이터는 {suse}가 아닌 Oracle이 제공합니다.  "
+"{oracle} 기본 미디어 리포지토리는 https://yum.oracle.com/에서 무료로 다운로드할 수 있습니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-oracle.adoc:4
@@ -8686,10 +8630,9 @@ msgid ""
 "root without a password.  To do this, open the [path]``/etc/sudoers.d/"
 "waagent`` file, and add or edit this line:"
 msgstr ""
-"클라우드 공급자가 Microsoft Azure인 경우 사용자 이름 및 암호를 사용하여 로그"
-"인할 수 있습니다.  이렇게 하려면 AzureUser가 암호를 사용하지 않고 루트 권한으"
-"로 명령을 실행할 수 있도록 허용해야 합니다.  이 작업을 수행하려면 [path]``/"
-"etc/sudoers.d/ waagent`` 파일을 열고 다음 줄을 추가하거나 편집합니다."
+"클라우드 공급자가 Microsoft Azure인 경우 사용자 이름 및 암호를 사용하여 로그인할 수 있습니다.  이렇게 하려면 "
+"AzureUser가 암호를 사용하지 않고 루트 권한으로 명령을 실행할 수 있도록 허용해야 합니다.  이 작업을 수행하려면 [path]``/"
+"etc/sudoers.d/waagent`` 파일을 열고 다음 줄을 추가하거나 편집합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-pubcloud.adoc:24
@@ -8963,13 +8906,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:24
-#, fuzzy
 msgid "Run command:"
 msgstr "명령 실행:"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:25
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "subscription-manager activate\n"
 msgstr "subscription-manager activate\n"
 
@@ -9196,7 +9138,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:52
 #: modules/client-configuration/pages/clients-sleses.adoc:43
 msgid "The details you need for this procedure are:"
-msgstr "이 절차에 필요한 상세 정보는 다음과 같습니다."
+msgstr "이 프로시저에 필요한 상세 정보는 다음과 같습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:55
@@ -9333,7 +9275,7 @@ msgstr "Red Hat 채널- CLI"
 #. type: Table
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:72
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:69
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -10167,19 +10109,16 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:7
-#, fuzzy
 msgid "{sles} for SAP"
-msgstr "SAP용 {sles}"
+msgstr "{sles} for SAP"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:8
-#, fuzzy
 msgid "{sle} Desktop"
-msgstr "{sle} Desktop"
+msgstr "{sle} 데스크톱"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:9
-#, fuzzy
 msgid "{sle}"
 msgstr "{sle}"
 
@@ -10190,7 +10129,6 @@ msgstr "{sle} Real Time"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:11
-#, fuzzy
 msgid ""
 "You can also use these instructions for older {sle} versions and service "
 "packs."
@@ -10420,8 +10358,8 @@ msgid ""
 "For more information on transactional updates, see https://documentation."
 "suse.com/sles/15-SP3/html/SLES-all/cha-transactional-updates.html"
 msgstr ""
-"트랜잭션 업데이트에 대한 자세한 내용은 link:https://documentation.suse.com/"
-"sles/15-SP3/html/SLES-all/cha-transactional-updates.html[]에서 참조하십시오."
+"트랜잭션 업데이트에 대한 자세한 내용은 https://documentation.suse.com/sles/15-SP3/html/"
+"SLES-all/cha-transactional-updates.html에서 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:10
@@ -10665,8 +10603,7 @@ msgid ""
 "{productname} requires tools channels that contain additional software.  "
 "This procedure creates these tools channels:"
 msgstr ""
-"{productname}에는 추가 소프트웨어가 포함된 도구 채널이 필요합니다.   이 절차"
-"에서는 이러한 도구 채널을 생성합니다."
+"{productname}에는 추가 소프트웨어가 포함된 도구 채널이 필요합니다.   이 프로시저에서는 이러한 도구 채널을 생성합니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-sleses.adoc:19
@@ -10710,7 +10647,7 @@ msgstr "ES 채널 - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-sleses.adoc:24
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -11809,9 +11746,7 @@ msgstr "구성 파일, 디렉토리 또는 심볼 링크 추가"
 msgid ""
 "When you have created a configuration channel you can add a configuration "
 "file, directory, or symbolic link:"
-msgstr ""
-"구성 채널을 생성했으면 이제 구성 파일, 디렉토리 또는 심볼 링크 link:를 추가"
-"할 수 있습니다."
+msgstr "구성 채널을 생성했으면 이제 구성 파일, 디렉토리 또는 심볼 링크를 추가할 수 있습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:39
@@ -13398,8 +13333,8 @@ msgid ""
 "For more information about the [path]``/etc/salt/minion`` configuration "
 "file, see https://docs.saltstack.com/en/latest/ref/configuration/minion.html."
 msgstr ""
-"[path]``/etc/salt/minion`` 구성 파일에 대한 자세한 내용은 link:https://docs."
-"saltstack.com/en/latest/ref/configuration/minion.html[]을 참조하십시오."
+"[path]``/etc/salt/minion`` 구성 파일에 대한 자세한 내용은 https://docs.saltstack.com/en/"
+"latest/ref/configuration/minion.html을 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/contact-methods-salt.adoc:1
@@ -13723,8 +13658,8 @@ msgid ""
 "For more information about Salt SSH, see https://docs.saltstack.com/en/"
 "latest/topics/ssh/."
 msgstr ""
-"Salt SSH에 대한 자세한 내용은 link:https://docs.saltstack.com/en/latest/"
-"topics/ssh/[]에서 참조하십시오."
+"Salt SSH에 대한 자세한 내용은 https://docs.saltstack.com/en/latest/topics/ssh/에서 "
+"참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:1
@@ -15294,7 +15229,6 @@ msgstr "curl -Sks https://server_hostname/pub/bootstrap/bootstrap-sles15.sh | /b
 
 #. type: delimited block =
 #: modules/client-configuration/pages/registration-bootstrap.adoc:47
-#, fuzzy
 msgid ""
 "To avoid problems, make sure the bootstrap script is executed using "
 "[command]``bash``."
@@ -15302,10 +15236,6 @@ msgstr "문제를 해결하려면 [command]``bash`` 명령을 사용하여 부�
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:48
-#, fuzzy
-#| msgid ""
-#| "The script downloads the required dependencies located in the "
-#| "repositories directory you created earlier."
 msgid ""
 "This script downloads the required dependencies located in the repositories "
 "directory you created earlier."
@@ -15401,18 +15331,17 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-cli.adoc:10
-#, fuzzy
 msgid ""
 "In the file add or edit the FQDN of the {productname} Server or Proxy, and "
 "the activation key if any. Also add the other configuration parameters "
 "listed below."
 msgstr ""
 "파일에서 {productname} 서버 또는 프록시의 FQDN과 활성화 키(있는 경우)를 추가하거나 편집합니다. 또한 아래 나열된 다른 "
-"구성 매개변수를 추가합니다."
+"구성 파라미터를 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-cli.adoc:11
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "master: SERVER.EXAMPLE.COM\n"
 msgstr "master: SERVER.EXAMPLE.COM\n"
 
@@ -21958,16 +21887,11 @@ msgid ""
 "(normal or LTSS) to be supported with {productname}.  For details on "
 "supported product versions, see https://www.suse.com/lifecycle."
 msgstr ""
-"클라이언트 운영 체제 버전 및 SP 수준에는 {productname}로 지원될 일반 지원(일"
-"반 또는 LTSS)이 적용되어야 합니다.  지원되는 제품 버전에 대한 상세 정보는 "
-"link:https://www.suse.com/lifecycle[]를 참조하십시오."
+"클라이언트 운영 체제 버전 및 SP 수준에는 {productname}로 지원될 일반 지원(일반 또는 LTSS)이 적용되어야 합니다.  "
+"지원되는 제품 버전에 대한 상세 정보는 https://www.suse.com/lifecycle에서 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features.adoc:11
-#, fuzzy
-#| msgid ""
-#| "The operating system you run on a client is supported by the organization "
-#| "that supplies the operating system."
 msgid ""
 "The operating system running on a client is supported by the organization "
 "that supplies the operating system."
@@ -22679,7 +22603,7 @@ msgstr "menu:그룹[조인] 탭으로 이동합니다."
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:18
 msgid "Check the group to join and click btn:[Join Selected Groups]."
-msgstr "조인할 그룹의 확인란을 선택하고 btn:[선택한 그룹 조인]을 클릭합니다"
+msgstr "조인할 그룹의 확인란을 선택하고 btn:[선택한 그룹 조인]을 클릭합니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/system-groups.adoc:19
@@ -23024,9 +22948,8 @@ msgstr "{sle} 및 {opensuse} (zypp-based) vs {rhel} 또는 {debian} 클라이언
 
 #. type: delimited block =
 #: modules/client-configuration/pages/system-locking.adoc:26
-#, fuzzy
 msgid "Traditional versus Salt clients."
-msgstr "기존 클라이언트 vs Salt 클라이언트."
+msgstr "기존 클라이언트와 Salt 클라이언트 비교"
 
 #. type: Title ===
 #: modules/client-configuration/pages/system-locking.adoc:27
@@ -24567,7 +24490,6 @@ msgstr "Minion이 작동 중지되거나 연결할 수 없습니다.\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:107
-#, fuzzy
 msgid ""
 "In this case try rescheduling the action.  If rescheduling succeeds, the "
 "cause of the problem can be a wrong DNS configuration."
@@ -24576,7 +24498,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:108
-#, fuzzy
 msgid ""
 "When the Salt client is restarted, or in case the grains are refreshed, the "
 "client calculates its FQDN grains, and it is unresponsive until the grains "
@@ -24591,7 +24512,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:109
-#, fuzzy
 msgid ""
 "By default, {productname} Server waits for 5 seconds to get the response "
 "from ``test.ping`` command.  If the response is not received within 5 "
@@ -24603,7 +24523,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:110
-#, fuzzy
 msgid ""
 "To correct this, fix the DNS resolution on the client, so the client does "
 "not get stuck for 5 seconds while solving its FQDN."
@@ -24638,7 +24557,7 @@ msgstr "그리고 다음을 사용하여 ``spacewalk-services``를 다시 시작
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:115
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "spacewalk-services restart\n"
 msgstr "spacewalk-services restart\n"
 
@@ -25504,8 +25423,7 @@ msgstr "클러스터에서 관리 노드까지 ``skuba`` 구성 디렉토리를 
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:43
-#, fuzzy, no-wrap
-#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
+#, no-wrap
 msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
 msgstr ""
 "클러스터가 부트스트래핑된 후 ``skuba`` 서비스가 생성하는 디렉토리입니다. {productname} {webui}에 클러스터를 "
@@ -26926,8 +26844,8 @@ msgid ""
 "For more information about Nutanix integrations, see https://www.nutanix.com/"
 "partners/technology-alliances/suse"
 msgstr ""
-"Nutanix 통합에 대한 자세한 내용은 link:https://www.nutanix.com/partners/"
-"technology-alliances/suse[]에서 참조하십시오."
+"Nutanix 통합에 대한 자세한 내용은 https://www.nutanix.com/partners/technology-alliances/"
+"suse에서 참조하십시오."
 
 #. type: Target for macro image
 #: modules/client-configuration/pages/vhm-nutanix.adoc:4
@@ -27155,8 +27073,8 @@ msgid ""
 "For more on users, roles, and permissions, see the VMWare vSphere "
 "documentation: https://docs.vmware.com/en/VMware-vSphere/index.html"
 msgstr ""
-"사용자, 역할 및 권한에 대한 자세한 내용은 VMWare vSphere 문서: link:https://"
-"docs.vmware.com/en/VMware-vSphere/index.html[]에서 참조하십시오."
+"사용자, 역할 및 권한에 대한 자세한 내용은 VMWare vSphere 문서(https://docs.vmware.com/en/"
+"VMware-vSphere/index.html)에서 참조하십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-vmware.adoc:10
@@ -27457,8 +27375,7 @@ msgstr "절차: 관리 노드 구성"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:18
-#, fuzzy, no-wrap
-#| msgid "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped. Take a note of the new file location for adding the cluster in the {productname} {webui}."
+#, no-wrap
 msgid ""
 "This is the directory that the ``skuba`` service creates after the cluster has been bootstrapped.\n"
 "Take a note of the new file location for adding the cluster in the {productname} {webui}.\n"
@@ -27468,8 +27385,7 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:19
-#, fuzzy, no-wrap
-#| msgid "Provide a way to authenticate."
+#, no-wrap
 msgid "Provide a way to authenticate.\n"
 msgstr "인증 방식을 입력합니다.\n"
 
@@ -27611,10 +27527,9 @@ msgid ""
 "documentation.suse.com/suse-caasp/4.2/single-html/caasp-deployment/"
 "#_disabling_swap"
 msgstr ""
-"클러스터에 노드를 추가하기 전에 몇 가지 수동 구성을 해야 할 수 있습니다.  시"
-"스템이 {caasp} 노드로 배타적으로 사용되고 있고 스왑이 꺼져 있는지 확인하십시"
-"오.  자세한 내용은 link:https://documentation.suse.com/suse-caasp/4.2/single-"
-"html/caasp-deployment/#_disabling_swap[]에서 참조하십시오."
+"클러스터에 노드를 추가하기 전에 몇 가지 수동 구성을 해야 할 수 있습니다.  시스템이 {caasp} 노드로 배타적으로 사용되고 있고 "
+"스왑이 꺼져 있는지 확인하십시오.  자세한 내용은 https://documentation.suse.com/suse-caasp/4.2/"
+"single-html/caasp-deployment/#_disabling_swap에서 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:59
@@ -28715,9 +28630,7 @@ msgstr "절차: 클러스터 관리형 가상 게스트 생성"
 msgid ""
 "Follow the ``Creating a Virtual Guest`` procedure on one of the nodes of the "
 "cluster with the following additions:"
-msgstr ""
-"다음을 추가하여 클러스터 노드 중 하나에서 ``가상 게스트 만들기`` 절차를 따르"
-"십시오."
+msgstr "다음을 추가하여 클러스터 노드 중 하나에서 ``가상 게스트 만들기`` 프로시저를 따르십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:33
