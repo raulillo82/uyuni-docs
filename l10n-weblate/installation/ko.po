@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-28 10:11+0000\n"
-"PO-Revision-Date: 2022-02-17 05:00+0000\n"
+"PO-Revision-Date: 2022-02-17 09:12+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-425/ko/>\n"
@@ -1306,9 +1306,7 @@ msgstr ""
 #: modules/installation/pages/general-requirements.adoc:21
 msgid ""
 "For more information about using SCC, see https://scc.suse.com/docs/help."
-msgstr ""
-"SCC 사용에 대한 자세한 내용은 link:https://scc.suse.com/docs/help[]에서 참조"
-"하십시오."
+msgstr "SCC 사용에 대한 자세한 내용은 https://scc.suse.com/docs/help에서 참조하십시오."
 
 #. type: Title ==
 #: modules/installation/pages/general-requirements.adoc:22
@@ -3743,8 +3741,8 @@ msgid ""
 "For more information on virtualization, see https://documentation.suse.com/"
 "sles/15-SP3/html/SLES-all/book-virtualization.html."
 msgstr ""
-"가상화에 대한 자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/"
-"html/SLES-all/book-virtualization.html[]을 참조하십시오."
+"가상화에 대한 자세한 내용은 https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
+"book-virtualization.html을 참조하십시오."
 
 #. type: Title ==
 #: modules/installation/pages/install-vm.adoc:10
@@ -7544,10 +7542,9 @@ msgid ""
 "credentials give you access to the {suse} product downloads.  You will find "
 "your organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"소프트웨어 리포지토리를 SCC와 동기화하기 전, {productname}에 조직 인증서를 입"
-"력해야 합니다. 조직 인증서를 통해 {suse} 제품 다운로드에 액세스할 수 있습니"
-"다. link:https://scc.suse.com/organizations[]에서 조직 인증서는 찾을 수 있습"
-"니다."
+"소프트웨어 리포지토리를 SCC와 동기화하기 전, {productname}에 조직 인증서를 입력해야 합니다. 조직 인증서를 통해 {suse}"
+" 제품 다운로드에 액세스할 수 있습니다. https://scc.suse.com/organizations에서 조직 인증서는 찾을 수 "
+"있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-server-setup.adoc:43
