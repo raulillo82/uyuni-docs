@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:14+0000\n"
-"PO-Revision-Date: 2022-02-18 20:12+0000\n"
+"PO-Revision-Date: 2022-02-19 00:12+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-422/ko/>\n"
@@ -1537,7 +1537,8 @@ msgstr ""
 msgid ""
 "For more information about KIWI, see http://doc.opensuse.org/projects/kiwi/"
 "doc/."
-msgstr "KIWI에 대한 자세한 정보는 http://doc.opensuse.org/projects/kiwi/doc/에서 참조하십시오."
+msgstr ""
+"KIWI에 대한 자세한 정보는 link:http://doc.opensuse.org/projects/kiwi/doc/[]에서 참조하십시오."
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-cdrom.adoc:21
@@ -1795,8 +1796,8 @@ msgid ""
 "operating systems, you can download installation media from https://www.suse."
 "com/download/."
 msgstr ""
-"{productname} 서버에 설치 미디어를 복사합니다.  {suse} 운영 체제의 경우 https://www.suse.com/"
-"download/에서 설치 미디어를 다운로드할 수 있습니다."
+"{productname} 서버에 설치 미디어를 복사합니다.  {suse} 운영 체제의 경우 link:https://www.suse.com/"
+"download/[]에서 설치 미디어를 다운로드할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-distributions.adoc:11
@@ -2199,8 +2200,8 @@ msgid ""
 "The autoinstallation features of SUSE Manager are based on a software named "
 "Cobbler.  For more information, see https://cobbler.github.io/quickstart/."
 msgstr ""
-"SUSE Manager의 자동 설치 기능은 Cobbler 소프트웨어를 기반으로 합니다.  자세한 설명은 https://cobbler."
-"github.io/quickstart/를 참조하십시오."
+"SUSE Manager의 자동 설치 기능은 Cobbler 소프트웨어를 기반으로 합니다.  자세한 설명은 "
+"link:https://cobbler.github.io/quickstart/[]를 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:1
@@ -2751,8 +2752,8 @@ msgid ""
 "configuration-installation-options."
 msgstr ""
 "{ay} 설치 파일은 {ay} 설치 프로그램에 방향을 제공하는 XML 파일입니다. {ay}에서는 이 파일을 \"제어 파일\"이라고 "
-"부릅니다.  {ay} 설치 파일의 전체 구문은 https://doc.opensuse.org/projects/autoyast/#cha-"
-"configuration-installation-options를 참조하십시오."
+"부릅니다.  {ay} 설치 파일의 전체 구문은 link:https://doc.opensuse.org/projects/autoyast/"
+"#cha-configuration-installation-options[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:43
@@ -2767,9 +2768,9 @@ msgid ""
 "autoinst-profiles#variables[Variables]."
 msgstr ""
 "{suse}는 사용자 정의 파일의 시작점으로 사용할 수 있는 {ay} 설치 파일의 템플릿을 제공합니다.  이 템플릿은 이름이 "
-"[path]``AutoYast``인 디렉토리의 https://github.com/SUSE/manager-build-profiles에서 "
-"확인할 수 있습니다.  이러한 각 프로파일은 사용하기 전 일부 변수를 설정해야 합니다.  필요한 변수는 스크립트에 포함된 "
-"[path]``README`` 파일에서 확인합니다.  {ay} 스크립트에서 변수 사용에 대한 자세한 설명은 xref:client-"
+"[path]``AutoYast``인 디렉토리의 link:https://github.com/SUSE/manager-build-"
+"profiles[]에서 확인할 수 있습니다.  이러한 각 프로파일은 사용하기 전 일부 변수를 설정해야 합니다.  필요한 변수는 스크립트에 "
+"포함된 [path]``README`` 파일에서 확인합니다.  {ay} 스크립트에서 변수 사용에 대한 자세한 설명은 xref:client-"
 "configuration:autoinst-profiles#variables[변수]를 참조하십시오."
 
 #. type: Plain text
@@ -2811,16 +2812,16 @@ msgid ""
 "init-scripts>`` allows the client to register to {productname} as a Salt "
 "minion."
 msgstr ""
-"``<init-scripts config:type=\"list\">$SNIPPET('spacewalk/minion_script ')</"
-"init-scripts>`` 을 사용하면 클라이언트가 {productname}를 Salt minion으로 등록"
-"할 수 있습니다."
+"``<init-scripts config:type=\"list\">$SNIPPET('spacewalk/minion_script"
+"')</init-scripts>`` 을 사용하면 클라이언트가 {productname}를 Salt minion으로 등록할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:49
 msgid ""
 "For more information about {ay}, see https://doc.opensuse.org/projects/"
 "autoyast/."
-msgstr "{ay}에 대한 자세한 내용은 https://doc.opensuse.org/projects/autoyast/를 참조하십시오."
+msgstr ""
+"{ay}에 대한 자세한 내용은 link:https://doc.opensuse.org/projects/autoyast/[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:50
@@ -3891,13 +3892,10 @@ msgid ""
 "been provisioned.  For more information on SSM, see xref:client-"
 "configuration:system-set-manager.adoc[]."
 msgstr ""
-"이러한 방식으로 등록된 클라이언트를 사용하여 시스템 설정 관리자(SSM)을 사용"
-"할 수 있습니다.  그러나 해당 클라이언트에 운영 체제가 아직 설치되지 않았기 때"
-"문에 모든 SSM 기능을 베어메탈 클라이언트에 사용할 수 있는 것은 아닙니다.  또"
-"한 이러한 방식으로 등록된 시스템을 포함하는 혼합 세트에서도 마찬가지입니다.  "
-"세트의 모든 클라이언트가 프로비저닝되면 세트에 모든 기능을 사용할 수 있게 됩"
-"니다.  SSM에 대한 자세한 설명은 xref:client-configuration :system-set-"
-"manager.adoc[]를 참조하십시오."
+"이러한 방식으로 등록된 클라이언트를 사용하여 시스템 설정 관리자(SSM)을 사용할 수 있습니다.  그러나 해당 클라이언트에 운영 체제가 "
+"아직 설치되지 않았기 때문에 모든 SSM 기능을 베어메탈 클라이언트에 사용할 수 있는 것은 아닙니다.  또한 이러한 방식으로 등록된 "
+"시스템을 포함하는 혼합 세트에서도 마찬가지입니다.  세트의 모든 클라이언트가 프로비저닝되면 세트에 모든 기능을 사용할 수 있게 됩니다.  "
+"SSM에 대한 자세한 설명은 xref:client-configuration:system-set-manager.adoc[]를 참조하십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/autoinst-unattended.adoc:12
@@ -4543,13 +4541,11 @@ msgid ""
 "about the CLM AppStream filters, see xref:administration:content-lifecycle-"
 "examples.adoc[]."
 msgstr ""
-"{productname} {webui}에서 AppStream 패키지를 관리할 때 패키지 업데이트에 대"
-"한 모순되는 제안을 볼 수도 있습니다.   이는 {productname}이(가) 모듈 메타데이"
-"터를 올바르게 해석할 수 없기 때문입니다.  컨텐트 라이프싸이클 관리(CLM) "
-"AppStream 필터를 사용하여 AppStream 리포지토리를 일부 업그레이드 작업에서 사"
-"용할 비모듈형 리포지토리로 변환할 수 있습니다.  CLM AppStream 필터에 대한 자"
-"세한 설명은 xref:administration:content-lifecycle- examples.adoc[]에서 참조하"
-"십시오."
+"{productname} {webui}에서 AppStream 패키지를 관리할 때 패키지 업데이트에 대한 모순되는 제안을 볼 수도 "
+"있습니다.   이는 {productname}이(가) 모듈 메타데이터를 올바르게 해석할 수 없기 때문입니다.  컨텐트 라이프싸이클 "
+"관리(CLM) AppStream 필터를 사용하여 AppStream 리포지토리를 일부 업그레이드 작업에서 사용할 비모듈형 리포지토리로 "
+"변환할 수 있습니다.  CLM AppStream 필터에 대한 자세한 설명은 xref:administration:content-"
+"lifecycle-examples.adoc[]에서 참조하십시오."
 
 #. type: Title ==
 #: modules/client-configuration/pages/channels.adoc:18
@@ -5340,8 +5336,7 @@ msgid ""
 "For more information, see xref:client-configuration:autoinst-distributions."
 "adoc[]."
 msgstr ""
-"자세한 설명은 xref:client-configuration:autoinst-distributions. adoc[]를 참조"
-"하십시오."
+"자세한 설명은 xref:client-configuration:autoinst-distributions.adoc[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:22
@@ -5400,8 +5395,8 @@ msgid ""
 "For example autoinstallation profiles, see https://github.com/SUSE/manager-"
 "build-profiles/tree/master/AutoYaST."
 msgstr ""
-"자동 설치 프로파일의 예는 https://github.com/SUSE/manager-build-profiles/tree/master/"
-"AutoYaST를 참조하십시오."
+"자동 설치 프로파일의 예는 link:https://github.com/SUSE/manager-build-profiles/tree/"
+"master/AutoYaST[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:30
@@ -5831,8 +5826,8 @@ msgid ""
 "For more information, see https://documentation.suse.com/sles/15-SP3/html/"
 "SLES-all/article-modules.html."
 msgstr ""
-"자세한 내용은 https://documentation.suse.com/sles/15-SP3/html/SLES-all/article-"
-"modules.html을 참조하십시오."
+"자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
+"article-modules.html[]을 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:42
@@ -5867,10 +5862,10 @@ msgid ""
 "https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade."
 msgstr ""
 "자동 설치 프로파일에는 시스템을 설치하는 데 필요한 모든 설치 및 구성 데이터가 포함되어 있습니다.  설치 완료 후 실행될 스크립트도 "
-"포함할 수 있습니다.  시작 지점으로 사용할 수 있는 예제 스크립트는  https://github.com/SUSE/"
-"manager-build-profiles/tree/master/AutoYaST를 참조하십시오.  유효한 AutoYaST 업그레이드 설정에 "
-"대해서는 https://doc.opensuse.org/projects/autoyast/#CreateProfile-upgrade를 "
-"참조하십시오."
+"포함할 수 있습니다.  시작 지점으로 사용할 수 있는 예제 스크립트는  link:https://github.com/SUSE/"
+"manager-build-profiles/tree/master/AutoYaST[]를 참조하십시오.  유효한 AutoYaST 업그레이드 "
+"설정에 대해서는 link:https://doc.opensuse.org/projects/autoyast/#CreateProfile-"
+"upgrade[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:48
@@ -6101,8 +6096,8 @@ msgid ""
 msgstr ""
 "{scc}가 제공하는 경우 {suse}는 {sle}{nbsp}12 이상 버전에서 서비스 팩 건너뛰기를 지원합니다. 예를 들어, SP1을 "
 "설치하지 않아도 {sle}{nbsp}15에서 SP2로 업그레이드할 수 있습니다. 지원되는 {sle} 업그레이드 경로는 "
-"https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-upgrade-paths."
-"html#sec-upgrade-paths-supported를 참조하십시오."
+"link:https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-upgrade-"
+"paths.html#sec-upgrade-paths-supported[]를 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:9
@@ -6112,10 +6107,9 @@ msgid ""
 "15.  For more information about major upgrades, see xref:client-"
 "configuration:client-upgrades-major.adoc[]."
 msgstr ""
-"제품 마이그레이션은 동일한 주 버전 내에서 업그레이드하기 위한 것입니다.  제"
-"품 마이그레이션을 사용하여 {sle}{nbsp}12에서 {sle}{nbsp}15으로 마이그레이션"
-"할 수는 없습니다.  주 업그레이드에 대한 자세한 설명은 xref:client-"
-"configuration :client-upgrades-major.adoc[]를 참조하십시오."
+"제품 마이그레이션은 동일한 주 버전 내에서 업그레이드하기 위한 것입니다.  제품 마이그레이션을 사용하여 {sle}{nbsp}12에서 "
+"{sle}{nbsp}15으로 마이그레이션할 수는 없습니다.  주 업그레이드에 대한 자세한 설명은 xref:client-"
+"configuration:client-upgrades-major.adoc[]를 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:10
@@ -6550,8 +6544,8 @@ msgid ""
 "cha-upgrade-paths.html"
 msgstr ""
 "{suse} 운영 체제를 사용하는 SCC 등록 클라이언트의 경우 {productname} {webui} 내에서 업그레이드를 수행할 수 "
-"있습니다. 지원되는 {sle}{nbsp}15 업그레이드 경로는 https://documentation.suse.com/sles/"
-"15-SP3/html/SLES-all/cha-upgrade-paths.html에서 참조하십시오."
+"있습니다. 지원되는 {sle}{nbsp}15 업그레이드 경로는 link:https://documentation.suse.com/sles/"
+"15-SP3/html/SLES-all/cha-upgrade-paths.html[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades.adoc:4
@@ -6917,8 +6911,8 @@ msgid ""
 "For more information about client registration, see xref:client-"
 "configuration:registration-overview.adoc[]."
 msgstr ""
-"클라이언트 등록에 대한 자세한 설명은 xref:client-configuration :registration-"
-"overview.adoc[]을 참조하십시오."
+"클라이언트 등록에 대한 자세한 설명은 xref:client-configuration:registration-overview.adoc[]을 "
+"참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-almalinux.adoc:1
@@ -7089,9 +7083,8 @@ msgid ""
 "For more information, see xref:client-configuration:registration-overview."
 "adoc[]."
 msgstr ""
-"{almalinux} 클라이언트는 기타 모든 클라이언트와 동일한 방식으로 등록됩니"
-"다.   자세한 설명은 xref:client-configuration:registration-overview. adoc[]"
-"를 참조하십시오."
+"{almalinux} 클라이언트는 기타 모든 클라이언트와 동일한 방식으로 등록됩니다.   자세한 설명은 xref:client-"
+"configuration:registration-overview.adoc[]를 참조하십시오."
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-almalinux.adoc:27
@@ -7330,7 +7323,7 @@ msgid ""
 msgstr ""
 "현재 {centos} 6는 수명이 종료되었으며 리포지토리에서 제공되는 ISO 이미지는 최신이 아닙니다.  이러한 패키지를 사용하여 새 "
 "{centos} 6 클라이언트를 부트스트래핑하면 실패하게 됩니다.  새 {centos} 6 클라이언트를 부트스트랩하려면 xref"
-":client-configuration:tshoot- clients.adoc[]의 문제 해결 프로시저를 따르십시오."
+":client-configuration:tshoot-clients.adoc[]의 문제 해결 프로시저를 따르십시오."
 
 #. type: Table
 #: modules/client-configuration/pages/clients-centos.adoc:14
@@ -7450,9 +7443,9 @@ msgid ""
 msgstr ""
 "CEFS의 원저자는 도움이 됐으면 하는 마음으로 최선을 다해 패치나 정오표를 제공하지만 정확성이나 최신 상태를 보장하지는 않습니다.   "
 "따라서 패치 날짜가 부정확할 수 있습니다. 한번은 게시 날짜가 한 달 이상 늦은 날짜로 표시된 적도 있습니다.  이러한 경우에 대한 "
-"자세한 내용은 https://github.com/stevemeier/cefs/issues/28#issuecomment-656579382 "
-"및 https://github.com/stevemeier/cefs/issues/28#issuecomment-656573607을 "
-"참조하십시오."
+"자세한 내용은 link:https://github.com/stevemeier/cefs/issues/28#issuecomment-"
+"656579382 및 https://github.com/stevemeier/cefs/issues/"
+"28#issuecomment-656573607[]을 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:36
@@ -7605,7 +7598,7 @@ msgstr "ln -s /usr/local/bin/cent-errata.sh /etc/cron.daily\n"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-centos.adoc:53
 msgid "For more information on this tool, see https://cefs.steve-meier.de/."
-msgstr "이 도구에 대한 자세한 내용은 https://cefs.steve-meier.de/를 참조하십시오."
+msgstr "이 도구에 대한 자세한 내용은 link:https://cefs.steve-meier.de/[]를 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-debian.adoc:1
@@ -8284,7 +8277,7 @@ msgid ""
 "repositories are freely available for download from https://yum.oracle.com/."
 msgstr ""
 "{oracle} 리포지토리 URL은 {scc}가 제공하지만 패키지 및 메타데이터는 {suse}가 아닌 Oracle이 제공합니다.  "
-"{oracle} 기본 미디어 리포지토리는 https://yum.oracle.com/에서 무료로 다운로드할 수 있습니다."
+"{oracle} 기본 미디어 리포지토리는 link:https://yum.oracle.com/[]에서 무료로 다운로드할 수 있습니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-oracle.adoc:4
@@ -8337,7 +8330,7 @@ msgid ""
 msgstr ""
 "현재 {oracle} 6는 수명이 종료되었으며 리포지토리에서 제공되는 ISO 이미지는 최신이 아닙니다. 이러한 패키지를 사용하여 새 "
 "{oracle} 6 클라이언트를 부트스트래핑하면 실패하게 됩니다. 새 {oracle} 6 클라이언트를 부트스트랩하려면 xref"
-":client-configuration:tshoot- clients.adoc[]의 문제 해결 프로시저를 따르십시오."
+":client-configuration:tshoot-clients.adoc[]의 문제 해결 프로시저를 따르십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-oracle.adoc:12
@@ -8559,8 +8552,8 @@ msgid ""
 "For instructions on registering {productname} to {scc}, see xref:"
 "installation:server-setup.adoc[]."
 msgstr ""
-"{productname}을(를) {scc}에 등록하는 지침은 xref:installation :server-setup."
-"adoc[]에서 참조하십시오."
+"{productname}을(를) {scc}에 등록하는 지침은 xref:installation:server-setup.adoc[]에서 "
+"참조하십시오."
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-pubcloud.adoc:19
@@ -8697,8 +8690,7 @@ msgid ""
 "For more on activation keys, see xref:client-configuration:activation-keys."
 "adoc[]."
 msgstr ""
-"활성화 키에 대한 자세한 설명은 xref:client-configuration:activation-keys. "
-"adoc[]에서 참조하십시오."
+"활성화 키에 대한 자세한 설명은 xref:client-configuration:activation-keys.adoc[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:1
@@ -9177,7 +9169,7 @@ msgid ""
 msgstr ""
 "현재 {redhat} 6는 수명이 종료되었으며 리포지토리에서 제공되는 ISO 이미지는 최신이 아닙니다. 이러한 패키지를 사용하여 새 "
 "{redhat} 6 클라이언트를 부트스트래핑하면 실패하게 됩니다. 새 {redhat} 6 클라이언트를 부트스트랩하려면 xref"
-":client-configuration:tshoot- clients.adoc[]의 문제 해결 프로시저를 따르십시오."
+":client-configuration:tshoot-clients.adoc[]의 문제 해결 프로시저를 따르십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:59
@@ -9895,7 +9887,7 @@ msgid ""
 msgstr ""
 "[channel_label]\n"
 "X-RHUI-ID=value\n"
-" X-RHUI-SIGNATURE=value\n"
+"X-RHUI-SIGNATURE=value\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:86
@@ -10307,8 +10299,8 @@ msgid ""
 "For more information on transactional updates, see https://documentation."
 "suse.com/sles/15-SP3/html/SLES-all/cha-transactional-updates.html"
 msgstr ""
-"트랜잭션 업데이트에 대한 자세한 내용은 https://documentation.suse.com/sles/15-SP3/html/"
-"SLES-all/cha-transactional-updates.html에서 참조하십시오."
+"트랜잭션 업데이트에 대한 자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/html/"
+"SLES-all/cha-transactional-updates.html[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:10
@@ -10543,7 +10535,7 @@ msgid ""
 msgstr ""
 "현재 {es} 6는 수명이 종료되었으며 리포지토리에서 제공되는 ISO 이미지는 최신이 아닙니다.  이러한 패키지를 사용하여 새 {es} "
 "6 클라이언트를 부트스트래핑하면 실패하게 됩니다.  새 {redhat} 6 클라이언트를 부트스트랩하려면 xref:client-"
-"configuration:tshoot- clients.adoc[]의 문제 해결 프로시저를 따르십시오."
+"configuration:tshoot-clients.adoc[]의 문제 해결 프로시저를 따르십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:18
@@ -10584,7 +10576,7 @@ msgid ""
 msgstr ""
 "현재 {es} 6는 수명이 종료되었으며 리포지토리에서 제공되는 ISO 이미지는 최신이 아닙니다.  이러한 패키지를 사용하여 새 {es} "
 "6 클라이언트를 부트스트래핑하면 실패하게 됩니다.  새 {es} 6 클라이언트를 부트스트랩하려면 xref:client-"
-"configuration:tshoot- clients.adoc[]의 문제 해결 프로시저를 따르십시오."
+"configuration:tshoot-clients.adoc[]의 문제 해결 프로시저를 따르십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-sleses.adoc:23
@@ -10921,7 +10913,7 @@ msgid ""
 msgstr ""
 "현재 {ubuntu} 16.04는 수명이 종료되었으며 리포지토리에서 제공되는 ISO 이미지는 최신이 아닙니다.  이러한 패키지를 사용하여 "
 "새 {ubuntu} 16.04 클라이언트를 부트스트래핑하면 실패하게 됩니다.  새 {ubuntu} 16.04 클라이언트를 부트스트랩하려면 "
-"xref:client-configuration:tshoot- clients.adoc[]의 문제 해결 프로시저를 따르십시오."
+"xref:client-configuration:tshoot-clients.adoc[]의 문제 해결 프로시저를 따르십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:15
@@ -13277,8 +13269,8 @@ msgid ""
 "For more information about the [path]``/etc/salt/minion`` configuration "
 "file, see https://docs.saltstack.com/en/latest/ref/configuration/minion.html."
 msgstr ""
-"[path]``/etc/salt/minion`` 구성 파일에 대한 자세한 내용은 https://docs.saltstack.com/en/"
-"latest/ref/configuration/minion.html을 참조하십시오."
+"[path]``/etc/salt/minion`` 구성 파일에 대한 자세한 내용은 link:https://docs.saltstack.com/"
+"en/latest/ref/configuration/minion.html[]을 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/contact-methods-salt.adoc:1
@@ -13602,8 +13594,8 @@ msgid ""
 "For more information about Salt SSH, see https://docs.saltstack.com/en/"
 "latest/topics/ssh/."
 msgstr ""
-"Salt SSH에 대한 자세한 내용은 https://docs.saltstack.com/en/latest/topics/ssh/에서 "
-"참조하십시오."
+"Salt SSH에 대한 자세한 내용은 link:https://docs.saltstack.com/en/latest/topics/ssh/[]"
+"에서 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:1
@@ -13804,8 +13796,8 @@ msgid ""
 "For more information about configuration management, see xref:client-"
 "configuration:configuration-management.adoc[]."
 msgstr ""
-"구성 관리에 대한 자세한 설명은 xref:client- configuration:configuration-"
-"management.adoc[]에서 참조하십시오."
+"구성 관리에 대한 자세한 설명은 xref:client-configuration:configuration-management.adoc[]"
+"에서 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/delete-clients.adoc:1
@@ -14986,11 +14978,10 @@ msgid ""
 "resolve this error, see ``Registering Older Clients`` at xref:client-"
 "configuration:tshoot-clients.adoc[]."
 msgstr ""
-"{centos}{nbsp}6, {oracle}{nbsp}6, {rhel}{nbsp}6 또는 {sleses}{nbsp}6 클라이언"
-"트를 등록하고 사용하려면 {productname} 서버가 이전 형식의 SSL 암호화를 지원하"
-"도록 구성해야 합니다.  이 오류를 해결하는 방법에 대한 자세한 내용은 xref:"
-"client-configuration:tshoot-clients.adoc에서 ``이전 클라이언트 등록``을 참조"
-"하십시오."
+"{centos}{nbsp}6, {oracle}{nbsp}6, {rhel}{nbsp}6 또는 {sleses}{nbsp}6 클라이언트를 "
+"등록하고 사용하려면 {productname} 서버가 이전 형식의 SSL 암호화를 지원하도록 구성해야 합니다.  이 오류를 해결하는 방법에 "
+"대한 자세한 내용은 xref:client-configuration:tshoot-clients.adoc[]에서 ``이전 클라이언트 등록``"
+"을 참조하십시오."
 
 #. type: Title ==
 #: modules/client-configuration/pages/registration-bootstrap.adoc:25
@@ -15819,10 +15810,9 @@ msgid ""
 "``Registering Older Clients`` at xref:client-configuration:tshoot-clients."
 "adoc[]."
 msgstr ""
-"{centos}{nbsp}6, {oracle}{nbsp}6, {rhel}{nbsp}6 또는 {sleses}{nbsp}6 클라이언"
-"트를 등록하고 사용하려면 {productname} 서버가 이전 형식의 SSL 암호화를 지원하"
-"도록 구성해야 합니다.  자세한 설명은 xref:client-configuration:tshoot-"
-"clients. adoc[]에서 ``기존 클라이언트 등록``을 참조하십시오."
+"{centos}{nbsp}6, {oracle}{nbsp}6, {rhel}{nbsp}6 또는 {sleses}{nbsp}6 클라이언트를 "
+"등록하고 사용하려면 {productname} 서버가 이전 형식의 SSL 암호화를 지원하도록 구성해야 합니다.  자세한 설명은 xref"
+":client-configuration:tshoot-clients.adoc[]에서 ``기존 클라이언트 등록``을 참조하십시오."
 
 #. type: Title =
 #: modules/client-configuration/pages/repositories.adoc:1
@@ -21797,7 +21787,7 @@ msgid ""
 "supported product versions, see https://www.suse.com/lifecycle."
 msgstr ""
 "클라이언트 운영 체제 버전 및 SP 수준에는 {productname}로 지원될 일반 지원(일반 또는 LTSS)이 적용되어야 합니다.  "
-"지원되는 제품 버전에 대한 상세 정보는 https://www.suse.com/lifecycle에서 참조하십시오."
+"지원되는 제품 버전에 대한 상세 정보는 link:https://www.suse.com/lifecycle[]에서 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features.adoc:11
@@ -24431,10 +24421,9 @@ msgid ""
 "clusters.  For more information on VHMs, see xref:client-configuration:vhm."
 "adoc[]."
 msgstr ""
-"가상 호스트 관리자(VHM)을 사용하여 {caasp} 클러스터를 관리할 수 있습니다.  "
-"VHM을 통해 {productname}는 클러스터에 대한 정보를 획득 및 보고할 수 있습니"
-"다.  VHM에 대한 자세한 설명은 xref:client-configuration:vhm. adoc[]을 참조하"
-"십시오."
+"가상 호스트 관리자(VHM)을 사용하여 {caasp} 클러스터를 관리할 수 있습니다.  VHM을 통해 {productname}는 "
+"클러스터에 대한 정보를 획득 및 보고할 수 있습니다.  VHM에 대한 자세한 설명은 xref:client-configuration:vhm."
+"adoc[]을 참조하십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/vhm-caasp.adoc:3
@@ -26201,8 +26190,8 @@ msgid ""
 "For more information about Nutanix integrations, see https://www.nutanix.com/"
 "partners/technology-alliances/suse"
 msgstr ""
-"Nutanix 통합에 대한 자세한 내용은 https://www.nutanix.com/partners/technology-alliances/"
-"suse에서 참조하십시오."
+"Nutanix 통합에 대한 자세한 내용은 link:https://www.nutanix.com/partners/"
+"technology-alliances/suse[]에서 참조하십시오."
 
 #. type: Target for macro image
 #: modules/client-configuration/pages/vhm-nutanix.adoc:4
@@ -26430,8 +26419,8 @@ msgid ""
 "For more on users, roles, and permissions, see the VMWare vSphere "
 "documentation: https://docs.vmware.com/en/VMware-vSphere/index.html"
 msgstr ""
-"사용자, 역할 및 권한에 대한 자세한 내용은 VMWare vSphere 문서(https://docs.vmware.com/en/"
-"VMware-vSphere/index.html)에서 참조하십시오."
+"사용자, 역할 및 권한에 대한 자세한 내용은 VMWare vSphere 문서(link:https://docs.vmware.com/en/"
+"VMware-vSphere/index.html[])에서 참조하십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-vmware.adoc:10
@@ -26885,8 +26874,8 @@ msgid ""
 "#_disabling_swap"
 msgstr ""
 "클러스터에 노드를 추가하기 전에 몇 가지 수동 구성을 해야 할 수 있습니다.  시스템이 {caasp} 노드로 배타적으로 사용되고 있고 "
-"스왑이 꺼져 있는지 확인하십시오.  자세한 내용은 https://documentation.suse.com/suse-caasp/4.2/"
-"single-html/caasp-deployment/#_disabling_swap에서 참조하십시오."
+"스왑이 꺼져 있는지 확인하십시오.  자세한 내용은 link:https://documentation.suse.com/suse-caasp/4."
+"2/single-html/caasp-deployment/#_disabling_swap[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:59
@@ -27311,8 +27300,8 @@ msgid ""
 "For more on {ay}, see xref:client-configuration:autoinst-profiles."
 "adoc#autoyast[]."
 msgstr ""
-"{ay}에 대한 설명은 xref:client-configuration:autoinst-profiles. "
-"adoc#autoyast[]를 참조하십시오."
+"{ay}에 대한 설명은 xref:client-configuration:autoinst-profiles.adoc#autoyast[]를 "
+"참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:51
@@ -27321,9 +27310,8 @@ msgid ""
 "adoc#kickstart[], or refer to the Red Hat documentation for your "
 "installation."
 msgstr ""
-"{kickstart}에 대한 자세한 설명은 xref:client-configuration:autoinst-"
-"profiles. adoc#kickstart[]를 참조하거나 해당 설치에 대한 Red Hat 문서를 참조"
-"하십시오."
+"{kickstart}에 대한 자세한 설명은 xref:client-configuration:autoinst-profiles."
+"adoc#kickstart[]를 참조하거나 해당 설치에 대한 Red Hat 문서를 참조하십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/virt-xenkvm.adoc:52
