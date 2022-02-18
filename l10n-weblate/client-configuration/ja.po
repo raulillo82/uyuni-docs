@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:14+0000\n"
-"PO-Revision-Date: 2022-02-15 02:12+0000\n"
+"PO-Revision-Date: 2022-02-18 02:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-422/ja/>\n"
@@ -16974,11 +16974,9 @@ msgid ""
 "However, you cannot install new client tool packages or update them until "
 "the keys are trusted."
 msgstr ""
-"デフォルトでは、オペレーティングシステムはインストール時に独自のGPGキーのみを"
-"信頼し、サードパーティパッケージが提供するキーを信頼しません。  クライアント"
-"は、GPGキーを信頼していなくても正常にブートストラップできます。   ただし、"
-"キーが信頼されるまで、新しいクライアントツールパッケージをインストールでき"
-"ず、パッケージを更新できません。"
+"デフォルトでは、オペレーティングシステムはインストール時に独自のGPGキーのみを信頼し、サードパーティパッケージが提供するキーを信頼しません。クライアント"
+"は、GPGキーを信頼していなくても正常にブートストラップできます。ただし、キーが信頼されるまで、新しいクライアントツールパッケージをインストールできず、パ"
+"ッケージを更新できません。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:2
@@ -16987,9 +16985,8 @@ msgid ""
 "bootstrapped.  For all other clients and channels, you need to manually "
 "trust third party GPG keys."
 msgstr ""
-"Saltクライアントは、ブートストラップ時に{suse}ツールチャンネルのGPGキーを信頼"
-"するように設定されています。  その他すべてのクライアントおよびチャンネルで"
-"は、サードパーティのGPGキーを手動で信頼する必要があります。"
+"Saltクライアントは、ブートストラップ時に{suse}ツールチャンネルのGPGキーを信頼するように設定されています。 "
+"その他すべてのクライアントおよびチャンネルでは、サードパーティのGPGキーを手動で信頼する必要があります。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:3
@@ -16998,9 +16995,8 @@ msgid ""
 "can use a Salt state to trust the key.  For more information on custom Salt "
 "states, see xref:salt:custom-states.adoc[]."
 msgstr ""
-"{productname}の{webui}からSaltクライアントをブートストラップしている場合、"
-"Salt状態を使用してキーを信頼することができます。  カスタムSalt状態の詳細につ"
-"いては、xref:salt:custom-states.adoc[]を参照してください。"
+"{productname}の{webui}からSaltクライアントをブートストラップしている場合、Salt状態を使用してキーを信頼することができます。カス"
+"タムSalt状態の詳細については、xref:salt:custom-states.adoc[]を参照してください。"
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:4
