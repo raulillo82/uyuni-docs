@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-02 09:58+0000\n"
-"PO-Revision-Date: 2022-02-18 21:52+0000\n"
+"PO-Revision-Date: 2022-02-18 22:23+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-425/ko/>\n"
@@ -27905,8 +27905,8 @@ msgid ""
 "For more on {ay}, see xref:client-configuration:autoinst-profiles."
 "adoc#autoyast[]."
 msgstr ""
-"{ay}에 대한 설명은 xref:client-configuration:autoinst-profiles. "
-"adoc#autoyast[]를 참조하십시오."
+"{ay}에 대한 설명은 xref:client-configuration:autoinst-profiles.adoc#autoyast[]를 "
+"참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:51
@@ -27915,9 +27915,8 @@ msgid ""
 "adoc#kickstart[], or refer to the Red Hat documentation for your "
 "installation."
 msgstr ""
-"{kickstart}에 대한 자세한 설명은 xref:client-configuration:autoinst-"
-"profiles. adoc#kickstart[]를 참조하거나 해당 설치에 대한 Red Hat 문서를 참조"
-"하십시오."
+"{kickstart}에 대한 자세한 설명은 xref:client-configuration:autoinst-profiles."
+"adoc#kickstart[]를 참조하거나 해당 설치에 대한 Red Hat 문서를 참조하십시오."
 
 #. type: Block title
 #: modules/client-configuration/pages/virt-xenkvm.adoc:52
