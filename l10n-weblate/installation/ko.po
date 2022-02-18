@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:14+0000\n"
-"PO-Revision-Date: 2022-02-17 09:12+0000\n"
+"PO-Revision-Date: 2022-02-18 12:12+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-422/ko/>\n"
@@ -508,7 +508,7 @@ msgstr ""
 #: modules/installation/pages/general-requirements.adoc:13
 #, no-wrap
 msgid "Procedure: Obtaining Your SCC Organization Credentials"
-msgstr "절차: SCC 조직 인증서 가져오기"
+msgstr "프로시저: SCC 조직 인증서 가져오기"
 
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:14
@@ -1575,7 +1575,7 @@ msgstr ""
 #: modules/installation/pages/install-server-unified.adoc:10
 #, no-wrap
 msgid "Procedure: Installing {susemgr} Server from a DVD Image"
-msgstr "절차: DVD 이미지를 사용하여 {susemgr} 서버 설치"
+msgstr "프로시저: DVD 이미지를 사용하여 {susemgr} 서버 설치"
 
 #. type: Plain text
 #: modules/installation/pages/install-ibmz.adoc:37
@@ -1774,7 +1774,7 @@ msgstr ""
 #: modules/installation/pages/install-proxy-unified.adoc:11
 #, no-wrap
 msgid "Procedure: Installing {susemgr} Proxy with the Unified Installer"
-msgstr "절차: 통합 설치 프로그램을 사용한 {susemgr} 프록시 설치"
+msgstr "프로시저: 통합 설치 프로그램을 사용한 {susemgr} 프록시 설치"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:12
@@ -1958,7 +1958,7 @@ msgstr ""
 #: modules/installation/pages/install-proxy-uyuni.adoc:3
 #, no-wrap
 msgid "Procedure: Installing {opensuse} Leap with Uyuni Proxy"
-msgstr "절차: Uyuni 프록시를 사용한 {opensuse} Leap 설치"
+msgstr "프로시저: Uyuni 프록시를 사용한 {opensuse} Leap 설치"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-uyuni.adoc:4
@@ -2154,7 +2154,7 @@ msgstr ""
 #: modules/installation/pages/install-server.adoc:8
 #, no-wrap
 msgid "Procedure: Preparing for SLES Installation"
-msgstr "절차: SLES 설치 준비"
+msgstr "프로시저: SLES 설치 준비"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy.adoc:9
@@ -2244,7 +2244,7 @@ msgstr "SUSE Manager Proxy용 SLES 변경"
 #: modules/installation/pages/install-proxy.adoc:20
 #, no-wrap
 msgid "Procedure: Changing SLES for {productname} Proxy Installation"
-msgstr "절차: {productname} 프록시를 설치하기 위해 SLES 변경"
+msgstr "프로시저: {productname} 프록시를 설치하기 위해 SLES 변경"
 
 #.  Most steps are currently needed because of 4.0 workarounds
 #. type: Plain text
@@ -2841,7 +2841,7 @@ msgstr "openSUSE Leap에 Uyuni 설치"
 #: modules/installation/pages/install-uyuni.adoc:6
 #, no-wrap
 msgid "Procedure: Installing openSUSE Leap with Uyuni"
-msgstr "절차: Uyuni를 사용한 openSUSE Leap 설치"
+msgstr "프로시저: Uyuni를 사용한 openSUSE Leap 설치"
 
 #. type: Plain text
 #: modules/installation/pages/install-uyuni.adoc:7
@@ -3030,7 +3030,7 @@ msgstr ""
 #: modules/installation/pages/install-vm.adoc:12
 #, no-wrap
 msgid "Procedure: Creating the Required Partitions with KVM"
-msgstr "절차: KVM을 사용한 필수 파티션 생성"
+msgstr "프로시저: KVM을 사용한 필수 파티션 생성"
 
 #. type: Plain text
 #: modules/installation/pages/install-vm.adoc:13
@@ -3130,7 +3130,7 @@ msgstr "JeOS for SUSE Manager 준비"
 #: modules/installation/pages/install-vm.adoc:24
 #, no-wrap
 msgid "Procedure: Preparing JeOS for {productname} Installation"
-msgstr "절차: {productname}의 설치를 위한 JeOS 준비"
+msgstr "프로시저: {productname}의 설치를 위한 JeOS 준비"
 
 #. type: Plain text
 #: modules/installation/pages/install-vm.adoc:28
@@ -3869,7 +3869,7 @@ msgstr ""
 #: modules/installation/pages/uyuni-proxy-registration.adoc:5
 #, no-wrap
 msgid "Procedure: Registering the Proxy"
-msgstr "절차: 프록시 등록"
+msgstr "프로시저: 프록시 등록"
 
 #.  This procedure badly needs a tidy-up. --LKB 2020-04-16
 #. type: Plain text
@@ -4713,7 +4713,7 @@ msgstr ""
 #: modules/installation/pages/proxy-setup.adoc:72
 #, no-wrap
 msgid "Procedure: Replacing a Traditional Proxy and Keeping the Clients Registered"
-msgstr "절차: 기존 프록시 바꾸기 및 등록된 클라이언트 유지"
+msgstr "프로시저: 기존 프록시 바꾸기 및 등록된 클라이언트 유지"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:73
@@ -4802,7 +4802,7 @@ msgstr ""
 #: modules/installation/pages/proxy-setup.adoc:81
 #, no-wrap
 msgid "Procedure: Replacing a Salt Proxy and Keeping the Clients Registered"
-msgstr "절차: Salt 프록시 바꾸기 및 등록된 클라이언트 유지"
+msgstr "프로시저: Salt 프록시 바꾸기 및 등록된 클라이언트 유지"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:85
@@ -4871,7 +4871,7 @@ msgstr ""
 #: modules/installation/pages/proxy-setup.adoc:96
 #, no-wrap
 msgid "Procedure: Replacing a Traditional Proxy with a Salt Proxy"
-msgstr "절차: 기존 프록시를 Salt 프록시로 바꾸기"
+msgstr "프로시저: 기존 프록시를 Salt 프록시로 바꾸기"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:98
@@ -5222,7 +5222,7 @@ msgstr ""
 #: modules/installation/pages/pubcloud-setup.adoc:10
 #, no-wrap
 msgid "Procedure: Activating the public cloud module"
-msgstr "절차: 공용 클라우드 모듈 활성화"
+msgstr "프로시저: 공용 클라우드 모듈 활성화"
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-setup.adoc:11
@@ -5555,7 +5555,7 @@ msgstr "이 섹션에서는 {yast}를 사용한 {productname} 설정 단계를 �
 #: modules/installation/pages/uyuni-server-setup.adoc:9
 #, no-wrap
 msgid "Procedure: {productname} Setup"
-msgstr "절차: {productname} 설정"
+msgstr "프로시저: {productname} 설정"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:13
@@ -5715,7 +5715,7 @@ msgstr ""
 #: modules/installation/pages/uyuni-server-setup.adoc:30
 #, no-wrap
 msgid "Procedure: Setting Up the Main Administration Account"
-msgstr "절차: 기본 관리 계정 설정"
+msgstr "프로시저: 기본 관리 계정 설정"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:34
@@ -5828,7 +5828,7 @@ msgstr "{susemgr} {webui}에 조직 인증서를 입력합니다."
 #: modules/installation/pages/uyuni-server-setup.adoc:44
 #, no-wrap
 msgid "Procedure: Entering Organization Credentials"
-msgstr "절차: 조직 인증서 입력"
+msgstr "프로시저: 조직 인증서 입력"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:48
@@ -5871,7 +5871,7 @@ msgstr ""
 #: modules/installation/pages/uyuni-server-setup.adoc:50
 #, no-wrap
 msgid "Procedure: Synchronizing with {scc}"
-msgstr "절차: {scc}를 사용한 동기화"
+msgstr "프로시저: {scc}를 사용한 동기화"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:54
@@ -6567,7 +6567,7 @@ msgstr ""
 #: modules/installation/pages/uyuni-proxy-setup.adoc:73
 #, no-wrap
 msgid "Procedure: Replacing a Proxy and Keeping the Clients Registered"
-msgstr "절차: 프록시 대체 및 클라이언트 등록 유지"
+msgstr "프로시저: 프록시 대체 및 클라이언트 등록 유지"
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-proxy-setup.adoc:74
