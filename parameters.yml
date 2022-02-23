@@ -8,7 +8,7 @@ products:
       - attribute: docversion
         value: "4.2"
       - attribute: minorversion
-        value: "4.2.4"
+        value: "4.2.5"
       - attribute: suma-content
         value: true
       - attribute: uyuni-content
@@ -39,11 +39,11 @@ products:
       - attribute: productname
         value: "Uyuni"
       - attribute: productnumber
-        value: "2021.02"
+        value: "2022.02"
       - attribute: docversion
-        value: "2021.02"
+        value: "2022.02"
       - attribute: minorversion
-        value: "2021.02"
+        value: "2022.02"
       - attribute: suma-content
         value: false
       - attribute: uyuni-content
@@ -75,16 +75,16 @@ languages: #language parameters
     gnudateformat: "%B %d %Y"
     pdf_theme_suma: "suse-draft"
     pdf_theme_uyuni: "uyuni"
-  - langcode: "cs"
-    locale: "cs_CZ.UTF-8"
-    gnudateformat: "%B %d %Y"
-    pdf_theme_suma: "suse-draft"
-    pdf_theme_uyuni: "uyuni"
-  - langcode: "es"
-    locale: "es_ES.UTF-8"
-    gnudateformat: "%e de %B de%Y"
-    pdf_theme_suma: "suse-draft"
-    pdf_theme_uyuni: "uyuni"
+  # - langcode: "cs"
+  #   locale: "cs_CZ.UTF-8"
+  #   gnudateformat: "%B %d %Y"
+  #   pdf_theme_suma: "suse-draft"
+  #   pdf_theme_uyuni: "uyuni"
+  # - langcode: "es"
+  #   locale: "es_ES.UTF-8"
+  #   gnudateformat: "%e de %B de%Y"
+  #   pdf_theme_suma: "suse-draft"
+  #   pdf_theme_uyuni: "uyuni"
   - langcode: "ja"
     locale: "ja_JP.UTF-8"
     gnudateformat: "%Y年%m月%e日"
