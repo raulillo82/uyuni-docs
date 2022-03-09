@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:14+0000\n"
-"PO-Revision-Date: 2022-02-18 20:12+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-03-09 16:12+0000\n"
+"Last-Translator: oota toshiya <ribbon@users.sourceforge.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-422/ja/>\n"
 "Language: ja\n"
@@ -4072,21 +4072,13 @@ msgstr "必要に応じてプロキシのブートストラップスクリプト
 #.  What's up with:
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:23
-#, fuzzy
-#| msgid ""
-#| "If you want to run the proxy on a traditional client (system type "
-#| "``Management``) uncheck [guimenu]``Bootstrap using Salt``.  Using Salt is "
-#| "the default.  For more information about bootstrap scripts, see xref:"
-#| "client-configuration:registration-bootstrap.adoc[]."
 msgid ""
 "If you want to run the proxy on a traditional client (system type "
 "``Management``) uncheck [guimenu]``Bootstrap using Salt``.  Using Salt is "
 "the default."
 msgstr ""
-"従来のクライアント(システムの種類``管理``)でプロキシを実行する場合、"
-"［[guimenu]``Saltを使用するブートストラップ``］のチェックを外します。  Saltの"
-"使用がデフォルトです。  ブートストラップスクリプトの詳細については、xref:"
-"client-configuration:registration-bootstrap.adoc[]を参照してください。"
+"従来のクライアント(システムの種類``管理``)でプロキシを実行する場合、［[guimenu]``Saltを使用するブートストラップ``］のチェックを外し"
+"ます。  Saltの使用がデフォルトです。"
 
 #.  Enable Remote Configuration
 #.  Enable Remote Commands
