@@ -8,7 +8,7 @@ products:
       - attribute: docversion
         value: "4.2"
       - attribute: minorversion
-        value: "4.2.4"
+        value: "4.2.6"
       - attribute: suma-content
         value: true
       - attribute: uyuni-content
