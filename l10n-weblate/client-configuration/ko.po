@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-26 06:53+0000\n"
-"PO-Revision-Date: 2022-04-07 12:12+0000\n"
-"Last-Translator: Seeun Lee <selee@e4net.net>\n"
+"PO-Revision-Date: 2022-04-07 20:12+0000\n"
+"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-426/ko/>\n"
 "Language: ko\n"
@@ -855,9 +855,8 @@ msgid ""
 "could cause client registration to fail.  Check that these values do not "
 "have conflicting information before you begin:"
 msgstr ""
-"일부 값들 사이의 충돌로 인해 클라이언트 등록이 실패할 수 있으므로 활성화 키"
-"를 결합할 때 주의하십시오.  시작하기 전에 다음 값에 서로 충돌하는 정보가 있는"
-"지 확인하십시오."
+"일부 값들 사이의 충돌로 인해 클라이언트 등록이 실패할 수 있으므로 활성화 키를 결합할 때 주의하십시오.  시작하기 전에 다음 값에 서로 "
+"충돌하는 정보가 있는지 확인하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:35
@@ -1146,8 +1145,7 @@ msgstr "키 레이블을 생성할 때 다음과 같은 팁을 참고하십시�
 msgid ""
 "OS naming (mandatory): Keys should always refer to the OS they provide "
 "settings for"
-msgstr ""
-"OS 명명(필수): 키는 항상 자신이 설정을 제공하는 대상인 OS를 참조해야 합니다."
+msgstr "OS 명명(필수): 키는 항상 자신이 설정을 제공하는 대상인 OS를 참조해야 합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:69
@@ -1583,8 +1581,7 @@ msgid ""
 "Edit the [path]``isolinux.cfg`` file to default to 'ks'.  Change the 'ks' "
 "section to read:"
 msgstr ""
-"[path]``isolinux.cfg`` 파일을 편집하여 기본값을 ‘ks’로 설정합니다.  ‘ks’ 섹션"
-"을 다음과 같이 변경합니다."
+"[path]``isolinux.cfg`` 파일을 편집하여 기본값을 ‘ks’로 설정합니다.  ‘ks’ 섹션을 다음과 같이 변경합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-cdrom.adoc:26
@@ -1861,9 +1858,8 @@ msgid ""
 "[package]``tftpboot-installation``.  You can determine its exact name with "
 "the command [command]``zypper se tftpboot-installation``"
 msgstr ""
-"{productname} 서버에서 이름이 [package]``tftpboot-installation``으로 시작하"
-"는 패키지를 설치합니다.  정확한 이름은 [command]``zypper se tftpboot-"
-"installation`` 명령으로 확인할 수 있습니다."
+"{productname} 서버에서 이름이 [package]``tftpboot-installation``으로 시작하는 패키지를 "
+"설치합니다.  정확한 이름은 [command]``zypper se tftpboot-installation`` 명령으로 확인할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-distributions.adoc:18
@@ -2073,8 +2069,7 @@ msgstr ""
 #: modules/client-configuration/pages/autoinst-intro.adoc:4
 msgid ""
 "There are several ways to install an operating system from {productname}:"
-msgstr ""
-"{productname}에서는 다음과 같이 여러 방법으로 운영 체제를 설치할 수 있습니다."
+msgstr "{productname}에서는 다음과 같이 여러 방법으로 운영 체제를 설치할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:5
@@ -2091,9 +2086,7 @@ msgstr "PXE 부팅을 사용하여 네트워크에서 설치"
 msgid ""
 "preparing an installation CD-ROM or an USB key, and then going to the "
 "machine to boot on that medium;"
-msgstr ""
-"설치 CD-ROM 또는 USB 키를 준비한 후 시스템으로 이동하여 해당 미디어를 부팅하"
-"여 설치"
+msgstr "설치 CD-ROM 또는 USB 키를 준비한 후 시스템으로 이동하여 해당 미디어를 부팅하여 설치"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:8
@@ -2125,8 +2118,7 @@ msgid ""
 "The network boot installation method works on unformatted machines.  "
 "However, it can only be performed in certain network configurations:"
 msgstr ""
-"네트워크 부팅 설치 방법은 포맷되지 않은 시스템에서 작동합니다. 그러나 다음과 "
-"같은 특정 네트워크 구성에서만 수행될 수 있습니다."
+"네트워크 부팅 설치 방법은 포맷되지 않은 시스템에서 작동합니다. 그러나 다음과 같은 특정 네트워크 구성에서만 수행될 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:12
@@ -2135,8 +2127,8 @@ msgid ""
 "network as the machine you want to install, or you have a DHCP relay that "
 "allows you to cross all routers in between;"
 msgstr ""
-"{productname} 서버 또는 프록시 중 하나가 설치하는 시스템과 동일한 로컬 네트워"
-"크에 있거나 그 사이의 모든 라우터를 통과하는 DHCP 릴레이가 있는 경우"
+"{productname} 서버 또는 프록시 중 하나가 설치하는 시스템과 동일한 로컬 네트워크에 있거나 그 사이의 모든 라우터를 통과하는 "
+"DHCP 릴레이가 있는 경우"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:13
@@ -2340,9 +2332,7 @@ msgstr "프로시저: 초기 RAM 디스크에 GPG 키 추가"
 msgid ""
 "Create a directory with a path identical to the one that is used during the "
 "boot process to find the GPG key:"
-msgstr ""
-"GPG 키를 찾기 위해 부팅 프로세스 중 사용된 동일한 경로로 디렉토리를 생성합니"
-"다."
+msgstr "GPG 키를 찾기 위해 부팅 프로세스 중 사용된 동일한 경로로 디렉토리를 생성합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:18
@@ -2367,15 +2357,15 @@ msgstr "$ cp /srv/www/htdocs/pub/mgr-gpg-pub.key tftproot/usr/lib/rpm/gnupg/keys
 msgid ""
 "Inside the top level directory, package the content and append it to the "
 "[path]``initrd`` that is part of your installation media files:"
-msgstr ""
-"최상위 디렉토리 내에서 컨텐트를 패키지화하고 설치 미디어 파일의 일부인 "
-"[path]``initrd``에 추가합니다."
+msgstr "최상위 디렉토리 내에서 컨텐트를 패키지화하고 설치 미디어 파일의 일부인 [path]``initrd``에 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:22
 #, no-wrap
 msgid "$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/initrd\n"
-msgstr "$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/initrd\n"
+msgstr ""
+"$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/"
+"initrd\n"
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:23
@@ -2419,7 +2409,8 @@ msgstr "[command]``mksusecd``를 사용하여 기존 ISO 이미지를 추가합�
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:31
 #, no-wrap
 msgid "$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
-msgstr "$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
+msgstr ""
+"$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
 
 #. type: Title =
 #: modules/client-configuration/pages/autoinst-profiles.adoc:1
@@ -2456,9 +2447,7 @@ msgstr ""
 msgid ""
 "Within {productname}, you can use two different types of profiles, depending "
 "on the operating system of the clients you want to install:"
-msgstr ""
-"{productname}에서 설치하려는 클라이언트의 운영 체제에 따라 두 가지 유형의 프"
-"로파일을 사용할 수 있습니다."
+msgstr "{productname}에서 설치하려는 클라이언트의 운영 체제에 따라 두 가지 유형의 프로파일을 사용할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:5
@@ -2485,8 +2474,8 @@ msgid ""
 "For information about how to declare profiles, see xref:client-configuration:"
 "autoinst-profiles.adoc#declare-profile[Declare the Profile]"
 msgstr ""
-"프로파일을 선언하는 방법은 xref:client-configuration :autoinst-profiles."
-"adoc#declare-profile[프로파일 선언]을 참조하십시오."
+"프로파일을 선언하는 방법은 xref:client-configuration :autoinst-profiles.adoc#declare-"
+"profile[프로파일 선언]을 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:9
