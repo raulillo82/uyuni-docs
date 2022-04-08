@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-26 06:53+0000\n"
-"PO-Revision-Date: 2022-04-07 20:12+0000\n"
+"PO-Revision-Date: 2022-04-08 18:25+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-426/ko/>\n"
@@ -2714,10 +2714,9 @@ msgid ""
 "Systems[System List], select the client you want to provision, and navigate "
 "to the menu:Provisioning[Autoinstallation] subtab."
 msgstr ""
-"menu:시스템[자동 설치 > 프로파일]로 이동해 편집하려는 프로파일의 이름을 클릭"
-"하여 자동 설치 프로파일의 상세 정보 및 설정을 변경할 수 있습니다.  또는 menu:"
-"시스템[시스템 목록]으로 이동하여 프로비저닝할 클라이언트를 선택한 후 menu:프"
-"로비저닝[자동 설치] 하위 탭으로 이동합니다."
+"menu:시스템[자동 설치 > 프로파일]로 이동해 편집하려는 프로파일의 이름을 클릭하여 자동 설치 프로파일의 상세 정보 및 설정을 변경할 "
+"수 있습니다.  또는 menu:시스템[시스템 목록]으로 이동하여 프로비저닝할 클라이언트를 선택한 후 menu:프로비저닝[자동 설치] 하위 "
+"탭으로 이동합니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-profiles.adoc:40
@@ -2789,17 +2788,15 @@ msgid ""
 "``<general>$SNIPPET('spacewalk/sles_no_signature_checks')</general>` "
 "disables signature checks"
 msgstr ""
-"``<general>$SNIPPET('spacewalk/sles_no_signature_checks')</general>`` 은 서"
-"명 확인을 비활성화합니다."
+"``<general>$SNIPPET('spacewalk/sles_no_signature_checks')</general>`` 은 서명 "
+"확인을 비활성화합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:47
 msgid ""
 "``<software>`` allows to specify the correct product for the Unified "
 "Installer"
-msgstr ""
-"``<software>`` 를 사용하면 통합 설치 프로그램에 올바른 제품을 지정할 수 있습"
-"니다."
+msgstr "``<software>`` 를 사용하면 통합 설치 프로그램에 올바른 제품을 지정할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:48
@@ -3000,10 +2997,9 @@ msgid ""
 "can then be defined for all the clients installed from the same profile.  To "
 "do that, add these lines to the [guimenu]``Variables`` text box:"
 msgstr ""
-"예를 들어, 클라이언트의 IP 주소를 가진 변수와 게이트웨이의 주소를 가진 변수"
-"를 생성할 수 있습니다.  그러면 이러한 변수를 동일한 프로파일에서 설치된 모든 "
-"클라이언트에 대해 정의할 수 있습니다.  이 작업을 수행하려면 [guimenu]``변수"
-"`` 텍스트 상자에 다음 줄을 추가합니다."
+"예를 들어, 클라이언트의 IP 주소를 가진 변수와 게이트웨이의 주소를 가진 변수를 생성할 수 있습니다.  그러면 이러한 변수를 동일한 "
+"프로파일에서 설치된 모든 클라이언트에 대해 정의할 수 있습니다.  이 작업을 수행하려면 [guimenu]``변수`` 텍스트 상자에 다음 "
+"줄을 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-profiles.adoc:70
@@ -3022,9 +3018,8 @@ msgid ""
 "substitute the value.  For example, the [option]``network`` part of a "
 "{kickstart} file may look like the following:"
 msgstr ""
-"변수를 사용하려면 프로파일에서 [option]``$`` 기호를 앞에 추가하여 변수를 대체"
-"합니다.  예를 들어, {kickstart} 파일의 [option]``네트워크`` 부분은 다음과 같"
-"습니다."
+"변수를 사용하려면 프로파일에서 [option]``$`` 기호를 앞에 추가하여 변수를 대체합니다.  예를 들어, {kickstart} "
+"파일의 [option]``네트워크`` 부분은 다음과 같습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-profiles.adoc:72
@@ -3077,8 +3072,8 @@ msgid ""
 "Use a snippet by inserting the [option]``$SNIPPET()`` macro in your "
 "autoinstallation file.  For example, in {kickstart}:"
 msgstr ""
-"자동 설치 파일에 [option]``$SNIPPET()`` 매크로를 삽입하여 코드 조각을 사용합"
-"니다.  예를 들어 {kickstart}에서는 다음과 같습니다."
+"자동 설치 파일에 [option]``$SNIPPET()`` 매크로를 삽입하여 코드 조각을 사용합니다.  예를 들어 {kickstart}"
+"에서는 다음과 같습니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-profiles.adoc:78
@@ -3120,9 +3115,7 @@ msgstr ""
 msgid ""
 "This example sets up a {kickstart} snippet for a common hard drive partition "
 "configuration:"
-msgstr ""
-"다음 예에서는 일반 하드 드라이브 파티션 구성에 대한 {kickstart} 코드 조각을 "
-"다음과 같이 설정합니다."
+msgstr "다음 예에서는 일반 하드 드라이브 파티션 구성에 대한 {kickstart} 코드 조각을 다음과 같이 설정합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-profiles.adoc:83
@@ -3500,9 +3493,7 @@ msgstr ""
 msgid ""
 "Alternatively, if your DHCP server is registered at {productname}, you can "
 "configure it using the DHCPd formula instead:"
-msgstr ""
-"또는 DHCP 서버가 {productname}에 등록된 경우 DHCPd 수식을 대신 사용하여 구성"
-"할 수 있습니다."
+msgstr "또는 DHCP 서버가 {productname}에 등록된 경우 DHCPd 수식을 대신 사용하여 구성할 수 있습니다."
 
 #. type: Block title
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:33
@@ -3516,8 +3507,8 @@ msgid ""
 "Navigate to menu:Systems[System List], select the client you want to change, "
 "and go to the [guimenu]``Formulas`` tab to enable the DHCPd formula."
 msgstr ""
-"menu:시스템[시스템 목록]으로 이동하여 변경할 클라이언트를 선택한 후 "
-"[guimenu]``수식`` 탭으로 이동하여 DHCPd 수식을 활성화합니다."
+"menu:시스템[시스템 목록]으로 이동하여 변경할 클라이언트를 선택한 후 [guimenu]``수식`` 탭으로 이동하여 DHCPd 수식을 "
+"활성화합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:35
@@ -3599,8 +3590,8 @@ msgid ""
 "On the {productname} Server, at the command prompt, as root, install the "
 "[systemitem]``susemanager-tftpsync`` package:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 루트 권한으로 "
-"[systemitem]``susemanager-tftpsync`` 패키지를 설치합니다."
+"{productname} 서버의 명령 프롬프트에서 루트 권한으로 [systemitem]``susemanager-tftpsync`` "
+"패키지를 설치합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:46
@@ -3614,8 +3605,8 @@ msgid ""
 "On the {productname} Proxy, at the command prompt, as root, install the "
 "[systemitem]``susemanager-tftpsync-recv`` package:"
 msgstr ""
-"{productname} 프록시의 명령 프롬프트에서 루트 권한으로 "
-"[systemitem]``susemanager-tftpsync-recv`` 패키지를 설치합니다."
+"{productname} 프록시의 명령 프롬프트에서 루트 권한으로 [systemitem]``susemanager-tftpsync-"
+"recv`` 패키지를 설치합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:48
@@ -3974,12 +3965,11 @@ msgid ""
 "[literal]``<hw_addr>`` with its hardware address such as "
 "[literal]``00:25:22:71:e7:c6``:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 [systemitem]``system."
-"createSystemRecord`` API를 호출합니다.  이 예에서 [literal]``name``을 클라이"
-"언트의 이름으로 바꾸고, [literal]``<profile>``을 프로파일 레이블로 바꾸며, "
-"[literal]``<iface>``를 [literal]``eth0``과 같이 클라이언트의 인터페이스 이름"
-"으로 바꾸고, [literal]``<hw_addr>``을 [literal]``00:25:22:71:e7:c6``과 같은 "
-"하드웨어 주소로 바꿉니다."
+"{productname} 서버의 명령 프롬프트에서 [systemitem]``system.createSystemRecord`` API를 "
+"호출합니다.  이 예에서 [literal]``name``을 클라이언트의 이름으로 바꾸고, [literal]``<profile>``을 "
+"프로파일 레이블로 바꾸며, [literal]``<iface>``를 [literal]``eth0``과 같이 클라이언트의 인터페이스 이름으로 "
+"바꾸고, [literal]``<hw_addr>``을 [literal]``00:25:22:71:e7:c6``과 같은 하드웨어 주소로 "
+"바꿉니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/autoinst-unattended.adoc:21
@@ -4257,9 +4247,8 @@ msgid ""
 "instead.  To enable this behavior, add or edit this value in [path]``/etc/"
 "rhn/rhn.conf``:"
 msgstr ""
-"기본적으로 기존 리포지토리는 최신 패키지로만 업데이트됩니다.  대신, 빈 리포지"
-"토리로 항상 시작하도록 구성할 수 있습니다.  이 동작을 활성화하려면 다음과 같"
-"이 [path]``/etc/rhn/rhn.conf``에서 이 값을 추가하거나 편집하십시오."
+"기본적으로 기존 리포지토리는 최신 패키지로만 업데이트됩니다.  대신, 빈 리포지토리로 항상 시작하도록 구성할 수 있습니다.  이 동작을 "
+"활성화하려면 다음과 같이 [path]``/etc/rhn/rhn.conf``에서 이 값을 추가하거나 편집하십시오."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/bootstrap-repository.adoc:9
