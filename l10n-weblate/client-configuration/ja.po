@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-26 06:53+0000\n"
-"PO-Revision-Date: 2022-04-08 18:24+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-04-14 11:12+0000\n"
+"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-426/ja/>\n"
 "Language: ja\n"
@@ -4194,8 +4194,8 @@ msgid ""
 "configuring an SSH connection to the host.  It can also be used regardless "
 "of the tool used for client creation."
 msgstr ""
-"新しく作成された仮想マシンを自動的に登録するには、cloud-init を活用して登録することをお勧めします。 このソリューションでは、ホストへの "
-"SSH 接続を設定する必要がありません。 また、クライアントの作成に使用するツールに関係なく使用することができます。"
+"新しく作成された仮想マシンを自動的に登録するには、cloud-initを活用して登録することをお勧めします。 "
+"このソリューションでは、ホストへのSSH接続を設定する必要がありません。 また、クライアントの作成に使用するツールに関係なく使用することができます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:7
@@ -4336,7 +4336,7 @@ msgid ""
 "terraform.io/docs/provisioners/remote-exec.html"
 msgstr ""
 "リモート実行プロビジョナーの詳細については、https://www.terraform.io/docs/provisioners/remote-exec."
-"htmlを参照してください"
+"htmlを参照してください。"
 
 #. type: Title =
 #: modules/client-configuration/pages/bootstrap-repository.adoc:1
@@ -11209,9 +11209,9 @@ msgid ""
 "directly from {redhat} or {centos} before you can apply the updates provided "
 "by the {es} software channels."
 msgstr ""
-"{suse}によって提供される{es}ソフトウェアチャンネルは、パッケージの更新のみを提供します。パッケージそのものは提供しません。  {es} "
-"クライアントを登録するには、{es}製品(概要は以下を参照)を登録して必要なベース "
-"チャンネル作成し、必要な{redhat}または{centos}パッケージをカスタム子チャンネルとしてインポートする必要があります。 "
+"{suse}によって提供される{es}ソフトウェアチャンネルは、パッケージの更新のみを提供します。パッケージそのものは提供しません。  {es} クライア"
+"ントを登録するには、{es}製品(概要は以下を参照)を登録して必要なベースチャンネルを作成し、必要な{redhat}または{centos}パッケージをカス"
+"タム子チャンネルとしてインポートする必要があります。 "
 "{es}ソフトウェアチャンネルで提供される更新を適用する前に、初期パッケージを{redhat}または{centos}から直接取得する必要があります。"
 
 #. type: delimited block =
@@ -16172,7 +16172,7 @@ msgid ""
 "distributions."
 msgstr ""
 "この方法でブートストラップを実行できるのは、クライアントツールチャンネルまたは公式の{suse}ディストリビューションの一部として[package"
-"]``salt-minion`` を使用する場合のみです。"
+"]``salt-minion``を使用する場合のみです。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-cli.adoc:7
