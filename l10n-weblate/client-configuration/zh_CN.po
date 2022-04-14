@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-26 06:53+0000\n"
-"PO-Revision-Date: 2022-04-07 20:12+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-04-14 05:12+0000\n"
+"Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-426/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -4067,7 +4067,7 @@ msgstr "使用 remote-exec 置备器注册客户端时，用户必须确保运�
 msgid ""
 "The remaining requirements are the same as when using <<cloud-init-based-"
 "client-registration>>"
-msgstr "其他要求与使用 <<cloud-init-based-client-registration>> 时相同"
+msgstr "其他要求与使用<<cloud-init-based-client-registration>>时相同"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:25
