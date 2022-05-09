@@ -261,7 +261,6 @@ msgstr "xref:proxy-y-z.adoc[代理 - 次要版本或补丁级别升级]"
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:47
 #, fuzzy
-#| msgid "xref:installation-and-upgrade:client-intro.adoc[Upgrade the Clients]"
 msgid "xref:installation-and-upgrade[Upgrade the Clients]"
 msgstr "xref:installation-and-upgrade:client-intro.adoc[升级客户端]"
 
@@ -899,7 +898,7 @@ msgstr "提供 SLES、SLES for SAP 等产品的自定义 {payg} 产品映像"
 msgid ""
 "operates per-region RMT Servers mirroring repositories for products "
 "available as {payg}"
-msgstr "为以 {payg} 形式提供的产品操作按区域 RMT 服务器镜像储存库"
+msgstr "为以 {payg} 形式提供的产品操作按区域 RMT 服务器镜像软件源"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/connect-payg.adoc:5
@@ -2034,7 +2033,7 @@ msgid ""
 "directory requires based on the clients and repositories you plan to mirror."
 msgstr ""
 "{productname} Server 将软件包储存在 [path]``/var/spacewalk/`` 目录中。如果此"
-"目录耗尽了磁盘空间，储存库同步将会失败。可以根据您打算镜像的客户端和储存库来"
+"目录耗尽了磁盘空间，软件源同步将会失败。可以根据您打算镜像的客户端和软件源来"
 "估算 [path]``/var/spacewalk/`` 目录所需的空间量。"
 
 #. type: Block title
@@ -2371,7 +2370,7 @@ msgid ""
 "must set up the storage devices before you run the YaST {productname} setup "
 "procedure."
 msgstr ""
-"我们建议将 {productname} 的储存库和数据库储存在单独的储存设备上。这有助于避免"
+"我们建议将 {productname} 的软件源和数据库储存在单独的储存设备上。这有助于避免"
 "数据丢失。必须在运行 YaST {productname} 安装过程之前设置储存设备。"
 
 #. type: Plain text
@@ -2405,7 +2404,7 @@ msgid ""
 "estimate the size required."
 msgstr ""
 "我们建议使用 XFS 作为所有卷的文件系统类型。此外，对于本地安装，请考虑使用逻辑"
-"卷管理 (LVM) 来管理磁盘。用于储存储存库的磁盘大小取决于您要使用 "
+"卷管理 (LVM) 来管理磁盘。用于储存软件源的磁盘大小取决于您要使用 "
 "{productname} 管理的发行套件和频道数目。请参见本节中的表格来估算所需大小。"
 
 #. type: Plain text
@@ -2434,7 +2433,7 @@ msgid ""
 "Use the [command]``suma-storage`` command with the device names to set up "
 "the external disks as the locations for the database and repositories:"
 msgstr ""
-"结合设备名使用 [command]``suma-storage`` 命令将外部磁盘设置为数据库和储存库的"
+"结合设备名使用 [command]``suma-storage`` 命令将外部磁盘设置为数据库和软件源的"
 "位置："
 
 #. type: delimited block -
@@ -2449,7 +2448,7 @@ msgid ""
 "The external storage volumes are set up as XFS partitions mounted at "
 "[path]``/manager_storage`` and [path]``/pgsql_storage``."
 msgstr ""
-"外部储存卷将设置为装入到 [path]``/manager_storage`` 和 [path]``/"
+"外部储存卷将设置为挂载到 [path]``/manager_storage`` 和 [path]``/"
 "pgsql_storage`` 的 XFS 分区。"
 
 #. type: Plain text
@@ -2462,8 +2461,8 @@ msgid ""
 "a single storage device, run [command]``suma-storage`` with a single device "
 "name parameter."
 msgstr ""
-"可对频道数据和数据库使用同一个储存设备。但不建议这样做，因为不断增长的频道储"
-"存库可能会填满储存，从而给数据库完整性带来风险。使用独立的储存设备还可以提高"
+"可对频道数据和数据库使用同一个储存设备。但不建议这样做，因为不断增长的频道软"
+"件源可能会填满储存，从而给数据库完整性带来风险。使用独立的储存设备还可以提高"
 "性能。如果您想要使用单个储存设备，请结合单个设备名参数运行 [command]``suma-"
 "storage``。"
 
@@ -3139,7 +3138,7 @@ msgstr "Server Applications 模块"
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy-unified.adoc:30
 msgid "SUSE Manager Proxy Module"
-msgstr "SUSE Manager Proxy Module"
+msgstr "SUSE Manager Proxy 模块"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy-unified.adoc:31
@@ -3187,7 +3186,7 @@ msgstr ""
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy-uyuni.adoc:6
 msgid "Add the repository with the {productname} Proxy software."
-msgstr "添加包含 {productname} Proxy 软件的储存库。"
+msgstr "添加包含 {productname} Proxy 软件的软件源。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy-uyuni.adoc:7
@@ -3213,7 +3212,7 @@ msgstr ""
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy-uyuni.adoc:9
 msgid "Refresh metadata from the repositories."
-msgstr "刷新储存库中的元数据。"
+msgstr "刷新软件源中的元数据。"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-proxy-uyuni.adoc:11
@@ -3227,7 +3226,7 @@ msgstr "zypper ref\n"
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy-uyuni.adoc:12
 msgid "Install the pattern for the {productname} Proxy:"
-msgstr "安装 {productname} Proxy 的模式："
+msgstr "安装 {productname} Proxy 的软件集："
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-proxy-uyuni.adoc:14
@@ -3503,7 +3502,7 @@ msgstr ""
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:27
 #: modules/installation-and-upgrade/pages/install-vm.adoc:28
 msgid "Add {productname} repositories:"
-msgstr "添加 {productname} 储存库："
+msgstr "添加 {productname} 软件源："
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:28
@@ -3534,7 +3533,7 @@ msgstr "solver.onlyRequires = false\n"
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:31
 msgid "Install the {productname} Proxy pattern:"
-msgstr "安装 {productname} Proxy 模式："
+msgstr "安装 {productname} Proxy 软件集："
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:32
@@ -3717,7 +3716,7 @@ msgid ""
 "your hardware vendor."
 msgstr ""
 "我们不建议在 {productname} 上运行任何其他工作负载。请仅使用您绝对需要的附加产"
-"品，例如硬件供应商提供的驱动程序储存库。"
+"品，例如硬件供应商提供的驱动程序软件源。"
 
 #. type: Target for macro image
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:24
@@ -3778,7 +3777,7 @@ msgid ""
 msgstr ""
 "默认的 {productname} Server 安装未启用图形桌面环境。如果您想使用 "
 "{productname} Server 本地的图形界面运行 {yast} 等安装工具，请单击[guimenu]``"
-"软件``并选择 [guimenu]``X Window 系统``模式。"
+"软件``并选择 [guimenu]``X Window 系统``软件集。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:34
@@ -3873,8 +3872,8 @@ msgstr ""
 "| 内存：              | 4096{nbsp}MB\n"
 "| CPU 数：                | 2\n"
 "| 储存格式：      | ISO 3{nbsp}GB\n"
-"| 磁盘空间：          | 234{nbsp}GB，分摊方式如下：4{nbsp}GB 交换空间，装入到 [path]``/var/spacewalk/``\n"
-"|                      |的 130{nbsp}GB（虚拟磁盘 1），装入到 [path]``/var/lib/pgsql``\n"
+"| 磁盘空间：          | 234{nbsp}GB，分摊方式如下：4{nbsp}GB 交换空间，挂载到 [path]``/var/spacewalk/``\n"
+"|                      |的 130{nbsp}GB（虚拟磁盘 1），挂载到 [path]``/var/lib/pgsql``\n"
 "|                      |的 50{nbsp}GB（虚拟磁盘 2）。余下的空间用于根分区 (100{nbsp}GB+)。\n"
 "| 名称：                | example-server\n"
 "| 网络              | 网桥 br0\n"
@@ -4052,7 +4051,7 @@ msgstr "安装应用了所有可用服务包和软件包更新的 openSUSE Leap 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:9
 msgid "Set variables to use to create repository as [systemitem]``root``:"
-msgstr "以 [systemitem]``root`` 身份设置用于创建储存库的变量："
+msgstr "以 [systemitem]``root`` 身份设置用于创建软件源的变量："
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:10
@@ -4070,7 +4069,7 @@ msgid ""
 "Add the repository for installing the {productname} Server software as "
 "[systemitem]``root``:"
 msgstr ""
-"以 [systemitem]``root`` 身份添加用于安装 {productname} Server 软件的储存库："
+"以 [systemitem]``root`` 身份添加用于安装 {productname} Server 软件的软件源："
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:12
@@ -4081,13 +4080,13 @@ msgstr "zypper ar https://download.opensuse.org/$repo uyuni-server-stable\n"
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:13
 msgid "Refresh metadata from the repositories as [systemitem]``root``:"
-msgstr "以 [systemitem]``root`` 身份刷新储存库中的元数据："
+msgstr "以 [systemitem]``root`` 身份刷新软件源中的元数据："
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:15
 msgid ""
 "Install the pattern for the {productname} Server as [systemitem]``root``:"
-msgstr "以 [systemitem]``root`` 身份安装 {productname} Server 的模式："
+msgstr "以 [systemitem]``root`` 身份安装 {productname} Server 的软件集："
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:16
@@ -4391,7 +4390,7 @@ msgid ""
 "Partition and mount the virtual disks at the following locations using "
 "{yast} Partitioner ([command]``yast2 disk``)."
 msgstr ""
-"使用 {yast} 分区程序 ([command]``yast2 disk``) 将虚拟磁盘分区并将其装入到以下"
+"使用 {yast} 分区程序 ([command]``yast2 disk``) 将虚拟磁盘分区并将其挂载到以下"
 "位置。"
 
 #. type: delimited block =
@@ -4427,8 +4426,8 @@ msgid ""
 "Exit the partitioner and install the {productname} pattern (approximately "
 "730 packages, using 1.4 GB of disk space when installed):"
 msgstr ""
-"退出分区程序并安装 {productname} 模式（大约有 730 个软件包，安装后会占用 1.4 "
-"GB 磁盘空间）："
+"退出分区程序并安装 {productname} 软件集（大约有 730 个软件包，安装后会占用 "
+"1.4 GB 磁盘空间）："
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-vm.adoc:40
@@ -4713,7 +4712,7 @@ msgstr ""
 "| 22          |          |         | 采用 ssh-push 和 ssh-push-tunnel 联系方法时需要此端口。\n"
 "| 67          | TCP/UDP  | DHCP    | 仅当客户端向服务器请求 IP 地址时才需要此端口。\n"
 "| 69          | TCP/UDP  | TFTP    | 将服务器用作 PXE 服务器进行自动化客户端安装时需要此端口。\n"
-"| 80          | TCP      | HTTP    | 某些引导储存库和自动化安装需要临时使用此端口。\n"
+"| 80          | TCP      | HTTP    | 某些引导软件源和自动化安装需要临时使用此端口。\n"
 "端口 80 不用于为 {webui} 传递数据。\n"
 "| 443         | TCP      | HTTPS   | {webui}、客户端、服务器和代理 (``tftpsync``) 请求。\n"
 "| 4505        |  TCP     | salt    | 接受来自客户端的通讯请求时需要此端口。\n"
@@ -5086,7 +5085,7 @@ msgstr "mkdir -p /srv/images/opensuse153\n"
 msgid ""
 "Download an ISO image with the installation sources, and mount the ISO image "
 "on your server:"
-msgstr "下载有安装源的 ISO 映像，并在服务器上装入 ISO 映像："
+msgstr "下载有安装源的 ISO 映像，并在服务器上挂载 ISO 映像："
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:11
@@ -5097,7 +5096,7 @@ msgstr "mount -o loop DVD1.iso /mnt/\n"
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:12
 msgid "Copy everything from the mounted ISO to your local file system:"
-msgstr "将装入的 ISO 的所有内容都复制到本地文件系统："
+msgstr "将挂载的 ISO 的所有内容都复制到本地文件系统："
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:13
@@ -7406,7 +7405,7 @@ msgid ""
 "software repositories and update the software, and finally you restart the "
 "proxy service."
 msgstr ""
-"要更新代理，首先需停止代理服务，然后替换软件储存库，更新软件，最后重启动代理"
+"要更新代理，首先需停止代理服务，然后替换软件软件源，更新软件，最后重启动代理"
 "服务。"
 
 #. type: Plain text
@@ -7663,7 +7662,7 @@ msgid ""
 "if the instance is unexpectedly terminated.  This section includes "
 "instructions for setting up an external virtual disk."
 msgstr ""
-"我们建议将软件储存库、服务器数据库和代理 squid 缓存储存在外部虚拟磁盘上。这可"
+"我们建议将软件软件源、服务器数据库和代理 squid 缓存储存在外部虚拟磁盘上。这可"
 "以防止在实例意外终止时丢失数据。本节包含有关设置外部虚拟磁盘的说明。"
 
 #. type: delimited block =
@@ -7743,7 +7742,7 @@ msgid ""
 "avoid data loss.  Do not use logical volume management (LVM) for public "
 "cloud installations."
 msgstr ""
-"我们建议将 {productname} 的储存库和数据库储存在不同于根卷的储存设备上。这有助"
+"我们建议将 {productname} 的软件源和数据库储存在不同于根卷的储存设备上。这有助"
 "于避免数据丢失。不要使用逻辑卷管理 (LVM) 进行公有云安装。"
 
 #. type: Plain text
@@ -7762,7 +7761,7 @@ msgid ""
 "device nodes.  The names of the device nodes will vary depending on your "
 "provider, and the instance type selected."
 msgstr ""
-"用于储存储存库的磁盘大小取决于您要使用 {productname} 管理的发行套件和频道数"
+"用于储存软件源的磁盘大小取决于您要使用 {productname} 管理的发行套件和频道数"
 "目。挂接虚拟磁盘时，它们将作为 Unix 设备节点显示在实例中。设备节点的名称因提"
 "供商及所选实例类型而异。"
 
@@ -7804,8 +7803,8 @@ msgid ""
 "command.  This creates an XFS partition mounted at ``/manager_storage`` and "
 "uses it as the location for the database and repositories:"
 msgstr ""
-"您可以使用 [command]``suma-storage`` 命令设置外部磁盘。这会创建一个装入到 ``/"
-"manager_storage`` 的 XFS 分区，并使用它作为储存数据库和储存库的位置："
+"您可以使用 [command]``suma-storage`` 命令设置外部磁盘。这会创建一个挂载到 ``/"
+"manager_storage`` 的 XFS 分区，并使用它作为储存数据库和软件源的位置："
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/pubcloud-requirements.adoc:25
@@ -7898,8 +7897,8 @@ msgid ""
 "On the {productname} Server, open the {yast} management tool, and navigate "
 "to menu:Software[Software Repositories]."
 msgstr ""
-"在 {productname} 服务器上打开 {yast} 管理工具，然后导航到menu:软件[软件储存"
-"库]。"
+"在 {productname} 服务器上打开 {yast} 管理工具，然后导航到menu:软件[软件软件"
+"源]。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:12
@@ -8057,7 +8056,7 @@ msgid ""
 "schedule a repository synchronization.  The best way to do this is to "
 "navigate to menu:Admin[Setup Wizard] and follow the prompts."
 msgstr ""
-"使用 {productname} {webui} 添加所需的软件产品，并安排储存库同步。为此，最好的"
+"使用 {productname} {webui} 添加所需的软件产品，并安排软件源同步。为此，最好的"
 "办法是导航到menu:管理[安装向导]并按照提示操作。"
 
 #. type: Plain text
@@ -8076,7 +8075,7 @@ msgid ""
 "up custom repositories and channels.  For more information, see the relevant "
 "section in xref:client-configuration:registration-overview.adoc[]."
 msgstr ""
-"如果您打算注册 {ubuntu} 或 {rhel} 客户端，则需要设置自定义储存库和频道。有关"
+"如果您打算注册 {ubuntu} 或 {rhel} 客户端，则需要设置自定义软件源和频道。有关"
 "详细信息，请参见 xref:client-configuration:registration-overview.adoc[] 中的"
 "相关章节。"
 
@@ -8089,7 +8088,7 @@ msgid ""
 "screen."
 msgstr ""
 "要同步您的频道，请导航到menu:软件[管理 > 频道]。单击您创建的每个频道，导航到"
-"menu:储存库[同步]选项卡，然后单击 btn:[立即同步]。您也可以在此屏幕中安排同"
+"menu:软件源[同步]选项卡，然后单击 btn:[立即同步]。您也可以在此屏幕中安排同"
 "步。"
 
 #. type: delimited block =
@@ -8374,7 +8373,7 @@ msgid ""
 "{productname} Server.  New and updated packages become available "
 "automatically."
 msgstr ""
-"默认会为 {productname} 服务器配置并启用多个更新储存库。  新软件包和更新的软件"
+"默认会为 {productname} 服务器配置并启用多个更新软件源。  新软件包和更新的软件"
 "包会自动变为可用状态。"
 
 #. type: Plain text
@@ -8405,7 +8404,7 @@ msgstr "spacewalk-service stop\n"
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:10
 #: modules/installation-and-upgrade/pages/server-z.adoc:10
 msgid "Refresh software repositories:"
-msgstr "刷新软件储存库："
+msgstr "刷新软件软件源："
 
 #.  Zypper list-patches or patch doesn't update Uyuni
 #. type: Plain text
@@ -8461,9 +8460,9 @@ msgid ""
 "refresh.delay`` in [path]``/etc/zypp/zypp.conf``).  If ``autorefresh`` is "
 "disabled, run [command]``zypper ref`` to refresh all repositories."
 msgstr ""
-"Zypper 默认每十分钟刷新一次储存库（请参见 [path]``/etc/zypp/zypp.conf`` 中的 "
+"Zypper 默认每十分钟刷新一次软件源（请参见 [path]``/etc/zypp/zypp.conf`` 中的 "
 "``repo. refresh.delay``）。  如果``自动刷新``被禁用，请运行 "
-"[command]``zypper ref`` 以刷新所有储存库。"
+"[command]``zypper ref`` 以刷新所有软件源。"
 
 #.  We can remove  the version info when 4.1 / 2020.07 is released
 #. type: delimited block =
@@ -8820,8 +8819,8 @@ msgid ""
 "with SCC clients may receive updates, and be organized into groups and "
 "assigned to specific product software channels."
 msgstr ""
-"{scc} (SCC) 维护一系列储存库，其中包含所有受支持企业客户端系统的软件包、软件"
-"和更新。这些储存库已组织成不同的频道，其中每个频道提供特定于某个发行套件、发"
+"{scc} (SCC) 维护一系列软件源，其中包含所有受支持企业客户端系统的软件包、软件"
+"和更新。这些软件源已组织成不同的频道，其中每个频道提供特定于某个发行套件、发"
 "行版和体系结构的软件。与 SCC 同步后，客户端可以接收更新，可组织成不同的组并指"
 "派到特定的产品软件频道。"
 
@@ -8842,7 +8841,7 @@ msgid ""
 "give you access to the SUSE product downloads.  You will find your "
 "organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"在与 SCC 同步软件储存库之前，需在 {susemgr} 中输入组织身份凭证。在以前的版本"
+"在与 SCC 同步软件软件源之前，需在 {susemgr} 中输入组织身份凭证。在以前的版本"
 "中，使用的是所谓的镜像身份凭证。您可以使用组织身份凭证访问 SUSE 产品下载内"
 "容。可以在 link:https://scc.suse.com/organizations[]中找到您的组织身份凭证。"
 
@@ -8984,7 +8983,7 @@ msgid ""
 "[path]``/var/spacewalk/`` directory of your server."
 msgstr ""
 "添加频道后，{productname} 将安排该频道的同步。这可能需要较长时间，因为 "
-"{productname} 会将频道软件源从 {scc} 中的 {suse} 储存库复制到您服务器的本地 "
+"{productname} 会将频道软件源从 {scc} 中的 {suse} 软件源复制到您服务器的本地 "
 "[path]``/var/spacewalk/`` 目录。"
 
 #. type: Block title
@@ -10353,7 +10352,7 @@ msgstr "Uyuni Proxy 设置"
 #: modules/installation-and-upgrade/pages/uyuni-proxy-setup.adoc:3
 #, no-wrap
 msgid "Install the [path]``uyuni_proxy`` pattern"
-msgstr "安装 [path]``uyuni_proxy`` 模式"
+msgstr "安装 [path]``uyuni_proxy`` 软件集"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/uyuni-proxy-setup.adoc:4
@@ -10665,8 +10664,8 @@ msgid ""
 "with SCC, clients can receive updates, be organized into groups, and "
 "assigned to specific product software channels."
 msgstr ""
-"{scc} (SCC) 维护一系列储存库，其中包含所有受支持企业客户端系统的软件包、软件"
-"和更新。这些储存库已组织成不同的频道，其中每个频道提供特定于某个发行套件、发"
+"{scc} (SCC) 维护一系列软件源，其中包含所有受支持企业客户端系统的软件包、软件"
+"和更新。这些软件源已组织成不同的频道，其中每个频道提供特定于某个发行套件、发"
 "行版和体系结构的软件。与 SCC 同步后，客户端可以接收更新，可组织成不同的组并指"
 "派到特定的产品软件频道。"
 
@@ -10683,7 +10682,7 @@ msgid ""
 "credentials give you access to the {suse} product downloads.  You will find "
 "your organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"在与 SCC 同步软件储存库之前，需在 {productname} 中输入组织身份凭证。您可以使"
+"在与 SCC 同步软件软件源之前，需在 {productname} 中输入组织身份凭证。您可以使"
 "用组织身份凭证访问 {suse} 产品下载内容。可以在 link:https://scc.suse.com/"
 "organizations[]中找到您的组织身份凭证。"
 
@@ -11247,13 +11246,16 @@ msgstr ""
 "置默认超时值。请在更改此参数后重启动 tomcat 服务。如果您的因特网连接速度很"
 "慢，或者经常一次对很多客户端执行操作，将此设置更改为更高的数值可能会有帮助。"
 
+#. type: Plain text
+#: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:47
+msgid "xref:installation-and-upgrade:client-intro.adoc[Upgrade the Clients]"
+msgstr "xref:installation-and-upgrade:client-intro.adoc[升级客户端]"
+
 #, fuzzy
-#~| msgid "Procedure: Changing SLES for {productname} Proxy Installation"
 #~ msgid "Prepare container host for {productname} Proxy containers"
 #~ msgstr "过程：更改 {productname} Proxy 安装版本的 SLES"
 
 #, fuzzy
-#~| msgid "If you run a {productname} Proxy instance"
 #~ msgid "{productname} Proxy Containers Setup"
 #~ msgstr "如果您运行 {productname} Proxy 实例"
 
@@ -11563,11 +11565,6 @@ msgstr ""
 #~ "Proxy 注册为 {productname} 客户端。"
 
 #, fuzzy
-#~| msgid ""
-#~| "{productname} Proxy systems are registered as Salt or traditional "
-#~| "clients using a bootstrap script.  Migrating a traditionally registered "
-#~| "Proxy system to a Salt Proxy system is not possible.  Re-install the "
-#~| "Proxy if you want to switch to Salt."
 #~ msgid ""
 #~ "{productname} Proxy systems are registered as Salt or traditional clients "
 #~ "using a bootstrap script.  Migrating a traditional proxy to a Salt proxy "
@@ -11581,11 +11578,6 @@ msgstr ""
 #~ "到 Salt，请重新注册 Proxy。"
 
 #, fuzzy
-#~| msgid ""
-#~| "Click [guimenu]``Generate New Key``, and make a note of the new key, as "
-#~| "you will need it later.  For more information about reactivation keys, "
-#~| "see xref:reference:systems/system-details/sd-reactivation."
-#~| "adoc[Reactivation Keys]."
 #~ msgid ""
 #~ "In the {webui}, create a reactivation key for the old proxy system: On "
 #~ "the System Details tab of the old proxy click [guimenu]``Reactivation``.  "
@@ -12562,15 +12554,10 @@ msgstr ""
 #~ "{productname} 中看到具有新 ID 的克隆系统。"
 
 #, fuzzy
-#~| msgid "Upgrade Guide: {productname} {productnumber}"
 #~ msgid "[.title]#{productname} {productnumber}#: Upgrade Guide"
 #~ msgstr "升级指南: {productname} {productnumber}"
 
 #, fuzzy
-#~| msgid ""
-#~| "For older documentation and instructions on major version upgrade, see "
-#~| "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
-#~| "upgrade/server-x.html"
 #~ msgid ""
 #~ "link:https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-"
 #~ "manager/upgrade/db-migration-10.html[]"
@@ -12633,8 +12620,6 @@ msgstr ""
 #~ msgstr "/usr/lib/susemanager/bin/pg-migrate-12-to-13.sh\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "If you are upgrading from 4.0 to 4.2, run the database migration scripts:"
 #~ msgid ""
 #~ "If you are upgrading from 4.0 to 4.2, run the database migration script:"
 #~ msgstr "如果您是从 4.0 升级到 4.2，请运行数据库迁移脚本："
@@ -12646,10 +12631,6 @@ msgstr ""
 #~ msgstr "xref:db-migration-13.adoc[数据库 - 升级到版本 13]"
 
 #, fuzzy
-#~| msgid ""
-#~| "If you want to upgrade to the latest {productname} version, you must be "
-#~| "using PostgreSQL version 12 or 13, depending on the underlying operating "
-#~| "system:"
 #~ msgid ""
 #~ "If you want to upgrade to the latest {productname} version, you must be "
 #~ "using PostgreSQL version 13."
@@ -12658,9 +12639,6 @@ msgstr ""
 #~ "本 12 或 13，具体取决于底层操作系统："
 
 #, fuzzy
-#~| msgid ""
-#~| "For more information about PostgreSQL database migration, see xref:db-"
-#~| "migration-13.adoc[]."
 #~ msgid ""
 #~ "To migrate from PostgreSQL 10 or PostgreSQL12 to PostgreSQL 13, see xref:"
 #~ "upgrade:db-migration-13.adoc[]."
@@ -12815,15 +12793,10 @@ msgstr ""
 #~ msgstr "将数据库从版本 10 或 12 迁移到版本 13"
 
 #, fuzzy
-#~| msgid "Database Migration from Version 10 to 12"
 #~ msgid "Database Migration from Version 12 to 13"
 #~ msgstr "将数据库从版本 10 迁移到 12"
 
 #, fuzzy
-#~| msgid ""
-#~| "This section covers upgrading the PostgreSQL database from version 9 to "
-#~| "version 10.  If you are already using PostgreSQL 10, you do not need to "
-#~| "perform this migration."
 #~ msgid ""
 #~ "This section covers upgrading the PostgreSQL database from version{nbsp}"
 #~ "10 or version{nbsp}12 to version{nbsp}13.  If you are already using "
@@ -12833,10 +12806,6 @@ msgstr ""
 #~ "PostgreSQL 10，则无需进行此迁移。"
 
 #, fuzzy
-#~| msgid ""
-#~| "This section covers upgrading the PostgreSQL database from version 9 to "
-#~| "version 10.  If you are already using PostgreSQL 10, you do not need to "
-#~| "perform this migration."
 #~ msgid ""
 #~ "This section covers upgrading the PostgreSQL database from version{nbsp}"
 #~ "12 to version{nbsp}13.  If you are already using PostgreSQL 13, you do "
@@ -12846,10 +12815,6 @@ msgstr ""
 #~ "PostgreSQL 10，则无需进行此迁移。"
 
 #, fuzzy
-#~| msgid ""
-#~| "If you want to upgrade to the latest {productname} version, you must be "
-#~| "using PostgreSQL version 12 or 13, depending on the underlying operating "
-#~| "system:"
 #~ msgid ""
 #~ "If you want to upgrade to the latest {productname} version, you must be "
 #~ "using PostgreSQL 13:"
@@ -12858,27 +12823,18 @@ msgstr ""
 #~ "本 12 或 13，具体取决于底层操作系统："
 
 #, fuzzy
-#~| msgid ""
-#~| "If you are using PostgreSQL{nbsp}10, you can upgrade to PostgreSQL{nbsp}"
-#~| "12."
 #~ msgid ""
 #~ "If you are using PostgreSQL{nbsp}10 or 12, you can upgrade to "
 #~ "PostgreSQL{nbsp}13."
 #~ msgstr "如果您使用的是 PostgreSQL{nbsp}10，则可升级到 PostgreSQL{nbsp}12。"
 
 #, fuzzy
-#~| msgid ""
-#~| "If you are using PostgreSQL{nbsp}10, you can upgrade to PostgreSQL{nbsp}"
-#~| "12."
 #~ msgid ""
 #~ "If you are using PostgreSQL{nbsp}12, you can upgrade to PostgreSQL{nbsp}"
 #~ "13."
 #~ msgstr "如果您使用的是 PostgreSQL{nbsp}10，则可升级到 PostgreSQL{nbsp}12。"
 
 #, fuzzy
-#~| msgid ""
-#~| "If you are already using PostgreSQL version 12, you do not need to "
-#~| "perform this migration."
 #~ msgid ""
 #~ "If you are already using PostgreSQL version 13, you do not need to "
 #~ "perform this migration."
@@ -12888,16 +12844,10 @@ msgstr ""
 #~ msgstr "开始升级。如果您使用的是版本 12，请运行："
 
 #, fuzzy
-#~| msgid "  If you have version 10, run:\n"
 #~ msgid "If you have version 10, run:"
 #~ msgstr "  如果您使用的是版本 10，请运行：\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "When the upgrade has successfully completed, you can safely delete the "
-#~| "old database directory and reclaim lost disk space.  The old directory "
-#~| "is renamed to [path]``/var/lib/pgsql/data-pg12`` or [path]``/var/lib/"
-#~| "pgsql/data-pg10``, depending on the version you started from."
 #~ msgid ""
 #~ "When the upgrade has successfully completed, you can safely delete the "
 #~ "old database directory and reclaim lost disk space.  The old directory is "
@@ -12908,9 +12858,6 @@ msgstr ""
 #~ "data-pg10``，具体取决于您是从哪个版本升级的。"
 
 #, fuzzy
-#~| msgid ""
-#~| "The [path]``pg-migrate-12-to-13.sh`` or [path]``pg-migrate-10-to-13.sh`` "
-#~| "script performs these operations:"
 #~ msgid ""
 #~ "The [path]``pg-migrate-12-to-13.sh`` or [path]``pg-migrate-10-to-13.sh`` "
 #~ "scripts perform these operations:"
@@ -12919,8 +12866,6 @@ msgstr ""
 #~ "会执行以下操作："
 
 #, fuzzy
-#~| msgid ""
-#~| "The [path]``pg-migrate-10-to-12.sh`` script performs these operations:"
 #~ msgid ""
 #~ "The [path]``pg-migrate-12-to-13.sh`` script performs these operations: "
 #~ "ifeval:[]"
@@ -12933,7 +12878,6 @@ msgstr ""
 #
 #
 #, fuzzy
-#~| msgid "  If you are migrating from version 10:"
 #~ msgid "  If you are migrating from version 12:\n"
 #~ msgstr "  如果您是从版本 10 迁移："
 
@@ -12944,7 +12888,6 @@ msgstr ""
 #
 #
 #, fuzzy
-#~| msgid "  If you are migrating from version 10:"
 #~ msgid "If you are migrating from version 10:"
 #~ msgstr "  如果您是从版本 10 迁移："
 
