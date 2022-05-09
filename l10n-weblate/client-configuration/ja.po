@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-26 06:53+0000\n"
-"PO-Revision-Date: 2022-04-15 16:12+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-05-10 00:22+0000\n"
+"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-426/ja/>\n"
 "Language: ja\n"
@@ -2683,9 +2683,8 @@ msgid ""
 "Contents`` field, or upload the file directly using the [guimenu]``File to "
 "Upload`` field."
 msgstr ""
-"自動インストールファイルの内容を［[guimenu]``ファイルの内容``］フィールドにコ"
-"ピーするか、または［[guimenu]``アップロードするファイル``］フィールドを使用し"
-"てファイルを直接アップロードします。"
+"自動インストールファイルの内容を［[guimenu]``File Contents``］フィールドにコピーするか、または［[guimenu]``File "
+"to Upload``］フィールドを使用してファイルを直接アップロードします。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:22
@@ -2843,9 +2842,9 @@ msgid ""
 "installation files, see https://doc.opensuse.org/projects/autoyast/#cha-"
 "configuration-installation-options."
 msgstr ""
-"{ay}インストールファイルは、{ay}インストーラに指示を与えるXMLファイルです。{ay}では、「制御ファイル」と呼ばれます。 "
-"{ay}インストールファイルの構文の詳細については、https://doc.opensuse.org/projects/autoyast/#cha-"
-"configuration-installation-optionsを参照してください。"
+"{ay}インストールファイルは、{ay}インストーラに指示を与えるXMLファイルです。{ay}では、「制御ファイル」と呼ばれます。{ay}インストールファ"
+"イルの構文の詳細については、link:https://doc.opensuse.org/projects/autoyast/#cha-"
+"configuration-installation-options[]を参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:43
@@ -4147,8 +4146,7 @@ msgstr "Terraformによって作成されたクライアントの自動登録"
 msgid ""
 "New clients created by Terraform can be automatically registered to "
 "{productname}.  Registration can be achieved in two ways:"
-msgstr ""
-"Terraformによって作成された新しいクライアントは、{productname}に自動的に登録できます。  登録には、次の 2 つの方法があります。"
+msgstr "Terraformによって作成された新しいクライアントは{productname}に自動的に登録できます。  次の2つの登録方法があります。"
 
 #
 #
@@ -4184,7 +4182,7 @@ msgstr "リモート実行プロビジョナーベースの登録"
 #: modules/client-configuration/pages/automatic-client-registration.adoc:5
 #, no-wrap
 msgid "cloud-init based client registration"
-msgstr "cloud-initベースのクライアント登録"
+msgstr "cloud-initベースのクライアントの登録"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:6
@@ -4205,13 +4203,13 @@ msgid ""
 "[path]``user_data`` is run only once at bootstrap, and only the first time "
 "the machine is started."
 msgstr ""
-"ユーザはTerraformを使用して画像を展開するときに、マシンを{productname}に自動的に登録するため、ユーザデータのセットを渡すことができま"
-"す。  [path]``user_data`` はブートストラップ時に 1 回だけ実行され、マシンが初めて起動されたときにのみ実行されます。"
+"ユーザは、マシンを{productname}に自動的に登録するために、Terraformを使用してイメージをデプロイするときにユーザデータのセットを渡すこ"
+"とができます。  [path]``user_data``はブートストラップ時にマシンが初めて起動したときのみ1回だけ実行されます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:8
 msgid "Before using cloud-init to register clients, the user must configure:"
-msgstr "cloud-init を使用してクライアントを登録する前に、ユーザは次のものを設定する必要があります。"
+msgstr "cloud-initを使用してクライアントを登録する前にユーザは以下を設定する必要があります。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:9
@@ -4219,14 +4217,14 @@ msgstr "cloud-init を使用してクライアントを登録する前に、ユ�
 msgid ""
 "Bootstrap script. See xref:client-configuration:registration-bootstrap.adoc[]"
 msgstr ""
-"ブートストラップスクリプト。 xref:client-configuration:registration-bootstrap."
+"ブートストラップスクリプト。xref:client-configuration:registration-bootstrap."
 "adoc[]を参照してください"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:10
 #: modules/client-configuration/pages/automatic-client-registration.adoc:24
 msgid "Activation keys. See xref:client-configuration:activation-keys.adoc[]"
-msgstr "アクティベーションキー。xref:client-configuration:activation-keys.adoc[]を参照してください。"
+msgstr "アクティベーションキー。xref:client-configuration:activation-keys.adoc[]を参照してください"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:11
@@ -4234,8 +4232,8 @@ msgid ""
 "This command will download the bootstrap script and register the new machine "
 "when it is created.  It should be added to the cloud-init configuration:"
 msgstr ""
-"このコマンドは、ブートストラップスクリプトをダウンロードし、新しいマシンの作成時に登録します。  これは cloud-init "
-"設定に追加する必要があります。"
+"次のコマンドを実行すると、ブートストラップスクリプトがダウンロードされ、新しいマシン作成時にそのマシンが登録されます。  これをcloud-"
+"initの設定に追加する必要があります。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/automatic-client-registration.adoc:12
@@ -4252,13 +4250,13 @@ msgid ""
 "Anytime [path]``user_data`` is updated to change the provisioning, Terraform "
 "will destroy and then recreate the machines with a new IP, etc."
 msgstr ""
-"プロビジョニングを変更するために[path]``user_data``が更新されるたびに、Terraformはマシンを破棄し、新しいIPなどで再作成します"
-"。"
+"[path]``user_data``が更新されてプロビジョニングを変更すると必ず、Terraformはそのマシンを破棄してから新しいIPなどを使用して再"
+"作成します。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:14
 msgid "For more information about cloud-init on AWS, see:"
-msgstr "AWS での cloud-init の詳細については、次を参照してください。"
+msgstr "AWSのcloud-initの詳細については、次のURLを参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:15
@@ -4272,7 +4270,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:16
 msgid "For a cloud-init example, see:"
-msgstr "cloud-initの例については、次を参照してください。"
+msgstr "cloud-initの例については、次のURLを参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:17
@@ -4294,14 +4292,14 @@ msgstr "リモート実行プロビジョナーベースの登録"
 msgid ""
 "The second solution for automatic registering of the newly created virtual "
 "machines uses Terraform's remote-exec provisioner."
-msgstr "新しく作成された仮想マシンを自動的に登録するための 2 番目のソリューションは、Terraform のリモート実行プロビジョナーを使用します。"
+msgstr "新しく作成した仮想マシンの自動登録に対する2番目のソリューションではTerraformのリモート実行プロビジョナーを使用します。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:20
 msgid ""
 "remote-exec provisioner interacts with the newly created machines.  It opens "
 "an SSH connection and can run commands on that machine."
-msgstr "リモート実行 プロビジョナーは、新しく作成されたマシンとやり取りします。  SSH接続を開き、そのマシンでコマンドを実行できます。"
+msgstr "リモート実行プロビジョナーは新しく作成したマシンとやり取りします。  これは、SSH接続を開き、そのマシンでコマンドを実行できます。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/automatic-client-registration.adoc:21
@@ -4310,15 +4308,15 @@ msgid ""
 "that the machine running Terraform will have access to the new virtual "
 "machine after its creation."
 msgstr ""
-"リモート実行プロビジョナーを使用してクライアントを登録する場合、ユーザは、Terraform "
-"を実行しているマシンが作成後に新しい仮想マシンにアクセスできることを確認する必要があります。"
+"リモート実行プロビジョナーを使用してクライアントを登録するとき、ユーザは、Terraformを実行しているマシンが、新しい仮想マシン作成後にそのマシンにア"
+"クセスできることを確認する必要があります。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:22
 msgid ""
 "The remaining requirements are the same as when using <<cloud-init-based-"
 "client-registration>>"
-msgstr "残りの要件は、<<cloud-init-based-client-registration>>を使用する場合と同じです"
+msgstr "その他の要件は、<<cloud-init-based-client-registration>>を使用するときと同じです"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:25
@@ -4326,8 +4324,8 @@ msgid ""
 "This command will download the bootstrap script and register the new machine "
 "when it is created.  It should be defined as the remote command to run:"
 msgstr ""
-"このコマンドは、ブートストラップスクリプトをダウンロードし、新しいマシンの作成時に登録します。  "
-"これは、実行するリモートコマンドとして定義する必要があります。"
+"このコマンドを実行すると、ブートストラップスクリプトがダウンロードされ、新しいマシン作成時にそのマシンが登録されます。これは、実行するリモートコマンドとし"
+"て定義する必要があります。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:27
