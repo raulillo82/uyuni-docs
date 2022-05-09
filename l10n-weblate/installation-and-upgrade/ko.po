@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-10 14:17+0000\n"
-"PO-Revision-Date: 2022-04-15 16:13+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-05-09 19:49+0000\n"
+"Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-43-beta3/ko/>\n"
 "Language: ko\n"
@@ -1601,9 +1601,9 @@ msgstr ""
 #.  2019-10-16, ke: I think we'd better keep the info on 9.4 for the moment
 #. type: Table
 #: modules/installation-and-upgrade/pages/db-intro.adoc:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "====\n"
-msgstr ""
+msgstr "====\n"
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/db-intro.adoc:11
@@ -4966,10 +4966,11 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:7
+#, fuzzy
 msgid ""
 "Upgrade: Describes upgrading of the {productname} components, including the "
 "underlying database."
-msgstr ""
+msgstr "업그레이드: 기본 데이터베이스를 포함하여 {productname} 구성 요소의 업그레이드에 대해 설명합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:8
@@ -6151,11 +6152,14 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:11
+#, fuzzy
 msgid ""
 "The upgrade procedure to {productnumber} can either be a major or a minor "
 "upgrade.  For more information, see the {productname} {productnumber} "
 "release notes."
 msgstr ""
+"{productnumber}의 업그레이드 절차는 주요 업그레이드 또는 부분 업그레이드가 될 수 있습니다. 자세한 내용은 "
+"{productname} {productnumber} 릴리스 정보를 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:12
@@ -6194,11 +6198,14 @@ msgstr "서버 - 부분 업그레이드"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:3
+#, fuzzy
 msgid ""
 "Minor proxy upgrades do not include a version upgrade of the operating "
 "system.  For more information, see the {productname} {productnumber} release "
 "notes."
 msgstr ""
+"부분 프록시 업그레이드의 경우 운영 체제의 버전 업그레이드가 포함되지 않습니다. 자세한 내용은 {productname} "
+"{productnumber} 릴리스 정보를 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:5
@@ -6290,11 +6297,14 @@ msgstr "SUSE Manager 프록시 등록"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:2
+#, fuzzy
 msgid ""
 "{productname} Proxy systems are Salt or traditional clients that are "
 "installed with the Unified Installer and registered to {productname} using "
 "bootstrap script or GUI."
 msgstr ""
+"{productname} Proxy 시스템은 통합 설치 프로그램으로 설치되며 부트스트랩 스크립트 또는 GUI를 사용하여 "
+"{productname}에 등록된 Salt 또는 기존 클라이언트입니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:3
@@ -6329,10 +6339,11 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:5
+#, fuzzy
 msgid ""
 "After the Salt client is succesfully bootstrapped, it needs to be configured "
 "as {productname} Proxy."
-msgstr ""
+msgstr "Salt 클라이언트가 성공적으로 부트스트랩된 후에는 {productname} Proxy로 구성되어야 합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:6
@@ -7435,10 +7446,13 @@ msgstr "서버 - 주요 업그레이드"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:3
+#, fuzzy
 msgid ""
 "Major proxy upgrades include a version upgrade of the operating system.  For "
 "more information, see the {productname} {productnumber} release notes."
 msgstr ""
+"주요 프록시 업그레이드에는 운영 체제의 버전 업그레이드가 포함됩니다. 자세한 내용은 {productname} {productnumber} "
+"릴리스 정보를 참조하십시오."
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:4
@@ -7451,9 +7465,9 @@ msgstr "업그레이드 준비"
 #. and should not be needed when we prepare the migration from Leap 15.3 to 15.4
 #. type: Block title
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Procedure: Update the package opensuse-build-key at the proxies"
-msgstr ""
+msgstr "절차: 프록시에서 opensuse-build-key 패키지 업데이트"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:6
@@ -7472,14 +7486,15 @@ msgstr ""
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "spacewalk-repo-sync -p opensuse_leap15_2-x86_64\n"
-msgstr ""
+msgstr "spacewalk-repo-sync -p opensuse_leap15_2-x86_64\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:8
+#, fuzzy
 msgid "Update the package `openSUSE-build-key` on all {productname} proxies."
-msgstr ""
+msgstr "모든 {productname} 프록시에서 패키지 `openSUSE-build-key`를 업데이트하십시오."
 
 #. type: Block title
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:9
@@ -7548,11 +7563,14 @@ msgid ""
 "Click menu:Details[Remote Command], add `zypper dup --allow-vendor-change` "
 "to the script field, and click btn:[Schedule]"
 msgstr ""
+"menu:세부 정보[원격 명령]을 클릭하고 스크립트 필드에 `zypper dup --allow-vendor-change`를 추가한 후 "
+"btn:[예약]을 클릭합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:25
+#, fuzzy
 msgid "Wait until the remote command is executed."
-msgstr ""
+msgstr "원격 명령이 실행될 때까지 기다립니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:26
@@ -8593,8 +8611,9 @@ msgstr ""
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:7
 #: modules/installation-and-upgrade/pages/server-z.adoc:7
+#, fuzzy
 msgid "It is recommended you make a backup of the server before upgrading."
-msgstr ""
+msgstr "서버를 백업한 후 업그레이드하는 것이 좋습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:8
@@ -8623,8 +8642,9 @@ msgstr "소프트웨어 리포지토리 새로 고침:"
 #.  Zypper list-patches or patch doesn't update Uyuni
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:12
+#, fuzzy
 msgid "Update new packages: (Repeat this if prompted by zypper)"
-msgstr ""
+msgstr "새 패키지 업데이트: (zypper에서 메시지가 표시되면 이 작업을 반복)"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:13
@@ -8635,16 +8655,17 @@ msgstr "zypper patch\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:14
+#, fuzzy
 msgid ""
 "If zypper reports that the Uyuni package won't be upgraded, run the command "
 "manually:"
-msgstr ""
+msgstr "zypper에 Uyuni 패키지가 업그레이드되지 않을 것이라고 표시되면 다음 명령을 수동으로 실행:"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "zypper install Uyuni-Server-release\n"
-msgstr ""
+msgstr "zypper install Uyuni-Server-release\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:16
@@ -9725,9 +9746,9 @@ msgstr ""
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/setup-intro.adoc:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Setup"
-msgstr ""
+msgstr "설정"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/setup-intro.adoc:2
@@ -10169,12 +10190,13 @@ msgstr ""
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Registering a traditional client as Salt minion after deleting it"
-msgstr ""
+msgstr "기존 클라이언트를 삭제한 후 Salt 미니언으로 등록"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:28
+#, fuzzy
 msgid ""
 "This is not a valid scenario. Normally you migrate a traditional client to a "
 "Salt minion without deleting the client.  Salt automatically detects that "
@@ -10183,28 +10205,33 @@ msgid ""
 "minion again, you have to do the following steps on the client before "
 "registering it as Salt minion:"
 msgstr ""
+"유효한 시나리오가 아닙니다. 일반적으로 클라이언트를 삭제하지 않고 기존 클라이언트를 Salt 미니언으로 마이그레이션합니다. Salt는 "
+"기존 클라이언트가 있음을 자동으로 감지하고 필요한 변경을 자체적으로 수행합니다. 하지만 기존 클라이언트를 어떻게든 삭제한 후 Salt "
+"미니언으로 다시 등록하려면, 다음 단계를 수행한 후 클라이언트를 Salt 미니언으로 등록하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:29
+#, fuzzy
 msgid "Remove the following file:"
-msgstr ""
+msgstr "다음 파일 제거:"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "/etc/sysconfig/rhn/systemid\n"
-msgstr ""
+msgstr "/etc/sysconfig/rhn/systemid\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:31
+#, fuzzy
 msgid "Remove the following package:"
-msgstr ""
+msgstr "다음 패키지 제거:"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "zypp-plugin-spacewalk\n"
-msgstr ""
+msgstr "zypp-plugin-spacewalk\n"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:1
