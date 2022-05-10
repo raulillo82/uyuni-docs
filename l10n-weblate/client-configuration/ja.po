@@ -10,7 +10,7 @@ msgstr ""
 "PO-Revision-Date: 2022-05-10 02:40+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
-"docs-client-configuration-manager-43-beta3/ja/>\n"
+"docs-client-configuration-manager-43-rc1/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -7911,7 +7911,7 @@ msgstr "Amazon Linux製品 - WebUI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-amazon.adoc:11
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version | Product Name\n"
 "| {amazon} 2 | Amazon Linux 2 x86_64\n"
@@ -7919,6 +7919,7 @@ msgid ""
 msgstr ""
 "| OSバージョン | 製品名\n"
 "| {amazon} 2 | Amazon Linux 2 x86_64\n"
+"\n"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-amazon.adoc:13
@@ -7929,7 +7930,7 @@ msgstr "Amazon Linuxチャンネル - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-amazon.adoc:14
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel\n"
 "| {amazon} 2 | amazonlinux2-core-x86_64\n"
@@ -7937,6 +7938,7 @@ msgid ""
 msgstr ""
 "| OSバージョン | ベースチャンネル\n"
 "| {amazon} 2 | amazonlinux2-core-x86_64\n"
+"\n"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-amazon.adoc:17
@@ -8062,7 +8064,7 @@ msgstr "CentOS製品 - WebUI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-centos.adoc:11
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version | Product Name\n"
 "| {centos} 6 | CentOS 6 x86_64\n"
@@ -8074,6 +8076,7 @@ msgstr ""
 "|{centos} 6 | CentOS 6 x86_64\n"
 " | {centos} 7 | CentOS 7 x86_64\n"
 " | {centos} 8 | CentOS 8 x86_64\n"
+"\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:12
@@ -8101,7 +8104,7 @@ msgstr "CentOSチャンネル - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-centos.adoc:15
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| OS Version | Base Channel\n"
 "| {centos} 6 | centos6-x86_64\n"
@@ -8113,6 +8116,7 @@ msgstr ""
 "|{centos} 6 | centos6-x86_64\n"
 " | {centos} 7 | centos7-x86_64\n"
 " | {centos} 8 | centos8-x86_64\n"
+"\n"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-centos.adoc:19
@@ -8504,11 +8508,7 @@ msgstr "Debian製品 - WebUI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-debian.adoc:16
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version  | Product Name\n"
-#| "| {debian} 9  | Debian 9\n"
-#| "| {debian} 10 | Debian 10\n"
+#, no-wrap
 msgid ""
 "| OS Version  | Product Name\n"
 "| {debian} 9  | Debian 9\n"
@@ -8516,8 +8516,9 @@ msgid ""
 "| {debian} 11 | Debian 11\n"
 msgstr ""
 "| OSバージョン  | 製品名\n"
-"|{debian} 9  | Debian 9\n"
-" | {debian} 10 | Debian 10\n"
+"| {debian} 9  | Debian 9\n"
+"| {debian} 10 | Debian 10\n"
+"| {debian} 11 | Debian 11\n"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-debian.adoc:18
@@ -8528,11 +8529,7 @@ msgstr "Debianチャンネル - CLI"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-debian.adoc:19
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| OS Version  | Product Name\n"
-#| "| {debian} 9  | debian-9-pool-amd64\n"
-#| "| {debian} 10 | debian-10-pool-amd64\n"
+#, no-wrap
 msgid ""
 "| OS Version  | Product Name\n"
 "| {debian} 9  | debian-9-pool-amd64\n"
@@ -8540,8 +8537,9 @@ msgid ""
 "| {debian} 11 | debian-11-pool-amd64\n"
 msgstr ""
 "| OSバージョン  | 製品名\n"
-"|{debian} 9  | debian-9-pool-amd64\n"
-" | {debian} 10 | debian-10-pool-amd64\n"
+"| {debian} 9  | debian-9-pool-amd64\n"
+"| {debian} 10 | debian-10-pool-amd64\n"
+"| {debian} 11 | debian-11-pool-amd64\n"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-debian.adoc:22
