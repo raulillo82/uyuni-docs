@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-26 06:53+0000\n"
-"PO-Revision-Date: 2022-05-10 00:22+0000\n"
+"PO-Revision-Date: 2022-05-10 02:40+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-426/ja/>\n"
@@ -9042,7 +9042,7 @@ msgstr ""
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-oracle.adoc:28
 msgid "For Oracle 8 clients use"
-msgstr "Oracle 8クライアントの場合は次を使用:"
+msgstr "Oracle 8クライアントの場合、以下を使用します"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-oracle.adoc:29
@@ -9053,7 +9053,7 @@ msgstr "ol8-gpg-pubkey-82562EA9AD986DA3.key\n"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-oracle.adoc:30
 msgid "For Oracle 6 or 7 clients use"
-msgstr "Oracle 6または7クライアントの場合は次を使用:"
+msgstr "Oracle 6または7クライアントの場合、以下を使用します"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-oracle.adoc:31
@@ -10604,8 +10604,8 @@ msgstr ""
 #, no-wrap
 msgid "  Replace [literal]``<channel_label_X>`` above with channel names such as [literal]``rhel8-baseos-repo``:\n"
 msgstr ""
-"  先に示した[literal]``<channel_label_X>``を[literal]``rhel8-baseos-"
-"repo``のようなチャンネル名に置き換えます。\n"
+"  上記の[literal]``<channel_label_X>``を[literal]``rhel8-baseos-"
+"repo``などのチャンネル名に置き換えます。\n"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:81
