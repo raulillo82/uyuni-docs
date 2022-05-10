@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-05-05 14:02+0000\n"
-"PO-Revision-Date: 2022-05-10 00:23+0000\n"
+"PO-Revision-Date: 2022-05-10 00:36+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-427/ja/>\n"
@@ -5143,11 +5143,13 @@ msgid ""
 "You can obtain Custom System Information, manage Configuration Snapshots or "
 "power on, power off, and reboot clients using the SUSE Manager Web UI."
 msgstr ""
+"SUSE Manager Web "
+"UIを使用してカスタムシステム情報の取得、設定のスナップショットの管理、電源オン、電源オフ、クライアントの再起動を実行できます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-operations.adoc:5
 msgid "This section contains detailed description of each of these operation."
-msgstr ""
+msgstr "このセクションでは、これらの操作それぞれについて詳しく説明します。"
 
 #. type: Title =
 #: modules/client-configuration/pages/client-proxy-cli.adoc:1
