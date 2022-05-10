@@ -10,7 +10,7 @@ msgstr ""
 "PO-Revision-Date: 2022-05-10 00:36+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
-"docs-client-configuration-manager-43-beta3/ja/>\n"
+"docs-client-configuration-manager-43-rc1/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5075,11 +5075,13 @@ msgid ""
 "You can obtain Custom System Information, manage Configuration Snapshots or "
 "power on, power off, and reboot clients using the SUSE Manager Web UI."
 msgstr ""
+"SUSE Manager Web "
+"UIを使用してカスタムシステム情報の取得、設定のスナップショットの管理、電源オン、電源オフ、クライアントの再起動を実行できます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-operations.adoc:5
 msgid "This section contains detailed description of each of these operation."
-msgstr ""
+msgstr "このセクションでは、これらの操作それぞれについて詳しく説明します。"
 
 #. type: Title =
 #: modules/client-configuration/pages/client-proxy-cli.adoc:1
@@ -6182,17 +6184,16 @@ msgstr "cobbler profile list\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:45
-#, fuzzy
-#| msgid "Build the ISO file with your chosen profile:"
 msgid "Build the ISO file with your chosen profile and distribution:"
-msgstr "選択したプロファイルでISOを構築します。"
+msgstr "選択したプロファイルおよびディストリビューションでISOファイルを構築します。"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:46
-#, fuzzy, no-wrap
-#| msgid "cobbler buildiso --iso=/tmp/SLE_15-sp1.iso --profiles=SLE_15-sp1:1:Example\n"
+#, no-wrap
 msgid "cobbler buildiso --iso=/tmp/SLE_15-sp1.iso --profiles=SLE_15-sp1:1:Example --distro=SLE_15-sp1\n"
-msgstr "cobbler buildiso --iso=/tmp/SLE_15-sp1.iso --profiles=SLE_15-sp1:1:例\n"
+msgstr ""
+"cobbler buildiso --iso=/tmp/SLE_15-sp1.iso --profiles=SLE_15-sp1:1:Example "
+"--distro=SLE_15-sp1\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:47
@@ -7041,18 +7042,13 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-uyuni.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Fully synchronize all channels with [command]``spacewalk-repo-sync``.  In "
-#| "case of already defined repository URLs, continue with xref:upgrade:proxy-"
-#| "uyuni.adoc#uyuni-202007-channeldupes[]."
 msgid ""
 "Fully synchronize all channels with [command]``spacewalk-repo-sync``.  In "
 "case of already defined repository URLs, continue with xref:installation-and-"
 "upgrade:proxy-uyuni.adoc#uyuni-202007-channeldupes[]."
 msgstr ""
-"[command]``spacewalk-repo-sync``を使用して、すべてのチャンネルを完全に同期し"
-"ます。  リポジトリのURLが定義済みの場合、xref:upgrade:proxy-uyuni."
+"[command]``spacewalk-repo-sync``を使用して、すべてのチャンネルを完全に同期します。  "
+"リポジトリのURLが定義済みの場合、xref:installation-and-upgrade:proxy-uyuni."
 "adoc#uyuni-202007-channeldupes[]で続行します。"
 
 #.  These are custom channels.
