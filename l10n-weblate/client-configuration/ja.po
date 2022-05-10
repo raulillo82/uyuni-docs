@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-04-07 12:00+0000\n"
-"PO-Revision-Date: 2022-05-10 05:17+0000\n"
+"PO-Revision-Date: 2022-05-10 08:13+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
-"docs-client-configuration-manager-43-rc1/ja/>\n"
+"docs-client-configuration-manager-43-beta3/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2687,8 +2687,8 @@ msgid ""
 "Contents`` field, or upload the file directly using the [guimenu]``File to "
 "Upload`` field."
 msgstr ""
-"自動インストールファイルの内容を［[guimenu]``File Contents``］フィールドにコピーするか、または［[guimenu]``File "
-"to Upload``］フィールドを使用してファイルを直接アップロードします。"
+"自動インストールファイルの内容を［[guimenu]``ファイルの内容``］フィールドにコピーするか、または［[guimenu]``アップロードするファイ"
+"ル``］フィールドを使用してファイルを直接アップロードします。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:22
@@ -3680,7 +3680,7 @@ msgid ""
 "specialized-guides:salt/salt-formula-dhcpd.adoc[DHCPd Formula]."
 msgstr ""
 "これですべてのホストにグローバルPXEサーバが設定されますが、ホストごとに設定することもできます。  DHCPd式の詳細については、xref"
-":specialized-guides:salt/salt-formula-dhcpd.adoc[DHCPd Formula]を参照してください。"
+":specialized-guides:salt/salt-formula-dhcpd.adoc[DHCPd式]を参照してください。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:41
@@ -14370,7 +14370,7 @@ msgid ""
 "If you switch, the [package]``salt-minion`` package and its dependencies "
 "will stay installed."
 msgstr ""
-"新しいクライアントをブートストラップする場合、Salt Bundleを使用した登録が既定の方法です。  既存のクライアントをSalt "
+"新しいクライアントをブートストラップする場合、Salt Bundleを使用した登録がデフォルトの方法です。  既存のクライアントをSalt "
 "Bundleの方法に切り替えることができます。  切り替える場合、[package]``salt-"
 "minion``パッケージおよびその依存関係はインストールされたままになります。"
 
@@ -14592,8 +14592,7 @@ msgstr ""
 "ブートストラップリポジトリーは、{webui}を使用してクライアントをブートストラップする前に作成済みである必要があります。Salt SSHは、"
 "検出したターゲットのオペレーティングシステムに基づいてブートストラップリポジトリーから取得されたSalt Bundleを使用しています。  "
 "詳細については、xref:client-configuration:bootstrap-repository."
-"adoc#_prepare_to_create_a_bootstrap_repository[Prepare to Create a Bootstrap "
-"Repository]を参照してください"
+"adoc#_prepare_to_create_a_bootstrap_repository[ブートストラップリポジトリー作成の準備]を参照してください"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-saltbundle.adoc:29
@@ -14638,22 +14637,15 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:4
-#, fuzzy
-#| msgid ""
-#| "The server uses the [command]``salt-ssh`` tool to contact the clients at "
-#| "regular intervals, checking in and performing scheduled actions and "
-#| "events.  For more information about Salt SSH, see xref:salt:salt-ssh."
-#| "adoc[]."
 msgid ""
 "The server uses the Salt SSH to contact the clients at regular intervals, "
 "checking in and performing scheduled actions and events.  For more "
 "information about Salt SSH, see xref:specialized-guides:salt/salt-ssh."
 "adoc[Salt SSH]."
 msgstr ""
-"サーバは、[command]``salt-ssh``ツールを使用して、定期的にクライアントに接続"
-"し、チェックインし、スケジュールされたアクションおよびイベントを実行しま"
-"す。   Salt SSHの詳細については、xref:salt:salt-ssh.adoc[]を参照してくださ"
-"い。"
+"サーバは、Salt SSHを使用して、定期的にクライアントに接続し、チェックインし、スケジュールされたアクションおよびイベントを実行します。   "
+"Salt SSHの詳細については、xref:salt:pecialized-guides:salt/salt-ssh.adoc[Salt "
+"SSH]を参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:5
@@ -14962,6 +14954,11 @@ msgid ""
 "is not possible anymore, see xref:installation-and-upgrade:troubleshooting."
 "adoc[Troubleshooting]."
 msgstr ""
+"従来のクライアントは、次の{productname}バージョンでは廃止され、今後のリリースではサポートされなくなります。  "
+"従来のクライアントからSalt minionに移行するとき、その前に登録したクライアントを削除する必要はありません。Salt "
+"minionとしてそれらを登録するだけでSaltは従来のクライアントで必要な手順を実行します。従来のクライアントおよび登録を既に削除した場合、Salt "
+"minionはこれ以上実行できないため、xref:installation-and-upgrade:troubleshooting."
+"adoc[トラブルシューティング]を参照してください。"
 
 #. type: Title =
 #: modules/client-configuration/pages/custom-info.adoc:1
@@ -15117,10 +15114,9 @@ msgstr ""
 
 #. type: Title =
 #: modules/client-configuration/pages/delete-clients.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Client Upgrades"
+#, no-wrap
 msgid "Client Deletion"
-msgstr "クライアントのアップグレード"
+msgstr "クライアントの削除"
 
 #. type: Plain text
 #: modules/client-configuration/pages/delete-clients.adoc:2
@@ -15188,6 +15184,8 @@ msgid ""
 "deleting it. You have to take care of this yourself. Furthermore cleaning up "
 "a Salt minion does not remove Salt itself."
 msgstr ""
+"従来のクライアントを削除した後にこれを自動的にクリーンアップすることはできません。手動で行う必要があります。さらに、Salt "
+"minionをクリーンアップしてもSalt自体は削除されません。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/delete-clients.adoc:10
@@ -15198,6 +15196,10 @@ msgid ""
 "traditional client and want to register it as a Salt minion again, see xref:"
 "installation-and-upgrade:troubleshooting.adoc[Troubleshooting]."
 msgstr ""
+"通常、従来のクライアントを削除せずにこれをSalt "
+"minionに移行します。Saltは、従来のクライアントがあることを自動検出し、必要な変更を行います。ただし、従来のクライアントを既に削除し、Salt "
+"minionとして再度登録する場合、xref:installation-and-upgrade:troubleshooting."
+"adoc[トラブルシューティング]を参照してください。"
 
 #. type: Title =
 #: modules/client-configuration/pages/gpg-keys.adoc:1
@@ -16110,12 +16112,9 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/products.adoc:4
-#, fuzzy
-#| msgid "For more information, see xref:installation:setup-wizard.adoc[]."
 msgid ""
 "For more information, see xref:installation-and-upgrade:setup-wizard.adoc[]."
-msgstr ""
-"詳細については、xref:installation:setup-wizard.adoc[]を参照してください。"
+msgstr "詳細については、xref:installation-and-upgrade:setup-wizard.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/client-configuration/pages/registration-bootstrap.adoc:1
@@ -16491,6 +16490,12 @@ msgid ""
 "[package]``salt-minion`` if you need it for some reason. See xref:client-"
 "configuration:contact-methods-saltbundle.adoc[Salt Bundle] for details."
 msgstr ""
+"デフォルトでは、ブートストラップスクリプトは、Saltクライアントの[package]``venv-salt-"
+"minion``がブートストラップリポジトリーにある場合にはこれをインストールしようとし、ブートストラップリポジトリーにSalt "
+"Bundleがない場合には[package]``salt-minion``をインストールしようとします。  何らかの理由で[package]``salt-"
+"minion``が必要な場合、Salt Bundleをインストールせずに[package]``salt-"
+"minion``の使用を続けることができます。詳細については、xref:client-configuration:contact-methods-"
+"saltbundle.adoc[Salt Bundle]を参照してください。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/registration-bootstrap.adoc:38
@@ -16602,10 +16607,9 @@ msgstr ""
 
 #. type: Title ==
 #: modules/client-configuration/pages/registration-cli.adoc:2
-#, fuzzy, no-wrap
-#| msgid "Red Hat Client Registration"
+#, no-wrap
 msgid "Manual Salt client registration"
-msgstr "Red Hatクライアントの登録"
+msgstr "Saltクライアントの手動登録"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-cli.adoc:3
