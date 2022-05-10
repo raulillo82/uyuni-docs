@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-10 14:17+0000\n"
-"PO-Revision-Date: 2022-04-15 16:13+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-05-11 01:13+0000\n"
+"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-43-beta3/ja/>\n"
 "Language: ja\n"
@@ -8913,22 +8913,16 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/server-setup.adoc:9
-#, fuzzy
-#| msgid ""
-#| "Do not register the {productname} Server to itself.  The {productname} "
-#| "Server must be managed individually or by using another separate "
-#| "{productname} Server.  For more information about using multiple servers, "
-#| "see xref:large-deployments:multi-server.adoc[]."
 msgid ""
 "Do not register the {productname} Server to itself.  The {productname} "
 "Server must be managed individually or by using another separate "
 "{productname} Server.  For more information about using multiple servers, "
 "see xref:specialized-guides:large-deployments/multi-server.adoc[]."
 msgstr ""
-"{productname}サーバをこのサーバ自体に登録しないでください。  {productname}"
-"サーバは個別に管理するか、別の{productname}サーバを使用して管理する必要があり"
-"ます。  複数のサーバを使用する方法の詳細については、xref:large-deployments:"
-"multi-server.adoc[]を参照してください。"
+"{productname}サーバをこのサーバ自体に登録しないでください。  "
+"{productname}サーバは個別に管理するか、別の{productname}サーバを使用して管理する必要があります。  "
+"複数のサーバを使用する方法の詳細については、xref:specialized-guides:large-deployments/multi-server."
+"adoc[]を参照してください。"
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/server-setup.adoc:10
