@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-10 14:17+0000\n"
-"PO-Revision-Date: 2022-05-11 16:12+0000\n"
+"PO-Revision-Date: 2022-05-12 04:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-43-beta3/ja/>\n"
@@ -117,7 +117,7 @@ msgstr "xref:install-ibmz.adoc[IBM Zでインストールする]"
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:19
 msgid "xref:setup-intro.adoc[Setup]"
-msgstr "xref:setup-intro.adoc[設定]"
+msgstr "xref:setup-intro.adoc[セットアップ]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:20
@@ -885,8 +885,7 @@ msgstr "{payg}インスタンスの接続"
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/connect-payg.adoc:2
 msgid "In the three major public cloud providers (AWS, GCP and Azure), SUSE:"
-msgstr ""
-"3つの主要なパブリッククラウドプロバイダー(AWS、GCP、Azure)では、SUSEは、"
+msgstr "3つの主要なパブリッククラウドプロバイダー(AWS、GCP、Azure)では、SUSEは、"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/connect-payg.adoc:3
@@ -1137,9 +1136,7 @@ msgstr ""
 msgid ""
 "If the authentication data for the instance are correct, the column "
 "[guimenu]``Status`` shows \"Credentials successfully updated.\""
-msgstr ""
-"インスタンスの認証データが正しい場合、［[guimenu]``ステータス``］列に「資格情"
-"報が正常に更新されました」と表示されます。"
+msgstr "インスタンスの認証データが正しい場合、［[guimenu]``ステータス``］列に「資格情報が正常に更新されました」と表示されます。"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/connect-payg.adoc:39
@@ -1937,10 +1934,10 @@ msgid ""
 "terms_and_conditions.pdf.  You do not require a separate code for SLES{nbsp}"
 "{sles-version} {sp-version}."
 msgstr ""
-"{productname}の有効な登録コードのみが必要です。たとえば、「SUSE Manager Lifecycle "
-"Management+」サブスクリプションなど。 詳細については、https://www.suse.com/products/"
-"terms_and_conditions.pdf のSUSE利用規約を参照してください。  SLES{nbsp}{sles-version} {sp-"
-"version}個別のコードは必要ありません。"
+"「SUSE Manager Lifecycle "
+"Management+」サブスクリプションからなどの、{productname}の有効な登録コードのみが必要です。  "
+"詳細については、https://www.suse.com/products/terms_and_conditions.pdf "
+"のSUSE利用規約を参照してください。  SLES{nbsp}{sles-version} {sp-version}個別のコードは必要ありません。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/general-requirements.adoc:25
@@ -2170,7 +2167,7 @@ msgid ""
 "\n"
 msgstr ""
 "| ハードウェア\n"
-"|詳細\n"
+"| 詳細\n"
 "| 推奨\n"
 "\n"
 "| CPU\n"
@@ -3039,7 +3036,7 @@ msgid ""
 msgstr ""
 "{susemgr}プロキシは、{sle}製品ファミリ内の{suse}製品です。  "
 "このセクションでは、{sle}インストールメディアから{susemgr}プロキシをインストールする方法について説明します。  「SUSE Manager "
-"Lifecycle Management+」サブスクリプションなど、{susemgr}プロキシの登録コードを取得済みであることを前提としています。"
+"Lifecycle Management+」サブスクリプションからなどの、{susemgr}プロキシの登録コードを取得済みであることを前提としています。"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-proxy-unified.adoc:4
@@ -3752,8 +3749,8 @@ msgid ""
 msgstr ""
 "{susemgr}は、{sle}製品ファミリ内の{suse}製品です。  "
 "このセクションでは、{sle}インストールメディアから{susemgr}サーバをインストールする方法について説明します。  "
-"このトピックでは、{scc}で有効な組織資格情報がすでにあり、たとえば「SUSE Manager Lifecycle "
-"Management+」サブスクリプションから{susemgr}の登録コードを取得している必要があります。"
+"このトピックでは、{scc}で有効な組織資格情報がすでにあり、「SUSE Manager Lifecycle "
+"Management+」サブスクリプションからなどの、{susemgr}の登録コードを取得済みであることを前提としています。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:3
@@ -3993,8 +3990,8 @@ msgid ""
 "it up so it is ready to use.  For more information, see xref:installation-"
 "and-upgrade:server-setup.adoc[]."
 msgstr ""
-"{productname}サーバのインストールが完了したら、使用できるように設定する必要があります。詳細については、xref:installation-"
-"and-upgrade:server-setup.adoc[]を参照してください。"
+"{productname}サーバのインストールが完了したら、使用できるように設定する必要があります。  詳細については、xref"
+":installation-and-upgrade:server-setup.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-server.adoc:1
@@ -4245,7 +4242,7 @@ msgstr ""
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:9
 msgid "Set variables to use to create repository as [systemitem]``root``:"
-msgstr "リポジトリの作成に使用する変数を [systemitem]``root``として設定します。"
+msgstr "リポジトリの作成に使用する変数を[systemitem]``root``として設定します。"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:10
@@ -5824,7 +5821,7 @@ msgid ""
 "installation-and-upgrade:proxy-x.adoc[]."
 msgstr ""
 "次のメジャーバージョンへのアップグレードです。  たとえば、3.2から4.0または4.1へのアップグレードです。  このタイプのアップグレードは4."
-"3には適用されません。 xref:installation-and-upgrade:proxy-x.adoc[]を参照してください。"
+"3には適用されません。  xref:installation-and-upgrade:proxy-x.adoc[]を参照してください。"
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:7
@@ -5909,8 +5906,8 @@ msgid ""
 "system.  For more information, see the {productname} {productnumber} release "
 "notes."
 msgstr ""
-"マイナープロキシアップグレードには、オペレーティングシステムのバージョンアップグレードは含まれません。  "
-"詳細については、{productname}{productnumber}リリースノートを参照してください。"
+"マイナープロキシアップグレードには、オペレーティングシステムのバージョンアップグレードは含まれません。  詳細については、{productname} "
+"{productnumber}リリースノートを参照してください。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:5
@@ -6564,7 +6561,9 @@ msgstr "{productname}サーバの証明書に使用したパスワードを入�
 #: modules/installation-and-upgrade/pages/uyuni-proxy-setup.adoc:41
 #, no-wrap
 msgid "Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion?"
-msgstr "Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion?（SSH-Push Salt Minionのプロキシ処理に既存のSSHキーを使用しますか?）"
+msgstr ""
+"Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion"
+"?（SSH-Push Salt Minionのプロキシ処理に既存のSSHキーを使用しますか?）"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:38
@@ -6581,7 +6580,9 @@ msgstr ""
 #: modules/installation-and-upgrade/pages/uyuni-proxy-setup.adoc:43
 #, no-wrap
 msgid "Create and Populate Configuration Channel rhn_proxy_config_1000010001?"
-msgstr "Create and Populate Configuration Channel rhn_proxy_config_1000010001?（設定チャンネルrhn_proxy_config_1000010001を作成および入力しますか?）"
+msgstr ""
+"Create and Populate Configuration Channel "
+"rhn_proxy_config_1000010001?（設定チャンネルrhn_proxy_config_1000010001を作成および入力しますか?）"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:40
@@ -7117,8 +7118,8 @@ msgid ""
 "Major proxy upgrades include a version upgrade of the operating system.  For "
 "more information, see the {productname} {productnumber} release notes."
 msgstr ""
-"プロキシメジャーアップグレードには、オペレーティングシステムのバージョンアップグレードが含まれます。詳細については、{productname}{produ"
-"ctnumber}リリースノートを参照してください。"
+"プロキシメジャーアップグレードには、オペレーティングシステムのバージョンアップグレードが含まれます。  詳細については、{productname} "
+"{productnumber}リリースノートを参照してください。"
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:4
@@ -7141,8 +7142,8 @@ msgid ""
 "[command]``spacewalk-repo-sync`` command to sync all the openSUSE Leap 15.2 "
 "channels:"
 msgstr ""
-"{productname}サーバのコマンドプロンプトで root になり、[command]``spacewalk-repo-"
-"sync``コマンドを使用して、すべてのopenSUSE Leap 15.2チャンネルを同期します。"
+"{productname}サーバのコマンドプロンプトで、root として、``spacewalk-repo-sync``"
+"コマンドを使用してすべてのopenSUSE Leap 15.2チャンネルを同期します。"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:7
@@ -7273,7 +7274,7 @@ msgid ""
 "upgrade from 4.2 to 4.3.  For more information on upgrading from 3.2 to 4.1, "
 "see:"
 msgstr ""
-"3.2から 4.3にアップグレードするには、まず3.2から4.2にアップグレードし、4.2から4.3にアップグレードする必要があります。 3.2から4."
+"3.2から 4.3にアップグレードするには、まず3.2から4.2にアップグレードし、4.2から4.3にアップグレードする必要があります。  3.2から4."
 "1にアップグレードする方法の詳細については、次を参照してください:"
 
 #. type: Plain text
@@ -8893,7 +8894,9 @@ msgstr ""
 #: modules/installation-and-upgrade/pages/uyuni-server-setup.adoc:62
 #, no-wrap
 msgid "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
-msgstr "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
+msgstr ""
+"GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts "
+"elevator=noop transparent_hugepage=never\"\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-setup.adoc:68
@@ -9792,9 +9795,9 @@ msgid ""
 "minion again, you have to do the following steps on the client before "
 "registering it as Salt minion:"
 msgstr ""
-"これは有効なシナリオではありません。通常、クライアントを削除せずに、従来のクライアントをSalt Minionに移行します。   "
+"これは有効なシナリオではありません。通常、クライアントを削除せずに、従来のクライアントをSalt minionに移行します。  "
 "Saltは、従来のクライアントがあることを自動的に検出し、必要な変更を自動的に行います。ただし、何らかの方法で従来のクライアントを削除し、それをSalt "
-"Minionとして再度登録する場合は、クライアントで次の手順を実行してから、Salt Minionとして登録する必要があります。"
+"minionとして再度登録する場合は、クライアントで次の手順を実行してから、Salt minionとして登録する必要があります。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:29
@@ -9962,7 +9965,8 @@ msgid ""
 "installation-and-upgrade:server-intro-uyuni.adoc[]."
 msgstr ""
 "{productname}は、ローリングリリースに適している[literal]``YYYY.MM``バージョン設定スキーマを使用しています。  "
-"{productname}サーバをアップグレードしている場合は、upgrade:server-intro-uyuni.adoc[]を参照してください。"
+"{productname}サーバをアップグレードしている場合は、xref:installation-and-upgrade:server-intro-"
+"uyuni.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/uyuni-install-requirements.adoc:1
@@ -10063,7 +10067,7 @@ msgstr ""
 "| [path]``/var/spacewalk``\n"
 "| 各{suse}製品では50{nbsp}GB以上、各Red Hat製品では360{nbsp}GB\n"
 "\n"
-"\n"
+"|\n"
 "| [path]``/var/cache``\n"
 "| 10{nbsp}GB以上。\n"
 "各{suse}製品にはさらに100{nbsp}MBを追加し、個々のRed Hatまたはその他の製品ではさらに1{nbsp}GBを追加します。\n"
