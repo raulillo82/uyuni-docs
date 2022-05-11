@@ -10,7 +10,7 @@ msgstr ""
 "PO-Revision-Date: 2022-05-11 04:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
-"docs-client-configuration-manager-43-beta3/ja/>\n"
+"docs-client-configuration-manager-43-rc1/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26989,21 +26989,13 @@ msgstr "作成したVHMは、GCE VMにアクセスするために、正しいパ
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-gce.adoc:6
-#, fuzzy
-#| msgid ""
-#| "Log in to your Google Cloud Platform account as an administrator, and use "
-#| "the Cloud Identity and Access Management (IAM) tool to ensure that the "
-#| "service account has the appropriate roles.  You also need to ensure that "
-#| "the VM has been assigned the `VM`` role."
 msgid ""
 "Log in to your Google Cloud Platform account as an administrator, and use "
 "the Cloud Identity and Access Management (IAM) tool to ensure that the "
 "service account has the appropriate roles."
 msgstr ""
-"Googleクラウドプラットフォームのアカウントに管理者としてログインし、クラウド"
-"のIDおよびアクセス管理(IAM)ツールを使用して、サービスアカウントに適切なロール"
-"があることを確認してください。  VMに `VM` ロールが割り当てられていることも確"
-"認する必要があります。"
+"Googleクラウドプラットフォームのアカウントに管理者としてログインし、クラウドのIDおよびアクセス管理(IAM)ツールを使用して、サービスアカウントに"
+"適切なロールがあることを確認してください。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/vhm-gce.adoc:7
@@ -27057,16 +27049,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-gce.adoc:17
-#, fuzzy
-#| msgid ""
-#| "In the [guimenu]``Service Account Email`` field, type the email address "
-#| "associated with your Google account."
 msgid ""
 "In the [guimenu]``Service Account Email`` field, type the email address "
 "associated with your service account."
 msgstr ""
-"［[guimenu]``Service Account Email``］（サービスアカウントメール）フィールド"
-"に、Googleアカウントに関連付けられているメールアドレスを入力します。"
+"［[guimenu]``Service Account "
+"Email``］（サービスアカウントメール）フィールドに、サービスアカウントに関連付けられているメールアドレスを入力します。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-gce.adoc:18
