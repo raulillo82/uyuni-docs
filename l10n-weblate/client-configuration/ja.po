@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-23 16:13+0000\n"
-"PO-Revision-Date: 2022-05-10 08:13+0000\n"
+"PO-Revision-Date: 2022-05-11 04:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-424/ja/>\n"
@@ -2875,8 +2875,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:45
 msgid "``<add-on>`` section allows to add child channels to the installation"
-msgstr ""
-"``<add-on>``セクションでは、インストールに子チャンネルを追加できます 。"
+msgstr "``<add-on>``セクションでは、インストールに子チャンネルを追加できます 。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:46
@@ -24973,7 +24972,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:112
 msgid "For example:"
-msgstr "次に例を示します。"
+msgstr "例:"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:113
