@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-25 18:13+0000\n"
-"PO-Revision-Date: 2022-04-15 16:13+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-05-11 04:12+0000\n"
+"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-423/ja/>\n"
 "Language: ja\n"
@@ -2884,8 +2884,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:45
 msgid "``<add-on>`` section allows to add child channels to the installation"
-msgstr ""
-"``<add-on>``セクションでは、インストールに子チャンネルを追加できます 。"
+msgstr "``<add-on>``セクションでは、インストールに子チャンネルを追加できます 。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:46
