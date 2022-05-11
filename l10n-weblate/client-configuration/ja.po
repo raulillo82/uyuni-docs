@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-04-07 12:00+0000\n"
-"PO-Revision-Date: 2022-05-11 21:43+0000\n"
+"PO-Revision-Date: 2022-05-11 23:33+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
-"docs-client-configuration-manager-43-rc1/ja/>\n"
+"docs-client-configuration-manager-43-beta3/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23518,17 +23518,13 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:7
 msgid "{check} clients running this operating system are supported by {suse}"
-msgstr ""
-"{check}このオペレーティングシステムを実行しているクライアントは{suse}でサポー"
-"トされています。"
+msgstr "{check}このオペレーティングシステムを実行しているクライアントは{suse}でサポートされています。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:8
 msgid ""
 "{cross} clients running this operating system are not supported by {suse}"
-msgstr ""
-"{cross}このオペレーティングシステムを実行しているクライアントは{suse}ではサ"
-"ポートされていません。"
+msgstr "{cross}このオペレーティングシステムを実行しているクライアントは{suse}ではサポートされていません。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:9
@@ -24764,8 +24760,7 @@ msgstr "{check}: このアクションはこのクライアントタイプ用に
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:5
 msgid "{cross} this action is not available in SSM for this client type"
-msgstr ""
-"{cross}: このアクションはこのクライアントタイプ用にSSMで使用できません。"
+msgstr "{cross}: このアクションはこのクライアントタイプ用にSSMで使用できません。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:6
@@ -25473,7 +25468,8 @@ msgstr ""
 #: modules/client-configuration/pages/tshoot-clients.adoc:35
 #, no-wrap
 msgid "mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
-msgstr "mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
+msgstr ""
+"mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:36
@@ -26074,14 +26070,17 @@ msgstr ""
 "Repository '<Repository_Name>' is invalid.\n"
 "（リポジトリ'<Repository_Name>'は無効です。）\n"
 "[|] Valid metadata not found at specified URL(s)\n"
-" Please check if the URIs defined for this repository are pointing to a valid repository.\n"
+" Please check if the URIs defined for this repository are pointing to a "
+"valid repository.\n"
 "（有効なメタデータが指定されているURLで見つかりませんでした。\n"
 "このリポジトリ用に定義されているURIが有効なリポジトリを指しているかどうかを確認してください。\n"
 "）Skipping repository '<Repository_Name>' because of the above error.\n"
 "（上記のエラーのため、リポジトリ'<Repository_Name>'をスキップします。\n"
-"）Download (curl) error for 'www.example.com':（'www.example.com'に(curl)エラーをダウンロードします:\n"
+"）Download (curl) error for 'www.example.com':（'www.example."
+"com'に(curl)エラーをダウンロードします:\n"
 "）Error code:（エラーコード:）Unrecognized error\n"
-" Error message: error:1409442E:SSL routines:SSL3_READ_BYTES:tlsv1 alert  protocol version\n"
+" Error message: error:1409442E:SSL routines:SSL3_READ_BYTES:tlsv1 alert "
+"protocol version\n"
 "（認識できないエラー\n"
 " エラーメッセージ: エラー:1409442E:SSLルーチン:SSL3_READ_BYTES:tlsv1 警告プロトコルバージョン）\n"
 
