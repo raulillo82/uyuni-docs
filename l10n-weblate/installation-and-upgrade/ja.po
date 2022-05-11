@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-10 14:17+0000\n"
-"PO-Revision-Date: 2022-05-11 10:12+0000\n"
+"PO-Revision-Date: 2022-05-11 13:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-43-beta3/ja/>\n"
@@ -5818,19 +5818,13 @@ msgstr "メジャーバージョンのアップグレード(Xアップグレー�
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:6
-#, fuzzy
-#| msgid ""
-#| "Upgrading to the next major version.  For example, upgrading from 3.2 to "
-#| "4.0 or to 4.1.  This type of upgrade does not apply to 4.2.  See xref:"
-#| "upgrade:proxy-x.adoc[]."
 msgid ""
 "Upgrading to the next major version.  For example, upgrading from 3.2 to 4.0 "
 "or to 4.1.  This type of upgrade does not apply to 4.3.  See xref:"
 "installation-and-upgrade:proxy-x.adoc[]."
 msgstr ""
-"次のメジャーバージョンへのアップグレードです。  たとえば、3.2から4.0または4.1"
-"へのアップグレードです。  このタイプのアップグレードは4.2には適用されませ"
-"ん。 xref:upgrade:proxy-x.adoc[]を参照してください。"
+"次のメジャーバージョンへのアップグレードです。  たとえば、3.2から4.0または4.1へのアップグレードです。  このタイプのアップグレードは4."
+"3には適用されません。 xref:installation-and-upgrade:proxy-x.adoc[]を参照してください。"
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:7
@@ -5843,19 +5837,13 @@ msgstr "マイナーバージョンのアップグレード(Yアップグレー�
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:8
-#, fuzzy
-#| msgid ""
-#| "Upgrading to the next minor version.  This is often referred to as a "
-#| "service pack (SP) migration.  For example, upgrading from 4.1 to 4.2 or "
-#| "from 4.0 to 4.2.  See xref:upgrade:proxy-y-z.adoc[]."
 msgid ""
 "Upgrading to the next minor version.  This is often referred to as a service "
 "pack (SP) migration.  For example, upgrading from 4.1 to 4.3 or from 4.2 to "
 "4.3.  See xref:installation-and-upgrade:proxy-y-z.adoc[]."
 msgstr ""
-"次のマイナーバージョンへのアップグレードです。  これは、サービスパック(SP)の"
-"移行と呼ばれることが多いです。  たとえば、4.1から4.2または4.0から4.2へのアッ"
-"プグレードです。  xref:upgrade:proxy-y-z.adoc[]を参照してください。"
+"次のマイナーバージョンへのアップグレードです。  これは、サービスパック(SP)の移行と呼ばれることが多いです。  たとえば、4.1から4.3または4."
+"2から4.3へのアップグレードです。  xref:installation-and-upgrade:proxy-y-z.adoc[]を参照してください。"
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:9
@@ -5868,19 +5856,13 @@ msgstr "パッチレベルのアップグレード(Zアップグレード)"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:10
-#, fuzzy
-#| msgid ""
-#| "Upgrading within the same minor version.  This is often referred to as a "
-#| "maintenance update.  For example, upgrading from 4.2.0 to 4.2.1.  See "
-#| "xref:upgrade:proxy-y-z.adoc[]."
 msgid ""
 "Upgrading within the same minor version.  This is often referred to as a "
 "maintenance update.  For example, upgrading from 4.3.0 to 4.3.1.  See xref:"
 "installation-and-upgrade:proxy-y-z.adoc[]."
 msgstr ""
-"同じマイナーバージョン内でのアップグレードです。  これは保守更新と呼ばれるこ"
-"とが多いです。  たとえば、4.2.0から4.2.1へのアップグレードです。  xref:"
-"upgrade:proxy-y-z.adoc[]を参照してください。"
+"同じマイナーバージョン内でのアップグレードです。  これは保守更新と呼ばれることが多いです。  たとえば、4.3.0から4.3.1へのアップグレードです。"
+"  xref:installation-and-upgrade:proxy-y-z.adoc[]を参照してください。"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:11
@@ -5889,41 +5871,36 @@ msgid ""
 "upgrade.  For more information, see the {productname} {productnumber} "
 "release notes."
 msgstr ""
+"{productnumber}へのアップグレード手順は、メジャーアップグレードまたはマイナーアップグレードのいずれかです。詳細については、{product"
+"name} {productnumber}リリースノートを参照してください。"
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:12
-#, fuzzy, no-wrap
-#| msgid "Major Upgrades"
+#, no-wrap
 msgid "Major Upgrade"
 msgstr "メジャーアップグレード"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:13
-#, fuzzy
-#| msgid "xref:proxy-uyuni.adoc[Proxy - Upgrade Procedure]"
 msgid "See xref:proxy-uyuni.adoc[]."
-msgstr "xref:proxy-uyuni.adoc[プロキシ - アップグレードプロシージャ]"
+msgstr "xref:proxy-uyuni.adoc[]を参照してください。"
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:14
-#, fuzzy, no-wrap
-#| msgid "Minor Upgrades"
+#, no-wrap
 msgid "Minor Upgrade"
 msgstr "マイナーアップグレード"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:15
-#, fuzzy
-#| msgid "xref:proxy-uyuni.adoc[Proxy - Upgrade Procedure]"
 msgid "See xref:proxy-minor-uyuni.adoc[]."
-msgstr "xref:proxy-uyuni.adoc[プロキシ - アップグレードプロシージャ]"
+msgstr "xref:proxy-minor-uyuni.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Server - Minor Upgrade"
+#, no-wrap
 msgid "Proxy - Minor Upgrade"
-msgstr "サーバ - マイナーアップグレード"
+msgstr "プロキシ - マイナーアップグレード"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:3
@@ -5932,6 +5909,8 @@ msgid ""
 "system.  For more information, see the {productname} {productnumber} release "
 "notes."
 msgstr ""
+"マイナープロキシアップグレードには、オペレーティングシステムのバージョンアップグレードは含まれません。  "
+"詳細については、{productname}{productnumber}リリースノートを参照してください。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:5
@@ -5979,13 +5958,10 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:10
-#, fuzzy
-#| msgid ""
-#| "Select packages to be updated on the proxy, and then apply the selection."
 msgid ""
 "Select all the packages to be updated on the proxy, and then apply the "
 "selection."
-msgstr "プロキシで更新するパッケージを選択し、選択を適用します。"
+msgstr "プロキシで更新するすべてのパッケージを選択し、選択を適用します。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:11
@@ -6028,45 +6004,36 @@ msgid ""
 "installed with the Unified Installer and registered to {productname} using "
 "bootstrap script or GUI."
 msgstr ""
+"{productname}プロキシシステムは、Unified Installerでインストールされ、ブートストラップスクリプトまたはGUIを使用して{pr"
+"oductname}に登録されるSaltまたは従来のクライアントです。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:3
-#, fuzzy
-#| msgid ""
-#| "For more information about the setup wizard, see xref:installation:setup-"
-#| "wizard.adoc[]."
 msgid ""
 "For more information about installing proxies, see xref:installation-and-"
 "upgrade:install-proxy-unified.adoc[]."
 msgstr ""
-"セットアップウィザードの詳細については、xref:installation:setup-wizard.adoc[]"
-"を参照してください。"
+"プロキシのインストールの詳細については、xref:installation-and-upgrade:install-proxy-unified."
+"adoc[]を参照してください。"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Migrating a traditional proxy to a Salt proxy is not possible.  If you "
-#| "want to change a traditional proxy to a Salt proxy, you need to reinstall "
-#| "the proxy.  For more information about reinstalling proxies, see xref:"
-#| "installation:proxy-setup.adoc[]."
 msgid ""
 "Migrating a traditional proxy to a Salt proxy is not possible.  If you want "
 "to change a traditional proxy to a Salt proxy, you need to reinstall the "
 "proxy.  For more information about reinstalling proxies, see xref:"
 "installation-and-upgrade:proxy-setup.adoc[]."
 msgstr ""
-"従来のプロキシをSaltプロキシに移行することはできません。従来のプロキシをSalt"
-"プロキシに変更する場合、プロキシを再インストールする必要があります。  プロキ"
-"シの再インストールの詳細については、xref:installation:proxy-setup.adoc[]を参"
-"照してください。"
+"従来のプロキシをSaltプロキシに移行することはできません。従来のプロキシをSaltプロキシに変更する場合、プロキシを再インストールする必要があります。"
+"  プロキシの再インストールの詳細については、xref:installation-and-upgrade:proxy-setup."
+"adoc[]を参照してください。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:5
 msgid ""
 "After the Salt client is succesfully bootstrapped, it needs to be configured "
 "as {productname} Proxy."
-msgstr ""
+msgstr "Saltクライアントが正常にブートストラップされたら、{productname}プロキシとして設定する必要があります。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:6
@@ -6106,16 +6073,12 @@ msgstr "プロシージャ: プロキシの登録"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:9
-#, fuzzy
-#| msgid ""
-#| "Create an activation key based on the [systemitem]``SLE-Product-SUSE-"
-#| "Manager-Proxy-4.2-Pool`` base channel."
 msgid ""
 "Create an activation key based on the [systemitem]``SLE-Product-SUSE-Manager-"
 "Proxy-4.3-Pool`` base channel."
 msgstr ""
-"[systemitem]``SLE-Product-SUSE-Manager-Proxy-4.2-Pool``ベースチャンネルに基づ"
-"いて、アクティベーションキーを作成します。"
+"[systemitem]``SLE-Product-SUSE-Manager-Proxy-4."
+"3-Pool``ベースチャンネルに基づいて、アクティベーションキーを作成します。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:10
@@ -6150,58 +6113,40 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:14
-#, fuzzy
-#| msgid "SLE-Module-Basesystem15-SP3-Pool"
 msgid "SLE-Module-Basesystem15-SP4-Pool"
-msgstr "SLE-Module-Basesystem15-SP3-Pool"
+msgstr "SLE-Module-Basesystem15-SP4-Pool"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:15
-#, fuzzy
-#| msgid "SLE-Module-Basesystem15-SP3-Updates"
 msgid "SLE-Module-Basesystem15-SP4-Updates"
-msgstr "SLE-Module-Basesystem15-SP3-Updates"
+msgstr "SLE-Module-Basesystem15-SP4-Updates"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:16
-#, fuzzy
-#| msgid "SLE-Module-Server-Applications15-SP3-Pool"
 msgid "SLE-Module-Server-Applications15-SP4-Pool"
-msgstr "SLE-Module-Server-Applications15-SP3-Pool"
+msgstr "SLE-Module-Server-Applications15-SP4-Pool"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:17
-#, fuzzy
-#| msgid "SLE-Module-Server-Applications15-SP3-Updates"
 msgid "SLE-Module-Server-Applications15-SP4-Updates"
-msgstr "SLE-Module-Server-Applications15-SP3-Updates"
+msgstr "SLE-Module-Server-Applications15-SP4-Updates"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:18
-#, fuzzy
-#| msgid "SLE-Module-SUSE-Manager-Proxy-4.2-Pool"
 msgid "SLE-Module-SUSE-Manager-Proxy-4.3-Pool"
-msgstr "SLE-Module-SUSE-Manager-Proxy-4.2-Pool"
+msgstr "SLE-Module-SUSE-Manager-Proxy-4.3-Pool"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:19
-#, fuzzy
-#| msgid "SLE-Module-SUSE-Manager-Proxy-4.2-Updates"
 msgid "SLE-Module-SUSE-Manager-Proxy-4.3-Updates"
-msgstr "SLE-Module-SUSE-Manager-Proxy-4.2-Updates"
+msgstr "SLE-Module-SUSE-Manager-Proxy-4.3-Updates"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:20
-#, fuzzy
-#| msgid ""
-#| "The [systemitem]``SLE-Product-SUSE-Manager-Proxy-4.2-Updates`` channel is "
-#| "mandatory."
 msgid ""
 "The [systemitem]``SLE-Product-SUSE-Manager-Proxy-4.3-Updates`` channel is "
 "mandatory."
-msgstr ""
-"[systemitem]``SLE-Product-SUSE-Manager-Proxy-4.2-Updates``チャンネルは必須で"
-"す。"
+msgstr "[systemitem]``SLE-Product-SUSE-Manager-Proxy-4.3-Updates``チャンネルは必須です。"
 
 #. type: Block title
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:21
@@ -6217,11 +6162,8 @@ msgstr "proxy-child.png"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:23
-#, fuzzy
-#| msgid "Bootstrap the client with the bootstrap script."
 msgid "To bootstrap a proxy, use the bootstrap script."
-msgstr ""
-"ブートストラップスクリプトを使用してクライアントをブートストラップします。"
+msgstr "プロキシをブートストラップするには、ブートストラップスクリプトを使用します。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:24
@@ -7001,21 +6943,15 @@ msgstr ""
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:77
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:86
-#, fuzzy
-#| msgid ""
-#| "Register the new proxy with a bootstrap script as described in xref:"
-#| "installation:proxy-registration.adoc[].  In the bootstrap script, set the "
-#| "reactivation key with the [systemitem]``REACTIVATION_KEY`` parameter."
 msgid ""
 "Register the new proxy with a bootstrap script as described in xref:"
 "installation-and-upgrade:proxy-registration.adoc[].  In the bootstrap "
 "script, set the reactivation key with the [systemitem]``REACTIVATION_KEY`` "
 "parameter."
 msgstr ""
-"xref:installation:proxy-registration.adoc[]の記述に従って、ブートストラップス"
-"クリプトを使用して新しいプロキシを登録します。  ブートストラップスクリプト"
-"で、[systemitem]``REACTIVATION_KEY``パラメータを使用して再アクティベーション"
-"キーを設定します。"
+"xref:installation-and-upgrade:proxy-registration."
+"adoc[]の記述に従って、ブートストラップスクリプトを使用して新しいプロキシを登録します。  "
+"ブートストラップスクリプトで、[systemitem]``REACTIVATION_KEY``パラメータを使用して再アクティベーションキーを設定します。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:78
@@ -7131,22 +7067,15 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:99
-#, fuzzy
-#| msgid ""
-#| "Register the proxy with a bootstrap script as described in xref:"
-#| "installation:proxy-registration.adoc[].  In the bootstrap script set the "
-#| "activation key used with the old proxy with the "
-#| "[systemitem]``ACTIVATION_KEYS`` parameter."
 msgid ""
 "Register the proxy with a bootstrap script as described in xref:installation-"
 "and-upgrade:proxy-registration.adoc[].  In the bootstrap script set the "
 "activation key used with the old proxy with the "
 "[systemitem]``ACTIVATION_KEYS`` parameter."
 msgstr ""
-"xref:installation:proxy-registration.adoc[]の記述に従って、ブートストラップス"
-"クリプトを使用してプロキシを登録します。  ブートストラップスクリプトで、"
-"[systemitem]``ACTIVATION_KEYS``パラメータを使用して、古いプロキシに使用したア"
-"クティベーションキーを設定します。"
+"xref:installation-and-upgrade:proxy-registration."
+"adoc[]の記述に従って、ブートストラップスクリプトを使用してプロキシを登録します。  ブートストラップスクリプトで、[systemitem]``ACT"
+"IVATION_KEYS``パラメータを使用して、古いプロキシに使用したアクティベーションキーを設定します。"
 
 #. type: Title ===
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:104
@@ -7178,10 +7107,9 @@ msgstr "http://PROXY_HOSTNAME/pub\n"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Server - Major Upgrade"
+#, no-wrap
 msgid "Proxy - Major Upgrade"
-msgstr "サーバ - メジャーアップグレード"
+msgstr "プロキシ - メジャーアップグレード"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:3
@@ -7189,11 +7117,12 @@ msgid ""
 "Major proxy upgrades include a version upgrade of the operating system.  For "
 "more information, see the {productname} {productnumber} release notes."
 msgstr ""
+"プロキシメジャーアップグレードには、オペレーティングシステムのバージョンアップグレードが含まれます。詳細については、{productname}{produ"
+"ctnumber}リリースノートを参照してください。"
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:4
-#, fuzzy, no-wrap
-#| msgid "Prepare to Upgrade"
+#, no-wrap
 msgid "Preparation for the Upgrade"
 msgstr "アップグレードの準備"
 
@@ -7203,41 +7132,34 @@ msgstr "アップグレードの準備"
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:5
 #, no-wrap
 msgid "Procedure: Update the package opensuse-build-key at the proxies"
-msgstr ""
+msgstr "プロシージャ: プロキシでパッケージopensuse-build-keyを更新する"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:6
-#, fuzzy
-#| msgid ""
-#| "At the command prompt on the {productname} Server, as root, use the "
-#| "[command]``spacewalk-common-channels`` command to add the appropriate "
-#| "channels:"
 msgid ""
 "At the command prompt on the {productname} Server, as root, use the "
 "[command]``spacewalk-repo-sync`` command to sync all the openSUSE Leap 15.2 "
 "channels:"
 msgstr ""
-"{productname} サーバのコマンドプロンプトで root になり、 "
-"[command]``spacewalk-common-channels`` コマンドを特定のチャンネルに対して実行"
-"します:"
+"{productname}サーバのコマンドプロンプトで root になり、[command]``spacewalk-repo-"
+"sync``コマンドを使用して、すべてのopenSUSE Leap 15.2チャンネルを同期します。"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:7
 #, no-wrap
 msgid "spacewalk-repo-sync -p opensuse_leap15_2-x86_64\n"
-msgstr ""
+msgstr "spacewalk-repo-sync -p opensuse_leap15_2-x86_64\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:8
 msgid "Update the package `openSUSE-build-key` on all {productname} proxies."
-msgstr ""
+msgstr "すべての{productname}プロキシでパッケージ`openSUSE-build-key`を更新します。"
 
 #. type: Block title
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:9
-#, fuzzy, no-wrap
-#| msgid "Procedure: Adding Software Channels at the Command Prompt"
+#, no-wrap
 msgid "Procedure: Adding openSUSE Leap {opensuse-version} Software Channels at the Command Prompt"
-msgstr "手順: コマンドプロンプトからのソフトウェアチャンネルの追加"
+msgstr "プロシージャ: コマンドプロンプトでopenSUSE Leap {opensuse-version}ソフトウェアチャンネルを追加する"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:14
@@ -7302,11 +7224,13 @@ msgid ""
 "Click menu:Details[Remote Command], add `zypper dup --allow-vendor-change` "
 "to the script field, and click btn:[Schedule]"
 msgstr ""
+"menu:詳細[リモートコマンド]をクリックし、スクリプトフィールドに `zypper dup --allow-vendor-"
+"change`を追加して、［btn:[スケジュール]］をクリックします。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:25
 msgid "Wait until the remote command is executed."
-msgstr ""
+msgstr "リモートコマンドが実行されるまで待ちます。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:26
@@ -7334,35 +7258,23 @@ msgstr "プロキシ - メジャーバージョンのアップグレード(Xア�
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-x.adoc:2
-#, fuzzy
-#| msgid ""
-#| "In some cases {productname} Proxy can be upgraded from one major version "
-#| "to the next.  For example, Proxy can be upgraded from 3.2 to 4.1, but not "
-#| "from 3.2 to 4.2."
 msgid ""
 "In some cases {productname} Proxy can be upgraded from one major version to "
 "the next.  For example, Proxy can be upgraded from 3.2 to 4.1, but not from "
 "3.2 to 4.3."
 msgstr ""
-"場合によっては、{productname}プロキシは、あるメジャーバージョンから次のメ"
-"ジャーバージョンにアップグレードできます。  たとえば、プロキシは3.2から4.1に"
-"アップグレードできますが、3.2から4.2にはアップグレードできません。"
+"場合によっては、{productname}プロキシは、あるメジャーバージョンから次のメジャーバージョンにアップグレードできます。  たとえば、プロキシは3"
+".2から4.1にアップグレードできますが、3.2から4.3にはアップグレードできません。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-x.adoc:3
-#, fuzzy
-#| msgid ""
-#| "To upgrade from 3.2 to 4.2, you must first upgrade from 3.2 to 4.1, then "
-#| "upgrade from 4.1 to 4.2.  For more information on upgrading from 3.2 to "
-#| "4.1, see:"
 msgid ""
 "To upgrade from 3.2 to 4.3, you must first upgrade from 3.2 to 4.2, then "
 "upgrade from 4.2 to 4.3.  For more information on upgrading from 3.2 to 4.1, "
 "see:"
 msgstr ""
-"3.2から 4.2にアップグレードするには、まず3.2から4.1にアップグレードし、4.1か"
-"ら4.2にアップグレードする必要があります。 3.2から4.1にアップグレードする方法"
-"の詳細については、次を参照してください:"
+"3.2から 4.3にアップグレードするには、まず3.2から4.2にアップグレードし、4.2から4.3にアップグレードする必要があります。 3.2から4."
+"1にアップグレードする方法の詳細については、次を参照してください:"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-x.adoc:4
@@ -7375,16 +7287,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-x.adoc:5
-#, fuzzy
-#| msgid ""
-#| "For more information on upgrading from 4.1 to 4.2, see xref:upgrade:proxy-"
-#| "y-z.adoc[]"
 msgid ""
 "For more information on upgrading from 4.2 to 4.3, see xref:installation-and-"
 "upgrade:proxy-y-z.adoc[]"
 msgstr ""
-"4.1から4.2へのアップグレードの詳細については、xref:upgrade:proxy-y-z.adoc[]を"
-"参照してください。"
+"4.2から4.3へのアップグレードの詳細については、xref:installation-and-upgrade:proxy-y-z."
+"adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/proxy-y-z.adoc:1
@@ -7394,20 +7302,14 @@ msgstr "プロキシ - マイナーバージョンまたはパッチレベルの
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-y-z.adoc:3
-#, fuzzy
-#| msgid ""
-#| "When upgrading {productname} Proxy 4.0, ignore the option to upgrade it "
-#| "to version 4.1 as target product.  Always select to upgrade {productname} "
-#| "Proxy 4.0 to {productname} Proxy 4.2 only."
 msgid ""
 "When upgrading {productname} Proxy 4.0, ignore the option to upgrade it to "
 "version 4.1 or 4.2 as target product.  Always select to upgrade "
 "{productname} Proxy 4.0 to {productname} Proxy 4.3 only."
 msgstr ""
-"{productname}プロキシ 4.0をアップグレードする場合は、ターゲット製品としてバー"
-"ジョン4.1にアップグレードするオプションは無視してください。  {productname}プ"
-"ロキシ4.0を{productname}プロキシ4.2にのみアップグレードすることを常に選択して"
-"ください。"
+"{productname}プロキシ 4.0をアップグレードする場合は、ターゲット製品としてバージョン4.1または4."
+"2にアップグレードするオプションは無視してください。  {productname}プロキシ4.0を{productname}プロキシ4."
+"3にのみアップグレードすることを常に選択してください。"
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/proxy-y-z.adoc:4
@@ -7704,18 +7606,13 @@ msgstr "/usr/bin/suma-storage <devicename>\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-requirements.adoc:26
-#, fuzzy
-#| msgid ""
-#| "For more information about setting up storage volumes and partitions, "
-#| "including recommended minimum sizes, see xref:installation:hardware-"
-#| "requirements.adoc[]."
 msgid ""
 "For more information about setting up storage volumes and partitions, "
 "including recommended minimum sizes, see xref:installation-and-upgrade:"
 "hardware-requirements.adoc[]."
 msgstr ""
-"ストレージボリュームおよびパーティションの設定(推奨最小サイズを含む)の詳細に"
-"ついては、xref:installation:hardware-requirements.adoc[]を参照してください。"
+"ストレージボリュームおよびパーティションの設定(推奨最小サイズを含む)の詳細については、xref:installation-and-upgrade"
+":hardware-requirements.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:1
@@ -7734,19 +7631,13 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:3
-#, fuzzy
-#| msgid ""
-#| "You must have set up the storage devices before you run the YaST "
-#| "{productname} setup procedure.  For more information, see xref:"
-#| "installation:pubcloud-requirements.adoc[]."
 msgid ""
 "You must have set up the storage devices before you run the YaST "
 "{productname} setup procedure.  For more information, see xref:installation-"
 "and-upgrade:pubcloud-requirements.adoc[]."
 msgstr ""
-"YaST {productname}の設定手順を実行する前にストレージデバイスを設定する必要が"
-"あります。  詳細については、xref:installation:pubcloud-requirements.adoc[]を"
-"参照してください。"
+"YaST {productname}の設定手順を実行する前にストレージデバイスを設定する必要があります。  詳細については、 xref"
+":installation-and-upgrade:pubcloud-requirements.adoc[]を参照してください。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:4
@@ -7770,16 +7661,12 @@ msgstr "プロンプトに従い、設定が完了するのを待ちます。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:7
-#, fuzzy
-#| msgid ""
-#| "For detailed instructions on setting up {productname} with {yast}, see "
-#| "xref:installation:server-setup.adoc[]."
 msgid ""
 "For detailed instructions on setting up {productname} with {yast}, see xref:"
 "installation-and-upgrade:server-setup.adoc[]."
 msgstr ""
-"{yast}で{productname}を設定する詳細な手順については、xref:installation:"
-"server-setup.adoc[]を参照してください。"
+"{yast}で{productname}を設定する詳細な手順については、xref:installation-and-upgrade:server-"
+"setup.adoc[]を参照してください。"
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:8
@@ -7970,15 +7857,11 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:40
-#, fuzzy
-#| msgid ""
-#| "For more information about setting up your {productname} Server, see xref:"
-#| "installation:server-setup.adoc[]."
 msgid ""
 "For more information about setting up your {productname} Server, see xref:"
 "installation-and-upgrade:server-setup.adoc[]."
 msgstr ""
-"{productname}サーバの設定の詳細については、xref:installation:server-setup."
+"{productname}サーバの設定の詳細については、xref:installation-and-upgrade:server-setup."
 "adoc[]を参照してください。"
 
 #. type: Plain text
@@ -8081,16 +7964,12 @@ msgstr "マイナーアップグレード"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro-uyuni.adoc:4
-#, fuzzy
-#| msgid ""
-#| "You can consider minor upgrades as regular upgrades.  For more "
-#| "information, see xref:upgrade:server-minor-upgrade-uyuni.adoc[]."
 msgid ""
 "You can consider minor upgrades as regular upgrades.  For more information, "
 "see xref:installation-and-upgrade:server-minor-upgrade-uyuni.adoc[]."
 msgstr ""
-"マイナーアップグレードは通常のアップグレードとみなすことができます。  詳細に"
-"ついては、xref:upgrade:server-minor-upgrade-uyuni.adoc[]を参照してください。"
+"マイナーアップグレードは通常のアップグレードとみなすことができます。  詳細については、xref:installation-and-upgrade"
+":server-minor-upgrade-uyuni.adoc[]を参照してください。"
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/server-intro-uyuni.adoc:5
@@ -8100,22 +7979,16 @@ msgstr "メジャーアップグレード"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro-uyuni.adoc:6
-#, fuzzy
-#| msgid ""
-#| "You can consider major upgrades as special upgrades.  In this case "
-#| "components such as the base operating system, Salt, or the PostgreSQL "
-#| "database will be upgraded.  For more information, see xref:upgrade:server-"
-#| "major-upgrade-uyuni.adoc[]."
 msgid ""
 "You can consider major upgrades as special upgrades.  In this case "
 "components such as the base operating system, Salt, or the PostgreSQL "
 "database will be upgraded.  For more information, see xref:installation-and-"
 "upgrade:server-major-upgrade-uyuni.adoc[]."
 msgstr ""
-"メジャーアップグレードは特別なアップグレードとみなすことができます。  この場"
-"合、ベースオペレーティングシステム、Salt、PostgreSQLデータベースなどのコン"
-"ポーネントがアップグレードされます。  詳細については、xref:upgrade:server-"
-"major-upgrade-uyuni.adoc[]を参照してください。"
+"メジャーアップグレードは特別なアップグレードとみなすことができます。  "
+"この場合、ベースオペレーティングシステム、Salt、PostgreSQLデータベースなどのコンポーネントがアップグレードされます。  "
+"詳細については、xref:installation-and-upgrade:server-major-upgrade-uyuni."
+"adoc[]を参照してください。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:4
@@ -8128,53 +8001,37 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:5
-#, fuzzy
-#| msgid "xref:proxy-uyuni.adoc[Proxy - Upgrade Procedure]"
 msgid "See xref:installation-and-upgrade:server-x.adoc[]."
-msgstr "xref:proxy-uyuni.adoc[プロキシ - アップグレードプロシージャ]"
+msgstr "xref:installation-and-upgrade:server-x.adoc[]を参照してください。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:7
-#, fuzzy
-#| msgid ""
-#| "Upgrading to the next minor version.  This is often referred to as a "
-#| "service pack (SP) migration.  For example, upgrading from 4.1 to 4.2 or "
-#| "from 4.0 to 4.2."
 msgid ""
 "Upgrading to the next minor version.  This is often referred to as a service "
 "pack (SP) migration.  For example, upgrading from 4.1 to 4.3 or from 4.2 to "
 "4.3."
 msgstr ""
-"次のマイナーバージョンへのアップグレードです。  これは、サービスパック(SP)の"
-"移行と呼ばれることが多いです。  たとえば、4.1から4.2 または4.0から4.2へのアッ"
-"プグレードです。"
+"次のマイナーバージョンへのアップグレードです。  これは、サービスパック(SP)の移行と呼ばれることが多いです。  たとえば、4.1から4.3または4."
+"2から4.3へのアップグレードです。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:8
-#, fuzzy
-#| msgid "xref:proxy-uyuni.adoc[Proxy - Upgrade Procedure]"
 msgid "See xref:installation-and-upgrade:server-y.adoc[]."
-msgstr "xref:proxy-uyuni.adoc[プロキシ - アップグレードプロシージャ]"
+msgstr "xref:installation-and-upgrade:server-y.adoc[]を参照してください。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:10
-#, fuzzy
-#| msgid ""
-#| "Upgrading within the same minor version.  This is often referred to as a "
-#| "maintenance update.  For example, upgrading from 4.2.0 to 4.2.1."
 msgid ""
 "Upgrading within the same minor version.  This is often referred to as a "
 "maintenance update.  For example, upgrading from 4.3.0 to 4.3.1."
 msgstr ""
-"同じマイナーバージョン内でのアップグレードです。  これは保守更新と呼ばれるこ"
-"とが多いです。  たとえば、4.2.0から4.2.1へのアップグレードです。"
+"同じマイナーバージョン内でのアップグレードです。  これは保守更新と呼ばれることが多いです。  たとえば、 4.3.0から4.3."
+"1へのアップグレードです。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:11
-#, fuzzy
-#| msgid "xref:proxy-uyuni.adoc[Proxy - Upgrade Procedure]"
 msgid "See xref:installation-and-upgrade:server-z.adoc[]."
-msgstr "xref:proxy-uyuni.adoc[プロキシ - アップグレードプロシージャ]"
+msgstr "xref:installation-and-upgrade:server-z.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:1
@@ -8274,36 +8131,29 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:11
-#, fuzzy
-#| msgid "To migrate the database to PostgreSQL 12 run the migrate script:"
 msgid ""
 "To migrate the database to the latest database version run the migrate "
 "script:"
-msgstr ""
-"データベースをPostgreSQL 12に移行するには、次の移行スクリプトを実行します。"
+msgstr "データベースを最新のデーターベースバージョンに移行するには、次の移行スクリプトを実行します。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:13
-#, fuzzy
-#| msgid ""
-#| "For more information about PostgreSQL database migration, see xref:db-"
-#| "migration-13.adoc[]."
 msgid ""
 "For more information about PostgreSQL database migration, see xref:db-"
 "migration-xy.adoc[]."
-msgstr ""
-"PostgreSQLデータベースの移行の詳細については、xref:db-migration-13.adoc[]を参"
-"照してください。"
+msgstr "PostgreSQLデータベースの移行の詳細については、xref:db-migration-xy.adoc[]を参照してください。"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:14
-#, fuzzy, no-wrap
-#| msgid "After the migration is complete, manually reboot the {productname} Server:"
+#, no-wrap
 msgid ""
 "+\n"
 ". After the migration is complete, manually reboot the {productname} Server:\n"
 "+\n"
-msgstr "移行が完了したら、{productname}サーバを手動で再起動します。"
+msgstr ""
+"+\n"
+". 移行が完了したら、{productname}サーバを手動で再起動します。\n"
+"+\n"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:1
