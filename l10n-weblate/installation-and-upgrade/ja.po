@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-10 14:17+0000\n"
-"PO-Revision-Date: 2022-05-11 04:12+0000\n"
+"PO-Revision-Date: 2022-05-11 10:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-43-beta3/ja/>\n"
@@ -1582,10 +1582,8 @@ msgstr "rpm -q smdba\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:14
-#, fuzzy
-#| msgid "PostgreSQL{nbsp}13 requires ``smdba`` version 1.7.6 or later."
 msgid "PostgreSQL{nbsp}14 requires ``smdba`` version 1.7.6 or later."
-msgstr "PostgreSQL{nbsp}13では``smdba``のバージョン1.7.6以降が必要です。"
+msgstr "PostgreSQL{nbsp}14では``smdba``のバージョン1.7.6以降が必要です。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:15
@@ -1932,10 +1930,6 @@ msgstr ""
 #. REMARK What about Uyuni?
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/general-requirements.adoc:24
-#, fuzzy
-#| msgid ""
-#| "You only require a valid registration code for {productname}.  You do not "
-#| "require a separate code for SLES{nbsp}{sles-version} {sp-version}."
 msgid ""
 "You only require a valid registration code for {productname}, for example "
 "from a \"SUSE Manager Lifecycle Management+\" subscription.  For more "
@@ -1943,8 +1937,10 @@ msgid ""
 "terms_and_conditions.pdf.  You do not require a separate code for SLES{nbsp}"
 "{sles-version} {sp-version}."
 msgstr ""
-"{productname}の有効な登録コードのみが必要です。  SLES{nbsp}{sles-version} "
-"{sp-version}個別のコードは必要ありません。"
+"{productname}の有効な登録コードのみが必要です。たとえば、「SUSE Manager Lifecycle "
+"Management+」サブスクリプションなど。 詳細については、https://www.suse.com/products/"
+"terms_and_conditions.pdf のSUSE利用規約を参照してください。  SLES{nbsp}{sles-version} {sp-"
+"version}個別のコードは必要ありません。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/general-requirements.adoc:25
@@ -2084,16 +2080,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/hardware-requirements.adoc:4
-#, fuzzy
-#| msgid ""
-#| "For {ibmz} hardware requirements, see xref:installation:install-ibmz."
-#| "adoc[]."
 msgid ""
 "For {ibmz} hardware requirements, see xref:installation-and-upgrade:install-"
 "ibmz.adoc[]."
 msgstr ""
-"{ibmz}ハードウェアの要件については、xref:installation:install-ibmz.adoc[]を参"
-"照してください。"
+"{ibmz}ハードウェアの要件については、xref:installation-and-upgrade:install-ibmz."
+"adoc[]を参照してください。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/hardware-requirements.adoc:5
@@ -2132,50 +2124,7 @@ msgstr "{x86_64}アーキテクチャのサーバハードウェア要件"
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/hardware-requirements.adoc:9
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Hardware\n"
-#| "| Details\n"
-#| "| Recommendation\n"
-#| "\n"
-#| "| CPU\n"
-#| "| -\n"
-#| "| Minimum 4 dedicated 64-bit CPU cores\n"
-#| "\n"
-#| "| RAM\n"
-#| "| Test Server\n"
-#| "| Minimum 8{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| Base Installation\n"
-#| "| Minimum 16{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| Production Server\n"
-#| "| Minimum 32{nbsp}GB\n"
-#| "\n"
-#| "| Disk Space\n"
-#| "| [path]``/`` (root directory)\n"
-#| "| Minimum 24{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| [path]``/var/lib/pgsql``\n"
-#| "| Minimum 50{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| [path]``/var/spacewalk``\n"
-#| "| Minimum 50{nbsp}GB per {suse} product and 360{nbsp}GB per Red Hat product\n"
-#| "\n"
-#| "|\n"
-#| "| [path]``/var/cache``\n"
-#| "| Minimum 10{nbsp}GB.\n"
-#| "Add 100{nbsp}MB per {suse} product, 1{nbsp}GB per Red Hat or other product.\n"
-#| "Double the space if the server is an ISS Master.\n"
-#| "\n"
-#| "|\n"
-#| "| Swap space\n"
-#| "| 3{nbsp}GB\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Hardware\n"
 "| Details\n"
@@ -2222,45 +2171,45 @@ msgid ""
 msgstr ""
 "| ハードウェア\n"
 "|詳細\n"
-" | 推奨\n"
-" \n"
-" | CPU\n"
-" | -\n"
-" | 専用64ビットCPUコア数は4つ以上\n"
-" \n"
-" | RAM\n"
-" | テストサーバ\n"
-" | 8{nbsp}GB以上\n"
-" \n"
-" |\n"
-" | ベースインストール\n"
-" | 16{nbsp}GB以上\n"
-" \n"
-" |\n"
-" | 運用サーバ\n"
-" | 32{nbsp}GB以上\n"
-" \n"
-" | ディスク容量\n"
-" | [path]``/`` (ルートディレクトリ)\n"
-" | 24{nbsp}GB以上\n"
-" \n"
-" |\n"
-" | [path]``/var/lib/pgsql``\n"
-" | 50{nbsp}GB以上\n"
-" \n"
-" |\n"
-" | [path]``/var/spacewalk``\n"
-" | 各{suse}製品では50{nbsp}GB以上、各Red Hat製品では360{nbsp}GB\n"
-" \n"
-" |\n"
-" | [path]``/var/cache``\n"
-" | 10{nbsp}GB以上。\n"
+"| 推奨\n"
+"\n"
+"| CPU\n"
+"| -\n"
+"| 専用64ビットCPUコア数は4つ以上({x86_64})\n"
+"\n"
+"| RAM\n"
+"| テストサーバ\n"
+"| 8{nbsp}GB以上\n"
+"\n"
+"|\n"
+"| ベースインストール\n"
+"| 16{nbsp}GB以上\n"
+"\n"
+"|\n"
+"| 運用サーバ\n"
+"| 32{nbsp}GB以上\n"
+"\n"
+"| ディスク容量\n"
+"| [path]``/`` (ルートディレクトリ)\n"
+"|40{nbsp}GB以上\n"
+"\n"
+"|\n"
+"| [path]``/var/lib/pgsql``\n"
+"| 50{nbsp}GB以上\n"
+"\n"
+"|\n"
+"| [path]``/var/spacewalk``\n"
+"| 各{suse}製品では50{nbsp}GB以上、各Red Hat製品では360{nbsp}GB\n"
+"\n"
+"|\n"
+"| [path]``/var/cache``\n"
+"| 10{nbsp}GB以上。\n"
 "各{suse}製品にはさらに100{nbsp}MBを追加し、個々のRed Hatまたはその他の製品ではさらに1{nbsp}GBを追加します。\n"
 "サーバがISS Masterの場合、容量を2倍にしてください。\n"
-" \n"
-" |\n"
-" | スワップ容量\n"
-" | 3{nbsp}GB\n"
+"\n"
+"|\n"
+"| スワップ容量\n"
+"| 3{nbsp}GB\n"
 "\n"
 
 #. type: Plain text
@@ -3034,27 +2983,19 @@ msgstr "プロンプトが表示されたら、［[guimenu]``インストール`
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-ibmz.adoc:40
-#, fuzzy
-#| msgid ""
-#| "Then continue as described in xref:installation:install-server-unified."
-#| "adoc[]."
 msgid ""
 "Then continue as described in xref:installation-and-upgrade:install-server-"
 "unified.adoc[]."
 msgstr ""
-"xref:installation:install-server-unified.adoc[]の説明に従って続行します。"
+"xref:installation-and-upgrade:install-server-unified.adoc[]の説明に従って続行します。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-ibmz.adoc:41
-#, fuzzy
-#| msgid ""
-#| "To finalize the {productname} installation see xref:installation:server-"
-#| "setup.adoc[]."
 msgid ""
 "To finalize the {productname} installation see xref:installation-and-upgrade:"
 "server-setup.adoc[]."
 msgstr ""
-"{productname}のインストールを終了するには、xref:installation:server-setup."
+"{productname}のインストールを終了するには、xref:installation-and-upgrade:server-setup."
 "adoc[]を参照してください。"
 
 #. type: Title =
@@ -3072,35 +3013,23 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-intro.adoc:3
-#, fuzzy
-#| msgid ""
-#| "It is possible to use a public cloud instance to install {productname}.  "
-#| "For more information on using {productname} on a public cloud, see xref:"
-#| "quickstart-public-cloud:qs-publiccloud-overview.adoc[]."
 msgid ""
 "It is possible to use a public cloud instance to install {productname}.  For "
 "more information on using {productname} on a public cloud, see xref:"
 "specialized-guides:qs-publiccloud/overview.adoc[]."
 msgstr ""
-"パブリッククラウドインスタンスを使用して{productname}をインストールできま"
-"す。  パブリッククラウドで{productname}を使用する方法の詳細については、xref:"
-"quickstart-public-cloud:qs-publiccloud-overview.adoc[]を参照してください。"
+"パブリッククラウドインスタンスを使用して{productname}をインストールできます。  "
+"パブリッククラウドで{productname}を使用する方法の詳細については、xref:specialized-guides:qs-"
+"publiccloud/overview.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-proxy-unified.adoc:1
-#, fuzzy, no-wrap
-#| msgid "{productname} {productnumber} Proxy"
+#, no-wrap
 msgid "Install {productname} {productnumber} Proxy"
-msgstr "{productname} {productnumber}プロキシ"
+msgstr "{productname} {productnumber}プロキシのインストール"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy-unified.adoc:2
-#, fuzzy
-#| msgid ""
-#| "{susemgr} Proxy is a {suse} product within the {sle} product family.  "
-#| "This section describes how to install {susemgr} Proxy from {sle} "
-#| "installation media.  It assumes you already have obtained a registration "
-#| "code for your {susemgr} Proxy."
 msgid ""
 "{susemgr} Proxy is a {suse} product within the {sle} product family.  This "
 "section describes how to install {susemgr} Proxy from {sle} installation "
@@ -3108,10 +3037,9 @@ msgid ""
 "{susemgr} Proxy, for example from a \"SUSE Manager Lifecycle Management+\" "
 "subscription."
 msgstr ""
-"{susemgr}プロキシは、{sle}製品ファミリ内の{suse}製品です。  このセクションで"
-"は、{sle}インストールメディアから{susemgr}プロキシをインストールする方法につ"
-"いて説明します。  {susemgr}プロキシの登録コードを取得済みであることを前提とし"
-"ています。"
+"{susemgr}プロキシは、{sle}製品ファミリ内の{suse}製品です。  "
+"このセクションでは、{sle}インストールメディアから{susemgr}プロキシをインストールする方法について説明します。  「SUSE Manager "
+"Lifecycle Management+」サブスクリプションなど、{susemgr}プロキシの登録コードを取得済みであることを前提としています。"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-proxy-unified.adoc:4
@@ -3480,18 +3408,13 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy-uyuni.adoc:18
-#, fuzzy
-#| msgid ""
-#| "When the installation is complete, you can continue with {productname} "
-#| "setup.  For more information, see xref:installation:uyuni-proxy-"
-#| "registration.adoc[]."
 msgid ""
 "When the installation is complete, you can continue with {productname} "
 "setup.  For more information, see xref:installation-and-upgrade:uyuni-proxy-"
 "registration.adoc[]."
 msgstr ""
-"インストールが完了したら、{productname}の設定に進むことができます。  詳細につ"
-"いては、xref:installation:uyuni-proxy-registration.adoc[]を参照してください。"
+"インストールが完了したら、{productname}の設定に進むことができます。  詳細については、xref:installation-and-"
+"upgrade:uyuni-proxy-registration.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:1
@@ -3740,19 +3663,15 @@ msgstr "{productname}リポジトリを追加します。"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:28
-#, fuzzy, no-wrap
-#| msgid ""
-#| "SUSEConnect -p sle-module-basesystem/15.3/x86_64\n"
-#| "SUSEConnect -p sle-module-server-applications/15.3/x86_64\n"
-#| "SUSEConnect -p sle-module-suse-manager-proxy/4.2/x86_64\n"
+#, no-wrap
 msgid ""
 "SUSEConnect -p sle-module-basesystem/15.4/x86_64\n"
 "SUSEConnect -p sle-module-server-applications/15.4/x86_64\n"
 "SUSEConnect -p sle-module-suse-manager-proxy/4.3/x86_64\n"
 msgstr ""
-"SUSEConnect -p sle-module-basesystem/15.3/x86_64\n"
-"SUSEConnect -p sle-module-server-applications/15.3/x86_64\n"
-"SUSEConnect -p sle-module-suse-manager-proxy/4.2/x86_64\n"
+"SUSEConnect -p sle-module-basesystem/15.4/x86_64\n"
+"SUSEConnect -p sle-module-server-applications/15.4/x86_64\n"
+"SUSEConnect -p sle-module-suse-manager-proxy/4.3/x86_64\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:29
@@ -3790,10 +3709,9 @@ msgstr "再起動します。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-pubcloud.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Installing on a Public Cloud"
+#, no-wrap
 msgid "Installation on Public Cloud"
-msgstr "パブリッククラウドでインストールする"
+msgstr "パブリッククラウドへのインストール"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-pubcloud.adoc:2
@@ -3808,36 +3726,22 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-pubcloud.adoc:3
-#, fuzzy
-#| msgid ""
-#| "However, you will need to perform some additional setup steps before you "
-#| "can use {productname}.  For public cloud setup instructions, see xref:"
-#| "installation:pubcloud-setup.adoc[]."
 msgid ""
 "However, you will need to perform some additional setup steps before you can "
 "use {productname}.  For public cloud setup instructions, see xref:"
 "installation-and-upgrade:pubcloud-setup.adoc[]."
 msgstr ""
-"ただし、{productname}を使用するにはその前に追加の設定手順が必要です。  パブ"
-"リッククラウドの設定手順については、xref:installation:pubcloud-setup.adoc[]を"
-"参照してください。"
+"ただし、{productname}を使用するにはその前に追加の設定手順が必要です。  パブリッククラウドの設定手順については、xref"
+":installation-and-upgrade:pubcloud-setup.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Installing {productname} {productnumber} Server"
+#, no-wrap
 msgid "Install {productname} {productnumber} Server"
 msgstr "{productname} {productnumber}サーバのインストール"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:2
-#, fuzzy
-#| msgid ""
-#| "{susemgr} is a {suse} product within the {sle} product family.  This "
-#| "section describes how to install {susemgr} Server from the {sle} "
-#| "installation media.  For this topic we assume that you already have valid "
-#| "organization credentials with {scc} and have obtained a registration code "
-#| "for your {susemgr}."
 msgid ""
 "{susemgr} is a {suse} product within the {sle} product family.  This section "
 "describes how to install {susemgr} Server from the {sle} installation "
@@ -3846,42 +3750,30 @@ msgid ""
 "{susemgr}, for example from a \"SUSE Manager Lifecycle Management+\" "
 "subscription."
 msgstr ""
-"{susemgr}は、{sle}製品ファミリ内の{suse}製品です。  このセクションでは、{sle}"
-"インストールメディアから{susemgr}サーバをインストールする方法について説明しま"
-"す。  このトピックでは、{scc}で有効な組織資格情報がすでにあり、{susemgr}の登"
-"録コードを取得している必要があります。"
+"{susemgr}は、{sle}製品ファミリ内の{suse}製品です。  "
+"このセクションでは、{sle}インストールメディアから{susemgr}サーバをインストールする方法について説明します。  "
+"このトピックでは、{scc}で有効な組織資格情報がすでにあり、たとえば「SUSE Manager Lifecycle "
+"Management+」サブスクリプションから{susemgr}の登録コードを取得している必要があります。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:3
-#, fuzzy
-#| msgid ""
-#| "For information on registering with {scc}, retrieving your organization "
-#| "credentials from {scc}, or obtaining installation media, see xref:"
-#| "installation:general-requirements.adoc[]."
 msgid ""
 "For information on registering with {scc}, retrieving your organization "
 "credentials from {scc}, or obtaining installation media, see xref:"
 "installation-and-upgrade:general-requirements.adoc[]."
 msgstr ""
-"{scc}を使用して登録し、{scc}から組織の資格情報を取得し、インストールメディア"
-"を取得する方法については、xref:installation:general-requirements.adoc[]を参照"
-"してください。"
+"{scc}を使用して登録し、{scc}から組織の資格情報を取得し、インストールメディアを取得する方法については、xref:installation-"
+"and-upgrade:general-requirements.adoc[]を参照してください。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Before installing {susemgr}, ensure your physical or virtual machine has "
-#| "enough disk space and RAM by checking the requirements at xref:"
-#| "installation:hardware-requirements.adoc[]."
 msgid ""
 "Before installing {susemgr}, ensure your physical or virtual machine has "
 "enough disk space and RAM by checking the requirements at xref:installation-"
 "and-upgrade:hardware-requirements.adoc[]."
 msgstr ""
-"{susemgr}をインストールする前に、物理マシンまたは仮想マシンに、十分なディスク"
-"容量とRAMがあることを確認してください。そのためには、xref:installation:"
-"hardware-requirements.adoc[]で要件を確認します。"
+"{susemgr}をインストールする前に、物理マシンまたは仮想マシンに、十分なディスク容量とRAMがあることを確認してください。そのためには、xref"
+":installation-and-upgrade:hardware-requirements.adoc[]で要件を確認します。"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:5
@@ -3903,26 +3795,14 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:7
-#, fuzzy
-#| msgid ""
-#| "For more information, see xref:quickstart-public-cloud:qs-publiccloud-"
-#| "overview.adoc[]."
 msgid ""
 "For more information, see xref:specialized-guides:qs-publiccloud/overview."
 "adoc[]."
 msgstr ""
-"詳細については、xref:quickstart-public-cloud:qs-publiccloud-overview.adoc[]を"
-"参照してください。"
+"詳細については、xref:specialized-guides:qs-publiccloud/overview.adoc[]を参照してください。"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:8
-#, fuzzy
-#| msgid ""
-#| "In case of installing {susemgr} in a public cloud where a {susemgr} image "
-#| "is not available, it is possible to start from a {sles}{nbsp}{sles-"
-#| "version}{nbsp}{sp-version} and switch the base product to {susemgr}{nbsp}"
-#| "{productnumber}.  For more information, see xref:installation:install-vm."
-#| "adoc[]."
 msgid ""
 "In case of installing {susemgr} in a public cloud where a {susemgr} image is "
 "not available, it is possible to start from a {sles}{nbsp}{sles-version}"
@@ -3930,10 +3810,10 @@ msgid ""
 "{productnumber}.  For more information, see xref:installation-and-upgrade:"
 "install-vm.adoc[]."
 msgstr ""
-"{susemgr}イメージが利用できないパブリッククラウドに{susemgr}をインストールす"
-"る場合は、{sles}{nbsp}{sles-version}{nbsp}{sp-version}から開始して、基本製品"
-"を{susemgr}{nbsp}{productnumber}に切り替えることができます。  詳細について"
-"は、xref:installation:install-vm.adoc[]を参照してください。"
+"{susemgr}イメージが利用できないパブリッククラウドに{susemgr}をインストールする場合は、{sles}{nbsp}{sles-"
+"version}{nbsp}{sp-"
+"version}から開始して、基本製品を{susemgr}{nbsp}{productnumber}に切り替えることができます。  "
+"詳細については、xref:installation-and-upgrade:install-vm.adoc[]を参照してください。"
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:9
@@ -4108,19 +3988,13 @@ msgstr "SUSE Managerサーバモジュール"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:40
-#, fuzzy
-#| msgid ""
-#| "When you have finished installing the {productname} Server, you need to "
-#| "set it up so it is ready to use.  For more information, see xref:"
-#| "installation:server-setup.adoc[]."
 msgid ""
 "When you have finished installing the {productname} Server, you need to set "
 "it up so it is ready to use.  For more information, see xref:installation-"
 "and-upgrade:server-setup.adoc[]."
 msgstr ""
-"{productname}サーバのインストールが完了したら、使用できるように設定する必要が"
-"あります。詳細については、xref:installation:server-setup.adoc[]を参照してくだ"
-"さい。"
+"{productname}サーバのインストールが完了したら、使用できるように設定する必要があります。詳細については、xref:installation-"
+"and-upgrade:server-setup.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-server.adoc:1
@@ -4331,15 +4205,12 @@ msgstr "{productname}サーバは、openSUSEにインストールできます。
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:3
-#, fuzzy
-#| msgid ""
-#| "For requirements, see xref:installation:uyuni-install-requirements.adoc[]."
 msgid ""
 "For requirements, see xref:installation-and-upgrade:uyuni-install-"
 "requirements.adoc[]."
 msgstr ""
-"要件については、xref:installation:uyuni-install-requirements.adoc[]を参照して"
-"ください。"
+"要件については、xref:installation-and-upgrade:uyuni-install-requirements."
+"adoc[]を参照してください。"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:4
@@ -4373,10 +4244,8 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:9
-#, fuzzy
-#| msgid "Set variables to use to create repository:"
 msgid "Set variables to use to create repository as [systemitem]``root``:"
-msgstr "使用する変数を設定してリポジトリを作成します。"
+msgstr "リポジトリの作成に使用する変数を [systemitem]``root``として設定します。"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:10
@@ -4423,18 +4292,13 @@ msgstr "zypper in patterns-uyuni_server\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:20
-#, fuzzy
-#| msgid ""
-#| "When the installation is complete, you can continue with {productname} "
-#| "setup.  For more information, see xref:installation:uyuni-server-setup."
-#| "adoc[]."
 msgid ""
 "When the installation is complete, you can continue with {productname} "
 "setup.  For more information, see xref:installation-and-upgrade:uyuni-server-"
 "setup.adoc[]."
 msgstr ""
-"インストールが完了したら、{productname}の設定に進むことができます。  詳細につ"
-"いては、xref:installation:uyuni-server-setup.adoc[]を参照してください。"
+"インストールが完了したら、{productname}の設定に進むことができます。  詳細については、xref:installation-and-"
+"upgrade:uyuni-server-setup.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-vm.adoc:1
@@ -4798,23 +4662,18 @@ msgstr "zypper in -t pattern suma_server\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-vm.adoc:44
-#, fuzzy
-#| msgid ""
-#| "For proceeding with {productname} setup, see xref:installation:server-"
-#| "setup.adoc[SUSE Manager Setup]."
 msgid ""
 "For proceeding with {productname} setup, see xref:installation-and-upgrade:"
 "server-setup.adoc[SUSE Manager Setup]."
 msgstr ""
-"{productname}の設定に進むには、xref:installation:server-setup.adoc[SUSE "
+"{productname}の設定に進むには、xref:installation-and-upgrade:server-setup.adoc[SUSE "
 "Managerの設定]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Installation Guide Overview"
+#, no-wrap
 msgid "Installation and Upgrade Guide Overview"
-msgstr "インストールガイドの概要"
+msgstr "インストールおよびアップグレードガイドの概要"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:2
@@ -4826,16 +4685,12 @@ msgstr "**更新:** {docdate}\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:3
-#, fuzzy
-#| msgid ""
-#| "This book provides guidance on installing {productname}.  It is split "
-#| "into three sections:"
 msgid ""
 "This book provides guidance on installing and upgrading {productname} Server "
 "and Proxy.  It is split into four sections:"
 msgstr ""
-"このドキュメントでは{productname}をインストールするガイダンスを提供します。  "
-"ガイダンスは、次の3つのセクションに分かれています。"
+"このドキュメントでは{productname}サーバおよびプロキシをインストールおよびアップグレードするガイダンスを提供します。  "
+"ガイダンスは、次の4つのセクションに分かれています。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:4
@@ -4868,24 +4723,20 @@ msgstr ""
 msgid ""
 "Upgrade: Describes upgrading of the {productname} components, including the "
 "underlying database."
-msgstr ""
+msgstr "アップグレード: 基盤となるデータベースを含む、{productname}コンポーネントのアップグレードについて説明します。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:8
-#, fuzzy
-#| msgid ""
-#| "It is possible to use a public cloud instance to install {productname}.  "
-#| "For more information on using {productname} on a public cloud, see xref:"
-#| "quickstart-public-cloud:qs-publiccloud-overview.adoc[]."
 msgid ""
 "It is possible to use a public cloud instance to install {productname}.  For "
 "more information on using {productname} on a public cloud, see xref:"
 "specialized-guides:qs-publiccloud/overview.adoc[].  For more information on "
 "upgrading clients, see xref:client-configuration:client-upgrades.adoc[]."
 msgstr ""
-"パブリッククラウドインスタンスを使用して{productname}をインストールできま"
-"す。  パブリッククラウドで{productname}を使用する方法の詳細については、xref:"
-"quickstart-public-cloud:qs-publiccloud-overview.adoc[]を参照してください。"
+"パブリッククラウドインスタンスを使用して{productname}をインストールできます。  "
+"パブリッククラウドで{productname}を使用する方法の詳細については、xref:specialized-guides:qs-"
+"publiccloud/overview.adoc[]を参照してください。  クライアントのアップグレードの詳細については、xref:client-"
+"configuration:client-upgrades.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/network-requirements.adoc:1
@@ -4998,40 +4849,27 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/network-requirements.adoc:13
-#, fuzzy
-#| msgid ""
-#| "In a production environment, the {productname} Server and clients should "
-#| "always use a firewall.  For a comprehensive list of the required ports, "
-#| "see xref:installation:ports.adoc[]."
 msgid ""
 "In a production environment, the {productname} Server and clients should "
 "always use a firewall.  For a comprehensive list of the required ports, see "
 "xref:installation-and-upgrade:ports.adoc[]."
 msgstr ""
-"運用環境では、{productname}サーバおよびクライアントはファイアウォールを常に使"
-"用する必要があります。  必要なポートの一覧は、xref:installation:ports.adoc[]"
-"を参照してください。"
+"運用環境では、{productname}サーバおよびクライアントはファイアウォールを常に使用する必要があります。  必要なポートの一覧は、xref"
+":installation-and-upgrade:ports.adoc[]を参照してください。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/network-requirements.adoc:14
-#, fuzzy
-#| msgid ""
-#| "For more information on disconnected setup and port configuration, see "
-#| "xref:administration:disconnected-setup.adoc#client-cfg-reg-with-bootstrap-"
-#| "disconnected[]."
 msgid ""
 "For more information on disconnected setup and port configuration, see xref:"
 "administration:disconnected-setup.adoc[]."
 msgstr ""
-"非接続設定およびポート設定の詳細については、xref:administration:disconnected-"
-"setup.adoc#client-cfg-reg-with-bootstrap-disconnected[]を参照してください。"
+"非接続設定およびポート設定の詳細については、xref:administration:disconnected-setup.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/ports.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Network Ports"
+#, no-wrap
 msgid "Required Network Ports"
-msgstr "ネットワークポート"
+msgstr "必須のネットワークポート"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/ports.adoc:2
@@ -5495,10 +5333,9 @@ msgstr ""
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:9
-#, fuzzy, no-wrap
-#| msgid "mkdir -p /srv/images/opensuse152\n"
+#, no-wrap
 msgid "mkdir -p /srv/images/opensuse153\n"
-msgstr "mkdir -p /srv/images/opensuse152\n"
+msgstr "mkdir -p /srv/images/opensuse153\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:10
@@ -5558,14 +5395,7 @@ msgstr ""
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:18
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:11
-#, fuzzy, no-wrap
-#| msgid ""
-#| "spacewalk-common-channels opensuse_leap15_2 \\\n"
-#| "opensuse_leap15_2-non-oss \\\n"
-#| "opensuse_leap15_2-non-oss-updates \\\n"
-#| "opensuse_leap15_2-updates \\\n"
-#| "opensuse_leap15_2-uyuni-client \\\n"
-#| "uyuni-proxy-stable-leap-152\n"
+#, no-wrap
 msgid ""
 "spacewalk-common-channels opensuse_leap15_3 \\\n"
 "opensuse_leap15_3-non-oss \\\n"
@@ -5576,12 +5406,14 @@ msgid ""
 "opensuse_leap15_3-uyuni-client \\\n"
 "uyuni-proxy-stable-leap-153\n"
 msgstr ""
-"spacewalk-common-channels opensuse_leap15_2 \\\n"
-"opensuse_leap15_2-non-oss \\\n"
-" opensuse_leap15_2-non-oss-updates \\\n"
-" opensuse_leap15_2-updates \\\n"
-" opensuse_leap15_2-uyuni-client \\\n"
-" uyuni-proxy-stable-leap-152\n"
+"spacewalk-common-channels opensuse_leap15_3 \\\n"
+"opensuse_leap15_3-non-oss \\\n"
+"opensuse_leap15_3-non-oss-updates \\\n"
+"opensuse_leap15_3-updates \\\n"
+"opensuse_leap15_3-backports-update \\\n"
+"opensuse_leap15_3-sle-updates \\\n"
+"opensuse_leap15_3-uyuni-client \\\n"
+"uyuni-proxy-stable-leap-153\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:19
@@ -5627,17 +5459,10 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:24
-#, fuzzy
-#| msgid ""
-#| "Use only letters, numbers, hyphens, periods, and underscores, and ensure "
-#| "the name is longer than four characters.  For example, ``proxy_152-"
-#| "x86_64``."
 msgid ""
 "Use only letters, numbers, hyphens, periods, and underscores, and ensure the "
 "name is longer than four characters.  For example, ``proxy_153-x86_64``."
-msgstr ""
-"半角の英字、数字、ハイフン、ピリオド、および下線のみを使用し、5文字以上にしま"
-"す。  たとえば、``proxy_152-x86_64``です。"
+msgstr "半角の英字、数字、ハイフン、ピリオド、および下線のみを使用し、5文字以上にします。  たとえば、``proxy_153-x86_64``です。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:25
@@ -5650,23 +5475,17 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:26
-#, fuzzy
-#| msgid "For example, [path]``/srv/images/opensuse152``."
 msgid "For example, [path]``/srv/images/opensuse153``."
-msgstr "たとえば、[path]``/srv/images/opensuse152``です。"
+msgstr "たとえば、[path]``/srv/images/opensuse153``です。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:27
-#, fuzzy
-#| msgid ""
-#| "In the [guimenu]``Base Channel`` field, select [systemitem]``openSUSE "
-#| "Leap 15.2 (x86_64)``."
 msgid ""
 "In the [guimenu]``Base Channel`` field, select [systemitem]``openSUSE Leap "
 "15.3 (x86_64)``."
 msgstr ""
-"［[guimenu]``ベースチャンネル``］フィールドで、[systemitem]``openSUSE Leap "
-"15.2 (x86_64)``を選択します。"
+"［[guimenu]``ベースチャンネル``］フィールドで、[systemitem]``openSUSE Leap 15.3 "
+"(x86_64)``を選択します。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:28
@@ -5925,16 +5744,10 @@ msgstr "古いチャンネルをクリアします。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:59
-#, fuzzy
-#| msgid ""
-#| "In the [guimenu]``Base Channel`` field, select `openSUSE Leap 15.2 "
-#| "(x86_64)``."
 msgid ""
 "In the [guimenu]``Base Channel`` field, select `openSUSE Leap 15.3 "
 "(x86_64)``."
-msgstr ""
-"［[guimenu]``ベースチャンネル``］フィールドで、`openSUSE Leap 15.2 (x86_64)``"
-"を選択します。"
+msgstr "［[guimenu]``ベースチャンネル``］フィールドで、`openSUSE Leap 15.3 (x86_64)``を選択します。"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:60
