@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-10 14:17+0000\n"
-"PO-Revision-Date: 2022-05-09 19:49+0000\n"
+"PO-Revision-Date: 2022-05-12 09:45+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-43-beta3/ko/>\n"
@@ -20,24 +20,19 @@ msgstr ""
 
 #. type: Title =
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:1
-#, fuzzy, no-wrap
-#| msgid "{productname} {productnumber} Proxy"
+#, no-wrap
 msgid "[.title]#{productname} {productnumber}#: Installation and Upgrade Guide"
-msgstr "{productname} {productnumber} 프록시"
+msgstr "[.title]#{productname} {productnumber}#: 설치 및 업그레이드 가이드"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:2
-#, fuzzy
-#| msgid "xref:install-overview.adoc[Installation Guide]"
 msgid "xref:installation-and-upgrade-overview.adoc[Installation/Upgrade Guide]"
-msgstr "xref:install-overview.adoc[설치 안내서]"
+msgstr "xref:installation-and-upgrade-overview.adoc[설치/업그레이드 가이드]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:3
-#, fuzzy
-#| msgid "xref:general-requirements.adoc[Requirements]"
 msgid "xref:general-requirements.adoc[General Requirements]"
-msgstr "xref:general-requirements.adoc[요구사항]"
+msgstr "xref:general-requirements.adoc[일반 요구사항]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:4
@@ -120,8 +115,6 @@ msgstr "xref:install-ibmz.adoc[IBM Z에 설치]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:19
-#, fuzzy
-#| msgid "xref:setup-intro.adoc[Setting Up]"
 msgid "xref:setup-intro.adoc[Setup]"
 msgstr "xref:setup-intro.adoc[설정]"
 
@@ -178,10 +171,8 @@ msgstr "xref:connect-payg.adoc[{payg} 인스턴스 연결]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:30
-#, fuzzy
-#| msgid "xref:upgrade-overview.adoc[Upgrade Guide]"
 msgid "xref:upgrade-intro.adoc[Upgrade]"
-msgstr "xref:upgrade-overview.adoc[업그레이드 가이드]"
+msgstr "xref:upgrade-intro.adoc[업그레이드]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:31
@@ -236,17 +227,13 @@ msgstr "xref:proxy-intro.adoc[프록시 업그레이드]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:41
-#, fuzzy
-#| msgid "xref:proxy-x.adoc[Proxy - Major Version Upgrade]"
 msgid "xref:proxy-uyuni.adoc[Proxy - Major Upgrade]"
-msgstr "xref:proxy-x.adoc[프록시 - 주 버전 업그레이드]"
+msgstr "xref:proxy-uyuni.adoc[프록시 - 주 업그레이드]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:42
-#, fuzzy
-#| msgid "xref:proxy-uyuni.adoc[Proxy - Upgrade Procedure]"
 msgid "xref:proxy-minor-uyuni.adoc[Proxy - Minor Upgrade]"
-msgstr "xref:proxy-uyuni.adoc[프록시 - 업그레이드 절차]"
+msgstr "xref:proxy-minor-uyuni.adoc[프록시- 보조 업그레이드]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:43
@@ -273,10 +260,8 @@ msgstr "xref:db-intro.adoc[데이터베이스 업그레이드]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:47
-#, fuzzy
-#| msgid "xref:db-migration-xy.adoc[Database - to Latest Version]"
 msgid "xref:db-migration-xy.adoc[Database Migration to Latest Version]"
-msgstr "xref:db-migration-xy.adoc[데이터베이스 - 최신 버전으로]"
+msgstr "xref:db-migration-xy.adoc[최신 버전으로 데이터베이스 마이그레이션]"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/nav-installation-and-upgrade-guide.adoc:48
@@ -1125,16 +1110,10 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/connect-payg.adoc:38
-#, fuzzy
-#| msgid ""
-#| "If the authentication data for the instance are correct, the column "
-#| "[guimenu]``Status`` shows \"Credentials successfully updated\"."
 msgid ""
 "If the authentication data for the instance are correct, the column "
 "[guimenu]``Status`` shows \"Credentials successfully updated.\""
-msgstr ""
-"인스턴스에 대한 인증 데이터가 올바르면, [guimenu]``상태`` 열에 \"자격 증명이 "
-"업데이트됨\" 메시지가 표시됩니다."
+msgstr "인스턴스에 대한 인증 데이터가 올바르면, [guimenu]``상태`` 열에 \"자격 증명이 업데이트됨\" 메시지가 표시됩니다."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/connect-payg.adoc:39
@@ -1158,13 +1137,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/connect-payg.adoc:41
-#, fuzzy
-#| msgid ""
-#| "Available products are all versions of the same product family and "
-#| "architecture as the one installed in the {payg} instance.  For example, "
-#| "if the instance has the {slsa}{nbsp}15 SP1 product installed, {slsa}{nbsp}"
-#| "15 SP2 and {slsa}{nbsp}15 SP3 are automatically shown in [guimenu]``Admin "
-#| "> Setup Wizard > Products``."
 msgid ""
 "Available products are all versions of the same product family and "
 "architecture as the one installed in the {payg} instance.  For example, if "
@@ -1172,10 +1144,9 @@ msgid ""
 "SP2, {slsa}{nbsp}15 SP3 and {slsa}{nbsp}15 SP4 are automatically shown in "
 "[guimenu]``Admin > Setup Wizard > Products``."
 msgstr ""
-"사용 가능한 제품은 {payg} 인스턴스에 설치된 것과 동일한 제품군 및 아키텍처의 "
-"모든 버전입니다.  예를 들어, 인스턴스에 {slsa}{nbsp}15 SP1 제품이 설치되어 있"
-"으면 {slsa}{nbsp}15 SP2 및 {slsa}{nbsp}15 SP3이 [guimenu]``관리자 > 설정 마법"
-"사 > 제품``에 자동으로 표시됩니다."
+"사용 가능한 제품은 {payg} 인스턴스에 설치된 것과 동일한 제품군 및 아키텍처의 모든 버전입니다.  예를 들어, 인스턴스에 "
+"{slsa}{nbsp}15 SP1 제품이 설치되어 있으면 {slsa}{nbsp}15 SP2, {slsa}{nbsp}15 SP3 및 "
+"{slsa}{nbsp}15 SP4가 [guimenu]``관리자 > 설정 마법사 > 제품``에 자동으로 표시됩니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/connect-payg.adoc:42
@@ -1353,30 +1324,20 @@ msgstr "데이터베이스 업그레이드"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-intro.adoc:2
-#, fuzzy
-#| msgid ""
-#| "To successfully perform a major {productname} update, you might need to "
-#| "upgrade the underlying database."
 msgid ""
 "To successfully perform a major {productname} update, you might need to "
 "upgrade the underlying database."
-msgstr ""
-"{productname}의 주요 업데이트를 수행하려면 기본 데이터베이스를 업그레이드해"
-"야 할 수 있습니다."
+msgstr "{productname}의 주요 업데이트를 수행하려면 기본 데이터베이스를 업그레이드해야 할 수 있습니다."
 
 #. If you want to upgrade to the latest {productname} version, you must be using PostgreSQL version 10 or 12. 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-intro.adoc:3
-#, fuzzy
-#| msgid ""
-#| "To upgrade to the latest PostgreSQL, see xref:upgrade:db-migration-xy."
-#| "adoc[]."
 msgid ""
 "To upgrade to the latest PostgreSQL, see xref:installation-and-upgrade:db-"
 "migration-xy.adoc[]."
 msgstr ""
-"최신 PostgreSQL로 업그레이드하려면, xref:upgrade:db-migration-xy.adoc[]에서 "
-"참조하십시오."
+"최신 PostgreSQL로 업그레이드하려면, xref:installation-and-upgrade:db-migration-xy.adoc[]"
+"에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-intro.adoc:4
@@ -1396,44 +1357,7 @@ msgstr "PostgreSQL 버전"
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/db-intro.adoc:6
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| {productname} version\n"
-#| "| Operating System version\n"
-#| "| PostgreSQL version\n"
-#| "\n"
-#| "| {productname} 3.1.4\n"
-#| "| SLES 12 SP3\n"
-#| "| Postgres 9.6\n"
-#| "\n"
-#| "| {productname} 3.1.11\n"
-#| "| SLES 12 SP3\n"
-#| "| Postgres 9.6\n"
-#| "\n"
-#| "| {productname} 3.2.10\n"
-#| "| SLES 12 SP3\n"
-#| "| Postgres 9.6\n"
-#| "\n"
-#| "| {productname} 3.2.10\n"
-#| "| SLES 12 SP3\n"
-#| "| Postgres 10\n"
-#| "\n"
-#| "| {productname} 3.2.10\n"
-#| "| SLES 12 SP4\n"
-#| "| Postgres 10\n"
-#| "\n"
-#| "| {productname} 4.0.0\n"
-#| "| SLES 15 SP1\n"
-#| "| Postgres 10\n"
-#| "\n"
-#| "| {productname} 4.1.0\n"
-#| "| SLES 15 SP2\n"
-#| "| Postgres 12\n"
-#| "\n"
-#| "| {productname} 4.2.0\n"
-#| "| SLES 15 SP3\n"
-#| "| Postgres 13\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| {productname} version\n"
 "| Operating System version\n"
@@ -1460,93 +1384,34 @@ msgstr ""
 "| 운영 체제 버전\n"
 "| PostgreSQL 버전\n"
 "\n"
-"| {productname} 3.1.4\n"
-"| SLES 12 SP3\n"
-"| Postgres 9.6\n"
-"\n"
-"| {productname} 3.1.11\n"
-"| SLES 12 SP3\n"
-"| Postgres 9.6\n"
-"\n"
-"| {productname} 3.2.10\n"
-"| SLES 12 SP3\n"
-"| Postgres 9.6\n"
-"\n"
-"| {productname} 3.2.10\n"
-"| SLES 12 SP3\n"
-"| Postgres 10\n"
-"\n"
-"| {productname} 3.2.10\n"
-"| SLES 12 SP4\n"
-"| Postgres 10\n"
-"\n"
 "| {productname} 4.0.0\n"
 "| SLES 15 SP1\n"
-"| Postgres 10\n"
+"| PostgreSQL 10\n"
 "\n"
 "| {productname} 4.1.0\n"
 "| SLES 15 SP2\n"
-"| Postgres 12\n"
+"| PostgreSQL 12\n"
 "\n"
 "| {productname} 4.2.0\n"
 "| SLES 15 SP3\n"
-"| Postgres 13\n"
+"| PostgreSQL 13\n"
+"\n"
+"| {productname} 4.3.0\n"
+"| SLES 15 SP4\n"
+"| PostgreSQL 14\n"
 "\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-intro.adoc:7
-#, fuzzy
-#| msgid ""
-#| "This table shows the PostgreSQL version required for each version of "
-#| "{productname} and {SLES}:"
 msgid ""
 "This table shows the PostgreSQL version required for each version of "
 "{productname} and {opensuse}:"
-msgstr ""
-"이 테이블은 {productname} 및 {SLES}의 각 버전에 필요한 PostgreSQL 버전을 보여"
-"줍니다."
+msgstr "이 테이블은 {productname} 및 {opensuse}의 각 버전에 필요한 PostgreSQL 버전을 보여줍니다."
 
 #.  TODO: add opensuse 15.4 with postgresql 14 when we know the uyuni version
 #. type: Table
 #: modules/installation-and-upgrade/pages/db-intro.adoc:9
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| {productname} version\n"
-#| "| Operating System version\n"
-#| "| PostgreSQL version\n"
-#| "\n"
-#| "| {productname} 3.1.4\n"
-#| "| SLES 12 SP3\n"
-#| "| Postgres 9.6\n"
-#| "\n"
-#| "| {productname} 3.1.11\n"
-#| "| SLES 12 SP3\n"
-#| "| Postgres 9.6\n"
-#| "\n"
-#| "| {productname} 3.2.10\n"
-#| "| SLES 12 SP3\n"
-#| "| Postgres 9.6\n"
-#| "\n"
-#| "| {productname} 3.2.10\n"
-#| "| SLES 12 SP3\n"
-#| "| Postgres 10\n"
-#| "\n"
-#| "| {productname} 3.2.10\n"
-#| "| SLES 12 SP4\n"
-#| "| Postgres 10\n"
-#| "\n"
-#| "| {productname} 4.0.0\n"
-#| "| SLES 15 SP1\n"
-#| "| Postgres 10\n"
-#| "\n"
-#| "| {productname} 4.1.0\n"
-#| "| SLES 15 SP2\n"
-#| "| Postgres 12\n"
-#| "\n"
-#| "| {productname} 4.2.0\n"
-#| "| SLES 15 SP3\n"
-#| "| Postgres 13\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| {productname} version\n"
 "| Operating System version\n"
@@ -1565,108 +1430,73 @@ msgstr ""
 "| 운영 체제 버전\n"
 "| PostgreSQL 버전\n"
 "\n"
-"| {productname} 3.1.4\n"
-"| SLES 12 SP3\n"
-"| Postgres 9.6\n"
+"| {productname} >= 2020.07\n"
+"| {opensuse} 15.2\n"
+"| PostgreSQL 12\n"
 "\n"
-"| {productname} 3.1.11\n"
-"| SLES 12 SP3\n"
-"| Postgres 9.6\n"
-"\n"
-"| {productname} 3.2.10\n"
-"| SLES 12 SP3\n"
-"| Postgres 9.6\n"
-"\n"
-"| {productname} 3.2.10\n"
-"| SLES 12 SP3\n"
-"| Postgres 10\n"
-"\n"
-"| {productname} 3.2.10\n"
-"| SLES 12 SP4\n"
-"| Postgres 10\n"
-"\n"
-"| {productname} 4.0.0\n"
-"| SLES 15 SP1\n"
-"| Postgres 10\n"
-"\n"
-"| {productname} 4.1.0\n"
-"| SLES 15 SP2\n"
-"| Postgres 12\n"
-"\n"
-"| {productname} 4.2.0\n"
-"| SLES 15 SP3\n"
-"| Postgres 13\n"
+"| {productname} >= 2021.06\n"
+"| {opensuse} 15.3\n"
+"| PostgreSQL 13\n"
 "\n"
 
 #.  2019-10-16, ke: I think we'd better keep the info on 9.4 for the moment
 #. type: Table
 #: modules/installation-and-upgrade/pages/db-intro.adoc:10
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "====\n"
 msgstr "====\n"
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/db-intro.adoc:11
-#, fuzzy, no-wrap
-#| msgid "If you are using an older database version, such as version 9.4 or 9.6, you must migrate PostgreSQL to version 10 before you begin the {productname} migration. To upgrade from PostgreSQL 9 to version 10, see https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-migration-10.html"
+#, no-wrap
 msgid ""
 "If you are using an older database version, such as version 9.4 or 9.6, you must migrate PostgreSQL to version 10 before you begin the {productname} migration. To upgrade from PostgreSQL 9 to version 10, see:\n"
 "\n"
 "link:https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-migration-10.html[]\n"
 "====\n"
-msgstr "버전 9.4 또는 9.6과 같은 이전 데이터베이스 버전을 사용하는 경우 {productname} 마이그레이션을 시작하기 전에 PostgreSQL을 버전 10으로 마이그레이션해야 합니다. PostgreSQL 9에서 버전 10으로 업그레이드하려면 link:https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-migration-10.html[]을 참조하십시오."
+msgstr ""
+"버전 9.4 또는 9.6과 같은 이전 데이터베이스 버전을 사용하는 경우 {productname} 마이그레이션을 시작하기 전에 "
+"PostgreSQL을 버전 10으로 마이그레이션해야 합니다. PostgreSQL 9에서 버전 10으로 업그레이드하려면 다음을 참조하십시오."
+"\n"
+"\n"
+"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
+"suse-manager/upgrade/db-migration-10.html[]\n"
+"====\n"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Database Migration from Version 9 to 10"
+#, no-wrap
 msgid "Database Migration to Latest Version"
-msgstr "버전 9에서 10으로 데이터베이스 마이그레이션"
+msgstr "최신 버전으로 데이터베이스 마이그레이션"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:2
-#, fuzzy
-#| msgid ""
-#| "This section covers upgrading the PostgreSQL database from version 9 to "
-#| "version 10.  If you are already using PostgreSQL 10, you do not need to "
-#| "perform this migration."
 msgid ""
 "This section covers upgrading the PostgreSQL database to the latest "
 "version.  If you are already using PostgreSQL 14, you do not need to perform "
 "this migration."
 msgstr ""
-"이 섹션에서는 버전 9에서 버전 10으로의 PostgreSQL 데이터베이스 업그레이드에 "
-"대해 설명합니다.  PostgreSQL 10을 이미 사용 중인 경우에는 이 마이그레이션을 "
-"수행할 필요가 없습니다."
+"이 섹션에서는 최신 버전으로의 PostgreSQL 데이터베이스 업그레이드에 대해 설명합니다.  PostgreSQL 14를 이미 사용 중인 "
+"경우에는 이 마이그레이션을 수행할 필요가 없습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:3
-#, fuzzy
-#| msgid ""
-#| "If you want to upgrade to the latest {productname} version, you must be "
-#| "using PostgreSQL version 12 or 13, depending on the underlying operating "
-#| "system:"
 msgid ""
 "If you want to upgrade to the latest {productname} version, you must be "
 "using PostgreSQL version 13 or 14, depending on the underlying operating "
 "system:"
 msgstr ""
-"최신 {productname} 버전으로 업그레이드하려면 기본 운영 체제에 따라 "
-"PostgreSQL 버전 12 또는 13을 사용해야 합니다."
+"최신 {productname} 버전으로 업그레이드하려면 기본 운영 체제에 따라 PostgreSQL 버전 13 또는 14를 사용해야 합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:4
-#, fuzzy
-#| msgid "If you are running SLES 15 SP3, use PostgreSQL 13."
 msgid "If you are running SLES 15 SP4, use PostgreSQL 14."
-msgstr "SLES 15 SP3를 실행 중인 경우에는 PostgreSQL 13을 사용하십시오."
+msgstr "SLES 15 SP4를 실행 중인 경우에는 PostgreSQL 14를 사용하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:5
-#, fuzzy
-#| msgid "If you are running Leap 15.2, use PostgreSQL 12."
 msgid "If you are running Leap 15.3, use PostgreSQL 13."
-msgstr "Leap 15.2를 실행 중인 경우에는 PostgreSQL 12를 사용하십시오."
+msgstr "Leap 15.3를 실행 중인 경우에는 PostgreSQL 13을 사용하십시오."
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:6
@@ -1722,10 +1552,8 @@ msgstr "rpm -q smdba\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:14
-#, fuzzy
-#| msgid "PostgreSQL{nbsp}13 requires ``smdba`` version 1.7.6 or later."
 msgid "PostgreSQL{nbsp}14 requires ``smdba`` version 1.7.6 or later."
-msgstr "PostgreSQL{nbsp}13에는 ``smdba``버전 1.7.6 이상이 필요합니다."
+msgstr "PostgreSQL{nbsp}14에는 ``smdba``버전 1.7.6 이상이 필요합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/db-migration-xy.adoc:15
@@ -2062,10 +1890,6 @@ msgstr ""
 #. REMARK What about Uyuni?
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/general-requirements.adoc:24
-#, fuzzy
-#| msgid ""
-#| "You only require a valid registration code for {productname}.  You do not "
-#| "require a separate code for SLES{nbsp}{sles-version} {sp-version}."
 msgid ""
 "You only require a valid registration code for {productname}, for example "
 "from a \"SUSE Manager Lifecycle Management+\" subscription.  For more "
@@ -2073,8 +1897,10 @@ msgid ""
 "terms_and_conditions.pdf.  You do not require a separate code for SLES{nbsp}"
 "{sles-version} {sp-version}."
 msgstr ""
-"{productname}에 대한 유효한 등록 코드만 필요합니다.  SLES{nbsp}{sles-"
-"version} {sp-version}에 대한 별도의 코드는 필요하지 않습니다."
+"예를 들어 \"SUSE Manager Lifecycle Management+\" 구독에서 {productname}에 대한 유효한 등록 "
+"코드만 필요합니다. 자세한 내용은 https://www.suse.com/products/terms_and_conditions.pdf에서 "
+"SUSE 규정 및 조건을 참조하십시오. SLES{nbsp}{sles-version} {sp-version}에 대한 별도의 코드는 필요하지 "
+"않습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/general-requirements.adoc:25
@@ -2213,16 +2039,11 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/hardware-requirements.adoc:4
-#, fuzzy
-#| msgid ""
-#| "For {ibmz} hardware requirements, see xref:installation:install-ibmz."
-#| "adoc[]."
 msgid ""
 "For {ibmz} hardware requirements, see xref:installation-and-upgrade:install-"
 "ibmz.adoc[]."
 msgstr ""
-"{ibmz} 하드웨어 요구사항은 xref:installation:install-ibmz.adoc[]를 참조하십시"
-"오."
+"{ibmz} 하드웨어 요구사항은 xref:installation-and-upgrade:install-ibmz.adoc[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/hardware-requirements.adoc:5
@@ -2261,50 +2082,7 @@ msgstr "{x86_64} 아키텍처에 대한 서버 하드웨어 요구사항"
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/hardware-requirements.adoc:9
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Hardware\n"
-#| "| Details\n"
-#| "| Recommendation\n"
-#| "\n"
-#| "| CPU\n"
-#| "| -\n"
-#| "| Minimum 4 dedicated 64-bit CPU cores\n"
-#| "\n"
-#| "| RAM\n"
-#| "| Test Server\n"
-#| "| Minimum 8{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| Base Installation\n"
-#| "| Minimum 16{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| Production Server\n"
-#| "| Minimum 32{nbsp}GB\n"
-#| "\n"
-#| "| Disk Space\n"
-#| "| [path]``/`` (root directory)\n"
-#| "| Minimum 24{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| [path]``/var/lib/pgsql``\n"
-#| "| Minimum 50{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| [path]``/var/spacewalk``\n"
-#| "| Minimum 50{nbsp}GB per {suse} product and 360{nbsp}GB per Red Hat product\n"
-#| "\n"
-#| "|\n"
-#| "| [path]``/var/cache``\n"
-#| "| Minimum 10{nbsp}GB.\n"
-#| "Add 100{nbsp}MB per {suse} product, 1{nbsp}GB per Red Hat or other product.\n"
-#| "Double the space if the server is an ISS Master.\n"
-#| "\n"
-#| "|\n"
-#| "| Swap space\n"
-#| "| 3{nbsp}GB\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Hardware\n"
 "| Details\n"
@@ -2355,7 +2133,7 @@ msgstr ""
 " \n"
 " | CPU\n"
 " | -\n"
-" | 최소 4개의 전용 64비트 CPU 코어\n"
+" | 최소 4개의 전용 64비트 CPU 코어({x86_64})\n"
 " \n"
 " | RAM\n"
 " | 테스트 서버\n"
@@ -2371,7 +2149,7 @@ msgstr ""
 " \n"
 " | 디스크 공간\n"
 " | [path]``/``(루트 디렉토리)\n"
-" | 최소 24GB\n"
+" | 최소 40GB\n"
 " \n"
 " |\n"
 " | [path]``/var/lib/pgsql``\n"
@@ -2506,36 +2284,7 @@ msgstr "프록시 하드웨어 요구사항"
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/hardware-requirements.adoc:15
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Hardware\n"
-#| "| Details\n"
-#| "| Recommendation\n"
-#| "\n"
-#| "| CPU\n"
-#| "|\n"
-#| "| Minimum 2 dedicated 64-bit CPU cores\n"
-#| "\n"
-#| "| RAM\n"
-#| "| Test Server\n"
-#| "| Minimum 2{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| Production Server\n"
-#| "| Minimum 8{nbsp}GB\n"
-#| "\n"
-#| "| Disk Space\n"
-#| "| [path]``/`` (root directory)\n"
-#| "| Minimum 24{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| [path]``/srv``\n"
-#| "| Minimum 100{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| [path]``/var/cache`` (Squid)\n"
-#| "| Minimum 100{nbsp}GB\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Hardware\n"
 "| Details\n"
@@ -2584,7 +2333,7 @@ msgstr ""
 " \n"
 " | 디스크 공간\n"
 " | [path]``/``(루트 디렉토리)\n"
-" | 최소 24GB\n"
+" | 최소 40GB\n"
 " \n"
 " |\n"
 " | [path]``/srv``\n"
@@ -3176,28 +2925,20 @@ msgstr "메시지가 표시되면, [guimenu]``설치``를 선택합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-ibmz.adoc:40
-#, fuzzy
-#| msgid ""
-#| "Then continue as described in xref:installation:install-server-unified."
-#| "adoc[]."
 msgid ""
 "Then continue as described in xref:installation-and-upgrade:install-server-"
 "unified.adoc[]."
 msgstr ""
-"그리고 xref:installation:install-server-unified.adoc[]의 설명을 따릅니다."
+"그리고 xref:installation-and-upgrade:install-server-unified.adoc[]의 설명을 따릅니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-ibmz.adoc:41
-#, fuzzy
-#| msgid ""
-#| "To finalize the {productname} installation see xref:installation:server-"
-#| "setup.adoc[]."
 msgid ""
 "To finalize the {productname} installation see xref:installation-and-upgrade:"
 "server-setup.adoc[]."
 msgstr ""
-"{productname}의 설치를 완료하려면 xref:installation:server-setup.adoc[]을 참"
-"조하십시오."
+"{productname}의 설치를 완료하려면 xref:installation-and-upgrade:server-setup.adoc[]을 "
+"참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-intro.adoc:1
@@ -3212,35 +2953,22 @@ msgstr "이 섹션은 {productname} 구성 요소의 설치 프로세스를 설�
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-intro.adoc:3
-#, fuzzy
-#| msgid ""
-#| "It is possible to use a public cloud instance to install {productname}.  "
-#| "For more information on using {productname} on a public cloud, see xref:"
-#| "quickstart-public-cloud:qs-publiccloud-overview.adoc[]."
 msgid ""
 "It is possible to use a public cloud instance to install {productname}.  For "
 "more information on using {productname} on a public cloud, see xref:"
 "specialized-guides:qs-publiccloud/overview.adoc[]."
 msgstr ""
-"공용 클라우드 인스턴스를 사용하여 {productname}을(를) 설치할 수 있습니다. 공"
-"용 클라우드에서 {productname} 사용에 대한 자세한 내용은 xref:quickstart-"
-"public-cloud:qs-publiccloud-overview.adoc[]을 참조하십시오."
+"공용 클라우드 인스턴스를 사용하여 {productname}을(를) 설치할 수 있습니다. 공용 클라우드에서 {productname} 사용에 "
+"대한 자세한 내용은 xref:specialized-guides:qs-publiccloud/overview.adoc[]을 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-proxy-unified.adoc:1
-#, fuzzy, no-wrap
-#| msgid "{productname} {productnumber} Proxy"
+#, no-wrap
 msgid "Install {productname} {productnumber} Proxy"
-msgstr "{productname} {productnumber} 프록시"
+msgstr "{productname} {productnumber} 프록시 설치"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy-unified.adoc:2
-#, fuzzy
-#| msgid ""
-#| "{susemgr} Proxy is a {suse} product within the {sle} product family.  "
-#| "This section describes how to install {susemgr} Proxy from {sle} "
-#| "installation media.  It assumes you already have obtained a registration "
-#| "code for your {susemgr} Proxy."
 msgid ""
 "{susemgr} Proxy is a {suse} product within the {sle} product family.  This "
 "section describes how to install {susemgr} Proxy from {sle} installation "
@@ -3248,9 +2976,9 @@ msgid ""
 "{susemgr} Proxy, for example from a \"SUSE Manager Lifecycle Management+\" "
 "subscription."
 msgstr ""
-"{susemgr} 프록시는 {sle} 제품군 내의 {suse} 제품입니다. 이 섹션에서는 {sle} "
-"설치 미디어에서 {susemgr} 프록시를 설치하는 방법을 설명합니다. {susemgr} 프록"
-"시에 대한 등록 코드를 이미 받았다고 가정합니다."
+"{susemgr} 프록시는 {sle} 제품군 내의 {suse} 제품입니다. 이 섹션에서는 {sle} 설치 미디어에서 {susemgr} "
+"프록시를 설치하는 방법을 설명합니다. 예를 들어 \"SUSE Manager Lifecycle Management+\" 구독에서 "
+"{susemgr} 프록시에 대한 등록 코드를 이미 받았다고 가정합니다."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-proxy-unified.adoc:4
@@ -3606,18 +3334,13 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy-uyuni.adoc:18
-#, fuzzy
-#| msgid ""
-#| "When the installation is complete, you can continue with {productname} "
-#| "setup.  For more information, see xref:installation:uyuni-proxy-"
-#| "registration.adoc[]."
 msgid ""
 "When the installation is complete, you can continue with {productname} "
 "setup.  For more information, see xref:installation-and-upgrade:uyuni-proxy-"
 "registration.adoc[]."
 msgstr ""
-"설치가 완료되면 {productname}의 설정을 진행할 수 있습니다.  자세한 내용은 "
-"xref:installation:uyuni-proxy-registration.adoc[]에서 참조하십시오."
+"설치가 완료되면 {productname}의 설정을 진행할 수 있습니다.  자세한 내용은 xref:installation-and-"
+"upgrade:uyuni-proxy-registration.adoc[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:1
@@ -3657,29 +3380,13 @@ msgstr ""
 
 #. type: Block title
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:5
-#, fuzzy, no-wrap
-#| msgid "SLES KVM Settings"
+#, no-wrap
 msgid "KVM Settings for SLES"
 msgstr "SLES KVM 설정"
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:6
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| KVM Settings for SLES\n"
-#| "| Installation Method: | Local install media (ISO image or CDROM)\n"
-#| "| OS:                  | Linux\n"
-#| "| Version:             |``SLE-``[literal]``<version>````-Server-x86_64-GM-DVD1.iso``\n"
-#| "| Memory:              | _Test Server_ Minumum 2{nbsp}GB\n"
-#| "|                      | _Production Server_ Minimum 8{nbsp}GB\n"
-#| "| CPUs:                | 2\n"
-#| "| Storage Format:      | ISO 3{nbsp}GB\n"
-#| "| Disk Space:          | 230{nbsp}GB split between\n"
-#| "|                      | [path]``/`` _(root)_ Minimum 24{nbsp}GB\n"
-#| "|                      | (Virtual Disk 1) [path]``/srv`` Minimum 100{nbsp}GB\n"
-#| "|                      | (Virtual Disk 2) [path]``/var/cache`` _(Squid)_ Minimum 100{nbsp}GB\n"
-#| "| Name:                | example-proxy\n"
-#| "| Network              | Bridge br0\n"
+#, no-wrap
 msgid ""
 "| Installation Method: | Local install media (ISO image or CDROM)\n"
 "| OS:                  | Linux\n"
@@ -3695,10 +3402,10 @@ msgid ""
 "| Name:                | example-proxy\n"
 "| Network              | Bridge br0\n"
 msgstr ""
-"| SLES를 위한 KVM 설정\n"
 "| 설치 방법: | 로컬 설치 미디어(ISO 이미지 또는 CDROM)\n"
 " | OS:                  | Linux\n"
-" | 버전:              |``SLE-``[literal]``<version>````-Server-x86_64-GM-DVD1.iso``\n"
+" | 버전:              |``SLE-``[literal]``<version>````-Server-x86_64-GM-DVD1."
+"iso``\n"
 " | 메모리:              | _테스트 서버_ 최고 2GB\n"
 " |                      | _프로덕션 서버_ 최소 8GB\n"
 " | CPU:                | 2\n"
@@ -3706,7 +3413,8 @@ msgstr ""
 " | 디스크 공간:          | 분할된 230GB\n"
 " |                      | [path]``/`` _(루트)_ 최소 24GB\n"
 " |                      | (가상 디스크 1) [path]``/srv`` 최소 100GB\n"
-" |                      | (가상 디스크 2) [path]``/var/cache`` _(Squid)_ 최소 100GB\n"
+" |                      | (가상 디스크 2) [path]``/var/cache`` _(Squid)_ 최소 "
+"100GB\n"
 " | 이름:                | example-proxy\n"
 " | 네트워크              | Bridge br0\n"
 
@@ -3875,19 +3583,15 @@ msgstr "{productname} 리포지토리 추가:"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:28
-#, fuzzy, no-wrap
-#| msgid ""
-#| "SUSEConnect -p sle-module-basesystem/15.3/x86_64\n"
-#| "SUSEConnect -p sle-module-server-applications/15.3/x86_64\n"
-#| "SUSEConnect -p sle-module-suse-manager-proxy/4.2/x86_64\n"
+#, no-wrap
 msgid ""
 "SUSEConnect -p sle-module-basesystem/15.4/x86_64\n"
 "SUSEConnect -p sle-module-server-applications/15.4/x86_64\n"
 "SUSEConnect -p sle-module-suse-manager-proxy/4.3/x86_64\n"
 msgstr ""
-"SUSEConnect -p sle-module-basesystem/15.3/x86_64\n"
-"SUSEConnect -p sle-module-server-applications/15.3/x86_64\n"
-"SUSEConnect -p sle-module-suse-manager-proxy/4.2/x86_64\n"
+"SUSEConnect -p sle-module-basesystem/15.4/x86_64\n"
+"SUSEConnect -p sle-module-server-applications/15.4/x86_64\n"
+"SUSEConnect -p sle-module-suse-manager-proxy/4.3/x86_64\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-proxy.adoc:29
@@ -3925,8 +3629,7 @@ msgstr "재부팅합니다."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-pubcloud.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Installing on a Public Cloud"
+#, no-wrap
 msgid "Installation on Public Cloud"
 msgstr "공용 클라우드에 설치"
 
@@ -3943,36 +3646,22 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-pubcloud.adoc:3
-#, fuzzy
-#| msgid ""
-#| "However, you will need to perform some additional setup steps before you "
-#| "can use {productname}.  For public cloud setup instructions, see xref:"
-#| "installation:pubcloud-setup.adoc[]."
 msgid ""
 "However, you will need to perform some additional setup steps before you can "
 "use {productname}.  For public cloud setup instructions, see xref:"
 "installation-and-upgrade:pubcloud-setup.adoc[]."
 msgstr ""
-"그러나 {productname}을(를) 사용하려면 몇 가지 추가 설정 단계를 수행해야 합니"
-"다. 공용 클라우드 설정 지침은 xref:installation:pubcloud-setup.adoc[]을 참조"
-"하십시오."
+"그러나 {productname}을(를) 사용하려면 몇 가지 추가 설정 단계를 수행해야 합니다. 공용 클라우드 설정 지침은 xref"
+":installation-and-upgrade:pubcloud-setup.adoc[]을 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Installing {productname} {productnumber} Server"
+#, no-wrap
 msgid "Install {productname} {productnumber} Server"
 msgstr "{productname} {productnumber} 서버 설치"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:2
-#, fuzzy
-#| msgid ""
-#| "{susemgr} is a {suse} product within the {sle} product family.  This "
-#| "section describes how to install {susemgr} Server from the {sle} "
-#| "installation media.  For this topic we assume that you already have valid "
-#| "organization credentials with {scc} and have obtained a registration code "
-#| "for your {susemgr}."
 msgid ""
 "{susemgr} is a {suse} product within the {sle} product family.  This section "
 "describes how to install {susemgr} Server from the {sle} installation "
@@ -3981,42 +3670,29 @@ msgid ""
 "{susemgr}, for example from a \"SUSE Manager Lifecycle Management+\" "
 "subscription."
 msgstr ""
-"{susemgr}은(는) {sle} 제품군 내의 {suse} 제품입니다. 이 섹션에서는 {sle} 설"
-"치 미디어에서 {susemgr} 서버를 설치하는 방법을 설명합니다. 이 주제에서는 "
-"{scc}에 대한 유효한 조직 자격 증명이 이미 있고 {susemgr}에 대한 등록 코드를 "
-"획득했다고 가정합니다."
+"{susemgr}은(는) {sle} 제품군 내의 {suse} 제품입니다. 이 섹션에서는 {sle} 설치 미디어에서 {susemgr} "
+"서버를 설치하는 방법을 설명합니다. 예를 들어 \"SUSE Manager Lifecycle Management+\" 구독에서 이 "
+"주제에서는 {scc}에 대한 유효한 조직 자격 증명이 이미 있고 {susemgr}에 대한 등록 코드를 획득했다고 가정합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:3
-#, fuzzy
-#| msgid ""
-#| "For information on registering with {scc}, retrieving your organization "
-#| "credentials from {scc}, or obtaining installation media, see xref:"
-#| "installation:general-requirements.adoc[]."
 msgid ""
 "For information on registering with {scc}, retrieving your organization "
 "credentials from {scc}, or obtaining installation media, see xref:"
 "installation-and-upgrade:general-requirements.adoc[]."
 msgstr ""
-"{scc}를 사용한 등록, {scc}에서 조직 인증서 검색 또는 설치 미디어 가져오기에 "
-"대한 자세한 내용은 xref:installation:general-requirements.adoc[]에서 참조하십"
-"시오."
+"{scc}를 사용한 등록, {scc}에서 조직 인증서 검색 또는 설치 미디어 가져오기에 대한 자세한 내용은xref:installation-"
+"and-upgrade:general-requirements.adoc[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Before installing {susemgr}, ensure your physical or virtual machine has "
-#| "enough disk space and RAM by checking the requirements at xref:"
-#| "installation:hardware-requirements.adoc[]."
 msgid ""
 "Before installing {susemgr}, ensure your physical or virtual machine has "
 "enough disk space and RAM by checking the requirements at xref:installation-"
 "and-upgrade:hardware-requirements.adoc[]."
 msgstr ""
-"{susemgr}를 설치하기 전, xref:installation:hardware-requirements.adoc[]에서 "
-"요구사항을 확인하여 물리적 또는 가상 머신에 충분한 여유 공간과 RAM이 있는지 "
-"확인하십시오."
+"{susemgr}를 설치하기 전, xref:installation-and-upgrade:hardware-requirements.adoc[]"
+"에서 요구사항을 확인하여 물리적 또는 가상 머신에 충분한 여유 공간과 RAM이 있는지 확인하십시오."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:5
@@ -4038,26 +3714,14 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:7
-#, fuzzy
-#| msgid ""
-#| "For more information, see xref:quickstart-public-cloud:qs-publiccloud-"
-#| "overview.adoc[]."
 msgid ""
 "For more information, see xref:specialized-guides:qs-publiccloud/overview."
 "adoc[]."
 msgstr ""
-"자세한 정보는 xref:quickstart-public-cloud:qs-publiccloud-overview.adoc[]에"
-"서 참조하십시오."
+"자세한 정보는 xref:specialized-guides:qs-publiccloud/overview.adoc[]에서 참조하십시오."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:8
-#, fuzzy
-#| msgid ""
-#| "In case of installing {susemgr} in a public cloud where a {susemgr} image "
-#| "is not available, it is possible to start from a {sles}{nbsp}{sles-"
-#| "version}{nbsp}{sp-version} and switch the base product to {susemgr}{nbsp}"
-#| "{productnumber}.  For more information, see xref:installation:install-vm."
-#| "adoc[]."
 msgid ""
 "In case of installing {susemgr} in a public cloud where a {susemgr} image is "
 "not available, it is possible to start from a {sles}{nbsp}{sles-version}"
@@ -4065,10 +3729,9 @@ msgid ""
 "{productnumber}.  For more information, see xref:installation-and-upgrade:"
 "install-vm.adoc[]."
 msgstr ""
-"{susemgr} 이미지를 사용할 수 없는 공용 클라우드에 {susemgr}을 설치하는 경우 "
-"{sles}{nbsp}{sles-version}{nbsp}{sp-version}에서 시작하여 기본 제품을 "
-"{susemgr}{nbsp}{productnumber}(으)로 변경합니다. 자세한 내용은 xref:"
-"installation:install-vm.adoc[]에서 참조하십시오."
+"{susemgr} 이미지를 사용할 수 없는 공용 클라우드에 {susemgr}을 설치하는 경우 {sles}{nbsp}{sles-"
+"version}{nbsp}{sp-version}에서 시작하여 기본 제품을 {susemgr}{nbsp}{productnumber}(으)로 "
+"변경합니다. 자세한 내용은 xref:installation-and-upgrade:install-vm.adoc[]에서 참조하십시오."
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:9
@@ -4232,18 +3895,13 @@ msgstr "SUSE Manager Server 모듈"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-server-unified.adoc:40
-#, fuzzy
-#| msgid ""
-#| "When you have finished installing the {productname} Server, you need to "
-#| "set it up so it is ready to use.  For more information, see xref:"
-#| "installation:server-setup.adoc[]."
 msgid ""
 "When you have finished installing the {productname} Server, you need to set "
 "it up so it is ready to use.  For more information, see xref:installation-"
 "and-upgrade:server-setup.adoc[]."
 msgstr ""
-"{productname} 서버의 설치가 완료되면 사용할 수 있도록 설정해야 합니다. 자세"
-"한 내용은 xref:installation:server-setup.adoc[]에서 참조하십시오."
+"{productname} 서버의 설치가 완료되면 사용할 수 있도록 설정해야 합니다. 자세한 내용은 xref:installation-and-"
+"upgrade:server-setup.adoc[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-server.adoc:1
@@ -4443,15 +4101,12 @@ msgstr "{productname} 서버를 openSUSE에 설치할 수 있습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:3
-#, fuzzy
-#| msgid ""
-#| "For requirements, see xref:installation:uyuni-install-requirements.adoc[]."
 msgid ""
 "For requirements, see xref:installation-and-upgrade:uyuni-install-"
 "requirements.adoc[]."
 msgstr ""
-"요구사항은 xref:installation:uyuni-install-requirements.adoc[]을 참조하십시"
-"오."
+"요구사항은 xref:installation-and-upgrade:uyuni-install-requirements.adoc[]를 "
+"참조하십시오."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:4
@@ -4485,10 +4140,8 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:9
-#, fuzzy
-#| msgid "Set variables to use to create repository:"
 msgid "Set variables to use to create repository as [systemitem]``root``:"
-msgstr "리포지토리를 생성하기 위해 사용할 변수를 설정합니다."
+msgstr "리포지토리를 생성하기 위해 사용할 변수를 [systemitem]``root``로 설정합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:10
@@ -4534,18 +4187,13 @@ msgstr "zypper in patterns-uyuni_server\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-uyuni.adoc:20
-#, fuzzy
-#| msgid ""
-#| "When the installation is complete, you can continue with {productname} "
-#| "setup.  For more information, see xref:installation:uyuni-server-setup."
-#| "adoc[]."
 msgid ""
 "When the installation is complete, you can continue with {productname} "
 "setup.  For more information, see xref:installation-and-upgrade:uyuni-server-"
 "setup.adoc[]."
 msgstr ""
-"설치가 완료되면 {productname}의 설정을 진행할 수 있습니다.  자세한 내용은 "
-"xref:installation:uyuni-server-setup.adoc[]에서 참조하십시오."
+"설치가 완료되면 {productname}의 설정을 진행할 수 있습니다.  자세한 내용은 xref:installation-and-"
+"upgrade:uyuni-server-setup.adoc[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/install-vm.adoc:1
@@ -4637,16 +4285,12 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/install-vm.adoc:8
-#, fuzzy
-#| msgid ""
-#| "For more information on virtualization, see https://documentation.suse."
-#| "com/sles/15-SP3/html/SLES-all/book-virtualization.html."
 msgid ""
 "For more information on {sle} Virtualization Guide, see https://"
 "documentation.suse.com/sles/15-SP3/html/SLES-all/book-virtualization.html."
 msgstr ""
-"가상화에 대한 자세한 내용은 link:https://documentation.suse.com/sles/15-SP3/"
-"html/SLES-all/book-virtualization.html[]을 참조하십시오."
+"가상화에 대한 자세한 내용은 https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
+"book-virtualization.html에서 참조하십시오."
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/install-vm.adoc:9
@@ -4901,23 +4545,18 @@ msgstr "zypper in -t pattern suma_server\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/install-vm.adoc:44
-#, fuzzy
-#| msgid ""
-#| "For proceeding with {productname} setup, see xref:installation:server-"
-#| "setup.adoc[SUSE Manager Setup]."
 msgid ""
 "For proceeding with {productname} setup, see xref:installation-and-upgrade:"
 "server-setup.adoc[SUSE Manager Setup]."
 msgstr ""
-"{productname} 설정을 진행하려면, xref:installation:server-setup.adoc[SUSE "
-"Manager 설정]을 참조하십시오."
+"{productname} 설정을 진행하려면, xref:installation-and-upgrade:server-setup.adoc["
+"SUSE Manager 설정]을 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Installation Guide Overview"
+#, no-wrap
 msgid "Installation and Upgrade Guide Overview"
-msgstr "설치 안내서 개요"
+msgstr "설치 및 업그레이드 가이드 개요"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:2
@@ -4929,16 +4568,12 @@ msgstr "**업데이트 날짜:** {docdate}\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:3
-#, fuzzy
-#| msgid ""
-#| "This book provides guidance on installing {productname}.  It is split "
-#| "into three sections:"
 msgid ""
 "This book provides guidance on installing and upgrading {productname} Server "
 "and Proxy.  It is split into four sections:"
 msgstr ""
-"이 가이드는 {productname}의 설치를 안내합니다.  다음과 같은 3개의 섹션으로 구"
-"성되었습니다."
+"이 가이드는 {productname} 서버 및 프록시 설치 및 업그레이드에 대한 지침을 제공합니다. 다음과 같은 4개의 섹션으로 "
+"구성되었습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:4
@@ -4966,7 +4601,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:7
-#, fuzzy
 msgid ""
 "Upgrade: Describes upgrading of the {productname} components, including the "
 "underlying database."
@@ -4974,20 +4608,16 @@ msgstr "업그레이드: 기본 데이터베이스를 포함하여 {productname}
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/installation-and-upgrade-overview.adoc:8
-#, fuzzy
-#| msgid ""
-#| "It is possible to use a public cloud instance to install {productname}.  "
-#| "For more information on using {productname} on a public cloud, see xref:"
-#| "quickstart-public-cloud:qs-publiccloud-overview.adoc[]."
 msgid ""
 "It is possible to use a public cloud instance to install {productname}.  For "
 "more information on using {productname} on a public cloud, see xref:"
 "specialized-guides:qs-publiccloud/overview.adoc[].  For more information on "
 "upgrading clients, see xref:client-configuration:client-upgrades.adoc[]."
 msgstr ""
-"공용 클라우드 인스턴스를 사용하여 {productname}을(를) 설치할 수 있습니다. 공"
-"용 클라우드에서 {productname} 사용에 대한 자세한 내용은 xref:quickstart-"
-"public-cloud:qs-publiccloud-overview.adoc[]을 참조하십시오."
+"공용 클라우드 인스턴스를 사용하여 {productname}을(를) 설치할 수 있습니다. 공용 클라우드에서 {productname} 사용에 "
+"대한 자세한 내용은 xref:specialized-guides:qs-publiccloud/overview.adoc[]를 참조하십시오. "
+"클라이언트 업그레이드에 대한 자세한 내용은 xref:client-configuration:client-upgrades.adoc[]를 "
+"참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/network-requirements.adoc:1
@@ -5100,40 +4730,28 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/network-requirements.adoc:13
-#, fuzzy
-#| msgid ""
-#| "In a production environment, the {productname} Server and clients should "
-#| "always use a firewall.  For a comprehensive list of the required ports, "
-#| "see xref:installation:ports.adoc[]."
 msgid ""
 "In a production environment, the {productname} Server and clients should "
 "always use a firewall.  For a comprehensive list of the required ports, see "
 "xref:installation-and-upgrade:ports.adoc[]."
 msgstr ""
-"프로덕션 환경에서 {productname} 서버와 클라이언트는 항상 방화벽을 사용해야 합"
-"니다.  전체 필수 포트 목록은 xref:installation:ports.adoc[]을 참조하십시오."
+"프로덕션 환경에서 {productname} 서버와 클라이언트는 항상 방화벽을 사용해야 합니다.  전체 필수 포트 목록은 xref"
+":installation-and-upgrade:ports.adoc[]를 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/network-requirements.adoc:14
-#, fuzzy
-#| msgid ""
-#| "For more information on disconnected setup and port configuration, see "
-#| "xref:administration:disconnected-setup.adoc#client-cfg-reg-with-bootstrap-"
-#| "disconnected[]."
 msgid ""
 "For more information on disconnected setup and port configuration, see xref:"
 "administration:disconnected-setup.adoc[]."
 msgstr ""
-"연결이 끊긴 설정 및 포트 구성에 대한 자세한 내용은 xref:administration:"
-"disconnected-setup.adoc#client-cfg-reg-with-bootstrap-disconnected[]를 참조하"
-"십시오."
+"연결이 끊긴 설정 및 포트 구성에 대한 자세한 내용은 xref:administration:disconnected-setup.adoc[]을 "
+"참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/ports.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Network Ports"
+#, no-wrap
 msgid "Required Network Ports"
-msgstr "네트워크 포트"
+msgstr "필수 네트워크 포트"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/ports.adoc:2
@@ -5593,10 +5211,9 @@ msgstr ""
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:9
-#, fuzzy, no-wrap
-#| msgid "mkdir -p /srv/images/opensuse152\n"
+#, no-wrap
 msgid "mkdir -p /srv/images/opensuse153\n"
-msgstr "mkdir -p /srv/images/opensuse152\n"
+msgstr "mkdir -p /srv/images/opensuse153\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:10
@@ -5655,14 +5272,7 @@ msgstr ""
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:18
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:11
-#, fuzzy, no-wrap
-#| msgid ""
-#| "spacewalk-common-channels opensuse_leap15_2 \\\n"
-#| "opensuse_leap15_2-non-oss \\\n"
-#| "opensuse_leap15_2-non-oss-updates \\\n"
-#| "opensuse_leap15_2-updates \\\n"
-#| "opensuse_leap15_2-uyuni-client \\\n"
-#| "uyuni-proxy-stable-leap-152\n"
+#, no-wrap
 msgid ""
 "spacewalk-common-channels opensuse_leap15_3 \\\n"
 "opensuse_leap15_3-non-oss \\\n"
@@ -5673,12 +5283,14 @@ msgid ""
 "opensuse_leap15_3-uyuni-client \\\n"
 "uyuni-proxy-stable-leap-153\n"
 msgstr ""
-"spacewalk-common-channels opensuse_leap15_2 \\\n"
-"opensuse_leap15_2-non-oss \\\n"
-" opensuse_leap15_2-non-oss-updates \\\n"
-" opensuse_leap15_2-updates \\\n"
-" opensuse_leap15_2-uyuni-client \\\n"
-" uyuni-proxy-stable-leap-152\n"
+"spacewalk-common-channels opensuse_leap15_3 \\\n"
+"opensuse_leap15_3-non-oss \\\n"
+"opensuse_leap15_3-non-oss-updates \\\n"
+"opensuse_leap15_3-updates \\\n"
+"opensuse_leap15_3-backports-update \\\n"
+"opensuse_leap15_3-sle-updates \\\n"
+"opensuse_leap15_3-uyuni-client \\\n"
+"uyuni-proxy-stable-leap-153\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:19
@@ -5721,17 +5333,12 @@ msgstr "[guimenu]``배포판 레이블`` 섹션에 배포판의 고유 이름을
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:24
-#, fuzzy
-#| msgid ""
-#| "Use only letters, numbers, hyphens, periods, and underscores, and ensure "
-#| "the name is longer than four characters.  For example, ``proxy_152-"
-#| "x86_64``."
 msgid ""
 "Use only letters, numbers, hyphens, periods, and underscores, and ensure the "
 "name is longer than four characters.  For example, ``proxy_153-x86_64``."
 msgstr ""
-"이름에는 문자, 숫자, 하이픈, 마침표 및 밑줄만 사용해야 하며 5자 이상이어야 합"
-"니다.  예를 들면, ``proxy_152-x86_64``입니다."
+"이름에는 문자, 숫자, 하이픈, 마침표 및 밑줄만 사용해야 하며 5자 이상이어야 합니다.  예를 들면, "
+"``proxy_153-x86_64``입니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:25
@@ -5742,23 +5349,16 @@ msgstr "[guimenu]``트리 경로`` 필드에 설치 원본의 절대 경로를 �
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:26
-#, fuzzy
-#| msgid "For example, [path]``/srv/images/opensuse152``."
 msgid "For example, [path]``/srv/images/opensuse153``."
-msgstr "예를 들면, [path]``/srv/images/opensuse152``입니다."
+msgstr "예를 들면, [path]``/srv/images/opensuse153`입니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:27
-#, fuzzy
-#| msgid ""
-#| "In the [guimenu]``Base Channel`` field, select [systemitem]``openSUSE "
-#| "Leap 15.2 (x86_64)``."
 msgid ""
 "In the [guimenu]``Base Channel`` field, select [systemitem]``openSUSE Leap "
 "15.3 (x86_64)``."
 msgstr ""
-"[guimenu]``기본 채널`` 필드에서 [systemitem]``openSUSE Leap 15.2(x86_64)``를 "
-"선택합니다."
+"[guimenu]``기본 채널`` 필드에서 [systemitem]``openSUSE Leap 15.3 (x86_64)``를 선택합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:28
@@ -5943,9 +5543,8 @@ msgid ""
 "select the proxy, navigate to the [guimenu]``Provisioning`` tab, and select "
 "the autoinstallation profile you uploaded."
 msgstr ""
-"{productname} 서버 {webui}에서 menu:시스템[시스템 목록]으로 이동하여 프록시"
-"를 선택한 후 [guimenu]``프로비저닝`` 탭으로 이동하고 업로드한 자동 설치 프로"
-"파일을 선택합니다."
+"{productname} 서버 {webui}에서 menu:시스템[시스템 목록]으로 이동하여 프록시를 선택한 후 "
+"[guimenu]``프로비저닝`` 탭으로 이동하고 업로드한 자동 설치 프로파일을 선택합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:51
@@ -6009,15 +5608,10 @@ msgstr "기존 채널을 삭제합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:59
-#, fuzzy
-#| msgid ""
-#| "In the [guimenu]``Base Channel`` field, select `openSUSE Leap 15.2 "
-#| "(x86_64)``."
 msgid ""
 "In the [guimenu]``Base Channel`` field, select `openSUSE Leap 15.3 "
 "(x86_64)``."
-msgstr ""
-"[guimenu]``기본 채널`` 필드에서 `openSUSE Leap 15.2(x86_64)``를 선택합니다."
+msgstr "[guimenu]``기본 채널`` 필드에서 `openSUSE Leap 15.3 (x86_64)``를 선택합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-autoyast-uyuni.adoc:60
@@ -6086,19 +5680,13 @@ msgstr "주 버전 업그레이드(X 업그레이드)"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:6
-#, fuzzy
-#| msgid ""
-#| "Upgrading to the next major version.  For example, upgrading from 3.2 to "
-#| "4.0 or to 4.1.  This type of upgrade does not apply to 4.2.  See xref:"
-#| "upgrade:proxy-x.adoc[]."
 msgid ""
 "Upgrading to the next major version.  For example, upgrading from 3.2 to 4.0 "
 "or to 4.1.  This type of upgrade does not apply to 4.3.  See xref:"
 "installation-and-upgrade:proxy-x.adoc[]."
 msgstr ""
-"다음 주 버전으로 업그레이드합니다.  예를 들면, 3.2에서 4.0 또는 4.1로 업그레"
-"이드가 해당합니다.  이 유형의 업그레이드는 4.2에 적용되지 않습니다.  xref:"
-"upgrade:proxy-x.adoc[]를 참조하십시오."
+"다음 주 버전으로 업그레이드합니다.  예를 들면, 3.2에서 4.0 또는 4.1로 업그레이드가 해당합니다.  이 유형의 업그레이드는 "
+"4.3에 적용되지 않습니다.  xref:installation-and-upgrade:proxy-x.adoc[]를 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:7
@@ -6111,19 +5699,14 @@ msgstr "부 버전 업그레이드(Y 업그레이드)"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:8
-#, fuzzy
-#| msgid ""
-#| "Upgrading to the next minor version.  This is often referred to as a "
-#| "service pack (SP) migration.  For example, upgrading from 4.1 to 4.2 or "
-#| "from 4.0 to 4.2.  See xref:upgrade:proxy-y-z.adoc[]."
 msgid ""
 "Upgrading to the next minor version.  This is often referred to as a service "
 "pack (SP) migration.  For example, upgrading from 4.1 to 4.3 or from 4.2 to "
 "4.3.  See xref:installation-and-upgrade:proxy-y-z.adoc[]."
 msgstr ""
-"다음 부 버전으로 업그레이드합니다.  이를 서비스 팩(SP) 마이그레이션이라고 합"
-"니다.  예를 들면, 4.1에서 4.2로의 업그레이드 또는 4.0에서 4.2로의 업그레이드"
-"가 이에 해당합니다.  xref:upgrade:proxy-y-z.adoc[]를 참조하십시오."
+"다음 부 버전으로 업그레이드합니다.  이를 서비스 팩(SP) 마이그레이션이라고 합니다.  예를 들면, 4.1에서 4.3로의 업그레이드 "
+"또는 4.2에서 4.3로의 업그레이드가 이에 해당합니다.  xref:installation-and-upgrade:proxy-y-z."
+"adoc[]를 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:9
@@ -6136,23 +5719,16 @@ msgstr "패치 수준 업그레이드(Z 업그레이드)"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:10
-#, fuzzy
-#| msgid ""
-#| "Upgrading within the same minor version.  This is often referred to as a "
-#| "maintenance update.  For example, upgrading from 4.2.0 to 4.2.1.  See "
-#| "xref:upgrade:proxy-y-z.adoc[]."
 msgid ""
 "Upgrading within the same minor version.  This is often referred to as a "
 "maintenance update.  For example, upgrading from 4.3.0 to 4.3.1.  See xref:"
 "installation-and-upgrade:proxy-y-z.adoc[]."
 msgstr ""
-"동일한 부 버전으로 업그레이드합니다.  이를 유지보수 업데이트라고 합니다.  예"
-"를 들면, 4.2.0에서 4.2.1로의 업그레이드가 이에 해당합니다.  xref:upgrade:"
-"proxy-y-z.adoc[]를 참조하십시오."
+"동일한 부 버전으로 업그레이드합니다.  이를 유지보수 업데이트라고 합니다.  예를 들면, 4.3.0에서 4.3.1로의 업그레이드가 이에 "
+"해당합니다.  xref:installation-and-upgrade:proxy-y-z.adoc[]를 참조하십시오."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:11
-#, fuzzy
 msgid ""
 "The upgrade procedure to {productnumber} can either be a major or a minor "
 "upgrade.  For more information, see the {productname} {productnumber} "
@@ -6163,42 +5739,34 @@ msgstr ""
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:12
-#, fuzzy, no-wrap
-#| msgid "Major Upgrades"
+#, no-wrap
 msgid "Major Upgrade"
 msgstr "주요 업그레이드"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:13
-#, fuzzy
-#| msgid "xref:proxy-uyuni.adoc[Proxy - Upgrade Procedure]"
 msgid "See xref:proxy-uyuni.adoc[]."
-msgstr "xref:proxy-uyuni.adoc[프록시 - 업그레이드 절차]"
+msgstr "xref:proxy-uyuni.adoc[]에서 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:14
-#, fuzzy, no-wrap
-#| msgid "Minor Upgrades"
+#, no-wrap
 msgid "Minor Upgrade"
 msgstr "부분 업그레이드"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-intro.adoc:15
-#, fuzzy
-#| msgid "xref:proxy-uyuni.adoc[Proxy - Upgrade Procedure]"
 msgid "See xref:proxy-minor-uyuni.adoc[]."
-msgstr "xref:proxy-uyuni.adoc[프록시 - 업그레이드 절차]"
+msgstr "xref:proxy-minor-uyuni.adoc[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Server - Minor Upgrade"
+#, no-wrap
 msgid "Proxy - Minor Upgrade"
-msgstr "서버 - 부분 업그레이드"
+msgstr "프록시 - 부분 업그레이드"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:3
-#, fuzzy
 msgid ""
 "Minor proxy upgrades do not include a version upgrade of the operating "
 "system.  For more information, see the {productname} {productnumber} release "
@@ -6253,13 +5821,10 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:10
-#, fuzzy
-#| msgid ""
-#| "Select packages to be updated on the proxy, and then apply the selection."
 msgid ""
 "Select all the packages to be updated on the proxy, and then apply the "
 "selection."
-msgstr "프록시에서 업데이트할 패키지를 선택한 후 선택 사항을 적용합니다."
+msgstr "프록시에서 업데이트할 패키지를 전체 선택한 후 선택 사항을 적용합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-minor-uyuni.adoc:11
@@ -6297,49 +5862,37 @@ msgstr "SUSE Manager 프록시 등록"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:2
-#, fuzzy
 msgid ""
 "{productname} Proxy systems are Salt or traditional clients that are "
 "installed with the Unified Installer and registered to {productname} using "
 "bootstrap script or GUI."
 msgstr ""
-"{productname} Proxy 시스템은 통합 설치 프로그램으로 설치되며 부트스트랩 스크립트 또는 GUI를 사용하여 "
+"{productname} 프록시 시스템은 통합 설치 프로그램으로 설치되며 부트스트랩 스크립트 또는 GUI를 사용하여 "
 "{productname}에 등록된 Salt 또는 기존 클라이언트입니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:3
-#, fuzzy
-#| msgid ""
-#| "For more information about the setup wizard, see xref:installation:setup-"
-#| "wizard.adoc[]."
 msgid ""
 "For more information about installing proxies, see xref:installation-and-"
 "upgrade:install-proxy-unified.adoc[]."
 msgstr ""
-"설정 마법사에 대한 자세한 내용은 xref:installation:setup-wizard.adoc[]을 참조"
-"하십시오."
+"프록시 설치에 대한 자세한 내용은 xref:installation-and-upgrade:install-proxy-unified.adoc[]"
+"에서 참조하십시오."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Migrating a traditional proxy to a Salt proxy is not possible.  If you "
-#| "want to change a traditional proxy to a Salt proxy, you need to reinstall "
-#| "the proxy.  For more information about reinstalling proxies, see xref:"
-#| "installation:proxy-setup.adoc[]."
 msgid ""
 "Migrating a traditional proxy to a Salt proxy is not possible.  If you want "
 "to change a traditional proxy to a Salt proxy, you need to reinstall the "
 "proxy.  For more information about reinstalling proxies, see xref:"
 "installation-and-upgrade:proxy-setup.adoc[]."
 msgstr ""
-"기존 프록시를 Salt 프록시로 마이그레이션할 수 없습니다.  기존 프록시를 Salt "
-"프록시로 변경하려면 프록시를 재설치해야 합니다. 프록시 재설치에 대한 자세한 "
-"내용은 xref:installation:proxy-setup.adoc[]에서 참조하십시오."
+"기존 프록시를 Salt 프록시로 마이그레이션할 수 없습니다.  기존 프록시를 Salt 프록시로 변경하려면 프록시를 재설치해야 합니다. "
+"프록시 재설치에 대한 자세한 내용은 xref:installation-and-upgrade:proxy-setup.adoc[]에서 "
+"참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:5
-#, fuzzy
 msgid ""
 "After the Salt client is succesfully bootstrapped, it needs to be configured "
 "as {productname} Proxy."
@@ -6381,16 +5934,12 @@ msgstr "프로시저: 프록시 등록"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:9
-#, fuzzy
-#| msgid ""
-#| "Create an activation key based on the [systemitem]``SLE-Product-SUSE-"
-#| "Manager-Proxy-4.2-Pool`` base channel."
 msgid ""
 "Create an activation key based on the [systemitem]``SLE-Product-SUSE-Manager-"
 "Proxy-4.3-Pool`` base channel."
 msgstr ""
-"[systemitem]``SLE-Product-SUSE-Manager-Proxy-4.2-Pool`` 기본 채널을 기반으로 "
-"활성화 키를 생성합니다."
+"[systemitem]``SLE-Product-SUSE-Manager-Proxy-4.3-Pool`` 기본 채널을 기반으로 활성화 키를 "
+"생성합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:10
@@ -6425,57 +5974,40 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:14
-#, fuzzy
-#| msgid "SLE-Module-Basesystem15-SP3-Pool"
 msgid "SLE-Module-Basesystem15-SP4-Pool"
-msgstr "SLE-Module-Basesystem15-SP3-Pool"
+msgstr "SLE-Module-Basesystem15-SP4-Pool"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:15
-#, fuzzy
-#| msgid "SLE-Module-Basesystem15-SP3-Updates"
 msgid "SLE-Module-Basesystem15-SP4-Updates"
-msgstr "SLE-Module-Basesystem15-SP3-Updates"
+msgstr "SLE-Module-Basesystem15-SP4-Updates"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:16
-#, fuzzy
-#| msgid "SLE-Module-Server-Applications15-SP3-Pool"
 msgid "SLE-Module-Server-Applications15-SP4-Pool"
-msgstr "SLE-Module-Server-Applications15-SP3-Pool"
+msgstr "SLE-Module-Server-Applications15-SP4-Pool"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:17
-#, fuzzy
-#| msgid "SLE-Module-Server-Applications15-SP3-Updates"
 msgid "SLE-Module-Server-Applications15-SP4-Updates"
-msgstr "SLE-Module-Server-Applications15-SP3-Updates"
+msgstr "SLE-Module-Server-Applications15-SP4-Updates"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:18
-#, fuzzy
-#| msgid "SLE-Module-SUSE-Manager-Proxy-4.2-Pool"
 msgid "SLE-Module-SUSE-Manager-Proxy-4.3-Pool"
-msgstr "SLE-Module-SUSE-Manager-Proxy-4.2-Pool"
+msgstr "SLE-Module-SUSE-Manager-Proxy-4.3-Pool"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:19
-#, fuzzy
-#| msgid "SLE-Module-SUSE-Manager-Proxy-4.2-Updates"
 msgid "SLE-Module-SUSE-Manager-Proxy-4.3-Updates"
-msgstr "SLE-Module-SUSE-Manager-Proxy-4.2-Updates"
+msgstr "SLE-Module-SUSE-Manager-Proxy-4.3-Updates"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:20
-#, fuzzy
-#| msgid ""
-#| "The [systemitem]``SLE-Product-SUSE-Manager-Proxy-4.2-Updates`` channel is "
-#| "mandatory."
 msgid ""
 "The [systemitem]``SLE-Product-SUSE-Manager-Proxy-4.3-Updates`` channel is "
 "mandatory."
-msgstr ""
-"[systemitem]``SLE-Product-SUSE-Manager-Proxy-4.2-Updates`` 채널은 필수입니다."
+msgstr "[systemitem]``SLE-Product-SUSE-Manager-Proxy-4.3-Updates`` 채널은 필수입니다."
 
 #. type: Block title
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:21
@@ -6491,10 +6023,8 @@ msgstr "proxy-child.png"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:23
-#, fuzzy
-#| msgid "Bootstrap the client with the bootstrap script."
 msgid "To bootstrap a proxy, use the bootstrap script."
-msgstr "부트스트랩 스크립트를 사용하여 클라이언트를 부트스트랩합니다."
+msgstr "프록시를 부트스트랩하려면 부트스트랩 스크립트를 사용하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-registration.adoc:24
@@ -7265,20 +6795,15 @@ msgstr ""
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:77
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:86
-#, fuzzy
-#| msgid ""
-#| "Register the new proxy with a bootstrap script as described in xref:"
-#| "installation:proxy-registration.adoc[].  In the bootstrap script, set the "
-#| "reactivation key with the [systemitem]``REACTIVATION_KEY`` parameter."
 msgid ""
 "Register the new proxy with a bootstrap script as described in xref:"
 "installation-and-upgrade:proxy-registration.adoc[].  In the bootstrap "
 "script, set the reactivation key with the [systemitem]``REACTIVATION_KEY`` "
 "parameter."
 msgstr ""
-"xref:installation:proxy-registration.adoc[]에서의 설명과 같이 부트스트랩 스크"
-"립트를 사용하여 새 프록시를 등록하십시오. 부트스트랩 스크립트에서 다음을 사용"
-"하여 재활성화 키를 설정합니다."
+"xref:installation-and-upgrade:proxy-registration.adoc[]에서의 설명과 같이 부트스트랩 "
+"스크립트를 사용하여 새 프록시를 등록하십시오. 부트스트랩 스크립트에서 [systemitem]``REACTIVATION_KEY`` "
+"매개변수로 재활성화 키를 설정합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:78
@@ -7393,21 +6918,15 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:99
-#, fuzzy
-#| msgid ""
-#| "Register the proxy with a bootstrap script as described in xref:"
-#| "installation:proxy-registration.adoc[].  In the bootstrap script set the "
-#| "activation key used with the old proxy with the "
-#| "[systemitem]``ACTIVATION_KEYS`` parameter."
 msgid ""
 "Register the proxy with a bootstrap script as described in xref:installation-"
 "and-upgrade:proxy-registration.adoc[].  In the bootstrap script set the "
 "activation key used with the old proxy with the "
 "[systemitem]``ACTIVATION_KEYS`` parameter."
 msgstr ""
-"xref:installation:proxy-registration.adoc[]에서의 설명과 같이 부트스트랩 스크"
-"립트를 사용하여 프록시를 등록하십시오. 부트스트랩 스크립트에서 다음을 사용하"
-"여 재활성화 키를 설정합니다."
+"xref:installation-and-upgrade:proxy-registration.adoc[]에서의 설명과 같이 부트스트랩 "
+"스크립트를 사용하여 프록시를 등록하십시오. 부트스트랩 스크립트에서 [systemitem]``ACTIVATION_KEYS`` 매개변수로 "
+"이전 프록시와 함께 사용되는 활성화 키를 설정합니다."
 
 #. type: Title ===
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:104
@@ -7433,20 +6952,18 @@ msgstr ""
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-setup.adoc:107
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "http://PROXY_HOSTNAME/pub\n"
 msgstr "http://PROXY_HOSTNAME/pub\n"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Server - Major Upgrade"
+#, no-wrap
 msgid "Proxy - Major Upgrade"
-msgstr "서버 - 주요 업그레이드"
+msgstr "프록시 - 주요 업그레이드"
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:3
-#, fuzzy
 msgid ""
 "Major proxy upgrades include a version upgrade of the operating system.  For "
 "more information, see the {productname} {productnumber} release notes."
@@ -7456,8 +6973,7 @@ msgstr ""
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:4
-#, fuzzy, no-wrap
-#| msgid "Prepare to Upgrade"
+#, no-wrap
 msgid "Preparation for the Upgrade"
 msgstr "업그레이드 준비"
 
@@ -7465,43 +6981,36 @@ msgstr "업그레이드 준비"
 #. and should not be needed when we prepare the migration from Leap 15.3 to 15.4
 #. type: Block title
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:5
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Procedure: Update the package opensuse-build-key at the proxies"
-msgstr "절차: 프록시에서 opensuse-build-key 패키지 업데이트"
+msgstr "프로시저: 프록시에서 opensuse-build-key 패키지 업데이트"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:6
-#, fuzzy
-#| msgid ""
-#| "At the command prompt on the {productname} Server, as root, use the "
-#| "[command]``spacewalk-common-channels`` command to add the appropriate "
-#| "channels:"
 msgid ""
 "At the command prompt on the {productname} Server, as root, use the "
 "[command]``spacewalk-repo-sync`` command to sync all the openSUSE Leap 15.2 "
 "channels:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 root로 [command]``spacewalk-common-"
-"channels`` 명령을 사용하여 적절한 채널을 추가합니다."
+"{productname} 서버의 명령 프롬프트에서 root로 [command]``spacewalk-repo-sync`` 명령을 사용하여 "
+"모든 openSUSE Leap 15.2 채널을 동기화합니다."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:7
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "spacewalk-repo-sync -p opensuse_leap15_2-x86_64\n"
 msgstr "spacewalk-repo-sync -p opensuse_leap15_2-x86_64\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:8
-#, fuzzy
 msgid "Update the package `openSUSE-build-key` on all {productname} proxies."
 msgstr "모든 {productname} 프록시에서 패키지 `openSUSE-build-key`를 업데이트하십시오."
 
 #. type: Block title
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:9
-#, fuzzy, no-wrap
-#| msgid "Procedure: Adding Software Channels at the Command Prompt"
+#, no-wrap
 msgid "Procedure: Adding openSUSE Leap {opensuse-version} Software Channels at the Command Prompt"
-msgstr "명령 프롬프트에서 소프트웨어 채널 추가"
+msgstr "프로시저: 명령 프롬프트에서 openSUSE Leap {opensuse-version} 소프트웨어 채널 추가"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:14
@@ -7568,7 +7077,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-uyuni.adoc:25
-#, fuzzy
 msgid "Wait until the remote command is executed."
 msgstr "원격 명령이 실행될 때까지 기다립니다."
 
@@ -7597,35 +7105,23 @@ msgstr "프록시 - 주 버전 업그레이드(X 업그레이드)"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-x.adoc:2
-#, fuzzy
-#| msgid ""
-#| "In some cases {productname} Proxy can be upgraded from one major version "
-#| "to the next.  For example, Proxy can be upgraded from 3.2 to 4.1, but not "
-#| "from 3.2 to 4.2."
 msgid ""
 "In some cases {productname} Proxy can be upgraded from one major version to "
 "the next.  For example, Proxy can be upgraded from 3.2 to 4.1, but not from "
 "3.2 to 4.3."
 msgstr ""
-"{productname} 프록시는 하나의 주 버전에서 다음 버전으로 업그레이드할 수 있습"
-"니다.  예를 들면, 프록시는 3.2에서 4.1로 업그레이드할 수 있지만 3.2에서 4.2"
-"로 업그레이드할 수 없습니다."
+"{productname} 프록시는 하나의 주 버전에서 다음 버전으로 업그레이드할 수 있습니다.  예를 들면, 프록시는 3.2에서 4.1로 "
+"업그레이드할 수 있지만 3.2에서 4.3로 업그레이드할 수 없습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-x.adoc:3
-#, fuzzy
-#| msgid ""
-#| "To upgrade from 3.2 to 4.2, you must first upgrade from 3.2 to 4.1, then "
-#| "upgrade from 4.1 to 4.2.  For more information on upgrading from 3.2 to "
-#| "4.1, see:"
 msgid ""
 "To upgrade from 3.2 to 4.3, you must first upgrade from 3.2 to 4.2, then "
 "upgrade from 4.2 to 4.3.  For more information on upgrading from 3.2 to 4.1, "
 "see:"
 msgstr ""
-"3.2에서 4.2로 업그레이드하려면, 우선 3.2에서 4.1로 업그레이드한 후 4.1에서 "
-"4.2로 업그레이드하십시오.  3.2에서 4.1로의 업그레이드에 대한 자세한 내용은 다"
-"음에서 참조하십시오."
+"3.2에서 4.3로 업그레이드하려면, 우선 3.2에서 4.2로 업그레이드한 후 4.2에서 4.3로 업그레이드하십시오.  3.2에서 "
+"4.1로의 업그레이드에 대한 자세한 내용은 다음에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-x.adoc:4
@@ -7638,16 +7134,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/proxy-x.adoc:5
-#, fuzzy
-#| msgid ""
-#| "For more information on upgrading from 4.1 to 4.2, see xref:upgrade:proxy-"
-#| "y-z.adoc[]"
 msgid ""
 "For more information on upgrading from 4.2 to 4.3, see xref:installation-and-"
 "upgrade:proxy-y-z.adoc[]"
 msgstr ""
-"4.1에서 4.2로 업그레이드하는 방법에 대한 자세한 내용은 xref:upgrade:proxy-y-"
-"z.adoc[]에서 참조하십시오."
+"4.2에서 4.3로 업그레이드하는 방법에 대한 자세한 내용은 xref:installation-and-upgrade:proxy-y-z."
+"adoc[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/proxy-y-z.adoc:1
@@ -7657,19 +7149,13 @@ msgstr "프록시 - 부 버전 또는 패치 수준 업그레이드(Y 또는 Z �
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/proxy-y-z.adoc:3
-#, fuzzy
-#| msgid ""
-#| "When upgrading {productname} Proxy 4.0, ignore the option to upgrade it "
-#| "to version 4.1 as target product.  Always select to upgrade {productname} "
-#| "Proxy 4.0 to {productname} Proxy 4.2 only."
 msgid ""
 "When upgrading {productname} Proxy 4.0, ignore the option to upgrade it to "
 "version 4.1 or 4.2 as target product.  Always select to upgrade "
 "{productname} Proxy 4.0 to {productname} Proxy 4.3 only."
 msgstr ""
-"{productname} Proxy 4.0을 업그레이드할 때 버전 4.1을 대상 제품으로 업그레이드"
-"하는 옵션을 무시하십시오.  항상 {productname} Proxy 4.0에서 {productname} "
-"Proxy 4.2로 업그레이드만 선택하십시오."
+"{productname} Proxy 4.0을 업그레이드할 때 버전 4.1 또는 4.2를 대상 제품으로 업그레이드하는 옵션을 "
+"무시하십시오.  항상 {productname} Proxy 4.0에서 {productname} Proxy 4.3로 업그레이드만 선택하십시오."
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/proxy-y-z.adoc:4
@@ -7958,18 +7444,13 @@ msgstr "/usr/bin/suma-storage <devicename>\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-requirements.adoc:26
-#, fuzzy
-#| msgid ""
-#| "For more information about setting up storage volumes and partitions, "
-#| "including recommended minimum sizes, see xref:installation:hardware-"
-#| "requirements.adoc[]."
 msgid ""
 "For more information about setting up storage volumes and partitions, "
 "including recommended minimum sizes, see xref:installation-and-upgrade:"
 "hardware-requirements.adoc[]."
 msgstr ""
-"권장 최소 크기 등 저장소 볼륨 및 파티션에 대한 자세한 내용은 xref:"
-"installation:hardware-requirements.adoc[]을 참조하십시오."
+"권장 최소 크기 등 저장소 볼륨 및 파티션에 대한 자세한 내용은 xref:installation-and-upgrade:proxy-y-z."
+"adoc[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:1
@@ -7988,19 +7469,13 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:3
-#, fuzzy
-#| msgid ""
-#| "You must have set up the storage devices before you run the YaST "
-#| "{productname} setup procedure.  For more information, see xref:"
-#| "installation:pubcloud-requirements.adoc[]."
 msgid ""
 "You must have set up the storage devices before you run the YaST "
 "{productname} setup procedure.  For more information, see xref:installation-"
 "and-upgrade:pubcloud-requirements.adoc[]."
 msgstr ""
-"YaST {productname} 설정 절차를 실행하기 전에 저장소 장치를 설정해야 합니다. "
-"자세한 내용은 xref:installation:pubcloud-requirements.adoc[]에서 참조하십시"
-"오."
+"YaST {productname} 설정 절차를 실행하기 전에 저장소 장치를 설정해야 합니다. 자세한 내용은 xref"
+":installation-and-upgrade:pubcloud-requirements.adoc[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:4
@@ -8024,16 +7499,12 @@ msgstr "메시지를 따르고 설정이 완료될 때까지 기다리십시오.
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:7
-#, fuzzy
-#| msgid ""
-#| "For detailed instructions on setting up {productname} with {yast}, see "
-#| "xref:installation:server-setup.adoc[]."
 msgid ""
 "For detailed instructions on setting up {productname} with {yast}, see xref:"
 "installation-and-upgrade:server-setup.adoc[]."
 msgstr ""
-"{yast}를 사용하여 {productname}을(를) 설정하는 방법에 대한 자세한 지침은 "
-"xref:installation:server-setup.adoc[]을 참조하십시오."
+"{yast}를 사용하여 {productname}을(를) 설정하는 방법에 대한 자세한 지침은 xref:installation-and-"
+"upgrade:server-setup.adoc[]에서 참조하십시오."
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:8
@@ -8218,16 +7689,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:40
-#, fuzzy
-#| msgid ""
-#| "For more information about setting up your {productname} Server, see xref:"
-#| "installation:server-setup.adoc[]."
 msgid ""
 "For more information about setting up your {productname} Server, see xref:"
 "installation-and-upgrade:server-setup.adoc[]."
 msgstr ""
-"{productname} 서버 설정과 관련한 자세한 내용은 xref:installation:server-"
-"setup.adoc[]을 참조하십시오."
+"{productname} 서버 설정과 관련한 자세한 내용은 xref:installation-and-upgrade:server-setup."
+"adoc[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:41
@@ -8242,16 +7709,12 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:42
-#, fuzzy
-#| msgid ""
-#| "For more information about the setup wizard, see xref:installation:setup-"
-#| "wizard.adoc[]."
 msgid ""
 "For more information about the setup wizard, see xref:installation-and-"
 "upgrade:setup-wizard.adoc[]."
 msgstr ""
-"설정 마법사에 대한 자세한 내용은 xref:installation:setup-wizard.adoc[]을 참조"
-"하십시오."
+"설정 마법사에 대한 자세한 내용은 xref:installation-and-upgrade:setup-wizard.adoc[]에서 "
+"참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/pubcloud-setup.adoc:43
@@ -8331,16 +7794,12 @@ msgstr "부분 업그레이드"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro-uyuni.adoc:4
-#, fuzzy
-#| msgid ""
-#| "You can consider minor upgrades as regular upgrades.  For more "
-#| "information, see xref:upgrade:server-minor-upgrade-uyuni.adoc[]."
 msgid ""
 "You can consider minor upgrades as regular upgrades.  For more information, "
 "see xref:installation-and-upgrade:server-minor-upgrade-uyuni.adoc[]."
 msgstr ""
-"부분 업그레이드는 일반 업그레이드로 간주할 수 있습니다.  자세한 내용은 xref:"
-"upgrade:server-minor-upgrade-uyuni.adoc[]에서 참조하십시오."
+"부분 업그레이드는 일반 업그레이드로 간주할 수 있습니다.  자세한 내용은 xref:installation-and-upgrade"
+":server-minor-upgrade-uyuni.adoc[]에서 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/server-intro-uyuni.adoc:5
@@ -8350,21 +7809,15 @@ msgstr "주요 업그레이드"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro-uyuni.adoc:6
-#, fuzzy
-#| msgid ""
-#| "You can consider major upgrades as special upgrades.  In this case "
-#| "components such as the base operating system, Salt, or the PostgreSQL "
-#| "database will be upgraded.  For more information, see xref:upgrade:server-"
-#| "major-upgrade-uyuni.adoc[]."
 msgid ""
 "You can consider major upgrades as special upgrades.  In this case "
 "components such as the base operating system, Salt, or the PostgreSQL "
 "database will be upgraded.  For more information, see xref:installation-and-"
 "upgrade:server-major-upgrade-uyuni.adoc[]."
 msgstr ""
-"주요 업그레이드는 특별 업그레이드로 간주할 수 있습니다.  이 경우 기본 운영 체"
-"제, Salt 또는 PostgreSQL 데이터베이스 등의 구성 요소가 업그레이드됩니다.  자"
-"세한 내용은 xref:upgrade:server-major-upgrade-uyuni.adoc[]에서 참조하십시오."
+"주요 업그레이드는 특별 업그레이드로 간주할 수 있습니다.  이 경우 기본 운영 체제, Salt 또는 PostgreSQL 데이터베이스 등의 "
+"구성 요소가 업그레이드됩니다.  자세한 내용은 xref:installation-and-upgrade:server-major-upgrade-"
+"uyuni.adoc[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:4
@@ -8377,52 +7830,37 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:5
-#, fuzzy
-#| msgid "xref:proxy-uyuni.adoc[Proxy - Upgrade Procedure]"
 msgid "See xref:installation-and-upgrade:server-x.adoc[]."
-msgstr "xref:proxy-uyuni.adoc[프록시 - 업그레이드 절차]"
+msgstr "xref:installation-and-upgrade:server-x.adoc[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:7
-#, fuzzy
-#| msgid ""
-#| "Upgrading to the next minor version.  This is often referred to as a "
-#| "service pack (SP) migration.  For example, upgrading from 4.1 to 4.2 or "
-#| "from 4.0 to 4.2."
 msgid ""
 "Upgrading to the next minor version.  This is often referred to as a service "
 "pack (SP) migration.  For example, upgrading from 4.1 to 4.3 or from 4.2 to "
 "4.3."
 msgstr ""
-"다음 부 버전으로 업그레이드합니다.  이를 서비스 팩(SP) 마이그레이션이라고 합"
-"니다.  예를 들어 4.1에서 4.2로 또는 4.0에서 4.2로 업그레이드합니다."
+"다음 부 버전으로 업그레이드합니다.  이를 서비스 팩(SP) 마이그레이션이라고 합니다.  예를 들어 4.1에서 4.3로 또는 4.2에서 "
+"4.3로 업그레이드합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:8
-#, fuzzy
-#| msgid "xref:proxy-uyuni.adoc[Proxy - Upgrade Procedure]"
 msgid "See xref:installation-and-upgrade:server-y.adoc[]."
-msgstr "xref:proxy-uyuni.adoc[프록시 - 업그레이드 절차]"
+msgstr "xref:installation-and-upgrade:server-y.adoc[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:10
-#, fuzzy
-#| msgid ""
-#| "Upgrading within the same minor version.  This is often referred to as a "
-#| "maintenance update.  For example, upgrading from 4.2.0 to 4.2.1."
 msgid ""
 "Upgrading within the same minor version.  This is often referred to as a "
 "maintenance update.  For example, upgrading from 4.3.0 to 4.3.1."
 msgstr ""
-"동일한 부 버전으로 업그레이드합니다.  이를 유지 보수 업데이트라고 합니다.  예"
-"를 들면, 4.2.0에서 4.2.1로의 업그레이드가 이에 해당합니다."
+"동일한 부 버전으로 업그레이드합니다.  이를 유지 보수 업데이트라고 합니다.  예를 들면, 4.3.0에서 4.3.1로의 업그레이드가 이에 "
+"해당합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-intro.adoc:11
-#, fuzzy
-#| msgid "xref:proxy-uyuni.adoc[Proxy - Upgrade Procedure]"
 msgid "See xref:installation-and-upgrade:server-z.adoc[]."
-msgstr "xref:proxy-uyuni.adoc[프록시 - 업그레이드 절차]"
+msgstr "xref:installation-and-upgrade:server-z.adoc[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:1
@@ -8520,37 +7958,30 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:11
-#, fuzzy
-#| msgid "To migrate the database to PostgreSQL 12 run the migrate script:"
 msgid ""
 "To migrate the database to the latest database version run the migrate "
 "script:"
-msgstr ""
-"데이터베이스를 PostgreSQL 12로 마이그레이션하려면 마이그레이션 스크립트를 실"
-"행합니다."
+msgstr "데이터베이스를 최신 데이터베이스 버전으로 마이그레이션하려면 마이그레이션 스크립트를 실행합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:13
-#, fuzzy
-#| msgid ""
-#| "For more information about PostgreSQL database migration, see xref:db-"
-#| "migration-13.adoc[]."
 msgid ""
 "For more information about PostgreSQL database migration, see xref:db-"
 "migration-xy.adoc[]."
 msgstr ""
-"PostgreSQL 데이터베이스 마이그레이션에 대한 자세한 정보는 xref:db-"
-"migration-13.adoc[]에서 참조하십시오."
+"PostgreSQL 데이터베이스 마이그레이션에 대한 자세한 정보는 xref:db-migration-xy.adoc[]에서 참조하십시오."
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-major-upgrade-uyuni.adoc:14
-#, fuzzy, no-wrap
-#| msgid "After the migration is complete, manually reboot the {productname} Server:"
+#, no-wrap
 msgid ""
 "+\n"
 ". After the migration is complete, manually reboot the {productname} Server:\n"
 "+\n"
-msgstr "마이그레이션이 완료된 후에는, {productname} 서버를 수동으로 재부팅합니다."
+msgstr ""
+"+\n"
+". 마이그레이션이 완료된 후에는, {productname} 서버를 수동으로 재부팅합니다.\n"
+"+\n"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:1
@@ -8611,7 +8042,6 @@ msgstr ""
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:7
 #: modules/installation-and-upgrade/pages/server-z.adoc:7
-#, fuzzy
 msgid "It is recommended you make a backup of the server before upgrading."
 msgstr "서버를 백업한 후 업그레이드하는 것이 좋습니다."
 
@@ -8642,20 +8072,17 @@ msgstr "소프트웨어 리포지토리 새로 고침:"
 #.  Zypper list-patches or patch doesn't update Uyuni
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:12
-#, fuzzy
 msgid "Update new packages: (Repeat this if prompted by zypper)"
 msgstr "새 패키지 업데이트: (zypper에서 메시지가 표시되면 이 작업을 반복)"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:13
-#, fuzzy, no-wrap
-#| msgid "zypper patch\n"
+#, no-wrap
 msgid "zypper up \n"
-msgstr "zypper patch\n"
+msgstr "zypper up \n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:14
-#, fuzzy
 msgid ""
 "If zypper reports that the Uyuni package won't be upgraded, run the command "
 "manually:"
@@ -8663,7 +8090,7 @@ msgstr "zypper에 Uyuni 패키지가 업그레이드되지 않을 것이라고 �
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/server-minor-upgrade-uyuni.adoc:15
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "zypper install Uyuni-Server-release\n"
 msgstr "zypper install Uyuni-Server-release\n"
 
@@ -8807,22 +8234,15 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/server-setup.adoc:9
-#, fuzzy
-#| msgid ""
-#| "Do not register the {productname} Server to itself.  The {productname} "
-#| "Server must be managed individually or by using another separate "
-#| "{productname} Server.  For more information about using multiple servers, "
-#| "see xref:large-deployments:multi-server.adoc[]."
 msgid ""
 "Do not register the {productname} Server to itself.  The {productname} "
 "Server must be managed individually or by using another separate "
 "{productname} Server.  For more information about using multiple servers, "
 "see xref:specialized-guides:large-deployments/multi-server.adoc[]."
 msgstr ""
-"{productname} 서버를 재귀 등록하지 마십시오. {productname} 서버는 개별 관리하"
-"거나 별도의 다른 {productname} 서버를 사용하여 관리해야 합니다. 여러 서버 사"
-"용에 대한 자세한 내용은 xref:large-deployments:multi-server.adoc[]을 참조하십"
-"시오."
+"{productname} 서버를 재귀 등록하지 마십시오. {productname} 서버는 개별 관리하거나 별도의 다른 "
+"{productname} 서버를 사용하여 관리해야 합니다. 여러 서버 사용에 대한 자세한 내용은 xref:specialized-guides"
+":large-deployments:/multi-server.adoc[]에서 참조하십시오."
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/server-setup.adoc:10
@@ -9335,16 +8755,10 @@ msgstr "서버 - 주 버전 업그레이드(X 업그레이드)"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-x.adoc:2
-#, fuzzy
-#| msgid ""
-#| "This type of upgrade does not apply for 4.2.  For older documentation and "
-#| "instructions on major version upgrade, see:"
 msgid ""
 "This type of upgrade does not apply for 4.3.  For older documentation and "
 "instructions on major version upgrade, see:"
-msgstr ""
-"이러한 유형의 업그레이드는 4.2에는 적용되지 않습니다.  주 버전에 대한 기존 설"
-"명서 및 지침은 다음을 참조하십시오."
+msgstr "이러한 유형의 업그레이드는 4.3에는 적용되지 않습니다.  주 버전에 대한 기존 설명서 및 지침은 다음을 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-x.adoc:3
@@ -9417,21 +8831,15 @@ msgstr "yast2 migration\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-y-yast.adoc:9
-#, fuzzy
-#| msgid ""
-#| "If there are older updates available, {yast} will notify you and ask to "
-#| "install them first.  You must install all package updates before "
-#| "performing the migration.  For more information, see xref:upgrade:server-"
-#| "z.adoc[]."
 msgid ""
 "If there are older updates available, {yast} will notify you and ask to "
 "install them first.  You must install all package updates before performing "
 "the migration.  For more information, see xref:installation-and-upgrade:"
 "server-z.adoc[]."
 msgstr ""
-"사용할 수 있는 기존 업데이트가 있는 경우 {yast}에서 사용자에게 알리고 먼저 설"
-"치할 것을 요청합니다.  모든 패키지 업데이트를 설치한 후 마이그레이션을 수행해"
-"야 합니다.  자세한 내용은 xref:upgrade:server-z.adoc[]에서 참조하십시오."
+"사용할 수 있는 기존 업데이트가 있는 경우 {yast}에서 사용자에게 알리고 먼저 설치할 것을 요청합니다.  모든 패키지 업데이트를 "
+"설치한 후 마이그레이션을 수행해야 합니다.  자세한 내용은 xref:installation-and-upgrade:server-z."
+"adoc[]에서 참조하십시오."
 
 #.  I've removed the graphical option, because we tell people to use a text console. LKB 2019-08-21
 #. type: Plain text
@@ -9458,30 +8866,20 @@ msgstr "서버를 재부팅합니다."
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-y-yast.adoc:13
 #: modules/installation-and-upgrade/pages/server-y-zypper.adoc:11
-#, fuzzy
-#| msgid ""
-#| "When rebooted the {productname} spacewalk services are not running until "
-#| "you have migrated the PostgreSQL database to version{nbsp}13."
 msgid ""
 "When rebooted the {productname} spacewalk services are not running until you "
 "have migrated the PostgreSQL database to version{nbsp}14."
 msgstr ""
-"재부팅되면, PostgreSQL 데이터베이스가 버전{nbsp}13으로 마이그레이션될 때까지 "
-"Spacewalk 서비스가 실행되지 않습니다."
+"재부팅되면, PostgreSQL 데이터베이스가 버전{nbsp}14로 마이그레이션될 때까지 Spacewalk 서비스가 실행되지 않습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-y-yast.adoc:14
 #: modules/installation-and-upgrade/pages/server-y-zypper.adoc:12
-#, fuzzy
-#| msgid ""
-#| "Log in on the text console as root.  If you are upgrading from 4.1 to "
-#| "4.2, run the database migration script:"
 msgid ""
 "Log in on the text console as root.  If you are upgrading from 4.1 or 4.2 to "
 "4.3, run the database migration script:"
 msgstr ""
-"텍스트 콘솔에 root로 로그인하고 4.1에서 4.2로 업그레이드하는 경우, 데이터베이"
-"스 마이그레이션 스크립트를 실행합니다."
+"텍스트 콘솔에 root로 로그인하고 4.1 또는 4.2에서 4.3로 업그레이드하는 경우, 데이터베이스 마이그레이션 스크립트를 실행합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-y-yast.adoc:16
@@ -9615,35 +9013,24 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-y.adoc:3
-#, fuzzy
-#| msgid ""
-#| "Example: [literal]``4.1.x`` → [literal]``4.2.0`` or [literal]``4.0.x`` → "
-#| "[literal]``4.2.0`"
 msgid ""
 "Example: [literal]``4.2.x`` → [literal]``4.3.0`` or [literal]``4.1.x`` → "
 "[literal]``4.3.0`"
 msgstr ""
-"예: [literal]``4.1.x`` → [literal]``4.2.0`` or [literal]``4.0.x`` → "
-"[literal]``4.2.0``"
+"예: [literal]``4.2.x`` → [literal]``4.3.0`` 또는 [literal]``4.1.x`` → "
+"[literal]``4.3.0`"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-y.adoc:4
-#, fuzzy
-#| msgid ""
-#| "The upgrade from version 4.0 to 4.2 will also upgrade the base OS from "
-#| "SLES 15 SP1 to SLES 15 SP3​, and the PostgreSQL database from version{nbsp}"
-#| "10 to 13 with an additional step.  For more information about the "
-#| "database upgrade, see xref:upgrade:db-migration-13.adoc[]."
 msgid ""
 "The upgrade from version 4.1 to 4.3 will also upgrade the base OS from "
 "SLES 15 SP2 to SLES 15 SP4​, and the PostgreSQL database from version{nbsp}12 "
 "to 14 with an additional step.  For more information about the database "
 "upgrade, see xref:installation-and-upgrade:db-migration-xy.adoc[]."
 msgstr ""
-"4.0에서 4.2 버전으로의 업그레이드도 기본 OS를 SLES 15 SP1에서 SLES 15 SP3로 "
-"업그레이드하며 추가 단계를 통해 PostgreSQL 데이터베이스를 10{nbsp}에서 13 버"
-"전으로 업그레이드할 수 있습니다.  데이터베이스 업그레이드에 대한 자세한 정보"
-"는 xref:upgrade:db-migration-13.adoc[]에서 참조하십시오."
+"4.1에서 4.3 버전으로의 업그레이드도 기본 OS를 SLES 15 SP2에서 SLES 15 SP4로 업그레이드하며 추가 단계를 통해 "
+"PostgreSQL 데이터베이스를 12{nbsp}에서 14 버전으로 업그레이드할 수 있습니다.  데이터베이스 업그레이드에 대한 자세한 "
+"정보는 xref:installation-and-upgrade:db-migration-xy.adoc[]에서 참조하십시오."
 
 #. type: delimited block =
 #: modules/installation-and-upgrade/pages/server-y.adoc:5
@@ -9680,10 +9067,8 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-z.adoc:3
-#, fuzzy
-#| msgid "Example: [literal]``4.2.0`` → [literal]``4.2.1``."
 msgid "Example: [literal]``4.3.0`` → [literal]``4.3.1``."
-msgstr "예: [literal]``4.2.0`` → [literal]``4.2.1``."
+msgstr "예: [literal]``4.3.0`` → [literal]``4.3.1``."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/server-z.adoc:4
@@ -9746,7 +9131,7 @@ msgstr ""
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/setup-intro.adoc:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Setup"
 msgstr "설정"
 
@@ -10190,13 +9575,12 @@ msgstr ""
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:27
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Registering a traditional client as Salt minion after deleting it"
 msgstr "기존 클라이언트를 삭제한 후 Salt 미니언으로 등록"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:28
-#, fuzzy
 msgid ""
 "This is not a valid scenario. Normally you migrate a traditional client to a "
 "Salt minion without deleting the client.  Salt automatically detects that "
@@ -10211,34 +9595,31 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:29
-#, fuzzy
 msgid "Remove the following file:"
 msgstr "다음 파일 제거:"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:30
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "/etc/sysconfig/rhn/systemid\n"
 msgstr "/etc/sysconfig/rhn/systemid\n"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:31
-#, fuzzy
 msgid "Remove the following package:"
 msgstr "다음 패키지 제거:"
 
 #. type: delimited block -
 #: modules/installation-and-upgrade/pages/troubleshooting.adoc:32
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "zypp-plugin-spacewalk\n"
 msgstr "zypp-plugin-spacewalk\n"
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Upgrade the Proxy"
+#, no-wrap
 msgid "Upgrade Intro "
-msgstr "프록시 업그레이드"
+msgstr "업그레이드 도입 "
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:3
@@ -10277,137 +9658,90 @@ msgstr ""
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:8
 #: modules/installation-and-upgrade/pages/upgrade-overview.adoc:8
-#, fuzzy
-#| msgid ""
-#| "Upgrading to the next major version.  For example, upgrading from 3.2 to "
-#| "4.1.  This type of upgrade does not apply to 4.2."
 msgid ""
 "Upgrading to the next major version.  For example, upgrading from 3.2 to "
 "4.1.  This type of upgrade does not apply to 4.3."
 msgstr ""
-"다음 주 버전으로 업그레이드합니다.  예를 들면, 3.2에서 4.1로 업그레이드합니"
-"다. 이러한 유형의 업그레이드는 4.2에 적용되지 않습니다."
+"다음 주 버전으로 업그레이드합니다.  예를 들면, 3.2에서 4.1로 업그레이드합니다. 이러한 유형의 업그레이드는 4.3에 적용되지 "
+"않습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:10
 #: modules/installation-and-upgrade/pages/upgrade-overview.adoc:10
-#, fuzzy
-#| msgid ""
-#| "Upgrading to the next minor version.  This is often referred to as a "
-#| "product migration, service pack migration, or SP migration.  For example, "
-#| "upgrading from 4.1 to 4.2."
 msgid ""
 "Upgrading to the next minor version.  This is often referred to as a product "
 "migration, service pack migration, or SP migration.  For example, upgrading "
 "from 4.2 to 4.3."
 msgstr ""
-"다음 부 버전으로 업그레이드합니다.  이를 종종 제품 마이그레이션, 서비스 팩 마"
-"이그레이션 또는 SP 마이그레이션이라고 합니다.  예를 들면, 4.1에서 4.2로의 업"
-"그레이드가 이에 해당합니다."
+"다음 부 버전으로 업그레이드합니다.  이를 종종 제품 마이그레이션, 서비스 팩 마이그레이션 또는 SP 마이그레이션이라고 합니다.  예를 "
+"들면, 4.2에서 4.3로의 업그레이드가 이에 해당합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:12
 #: modules/installation-and-upgrade/pages/upgrade-overview.adoc:12
-#, fuzzy
-#| msgid ""
-#| "Upgrading within the same minor version.  This is often referred to as a "
-#| "maintenance update.  For example, upgrading from 4.1.2 to 4.1.8 or from "
-#| "4.2.0 to 4.2.1."
 msgid ""
 "Upgrading within the same minor version.  This is often referred to as a "
 "maintenance update.  For example, upgrading from 4.1.2 to 4.1.8 or from "
 "4.3.0 to 4.3.1."
 msgstr ""
-"동일한 부 버전으로 업그레이드합니다.  이를 유지보수 업데이트라고 합니다.  예"
-"를 들면, 4.1.2에서 4.1.8로 또는 4.2.0에서 4.2.1로의 업그레이드가 이에 해당합"
-"니다."
+"동일한 부 버전으로 업그레이드합니다.  이를 유지보수 업데이트라고 합니다.  예를 들면, 4.1.2에서 4.1.8로 또는 4.3.0에서 "
+"4.3.1로의 업그레이드가 이에 해당합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:13
 #: modules/installation-and-upgrade/pages/upgrade-overview.adoc:13
-#, fuzzy
-#| msgid ""
-#| "If you are upgrading the {productname} Server, see xref:upgrade:server-"
-#| "intro.adoc[]."
 msgid ""
 "If you are upgrading the {productname} Server, see xref:installation-and-"
 "upgrade:server-intro.adoc[]."
 msgstr ""
-"{productname} 서버를 업그레이드하려면, xref:upgrade:server-intro.adoc[]에서 "
-"참조하십시오."
+"{productname} 서버를 업그레이드하려면, xref:installation-and-upgrade:server-intro.adoc[]"
+"에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:14
-#, fuzzy
-#| msgid ""
-#| "{productname} uses an [literal]``YYYY.MM`` versioning schema suitable for "
-#| "rolling releases.  If you are upgrading the {productname} Server, see "
-#| "xref:upgrade:server-intro-uyuni.adoc[]."
 msgid ""
 "{productname} uses an [literal]``YYYY.MM`` versioning schema suitable for "
 "rolling releases."
-msgstr ""
-"{productname}에서는 롤링 릴리스에 적합한  [literal]``YYYY.MM`` 버전 관리 스키"
-"마를 사용합니다. {productname} 서버를 업그레이드하는 경우 xref:upgrade:"
-"server-intro-uyuni.adoc[]에서 참조하십시오."
+msgstr "{productname}에서는 롤링 릴리스에 적합한  [literal]``YYYY.MM`` 버전 관리 스키마를 사용합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:15
-#, fuzzy
-#| msgid ""
-#| "If you are upgrading the {productname} Server, see xref:upgrade:server-"
-#| "intro.adoc[]."
 msgid ""
 "If you are upgrading the {productname} Server, see xref:installation-and-"
 "upgrade:server-intro-uyuni.adoc[]."
 msgstr ""
-"{productname} 서버를 업그레이드하려면, xref:upgrade:server-intro.adoc[]에서 "
-"참조하십시오."
+"{productname} 서버를 업그레이드하려면, xref:installation-and-upgrade:server-intro-uyuni."
+"adoc[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:16
 #: modules/installation-and-upgrade/pages/upgrade-overview.adoc:15
-#, fuzzy
-#| msgid ""
-#| "If you are upgrading the {productname} Proxy, see xref:upgrade:proxy-"
-#| "intro.adoc[]."
 msgid ""
 "If you are upgrading the {productname} Proxy, see xref:installation-and-"
 "upgrade:proxy-intro.adoc[]."
 msgstr ""
-"{productname} 프록시를 업그레이드하려면, xref:upgrade:proxy-intro.adoc[]에서 "
-"참조하십시오."
+"{productname} 프록시를 업그레이드하려면, xref:installation-and-upgrade:proxy-intro.adoc[]"
+"에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:17
 #: modules/installation-and-upgrade/pages/upgrade-overview.adoc:16
-#, fuzzy
-#| msgid ""
-#| "For more information about upgrading clients, see xref:client-"
-#| "configuration:client-upgrades.adoc[]."
 msgid ""
 "If you are upgrading clients, see xref:client-configuration:client-upgrades."
 "adoc[]."
 msgstr ""
-"클라이언트 업그레이드에 대한 자세한 정보는 xref:client-configuration:client-"
-"upgrades.adoc[]에서 참조하십시오."
+"클라이언트를 업그레이드하는 경우 xref:client-configuration:client-upgrades.adoc[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/upgrade-intro.adoc:18
 #: modules/installation-and-upgrade/pages/upgrade-overview.adoc:17
-#, fuzzy
-#| msgid ""
-#| "In addition to upgrading the server, you need to upgrade other underlying "
-#| "technologies, including the database.  For more information about "
-#| "upgrading the database, see xref:upgrade:db-intro.adoc[]."
 msgid ""
 "In addition to upgrading the server, you need to upgrade other underlying "
 "technologies, including the database.  For more information about upgrading "
 "the database, see xref:installation-and-upgrade:db-intro.adoc[]."
 msgstr ""
-"서버 업그레이드 외에도 데이터베이스와 같은 기타 기본 기술도 업그레이드해야 합"
-"니다.  데이터베이스 업그레이드에 대한 자세한 정보는 xref:upgrade:db-intro."
-"adoc[]에서 참조하십시오."
+"서버 업그레이드 외에도 데이터베이스와 같은 기타 기본 기술도 업그레이드해야 합니다.  데이터베이스 업그레이드에 대한 자세한 정보는 xref"
+":installation-and-upgrade:db-intro.adoc[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/upgrade-overview.adoc:1
@@ -10417,19 +9751,14 @@ msgstr "업그레이드 가이드 개요"
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/upgrade-overview.adoc:14
-#, fuzzy
-#| msgid ""
-#| "{productname} uses an [literal]``YYYY.MM`` versioning schema suitable for "
-#| "rolling releases.  If you are upgrading the {productname} Server, see "
-#| "xref:upgrade:server-intro-uyuni.adoc[]."
 msgid ""
 "{productname} uses an [literal]``YYYY.MM`` versioning schema suitable for "
 "rolling releases.  If you are upgrading the {productname} Server, see xref:"
 "installation-and-upgrade:server-intro-uyuni.adoc[]."
 msgstr ""
-"{productname}에서는 롤링 릴리스에 적합한  [literal]``YYYY.MM`` 버전 관리 스키"
-"마를 사용합니다. {productname} 서버를 업그레이드하는 경우 xref:upgrade:"
-"server-intro-uyuni.adoc[]에서 참조하십시오."
+"{productname}에서는 롤링 릴리스에 적합한  [literal]``YYYY.MM`` 버전 관리 스키마를 사용합니다. "
+"{productname} 서버를 업그레이드하는 경우 xref:installation-and-upgrade:server-intro-uyuni"
+".adoc[]에서 참조하십시오."
 
 #. type: Title =
 #: modules/installation-and-upgrade/pages/uyuni-install-requirements.adoc:1
@@ -10445,50 +9774,7 @@ msgstr "다음 테이블에는 최소 요구사항이 제시됩니다."
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/uyuni-install-requirements.adoc:4
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Hardware\n"
-#| "| Details\n"
-#| "| Recommendation\n"
-#| "\n"
-#| "| CPU\n"
-#| "| -\n"
-#| "| Minimum 4 dedicated 64-bit CPU cores\n"
-#| "\n"
-#| "| RAM\n"
-#| "| Test Server\n"
-#| "| Minimum 8{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| Base Installation\n"
-#| "| Minimum 16{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| Production Server\n"
-#| "| Minimum 32{nbsp}GB\n"
-#| "\n"
-#| "| Disk Space\n"
-#| "| [path]``/`` (root directory)\n"
-#| "| Minimum 24{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| [path]``/var/lib/pgsql``\n"
-#| "| Minimum 50{nbsp}GB\n"
-#| "\n"
-#| "|\n"
-#| "| [path]``/var/spacewalk``\n"
-#| "| Minimum 50{nbsp}GB per {suse} product and 360{nbsp}GB per Red Hat product\n"
-#| "\n"
-#| "|\n"
-#| "| [path]``/var/cache``\n"
-#| "| Minimum 10{nbsp}GB.\n"
-#| "Add 100{nbsp}MB per {suse} product, 1{nbsp}GB per Red Hat or other product.\n"
-#| "Double the space if the server is an ISS Master.\n"
-#| "\n"
-#| "|\n"
-#| "| Swap space\n"
-#| "| 3{nbsp}GB\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "| Software and Hardware\n"
 "| Details\n"
@@ -10537,13 +9823,17 @@ msgid ""
 "| 3{nbsp}GB\n"
 "\n"
 msgstr ""
-"| 하드웨어\n"
+"| 소프트웨어 및 하드웨어\n"
 "| 세부 정보\n"
-" | 권장\n"
-" \n"
+"| 권장\n"
+"\n"
+"| openSUSE Leap 15.3\n"
+"| 설치 정리, 최신 \n"
+"| openSUSE Leap 15.3\n"
+"\n"
 " | CPU\n"
 " | -\n"
-" | 최소 4개의 전용 64비트 CPU 코어\n"
+" | 최소 4개의 전용 64비트 CPU 코어({x86_64})\n"
 " \n"
 " | RAM\n"
 " | 테스트 서버\n"
@@ -10559,7 +9849,7 @@ msgstr ""
 " \n"
 " | 디스크 공간\n"
 " | [path]``/``(루트 디렉토리)\n"
-" | 최소 24GB\n"
+" | 최소 40GB\n"
 " \n"
 " |\n"
 " | [path]``/var/lib/pgsql``\n"
@@ -10767,21 +10057,15 @@ msgstr "[path]``uyuni_proxy`` 프록시 패턴을 설치합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/uyuni-proxy-setup.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Check that the Proxy pattern is installed correctly.  This step is part "
-#| "of xref:installation:install-proxy-uyuni.adoc[].  To verify a successful "
-#| "installation, on the server select the [package]``pattern_uyuni_proxy`` "
-#| "package for installation."
 msgid ""
 "Check that the Proxy pattern is installed correctly.  This step is part of "
 "xref:installation-and-upgrade:install-proxy-uyuni.adoc[].  To verify a "
 "successful installation, on the server select the "
 "[package]``pattern_uyuni_proxy`` package for installation."
 msgstr ""
-"프록시 패턴이 올바르게 설치되었는지 확인합니다.  이 단계는 xref:installation:"
-"install-proxy-uyuni.adoc[]의 일부입니다.  설치 성공을 확인하려면, 서버에서 설"
-"치를 위한 [package]``pattern_uyuni_proxy`` 패키지를 선택합니다."
+"프록시 패턴이 올바르게 설치되었는지 확인합니다.  이 단계는 xref:installation-and-upgrade:install-"
+"proxy-uyuni.adoc[]의 일부입니다.  설치 성공을 확인하려면, 서버에서 설치를 위한 "
+"[package]``pattern_uyuni_proxy`` 패키지를 선택합니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/uyuni-proxy-setup.adoc:5
@@ -11269,10 +10553,8 @@ msgid ""
 "menu:Systems[System Details] section for that client.  From this page, you "
 "can apply any required updates."
 msgstr ""
-"[guimenu]``가장 중요한 시스템`` 창은 소프트웨어 업데이트가 필요한 모든 클라이"
-"언트를 보여줍니다.  목록에서 클라이언트 이름을 클릭하면 해당 클라이언트의 "
-"menu:시스템[시스템 정보] 섹션으로 이동합니다. 이 페이지에서 필수 업데이트를 "
-"적용할 수 있습니다."
+"[guimenu]``가장 중요한 시스템`` 창은 소프트웨어 업데이트가 필요한 모든 클라이언트를 보여줍니다.  목록에서 클라이언트 이름을 "
+"클릭하면 해당 클라이언트의 menu:시스템[시스템 정보] 섹션으로 이동합니다. 이 페이지에서 필수 업데이트를 적용할 수 있습니다."
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/webui-setup.adoc:9
@@ -11311,9 +10593,8 @@ msgid ""
 "registered in the past thirty days.  Click the name of a client in the list "
 "to be taken to the menu:Systems[System Details] section for that client."
 msgstr ""
-"[guimenu]``최근 등록된 시스템`` 창은 최근 30일 이내에 등록한 모든 클라이언트"
-"를 보여줍니다.  목록에서 클라이언트 이름을 클릭하면 해당 클라이언트의 menu:시"
-"스템[시스템 정보] 섹션으로 이동합니다."
+"[guimenu]``최근 등록된 시스템`` 창은 최근 30일 이내에 등록한 모든 클라이언트를 보여줍니다.  목록에서 클라이언트 이름을 "
+"클릭하면 해당 클라이언트의 menu:시스템[시스템 정보] 섹션으로 이동합니다."
 
 #. type: Title ==
 #: modules/installation-and-upgrade/pages/webui-setup.adoc:13
@@ -11408,11 +10689,9 @@ msgid ""
 "For more information about the system set manager, see xref:client-"
 "configuration:system-set-manager.adoc[]."
 msgstr ""
-"선택한 시스템 아이콘은 현재 선택한 시스템의 수를 원 안에 표시합니다.  선택한 "
-"시스템 아이콘을 클릭하여 menu:시스템[시스템 세트 관리자 > 개요]로 이동합니"
-"다.  지우개 아이콘을 클릭하여 모든 시스템의 선택을 취소합니다.   시스템 세트 "
-"관리자에 대한 자세한 내용은 xref:client-configuration:system-set-manager."
-"adoc[]에서 참조하십시오."
+"선택한 시스템 아이콘은 현재 선택한 시스템의 수를 원 안에 표시합니다.  선택한 시스템 아이콘을 클릭하여 menu:시스템[시스템 세트 "
+"관리자 > 개요]로 이동합니다.  지우개 아이콘을 클릭하여 모든 시스템의 선택을 취소합니다.   시스템 세트 관리자에 대한 자세한 내용은 "
+"xref:client-configuration:system-set-manager.adoc[]에서 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation-and-upgrade/pages/webui-setup.adoc:25
@@ -11615,7 +10894,7 @@ msgstr ""
 
 #. type: Table
 #: modules/installation-and-upgrade/pages/webui-setup.adoc:54
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "|                             |  \n"
 "|icon:shield-alt[role=\"none\"] | The shield icon is a security alert.\n"
@@ -11637,12 +10916,14 @@ msgstr "추가적인 정보를 제공하기 위해 몇 개의 추가 아이콘�
 
 #. type: Plain text
 #: modules/installation-and-upgrade/pages/webui-setup.adoc:56
-#, fuzzy, no-wrap
-#| msgid "icon:archive[role=\"none\"] The archive box icon indicates that a patch will have an effect on package management."
+#, no-wrap
 msgid ""
 "|icon:sync[role=\"none\"]       | The circling arrows icon indicates that applying a patch will require a reboot.\n"
 "|icon:archive[role=\"none\"]    | The archive box icon indicates that a patch will have an effect on package management.\n"
-msgstr "icon:archive[role=\"none\"] 보관 상자 아이콘은 패치가 패키지 관리에 영향을 준다는 것을 나타냅니다."
+msgstr ""
+"|icon:sync[role=\"none\"]       | 원형 화살표 아이콘은 패치를 적용하려면 재부팅이 필요하다는 것을 나타냅니다."
+"\n"
+"|icon:archive[role=\"none\"]    | 보관 상자 아이콘은 패치가 패키지 관리에 영향을 준다는 것을 나타냅니다.\n"
 
 #. type: Title ===
 #: modules/installation-and-upgrade/pages/webui-setup.adoc:57
