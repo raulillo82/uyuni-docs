@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-05-05 14:02+0000\n"
-"PO-Revision-Date: 2022-05-10 00:43+0000\n"
+"PO-Revision-Date: 2022-05-12 09:46+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-427/ko/>\n"
@@ -144,10 +144,8 @@ msgstr "xref:contact-methods-saltssh.adoc[Salt SSH를 통한 푸시]"
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:25
-#, fuzzy
-#| msgid "xref:contact-methods-salt.adoc[Managing Salt Clients]"
 msgid "xref:contact-methods-saltbundle.adoc[Salt Bundle]"
-msgstr "xref:contact-methods-salt.adoc[Salt 클라이언트 관리]"
+msgstr "xref:contact-methods-saltbundle.adoc[Salt 번들]"
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:26
@@ -385,9 +383,7 @@ msgstr "xref:clients-pubcloud.adoc[공용 클라우드 클라이언트 ]"
 msgid ""
 "xref:automatic-client-registration.adoc[Automatic Registration of Clients "
 "Created by Terraform]"
-msgstr ""
-"xref:automatic-client-registration.adoc[Terraform에서 생성한 클라이언트의 자"
-"동 등록]"
+msgstr "xref:automatic-client-registration.adoc[Terraform에서 생성한 클라이언트의 자동 등록]"
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:69
@@ -398,10 +394,8 @@ msgstr "xref:client-upgrades.adoc[클라이언트 업그레이드]"
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:70
 #: modules/client-configuration/nav-client-configuration-guide.adoc:105
-#, fuzzy
-#| msgid "xref:client-upgrades-major.adoc[Client - Major Version Upgrade]"
 msgid "xref:client-upgrades-major.adoc[Major Version Upgrade]"
-msgstr "xref:client-upgrades-major.adoc[클라이언트 - 주 버전 업그레이드]"
+msgstr "xref:client-upgrades-major.adoc[주 버전 업그레이드]"
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:71
@@ -28054,8 +28048,8 @@ msgid ""
 "the Cloud Identity and Access Management (IAM) tool to ensure that the "
 "service account has the appropriate roles."
 msgstr ""
-"Google 클라우드 플랫폼 계정에 관리자로 로그인하여 Cloud Identity and Access "
-"Management(IAM) 도구를 사용해 서비스 계정에 적절한 역할이 있는지 확인합니다."
+"Google 클라우드 플랫폼 계정에 관리자로 로그인하여 Cloud Identity and Access Management(IAM) 도구를 "
+"사용해 서비스 계정에 적절한 역할이 있는지 확인합니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/vhm-gce.adoc:7
