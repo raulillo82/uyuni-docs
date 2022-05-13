@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-05-05 14:02+0000\n"
-"PO-Revision-Date: 2022-05-13 10:13+0000\n"
-"Last-Translator: Seeun Lee <selee@e4net.net>\n"
+"PO-Revision-Date: 2022-05-13 15:13+0000\n"
+"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-427/ko/>\n"
 "Language: ko\n"
@@ -2757,10 +2757,9 @@ msgid ""
 "Systems[System List], select the client you want to provision, and navigate "
 "to the menu:Provisioning[Autoinstallation] subtab."
 msgstr ""
-"menu:시스템[자동 설치 > 프로파일]로 이동해 편집하려는 프로파일의 이름을 클릭"
-"하여 자동 설치 프로파일의 상세 정보 및 설정을 변경할 수 있습니다.  또는 menu:"
-"시스템[시스템 목록]으로 이동하여 프로비저닝할 클라이언트를 선택한 후 menu:프"
-"로비저닝[자동 설치] 하위 탭으로 이동합니다."
+"menu:시스템[자동 설치 > 프로파일]로 이동해 편집하려는 프로파일의 이름을 클릭하여 자동 설치 프로파일의 상세 정보 및 설정을 변경할 "
+"수 있습니다.  또는 menu:시스템[시스템 목록]으로 이동하여 프로비저닝할 클라이언트를 선택한 후 menu:프로비저닝[자동 설치] 하위 "
+"탭으로 이동합니다."
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-profiles.adoc:40
@@ -3587,8 +3586,8 @@ msgid ""
 "Navigate to menu:Systems[System List], select the client you want to change, "
 "and go to the [guimenu]``Formulas`` tab to enable the DHCPd formula."
 msgstr ""
-"menu:시스템[시스템 목록]으로 이동하여 변경할 클라이언트를 선택한 후 "
-"[guimenu]``수식`` 탭으로 이동하여 DHCPd 수식을 활성화합니다."
+"menu:시스템[시스템 목록]으로 이동하여 변경할 클라이언트를 선택한 후 [guimenu]``수식`` 탭으로 이동하여 DHCPd 수식을 "
+"활성화합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:35
@@ -5414,9 +5413,7 @@ msgstr "btn:[부트스트랩]을 클릭하여 등록을 시작합니다."
 msgid ""
 "When the bootstrap process has completed, your client is listed at menu:"
 "Systems[System List]."
-msgstr ""
-"부트스트랩 프로세스가 완료되면 클라이언트가 menu:시스템[시스템 목록]에 나열됩"
-"니다."
+msgstr "부트스트랩 프로세스가 완료되면 클라이언트가 menu:시스템[시스템 목록]에 나열됩니다."
 
 #
 #. 2020-11-26, ke: we now have this info in client-proxy-script.adoc.
