@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-01-23 16:13+0000\n"
-"PO-Revision-Date: 2022-05-10 00:43+0000\n"
+"PO-Revision-Date: 2022-05-13 10:13+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-424/ko/>\n"
@@ -2588,7 +2588,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:21
-#, fuzzy
 msgid ""
 "Copy the contents of your autoinstallation file into the [guimenu]``File "
 "Contents`` field, or upload the file directly using the [guimenu]``File to "
@@ -24502,7 +24501,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:112
-#, fuzzy
 msgid "For example:"
 msgstr "예:"
 
