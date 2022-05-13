@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-26 06:53+0000\n"
-"PO-Revision-Date: 2022-05-10 00:43+0000\n"
+"PO-Revision-Date: 2022-05-13 10:13+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-426/ko/>\n"
@@ -2585,7 +2585,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:21
-#, fuzzy
 msgid ""
 "Copy the contents of your autoinstallation file into the [guimenu]``File "
 "Contents`` field, or upload the file directly using the [guimenu]``File to "
@@ -2745,8 +2744,8 @@ msgid ""
 "configuration-installation-options."
 msgstr ""
 "{ay} 설치 파일은 {ay} 설치 프로그램에 방향을 제공하는 XML 파일입니다. {ay}에서는 이 파일을 \"제어 파일\"이라고 "
-"부릅니다.  {ay} 설치 파일의 전체 구문은 link:https://doc.opensuse.org/projects/autoyast/"
-"#cha-configuration-installation-options[]를 참조하십시오."
+"부릅니다.  {ay} 설치 파일의 전체 구문은 https://doc.opensuse.org/projects/autoyast/#cha-"
+"configuration-installation-options를 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:43
@@ -4068,13 +4067,15 @@ msgstr "cloud-init를 사용하여 클라이언트를 등록하기 전 사용자
 msgid ""
 "Bootstrap script. See xref:client-configuration:registration-bootstrap.adoc[]"
 msgstr ""
-"부트스트랩 스크립트. xref:client-configuration:registration-bootstrap.adoc[]에서 참조하십시오."
+"부트스트랩 스크립트에 대한 자세한 설명은 xref:client-configuration:registration-bootstrap."
+"adoc[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:10
 #: modules/client-configuration/pages/automatic-client-registration.adoc:24
 msgid "Activation keys. See xref:client-configuration:activation-keys.adoc[]"
-msgstr "활성화 키. xref:client-configuration:activation-keys.adoc[]에서 참조하십시오."
+msgstr ""
+"활성화 키에 대한 자세한 설명은 xref:client-configuration:activation-keys.adoc[]에서 참조하십시오."
 
 #. type: Plain text
 #: modules/client-configuration/pages/automatic-client-registration.adoc:11
@@ -4181,7 +4182,7 @@ msgid ""
 "For more information about remote-exec provisioner, see: https://www."
 "terraform.io/docs/provisioners/remote-exec.html"
 msgstr ""
-"remote-exec 프로비저너에 대한 자세한 내용은 https://www.terraform.io/docs/provisioners/"
+"remote-exec 제공자에 대한 자세한 내용은 https://www.terraform.io/docs/provisioners/"
 "remote-exec.html에서 참조하십시오."
 
 #. type: Title =
@@ -8773,7 +8774,7 @@ msgstr "{oracle} 채널에 연결된 활성화 키를 생성해야 합니다."
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-oracle.adoc:28
 msgid "For Oracle 8 clients use"
-msgstr "Oracle 8 클라이언트에 대해서는 다음을 사용하십시오."
+msgstr "Oracle 8 클라이언트의 경우"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-oracle.adoc:29
@@ -8784,7 +8785,7 @@ msgstr "ol8-gpg-pubkey-82562EA9AD986DA3.key\n"
 #. type: Plain text
 #: modules/client-configuration/pages/clients-oracle.adoc:30
 msgid "For Oracle 6 or 7 clients use"
-msgstr "Oracle 6 또는 7 클라이언트에 대해서는 다음을 사용하십시오."
+msgstr "Oracle 6 또는 7 클라이언트의 경우"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-oracle.adoc:31
@@ -10877,10 +10878,10 @@ msgid ""
 "directly from {redhat} or {centos} before you can apply the updates provided "
 "by the {es} software channels."
 msgstr ""
-"{suse}가 제공하는 {es} 소프트웨어 채널은 패키지에 대한 업데이트만 제공하고 패키지 자체는 제공하지 않습니다. {es} "
-"클라이언트를 등록하려면 {es} 제품(아래에 설명됨)을 등록하여 필요한 기본 채널을 만든 다음 필요한 {redhat} 또는 {centos}"
-" 패키지를 사용자 정의 하위 채널로 임포트해야 합니다. 초기 패키지를 {redhat} 또는 {centos}에서 직접 가져와야 {es} "
-"소프트웨어 채널이 제공하는 업데이트를 적용할 수 있습니다."
+"{suse}가 제공하는 {es} 소프트웨어 채널은 패키지에 대한 업데이트만 제공하고 패키지 자체는 제공하지 않습니다. 필요한 기본 채널을 "
+"생성하려면 {es} 제품(아래에 설명됨)을 등록한 다음 필요한 {redhat} 또는 {centos} 패키지를 맞춤 하위 채널로 임포트해야 "
+"합니다. 초기 패키지를 {redhat} 또는 {centos}에서 직접 가져와야 {es} 소프트웨어 채널이 제공하는 업데이트를 적용할 수 "
+"있습니다."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sleses.adoc:4
@@ -24877,7 +24878,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:112
-#, fuzzy
 msgid "For example:"
 msgstr "예:"
 
@@ -25262,21 +25262,21 @@ msgid ""
 "In the [guimenu]``Subscription ID`` field, type the subscription ID found in "
 "[path]``Azure portal > Services > Subscriptions`` page."
 msgstr ""
-"[guimenu]``구독 ID`` 필드에서 [path]``Azure 포털 > 서비스 > 구독`` 페이지에 있는 구독 ID를 입력합니다."
+"[guimenu]``구독 ID`` 필드에서 [path]``Azure 포털 > 서비스 > 구독`` 페이지에서 찾은 구독 ID를 입력합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-azure.adoc:16
 msgid ""
 "In the [guimenu]``Application ID`` field, type the application ID that you "
 "collected when you registered the application."
-msgstr "[guimenu]``응용 프로그램 ID`` 필드에 응용 프로그램 등록 시 수집한  응용 프로그램 ID를 입력합니다."
+msgstr "[guimenu]``응용 프로그램 ID`` 필드에 응용 프로그램 등록 시 수집한 응용 프로그램 ID를 입력합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-azure.adoc:17
 msgid ""
 "In the [guimenu]``Tenant ID`` field, type the tenant ID provided by Azure "
 "that you collected when you registered the application."
-msgstr "[guimenu]``테넌트 ID`` 필드에서 응용 프로그램 등록 시 수집한 Azure가 제공하는 테넌트 ID를 입력합니다."
+msgstr "[guimenu]``테넌트 ID`` 필드에서 응용 프로그램을 등록할 때 수집한 Azure에서 제공한 테넌트 ID를 입력합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-azure.adoc:18
@@ -25292,7 +25292,8 @@ msgid ""
 "In the [guimenu]``Zone`` field, type the zone your VM is located in. For "
 "example, for West Europe, enter [path]``westeurope``."
 msgstr ""
-"[guimenu]``영역`` 필드에 VM이 있는 영역을 입력합니다. 예를 들어, 서유럽의 경우 [path]``서유럽``을 입력합니다."
+"[guimenu]``영역`` 필드에 VM이 있는 영역을 입력합니다. 예를 들어, 서유럽의 경우 [path]``westeurope``을 "
+"입력합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-azure.adoc:20
@@ -26493,7 +26494,7 @@ msgid ""
 "In the [guimenu]``Cert Path`` field, type the local path on the "
 "{productname} Server to the key that you downloaded from the GCE panel."
 msgstr ""
-"[guimenu]``인증서 경로`` 필드에 GCE 패널에서 다운로드한 키에 대한 {productname} 서버의 로컬 경로를 입력합니다."
+"[guimenu]``인증서 경로`` 필드에 {productname} 서버의 로컬 경로를 GCE 패널에서 다운로드한 키에 입력합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-gce.adoc:19
