@@ -78,7 +78,9 @@ At least not for the migration from 15.2 to 153.
 ////
 . Click menu:Details[Remote Command], add `zypper dup --allow-vendor-change` to the script field, and click btn:[Schedule]
 . Wait until the remote command is executed.
-. Re-register with the reactivation key using the [command]``rhnreg_ks`` command-line utility.
+. Re-register with the reactivation key using with the {webui}.
++
+// Add details here ^^^ see https://github.com/SUSE/spacewalk/issues/17932 for discussion
   The system is re-registered with the same ID, history, and groups.
 +
 // and channels (unless the system's base channel changes).
