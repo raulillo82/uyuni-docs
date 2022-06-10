@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-04-07 12:00+0000\n"
-"PO-Revision-Date: 2022-06-09 11:13+0000\n"
-"Last-Translator: Seeun Lee <selee@e4net.net>\n"
+"PO-Revision-Date: 2022-06-10 19:13+0000\n"
+"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-beta3/ko/>\n"
 "Language: ko\n"
@@ -6048,9 +6048,7 @@ msgstr ""
 msgid ""
 "In the [guimenu]``Create Autoinstallable Distribution`` section, use these "
 "parameters:"
-msgstr ""
-"[guimenu]``자동 설치 가능한 배포판 생성`` 섹션에서 다음 파라미터를 사용합니"
-"다."
+msgstr "[guimenu]``자동 설치 가능한 배포판 생성`` 섹션에서 다음 파라미터를 사용합니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:23
@@ -17212,8 +17210,8 @@ msgid ""
 "[command]``spacewalk-common-channels`` command to add the appropriate "
 "channels:"
 msgstr ""
-"{productname} 서버의 명령 프롬프트에서 root로 [command]``spacewalk-common-"
-"channels`` 명령을 사용하여 적절한 채널을 추가합니다."
+"{productname} 서버의 명령 프롬프트에서 root로 [command]``spacewalk-common-channels`` 명령을 "
+"사용하여 적절한 채널을 추가합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/snippets/add_channels_cli.adoc:3
