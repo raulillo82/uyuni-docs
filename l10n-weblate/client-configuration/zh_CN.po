@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-03-20 15:44+0100\n"
-"PO-Revision-Date: 2022-06-10 19:13+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2022-06-15 05:13+0000\n"
+"Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-41/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -495,9 +495,8 @@ msgid ""
 "activation key is bound to an organization, which you can set when you "
 "create the key."
 msgstr ""
-"将激活密钥与传统客户端和 Salt 客户端搭配使用可确保您的客户端拥有正确的软件权"
-"利、可连接到适当的频道以及订阅相关的组。  每个激活密钥都绑定到一个组织，您可"
-"以在创建密钥时设置此项。"
+"将激活密钥与传统客户端和 Salt "
+"客户端搭配使用可确保您的客户端拥有正确的软件权利、可连接到适当的频道以及订阅相关的组。每个激活密钥都绑定到一个组织，您可以在创建密钥时设置此项。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:3
@@ -509,10 +508,8 @@ msgid ""
 "script.  When the bootstrap script is executed all configuration settings "
 "associated with the label are applied to the system the script is run on."
 msgstr ""
-"在 {productname} 中，激活密钥是一组带有标签的配置设置。  您可以通过将某个激活"
-"密钥的标签作为参数添加到引导脚本，来应用与该激活密钥关联的所有配置设置。  我"
-"们建议您结合引导脚本来使用激活密钥标签。  当执行引导脚本时，与该标签关联的所"
-"有配置设置都将应用到运行脚本的系统上。"
+"在 {productname} 中，激活密钥是一组带有标签的配置设置。您可以通过将某个激活密钥的标签作为参数添加到引导脚本，来应用与该激活密钥关联的所有配"
+"置设置。我们建议您结合引导脚本来使用激活密钥标签。当执行引导脚本时，与该标签关联的所有配置设置都将应用到运行脚本的系统上。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:4
@@ -605,9 +602,8 @@ msgid ""
 "However, you *must* use commas for Red Hat Products.  For more information, "
 "see xref:reference:systems/activation-keys.adoc[]."
 msgstr ""
-"对于任何 {suse} 产品，请不要在[guimenu]``密钥``字段中使用逗号。   不过，对于 "
-"Red Hat 产品，则 *必须* 使用逗号。  有关详细信息，请参见 xref:reference:"
-"systems/activation-keys.adoc[]。"
+"对于任何 {suse} 产品，请不要在[guimenu]``密钥``字段中使用逗号。不过，对于 Red Hat 产品，则 *必须* "
+"使用逗号。有关详细信息，请参见 xref:reference:systems/activation-keys.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:19
@@ -666,9 +662,7 @@ msgid ""
 "The [guimenu]``Configuration File Deployment`` check box does not appear "
 "until after you have created the activation key.  Ensure you go back and "
 "check the box if you need to enable configuration management."
-msgstr ""
-"在您创建激活密钥前，[guimenu]``配置文件部署``复选框将不会显示。  如果您需要启"
-"用配置管理，请务必返回并选中该复选框。"
+msgstr "在您创建激活密钥前，[guimenu]``配置文件部署``复选框将不会显示。如果您需要启用配置管理，请务必返回并选中该复选框。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/activation-keys.adoc:27
@@ -683,9 +677,7 @@ msgid ""
 "traditional clients.  Combining keys allows for more control on what is "
 "installed on your systems and reduces duplication of keys for large or "
 "complex environments."
-msgstr ""
-"在传统客户端上执行引导脚本时，可以组合多个激活密钥。  组合密钥可让您更好地控"
-"制系统上可以安装哪些产品，并可减少大型或复杂环境密钥的重复几率。"
+msgstr "在传统客户端上执行引导脚本时，可以组合多个激活密钥。组合密钥可让您更好地控制系统上可以安装哪些产品，并可减少大型或复杂环境密钥的重复几率。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/activation-keys.adoc:29
@@ -693,9 +685,7 @@ msgid ""
 "Combining activation keys works only on traditional clients.  Salt clients "
 "do not support combined activation keys.  If you use a combined key with a "
 "Salt client, only the first key is used."
-msgstr ""
-"组合激活密钥仅可用于传统客户端。  Salt 客户端不支持组合激活密钥。  如果您对 "
-"Salt 客户端使用组合密钥，系统只会使用第一个密钥。"
+msgstr "组合激活密钥仅可用于传统客户端。Salt 客户端不支持组合激活密钥。如果您对 Salt 客户端使用组合密钥，系统只会使用第一个密钥。"
 
 #. type: Target for macro image
 #: modules/client-configuration/pages/activation-keys.adoc:30
@@ -733,9 +723,7 @@ msgid ""
 "Be careful when combining activation keys, as conflicts between some values "
 "could cause client registration to fail.  Check that these values do not "
 "have conflicting information before you begin:"
-msgstr ""
-"在组合激活密钥时需小心，因为如果某些值相互冲突，则可能会导致客户端注册失"
-"败。  开始前，请检查以下值，确保它们未包含冲突信息："
+msgstr "在组合激活密钥时需小心，因为如果某些值相互冲突，则可能会导致客户端注册失败。开始前，请检查以下值，确保它们未包含冲突信息："
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:35
@@ -792,8 +780,8 @@ msgid ""
 "all {productname} settings.  Reactivation keys are client-specific, and "
 "include the system ID, history, groups, and channels."
 msgstr ""
-"重新激活密钥可用来重新注册客户端并重新获得所有 {productname} 设置，但只能使用"
-"一次。  重新激活密钥为客户端特定密钥，包含系统 ID、历史记录、组和频道。"
+"重新激活密钥可用来重新注册客户端并重新获得所有 {productname} 设置，但只能使用一次。重新激活密钥为客户端特定密钥，包含系统 "
+"ID、历史记录、组和频道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:45
@@ -805,10 +793,9 @@ msgid ""
 "typical activation keys, which are not associated with a specific system ID, "
 "keys created here do not show up on the menu:Systems[Activation Keys] page."
 msgstr ""
-"要创建重新激活密钥，请导航到[guimenu]``系统``，单击要为其创建重新激活密钥的客"
-"户端，然后导航到menu:细节[重新激活]选项卡。  单击  btn:[生成新密钥] 以创建重"
-"新激活密钥。  记录密钥细节以供日后使用。  与未与特定系统 ID 关联的典型激活密"
-"钥不同，此处创建的密钥不会显示在menu:系统[激活密钥]页面中。"
+"要创建重新激活密钥，请导航到[guimenu]``系统``，单击要为其创建重新激活密钥的客户端，然后导航到menu:细节[重新激活]选项卡。单击  "
+"btn:[生成新密钥] 以创建重新激活密钥。记录密钥细节以供日后使用。与未与特定系统 ID "
+"关联的典型激活密钥不同，此处创建的密钥不会显示在menu:系统[激活密钥]页面中。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:46
@@ -878,9 +865,9 @@ msgid ""
 "autoinstallation is in progress.  Doing so causes the autoinstallation to "
 "fail."
 msgstr ""
-"如果您使用客户端现有的 {productname} 配置文件自动安装客户端，该配置文件会使用"
-"重新激活密钥来重新注册系统并恢复其设置。  请勿在正在进行基于配置文件的自动安"
-"装时重新生成、删除或使用此密钥，  否则会导致自动安装失败。"
+"如果您使用客户端现有的 {productname} "
+"配置文件自动安装客户端，该配置文件会使用重新激活密钥来重新注册系统并恢复其设置。请勿在正在进行基于配置文件的自动安装时重新生成、删除或使用此密钥，  "
+"否则会导致自动安装失败。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/activation-keys.adoc:53
@@ -903,9 +890,8 @@ msgid ""
 "unexpected behavior.  Instead, we recommend you create activation keys "
 "specific to each distribution and architecture."
 msgstr ""
-"避免使用 [systemitem]``SUSE Manager Default`` 父频道。  此设置会强制 "
-"{productname} 选择与所安装操作系统最匹配的父频道，而这有时可能会导致非预期的"
-"行为。  请改为创建特定于每个发行套件和体系结构的激活密钥。"
+"避免使用 [systemitem]``SUSE Manager Default`` 父频道。此设置会强制 {productname} "
+"选择与所安装操作系统最匹配的父频道，而这有时可能会导致非预期的行为。请改为创建特定于每个发行套件和体系结构的激活密钥。"
 
 #. type: Block title
 #: modules/client-configuration/pages/activation-keys.adoc:56
@@ -922,9 +908,8 @@ msgid ""
 "assignments.  You also need less manual interaction with your system after "
 "registration."
 msgstr ""
-"如果您要使用引导脚本，请考虑为每个脚本创建一个激活密钥。  这有助于您调整频道"
-"指派、软件包安装、系统组成员资格和配置频道指派。  注册后，您需要与系统手动交"
-"互的情形也会减少。"
+"如果您要使用引导脚本，请考虑为每个脚本创建一个激活密钥。这有助于您调整频道指派、软件包安装、系统组成员资格和配置频道指派。注册后，您需要与系统手动交互的情"
+"形也会减少。"
 
 #. type: Block title
 #: modules/client-configuration/pages/activation-keys.adoc:58
@@ -990,9 +975,7 @@ msgid ""
 "them.  Creating names which are associated with your organization's "
 "infrastructure makes it easier for you when performing more complex "
 "operations."
-msgstr ""
-"请考虑为您的激活密钥使用一种命名模式，以方便您进行跟踪。  设计与您组织的基础"
-"结构相关的名称有助于您更轻松地执行较复杂的操作。"
+msgstr "请考虑为您的激活密钥使用一种命名模式，以方便您进行跟踪。设计与您组织的基础结构相关的名称有助于您更轻松地执行较复杂的操作。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/activation-keys.adoc:67
@@ -1069,8 +1052,7 @@ msgid ""
 "more information, see the client operating system you are installing at xref:"
 "client-configuration:registration-overview.adoc[]."
 msgstr ""
-"在创建激活密钥时，您还需要注意哪些软件频道与其关联。  应为密钥指派特定的基础"
-"频道，  不建议使用默认基础频道。  有关详细信息，请在 xref:client-"
+"在创建激活密钥时，您还需要注意哪些软件频道与其关联。应为密钥指派特定的基础频道，  不建议使用默认基础频道。有关详细信息，请在 xref:client-"
 "configuration:registration-overview.adoc[] 中查看您要安装的客户端操作系统。"
 
 #. type: Title ==
@@ -1328,9 +1310,8 @@ msgid ""
 "associated with the specified base channel.  If you add new distributions "
 "later, {productname} uses the most recently created or modified."
 msgstr ""
-"创建自动安装配置文件时，您可以选中[guimenu]``始终为此基础频道使用最新的树"
-"``。  此设置可让 {productname} 自动提取与指定基础频道关联的最新发行套件。  如"
-"果您以后添加新发行套件，{productname} 会使用最近创建或修改的发行套件。"
+"创建自动安装配置文件时，您可以选中[guimenu]``始终为此基础频道使用最新的树``。此设置可让 {productname} "
+"自动提取与指定基础频道关联的最新发行套件。如果您以后添加新发行套件，{productname} 会使用最近创建或修改的发行套件。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-profiles.adoc:31
@@ -1340,8 +1321,7 @@ msgid ""
 "Verify new or changed settings before saving them, by navigating to the "
 "[guimenu]``Partitioning`` tab."
 msgstr ""
-"更改虚拟化类型通常需要更改配置文件加载程序和分区选项。  这会重写您的自定义设"
-"置。   请在保存前导航到[guimenu]``分区``选项卡校验新的或更改后的设置。"
+"更改虚拟化类型通常需要更改配置文件加载程序和分区选项。这会重写您的自定义设置。请在保存前导航到[guimenu]``分区``选项卡校验新的或更改后的设置。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:32
@@ -1803,7 +1783,7 @@ msgstr "可选：指定引导此发行套件时要使用的内核选项。"
 msgid ""
 "There are multiple ways to provide kernel options.  Only add options here "
 "that are generic for the distribution."
-msgstr "您可以通过多种方式来提供内核选项。  此处仅添加了发行套件通用的选项。"
+msgstr "您可以通过多种方式来提供内核选项。此处仅添加了发行套件通用的选项。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-setup.adoc:21
@@ -2178,8 +2158,8 @@ msgid ""
 "(assuming you left the label for the {ay} boot as ``autoyast``).  Press kbd:"
 "[Enter] to begin the {ay} installation."
 msgstr ""
-"要使用 ISO 映像，请引导系统并在提示符处键入 `autoyast`（假设您将 {ay} 引导的"
-"标签保留为 ``autoyast``）。  按 kbd: [Enter] 开始 {ay} 安装。"
+"要使用 ISO 映像，请引导系统并在提示符处键入 `autoyast`（假设您将 {ay} 引导的标签保留为 ``autoyast``）。按 kbd: "
+"[Enter] 开始 {ay} 安装。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoyast.adoc:17
@@ -2532,7 +2512,7 @@ msgstr "自动模式的选项"
 msgid ""
 "You can change how the automated bootstrap repository creation works.  This "
 "section details the various settings."
-msgstr "您可以更改自动引导软件源的创建方式。  本节介绍了各种相应设置。"
+msgstr "您可以更改自动引导软件源的创建方式。本节介绍了各种相应设置。"
 
 #. type: Block title
 #: modules/client-configuration/pages/bootstrap-repository.adoc:7
@@ -2592,10 +2572,9 @@ msgid ""
 "If you want to makes changes to this file, do not edit it directly.  "
 "Instead, create a copy in the same directory and edit your copy:"
 msgstr ""
-"该工具使用包含有关每个发行套件所需软件包的信息的数据文件。  该数据文件储存在 "
-"[path]``/usr/share/ susemanager/mgr_bootstrap_data.py``。  {suse} 会定期更新"
-"此文件。   如果您要更改此文件，请不要直接编辑，   而是应在同一目录中创建一份"
-"副本，然后编辑该副本："
+"该工具使用包含有关每个发行套件所需软件包的信息的数据文件。该数据文件储存在 [path]``/usr/share/ susemanager/"
+"mgr_bootstrap_data.py``。{suse} 会定期更新此文件。如果您要更改此文件，请不要直接编辑，   "
+"而是应在同一目录中创建一份副本，然后编辑该副本："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/bootstrap-repository.adoc:15
@@ -2612,9 +2591,7 @@ msgstr ""
 msgid ""
 "When you have made your changes, configure {productname} to use the new "
 "file.  Add or edit this value in [path]``/etc/rhn/rhn.conf``:"
-msgstr ""
-"更改后，将 {productname} 配置为使用这个新文件。  在 [path]``/etc/rhn/rhn."
-"conf`` 中添加或编辑此值："
+msgstr "更改后，将 {productname} 配置为使用这个新文件。在 [path]``/etc/rhn/rhn.conf`` 中添加或编辑此值："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/bootstrap-repository.adoc:17
@@ -2629,8 +2606,7 @@ msgid ""
 "file, not the new one.  You need to keep the new file up to date with "
 "changes provided by {suse}."
 msgstr ""
-"下次更新时，{suse} 提供的新数据将重写原来的数据文件，而不是这个新文件。  您需"
-"要在新文件中使用 {suse} 提供的更改覆盖相应内容，以使其保持最新。"
+"下次更新时，{suse} 提供的新数据将重写原来的数据文件，而不是这个新文件。您需要在新文件中使用 {suse} 提供的更改覆盖相应内容，以使其保持最新。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/bootstrap-repository.adoc:19
@@ -2643,7 +2619,7 @@ msgstr "手动生成引导软件源"
 msgid ""
 "By default, bootstrap repositories are regenerated daily.  You can manually "
 "create the bootstrap repository from the command prompt."
-msgstr "默认情况下，每天都会重新生成引导软件源。  您可以在命令提示符处手动创建引导软件源。"
+msgstr "默认情况下，每天都会重新生成引导软件源。您可以在命令提示符处手动创建引导软件源。"
 
 #. type: Block title
 #: modules/client-configuration/pages/bootstrap-repository.adoc:21
@@ -2696,8 +2672,9 @@ msgid ""
 "code bases, so there is no need to specify a parent channel.  Use this "
 "procedure only if your environment requires it."
 msgstr ""
-"如果您镜像了多个产品（例如 SLES 和 SLES for SAP），或者您使用的是自定义频道，在创建引导软件源时将需要指定要使用的父频道。  "
-"并不是在所有情况下都需要如此。  例如，部分 SLES{nbsp}15 版本使用共同的代码库，因此无需指定父频道。  只有您的环境需要时，才需使用此过程。"
+"如果您镜像了多个产品（例如 SLES 和 SLES for "
+"SAP），或者您使用的是自定义频道，在创建引导软件源时将需要指定要使用的父频道。并不是在所有情况下都需要如此。例如，部分 SLES{nbsp}15 "
+"版本使用共同的代码库，因此无需指定父频道。只有您的环境需要时，才需使用此过程。"
 
 #. type: Block title
 #: modules/client-configuration/pages/bootstrap-repository.adoc:28
@@ -2754,7 +2731,7 @@ msgid ""
 "use the same bootstrap repository URL at ``/srv/www/htdocs/pub/repositories/"
 "sle/15/2/bootstrap/``."
 msgstr ""
-"如果您要创建包含多个不同体系结构的引导软件源，则需要确保所有体系结构是否都已正确更新。  例如，{slea} 的 {x86_64} 和 {ibmz} "
+"如果您要创建包含多个不同体系结构的引导软件源，则需要确保所有体系结构是否都已正确更新。例如，{slea} 的 {x86_64} 和 {ibmz} "
 "体系结构使用相同的引导软件源 URL：``/srv/www/htdocs/pub/repositories/sle/15/2/bootstrap/``。"
 
 #. type: Plain text
@@ -2765,8 +2742,8 @@ msgid ""
 "generated.  To avoid this, use the ``--no-flush`` option at the command "
 "prompt when creating additional architectures.  For example:"
 msgstr ""
-"如果启用 ``flush`` 选项，当您尝试生成多个体系结构的引导软件源时，将仅生成一个体系结构。  要避免此问题，"
-"请在创建其他体系结构时于命令提示符处使用 ``--no-flush`` 选项。  例如："
+"如果启用 ``flush`` 选项，当您尝试生成多个体系结构的引导软件源时，将仅生成一个体系结构。要避免此问题，请在创建其他体系结构时于命令提示符处使用 "
+"``--no-flush`` 选项。例如："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/bootstrap-repository.adoc:36
@@ -2791,16 +2768,15 @@ msgid ""
 "channels`` option with the [command]``mgr-create-bootstrap-repo`` command.  "
 "In this case, you also need to specify the parent channel to use."
 msgstr ""
-"如果您要使用自定义频道，则可以在 [command]``mgr-create-bootstrap-repo`` 命令"
-"中使用 [option]``--with-custom- channels`` 选项。   在此情况下，您还需要指定"
-"要使用的父频道。"
+"如果您要使用自定义频道，则可以在 [command]``mgr-create-bootstrap-repo`` 命令中使用 [option"
+"]``--with-custom- channels`` 选项。在此情况下，您还需要指定要使用的父频道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/bootstrap-repository.adoc:39
 msgid ""
 "Automatic creation of a bootstrap repository might fail if you are using "
 "custom channels.  In this case, you need to create the repository manually."
-msgstr "如果您使用自定义频道，则自动创建引导软件源可能会失败。  在这种情况下，您需要手动创建软件源。"
+msgstr "如果您使用自定义频道，则自动创建引导软件源可能会失败。在这种情况下，您需要手动创建软件源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/bootstrap-repository.adoc:40
@@ -2822,7 +2798,7 @@ msgid ""
 "provided by repositories, and repositories are associated with channels.  "
 "Subscribing a client to a software channel allows the client to install and "
 "update any of the software associated with it."
-msgstr "频道是一种用于对软件包分组的方法。  软件包由软件源提供，而软件源与频道关联。   客户端订阅软件频道后，便可安装并更新与其关联的任何软件。"
+msgstr "频道是一种用于对软件包分组的方法。软件包由软件源提供，而软件源与频道关联。客户端订阅软件频道后，便可安装并更新与其关联的任何软件。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:3
@@ -2834,10 +2810,8 @@ msgid ""
 "system and architecture.  For paid channels provided by a vendor, you must "
 "have an associated subscription."
 msgstr ""
-"在 {productname} 中，频道分为基础频道和子频道。  以此方式组织频道可确保每个系"
-"统上只安装兼容的软件包。  客户端只能订阅一个基础频道，该频道是在注册期间根据"
-"客户端操作系统和体系结构指派的。  对于供应商提供的付费频道，您必须具有关联的"
-"订阅。"
+"在 {productname} 中，频道分为基础频道和子频道。以此方式组织频道可确保每个系统上只安装兼容的软件包。客户端只能订阅一个基础频道，该频道是在注"
+"册期间根据客户端操作系统和体系结构指派的。对于供应商提供的付费频道，您必须具有关联的订阅。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:4
@@ -2847,8 +2821,8 @@ msgid ""
 "base channel contains only software compatible with that operating system "
 "and architecture."
 msgstr ""
-"基础频道中包含为特定操作系统类型、版本和体系结构构建的软件包。  例如，{sles}"
-"{nbsp}15 {x86_64} 基础频道中仅包含与该操作系统和体系结构兼容的软件。"
+"基础频道中包含为特定操作系统类型、版本和体系结构构建的软件包。例如，{sles}{nbsp}15 {x86_64} "
+"基础频道中仅包含与该操作系统和体系结构兼容的软件。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:5
@@ -2862,10 +2836,8 @@ msgid ""
 "packages made available through the compatible base channel, or any of its "
 "associated child channels."
 msgstr ""
-"子频道与基础频道关联，仅提供与基础频道兼容的软件包。  一个系统可订阅其基础频"
-"道的多个子频道。  将系统指派到基础频道后，该系统便只能安装相关的子频道。  例"
-"如，如果将系统指派到 {sles}{nbsp}15 `x86_64` 基础频道，那么便只能安装或更新通"
-"过兼容基础频道或它的任何关联子频道提供的软件包。"
+"子频道与基础频道关联，仅提供与基础频道兼容的软件包。一个系统可订阅其基础频道的多个子频道。将系统指派到基础频道后，该系统便只能安装相关的子频道。例如，"
+"如果将系统指派到 {sles}{nbsp}15 `x86_64` 基础频道，那么便只能安装或更新通过兼容基础频道或它的任何关联子频道提供的软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:6
@@ -2874,8 +2846,8 @@ msgid ""
 "navigating to menu:Software[Channel List > All].  You can modify or create "
 "new channels by navigating to menu:Software[Manage > Channels]."
 msgstr ""
-"在 {productname} {webui} 中，您可以导航到menu:软件[频道列表 > 所有]来浏览可用"
-"频道。  您可以通过导航到menu:软件[管理 > 频道]修改或创建新频道。"
+"在 {productname} {webui} 中，您可以导航到menu:软件[频道列表 > 所有]来浏览可用频道。您可以通过导航到menu:软件[管理 "
+"> 频道]修改或创建新频道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:7
@@ -2913,8 +2885,7 @@ msgstr ""
 msgid ""
 "The packages in {phub} are provided by the {opensuse} community.  They are "
 "not supported by {suse}."
-msgstr ""
-"{phub} 中的软件包由 {opensuse} 社区提供。  {suse} 不会为这些软件包提供支持。"
+msgstr "{phub} 中的软件包由 {opensuse} 社区提供。{suse} 不会为这些软件包提供支持。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:12
@@ -2923,8 +2894,8 @@ msgid ""
 "{phub} extension to access these additional packages.  This provides the "
 "{phub} channels, which you can subscribe your clients to."
 msgstr ""
-"如果您在客户端上使用的是 {sle} 操作系统，则可启用 {phub} 扩展来访问这些额外的"
-"软件包。  这样会提供 {phub} 频道，您可以为客户端订阅这些频道。"
+"如果您在客户端上使用的是 {sle} 操作系统，则可启用 {phub} 扩展来访问这些额外的软件包。这样会提供 {phub} "
+"频道，您可以为客户端订阅这些频道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:13
@@ -2933,8 +2904,7 @@ msgid ""
 "synchronize and consume a large amount of disk space.  Do not enable {phub} "
 "unless you require the packages it provides."
 msgstr ""
-"{phub} 提供了大量软件包，可能需要花很长时间进行同步，并会占用大量磁盘空间。  "
-"除非您确实需要 {phub} 提供的软件包，否则请不要启用它。"
+"{phub} 提供了大量软件包，可能需要花很长时间进行同步，并会占用大量磁盘空间。除非您确实需要 {phub} 提供的软件包，否则请不要启用它。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:14
@@ -2945,10 +2915,9 @@ msgid ""
 "specific packages you require.  For more information about content lifecycle "
 "management, see xref:administration:content-lifecycle.adoc[]."
 msgstr ""
-"为了避免无意间安装或更新不支持的软件包，建议您实施一开始会拒绝所有 {phub} 软"
-"件包的内容生命周期管理策略。  然后，您可以显式启用所需的特定软件包。  有关内"
-"容生命周期管理的详细信息，请参见 xref:administration:content-lifecycle."
-"adoc[]。"
+"为了避免无意间安装或更新不支持的软件包，建议您实施一开始会拒绝所有 {phub} "
+"软件包的内容生命周期管理策略。然后，您可以显式启用所需的特定软件包。有关内容生命周期管理的详细信息，请参见 xref:administration"
+":content-lifecycle.adoc[]。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/channels.adoc:15
@@ -2963,8 +2932,8 @@ msgid ""
 "AppStream.  In most cases, the AppStream packages are required to ensure "
 "that you have all the software you need."
 msgstr ""
-"对于基于 {redhat} 的客户端，通过 AppStream 来提供额外的软件包。  大多数情况下"
-"都需要 AppStream 软件包来确保您已拥有所有必需的软件。"
+"对于基于 {redhat} 的客户端，通过 AppStream 来提供额外的软件包。大多数情况下都需要 AppStream "
+"软件包来确保您已拥有所有必需的软件。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:17
@@ -2978,9 +2947,9 @@ msgid ""
 "about the CLM AppStream filters, see xref:administration:content-lifecycle-"
 "examples.adoc[]."
 msgstr ""
-"当您在 {productname} {webui} 中管理 AppStream 软件包时，您可能会注意到系统会显示相互矛盾的软件包更新建议。   "
-"这是由于 {productname} 无法正确解释模块化元数据。  您可以使用内容生命周期管理 (CLM) AppStream 过滤器将 "
-"AppStream 软件源转换为非模块化软件源，以在执行某些升级操作时使用。  有关 CLMR AppStream 过滤器的详细信息，请参见 "
+"当您在 {productname} {webui} 中管理 AppStream 软件包时，您可能会注意到系统会显示相互矛盾的软件包更新建议。这是由于 "
+"{productname} 无法正确解释模块化元数据。您可以使用内容生命周期管理 (CLM) AppStream 过滤器将 AppStream "
+"软件源转换为非模块化软件源，以在执行某些升级操作时使用。有关 CLMR AppStream 过滤器的详细信息，请参见 "
 "xref:administration:content-lifecycle-examples.adoc[]。"
 
 #. type: Title ==
@@ -2996,7 +2965,7 @@ msgid ""
 "(extra packages for enterprise Linux).  EPEL is an optional package "
 "repository that provides additional software."
 msgstr ""
-"对于基于 {redhat} 的客户端，通过 EPEL 提供额外的软件包（适用于企业版 Linux 的额外软件包）。  EPEL "
+"对于基于 {redhat} 的客户端，通过 EPEL 提供额外的软件包（适用于企业版 Linux 的额外软件包）。EPEL "
 "是可选软件包软件源，用于提供额外的软件。"
 
 #. type: delimited block =
@@ -3004,7 +2973,7 @@ msgstr ""
 msgid ""
 "The packages in EPEL are provided by the Fedora community.  They are not "
 "supported by {suse}."
-msgstr "EPEL 中的软件包由 Fedora 社区提供。  {suse} 不会为这些软件包提供支持。"
+msgstr "EPEL 中的软件包由 Fedora 社区提供。{suse} 不会为这些软件包提供支持。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:21
@@ -3013,8 +2982,8 @@ msgid ""
 "the EPEL extension to access these additional packages.  This provides the "
 "EPEL channels, which you can subscribe your clients to."
 msgstr ""
-"如果您在客户端上使用的是 {redhat} 操作系统，则可启用 EPEL 扩展来访问这些额外"
-"的软件包。  这样会提供 EPEL 频道，您可以为客户端订阅这些频道。"
+"如果您在客户端上使用的是 {redhat} 操作系统，则可启用 EPEL 扩展来访问这些额外的软件包。这样会提供 EPEL "
+"频道，您可以为客户端订阅这些频道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:22
@@ -3023,8 +2992,7 @@ msgid ""
 "synchronize and consume a large amount of disk space.  Do not enable the "
 "EPEL repositories unless you require the packages it provides."
 msgstr ""
-"EPEL 提供了大量软件包，可能需要花很长时间进行同步，并会占用大量磁盘空间。  除非您确实需要 EPEL 提供的软件包，否则请不要启用 EPEL "
-"软件源。"
+"EPEL 提供了大量软件包，可能需要花很长时间进行同步，并会占用大量磁盘空间。除非您确实需要 EPEL 提供的软件包，否则请不要启用 EPEL 软件源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:23
@@ -3035,10 +3003,9 @@ msgid ""
 "specific packages you require.  For more information about content lifecycle "
 "management, see xref:administration:content-lifecycle.adoc[]."
 msgstr ""
-"为了避免无意间安装或更新不支持的软件包，建议您实施一开始会拒绝所有 EPEL 软件"
-"包的内容生命周期管理 (CLM) 策略。  然后，您可以显式启用所需的特定软件包。  有"
-"关内容生命周期管理的详细信息，请参见 xref:administration:content-lifecycle."
-"adoc[]。"
+"为了避免无意间安装或更新不支持的软件包，建议您实施一开始会拒绝所有 EPEL 软件包的内容生命周期管理 (CLM) "
+"策略。然后，您可以显式启用所需的特定软件包。有关内容生命周期管理的详细信息，请参见 xref:administration:content-"
+"lifecycle.adoc[]。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/channels.adoc:24
@@ -3052,9 +3019,7 @@ msgid ""
 "This channel is used by the unified installer to ensure it is up to date "
 "before it installs the operating system.  All {sle} products should have "
 "access to the installer updates channel during installation."
-msgstr ""
-"此频道由统一安装程序使用，以确保其在安装操作系统前是最新的。  所有 {sle} 产品"
-"在安装期间都应能够访问安装程序更新频道。"
+msgstr "此频道由统一安装程序使用，以确保其在安装操作系统前是最新的。所有 {sle} 产品在安装期间都应能够访问安装程序更新频道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/channels.adoc:26
@@ -3169,9 +3134,8 @@ msgid ""
 "Proxy], then select the [guimenu]``Proxy`` subtab of the "
 "[guimenu]``Details`` tab."
 msgstr ""
-"在 {webui} 中，代理页面会显示有关 Salt 客户端和传统客户端的信息。  您可以在"
-"menu:系统[系统列表 > 代理]中单击代理的名称，然后选择[guimenu]``细节``选项卡的"
-"[guimenu]``代理``子选项卡，以查看连接到代理的客户端列表。"
+"在 {webui} 中，代理页面会显示有关 Salt 客户端和传统客户端的信息。您可以在menu:系统[系统列表 > "
+"代理]中单击代理的名称，然后选择[guimenu]``细节``选项卡的[guimenu]``代理``子选项卡，以查看连接到代理的客户端列表。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy.adoc:5
@@ -3239,9 +3203,8 @@ msgid ""
 "you also must have activated the [systemitem]``Advanced Systems Management`` "
 "module."
 msgstr ""
-"除了 {webui} 以外，您也可以使用命令行将 Salt 客户端注册到代理。  要执行此过"
-"程，您需要在注册前于 Salt 客户端上安装 Salt 软件包。  对于基于 SLE 12 的客户"
-"端，您还需要激活[systemitem]``高级系统管理``模块。"
+"除了 {webui} 以外，您也可以使用命令行将 Salt 客户端注册到代理。要执行此过程，您需要在注册前于 Salt 客户端上安装 Salt 软件包。"
+"对于基于 SLE 12 的客户端，您还需要激活[systemitem]``高级系统管理``模块。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-proxy-cli.adoc:3
@@ -3251,8 +3214,7 @@ msgid ""
 "procedure to register traditional clients.  For more information, see xref:"
 "client-proxy-script.adoc[]."
 msgstr ""
-"您也可以在命令行上注册传统客户端，但这需要执行更多步骤。  本指南中将不讨"
-"论。  请使用引导脚本过程注册传统客户端。  有关详细信息，请参见 xref:client-"
+"您也可以在命令行上注册传统客户端，但这需要执行更多步骤。本指南中将不讨论。请使用引导脚本过程注册传统客户端。有关详细信息，请参见 xref:client-"
 "proxy-script.adoc[]。"
 
 #. type: Block title
@@ -3389,8 +3351,8 @@ msgid ""
 "script.  To install a traditional client instead of a Salt client, ensure "
 "you use the [command]``--traditional`` switch."
 msgstr ""
-"如果需要，请使用其他命令行开关来微调您的引导脚本。  要安装传统客户端而不是 "
-"Salt 客户端，请务必使用 [command]``--traditional`` 开关。"
+"如果需要，请使用其他命令行开关来微调您的引导脚本。要安装传统客户端而不是 Salt 客户端，请务必使用 "
+"[command]``--traditional`` 开关。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-proxy-script.adoc:8
@@ -3611,17 +3573,15 @@ msgid ""
 "base media repositories and {centos} installation media, as well as "
 "connecting {productname} Server to the {centos} content delivery network."
 msgstr ""
-"{centos} 客户端基于 {centos}，与 {sleses}、RES、{redhat} 或 {es} 不相关。  您需负责安排对 {centos}"
-" 基础媒体软件源和 {centos} 安装媒体的访问权限，以及将 {productname} 服务器连接到 {centos} 内容分发网络。"
+"{centos} 客户端基于 {centos}，与 {sleses}、RES、{redhat} 或 {es} 不相关。您需负责安排对 {centos} "
+"基础媒体软件源和 {centos} 安装媒体的访问权限，以及将 {productname} 服务器连接到 {centos} 内容分发网络。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:4
 msgid ""
 "Traditional clients are not available on {centos}{nbsp}8.  {centos}{nbsp}8 "
 "clients are only supported as Salt clients."
-msgstr ""
-"传统客户端不适用于 {centos}{nbsp}8。  仅当 {centos}{nbsp}8 客户端为 Salt 客户"
-"端时才受支持。"
+msgstr "传统客户端不适用于 {centos}{nbsp}8。仅当 {centos}{nbsp}8 客户端为 Salt 客户端时才受支持。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:5
@@ -3630,9 +3590,8 @@ msgid ""
 "SELinux configuration of ``enforcing`` with a ``targeted`` policy.  You do "
 "not need to disable SELinux to register {centos} clients to {productname}."
 msgstr ""
-"我们已使用``针对性``策略并采用默认的 ``enforcing`` SELinux 配置对将 {centos} "
-"客户端注册到 {productname} 的过程进行了测试。  将 {centos} 客户端注册到 "
-"{productname} 时，您无需禁用 SELinux。"
+"我们已使用``针对性``策略并采用默认的 ``enforcing`` SELinux 配置对将 {centos} 客户端注册到 {productname}"
+" 的过程进行了测试。将 {centos} 客户端注册到 {productname} 时，您无需禁用 SELinux。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-centos.adoc:6
@@ -3748,8 +3707,8 @@ msgid ""
 "require packages from both channels.  If you do not add both channels, you "
 "cannot create the bootstrap repository, due to missing packages."
 msgstr ""
-"对于 {centos} 8 客户端，请添加基础频道和 AppStream 频道。  您需要来自这两个频道的软件包。  "
-"如果未添加这两个频道，将会因缺少软件包而无法创建引导软件源。"
+"对于 {centos} 8 客户端，请添加基础频道和 AppStream "
+"频道。您需要来自这两个频道的软件包。如果未添加这两个频道，将会因缺少软件包而无法创建引导软件源。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:16
@@ -3761,9 +3720,9 @@ msgid ""
 "repositories.  {centos} removes older version of packages when a new version "
 "is released, while {productname} keeps all of them, regardless of age."
 msgstr ""
-"您可能会发现 AppStream 频道中提供的软件包数量在上游频道和 {productname} 频道之间存在一定的差异。  "
-"如果您对在不同时间添加的同一频道进行比较，会发现其数量也不相同。  这是由 {centos} 管理其软件源的方式所致。  "
-"当有新版本发布时，{centos} 会去除软件包的较旧版本，而 {productname} 则会保留所有版本，无论新旧与否。"
+"您可能会发现 AppStream 频道中提供的软件包数量在上游频道和 {productname} "
+"频道之间存在一定的差异。如果您对在不同时间添加的同一频道进行比较，会发现其数量也不相同。这是由 {centos} "
+"管理其软件源的方式所致。当有新版本发布时，{centos} 会去除软件包的较旧版本，而 {productname} 则会保留所有版本，无论新旧与否。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-centos.adoc:17
@@ -3836,8 +3795,8 @@ msgid ""
 "{centos} clients are registered in the same way as all other clients.  For "
 "more information, see xref:client-configuration:registration-overview.adoc[]."
 msgstr ""
-"{centos} 客户端的注册方式与所有其他客户端的注册方式相同。  有关详细信息，请参"
-"见 xref:client-configuration:registration-overview.adoc[]。"
+"{centos} 客户端的注册方式与所有其他客户端的注册方式相同。有关详细信息，请参见 xref:client-configuration"
+":registration-overview.adoc[]。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:24
@@ -3847,9 +3806,9 @@ msgid ""
 "information about how to resolve this error, see ``Registering Older "
 "Clients`` at xref:client-configuration:tshoot-clients.adoc[]."
 msgstr ""
-"要注册和使用 {centos}{nbsp}6 客户端，您需要配置 {productname} 服务器以支持较"
-"旧类型的 SSL 加密。  有关如何解决此错误的详细信息，请参见 xref:client-"
-"configuration:tshoot-clients.adoc[] 中的``注册较旧的客户端``。"
+"要注册和使用 {centos}{nbsp}6 客户端，您需要配置 {productname} 服务器以支持较旧类型的 SSL "
+"加密。有关如何解决此错误的详细信息，请参见 xref:client-configuration:tshoot-clients.adoc[] "
+"中的``注册较旧的客户端``。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-centos.adoc:25
@@ -3863,9 +3822,7 @@ msgid ""
 "When you update {centos} clients, the packages do not include metadata about "
 "the updates.  You can use a third-party errata service to obtain this "
 "information."
-msgstr ""
-"当您更新 {centos} 客户端时，软件包不包含有关更新的元数据。  您可以使用第三方"
-"勘误服务来获取此信息。"
+msgstr "当您更新 {centos} 客户端时，软件包不包含有关更新的元数据。您可以使用第三方勘误服务来获取此信息。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:27
@@ -3885,10 +3842,10 @@ msgid ""
 "issues/28#issuecomment-656579382 and https://github.com/stevemeier/cefs/"
 "issues/28#issuecomment-656573607."
 msgstr ""
-"CEFS 的作者会按照尽力而为的原则提供补丁或勘误，希望它们有用，但无法保证其正确性或及时性。   "
-"这意味着补丁日期可能不正确，且至少在一种情况下所显示的发布数据滞后一个多月。  有关这些情况的详细信息，请参见 https://github.com/"
-"stevemeier/cefs/issues/28#issuecomment-656579382 和 https://github.com/"
-"stevemeier/cefs/issues/28#issuecomment-656573607[]。"
+"CEFS 的作者会按照尽力而为的原则提供补丁或勘误，希望它们有用，但无法保证其正确性或及时性。这意味着补丁日期可能不正确，且至少在一种情况下所显示的发布数"
+"据滞后一个多月。有关这些情况的详细信息，请参见 https://github.com/stevemeier/cefs/issues/"
+"28#issuecomment-656579382 和 https://github.com/stevemeier/cefs/issues/"
+"28#issuecomment-656573607[]。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-centos.adoc:29
@@ -3901,10 +3858,8 @@ msgid ""
 "system, depending on your security-related requirements and certifications "
 "criteria."
 msgstr ""
-"任何有关补丁数据的问题或滞后都可能导致将不可靠的补丁信息导入到您的 "
-"{productname} 服务器中，  进而导致报告、审计、CVE 更新或其他与补丁相关的信息"
-"也不正确。  请考虑使用其他方案来替代此服务，例如独立校验补丁数据或选择其他操"
-"作系统，具体取决于您的安全相关要求和认证准则。"
+"任何有关补丁数据的问题或滞后都可能导致将不可靠的补丁信息导入到您的 {productname} 服务器中，  进而导致报告、审计、CVE "
+"更新或其他与补丁相关的信息也不正确。请考虑使用其他方案来替代此服务，例如独立校验补丁数据或选择其他操作系统，具体取决于您的安全相关要求和认证准则。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-centos.adoc:30
@@ -4061,10 +4016,9 @@ msgid ""
 "{nbsp}10 Buster.  Do not rely on {debian} clients in a production "
 "environment."
 msgstr ""
-"对于 {debian} 操作系统，{suse} 不提供支持。   {productname} 允许您管理 "
-"{debian} 客户端，但不提供支持。  使用 {productname} 管理 {debian} 客户端是试"
-"验性功能。   这些说明已在 {debian}{nbsp}9 Stretch 和 {debian} {nbsp}10 "
-"Buster 上经过测试。  请勿依赖生产环境中的 {debian} 客户端。"
+"对于 {debian} 操作系统，{suse} 不提供支持。{productname} 允许您管理 {debian} 客户端，但不提供支持。使用 "
+"{productname} 管理 {debian} 客户端是试验性功能。这些说明已在 {debian}{nbsp}9 Stretch 和 {debian}"
+" {nbsp}10 Buster 上经过测试。请勿依赖生产环境中的 {debian} 客户端。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-debian.adoc:4
@@ -4165,7 +4119,7 @@ msgstr ""
 msgid ""
 "Alternatively, you can add channels at the command prompt.  The channels you "
 "need for this procedure are:"
-msgstr "或者，您也可以在命令提示符处添加频道。  此过程所需的频道包括："
+msgstr "或者，您也可以在命令提示符处添加频道。此过程所需的频道包括："
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-debian.adoc:19
@@ -4233,7 +4187,7 @@ msgstr ""
 msgid ""
 "{debian} channels can be very large.  Synchronization can sometimes take "
 "several hours."
-msgstr "{debian} 频道可能会非常大。  同步所需的时间可能会长达数小时。"
+msgstr "{debian} 频道可能会非常大。同步所需的时间可能会长达数小时。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-debian.adoc:28
@@ -4241,8 +4195,7 @@ msgid ""
 "To register your {debian} clients, you need a bootstrap repository.  By "
 "default, bootstrap repositories are regenerated daily.  You can manually "
 "create the bootstrap repository from the command prompt, using this command:"
-msgstr ""
-"要注册您的 {debian} 客户端，需要有引导软件源。  默认会每天重新生成引导软件源。  您可以在命令提示符处使用以下命令手动创建引导软件源："
+msgstr "要注册您的 {debian} 客户端，需要有引导软件源。默认会每天重新生成引导软件源。您可以在命令提示符处使用以下命令手动创建引导软件源："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-debian.adoc:29
@@ -4289,8 +4242,8 @@ msgid ""
 "openSUSE operating systems.  {productname} supports openSUSE Leap 15 clients "
 "using Salt.  Traditional clients are not supported."
 msgstr ""
-"本节包含有关注册运行 openSUSE 操作系统的 Salt 客户端的信息。  {productname} "
-"支持使用 Salt 的 openSUSE Leap 15 客户端。  传统客户端不受支持。"
+"本节包含有关注册运行 openSUSE 操作系统的 Salt 客户端的信息。{productname} 支持使用 Salt 的 openSUSE "
+"Leap 15 客户端。传统客户端不受支持。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-opensuse.adoc:3
@@ -4403,8 +4356,8 @@ msgid ""
 "daily for all synchronized products.  You can manually create the bootstrap "
 "repository from the command prompt, using this command:"
 msgstr ""
-"要注册您的 OpenSUSE 客户端，需要有引导软件源。 默认会自动创建并且每天会为所有同步的产品重新生成引导软件源。 "
-"您可以在命令提示符处使用以下命令手动创建引导软件源："
+"要注册您的 OpenSUSE "
+"客户端，需要有引导软件源。默认会自动创建并且每天会为所有同步的产品重新生成引导软件源。您可以在命令提示符处使用以下命令手动创建引导软件源："
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-oracle.adoc:1
@@ -4427,7 +4380,7 @@ msgid ""
 "metadata are provided by Oracle, not by {suse}.  {oracle} base media "
 "repositories are freely available for download from https://yum.oracle.com/."
 msgstr ""
-"{oracle} 软件源 URL 可从 {scc} 获取，但软件包和元数据由 Oracle 而不是 {suse} 提供。  {oracle} "
+"{oracle} 软件源 URL 可从 {scc} 获取，但软件包和元数据由 Oracle 而不是 {suse} 提供。{oracle} "
 "基础媒体软件源可从 https://yum.oracle.com/ 免费下载。"
 
 #. type: delimited block =
@@ -4435,9 +4388,7 @@ msgstr ""
 msgid ""
 "Traditional clients are not available on {oracle}{nbsp}8.  {oracle}{nbsp}8 "
 "clients are only supported as Salt clients."
-msgstr ""
-"传统客户端不适用于 {oracle}{nbsp}8。  仅当 {oracle}{nbsp}8 客户端为 Salt 客户"
-"端时才受支持。"
+msgstr "传统客户端不适用于 {oracle}{nbsp}8。仅当 {oracle}{nbsp}8 客户端为 Salt 客户端时才受支持。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-oracle.adoc:6
@@ -4527,8 +4478,8 @@ msgid ""
 "require packages from both channels.  If you do not add both channels, you "
 "cannot create the bootstrap repository, due to missing packages."
 msgstr ""
-"对于 {oracle} 8 客户端，请添加基础频道和 AppStream 频道。  您需要来自这两个频道的软件包。  "
-"如果未添加这两个频道，将会因缺少软件包而无法创建引导软件源。"
+"对于 {oracle} 8 客户端，请添加基础频道和 AppStream "
+"频道。您需要来自这两个频道的软件包。如果未添加这两个频道，将会因缺少软件包而无法创建引导软件源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-oracle.adoc:17
@@ -4543,7 +4494,7 @@ msgid ""
 "{oracle} clients are registered in the same way as all other clients.  For "
 "more information, see xref:client-configuration:registration-overview.adoc[]."
 msgstr ""
-"{oracle} 客户端的注册方式与所有其他客户端的注册方式相同。  有关详细信息，请参见 xref:client-configuration"
+"{oracle} 客户端的注册方式与所有其他客户端的注册方式相同。有关详细信息，请参见 xref:client-configuration"
 ":registration-overview.adoc[]。"
 
 #. type: delimited block =
@@ -4554,9 +4505,9 @@ msgid ""
 "information about how to resolve this error, see ``Registering Older "
 "Clients`` at xref:client-configuration:tshoot-clients.adoc[]."
 msgstr ""
-"要注册和使用 {oracle}{nbsp}6 客户端，您需要配置 {productname} 服务器以支持较"
-"旧类型的 SSL 加密。  有关如何解决此错误的详细信息，请参见 xref:client-"
-"configuration:tshoot-clients.adoc[] 中的``注册较旧的客户端``。"
+"要注册和使用 {oracle}{nbsp}6 客户端，您需要配置 {productname} 服务器以支持较旧类型的 SSL "
+"加密。有关如何解决此错误的详细信息，请参见 xref:client-configuration:tshoot-clients.adoc[] "
+"中的``注册较旧的客户端``。"
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:1
@@ -4572,9 +4523,8 @@ msgid ""
 "contains information about using the {redhat} content delivery network (CDN) "
 "to register traditional and Salt clients running {rhel} operating systems."
 msgstr ""
-"如果您是直接运行 {rhel} 客户端而不是使用 {sleses} 来运行，则需要使用 Red Hat "
-"来源检索并更新软件包。  本节包含有关使用 {redhat} 内容分发网络 (CDN) 注册运"
-"行 {rhel} 操作系统的传统客户端和 Salt 客户端的信息。"
+"如果您是直接运行 {rhel} 客户端而不是使用 {sleses} 来运行，则需要使用 Red Hat 来源检索并更新软件包。本节包含有关使用 "
+"{redhat} 内容分发网络 (CDN) 注册运行 {rhel} 操作系统的传统客户端和 Salt 客户端的信息。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:3
@@ -4606,9 +4556,7 @@ msgstr ""
 msgid ""
 "Traditional clients are available on {rhel}{nbsp}6 and 7 only.  {rhel}{nbsp}"
 "8 clients are supported as Salt clients."
-msgstr ""
-"传统客户端仅适用于 {rhel}{nbsp}6 和 7。  当 {rhel}{nbsp} 8 客户端为 Salt 客户"
-"端时才受支持。"
+msgstr "传统客户端仅适用于 {rhel}{nbsp}6 和 7。当 {rhel}{nbsp} 8 客户端为 Salt 客户端时才受支持。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:6
@@ -4633,9 +4581,7 @@ msgid ""
 "Entitlement certificates are embedded with expiration dates, which match the "
 "length of the support subscription.  To avoid disruption, you need to repeat "
 "this process at the end of every support subscription period."
-msgstr ""
-"权利证书内嵌失效日期，与支持订阅的期限匹配。  为避免服务中断，您需要在每个支"
-"持订阅期结束时重复此过程。"
+msgstr "权利证书内嵌失效日期，与支持订阅的期限匹配。为避免服务中断，您需要在每个支持订阅期结束时重复此过程。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:9
@@ -4654,7 +4600,7 @@ msgstr ""
 msgid ""
 "{redhat} clients use a URL to replicate repositories.  The URL changes "
 "depending on where the {redhat} client is registered."
-msgstr "{redhat} 客户端使用 URL 来复制软件源。  URL 更改取决于 {redhat} 客户端是在何处注册的。"
+msgstr "{redhat} 客户端使用 URL 来复制软件源。URL 更改取决于 {redhat} 客户端是在何处注册的。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:11
@@ -4686,7 +4632,7 @@ msgid ""
 "This guide covers clients registered to {redhat} CDN.  You must have at "
 "least one system registered to the CDN, with an authorized subscription for "
 "repository content."
-msgstr "本指南将介绍注册到 {redhat} CDN 的客户端。  您至少须有一个注册到 CDN 的系统并拥有授权订阅，以获得软件源内容。"
+msgstr "本指南将介绍注册到 {redhat} CDN 的客户端。您至少须有一个注册到 CDN 的系统并拥有授权订阅，以获得软件源内容。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:17
@@ -4695,9 +4641,7 @@ msgid ""
 "Satellite certificates for client systems require a Satellite server and "
 "subscription.  Clients using Satellite certificates are not supported with "
 "{productname} Server."
-msgstr ""
-"要为客户端系统使用从属证书，必须有从属服务器和订阅。  {productname} 服务器不"
-"支持使用从属证书的客户端。"
+msgstr "要为客户端系统使用从属证书，必须有从属服务器和订阅。{productname} 服务器不支持使用从属证书的客户端。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:19
@@ -4707,9 +4651,8 @@ msgid ""
 "products and subscriptions.  Register to redhat.com with subscription-"
 "manager, then follow this procedure to obtain certificates."
 msgstr ""
-"{redhat} 提供了订阅管理器工具，可用于管理订阅指派。  此工具在客户端系统本地运"
-"行，可跟踪安装的产品和订阅。  使用订阅管理器注册到 redhat.com，然后执行下列过"
-"程获得证书。"
+"{redhat} 提供了订阅管理器工具，可用于管理订阅指派。此工具在客户端系统本地运行，可跟踪安装的产品和订阅。使用订阅管理器注册到 redhat."
+"com，然后执行下列过程获得证书。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:20
@@ -4755,9 +4698,7 @@ msgstr "cp/etc/pki/entitlement/ /<example>/entitlement/\n"
 msgid ""
 "Your entitlement certificate and key both have a file extension of [path]``."
 "pem``.  The key also has [path]``key`` in the filename."
-msgstr ""
-"您的权利证书和密钥的文件扩展名均为 [path]``.pem``。  密钥的文件名中还包含 "
-"[path]``key``。"
+msgstr "您的权利证书和密钥的文件扩展名均为 [path]``.pem``。密钥的文件名中还包含 [path]``key``。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:27
@@ -4783,8 +4724,8 @@ msgid ""
 "one each for the entitlement certificate, the entitlement key, and the "
 "{redhat} certificate."
 msgstr ""
-"要管理 {redhat} 客户端上的软件源，您需要将 CA 和权利证书导入 {productname} 服务器。  "
-"这需要您执行三次导入过程以创建相应的三项：  三项分别对应权利证书、权利密钥和 {redhat} 证书。"
+"要管理 {redhat} 客户端上的软件源，您需要将 CA 和权利证书导入 {productname} 服务器。这需要您执行三次导入过程以创建相应的三项："
+"  三项分别对应权利证书、权利密钥和 {redhat} 证书。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:30
@@ -4911,8 +4852,8 @@ msgid ""
 "for this to work correctly.  You can use the subscription manager tool to "
 "get the URLs of the repositories you want to mirror:"
 msgstr ""
-"要从 Red Hat CDN 镜像软件，您需要在 {productname} 中创建自定义频道和软件源，它们都将通过 URL 链接到 CDN。  "
-"您必须在 Red Hat 门户中拥有这些产品的权利，此功能才能正常工作。  可以使用订阅管理器工具获得要镜像的软件源的 URL："
+"要从 Red Hat CDN 镜像软件，您需要在 {productname} 中创建自定义频道和软件源，它们都将通过 URL 链接到 CDN。您必须在 "
+"Red Hat 门户中拥有这些产品的权利，此功能才能正常工作。可以使用订阅管理器工具获得要镜像的软件源的 URL："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:49
@@ -4926,7 +4867,7 @@ msgstr "subscription-manager repos\n"
 msgid ""
 "You can use these repository URLs to create custom repositories.  This "
 "allows you to mirror only the content you need to manage your clients."
-msgstr "可以使用这些软件源 URL 来创建自定义软件源。  这样您便可只镜像管理客户端所需的内容。"
+msgstr "可以使用这些软件源 URL 来创建自定义软件源。这样您便可只镜像管理客户端所需的内容。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:51
@@ -4999,8 +4940,8 @@ msgid ""
 "require packages from both channels.  If you do not add both channels, you "
 "cannot create the bootstrap repository, due to missing packages."
 msgstr ""
-"对于 {redhat} 8 客户端，请添加基础频道和 AppStream 频道。  您需要来自这两个频道的软件包。  "
-"如果未添加这两个频道，将会因缺少软件包而无法创建引导软件源。"
+"对于 {redhat} 8 客户端，请添加基础频道和 AppStream "
+"频道。您需要来自这两个频道的软件包。如果未添加这两个频道，将会因缺少软件包而无法创建引导软件源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:60
@@ -5021,8 +4962,8 @@ msgid ""
 "tools channel to create the bootstrap repository.  This procedure applies to "
 "both Salt and traditional clients."
 msgstr ""
-"拥有 {susemgr} 订阅，您便能使用 {sleses}（也称为 {redhat} 扩展支持或 RES）的工具频道。  "
-"必须使用客户端工具频道来创建引导软件源。  此过程适用于 Salt 客户端和传统客户端。"
+"拥有 {susemgr} 订阅，您便能使用 {sleses}（也称为 {redhat} 扩展支持或 "
+"RES）的工具频道。必须使用客户端工具频道来创建引导软件源。此过程适用于 Salt 客户端和传统客户端。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:63
@@ -5106,7 +5047,7 @@ msgstr ""
 msgid ""
 "{rhel} channels can be very large.  Synchronization can sometimes take "
 "several hours."
-msgstr "{rhel} 频道可能会非常大。  同步所需的时间可能会长达数小时。"
+msgstr "{rhel} 频道可能会非常大。同步所需的时间可能会长达数小时。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:71
@@ -5386,9 +5327,9 @@ msgid ""
 "information about how to resolve this error, see ``Registering Older "
 "Clients`` at xref:client-configuration:tshoot-clients.adoc[]."
 msgstr ""
-"要注册和使用 {rhel}{nbsp}6 客户端，您需要配置 {productname} 服务器以支持较旧"
-"类型的 SSL 加密。  有关如何解决此错误的详细信息，请参见 xref:client-"
-"configuration:tshoot-clients.adoc[] 中的``注册较旧的客户端``。"
+"要注册和使用 {rhel}{nbsp}6 客户端，您需要配置 {productname} 服务器以支持较旧类型的 SSL "
+"加密。有关如何解决此错误的详细信息，请参见 xref:client-configuration:tshoot-clients.adoc[] "
+"中的``注册较旧的客户端``。"
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:1
@@ -5406,10 +5347,9 @@ msgid ""
 "you are running your clients in a public cloud, such as Amazon EC2, use this "
 "method."
 msgstr ""
-"如果您是直接运行 {rhel} 客户端而不是使用 {sleses} 来运行，则需要使用 Red Hat "
-"来源检索并更新软件包。  本节包含有关使用 {redhat} 更新基础结构 (RHUI) 注册运"
-"行 {rhel} 操作系统的传统客户端和 Salt 客户端的信息。  如果您是在公有云（如 "
-"Amazon EC2）中运行客户端，请使用此方法。"
+"如果您是直接运行 {rhel} 客户端而不是使用 {sleses} 来运行，则需要使用 Red Hat 来源检索并更新软件包。本节包含有关使用 "
+"{redhat} 更新基础结构 (RHUI) 注册运行 {rhel} 操作系统的传统客户端和 Salt 客户端的信息。如果您是在公有云（如 Amazon "
+"EC2）中运行客户端，请使用此方法。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:3
@@ -5418,9 +5358,8 @@ msgid ""
 "network (CDN) to manage your {rhel} subscriptions.  For information about "
 "using {redhat} CDN, see xref:client-configuration:clients-rh-cdn.adoc[]."
 msgstr ""
-"可以将 RHUI 与 {redhat} 内容分发网络 (CDN) 搭配使用来管理您的 {rhel} 订阅。  "
-"有关使用 {redhat} CDN 的信息，请参见 xref:client-configuration:clients-rh-"
-"cdn.adoc[]。"
+"可以将 RHUI 与 {redhat} 内容分发网络 (CDN) 搭配使用来管理您的 {rhel} 订阅。有关使用 {redhat} CDN 的信息，"
+"请参见 xref:client-configuration:clients-rh-cdn.adoc[]。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:4
@@ -5431,10 +5370,9 @@ msgid ""
 "RHUI certificate need to be correctly licensed, please check with your cloud "
 "provider and the {redhat} terms of service for more information."
 msgstr ""
-"{rhel} 客户端基于 {redhat}，与 {sleses}、RES 或 {sles} 不相关。  您需负责将 "
-"{productname} 服务器连接到 {redhat} 更新基础结构。  所有使用此 RHUI 证书进行"
-"更新的客户端都需要获得正确许可，有关详细信息，请咨询您的云服务提供商，并查看"
-"服务的 {redhat} 条款。"
+"{rhel} 客户端基于 {redhat}，与 {sleses}、RES 或 {sles} 不相关。您需负责将 {productname} 服务器连接到 "
+"{redhat} 更新基础结构。所有使用此 RHUI 证书进行更新的客户端都需要获得正确许可，有关详细信息，请咨询您的云服务提供商，并查看服务的 "
+"{redhat} 条款。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:5
@@ -5443,8 +5381,7 @@ msgid ""
 "declare the certificate invalid.  In this case, you need to turn the client "
 "on again, or get a new RHUI certificate."
 msgstr ""
-"当使用 RHUI 注册的 {rhel} 客户端关闭时，{redhat} 可能会声称证书无效。  在此情"
-"况下，您需要再次打开客户端，或获取新的 RHUI 证书。"
+"当使用 RHUI 注册的 {rhel} 客户端关闭时，{redhat} 可能会声称证书无效。在此情况下，您需要再次打开客户端，或获取新的 RHUI 证书。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:14
@@ -5453,7 +5390,7 @@ msgid ""
 "(RHUI).  You must have at least one system registered to RHUI, with an "
 "authorized subscription for repository content."
 msgstr ""
-"本指南将介绍注册到 {redhat} 更新基础结构 (RHUI) 的客户端。  您至少须有一个注册到 RHUI 的系统并拥有授权订阅，以获得软件源内容。"
+"本指南将介绍注册到 {redhat} 更新基础结构 (RHUI) 的客户端。您至少须有一个注册到 RHUI 的系统并拥有授权订阅，以获得软件源内容。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:15
@@ -5561,8 +5498,8 @@ msgid ""
 "correctly.  You can use the yum utility to get the URLs of the repositories "
 "you want to mirror:"
 msgstr ""
-"要从 RHUI 镜像软件，您需要在 {productname} 中创建自定义频道和软件源，它们都将通过 URL 链接到 RHUI。  您必须在 Red "
-"Hat 门户中拥有这些产品的权利，此功能才能正常工作。  可以使用 yum 实用程序获得要镜像的软件源的 URL："
+"要从 RHUI 镜像软件，您需要在 {productname} 中创建自定义频道和软件源，它们都将通过 URL 链接到 RHUI。您必须在 Red "
+"Hat 门户中拥有这些产品的权利，此功能才能正常工作。可以使用 yum 实用程序获得要镜像的软件源的 URL："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:44
@@ -5594,9 +5531,7 @@ msgid ""
 "To use RHUI, you need to manually add the required HTTP headers to the "
 "configuration file.  Without them, you cannot successfully perform a client "
 "synchronization."
-msgstr ""
-"要使用 RHUI，需要将所需的 HTTP 标头手动添加到配置文件。  没有这些标头，将无法"
-"成功执行客户端同步。"
+msgstr "要使用 RHUI，需要将所需的 HTTP 标头手动添加到配置文件。没有这些标头，将无法成功执行客户端同步。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:65
@@ -5661,7 +5596,7 @@ msgid ""
 "information, see ``Registering Older Clients`` at xref:client-configuration:"
 "tshoot-clients.adoc[]."
 msgstr ""
-"要注册和使用 {rhel}{nbsp}6 客户端，您需要配置 {productname} 服务器以支持较旧类型的 SSL 加密。  有关详细信息，请参见 "
+"要注册和使用 {rhel}{nbsp}6 客户端，您需要配置 {productname} 服务器以支持较旧类型的 SSL 加密。有关详细信息，请参见 "
 "xref:client-configuration:tshoot-clients.adoc[] 中的``注册较旧的客户端``。"
 
 #. type: Title =
@@ -5751,7 +5686,7 @@ msgstr ""
 msgid ""
 "{sle} channels can be very large.  Synchronization can sometimes take "
 "several hours."
-msgstr "{sle} 频道可能会非常大。  同步所需的时间可能会长达数小时。"
+msgstr "{sle} 频道可能会非常大。同步所需的时间可能会长达数小时。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sle.adoc:15
@@ -5778,9 +5713,8 @@ msgid ""
 "on {rhel} or {centos}.  They are sometimes also called SLESES, RES or "
 "{redhat} {es}."
 msgstr ""
-"本节包含有关注册运行 {sleses} ({es}) 操作系统的传统客户端和 Salt 客户端的信"
-"息。  {es} 客户端基于 {rhel} 或 {centos}，  有时也称为 SLESES、RES 或 "
-"{redhat} {es}。"
+"本节包含有关注册运行 {sleses} ({es}) 操作系统的传统客户端和 Salt 客户端的信息。{es} 客户端基于 {rhel} 或 "
+"{centos}，  有时也称为 SLESES、RES 或 {redhat} {es}。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:3
@@ -5820,9 +5754,7 @@ msgstr "对于 {uyuni} 上的 {es} 系统，{suse} 不提供支持。"
 msgid ""
 "Traditional clients are not available on {es}{nbsp}8.  {es}{nbsp}8 clients "
 "are only supported as Salt clients."
-msgstr ""
-"传统客户端不适用于 {es}{nbsp}8。  仅当 {es}{nbsp}8 客户端为 Salt 客户端时才受"
-"支持。"
+msgstr "传统客户端不适用于 {es}{nbsp}8。仅当 {es}{nbsp}8 客户端为 Salt 客户端时才受支持。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:9
@@ -5831,15 +5763,14 @@ msgid ""
 "{centos} installation media.  You must have these packages installed before "
 "you can register a {es} client."
 msgstr ""
-"对于 {es} 客户端，所需的一些软件包包含在 {rhel} 或 {centos} 安装媒体中。  您"
-"必须安装这些软件包后才能注册 {es} 客户端。"
+"对于 {es} 客户端，所需的一些软件包包含在 {rhel} 或 {centos} 安装媒体中。您必须安装这些软件包后才能注册 {es} 客户端。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:10
 msgid ""
 "The {es} product is provided by {scc}.  This also includes the client tools "
 "package."
-msgstr "{es} 产品由 {scc} 提供。  它还包含客户端工具软件包。"
+msgstr "{es} 产品由 {scc} 提供。它还包含客户端工具软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:11
@@ -5907,8 +5838,7 @@ msgstr ""
 msgid ""
 "{productname} requires tools channels that contain additional software.  "
 "This procedure creates these tools channels:"
-msgstr ""
-"{productname} 需要包含其他软件的工具频道。   此过程将创建以下工具频道："
+msgstr "{productname} 需要包含其他软件的工具频道。此过程将创建以下工具频道："
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-sleses.adoc:18
@@ -5999,10 +5929,9 @@ msgid ""
 "parent channel.  To ensure you have all the packages you need, use a full "
 "DVD image, not a minimal or {jeos} image."
 msgstr ""
-"基础 {es} 频道不包含任何软件包，因为 {suse} 不提供 {rhel} 或 {centos} 基础媒"
-"体。  您需要从 {redhat} 或 {centos} 获取基础媒体，然后可将其作为子频道添加到 "
-"{es} 父频道。  为确保您拥有所需的全部软件包，请使用完整的 DVD 映像，而不是最"
-"小映像或 {jeos} 映像。"
+"基础 {es} 频道不包含任何软件包，因为 {suse} 不提供 {rhel} 或 {centos} 基础媒体。您需要从 {redhat} 或 "
+"{centos} 获取基础媒体，然后可将其作为子频道添加到 {es} 父频道。为确保您拥有所需的全部软件包，请使用完整的 DVD 映像，而不是最小映像或 "
+"{jeos} 映像。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:25
@@ -6010,8 +5939,7 @@ msgid ""
 "You can use {productname} custom channels to set up the {rhel} or {centos} "
 "media.  All packages on the base media must be mirrored into a child channel."
 msgstr ""
-"您可以使用 {productname} 自定义频道设置 {rhel} 或 {centos} 媒体。  基础媒体上"
-"的所有软件包都必须镜像到一个子频道。"
+"您可以使用 {productname} 自定义频道设置 {rhel} 或 {centos} 媒体。基础媒体上的所有软件包都必须镜像到一个子频道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:26
@@ -6117,8 +6045,7 @@ msgstr ""
 msgid ""
 "The {es} channels can be very large.  The initial channel synchronization "
 "can sometimes take up to several hours."
-msgstr ""
-"{es} 频道可能会非常大。  有时，初始频道同步所需的时间可能会长达数小时。"
+msgstr "{es} 频道可能会非常大。有时，初始频道同步所需的时间可能会长达数小时。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sleses.adoc:44
@@ -6147,9 +6074,9 @@ msgid ""
 "information about how to resolve this error, see ``Registering Older "
 "Clients`` at xref:client-configuration:tshoot-clients.adoc[]."
 msgstr ""
-"要注册和使用 {sleses}{nbsp}6 客户端，您需要配置 {productname} 服务器以支持较"
-"旧类型的 SSL 加密。  有关如何解决此错误的详细信息，请参见 xref:client-"
-"configuration:tshoot-clients.adoc[] 中的``注册较旧的客户端``。"
+"要注册和使用 {sleses}{nbsp}6 客户端，您需要配置 {productname} 服务器以支持较旧类型的 SSL "
+"加密。有关如何解决此错误的详细信息，请参见 xref:client-configuration:tshoot-clients.adoc[] "
+"中的``注册较旧的客户端``。"
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-ubuntu.adoc:1
@@ -6172,7 +6099,7 @@ msgid ""
 "16.04 LTS and 18.04 LTS, see xref:client-configuration:clients-ubuntu-old."
 "adoc[]."
 msgstr ""
-"{productname} 支持使用 Salt 的 {ubuntu} 16.04 LTS、18.04 LTS 和 20.04 LTS 客户端。  "
+"{productname} 支持使用 Salt 的 {ubuntu} 16.04 LTS、18.04 LTS 和 20.04 LTS 客户端。"
 "有关注册运行 {ubuntu} 16.04 LTS 和 18.04 LTS 的 Salt 客户端的信息，请参见 xref:client-"
 "configuration:clients-ubuntu-old.adoc[]。"
 
@@ -6201,8 +6128,8 @@ msgid ""
 "use bootstrapping, you require an existing user with [command]``sudo`` "
 "privileges for Python."
 msgstr ""
-"支持使用引导功能启动 {ubuntu} 客户端，并执行初始状态运行，例如设置软件源和执行配置文件更新。  不过，默认会禁用 {ubuntu} 上的 "
-"root 用户，因此要使用引导，需要有一个具有 Python [command]``sudo`` 特权的现有用户。"
+"支持使用引导功能启动 {ubuntu} 客户端，并执行初始状态运行，例如设置软件源和执行配置文件更新。不过，默认会禁用 {ubuntu} 上的 root "
+"用户，因此要使用引导，需要有一个具有 Python [command]``sudo`` 特权的现有用户。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu.adoc:8
@@ -6306,7 +6233,7 @@ msgstr ""
 msgid ""
 "{ubuntu} channels can be very large.  Synchronization can sometimes take "
 "several hours."
-msgstr "{ubuntu} 频道可能会非常大。  同步所需的时间可能会长达数小时。"
+msgstr "{ubuntu} 频道可能会非常大。同步所需的时间可能会长达数小时。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-ubuntu.adoc:19
@@ -6321,9 +6248,7 @@ msgstr "Root 访问权限"
 msgid ""
 "The root user on {ubuntu} is disabled by default.  You can enable it by "
 "editing the [filename]``sudoers`` file."
-msgstr ""
-"{ubuntu} 上的 root 用户默认会被禁用。  您可以通过编辑 [filename]``sudoers`` "
-"文件启用该用户。"
+msgstr "{ubuntu} 上的 root 用户默认会被禁用。您可以通过编辑 [filename]``sudoers`` 文件启用该用户。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-ubuntu.adoc:21
@@ -6373,9 +6298,8 @@ msgid ""
 "required.  We recommend that you remove the line from the [path]``sudoers`` "
 "file after the client has been successfully installed."
 msgstr ""
-"此过程无需口令便可授予 root 访问权限，而注册客户端需要提供口令。  客户端成功"
-"安装后会以 root 特权运行，因此将不再需要该访问权限。  客户端成功安装之后，建"
-"议您从 [path]``sudoers`` 文件中去除该行。"
+"此过程无需口令便可授予 root 访问权限，而注册客户端需要提供口令。客户端成功安装后会以 root "
+"特权运行，因此将不再需要该访问权限。客户端成功安装之后，建议您从 [path]``sudoers`` 文件中去除该行。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu.adoc:28
@@ -6417,9 +6341,9 @@ msgid ""
 "using Salt.  For information about registering Salt clients running {ubuntu} "
 "20.04, see xref:client-configuration:clients-ubuntu.adoc[]."
 msgstr ""
-"{productname} 支持使用 Salt 的 {ubuntu} 16.04 LTS、18.04 LTS 和 20.04 LTS 客"
-"户端。  有关注册运行 {ubuntu} 20.04 的 Salt 客户端的信息，请参见 xref:client-"
-"configuration:clients-ubuntu.adoc[]。"
+"{productname} 支持使用 Salt 的 {ubuntu} 16.04 LTS、18.04 LTS 和 20.04 LTS 客户端。"
+"有关注册运行 {ubuntu} 20.04 的 Salt 客户端的信息，请参见 xref:client-configuration:clients-"
+"ubuntu.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:4
@@ -6570,9 +6494,8 @@ msgid ""
 "automated, but you need to do some preparation steps before you begin.  For "
 "more information, see xref:client-configuration:client-upgrades-major.adoc[]."
 msgstr ""
-"将运行 SLE{nbsp}12 的客户端升级到 SLE{nbsp}15 的过程可自动完成，不过在开始前"
-"您需要完成一些准备步骤。  有关详细信息，请参见 xref:client-configuration:"
-"client-upgrades-major.adoc[]。"
+"将运行 SLE{nbsp}12 的客户端升级到 SLE{nbsp}15 的过程可自动完成，不过在开始前您需要完成一些准备步骤。有关详细信息，请参见 "
+"xref:client-configuration:client-upgrades-major.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades.adoc:5
@@ -6581,7 +6504,7 @@ msgid ""
 "For more information, see xref:client-configuration:client-upgrades-"
 "lifecycle.adoc[]."
 msgstr ""
-"您也可以使用内容生命周期管理器自动执行客户端升级。  有关详细信息，请参见 xref:client-configuration:client-"
+"您也可以使用内容生命周期管理器自动执行客户端升级。有关详细信息，请参见 xref:client-configuration:client-"
 "upgrades-lifecycle.adoc[]。"
 
 #.  endif::[]
@@ -6963,9 +6886,7 @@ msgid ""
 "For clients that are able to use PXE, the migration is automated as soon as "
 "you have provisioned them.  For all other clients, you can use Cobbler to "
 "perform the upgrade."
-msgstr ""
-"对于可以使用 PXE 的客户端，当您完成置备后，客户端便会立即自动迁移。  对于所有"
-"其他客户端，您可以使用 Cobbler 来执行升级。"
+msgstr "对于可以使用 PXE 的客户端，当您完成置备后，客户端便会立即自动迁移。对于所有其他客户端，您可以使用 Cobbler 来执行升级。"
 
 #. type: Block title
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:42
@@ -7017,9 +6938,7 @@ msgid ""
 "installed operating system, with all the latest updates applied.  Before you "
 "start, ensure that the system is up to date and all updates have been "
 "installed successfully."
-msgstr ""
-"您的客户端必须有所安装操作系统的最新可用服务包 (SP) 且已应用所有最新更新。  "
-"开始前，请确保系统是最新的，并且已成功安装所有更新。"
+msgstr "您的客户端必须有所安装操作系统的最新可用服务包 (SP) 且已应用所有最新更新。开始前，请确保系统是最新的，并且已成功安装所有更新。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:3
@@ -7147,9 +7066,7 @@ msgstr "在[guimenu]``发行套件标签``部分，键入发行套件的唯一�
 msgid ""
 "Use only letters, numbers, hyphens, periods, and underscores, and ensure the "
 "name is longer than four characters.  For example, ``sles15sp2-x86_64``."
-msgstr ""
-"请仅使用字母、数字、连字符、点和下划线，并确保名称包含四个以上字符。  例如："
-"``sles15sp2-x86_64``。"
+msgstr "请仅使用字母、数字、连字符、点和下划线，并确保名称包含四个以上字符。例如：``sles15sp2-x86_64``。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:25
@@ -7332,9 +7249,7 @@ msgid ""
 "Optionally, you can also include the ``Y2DEBUG=1`` option.  The debug "
 "setting is not required but can help with investigating any future problems "
 "you might encounter."
-msgstr ""
-"（可选）您也可以包含 ``Y2DEBUG=1`` 选项。  调试设置不是必需的设置，不过此设置"
-"有助于对您未来可能遇到的任何问题进行查错。"
+msgstr "（可选）您也可以包含 ``Y2DEBUG=1`` 选项。调试设置不是必需的设置，不过此设置有助于对您未来可能遇到的任何问题进行查错。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:52
@@ -7416,9 +7331,7 @@ msgstr "导航到[guimenu]``置备``选项卡，然后选择上载的自动安�
 msgid ""
 "Click btn:[Schedule Autoinstallation and Finish].  The system downloads the "
 "required files, change the bootloader entries, reboot, and start the upgrade."
-msgstr ""
-"单击  btn:[安排自动安装并完成]。  系统会下载所需的文件，更改引导加载程序项，"
-"重引导并开始升级。"
+msgstr "单击  btn:[安排自动安装并完成]。系统会下载所需的文件，更改引导加载程序项，重引导并开始升级。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:64
@@ -7437,9 +7350,7 @@ msgstr ""
 msgid ""
 "When the client next boots, it uses grub to boot the new kernel with its "
 "initrd.  PXE booting is not used during this process."
-msgstr ""
-"客户端下次引导时，会使用 grub 来引导新内核及其 initrd。  此过程中不会使用 "
-"PXE 引导。"
+msgstr "客户端下次引导时，会使用 grub 来引导新内核及其 initrd。此过程中不会使用 PXE 引导。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:66
@@ -7740,7 +7651,7 @@ msgid ""
 "case of already defined repository URLs, continue with xref:upgrade:proxy-"
 "uyuni.adoc#uyuni-202007-channeldupes[]."
 msgstr ""
-"使用 [command]``spacewalk-repo-sync`` 完全同步所有频道。  对于已定义的储存库 URL，继续 xref:upgrade"
+"使用 [command]``spacewalk-repo-sync`` 完全同步所有频道。对于已定义的储存库 URL，继续 xref:upgrade"
 ":proxy-uyuni.adoc#uyuni-202007-channeldupes[]。"
 
 #.  These are custom channels.
@@ -7863,8 +7774,8 @@ msgid ""
 "updated on the client, and then apply the selection.  Click btn:[Upgrade "
 "Packages], check the details, and click btn:[Confirm] to complete the update."
 msgstr ""
-"单击menu:软件[软件包 > 升级]，选择客户端上要更新的所有软件包，然后应用选"
-"择。  单击  btn:[升级软件包]，查看细节，然后单击  btn:[确认] 以完成更新。"
+"单击menu:软件[软件包 > 升级]，选择客户端上要更新的所有软件包，然后应用选择。单击  btn:[升级软件包]，查看细节，然后单击  "
+"btn:[确认] 以完成更新。"
 
 #.  . Re-register with the reactivation key using the [command]``rhnreg_ks`` command-line utility.
 #.   The system is re-registered with the same id, history, and groups.
@@ -7880,9 +7791,7 @@ msgid ""
 "If you need to update many clients, you can create an action chain of this "
 "command sequence on the {productname} Server.  You can use the action chain "
 "to perform updates on multiple clients at the same time."
-msgstr ""
-"如果需要更新许多客户端，可以在 {productname} 服务器上创建由此命令序列组成的操"
-"作链。  您可以使用操作链同时对多个客户端执行更新。"
+msgstr "如果需要更新许多客户端，可以在 {productname} 服务器上创建由此命令序列组成的操作链。您可以使用操作链同时对多个客户端执行更新。"
 
 #. . Assign the new channels to the clients instead of the old channels.
 #. . Update all the packages.  This can either be done with the {webui} or better run [command]``zypper dup`` manually on the command line local on the systems or remotely as a Salt command.
@@ -8810,9 +8719,7 @@ msgstr "{ibmz} 上不支持使用 Cobbler 构建 ISO。"
 msgid ""
 "The Cobbler [command]``buildiso`` command takes parameters to define the "
 "name and output location of the boot ISO.  For example:"
-msgstr ""
-"Cobbler [command]``buildiso`` 命令接受用于定义引导 ISO 的名称和输出位置的参"
-"数。  例如："
+msgstr "Cobbler [command]``buildiso`` 命令接受用于定义引导 ISO 的名称和输出位置的参数。例如："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/cobbler.adoc:113
@@ -8985,8 +8892,7 @@ msgid ""
 "You can write configuration files directly using the {productname} {webui}, "
 "or you can upload or link to files that exist in other locations."
 msgstr ""
-"配置参数编写在脚本中并储存在配置文件中。   您可以使用 {productname} {webui} "
-"直接写入配置文件，也可以上载或关联到其他位置存在的文件。"
+"配置参数编写在脚本中并储存在配置文件中。您可以使用 {productname} {webui} 直接写入配置文件，也可以上载或关联到其他位置存在的文件。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:4
@@ -8999,10 +8905,9 @@ msgid ""
 "who do not have configuration administration privileges, but need to make "
 "changes to the clients that they manage."
 msgstr ""
-"您可以集中管理或在本地管理配置文件。  集中管理的配置文件由全局配置频道提供，"
-"并且可以应用到订阅了 {productname} 服务器的任何客户端。   在本地管理的配置文"
-"件用于覆盖集中管理的配置设置。  对于没有配置管理特权，但又需要更改所管理的客"
-"户端的 {productname} 用户，这些文件特别有用。"
+"您可以集中管理或在本地管理配置文件。集中管理的配置文件由全局配置频道提供，并且可以应用到订阅了 {productname} "
+"服务器的任何客户端。在本地管理的配置文件用于覆盖集中管理的配置设置。对于没有配置管理特权，但又需要更改所管理的客户端的 {productname} "
+"用户，这些文件特别有用。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:5
@@ -9023,9 +8928,8 @@ msgid ""
 "perform comparisons between various configuration files, and between "
 "revisions of the same configuration file."
 msgstr ""
-"配置文件有版本控制，因此您可以添加配置设置，在您的客户端上对其进行测试，并根"
-"据需要将其回滚到之前的修订版。  如果您已创建配置频道，还可以在不同的配置文件"
-"以及同一配置文件的不同修订版之间进行比较。"
+"配置文件有版本控制，因此您可以添加配置设置，在您的客户端上对其进行测试，并根据需要将其回滚到之前的修订版。如果您已创建配置频道，还可以在不同的配置文件以及"
+"同一配置文件的不同修订版之间进行比较。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:7
@@ -9035,8 +8939,7 @@ msgid ""
 "Locally managed configuration files are created or uploaded to {productname} "
 "directly."
 msgstr ""
-"您可以集中管理或在本地管理配置文件。  集中管理的配置文件由全局配置频道提"
-"供。   在本地管理的配置文件直接创建或上载到 {productname} 中。"
+"您可以集中管理或在本地管理配置文件。集中管理的配置文件由全局配置频道提供。在本地管理的配置文件直接创建或上载到 {productname} 中。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:8
@@ -9044,9 +8947,7 @@ msgid ""
 "The available configuration management features are different for Salt and "
 "traditional clients.  This table shows the supported features on different "
 "client types:"
-msgstr ""
-"Salt 客户端与传统客户端可用的配置管理功能有所不同。  下表显示了不同客户端类型"
-"支持的功能："
+msgstr "Salt 客户端与传统客户端可用的配置管理功能有所不同。下表显示了不同客户端类型支持的功能："
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:9
@@ -9149,10 +9050,9 @@ msgid ""
 "channel for your client operating system.  For more information about "
 "software channels, see xref:client-configuration:channels.adoc[]."
 msgstr ""
-"传统客户端需要进行一些额外的准备工作才能使用配置管理。  如果您是使用 {ay} 或 "
-"{kickstart} 安装传统客户端的，那么您可能已经拥有相应的软件包。  对于其他传统"
-"客户端，请确保您已为客户端操作系统安装了相关的工具子频道。  有关软件频道的详"
-"细信息，请参见 xref:client-configuration:channels.adoc[]。"
+"传统客户端需要进行一些额外的准备工作才能使用配置管理。如果您是使用 {ay} 或 {kickstart} "
+"安装传统客户端的，那么您可能已经拥有相应的软件包。对于其他传统客户端，请确保您已为客户端操作系统安装了相关的工具子频道。有关软件频道的详细信息，请参见 "
+"xref:client-configuration:channels.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:13
@@ -9197,9 +9097,8 @@ msgid ""
 "Deployment`` option.  For more information about activation keys, see xref:"
 "client-configuration:activation-keys.adoc[]."
 msgstr ""
-"您可以在引导过程中安装这些软件包，方法是导航到menu:系统[激活密钥]，单击要在引"
-"导期间使用的激活密钥，并选中[guimenu]``配置文件部署``选项。  有关激活密钥的详"
-"细信息，请参见 xref:client-configuration:activation-keys.adoc[]。"
+"您可以在引导过程中安装这些软件包，方法是导航到menu:系统[激活密钥]，单击要在引导期间使用的激活密钥，并选中[guimenu]``配置文件部署``选项"
+"。有关激活密钥的详细信息，请参见 xref:client-configuration:activation-keys.adoc[]。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/configuration-management.adoc:19
@@ -9393,9 +9292,8 @@ msgid ""
 "and navigating to the [guimenu]``Configuration`` tab.  To subscribe multiple "
 "clients to a configuration channel, you can use the system set manager (SSM)."
 msgstr ""
-"您可以为单个客户端订阅配置频道，方法是导航到menu:系统[系统列表]，选择要使用的"
-"客户端，然后导航到[guimenu]``配置``选项卡。  要为多个客户端订阅配置频道，可以"
-"使用系统集管理器 (SSM)。"
+"您可以为单个客户端订阅配置频道，方法是导航到menu:系统[系统列表]，选择要使用的客户端，然后导航到[guimenu]``配置``选项卡。要为多个客户端"
+"订阅配置频道，可以使用系统集管理器 (SSM)。"
 
 #. type: Block title
 #: modules/client-configuration/pages/configuration-management.adoc:51
@@ -9465,9 +9363,8 @@ msgid ""
 "currently subscribed channels.  Click btn:[Replace Existing Subscriptions] "
 "to remove existing channels and replace them with the new channels."
 msgstr ""
-"单击  btn:[订阅为最低优先级] 可将新频道添加为比目前订阅的频道都低的优先级。  "
-"单击  btn:[订阅为最高优先级] 可将新频道添加为比目前订阅的频道都高的优先级。  "
-"单击  btn:[替换现有订阅] 可去除现有频道并将其替换为新频道。"
+"单击  btn:[订阅为最低优先级] 可将新频道添加为比目前订阅的频道都低的优先级。单击  btn:[订阅为最高优先级] "
+"可将新频道添加为比目前订阅的频道都高的优先级。单击  btn:[替换现有订阅] 可去除现有频道并将其替换为新频道。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/configuration-management.adoc:60
@@ -9482,9 +9379,8 @@ msgid ""
 "the client's configuration priorities are going to be reordered by an "
 "action, the {webui} requires you to confirm the change before proceeding."
 msgstr ""
-"如果新配置频道优先级与现有频道冲突，系统会去除重复的频道并根据新优先级进行替"
-"换。  如果某个操作要对客户端的配置优先级重新排序，{webui} 会要求您在继续之前"
-"先确认更改。"
+"如果新配置频道优先级与现有频道冲突，系统会去除重复的频道并根据新优先级进行替换。如果某个操作要对客户端的配置优先级重新排序，{webui} "
+"会要求您在继续之前先确认更改。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/configuration-management.adoc:62
@@ -9554,9 +9450,7 @@ msgid ""
 "There are a number of ways that the {productname} Server can communicate "
 "with clients.  Which one you use depends on the type of client, and your "
 "network architecture."
-msgstr ""
-"{productname} 服务器可以使用多种方法与客户端进行通讯。  您使用的方法取决于客"
-"户端类型以及网络体系结构。"
+msgstr "{productname} 服务器可以使用多种方法与客户端进行通讯。您使用的方法取决于客户端类型以及网络体系结构。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-intro.adoc:3
@@ -9566,8 +9460,8 @@ msgid ""
 "systems and periodically connects with {productname} to check for new "
 "updates and notifications.  It does not apply to Salt clients."
 msgstr ""
-"{productname} 守护程序 ([command]``rhnsd``) 在传统客户端系统上运行，会定期与 "
-"{productname} 连接以检查有无新更新和通知。  它不适用于 Salt 客户端。"
+"{productname} 守护程序 ([command]``rhnsd``) 在传统客户端系统上运行，会定期与 {productname} "
+"连接以检查有无新更新和通知。它不适用于 Salt 客户端。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-intro.adoc:4
@@ -9589,8 +9483,7 @@ msgid ""
 "clients.  OSAD allows traditional clients to execute scheduled actions "
 "immediately.  It does not apply to Salt clients."
 msgstr ""
-"OSAD 是 {productname} 与传统客户端之间的一种替代联系方法。  OSAD 允许传统客户"
-"端立即执行安排的操作。  它不适用于 Salt 客户端。"
+"OSAD 是 {productname} 与传统客户端之间的一种替代联系方法。OSAD 允许传统客户端立即执行安排的操作。它不适用于 Salt 客户端。"
 
 #. type: Title =
 #: modules/client-configuration/pages/contact-methods-osad.adoc:1
@@ -9606,9 +9499,8 @@ msgid ""
 "contacts the server every four hours to execute scheduled actions.  OSAD "
 "allows traditional clients to execute scheduled actions immediately."
 msgstr ""
-"OSAD 是 {productname} 与传统客户端之间的一种替代联系方法。  {productname} 默"
-"认使用 [systemitem]``rhnsd``，后者每四小时联系一次服务器以执行安排的操作。  "
-"OSAD 允许传统客户端立即执行安排的操作。"
+"OSAD 是 {productname} 与传统客户端之间的一种替代联系方法。{productname} 默认使用 "
+"[systemitem]``rhnsd``，后者每四小时联系一次服务器以执行安排的操作。OSAD 允许传统客户端立即执行安排的操作。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-osad.adoc:3
@@ -9616,8 +9508,8 @@ msgid ""
 "Use OSAD in addition to [systemitem]``rhnsd``.  If you disable "
 "[systemitem]``rhnsd`` your client is shown as not checking in after 24 hours."
 msgstr ""
-"除了 [systemitem]``rhnsd`` 之外，另外还需使用 OSAD。  如果禁用 "
-"[systemitem]``rhnsd``，您的客户端在 24 小时后将会显示为未签入状态。"
+"除了 [systemitem]``rhnsd`` 之外，另外还需使用 OSAD。如果禁用 [systemitem]``rhnsd``，您的客户端在 24 "
+"小时后将会显示为未签入状态。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-osad.adoc:4
@@ -9686,14 +9578,11 @@ msgid ""
 "to receive a response within a certain period of time, it marks the client "
 "as offline."
 msgstr ""
-"[systemitem]``osa-dispatcher`` 会定期运行查询，以检查客户端上次显示网络活动的"
-"时间。  如果该组件发现某个客户端近期未显示活动，将会使用 "
-"[systemitem]``jabberd`` ping 在注册到您的 {productname} 服务器的所有客户端上"
-"运行的所有 [systemitem]``osad`` 实例。  [systemitem]``osad`` 实例会使用 "
-"[systemitem]``jabberd`` 对 ping 请求做出响应，该组件在服务器的后台运行。  如"
-"果 [systemitem]``osa-dispatcher``  收到响应，就会将客户端标记为联机。  如果 "
-"[systemitem]``osa-dispatcher`` 在某个时间段内未收到响应，就会将客户端标记为脱"
-"机。"
+"[systemitem]``osa-dispatcher`` 会定期运行查询，以检查客户端上次显示网络活动的时间。如果该组件发现某个客户端近期未显示活动，"
+"将会使用 [systemitem]``jabberd`` ping 在注册到您的 {productname} 服务器的所有客户端上运行的所有 "
+"[systemitem]``osad`` 实例。[systemitem]``osad`` 实例会使用 [systemitem]``jabberd`` 对 "
+"ping 请求做出响应，该组件在服务器的后台运行。如果 [systemitem]``osa-dispatcher``  收到响应，就会将客户端标记为联机。"
+"如果 [systemitem]``osa-dispatcher`` 在某个时间段内未收到响应，就会将客户端标记为脱机。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-osad.adoc:12
@@ -9704,10 +9593,9 @@ msgid ""
 "uses [systemitem]``jabberd`` to execute [command]``mgr_check`` on the "
 "client, which then executes the action."
 msgstr ""
-"如果在启用了 OSAD 的系统上安排操作，任务将会立即执行。  [systemitem]``osa-"
-"dispatcher`` 会定期检查客户端有无需要执行的操作。  如果发现未执行的操作，会使"
-"用 [systemitem]``jabberd`` 在客户端上执行 [command]``mgr_check``，后者即会执"
-"行该操作。"
+"如果在启用了 OSAD 的系统上安排操作，任务将会立即执行。[systemitem]``osa-dispatcher`` "
+"会定期检查客户端有无需要执行的操作。如果发现未执行的操作，会使用 [systemitem]``jabberd`` 在客户端上执行 "
+"[command]``mgr_check``，后者即会执行该操作。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-osad.adoc:13
@@ -9726,9 +9614,9 @@ msgid ""
 "sure your firewall rules are set to allow the required ports.  For more "
 "information, see xref:installation:ports.adoc[]."
 msgstr ""
-"[systemitem]``osad`` 通讯需要使用 SSL。  如果 SSL 证书不可用，客户端系统上的"
-"守护程序将无法连接。  请确保您的防火墙规则设置为允许必需的端口。  有关详细信"
-"息，请参见 xref:installation:ports.adoc[]。"
+"[systemitem]``osad`` 通讯需要使用 SSL。如果 SSL "
+"证书不可用，客户端系统上的守护程序将无法连接。请确保您的防火墙规则设置为允许必需的端口。有关详细信息，请参见 "
+"xref:installation:ports.adoc[]。"
 
 #. type: Block title
 #: modules/client-configuration/pages/contact-methods-osad.adoc:15
@@ -9767,9 +9655,8 @@ msgid ""
 "If you install the [systemitem]``mgr-osad`` package on your {productname} "
 "Server, it conflicts with the [systemitem]``osa-dispatcher`` package."
 msgstr ""
-"您应仅将 [systemitem]``mgr-osad`` 软件包安装在客户端上。   如果在 "
-"{productname} 服务器上安装 [systemitem]``mgr-osad`` 软件包，它会与 "
-"[systemitem]``osa-dispatcher`` 软件包冲突。"
+"您应仅将 [systemitem]``mgr-osad`` 软件包安装在客户端上。如果在 {productname} 服务器上安装 [systemitem"
+"]``mgr-osad`` 软件包，它会与 [systemitem]``osa-dispatcher`` 软件包冲突。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-osad.adoc:20
@@ -9799,9 +9686,7 @@ msgid ""
 "Each OSAD component is configured using local configuration files.  We "
 "recommend you keep the default configuration parameters for all OSAD "
 "components."
-msgstr ""
-"使用本地配置文件配置每个 OSAD 组件。  建议您保留所有 OSAD 组件的默认配置参"
-"数。"
+msgstr "使用本地配置文件配置每个 OSAD 组件。建议您保留所有 OSAD 组件的默认配置参数。"
 
 #. type: Table
 #: modules/client-configuration/pages/contact-methods-osad.adoc:24
@@ -9844,9 +9729,8 @@ msgid ""
 "allowed to use, [systemitem]``jabberd`` queues the requests, and refuses "
 "connections."
 msgstr ""
-"每个客户端都需要一个始终打开的 TCP 连接来连到服务器，该连接将使用单个文件处理"
-"程序。  如果当前打开的文件处理程序数超过允许 [systemitem]``jabberd`` 使用的最"
-"大文件数，[systemitem]``jabberd`` 会将请求排队，并拒绝连接。"
+"每个客户端都需要一个始终打开的 TCP 连接来连到服务器，该连接将使用单个文件处理程序。如果当前打开的文件处理程序数超过允许 "
+"[systemitem]``jabberd`` 使用的最大文件数，[systemitem]``jabberd`` 会将请求排队，并拒绝连接。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-osad.adoc:28
@@ -9927,8 +9811,8 @@ msgid ""
 "Server on the internal network to the clients located on the DMZ.  After all "
 "actions and events are executed, the tunnel is closed."
 msgstr ""
-"通过 SSH 推送方法会创建一个加密隧道，该隧道从内部网络上的 {productname} 服务"
-"器连到位于 DMZ 中的客户端。  执行完所有操作和事件之后，该隧道即会关闭。"
+"通过 SSH 推送方法会创建一个加密隧道，该隧道从内部网络上的 {productname} 服务器连到位于 DMZ "
+"中的客户端。执行完所有操作和事件之后，该隧道即会关闭。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:4
@@ -9942,9 +9826,7 @@ msgstr "服务器使用 SSH 定期联系客户端，以签入和执行安排的�
 msgid ""
 "This contact method works for traditional clients only.  For Salt clients, "
 "use Push via Salt SSH."
-msgstr ""
-"该联系方法只适用于传统客户端。  对于 Salt 客户端，请使用通过 Salt SSH 推送方"
-"法。"
+msgstr "该联系方法只适用于传统客户端。对于 Salt 客户端，请使用通过 Salt SSH 推送方法。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:6
@@ -9979,10 +9861,9 @@ msgid ""
 "default are `1232` and `1233`.  To overwrite these, you can add two custom "
 "port numbers greater than 1024 to [path]``/etc/rhn/rhn.conf``:"
 msgstr ""
-"要通过 SSH 实现隧道连接，需要两个可用的端口号，一个用于建立 HTTP 隧道，另一个"
-"用于通过 HTTPS 建立隧道（只有注册期间需使用 HTTP）。  默认会使用端口号 "
-"`1232` 和 `1233`。  要重写这些端口号，您可以在 [path]``/etc/rhn/rhn.conf`` 中"
-"添加两个大于 1024 的自定义端口号："
+"要通过 SSH 实现隧道连接，需要两个可用的端口号，一个用于建立 HTTP 隧道，另一个用于通过 HTTPS 建立隧道（只有注册期间需使用 HTTP）。"
+"默认会使用端口号 `1232` 和 `1233`。要重写这些端口号，您可以在 [path]``/etc/rhn/rhn.conf`` 中添加两个大于 "
+"1024 的自定义端口号："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:10
@@ -10142,7 +10023,7 @@ msgid ""
 "about bootstrapping, see xref:client-configuration:registration-bootstrap."
 "adoc[]."
 msgstr ""
-"要使用该工具，您需要有客户端主机名或 IP 地址，以及 {productname} 服务器上的有效引导脚本的路径。  有关引导的详细信息，请参见 xref"
+"要使用该工具，您需要有客户端主机名或 IP 地址，以及 {productname} 服务器上的有效引导脚本的路径。有关引导的详细信息，请参见 xref"
 ":client-configuration:registration-bootstrap.adoc[]。"
 
 #. type: Plain text
@@ -10161,9 +10042,7 @@ msgid ""
 "Before you begin, you need to ensure that you have specified which ports to "
 "use for SSH tunneling.  If you have registered clients before changing the "
 "port numbers, they need to be registered again."
-msgstr ""
-"开始前，您需要确保已指定要用于 SSH 隧道的端口。  如果您在更改端口号之前已注册"
-"客户端，则需要再次注册客户端。"
+msgstr "开始前，您需要确保已指定要用于 SSH 隧道的端口。如果您在更改端口号之前已注册客户端，则需要再次注册客户端。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:31
@@ -10172,8 +10051,8 @@ msgid ""
 "directly.  When you use the [command]``mgr-ssh-push-init`` tool, the "
 "[systemitem]``rhnsd`` daemon is disabled."
 msgstr ""
-"使用通过 SSH 推送方法管理的客户端无法直接访问服务器。  使用 [command]``mgr-"
-"ssh-push-init`` 工具时，[systemitem]``rhnsd`` 守护程序处于禁用状态。"
+"使用通过 SSH 推送方法管理的客户端无法直接访问服务器。使用 [command]``mgr-ssh-push-init`` "
+"工具时，[systemitem]``rhnsd`` 守护程序处于禁用状态。"
 
 #. type: Block title
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:32
@@ -10240,9 +10119,7 @@ msgstr "例如：使用 API 访问通过 SSH 推送方法"
 msgid ""
 "You can use the API to manage which contact method to use.  This example "
 "Python code sets the contact method to ``ssh-push``."
-msgstr ""
-"您可以使用 API 来管理要使用的联系方法。  下面的示例 Python 代码将联系方法设"
-"为 ``ssh-push``。"
+msgstr "您可以使用 API 来管理要使用的联系方法。下面的示例 Python 代码将联系方法设为 ``ssh-push``。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:41
@@ -10283,8 +10160,8 @@ msgid ""
 "migrate it to use Push via SSH, some extra steps are required.  You can use "
 "the [command]``mgr-ssh-push-init`` tool to set up your client."
 msgstr ""
-"如果您要将某个已注册的客户端迁移为使用通过 SSH 推送方法，则需要执行一些额外的"
-"步骤。  您可以使用 [command]``mgr-ssh-push-init`` 工具来设置客户端。"
+"如果您要将某个已注册的客户端迁移为使用通过 SSH 推送方法，则需要执行一些额外的步骤。您可以使用 [command]``mgr-ssh-push-"
+"init`` 工具来设置客户端。"
 
 #. type: Block title
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:47
@@ -10376,9 +10253,9 @@ msgid ""
 "([systemitem]``rhnsd.timer``) is used and controlled by [systemitem]``rhnsd."
 "service``."
 msgstr ""
-"只有 {sle}{nbsp} 11 和 {rhnminrelease6} 上使用该守护程序，因为这些系统不使用 "
-"systemd。  更高版本的操作系统上会使用 systemd 计时器 ([systemitem]``rhnsd."
-"timer``)，该计时器由 [systemitem]``rhnsd. service`` 控制。"
+"只有 {sle}{nbsp} 11 和 {rhnminrelease6} 上使用该守护程序，因为这些系统不使用 systemd。"
+"更高版本的操作系统上会使用 systemd 计时器 ([systemitem]``rhnsd.timer``)，该计时器由 [systemitem]``"
+"rhnsd. service`` 控制。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-rhnsd.adoc:4
@@ -10390,9 +10267,7 @@ msgstr "使用 [command]``/etc/init.d/rhnsd`` 启动守护程序。"
 msgid ""
 "By default, it checks every four hours for new actions.  This means it can "
 "take some time for clients to execute scheduled actions."
-msgstr ""
-"默认情况下，该守护程序每四小时会检查一次有无新操作。  这意味着一段时间后客户"
-"端才会执行安排的操作。"
+msgstr "默认情况下，该守护程序每四小时会检查一次有无新操作。这意味着一段时间后客户端才会执行安排的操作。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-rhnsd.adoc:6
@@ -10405,9 +10280,8 @@ msgid ""
 "the [systemitem]``mgr_check`` utility."
 msgstr ""
 "为检查更新，[systemitem]``rhnsd`` 会运行位于 [path]``/usr/sbin/`` 中的外部 "
-"[systemitem]``mgr_check`` 程序。  这是一个小应用程序，可建立与 {productname} "
-"的网络连接。  {productname} 守护程序不会侦听任何网络端口，也不会直接与网络通"
-"讯。  所有网络活动均由 [systemitem]``mgr_check`` 实用程序执行。"
+"[systemitem]``mgr_check`` 程序。这是一个小应用程序，可建立与 {productname} 的网络连接。{productname}"
+" 守护程序不会侦听任何网络端口，也不会直接与网络通讯。所有网络活动均由 [systemitem]``mgr_check`` 实用程序执行。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-rhnsd.adoc:7
@@ -10448,9 +10322,8 @@ msgid ""
 "interval is one hour (60 minutes).  If you set the interval below one hour, "
 "it changes back to the default of 4 hours (240 minutes)."
 msgstr ""
-"该守护程序的一个重要参数为签入频率。  默认的间隔时间为四小时（240 分钟）。  "
-"允许的最短时间间隔为一小时（60 分钟）。  如果您将时间间隔设为不到一小时，该值"
-"会改回为默认值 4 小时（240 分钟）。"
+"该守护程序的一个重要参数为签入频率。默认的间隔时间为四小时（240 分钟）。允许的最短时间间隔为一小时（60 分钟）。如果您将时间间隔设为不到一小时，"
+"该值会改回为默认值 4 小时（240 分钟）。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-rhnsd.adoc:12
@@ -10567,9 +10440,9 @@ msgid ""
 "protected zone called a DMZ.  For more information about this contact "
 "method, see xref:client-configuration:contact-methods-saltssh.adoc[]."
 msgstr ""
-"如果您需要在断开连接的设置中使用 Salt 客户端，可以配置通过 Salt SSH 推送方法。  在此环境中，客户端位于受防火墙保护的区域，该区域称为 "
-"DMZ。  有关此联系方法的详细信息，请参见 xref:client-configuration:contact-methods-"
-"saltssh.adoc[]。"
+"如果您需要在断开连接的设置中使用 Salt 客户端，可以配置通过 Salt SSH 推送方法。在此环境中，客户端位于受防火墙保护的区域，该区域称为 "
+"DMZ。有关此联系方法的详细信息，请参见 xref:client-configuration:contact-methods-saltssh."
+"adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-salt.adoc:4
@@ -10579,8 +10452,8 @@ msgid ""
 "the correct network details.  For more information about this contact "
 "method, see xref:client-configuration:contact-methods-salt-cfgfile.adoc[]."
 msgstr ""
-"如果您需要手动配置 Salt 客户端以连接到 {productname} 服务器，可以使用正确的网络细节编辑 Salt 客户端配置文件。  "
-"有关此联系方法的详细信息，请参见 xref:client-configuration:contact-methods-salt-"
+"如果您需要手动配置 Salt 客户端以连接到 {productname} 服务器，可以使用正确的网络细节编辑 Salt "
+"客户端配置文件。有关此联系方法的详细信息，请参见 xref:client-configuration:contact-methods-salt-"
 "cfgfile.adoc[]。"
 
 #. type: Title =
@@ -10600,11 +10473,9 @@ msgid ""
 "method requires no configuration on the {productname} Server aside from "
 "ensuring that these ports are open."
 msgstr ""
-"在大多数情况下，使用默认的引导方法即可正确注册 Salt 客户端。  不过，您也可以"
-"在客户端上编辑 Salt 受控端文件，并提供服务器的完全限定域名 (FQDN)，使用 Salt "
-"手动将客户端注册到 {productname} 服务器。  此方法使用传入服务器的端口 4505 "
-"和 4506 来进行。  除了需确保这些端口处于打开状态之外，此方法无需在 "
-"{productname} 服务器上进行任何配置。"
+"在大多数情况下，使用默认的引导方法即可正确注册 Salt 客户端。不过，您也可以在客户端上编辑 Salt 受控端文件，并提供服务器的完全限定域名 "
+"(FQDN)，使用 Salt 手动将客户端注册到 {productname} 服务器。此方法使用传入服务器的端口 4505 和 4506 "
+"来进行。除了需确保这些端口处于打开状态之外，此方法无需在 {productname} 服务器上进行任何配置。"
 
 #. type: Block title
 #: modules/client-configuration/pages/contact-methods-salt-cfgfile.adoc:3
@@ -10689,8 +10560,8 @@ msgid ""
 "{productname} Server on the internal network to the clients located on the "
 "DMZ.  After all actions and events are executed, the tunnel is closed."
 msgstr ""
-"通过 Salt SSH 推送方法会创建一个加密隧道，该隧道从内部网络上的 {productname} "
-"服务器连到位于 DMZ 中的客户端。  执行完所有操作和事件之后，该隧道即会关闭。"
+"通过 Salt SSH 推送方法会创建一个加密隧道，该隧道从内部网络上的 {productname} 服务器连到位于 DMZ "
+"中的客户端。执行完所有操作和事件之后，该隧道即会关闭。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:4
@@ -10699,16 +10570,15 @@ msgid ""
 "regular intervals, checking in and performing scheduled actions and events.  "
 "For more information about Salt SSH, see xref:salt:salt-ssh.adoc[]."
 msgstr ""
-"服务器使用 [command]``salt-ssh`` 工具定期联系客户端，以签入和执行安排的操作和"
-"事件。   有关 Salt SSH 的详细信息，请参见 xref:salt:salt-ssh.adoc[]。"
+"服务器使用 [command]``salt-ssh`` 工具定期联系客户端，以签入和执行安排的操作和事件。有关 Salt SSH 的详细信息，请参见 "
+"xref:salt:salt-ssh.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:5
 msgid ""
 "This contact method works for Salt clients only.  For traditional clients, "
 "use Push via SSH."
-msgstr ""
-"此联系方法只适用于 Salt 客户端。  对于传统客户端，请使用通过 SSH 推送方法。"
+msgstr "此联系方法只适用于 Salt 客户端。对于传统客户端，请使用通过 SSH 推送方法。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:6
@@ -10734,10 +10604,8 @@ msgid ""
 "{productname} Server.  Additionally, Python must be available on the remote "
 "system, and be a version supported by Salt."
 msgstr ""
-"要使用通过 Salt SSH 推送方法，必须在客户端上运行 SSH 守护程序，并且 "
-"{productname} 服务器上运行的 [systemitem]``salt-api`` 守护程序必须能够访问 "
-"SSH 守护程序。  此外，远程系统上必须可以使用 Python，并且其为 Salt 支持的版"
-"本。"
+"要使用通过 Salt SSH 推送方法，必须在客户端上运行 SSH 守护程序，并且 {productname} 服务器上运行的 [systemitem"
+"]``salt-api`` 守护程序必须能够访问 SSH 守护程序。此外，远程系统上必须可以使用 Python，并且其为 Salt 支持的版本。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:9
@@ -10804,8 +10672,8 @@ msgid ""
 "anywhere.  All future SSH sessions are authorized via a key/certificate "
 "pair.  These parameters are configured in menu:Systems[Bootstrapping]."
 msgstr ""
-"如果您要配置通过 Salt SSH 推送方法，可以修改注册系统时使用的参数，包括主机、激活密钥和口令。口令只能用于引导，不会保存在任何位置。  "
-"所有将来的 SSH 会话均通过密钥/证书对获得授权。这些参数在menu:系统[引导]中配置。"
+"如果您要配置通过 Salt SSH 推送方法，可以修改注册系统时使用的参数，包括主机、激活密钥和口令。口令只能用于引导，不会保存在任何位置。所有将来的 "
+"SSH 会话均通过密钥/证书对获得授权。这些参数在menu:系统[引导]中配置。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:19
@@ -10814,8 +10682,8 @@ msgid ""
 "including the sudo user.  For more information on configuring the sudo user, "
 "see xref:client-configuration:contact-methods-pushssh.adoc[]."
 msgstr ""
-"您也可以配置在系统范围使用的持久性参数，包括 sudo 用户。  有关配置 sudo 用户"
-"的详细信息，请参见 xref:client-configuration:contact-methods-pushssh.adoc[]。"
+"您也可以配置在系统范围使用的持久性参数，包括 sudo 用户。有关配置 sudo 用户的详细信息，请参见 xref:client-"
+"configuration:contact-methods-pushssh.adoc[]。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:20
@@ -10832,9 +10700,8 @@ msgid ""
 "clients, the Push via Salt SSH feature executes a complete [command]``salt-"
 "ssh`` call based on the scheduled action."
 msgstr ""
-"通过 Salt SSH 推送功能使用 taskomatic 来通过 [command]``salt-ssh`` 执行安排的"
-"操作。  Taskomatic 作业会定期检查并执行安排的操作。  与传统客户端上的通过 "
-"SSH 推送方法不同，通过 Salt SSH 推送功能根据安排的操作执行完整的 "
+"通过 Salt SSH 推送功能使用 taskomatic 来通过 [command]``salt-ssh`` 执行安排的操作。Taskomatic "
+"作业会定期检查并执行安排的操作。与传统客户端上的通过 SSH 推送方法不同，通过 Salt SSH 推送功能根据安排的操作执行完整的 "
 "[command]``salt- ssh`` 调用。"
 
 #. type: Plain text
@@ -10846,9 +10713,8 @@ msgid ""
 "``parallel_threads`` upwards.  We recommend you keep the number of parallel "
 "actions low, to avoid problems:"
 msgstr ""
-"默认可以同时执行 20 项 Salt SSH 操作。  您可以在配置文件中添加下面几行，并上"
-"调 ``parallel_threads`` 的值，以增加可同时执行的操作数。  建议您将并行操作数"
-"设置为较低的值，以免出现问题："
+"默认可以同时执行 20 项 Salt SSH 操作。您可以在配置文件中添加下面几行，并上调 ``parallel_threads`` "
+"的值，以增加可同时执行的操作数。建议您将并行操作数设置为较低的值，以免出现问题："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:23
@@ -10868,8 +10734,8 @@ msgid ""
 "actions needs to be run on multiple clients, actions are always executed "
 "sequentially on each client."
 msgstr ""
-"这样可调整任何客户端上同时运行的操作数，以及 taskomatic 使用的工作器线程总"
-"数。  如果需要在多个客户端上运行操作，则每个客户端上的操作始终按顺序执行。"
+"这样可调整任何客户端上同时运行的操作数，以及 taskomatic "
+"使用的工作器线程总数。如果需要在多个客户端上运行操作，则每个客户端上的操作始终按顺序执行。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:25
@@ -10892,9 +10758,7 @@ msgstr "未来的功能"
 msgid ""
 "There are some features that are not yet supported on Push via Salt SSH.  "
 "These features do not work on Salt SSH clients:"
-msgstr ""
-"有些针对通过 Salt SSH 推送的功能目前尚不受支持。   这些功能在 Salt SSH 客户端"
-"上不可用："
+msgstr "有些针对通过 Salt SSH 推送的功能目前尚不受支持。这些功能在 Salt SSH 客户端上不可用："
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:28
@@ -10971,9 +10835,7 @@ msgid ""
 "OSAD is an alternative contact method between {productname} and traditional "
 "clients.  OSAD allows traditional clients to execute scheduled actions "
 "immediately."
-msgstr ""
-"OSAD 是 {productname} 与传统客户端之间的一种替代联系方法。  OSAD 允许传统客户"
-"端立即执行安排的操作。"
+msgstr "OSAD 是 {productname} 与传统客户端之间的一种替代联系方法。OSAD 允许传统客户端立即执行安排的操作。"
 
 #. type: Title =
 #: modules/client-configuration/pages/custom-info.adoc:1
@@ -10991,10 +10853,8 @@ msgid ""
 "installed.  Custom system information is categorized, and can be searched "
 "using the {productname} {webui}."
 msgstr ""
-"您可以包含有关您的客户端的自定义信息。  系统信息定义为键:值对，您可将其指派给"
-"客户端。  例如，您可以为某个特定的处理器定义一个键:值对，然后将该键指派给安装"
-"了该处理器的所有客户端。  系统会对自定义系统信息分类，您可以使用 "
-"{productname} {webui} 搜索该信息。"
+"您可以包含有关您的客户端的自定义信息。系统信息定义为键:值对，您可将其指派给客户端。例如，您可以为某个特定的处理器定义一个键:值对，然后将该键指派给安装了"
+"该处理器的所有客户端。系统会对自定义系统信息分类，您可以使用 {productname} {webui} 搜索该信息。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/custom-info.adoc:3
@@ -11093,9 +10953,7 @@ msgid ""
 "If you need to remove a client from your {productname} Server, you can use "
 "the {webui} to delete it.  This procedure works for both traditional and "
 "Salt clients."
-msgstr ""
-"如果您需要从 {productname} 服务器去除客户端，可以使用 {webui} 将其删除。  此"
-"过程适用于传统客户端和 Salt 客户端。"
+msgstr "如果您需要从 {productname} 服务器去除客户端，可以使用 {webui} 将其删除。此过程适用于传统客户端和 Salt 客户端。"
 
 #. type: Block title
 #: modules/client-configuration/pages/delete-clients.adoc:3
@@ -11130,8 +10988,7 @@ msgid ""
 "to cancel the deletion, or delete the client without cleaning up the "
 "configuration files."
 msgstr ""
-"对于 Salt 客户端，{productname} 会尝试清理其他配置。  如果无法联系客户端，您"
-"可以选择取消删除，或者仅删除客户端而不清理配置文件。"
+"对于 Salt 客户端，{productname} 会尝试清理其他配置。如果无法联系客户端，您可以选择取消删除，或者仅删除客户端而不清理配置文件。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/delete-clients.adoc:8
@@ -11140,7 +10997,7 @@ msgid ""
 "information about the system set manager, see xref:client-configuration:"
 "system-set-manager.adoc[]."
 msgstr ""
-"您还可以使用系统集管理器删除多个客户端。  有关系统集管理器的详细信息，请参见 xref:client-configuration:system-set-"
+"您还可以使用系统集管理器删除多个客户端。有关系统集管理器的详细信息，请参见 xref:client-configuration:system-set-"
 "manager.adoc[]。"
 
 #. type: Title =
@@ -11344,9 +11201,8 @@ msgid ""
 "distribution label.  Note that you cannot move between versions (4 to 5) or "
 "between updates (U1 to U2)."
 msgstr ""
-"可以通过指定新的发行套件标签，更改某个系列中 kickstart 配置文件的发行套件，例"
-"如将 {rhel} AS 4 更改为 {rhel} ES 4。  请注意，您无法在两个版本（从 4 到 5）"
-"或两个更新（从 U1 到 U2）之间移动。"
+"可以通过指定新的发行套件标签，更改某个系列中 kickstart 配置文件的发行套件，例如将 {rhel} AS 4 更改为 {rhel} ES "
+"4。请注意，您无法在两个版本（从 4 到 5）或两个更新（从 U1 到 U2）之间移动。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/kickstart.adoc:27
@@ -11466,9 +11322,8 @@ msgid ""
 "subtab.  The options available in this section vary depending on the type of "
 "client you have selected, and its current channel subscriptions."
 msgstr ""
-"要管理客户端上的软件包，请导航到[guimenu]``系统``，单击要管理的客户端，然后导"
-"航到menu:系统[软件 > 软件包]子选项卡。  此部分提供的选项取决于您选择的客户端"
-"类型及其当前的频道订阅。"
+"要管理客户端上的软件包，请导航到[guimenu]``系统``，单击要管理的客户端，然后导航到menu:系统[软件 > "
+"软件包]子选项卡。此部分提供的选项取决于您选择的客户端类型及其当前的频道订阅。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/package-management.adoc:4
@@ -11483,8 +11338,8 @@ msgid ""
 "Most package management actions can be added to action chains.  For more "
 "about action chains, see xref:reference:schedule/action-chains.adoc[]."
 msgstr ""
-"大多数软件包管理操作都可以添加到操作链中。  有关操作链的详细信息，请参见 "
-"xref:reference:schedule/action-chains.adoc[]。"
+"大多数软件包管理操作都可以添加到操作链中。有关操作链的详细信息，请参见 xref:reference:schedule/action-chains."
+"adoc[]。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/package-management.adoc:6
@@ -11500,9 +11355,8 @@ msgid ""
 "installed package is compared to information in the database, including the "
 "file checksum, file size, permissions, owner, group, and type."
 msgstr ""
-"您可以检查客户端上安装的软件包是否与作为其安装源的数据库的当前状态匹配。  系"
-"统会对安装的软件包的元数据与数据库中的信息（包括文件校验和、文件大小、权限、"
-"拥有者、组和类型）进行比较。"
+"您可以检查客户端上安装的软件包是否与作为其安装源的数据库的当前状态匹配。系统会对安装的软件包的元数据与数据库中的信息（包括文件校验和、文件大小、权限、拥有"
+"者、组和类型）进行比较。"
 
 #. type: Block title
 #: modules/client-configuration/pages/package-management.adoc:8
@@ -11546,9 +11400,7 @@ msgid ""
 "You can compare the packages installed on a client with a stored profile, or "
 "with packages installed on another client.  When the comparison is made, you "
 "can choose to modify the selected client to match."
-msgstr ""
-"您可以将某个客户端上安装的软件包与储存的配置文件进行比较，或者与其他客户端上"
-"安装的软件包进行比较。  比较时，您可以选择修改选定要匹配的客户端。"
+msgstr "您可以将某个客户端上安装的软件包与储存的配置文件进行比较，或者与其他客户端上安装的软件包进行比较。比较时，您可以选择修改选定要匹配的客户端。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/package-management.adoc:14
@@ -11558,9 +11410,8 @@ msgid ""
 "When the profile has been created, you can use it to install more clients "
 "with the same packages installed."
 msgstr ""
-"将软件包与某个配置文件进行比较之前，您需要先储存一个配置文件。   配置文件基于"
-"当前安装的客户端上的软件包创建。   如果已创建配置文件，您可以使用它安装更多客"
-"户端，这些客户端中均会安装相同的软件包。"
+"将软件包与某个配置文件进行比较之前，您需要先储存一个配置文件。配置文件基于当前安装的客户端上的软件包创建。如果已创建配置文件，您可以使用它安装更多客户端，"
+"这些客户端中均会安装相同的软件包。"
 
 #. type: Block title
 #: modules/client-configuration/pages/package-management.adoc:15
@@ -11639,9 +11490,7 @@ msgid ""
 "You can use custom patches within your organization to manage clients.  This "
 "allows you to issue patch alerts for packages in custom channels, schedule "
 "patch installation, and manage patches across organizations."
-msgstr ""
-"您可以在组织中使用自定义补丁来管理客户端。  通过这种方式，您可以在自定义频道"
-"中发布软件包的补丁警报、安排补丁安装，并在组织中管理补丁。"
+msgstr "您可以在组织中使用自定义补丁来管理客户端。通过这种方式，您可以在自定义频道中发布软件包的补丁警报、安排补丁安装，并在组织中管理补丁。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/patch-management.adoc:3
@@ -11796,9 +11645,7 @@ msgstr "单击 btn:[创建补丁]。"
 msgid ""
 "You can also create patches by cloning an existing one.  Cloning preserves "
 "package associations and simplifies issuing patches."
-msgstr ""
-"您也可以通过克隆现有补丁来创建补丁。  克隆方法会保留软件包关联并简化补丁发布"
-"过程。"
+msgstr "您也可以通过克隆现有补丁来创建补丁。克隆方法会保留软件包关联并简化补丁发布过程。"
 
 #. type: Block title
 #: modules/client-configuration/pages/patch-management.adoc:29
@@ -11897,9 +11744,7 @@ msgstr "导航到menu:软件包[列出/去除]选项卡，检查是否已正确�
 msgid ""
 "When packages are assigned to a patch, the patch cache is updated to reflect "
 "the changes.  The cache update might take a couple of minutes."
-msgstr ""
-"将软件包指派给补丁后，补丁缓存即会更新以反映更改。  更新缓存可能需要几分钟时"
-"间。"
+msgstr "将软件包指派给补丁后，补丁缓存即会更新以反映更改。更新缓存可能需要几分钟时间。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:45
@@ -11962,9 +11807,7 @@ msgstr ""
 msgid ""
 "Each package within a patch is part of one or more channels.  If the client "
 "is not subscribed to the channel, the update is not installed."
-msgstr ""
-"补丁内的每个软件包都来自一个或多个频道。  如果客户端未订阅相应频道，将不会安"
-"装更新。"
+msgstr "补丁内的每个软件包都来自一个或多个频道。如果客户端未订阅相应频道，将不会安装更新。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:55
@@ -11972,9 +11815,7 @@ msgid ""
 "If the client has a more recent version of a package already installed, the "
 "update is not installed.  If the client has an older version of the package "
 "installed, the package is upgraded."
-msgstr ""
-"如果客户端已安装更新版本的软件包，将不会安装更新。  如果客户端安装的是较旧版"
-"本的软件包，将会升级该软件包。"
+msgstr "如果客户端已安装更新版本的软件包，将不会安装更新。如果客户端安装的是较旧版本的软件包，将会升级该软件包。"
 
 #. type: Block title
 #: modules/client-configuration/pages/patch-management.adoc:56
@@ -12092,7 +11933,7 @@ msgid ""
 "for each client.  For more information, see xref:client-configuration:"
 "contact-methods-intro.adoc[]."
 msgstr ""
-"使用为每个客户端配置的联系方法安装安排的软件包更新。  有关详细信息，请参见 xref:client-configuration:contact-"
+"使用为每个客户端配置的联系方法安装安排的软件包更新。有关详细信息，请参见 xref:client-configuration:contact-"
 "methods-intro.adoc[]。"
 
 #. type: Title =
@@ -12114,9 +11955,7 @@ msgid ""
 "This feature uses either the IPMI or Redfish protocol and is managed using a "
 "Cobbler profile.  The selected client must have a power management "
 "controller supporting one of these protocols."
-msgstr ""
-"此功能使用 IPMI 或 Redfish 协议，通过 Cobbler 配置文件管理。  所选客户端的电"
-"源管理控制器必须支持以上其中一个协议。"
+msgstr "此功能使用 IPMI 或 Redfish 协议，通过 Cobbler 配置文件管理。所选客户端的电源管理控制器必须支持以上其中一个协议。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/power-management.adoc:4
@@ -12128,11 +11967,10 @@ msgid ""
 "the {productname} Server at [path]``/etc/pki/trust/anchors/``.  When you "
 "have saved the certificate, run [command]``update-ca-certificate``."
 msgstr ""
-"对于 Redfish，请确保您可以在客户端和 {productname} 服务器之间建立有效的 SSL "
-"连接。  您必须信任用于对 Redfish 管理控制器的 SSL 服务器证书签名的证书颁发机"
-"构。  CA 证书必须为 ``.pem`` 格式，并储存在 {productname} 服务器上的 "
-"[path]``/etc/pki/trust/anchors/`` 中。  保存证书后，请运行 [command]``update-"
-"ca-certificate``。"
+"对于 Redfish，请确保您可以在客户端和 {productname} 服务器之间建立有效的 SSL 连接。您必须信任用于对 Redfish "
+"管理控制器的 SSL 服务器证书签名的证书颁发机构。CA 证书必须为 ``.pem`` 格式，并储存在 {productname} 服务器上的 "
+"[path]``/etc/pki/trust/anchors/`` 中。保存证书后，请运行 [command]``update-ca-"
+"certificate``。"
 
 #. type: Block title
 #: modules/client-configuration/pages/power-management.adoc:5
@@ -12172,7 +12010,7 @@ msgid ""
 "the system set manager, see xref:client-configuration:system-set-manager."
 "adoc[]."
 msgstr ""
-"您可以将电源管理操作添加到系统集管理器，以将这些操作同时应用到多个客户端。  有关使用系统集管理器的详细信息，请参见 xref:client-"
+"您可以将电源管理操作添加到系统集管理器，以将这些操作同时应用到多个客户端。有关使用系统集管理器的详细信息，请参见 xref:client-"
 "configuration:system-set-manager.adoc[]。"
 
 #. type: Title ==
@@ -12190,10 +12028,9 @@ msgid ""
 "include a reference to a dummy system image.  This is needed because Cobbler "
 "does not currently support system records without profiles or images."
 msgstr ""
-"首次使用电源管理功能时，如果客户端没有相应的 Cobbler 系统记录，将会自动创建该"
-"记录。  这些自动创建的系统记录无法从网络上引导，其内包含虚设系统映像的参"
-"考。  之所以需要该参考，是因为 Cobbler 当前不支持不含配置文件或映像的系统记"
-"录。"
+"首次使用电源管理功能时，如果客户端没有相应的 Cobbler "
+"系统记录，将会自动创建该记录。这些自动创建的系统记录无法从网络上引导，其内包含虚设系统映像的参考。之所以需要该参考，是因为 Cobbler "
+"当前不支持不含配置文件或映像的系统记录。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/power-management.adoc:12
@@ -12205,10 +12042,9 @@ msgid ""
 "types`` configuration parameter in the [path]``rhn.conf`` configuration "
 "files."
 msgstr ""
-"Cobbler 电源管理使用 fence-agent 工具来支持 IPMI 以外的协议。  {productname} "
-"只支持 IPMI 和 Redfish 协议。   您可以将客户端配置为使用其他协议，方法是以逗"
-"号分隔列表形式将 fence- agent 名称添加到 [path]``rhn.conf`` 配置文件中的 "
-"[option]``java.power_management.types`` 配置参数。"
+"Cobbler 电源管理使用 fence-agent 工具来支持 IPMI 以外的协议。{productname} 只支持 IPMI 和 Redfish "
+"协议。您可以将客户端配置为使用其他协议，方法是以逗号分隔列表形式将 fence- agent 名称添加到 [path]``rhn.conf`` "
+"配置文件中的 [option]``java.power_management.types`` 配置参数。"
 
 #. type: Title =
 #: modules/client-configuration/pages/products.adoc:1
@@ -12224,9 +12060,8 @@ msgid ""
 "can browse and select in the {productname} {webui} by navigating to menu:"
 "Admin[Setup Wizard > Products]."
 msgstr ""
-"在 {productname} 中，软件通过不同的产品提供。  利用 {suse} 订阅，您可以访问各"
-"种不同的产品，通过在 {productname} {webui} 中导航到menu:管理[安装向导 > 产品]"
-"可以浏览和选择这些产品。"
+"在 {productname} 中，软件通过不同的产品提供。利用 {suse} 订阅，您可以访问各种不同的产品，通过在 {productname} "
+"{webui} 中导航到menu:管理[安装向导 > 产品]可以浏览和选择这些产品。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/products.adoc:3
@@ -12237,8 +12072,7 @@ msgid ""
 "channels provided by the product, and can use the packages in the product on "
 "your {productname} Server and clients."
 msgstr ""
-"产品包含任意数量的软件频道。  单击 `显示产品的频道` 图标可查看产品中包含的频"
-"道。  成功添加并同步产品后，您便可以访问产品提供的频道，并可以在 "
+"产品包含任意数量的软件频道。单击 `显示产品的频道` 图标可查看产品中包含的频道。成功添加并同步产品后，您便可以访问产品提供的频道，并可以在 "
 "{productname} 服务器和客户端上使用产品中的软件包。"
 
 #. type: Title =
@@ -12253,9 +12087,7 @@ msgid ""
 "Registering clients with a bootstrap script gives you control over "
 "parameters, and can help if you have to register a large number of clients "
 "at once.  This method works for both Salt and traditional clients."
-msgstr ""
-"使用引导脚本注册客户端可让您控制参数，并且便于您在需要时一次性注册大量客户"
-"端。  此方法适用于 Salt 客户端和传统客户端。"
+msgstr "使用引导脚本注册客户端可让您控制参数，并且便于您在需要时一次性注册大量客户端。此方法适用于 Salt 客户端和传统客户端。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:3
@@ -12268,10 +12100,8 @@ msgid ""
 "ensure the client system can be assigned to its base channel, including "
 "activation keys and GPG keys."
 msgstr ""
-"要使用引导脚本注册客户端，建议您先创建一个模板引导脚本，之后可以复制和修改该"
-"脚本。   注册客户端时，您创建的引导脚本会在客户端上执行，并会确保所有必要的软"
-"件包都部署到该客户端。  引导脚本中包含一些参数，用于确保能够将客户端系统指派"
-"给它的基础频道，包括激活密钥和 GPG 密钥。"
+"要使用引导脚本注册客户端，建议您先创建一个模板引导脚本，之后可以复制和修改该脚本。注册客户端时，您创建的引导脚本会在客户端上执行，并会确保所有必要的软件包"
+"都部署到该客户端。引导脚本中包含一些参数，用于确保能够将客户端系统指派给它的基础频道，包括激活密钥和 GPG 密钥。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:4
@@ -12280,7 +12110,7 @@ msgid ""
 "ensure it matches the base channel repository.  If the repository "
 "information does not match exactly, the bootstrap script cannot download the "
 "correct packages."
-msgstr "请务必仔细检查软件源信息，以确保其与基础频道软件源匹配。  如果软件源信息未完全匹配，引导脚本将无法下载正确的软件包。"
+msgstr "请务必仔细检查软件源信息，以确保其与基础频道软件源匹配。如果软件源信息未完全匹配，引导脚本将无法下载正确的软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:6
@@ -12290,9 +12120,8 @@ msgid ""
 "clients running {sles}{nbsp}12 or older, you also need the [package]``python-"
 "xml`` package."
 msgstr ""
-"如果您要使用 {webui} 引导 Salt 客户端，则在开始前需确保客户端系统中已安装 "
-"Python。  对于运行 {sles}{nbsp} 12 或更早版本的 Salt 客户端，还需要 "
-"[package]``python- xml`` 软件包。"
+"如果您要使用 {webui} 引导 Salt 客户端，则在开始前需确保客户端系统中已安装 Python。对于运行 {sles}{nbsp} 12 "
+"或更早版本的 Salt 客户端，还需要 [package]``python- xml`` 软件包。"
 
 #. type: Block title
 #: modules/client-configuration/pages/registration-bootstrap.adoc:7
@@ -12307,8 +12136,8 @@ msgid ""
 "create your bootstrap script, add a path to the file containing the public "
 "key fingerprint with the [systemitem]``ORG_GPG_KEY`` parameter."
 msgstr ""
-"Uyuni 客户端工具使用的 GPG 密钥默认不受信任。  创建引导脚本时，请使用 "
-"[systemitem]``ORG_GPG_KEY`` 参数添加包含公共密钥指纹的文件的路径。"
+"Uyuni 客户端工具使用的 GPG 密钥默认不受信任。创建引导脚本时，请使用 [systemitem]``ORG_GPG_KEY`` "
+"参数添加包含公共密钥指纹的文件的路径。"
 
 #. type: Block title
 #: modules/client-configuration/pages/registration-bootstrap.adoc:9
@@ -12324,9 +12153,8 @@ msgid ""
 "systems.  If you register openSUSE Leap 15 or SLE 15 systems using Python 2, "
 "the bootstrap script fails."
 msgstr ""
-"openSUSE Leap 15 和 SLE 15 默认使用 Python 3。  必须为 openSUSE Leap 15 和 "
-"SLE 15 系统创建基于 Python 2 的引导脚本。  如果您使用 Python 2 注册 Leap 15 "
-"或 SLE 15 系统，引导脚本将会失败。"
+"openSUSE Leap 15 和 SLE 15 默认使用 Python 3。必须为 openSUSE Leap 15 和 SLE 15 系统创建基于 "
+"Python 2 的引导脚本。如果您使用 Python 2 注册 Leap 15 或 SLE 15 系统，引导脚本将会失败。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/registration-bootstrap.adoc:11
@@ -12401,9 +12229,7 @@ msgstr ""
 msgid ""
 "Alternatively, you can access the bootstrap script over HTTPS.  Replace "
 "``example.com`` with the host name of your {productname} Server:"
-msgstr ""
-"或者，您也可以通过 HTTPS 访问引导脚本。  请以您的 {productname} 服务器的主机"
-"名替换 ``example.com``："
+msgstr "或者，您也可以通过 HTTPS 访问引导脚本。请以您的 {productname} 服务器的主机名替换 ``example.com``："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-bootstrap.adoc:22
@@ -12435,10 +12261,9 @@ msgid ""
 "resolve this error, see ``Registering Older Clients`` at xref:client-"
 "configuration:tshoot-clients.adoc[]."
 msgstr ""
-"要注册并使用 {centos}{nbsp}6、{oracle}{nbsp}6、{rhel}{nbsp}6 或 {sleses}"
-"{nbsp}6 客户端，需要配置 {productname} 服务器以支持较旧类型的 SSL 加密。  有"
-"关如何解决此错误的详细信息，请参见 xref:client- configuration:tshoot-clients."
-"adoc[] 中的``注册较旧的客户端``。"
+"要注册并使用 {centos}{nbsp}6、{oracle}{nbsp}6、{rhel}{nbsp}6 或 {sleses}{nbsp}6 客户端，"
+"需要配置 {productname} 服务器以支持较旧类型的 SSL 加密。有关如何解决此错误的详细信息，请参见 xref:client- "
+"configuration:tshoot-clients.adoc[] 中的``注册较旧的客户端``。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/registration-bootstrap.adoc:25
@@ -12455,9 +12280,8 @@ msgid ""
 "are signed with GPG, so you also need to have trusted GPG keys on your "
 "system to install them."
 msgstr ""
-"您可以复制和修改所创建的模板引导脚本，以对其进行自定义。  要将引导脚本用于 "
-"{productname}，对其进行修改时至少需包含激活密钥。  大多数软件包都是使用 GPG "
-"签名的，因此系统上还需要有可信的 GPG 密钥才能安装这些软件包。"
+"您可以复制和修改所创建的模板引导脚本，以对其进行自定义。要将引导脚本用于 {productname}，对其进行修改时至少需包含激活密钥。"
+"大多数软件包都是使用 GPG 签名的，因此系统上还需要有可信的 GPG 密钥才能安装这些软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-bootstrap.adoc:27
@@ -12470,9 +12294,8 @@ msgid ""
 "information about activation keys, see xref:client-configuration:activation-"
 "keys.adoc[]."
 msgstr ""
-"在执行此过程时，您需要知道激活密钥的确切名称。   "
-"导航到menu:首页[概览]，然后在[guimenu]``任务``框中，单击[guimenu]``管理激活密钥``。  "
-"此页面上会列出为频道创建的所有密钥。  您在引导脚本中输入的要使用的密钥完整名称必须与密钥字段中显示的名称完全相同。  有关激活密钥的详细信息，请参见 "
+"在执行此过程时，您需要知道激活密钥的确切名称。导航到menu:首页[概览]，然后在[guimenu]``任务``框中，单击[guimenu]``管理激活密"
+"钥``。此页面上会列出为频道创建的所有密钥。您在引导脚本中输入的要使用的密钥完整名称必须与密钥字段中显示的名称完全相同。有关激活密钥的详细信息，请参见 "
 "xref:client-configuration:activation-keys.adoc[]。"
 
 #. type: Block title
@@ -12526,9 +12349,8 @@ msgid ""
 "beginning of the line.  This activates the script.  Enter the name of the "
 "key for this script in the ``ACTIVATION_KEYS=`` field:"
 msgstr ""
-"向下滚动，直到看到如下所示的文本。  如果文件中包含 ``exit 1``，请在该行的开头"
-"键入井号 (&#35;) 将其注释掉。  这样会激活脚本。  在 ``ACTIVATION_KEYS=`` 字段"
-"中，输入此脚本的密钥的名称："
+"向下滚动，直到看到如下所示的文本。如果文件中包含 ``exit 1``，请在该行的开头键入井号 (&#35;) 将其注释掉。这样会激活脚本。在 "
+"``ACTIVATION_KEYS=`` 字段中，输入此脚本的密钥的名称："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/registration-bootstrap.adoc:35
@@ -12634,8 +12456,8 @@ msgid ""
 "accepted.  To review a package EULA, open the package detail page in the "
 "{webui}."
 msgstr ""
-"使用 {productname} 在客户端上安装新的软件包或更新时，会自动接受所有最终用户许"
-"可协议 (EULA)。  要查看软件包 EULA，请打开 {webui} 中的软件包细节页面。"
+"使用 {productname} 在客户端上安装新的软件包或更新时，会自动接受所有最终用户许可协议 (EULA)。要查看软件包 EULA，请打开 "
+"{webui} 中的软件包细节页面。"
 
 #.  Might need an 'unsupported' note? LKB 2019-05-01
 #.  I'd say "no", according to the outcome of
@@ -12651,9 +12473,9 @@ msgid ""
 "no configuration on the {productname} Server aside from ensuring that these "
 "ports are open."
 msgstr ""
-"在大多数情况下，使用默认的引导方法即可正确注册 Salt 客户端。  不过，您也可以在客户端上编辑 Salt 受控端文件，并提供服务器的完全限定域名 "
-"(FQDN)，使用 Salt 手动将客户端注册到 {productname} 服务器。  此方法使用传入服务器的端口 4505 和 4506 来进行。  "
-"除了需确保这些端口处于打开状态之外，此方法无需在 {productname} 服务器上进行任何配置。"
+"在大多数情况下，使用默认的引导方法即可正确注册 Salt 客户端。不过，您也可以在客户端上编辑 Salt 受控端文件，并提供服务器的完全限定域名 "
+"(FQDN)，使用 Salt 手动将客户端注册到 {productname} 服务器。此方法使用传入服务器的端口 4505 和 4506 "
+"来进行。除了需确保这些端口处于打开状态之外，此方法无需在 {productname} 服务器上进行任何配置。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/registration-cli.adoc:3
@@ -12663,9 +12485,8 @@ msgid ""
 "script procedure to register traditional clients.  For more information, see "
 "xref:registration-bootstrap.adoc[]."
 msgstr ""
-"您也可以在命令行上注册传统客户端，但这需要执行更多步骤。  本指南中将不讨"
-"论。  请使用引导脚本过程注册传统客户端。  有关详细信息，请参见 xref:"
-"registration-bootstrap.adoc[]。"
+"您也可以在命令行上注册传统客户端，但这需要执行更多步骤。本指南中将不讨论。请使用引导脚本过程注册传统客户端。有关详细信息，请参见 xref"
+":registration-bootstrap.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-cli.adoc:4
@@ -12675,7 +12496,7 @@ msgid ""
 "you also must have activated the [systemitem]``Advanced Systems Management`` "
 "module."
 msgstr ""
-"要执行此过程，您需要在注册前于 Salt 客户端上安装 [package]``salt-minion`` 软件包。  对于基于 SLE 12 "
+"要执行此过程，您需要在注册前于 Salt 客户端上安装 [package]``salt-minion`` 软件包。对于基于 SLE 12 "
 "的客户端，您还需要激活[systemitem]``高级系统管理``模块。"
 
 #. type: Plain text
@@ -12683,7 +12504,7 @@ msgstr ""
 msgid ""
 "On the Salt client, open the [literal]``minion`` configuration file.  The "
 "configuration file is either located at:"
-msgstr "在 Salt 客户端上，打开 [literal]``minion`` 配置文件。  配置文件位于以下位置："
+msgstr "在 Salt 客户端上，打开 [literal]``minion`` 配置文件。配置文件位于以下位置："
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-cli.adoc:10
@@ -12832,8 +12653,8 @@ msgid ""
 "line method.  For more information about creating activation keys, see xref:"
 "client-configuration:activation-keys.adoc[]."
 msgstr ""
-"您必须先创建激活密钥，然后才能使用引导脚本或命令行方法。  有关创建激活密钥的"
-"详细信息，请参见 xref:client-configuration:activation-keys.adoc[]。"
+"您必须先创建激活密钥，然后才能使用引导脚本或命令行方法。有关创建激活密钥的详细信息，请参见 xref:client-configuration"
+":activation-keys.adoc[]。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/registration-methods.adoc:11
@@ -12863,8 +12684,7 @@ msgid ""
 "This section covers the various available methods.  It also contains "
 "information specific to the operating system you intend to run on the client."
 msgstr ""
-"有多种方法可将客户端注册到 {productname} 服务器。   本节介绍了各种可用的方"
-"法。  此外，还提供了特定于您要在客户端上运行的操作系统的信息。"
+"有多种方法可将客户端注册到 {productname} 服务器。本节介绍了各种可用的方法。此外，还提供了特定于您要在客户端上运行的操作系统的信息。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-overview.adoc:3
@@ -12884,8 +12704,7 @@ msgid ""
 "You have created an activation key.  For more information about creating "
 "activation keys, see xref:client-configuration:activation-keys.adoc[]."
 msgstr ""
-"您已创建好激活密钥。  有关创建激活密钥的详细信息，请参见 xref:client-"
-"configuration:activation-keys.adoc[]。"
+"您已创建好激活密钥。有关创建激活密钥的详细信息，请参见 xref:client-configuration:activation-keys.adoc[]。"
 
 #
 #
@@ -12904,9 +12723,7 @@ msgstr "CentOS 客户端注册"
 msgid ""
 "You can register {centos} clients to your {productname} Server.  The method "
 "and details varies depending on the operating system of the client."
-msgstr ""
-"您可以将 {centos} 客户端注册到 {productname} 服务器。  方法和细节视客户端的操"
-"作系统而异。"
+msgstr "您可以将 {centos} 客户端注册到 {productname} 服务器。方法和细节视客户端的操作系统而异。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/registration-overview-centos.adoc:3
@@ -12932,8 +12749,8 @@ msgid ""
 "creating activation keys, see xref:client-configuration:activation-keys."
 "adoc[]."
 msgstr ""
-"您还必须已创建好激活密钥。  有关创建激活密钥的详细信息，请参见 xref:client-configuration:activation-"
-"keys.adoc[]。"
+"您还必须已创建好激活密钥。有关创建激活密钥的详细信息，请参见 xref:client-configuration:activation-keys."
+"adoc[]。"
 
 #. type: Title =
 #: modules/client-configuration/pages/registration-overview-debian.adoc:1
@@ -12946,9 +12763,7 @@ msgstr "Debian 客户端注册"
 msgid ""
 "You can register {debian} clients to your {productname} Server.  The method "
 "and details varies depending on the operating system of the client."
-msgstr ""
-"您可以将 {debian} 客户端注册到 {productname} 服务器。  方法和细节视客户端的操"
-"作系统而异。"
+msgstr "您可以将 {debian} 客户端注册到 {productname} 服务器。方法和细节视客户端的操作系统而异。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/registration-overview-debian.adoc:5
@@ -12978,9 +12793,7 @@ msgstr "Oracle 客户端注册"
 msgid ""
 "You can register {oracle} clients to your {productname} Server.  The method "
 "and details varies depending on the operating system of the client."
-msgstr ""
-"您可以将 {oracle} 客户端注册到 {productname} 服务器。  方法和细节视客户端的操"
-"作系统而异。"
+msgstr "您可以将 {oracle} 客户端注册到 {productname} 服务器。方法和细节视客户端的操作系统而异。"
 
 #. type: Title =
 #: modules/client-configuration/pages/registration-overview-redhat.adoc:1
@@ -12996,9 +12809,8 @@ msgid ""
 "infrastructure (RHUI).  The method and details varies depending on the "
 "operating system of the client."
 msgstr ""
-"您可以使用 {redhat} 内容分发网络 (CDN) 或 {redhat} 更新基础结构 (RHUI) 将 "
-"{rhel} 客户端注册到 {productname} 服务器。  方法和细节视客户端的操作系统而"
-"异。"
+"您可以使用 {redhat} 内容分发网络 (CDN) 或 {redhat} 更新基础结构 (RHUI) 将 {rhel} 客户端注册到 "
+"{productname} 服务器。方法和细节视客户端的操作系统而异。"
 
 #. type: Title =
 #: modules/client-configuration/pages/registration-overview-suse.adoc:1
@@ -13025,9 +12837,7 @@ msgstr "Ubuntu 客户端注册"
 msgid ""
 "You can register {ubuntu} clients to your {productname} Server.  The method "
 "and details varies depending on the operating system of the client."
-msgstr ""
-"您可以将 {ubuntu} 客户端注册到 {productname} 服务器。  方法和细节视客户端的操"
-"作系统而异。"
+msgstr "您可以将 {ubuntu} 客户端注册到 {productname} 服务器。方法和细节视客户端的操作系统而异。"
 
 #. type: Title =
 #: modules/client-configuration/pages/registration-webui.adoc:1
@@ -13101,8 +12911,8 @@ msgid ""
 "accepted.  To review a package EULA, open the package details page in the "
 "{webui}."
 msgstr ""
-"使用 {productname} 在客户端上安装新的软件包或更新时，会自动接受所有最终用户许"
-"可协议 (EULA)。  要查看软件包 EULA，请打开 {webui} 中的软件包细节页面。"
+"使用 {productname} 在客户端上安装新的软件包或更新时，会自动接受所有最终用户许可协议 (EULA)。要查看软件包 EULA，请打开 "
+"{webui} 中的软件包细节页面。"
 
 #. type: Title =
 #: modules/client-configuration/pages/repositories.adoc:1
@@ -13119,7 +12929,7 @@ msgid ""
 "your software channels in {productname} to assign clients to the channel and "
 "install and update packages on the client."
 msgstr ""
-"软件源用于收集软件包。  如果您有权访问软件软件源，便可以安装软件源提供的任何软件。  在 {productname} "
+"软件源用于收集软件包。如果您有权访问软件软件源，便可以安装软件源提供的任何软件。在 {productname} "
 "中，必须至少有一个软件源与您的软件频道相关联，才能向该频道指派客户端并在客户端上安装和更新软件包。"
 
 #. type: Plain text
@@ -13129,7 +12939,7 @@ msgid ""
 "correct repositories.  If you are creating custom channels, you need to "
 "associate a repository that you have access to, or that you have created "
 "yourself."
-msgstr "{productname} 中的大多数默认频道都已与正确的软件源关联。  如果您要创建自定义频道，则需要关联您有权访问的或您自己创建的软件源。"
+msgstr "{productname} 中的大多数默认频道都已与正确的软件源关联。如果您要创建自定义频道，则需要关联您有权访问的或您自己创建的软件源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/repositories.adoc:4
@@ -13158,14 +12968,14 @@ msgid ""
 "In most cases, client systems do not require local repositories.  Local "
 "repositories can lead to problems knowing which packages are available on "
 "the client.  This can lead to installing unexpected packages."
-msgstr "大多数情况下，客户端系统不需要本地软件源。  本地软件源可能会导致无法确定客户端上哪些软件包可用，  而这可能会导致安装非预期的软件包。"
+msgstr "大多数情况下，客户端系统不需要本地软件源。本地软件源可能会导致无法确定客户端上哪些软件包可用，  而这可能会导致安装非预期的软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/repositories.adoc:8
 msgid ""
 "Local repositories are disabled during onboarding.  After a client has "
 "completed onboarding, you can add local repositories to these locations:"
-msgstr "初始配置期间会禁用本地软件源。  客户端完成初始配置后，您可以在以下位置添加本地软件源："
+msgstr "初始配置期间会禁用本地软件源。客户端完成初始配置后，您可以在以下位置添加本地软件源："
 
 #. type: Table
 #: modules/client-configuration/pages/repositories.adoc:10
@@ -13208,16 +13018,14 @@ msgid ""
 "Snapshots record the package profile, configuration files, and {productname} "
 "settings for a client at a set point in time.  You can roll back to older "
 "snapshots to restore previous configuration settings."
-msgstr ""
-"快照用于记录客户端在指定时间点的软件包配置文件、配置文件和 {productname} 设"
-"置。  您可以通过回滚到较旧的快照来恢复之前的配置设置。"
+msgstr "快照用于记录客户端在指定时间点的软件包配置文件、配置文件和 {productname} 设置。您可以通过回滚到较旧的快照来恢复之前的配置设置。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snapshots.adoc:3
 msgid ""
 "Snapshots are supported on traditional clients only.  Salt clients do not "
 "support this feature."
-msgstr "快照仅在传统客户端上受支持。  Salt 客户端不支持此功能。"
+msgstr "快照仅在传统客户端上受支持。Salt 客户端不支持此功能。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snapshots.adoc:4
@@ -13226,9 +13034,7 @@ msgid ""
 "manually take a snapshot at any time.  We recommend that you ensure you have "
 "a current snapshot before performing any potentially destructive action on "
 "your clients."
-msgstr ""
-"当某些操作发生后，系统会自动捕获快照。  您也可以随时手动截取快照。  建议您在"
-"对客户端执行任何可能造成破坏的操作之前，确保您拥有当前快照。"
+msgstr "当某些操作发生后，系统会自动捕获快照。您也可以随时手动截取快照。建议您在对客户端执行任何可能造成破坏的操作之前，确保您拥有当前快照。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snapshots.adoc:5
@@ -13237,7 +13043,7 @@ msgid ""
 "setting [parameter]``enable_snapshots=0`` in the [path]``rhn.conf`` "
 "configuration file."
 msgstr ""
-"快照默认处于启用状态。  您可以通过在 [path]``rhn.conf`` 配置文件中设置 "
+"快照默认处于启用状态。您可以通过在 [path]``rhn.conf`` 配置文件中设置 "
 "[parameter]``enable_snapshots=0`` 来禁用自动快照功能。"
 
 #. type: Plain text
@@ -13251,10 +13057,8 @@ msgid ""
 "Provisioning[Snapshots] tab to see the changes that rolling back to the "
 "selected snapshot makes to:"
 msgstr ""
-"要管理您的快照，请导航到menu:系统[系统列表]，然后选择要管理的客户端。  导航到"
-"menu:置备[快照]选项卡，以查看所选客户端的所有当前快照的列表。  单击快照的名称"
-"可查看有关该快照中所记录的更改的详细信息。  您可以使用menu:置备[快照]选项卡中"
-"的子选项卡查看回滚到所选快照的以下相关更改："
+"要管理您的快照，请导航到menu:系统[系统列表]，然后选择要管理的客户端。导航到menu:置备[快照]选项卡，以查看所选客户端的所有当前快照的列表。单击"
+"快照的名称可查看有关该快照中所记录的更改的详细信息。您可以使用menu:置备[快照]选项卡中的子选项卡查看回滚到所选快照的以下相关更改："
 
 #. type: Plain text
 #: modules/client-configuration/pages/snapshots.adoc:7
@@ -13305,9 +13109,7 @@ msgid ""
 "Snapshot tags allow you to add meaningful descriptions to your snapshots.  "
 "You can use tags to record extra information about snapshots, such as a last "
 "known working configuration, or a successful upgrade."
-msgstr ""
-"快照标记可用来为快照添加有意义的说明。   您可以使用快照标记记录有关快照的额外"
-"信息，例如已知的最近一次可正常工作的配置或成功的升级。"
+msgstr "快照标记可用来为快照添加有意义的说明。您可以使用快照标记记录有关快照的额外信息，例如已知的最近一次可正常工作的配置或成功的升级。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snapshots.adoc:16
@@ -13318,9 +13120,8 @@ msgid ""
 "for the selected client.  Click [guimenu]``Create System Tag``, enter a "
 "description, and click the btn:[Tag Current Snapshot] button."
 msgstr ""
-"要管理您的快照标记，请导航到menu:系统[系统列表]，然后选择要管理的客户端。  导"
-"航到menu:置备[快照标记]选项卡，以查看所选客户端的所有当前快照标记的列表。  单"
-"击[guimenu]``创建系统标记``，输入说明，然后单击  btn:[标记当前快照] 按钮。"
+"要管理您的快照标记，请导航到menu:系统[系统列表]，然后选择要管理的客户端。导航到menu:置备[快照标记]选项卡，以查看所选客户端的所有当前快照标记"
+"的列表。单击[guimenu]``创建系统标记``，输入说明，然后单击  btn:[标记当前快照] 按钮。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/snapshots.adoc:17
@@ -13334,9 +13135,7 @@ msgid ""
 "There is no maximum number of snapshots that {productname} keeps.  This "
 "means that the database that stores the snapshots grows as you add more "
 "clients, packages, channels, and configuration changes."
-msgstr ""
-"{productname} 可保留的快照没有数量上限。  这意味着随着您不断添加更多的客户"
-"端、软件包、频道和配置更改，储存快照的数据库会逐渐增大。"
+msgstr "{productname} 可保留的快照没有数量上限。这意味着随着您不断添加更多的客户端、软件包、频道和配置更改，储存快照的数据库会逐渐增大。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snapshots.adoc:19
@@ -13347,9 +13146,8 @@ msgid ""
 "you can disable the feature by setting [parameter]``enable_snapshots=0`` in "
 "the [path]``rhn.conf`` configuration file."
 msgstr ""
-"对于具有数千个客户端的大型安装，您可以使用 {productname} API 定期创建定期清理"
-"脚本，以确保定期删除旧快照。  或者，您可以通过在 [path]``rhn.conf`` 配置文件"
-"中设置 [parameter]``enable_snapshots=0`` 来禁用该功能。"
+"对于具有数千个客户端的大型安装，您可以使用 {productname} API 定期创建定期清理脚本，以确保定期删除旧快照。或者，您可以通过在 "
+"[path]``rhn.conf`` 配置文件中设置 [parameter]``enable_snapshots=0`` 来禁用该功能。"
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/add_channels_cli.adoc:1
@@ -13460,8 +13258,8 @@ msgid ""
 "perform package operations such as installing or upgrading directly from "
 "modular repositories using the {webui} or API."
 msgstr ""
-"AppStream 软件源会提供模块化软件包。  这会导致 {productname} {webui} 中显示不正确的软件包信息。  您无法使用 "
-"{webui} 或 API 直接从模块化软件源执行安装或升级等软件包操作。"
+"AppStream 软件源会提供模块化软件包。这会导致 {productname} {webui} 中显示不正确的软件包信息。您无法使用 {webui} "
+"或 API 直接从模块化软件源执行安装或升级等软件包操作。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/appstream_admon.adoc:2
@@ -13764,8 +13562,8 @@ msgid ""
 "install traditional or Salt clients, running {sle} or another Linux "
 "operating system, with a range of hardware options."
 msgstr ""
-"{productname} 与很多客户端技术兼容。  有了多种硬件选项，您可以安装传统客户端"
-"或 Salt 客户端，运行 {sle} 或其他 Linux 操作系统。"
+"{productname} 与很多客户端技术兼容。有了多种硬件选项，您可以安装传统客户端或 Salt 客户端，运行 {sle} 或其他 Linux "
+"操作系统。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:3
@@ -13827,7 +13625,7 @@ msgid ""
 "(normal or LTSS) to be supported with {productname}.  For details on "
 "supported product versions, see https://www.suse.com/lifecycle."
 msgstr ""
-"客户端操作系统的版本和 SP 级别必须享受标准支持（常规或 LTSS）才受 {productname} 的支持。  有关受支持产品版本的细节，请参见 "
+"客户端操作系统的版本和 SP 级别必须享受标准支持（常规或 LTSS）才受 {productname} 的支持。有关受支持产品版本的细节，请参见 "
 "https://www.suse.com/lifecycle[]。"
 
 #. type: delimited block =
@@ -14153,9 +13951,7 @@ msgid ""
 "The operating system you run on a client is supported by the organization "
 "that supplies the operating system.  {centos} is supported by the {centos} "
 "community."
-msgstr ""
-"客户端上运行的操作系统由提供操作系统的组织支持。  {centos} 由 {centos} 社区支"
-"持。"
+msgstr "客户端上运行的操作系统由提供操作系统的组织支持。{centos} 由 {centos} 社区支持。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features-centos.adoc:5
@@ -14728,9 +14524,7 @@ msgid ""
 "The operating system you run on a client is supported by the organization "
 "that supplies the operating system.  {debian} is supported by the {debian} "
 "community."
-msgstr ""
-"客户端上运行的操作系统由提供操作系统的组织支持。  {debian} 由 {debian} 社区支"
-"持。"
+msgstr "客户端上运行的操作系统由提供操作系统的组织支持。{debian} 由 {debian} 社区支持。"
 
 #. type: Block title
 #: modules/client-configuration/pages/supported-features-debian.adoc:10
@@ -15105,8 +14899,7 @@ msgstr "下表列出了 {sleses} 客户端上各种功能的可用性。"
 msgid ""
 "The operating system you run on a client is supported by the organization "
 "that supplies the operating system.  {sleses} is supported by {suse}."
-msgstr ""
-"客户端上运行的操作系统由提供操作系统的组织支持。  {sleses} 由 {suse} 支持。"
+msgstr "客户端上运行的操作系统由提供操作系统的组织支持。{sleses} 由 {suse} 支持。"
 
 #. type: Block title
 #: modules/client-configuration/pages/supported-features-es.adoc:10
@@ -15567,8 +15360,7 @@ msgstr "下表列出了 {oracle} 客户端上各种功能的可用性。"
 msgid ""
 "The operating system you run on a client is supported by the organization "
 "that supplies the operating system.  {oracle} is supported by Oracle."
-msgstr ""
-"客户端上运行的操作系统由提供操作系统的组织支持。  {oracle} 由 Oracle 支持。"
+msgstr "客户端上运行的操作系统由提供操作系统的组织支持。{oracle} 由 Oracle 支持。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features-oracle.adoc:9
@@ -16035,8 +15827,7 @@ msgstr "下表列出了本机 {rhel} 客户端（没有扩展支持）上各种�
 msgid ""
 "The operating system you run on a client is supported by the organization "
 "that supplies the operating system.  {rhel} is supported by {redhat}."
-msgstr ""
-"客户端上运行的操作系统由提供操作系统的组织支持。  {rhel} 由 {redhat} 支持。"
+msgstr "客户端上运行的操作系统由提供操作系统的组织支持。{rhel} 由 {redhat} 支持。"
 
 #. type: Block title
 #: modules/client-configuration/pages/supported-features-rh.adoc:10
@@ -16493,8 +16284,8 @@ msgid ""
 "{opensuse} clients.  This table covers all variants of the {sle} operating "
 "system, including {slsa}, {sleda}, {sles} for SAP, and {sles} for HPC."
 msgstr ""
-"下表列出了 {suse} 和 {opensuse} 客户端上各种功能的可用性。  该表涵盖了 {sle} "
-"操作系统的所有变体，包括 {slsa}、{sleda}、{sles} for SAP 和 {sles} for HPC。"
+"下表列出了 {suse} 和 {opensuse} 客户端上各种功能的可用性。该表涵盖了 {sle} 操作系统的所有变体，包括 "
+"{slsa}、{sleda}、{sles} for SAP 和 {sles} for HPC。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features-sles.adoc:3
@@ -16502,9 +16293,7 @@ msgid ""
 "The operating system you run on a client is supported by the organization "
 "that supplies the operating system.  {sle} is supported by {suse}.  "
 "{opensuse} is supported by the {suse} community."
-msgstr ""
-"客户端上运行的操作系统由提供操作系统的组织支持。  {sle} 由 {suse} 支持。   "
-"{opensuse} 由 {suse} 社区支持。"
+msgstr "客户端上运行的操作系统由提供操作系统的组织支持。{sle} 由 {suse} 支持。{opensuse} 由 {suse} 社区支持。"
 
 #. type: Block title
 #: modules/client-configuration/pages/supported-features-sles.adoc:10
@@ -17070,9 +16859,7 @@ msgstr "{debian} 是 {susemgr} 4.1.5 及更高版本中正式支持的操作系�
 msgid ""
 "The operating system you run on a client is supported by the organization "
 "that supplies the operating system.  {ubuntu} is supported by Canonical."
-msgstr ""
-"客户端上运行的操作系统由提供操作系统的组织支持。  {ubuntu} 由 Canonical 支"
-"持。"
+msgstr "客户端上运行的操作系统由提供操作系统的组织支持。{ubuntu} 由 Canonical 支持。"
 
 #. type: Block title
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:11
@@ -17925,9 +17712,7 @@ msgid ""
 "You can use system groups to make it easier to manage a large number of "
 "clients.  Groups can be used to perform bulk actions on clients such as "
 "applying updates, configuration channels, salt states, or formulas."
-msgstr ""
-"通过系统组，您可以更轻松地管理大量客户端。  组可用于对客户端执行批量操作，例"
-"如应用更新、配置频道、Salt 状态或公式。"
+msgstr "通过系统组，您可以更轻松地管理大量客户端。组可用于对客户端执行批量操作，例如应用更新、配置频道、Salt 状态或公式。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:3
@@ -17938,9 +17723,8 @@ msgid ""
 "workload they are handling.  Clients can be in any number of groups, so you "
 "can define your groups in different ways."
 msgstr ""
-"您可以采用任何适合环境的方式来对客户端分组。  例如，可以按客户端上安装的操作"
-"系统、所在的实际位置或所处理的工作负载类型来组织客户端。  客户端可以划分到任"
-"意数量的组中，因此您可以采用不同的方式来定义组。"
+"您可以采用任何适合环境的方式来对客户端分组。例如，可以按客户端上安装的操作系统、所在的实际位置或所处理的工作负载类型来组织客户端。客户端可以划分到任意数量"
+"的组中，因此您可以采用不同的方式来定义组。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:4
@@ -17951,10 +17735,8 @@ msgid ""
 "for all SLES clients.  You can then perform updates on all Salt clients, or "
 "use the intersection between the groups, and update all Salt SLES clients."
 msgstr ""
-"对客户端分组后，您可以在一个或多个组中的所有客户端上或不同组之间的交集客户端"
-"上执行更新。  例如，您可以为所有 Salt 客户端定义一个组，为所有 SLES 客户端定"
-"义另一个组。  然后，您可以在所有 Salt 客户端上执行更新，或使用两个组的交集来"
-"更新所有 Salt SLES 客户端。"
+"对客户端分组后，您可以在一个或多个组中的所有客户端上或不同组之间的交集客户端上执行更新。例如，您可以为所有 Salt 客户端定义一个组，为所有 SLES "
+"客户端定义另一个组。然后，您可以在所有 Salt 客户端上执行更新，或使用两个组的交集来更新所有 Salt SLES 客户端。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/system-groups.adoc:5
@@ -18111,9 +17893,8 @@ msgid ""
 "representation of your system groups by navigating to menu:"
 "Systems[Visualization > Systems Grouping]."
 msgstr ""
-"您可以导航到menu:系统[系统组]并单击某个组的名称，然后导航到[guimenu]``系统``"
-"选项卡，以查看该组中有哪些客户端。  或者，您可以导航到menu:系统[虚拟化 > 系统"
-"分组]查看系统组的图形表示。"
+"您可以导航到menu:系统[系统组]并单击某个组的名称，然后导航到[guimenu]``系统``选项卡，以查看该组中有哪些客户端。或者，您可以导航到men"
+"u:系统[虚拟化 > 系统分组]查看系统组的图形表示。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/system-groups.adoc:31
@@ -18127,9 +17908,7 @@ msgid ""
 "When you have your clients arranged into groups, you can use your groups to "
 "manage updates.  For Salt clients, you can also apply states and formulas to "
 "all clients in a group."
-msgstr ""
-"将客户端分组后，您便可以使用组来管理更新。  对于 Salt 客户端，您还可以向组中"
-"的所有客户端应用状态和公式。"
+msgstr "将客户端分组后，您便可以使用组来管理更新。对于 Salt 客户端，您还可以向组中的所有客户端应用状态和公式。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:33
@@ -18139,9 +17918,8 @@ msgid ""
 "the group.  Click the icon to see more information about the updates "
 "available and to apply them to the clients."
 msgstr ""
-"在 {productname} {webui} 中，导航到menu:系统[系统组]。  如果组中的任何客户端"
-"有可用更新，列表会显示相应图标。  单击图标可查看有关可用更新的详细信息，并向"
-"客户端应用更新。"
+"在 {productname} {webui} "
+"中，导航到menu:系统[系统组]。如果组中的任何客户端有可用更新，列表会显示相应图标。单击图标可查看有关可用更新的详细信息，并向客户端应用更新。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:34
@@ -18149,9 +17927,7 @@ msgid ""
 "You can also work with more than one group at a time.  Select the groups you "
 "want to work with, and click btn:[Work with union] to select every client in "
 "every selected group."
-msgstr ""
-"您也可以同时使用多个组。  选择要使用的多个组，然后单击  btn:[使用并集] 以选择"
-"每个选定组中的每个客户端。"
+msgstr "您也可以同时使用多个组。选择要使用的多个组，然后单击  btn:[使用并集] 以选择每个选定组中的每个客户端。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-groups.adoc:35
@@ -18162,10 +17938,8 @@ msgid ""
 "group for all Salt clients, and another group for all SLES clients.  The "
 "intersection of these groups would be all Salt SLES clients."
 msgstr ""
-"或者，您也可以使用多个组的交集。  选择两个或更多组，然后单击  btn:[使用交集] "
-"以仅选择所有选定组中都存在的那些客户端。  例如，您可以将所有 Salt 客户端分为"
-"一组，将所有 SLES 客户端分为另一组。  这两个组的交集就是所有 Salt SLES 客户"
-"端。"
+"或者，您也可以使用多个组的交集。选择两个或更多组，然后单击  btn:[使用交集] 以仅选择所有选定组中都存在的那些客户端。例如，您可以将所有 Salt "
+"客户端分为一组，将所有 SLES 客户端分为另一组。这两个组的交集就是所有 Salt SLES 客户端。"
 
 #. type: Title =
 #: modules/client-configuration/pages/system-locking.adoc:1
@@ -18182,9 +17956,8 @@ msgid ""
 "accidental changes.  You can disable the system lock when you are ready to "
 "perform actions."
 msgstr ""
-"系统锁用于防止对客户端执行某些操作。  例如，系统锁可防止更新或重启动客户"
-"端。   此功能对于运行生产软件的客户端或想要阻止意外更改时很有用。  您可以在准"
-"备好执行操作时禁用系统锁。"
+"系统锁用于防止对客户端执行某些操作。例如，系统锁可防止更新或重启动客户端。此功能对于运行生产软件的客户端或想要阻止意外更改时很有用。您可以在准备好执行操作"
+"时禁用系统锁。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-locking.adoc:3
@@ -18244,9 +18017,8 @@ msgid ""
 "and on the [guimenu]``Properties`` tab, uncheck [guimenu]``Auto Patch "
 "Update``."
 msgstr ""
-"在锁定的传统客户端上仍然可以完成某些操作，包括远程命令以及自动进行补丁更"
-"新。  要停止自动进行的补丁更新，请导航到相应客户端的[guimenu]``系统细节``页"
-"面，然后在[guimenu]``属性``选项卡上取消选中[guimenu]``自动更新补丁``。"
+"在锁定的传统客户端上仍然可以完成某些操作，包括远程命令以及自动进行补丁更新。要停止自动进行的补丁更新，请导航到相应客户端的[guimenu]``系统细节`"
+"`页面，然后在[guimenu]``属性``选项卡上取消选中[guimenu]``自动更新补丁``。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/system-locking.adoc:11
@@ -18263,9 +18035,9 @@ msgid ""
 "can be scheduled for the locked client using the {webui} or the API, but the "
 "actions fail."
 msgstr ""
-"当 Salt 客户端被锁定或置于中断模式后，便无法安排操作，并会禁止 Salt 执行命"
-"令，而且[guimenu]``系统细节``页面上会显示一个黄色标题。  在此模式下，虽然可以"
-"使用 {webui} 或 API 为锁定的客户端安排操作，但操作会失败。"
+"当 Salt 客户端被锁定或置于中断模式后，便无法安排操作，并会禁止 Salt "
+"执行命令，而且[guimenu]``系统细节``页面上会显示一个黄色标题。在此模式下，虽然可以使用 {webui} 或 API "
+"为锁定的客户端安排操作，但操作会失败。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/system-locking.adoc:13
@@ -18309,9 +18081,7 @@ msgstr "进行更改后，您可能需要应用 highstate。"
 msgid ""
 "In this case, a banner in the {webui} notifies you.  The client remains "
 "locked until you remove the system lock formula."
-msgstr ""
-"在此情况下，{webui} 中会显示一个标题通知您。  客户端会保持锁定状态，直到您去"
-"除系统锁公式。"
+msgstr "在此情况下，{webui} 中会显示一个标题通知您。客户端会保持锁定状态，直到您去除系统锁公式。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/system-locking.adoc:21
@@ -18443,16 +18213,16 @@ msgid ""
 "information about system groups, see xref:client-configuration:system-groups."
 "adoc[]."
 msgstr ""
-"系统集管理器 (SSM) 可用于同时对多个客户端执行操作。  SSM 会创建多组临时客户端，将它们变为可用状态，以执行您需要应用到多个客户端的一次性操作。"
-"  如果您需要存留时间更长的客户端组，请考虑使用系统组。  有关系统组的详细信息，请参见 xref:client-configuration"
-":system-groups.adoc[]。"
+"系统集管理器 (SSM) 可用于同时对多个客户端执行操作。SSM 会创建多组临时客户端，将它们变为可用状态，以执行您需要应用到多个客户端的一次性操作。如果"
+"您需要存留时间更长的客户端组，请考虑使用系统组。有关系统组的详细信息，请参见 xref:client-configuration:system-"
+"groups.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:3
 msgid ""
 "The actions available for use in SSM are listed in this table.  The icons in "
 "this table indicate:"
-msgstr "下表列出了可在 SSM 中使用的操作。  此表中图标的含意如下："
+msgstr "下表列出了可在 SSM 中使用的操作。此表中图标的含意如下："
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-set-manager.adoc:4
@@ -18576,8 +18346,8 @@ msgid ""
 "the {productname} {webui}.  In SSM, all available updates are shown.  This "
 "allows you to upgrade to packages that might not be the latest version."
 msgstr ""
-"SSM 中的细节与 {productname} {webui} 其他部分中的细节略有不同。  在 SSM 中，"
-"所有可用的更新都会显示。  这样您可以升级到可能不是最新版本的软件包。"
+"SSM 中的细节与 {productname} {webui} 其他部分中的细节略有不同。在 SSM "
+"中，所有可用的更新都会显示。这样您可以升级到可能不是最新版本的软件包。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/system-set-manager.adoc:15
@@ -18597,8 +18367,7 @@ msgstr "您可以使用 SSM 同时更改多个客户端的基础频道。"
 msgid ""
 "Changing the base channel significantly changes the packages and patches "
 "available to the affected clients.  Use with caution."
-msgstr ""
-"更改基础频道会大量更改可用于受影响客户端的软件包和补丁。  须谨慎使用该功能。"
+msgstr "更改基础频道会大量更改可用于受影响客户端的软件包和补丁。须谨慎使用该功能。"
 
 #. type: Block title
 #: modules/client-configuration/pages/system-set-manager.adoc:18
@@ -18673,9 +18442,7 @@ msgstr "系统类型"
 msgid ""
 "Clients are categorized by system type.  Every client can have both a base "
 "system type, and an add-on system type assigned."
-msgstr ""
-"客户端按系统类型分类。  每个客户端都可以被指派一个基础系统类型和一个附加系统"
-"类型。"
+msgstr "客户端按系统类型分类。每个客户端都可以被指派一个基础系统类型和一个附加系统类型。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-types.adoc:3
@@ -18703,9 +18470,8 @@ msgid ""
 "system type for, select the [guimenu]``Add-On System Type``, and click "
 "either btn:[Add System Type] or btn:[Remove System Type]."
 msgstr ""
-"您可以导航到menu:系统[系统列表 > 系统类型]调整附加系统类型。  选中要更改其附"
-"加系统类型的客户端，选择[guimenu]``附加系统类型``，然后单击  btn:[添加系统类"
-"型] 或  btn:[去除系统类型]。"
+"您可以导航到menu:系统[系统列表 > 系统类型]调整附加系统类型。选中要更改其附加系统类型的客户端，选择[guimenu]``附加系统类型``，"
+"然后单击  btn:[添加系统类型] 或  btn:[去除系统类型]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/system-types.adoc:6
@@ -18734,9 +18500,7 @@ msgid ""
 "Changing the base system type requires that you re-register your client.  "
 "This deletes any customization or configuration on the client, however event "
 "history is preserved.  It also requires client downtime."
-msgstr ""
-"更改基础系统类型需要重新注册客户端。   这会删除客户端上的所有自定义设置或配"
-"置，但会保留事件历史记录。  此过程还需要将客户端停机。"
+msgstr "更改基础系统类型需要重新注册客户端。这会删除客户端上的所有自定义设置或配置，但会保留事件历史记录。此过程还需要将客户端停机。"
 
 #.  Not tested --LKB 2020-09-22
 #. type: Block title
@@ -18799,9 +18563,8 @@ msgid ""
 "client.  You can then re-register the client using your preferred "
 "registration method for Salt clients."
 msgstr ""
-"您可以使用命令提示符将传统客户端重新注册为 Salt 客户端。  这需要删除传统客户"
-"端使用的软件包。  然后，您便可以使用首选的 Salt 客户端注册方法重新注册客户"
-"端。"
+"您可以使用命令提示符将传统客户端重新注册为 Salt 客户端。这需要删除传统客户端使用的软件包。然后，您便可以使用首选的 Salt "
+"客户端注册方法重新注册客户端。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/system-types.adoc:19
@@ -18809,9 +18572,7 @@ msgid ""
 "Changing the base system type requires that you re-register your client.  "
 "This deletes any customization or configuration on the client.  It also "
 "requires client downtime."
-msgstr ""
-"更改基础系统类型需要重新注册客户端。   这会删除客户端上的所有自定义设置或配"
-"置。  此过程还需要将客户端停机。"
+msgstr "更改基础系统类型需要重新注册客户端。这会删除客户端上的所有自定义设置或配置。此过程还需要将客户端停机。"
 
 #.  Not tested --LKB 2020-09-22
 #. type: Block title
@@ -19008,9 +18769,8 @@ msgid ""
 "automatic shutdown to help diagnose the problem. To disable automatic "
 "shutdown:"
 msgstr ""
-"如果您在引导后看到短暂显示的蓝色 Cobbler 菜单，则说明发现功能已启动。  如果该"
-"过程未成功完成，请暂时禁用自动关闭以帮助诊断问题。要禁用自动关闭，请执行以下"
-"操作："
+"如果您在引导后看到短暂显示的蓝色 Cobbler "
+"菜单，则说明发现功能已启动。如果该过程未成功完成，请暂时禁用自动关闭以帮助诊断问题。要禁用自动关闭，请执行以下操作："
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:24
@@ -19051,9 +18811,7 @@ msgid ""
 "new bare metal system from a system that has previously been discovered.  "
 "Therefore, we recommended that you do not power on bare metal systems "
 "multiple times, as this results in duplicate profiles."
-msgstr ""
-"受技术所限，我们无法可靠地区分新裸机系统与先前已发现的系统。   因此，建议您不"
-"要多次启动裸机系统，因为这会导致产生重复的配置文件。"
+msgstr "受技术所限，我们无法可靠地区分新裸机系统与先前已发现的系统。因此，建议您不要多次启动裸机系统，因为这会导致产生重复的配置文件。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/tshoot-clients.adoc:29
@@ -19069,8 +18827,8 @@ msgid ""
 "product reaches end-of-life and becomes unsupported, bootstrap repositories "
 "must be created manually if you want to continue using the product."
 msgstr ""
-"同步受支持的产品时，会自动在 {productname} 服务器上创建及重新生成引导软件源。  "
-"当产品到达生命周期结束日期并不再受到支持时，如果您要继续使用此产品，就必须手动创建引导软件源。"
+"同步受支持的产品时，会自动在 {productname} "
+"服务器上创建及重新生成引导软件源。当产品到达生命周期结束日期并不再受到支持时，如果您要继续使用此产品，就必须手动创建引导软件源。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:31
@@ -19149,9 +18907,7 @@ msgid ""
 "This is caused by the new, cloned, system having the same machine ID as an "
 "existing, registered, system.  You can adjust this manually to correct the "
 "error and register the cloned system successfully."
-msgstr ""
-"发生该错误的原因是新的克隆系统与现有的已注册系统具有相同的计算机 ID。  您可以"
-"手动调整此数据以修复该错误，然后便可成功注册克隆的系统。"
+msgstr "发生该错误的原因是新的克隆系统与现有的已注册系统具有相同的计算机 ID。您可以手动调整此数据以修复该错误，然后便可成功注册克隆的系统。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:42
@@ -19176,9 +18932,8 @@ msgid ""
 "the DNS settings have been misconfigured, it could take a much longer time.  "
 "In some cases, the client could become unresponsive, or crash."
 msgstr ""
-"FQDNS grain 会返回系统中所有完全限定 DNS 服务的列表。  通常很快就能完成这些信"
-"息的收集，但如果 DNS 设置配置错误，花费的时间可能会长很多。   在某些情况下，"
-"客户端会变成无响应状态或者会崩溃。"
+"FQDNS grain 会返回系统中所有完全限定 DNS 服务的列表。通常很快就能完成这些信息的收集，但如果 DNS "
+"设置配置错误，花费的时间可能会长很多。在某些情况下，客户端会变成无响应状态或者会崩溃。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:45
@@ -19187,18 +18942,15 @@ msgid ""
 "If you disable the grain, you can use a network module to provide FQDNS "
 "services, without the risk of the client becoming unresponsive."
 msgstr ""
-"为了防止发生此问题，您可以使用 Salt 标志来禁用 FQDNS grain。   如果禁用 "
-"grain，您便可以使用网络模块提供 FQDNS 服务，而不会面临客户端变成无响应状态的"
-"风险。"
+"为了防止发生此问题，您可以使用 Salt 标志来禁用 FQDNS grain。如果禁用 grain，您便可以使用网络模块提供 FQDNS "
+"服务，而不会面临客户端变成无响应状态的风险。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/tshoot-clients.adoc:46
 msgid ""
 "This only applies to older Salt clients.  If you registered your Salt client "
 "recently, the FQDNS grain is disabled by default."
-msgstr ""
-"这仅适用于较旧的 Salt 客户端。  如果您是最近注册 Salt 客户端的，FQDNS grain "
-"默认会禁用。"
+msgstr "这仅适用于较旧的 Salt 客户端。如果您是最近注册 Salt 客户端的，FQDNS grain 默认会禁用。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:47
@@ -19220,9 +18972,7 @@ msgid ""
 "This command restarts each client and generate Salt events that the server "
 "needs to process.  If you have a large number of clients, you can execute "
 "the command in batch mode instead:"
-msgstr ""
-"此命令会重启动每个客户端并生成服务器需要处理的 Salt 事件。  如果您的客户端非"
-"常多，可以采用批量模式执行该命令："
+msgstr "此命令会重启动每个客户端并生成服务器需要处理的 Salt 事件。如果您的客户端非常多，可以采用批量模式执行该命令："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:50
@@ -19235,7 +18985,7 @@ msgstr "salt --batch-size 50 '*' state.sls util.mgr_disable_fqdns_grain\n"
 msgid ""
 "Wait for the batch command to finish executing.  Do not interrupt the "
 "process with kbd:[Ctrl+C]."
-msgstr "等待批命令执行完。 请勿按 kbd:[Ctrl+C] 中断该过程。"
+msgstr "等待批命令执行完。请勿按 kbd:[Ctrl+C] 中断该过程。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/tshoot-clients.adoc:52
@@ -19250,7 +19000,7 @@ msgid ""
 "system.  Therefore you must not mount [filename]``/tmp`` with the "
 "[option]``noexec`` option."
 msgstr ""
-"Salt 从客户端文件系统的 [filename]``/tmp`` 中运行远程命令。  因此，切勿使用 [option]``noexec`` 选项挂载 "
+"Salt 从客户端文件系统的 [filename]``/tmp`` 中运行远程命令。因此，切勿使用 [option]``noexec`` 选项挂载 "
 "[filename]``/tmp``。"
 
 #. type: Title ==
@@ -19268,10 +19018,9 @@ msgid ""
 "calls block other processes, so if you have a lot of clients start at the "
 "same time, the process could create significant delays."
 msgstr ""
-"Salt 客户端每次启动时都会将 ``machine_id`` grain 传递给 {productname}。"
-"{productname} 使用此 grain 确定客户端是否已注册。  此过程需要进行同步 Salt 调"
-"用。同步 Salt 调用会阻止其他进程，因此如果您有大量客户端同时启动，该过程可能"
-"会造成很严重的延迟。"
+"Salt 客户端每次启动时都会将 ``machine_id`` grain 传递给 {productname}。{productname} 使用此 "
+"grain 确定客户端是否已注册。此过程需要进行同步 Salt 调用。同步 Salt "
+"调用会阻止其他进程，因此如果您有大量客户端同时启动，该过程可能会造成很严重的延迟。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:56
@@ -19303,9 +19052,7 @@ msgstr ""
 msgid ""
 "This only applies to already registered clients.  If you registered your "
 "Salt client recently, this config parameter is added by default."
-msgstr ""
-"这仅适用于已注册的客户端。  如果您是最近注册 Salt 客户端的，系统默认会添加此"
-"配置参数。"
+msgstr "这仅适用于已注册的客户端。如果您是最近注册 Salt 客户端的，系统默认会添加此配置参数。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:60
@@ -19328,9 +19075,7 @@ msgid ""
 "This command adds the required configuration into the client's configuration "
 "file, and applies it when the client is restarted.  If you have a large "
 "number of clients, you can execute the command in batch mode instead:"
-msgstr ""
-"此命令会在客户端的配置文件中添加所需的配置，并在客户端重启动时应用更改。  如"
-"果您的客户端非常多，可以采用批量模式执行该命令："
+msgstr "此命令会在客户端的配置文件中添加所需的配置，并在客户端重启动时应用更改。如果您的客户端非常多，可以采用批量模式执行该命令："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:63
@@ -19479,11 +19224,9 @@ msgid ""
 "apache2/ssl-global.conf`` configuration file, locate the "
 "[systemitem]``SSLProtocol`` line, and update it to read:"
 msgstr ""
-"发生此情况的原因是 Apache 需要使用 TLS{nbsp} 1.2 版，但较旧的操作系统不支持此"
-"版本的 TLS 协议。  要修复此错误，您需要强制服务器上的 Apache 接受更广范围的协"
-"议版本。  在 {productname} 服务器上，以 root 身份打开 [path]``/etc/apache2/"
-"ssl-global.conf`` 配置文件，找到 [systemitem]``SSLProtocol`` 一行，将其更新为"
-"如下内容："
+"发生此情况的原因是 Apache 需要使用 TLS{nbsp} 1.2 版，但较旧的操作系统不支持此版本的 TLS 协议。要修复此错误，"
+"您需要强制服务器上的 Apache 接受更广范围的协议版本。在 {productname} 服务器上，以 root 身份打开 [path]``/etc/"
+"apache2/ssl-global.conf`` 配置文件，找到 [systemitem]``SSLProtocol`` 一行，将其更新为如下内容："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/tshoot-clients.adoc:75
@@ -19498,8 +19241,8 @@ msgid ""
 "Proxy, if applicable.  Restart the [systemitem]``apache`` service on each "
 "system after making the changes."
 msgstr ""
-"此操作需要在服务器上手动完成并在代理上使用 Salt 状态（如果适用）。  进行更改"
-"后，在每个系统上重启动 [systemitem]``apache`` 服务。"
+"此操作需要在服务器上手动完成并在代理上使用 Salt 状态（如果适用）。进行更改后，在每个系统上重启动 [systemitem]``apache`` "
+"服务。"
 
 #. type: Title =
 #: modules/client-configuration/pages/vhm.adoc:1
@@ -19615,9 +19358,7 @@ msgid ""
 "You must have a virtualization add-on subscription for each virtualized "
 "client you register.  Visit the {scc} to manage your {productname} "
 "subscriptions."
-msgstr ""
-"对于您注册的每个虚拟化客户端，您均须有虚拟化附加订阅。  请访问 {scc} 以管理您"
-"的 {productname} 订阅。"
+msgstr "对于您注册的每个虚拟化客户端，您均须有虚拟化附加订阅。请访问 {scc} 以管理您的 {productname} 订阅。"
 
 #. type: Title =
 #: modules/client-configuration/pages/vhm-aws.adoc:1
@@ -19640,7 +19381,7 @@ msgid ""
 "clusters.  For more information on VHMs, see xref:client-configuration:vhm."
 "adoc[]."
 msgstr ""
-"VHM 允许 {productname} 获取并报告有关您的群集的信息。  有关 VHM 的详细信息，请参见 xref:client-"
+"VHM 允许 {productname} 获取并报告有关您的群集的信息。有关 VHM 的详细信息，请参见 xref:client-"
 "configuration:vhm.adoc[]。"
 
 #. type: Title ==
@@ -19826,7 +19567,7 @@ msgid ""
 "virtual machines.  For more information on VHMs, see xref:client-"
 "configuration:vhm.adoc[]."
 msgstr ""
-"VHM 允许 {productname} 获取并报告有关您的虚拟机的信息。  有关 VHM 的详细信息，请参见 xref:client-"
+"VHM 允许 {productname} 获取并报告有关您的虚拟机的信息。有关 VHM 的详细信息，请参见 xref:client-"
 "configuration:vhm.adoc[]。"
 
 #. type: Title ==
@@ -19909,9 +19650,8 @@ msgid ""
 "group that the application is in determines the role it has, and therefore "
 "the permissions."
 msgstr ""
-"请以订阅管理员身份登录您的 Azure 帐户，并确保该 Azure 用户帐户和应用程序在正"
-"确的组中。  应用程序所在的组决定了应用程序所拥有的角色，因而决定了其拥有的权"
-"限。"
+"请以订阅管理员身份登录您的 Azure 帐户，并确保该 Azure "
+"用户帐户和应用程序在正确的组中。应用程序所在的组决定了应用程序所拥有的角色，因而决定了其拥有的权限。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-azure.adoc:25
@@ -20019,7 +19759,7 @@ msgid ""
 "using a VHM.  For more information, see xref:client-configuration:virt-"
 "clusters.adoc[]."
 msgstr ""
-"您也可以不使用 VHM，而是直接使用 {productname} 来管理 {caasp} 群集。  有关详细信息，请参见 xref:client-"
+"您也可以不使用 VHM，而是直接使用 {productname} 来管理 {caasp} 群集。有关详细信息，请参见 xref:client-"
 "configuration:virt-clusters.adoc[]。"
 
 #. type: Title ==
@@ -20035,7 +19775,7 @@ msgid ""
 "you would a Salt client.  For more information, see xref:client-"
 "configuration:registration-overview.adoc[]."
 msgstr ""
-"您可以使用注册 Salt 客户端的相同方法将每个 {caasp} 节点注册到 {productname} 中。  有关详细信息，请参见 xref"
+"您可以使用注册 Salt 客户端的相同方法将每个 {caasp} 节点注册到 {productname} 中。有关详细信息，请参见 xref"
 ":client-configuration:registration-overview.adoc[]。"
 
 #. type: Plain text
@@ -20045,8 +19785,8 @@ msgid ""
 "channels, and to onboard the associated nodes.  For more on activation keys, "
 "see xref:client-configuration:activation-keys.adoc[]."
 msgstr ""
-"我们建议您创建一个激活密钥来关联 {caasp} 频道并初始配置关联的节点。  有关激活"
-"密钥的详细信息，请参见 xref:client-configuration:activation-keys.adoc[]。"
+"我们建议您创建一个激活密钥来关联 {caasp} 频道并初始配置关联的节点。有关激活密钥的详细信息，请参见 xref:client-"
+"configuration:activation-keys.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:7
@@ -20055,9 +19795,8 @@ msgid ""
 "script in the ``cloud-init`` configuration.  For more on bootstrapping, see "
 "xref:client-configuration:registration-bootstrap.adoc[]."
 msgstr ""
-"如果您在使用 ``cloud-init``，我们建议您在 ``cloud-init`` 配置中使用引导脚"
-"本。  有关引导的详细信息，请参见 xref:client-configuration:registration-"
-"bootstrap.adoc[]。"
+"如果您在使用 ``cloud-init``，我们建议您在 ``cloud-init`` 配置中使用引导脚本。有关引导的详细信息，请参见 xref"
+":client-configuration:registration-bootstrap.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:8
@@ -20069,10 +19808,9 @@ msgid ""
 "but the action fails.  For more information about system locks, see xref:"
 "client-configuration:system-locking.adoc[]."
 msgstr ""
-"将 {caasp} 节点添加到 {productname} 后，注册的系统会自动应用系统锁 Salt 公式"
-"以防止对客户端执行意外操作。  当系统被锁定后，{webui} 会显示一条警告，您可以"
-"使用 {webui} 或 API 安排操作，不过操作会失败。  关于系统锁的详细信息，请参见 "
-"xref:client-configuration:system-locking.adoc[]。"
+"将 {caasp} 节点添加到 {productname} 后，注册的系统会自动应用系统锁 Salt "
+"公式以防止对客户端执行意外操作。当系统被锁定后，{webui} 会显示一条警告，您可以使用 {webui} 或 API "
+"安排操作，不过操作会失败。关于系统锁的详细信息，请参见 xref:client-configuration:system-locking.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:9
@@ -20080,9 +19818,7 @@ msgid ""
 "You can disable the System Lock formula from being automatically applied by "
 "editing the configuration file.  Open [path]``/etc/rhn/rhn.conf`` and add "
 "this line at the end of the file:"
-msgstr ""
-"您可以编辑配置文件来禁止自动应用系统锁公式。  打开 [path]``/etc/rhn/rhn."
-"conf`` 并在文件末尾添加下面一行："
+msgstr "您可以编辑配置文件来禁止自动应用系统锁公式。打开 [path]``/etc/rhn/rhn.conf`` 并在文件末尾添加下面一行："
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:10
@@ -20175,9 +19911,7 @@ msgid ""
 "Issuing those operations could render your {caasp} cluster unusable.  "
 "{productname} does not stop you from issuing these operations if the system "
 "is not locked."
-msgstr ""
-"执行这些操作可能会使 {caasp} 群集变得无法使用。   如果系统未锁定，"
-"{productname} 不会禁止您执行这些操作。"
+msgstr "执行这些操作可能会使 {caasp} 群集变得无法使用。如果系统未锁定，{productname} 不会禁止您执行这些操作。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/vhm-caasp.adoc:25
@@ -20193,9 +19927,9 @@ msgid ""
 "more information about the profile, see https://documentation.suse.com/suse-"
 "caasp/4.2/single-html/caasp-deployment/#_autoyast_preparation."
 msgstr ""
-"{caasp}{nbsp}4 提供了一个 AutoYaST 配置文件，您可用来自动安装节点。  该配置文件包含在 ``patterns-caasp-"
-"Management`` 软件包中。  有关该配置文件的详细信息，请参见 https://documentation.suse.com/"
-"suse-caasp/4.2/single-html/caasp-deployment/#_autoyast_preparation[]。"
+"{caasp}{nbsp}4 提供了一个 AutoYaST 配置文件，您可用来自动安装节点。该配置文件包含在 ``patterns-caasp-"
+"Management`` 软件包中。有关该配置文件的详细信息，请参见 https://documentation.suse.com/suse-caasp/"
+"4.2/single-html/caasp-deployment/#_autoyast_preparation[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:27
@@ -20250,9 +19984,8 @@ msgid ""
 "You can use a single management node for multiple clusters, as long as the "
 "clusters are all of the same kind."
 msgstr ""
-"要管理 {caasp} 群集，您需要选择一个客户端作为群集的管理节点。  管理节点不能是"
-"群集的一部分，并且在您开始使用前必须已与 {caasp} 频道关联。   您可以使用单个"
-"管理节点来管理多个群集，前提是这些群集均为同一类型。"
+"要管理 {caasp} 群集，您需要选择一个客户端作为群集的管理节点。管理节点不能是群集的一部分，并且在您开始使用前必须已与 {caasp} "
+"频道关联。您可以使用单个管理节点来管理多个群集，前提是这些群集均为同一类型。"
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-caasp.adoc:34
@@ -20356,8 +20089,7 @@ msgid ""
 "the current keys, and keys for any clients that you want to use in the "
 "future."
 msgstr ""
-"将用于访问群集节点的无口令私用 SSH 密钥复制到 {productname} 服务器上，并记下"
-"文件位置。  您需要有当前密钥和将来要使用的任何客户端的密钥。"
+"将用于访问群集节点的无口令私用 SSH 密钥复制到 {productname} 服务器上，并记下文件位置。您需要有当前密钥和将来要使用的任何客户端的密钥。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:46
@@ -20415,10 +20147,9 @@ msgid ""
 "{productname} {webui}.  The socket path can also be overridden when starting "
 "any cluster action that requires SSH access."
 msgstr ""
-"如果您使用的是 ``ssh-agent`` 方式，每次有新 ``ssh-agent`` 启动或新 ``ssh -"
-"A`` 连接启动时，套接字路径都会改变。  您可以随时在 {productname} {webui} 中更"
-"新 ``ssh-agent`` 套接字路径。  启动任何需要进行 SSH 访问的群集操作时，也会覆"
-"盖套接字路径。"
+"如果您使用的是 ``ssh-agent`` 方式，每次有新 ``ssh-agent`` 启动或新 ``ssh -A`` 连接启动时，套接字路径都会改变。"
+"您可以随时在 {productname} {webui} 中更新 ``ssh-agent`` 套接字路径。启动任何需要进行 SSH "
+"访问的群集操作时，也会覆盖套接字路径。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/vhm-caasp.adoc:54
@@ -20488,9 +20219,8 @@ msgid ""
 "<cluster_name>``.  Refresh the system group to update the list of nodes.  "
 "Only nodes known to {productname} are shown."
 msgstr ""
-"系统会为您使用 {productname} 管理的每个群集创建一个对应的系统组。  系统组默认"
-"命名为 ``Cluster <cluster_name>``。  刷新系统组可更新节点列表。   只有 "
-"{productname} 已知的节点会显示。"
+"系统会为您使用 {productname} 管理的每个群集创建一个对应的系统组。系统组默认命名为 ``Cluster "
+"<cluster_name>``。刷新系统组可更新节点列表。只有 {productname} 已知的节点会显示。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:64
@@ -20510,9 +20240,7 @@ msgid ""
 "Deleting a cluster removes the cluster from {productname}, it does not "
 "delete the cluster nodes.  Workloads running on the cluster continue "
 "uninterrupted."
-msgstr ""
-"删除群集操作会从 {productname} 中去除群集，但不会删除群集节点。  在该群集上运"
-"行的工作负载会继续不间断运行。"
+msgstr "删除群集操作会从 {productname} 中去除群集，但不会删除群集节点。在该群集上运行的工作负载会继续不间断运行。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/vhm-caasp.adoc:66
@@ -20678,8 +20406,8 @@ msgid ""
 "workers.  For more information, see https://documentation.suse.com/suse-"
 "caasp/4.2/single-html/caasp-admin/#_cluster_updates."
 msgstr ""
-"{productname} 会先升级所有控制平面，然后再升级工作器。  有关详细信息，请参见 https://documentation.suse."
-"com/suse-caasp/4.2/single-html/caasp-admin/#_cluster_updates[]。"
+"{productname} 会先升级所有控制平面，然后再升级工作器。有关详细信息，请参见 https://documentation.suse.com/"
+"suse-caasp/4.2/single-html/caasp-admin/#_cluster_updates[]。"
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-caasp.adoc:87
@@ -20727,8 +20455,7 @@ msgid ""
 "other required action, such as configuration changes, are not issued by "
 "{productname}."
 msgstr ""
-"{productname} 仅会与 ``skuba`` 交互来升级群集。  任何其他必需的操作（例如配置"
-"更改）都不是由 {productname} 执行。"
+"{productname} 仅会与 ``skuba`` 交互来升级群集。任何其他必需的操作（例如配置更改）都不是由 {productname} 执行。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-caasp.adoc:93
@@ -20982,9 +20709,7 @@ msgid ""
 "Before you begin, log in to the GCE panel, and download a certificate file.  "
 "Store this file locally on your {productname} Server, and take note of the "
 "path."
-msgstr ""
-"开始前，请登录 GCE 面板并下载证书文件。   将此文件储存在 {productname} 服务器"
-"本地，并记下路径。"
+msgstr "开始前，请登录 GCE 面板并下载证书文件。将此文件储存在 {productname} 服务器本地，并记下路径。"
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-gce.adoc:9
@@ -21254,8 +20979,7 @@ msgstr "单击 btn:[安排刷新数据] 以刷新节点数据。"
 msgid ""
 "The node data can take a few moments to update.  You might need to refresh "
 "your browser window to see the updated information."
-msgstr ""
-"更新节点数据可能需要一些时间。  您可能需要刷新浏览器窗口来查看更新的信息。"
+msgstr "更新节点数据可能需要一些时间。您可能需要刷新浏览器窗口来查看更新的信息。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:28
@@ -21325,9 +21049,7 @@ msgid ""
 "Number of instances running this image across all the clusters registered in "
 "{productname}.  You can see a breakdown of numbers by clicking the pop-up "
 "icon next to the number."
-msgstr ""
-"在 {productname} 中注册的所有群集中运行此映像的实例数。  您可以单击数字旁边的"
-"弹出图标查看数字明细。"
+msgstr "在 {productname} 中注册的所有群集中运行此映像的实例数。您可以单击数字旁边的弹出图标查看数字明细。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:39
@@ -21356,7 +21078,7 @@ msgstr "``找到已过时的实例``："
 msgid ""
 "Some of the instances are running an older build of the image.  You might "
 "need to redeploy the image."
-msgstr "部分实例运行的是映像的较旧版本。  您可能需要重新部署映像。"
+msgstr "部分实例运行的是映像的较旧版本。您可能需要重新部署映像。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:44
@@ -21368,9 +21090,7 @@ msgstr "``无信息``："
 msgid ""
 "The checksum of the instance image does not match the image data contained "
 "in {productname}.  You might need to redeploy the image."
-msgstr ""
-"实例映像的校验和与 {productname} 中包含的映像数据不匹配。  您可能需要重新部署"
-"映像。"
+msgstr "实例映像的校验和与 {productname} 中包含的映像数据不匹配。您可能需要重新部署映像。"
 
 #.  This procedure needs help. LKB 2019-10-03
 #. type: Block title
@@ -21497,18 +21217,14 @@ msgid ""
 "When the rebuild has successfully completed, the runtime status of the image "
 "is updated in the image list at menu:Images[Image List].  This shows that "
 "the instances are running a previous build of the image."
-msgstr ""
-"重构建成功完成后，映像列表（单击menu:映像[映像列表]即会显示）中映像的运行时状"
-"态将会更新。  这表示实例运行的是映像以前的版本。"
+msgstr "重构建成功完成后，映像列表（单击menu:映像[映像列表]即会显示）中映像的运行时状态将会更新。这表示实例运行的是映像以前的版本。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:67
 msgid ""
 "You can only rebuild images if they were originally built with "
 "{productname}.  You cannot rebuild imported images."
-msgstr ""
-"只有在映像最初是使用 {productname} 构建的情况下，您才可以重构建映像。  您无法"
-"重构建导入的映像。"
+msgstr "只有在映像最初是使用 {productname} 构建的情况下，您才可以重构建映像。您无法重构建导入的映像。"
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:68
@@ -21683,9 +21399,8 @@ msgid ""
 "virtual host manager (VHM).  To begin, you need to set up a VHM on your "
 "{productname} Server, and inventory the available VM hosts."
 msgstr ""
-"您可以通过在 {productname} 中设置虚拟主机管理器 (VHM) 来使用 Nutanix AHV 虚拟"
-"机。  开始前，您需要在 {productname} 服务器上设置 VHM，然后清点可用的 VM 主"
-"机。"
+"您可以通过在 {productname} 中设置虚拟主机管理器 (VHM) 来使用 Nutanix AHV 虚拟机。开始前，您需要在 "
+"{productname} 服务器上设置 VHM，然后清点可用的 VM 主机。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/vhm-nutanix.adoc:6
@@ -21783,11 +21498,11 @@ msgid ""
 "certificates`` command on the command line, and restart the spacewalk "
 "services."
 msgstr ""
-"有时，在浏览器中使用 HTTPS 连接 Nutanix Prism API 服务器可能会发生``证书无效``错误。  "
-"如果发生此情况，刷新来自虚拟主机管理器的数据将会失败。  Nutanix API 服务器上必须存在有效的 SSL 证书（不是自我签名证书）。  如果您为 "
-"Nutanix SSL 证书使用了自定义 CA 机构，请将自定义 CA 证书复制到 {productname} 服务器上的 [path]``/etc/"
-"pki/trust/anchors`` 中。  在命令行上运行 [command]``update-ca-certificates`` "
-"命令以重新信任证书，然后重启动 spacewalk 服务。"
+"有时，在浏览器中使用 HTTPS 连接 Nutanix Prism API "
+"服务器可能会发生``证书无效``错误。如果发生此情况，刷新来自虚拟主机管理器的数据将会失败。Nutanix API 服务器上必须存在有效的 SSL "
+"证书（不是自我签名证书）。如果您为 Nutanix SSL 证书使用了自定义 CA 机构，请将自定义 CA 证书复制到 {productname} "
+"服务器上的 [path]``/etc/pki/trust/anchors`` 中。在命令行上运行 [command]``update-ca-"
+"certificates`` 命令以重新信任证书，然后重启动 spacewalk 服务。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-nutanix.adoc:24
@@ -21798,9 +21513,8 @@ msgid ""
 "navigate to menu:Systems[Virtual Host Managers], select the appropriate VHM, "
 "and click btn:[Refresh Data]."
 msgstr ""
-"创建并配置好 VHM 后，Taskomatic 即会自动运行数据收集过程。  如果您要手动进行"
-"数据收集，请导航到menu:系统[虚拟主机管理器]，选择适当的 VHM，然后单击  btn:"
-"[刷新数据]。"
+"创建并配置好 VHM 后，Taskomatic 即会自动运行数据收集过程。如果您要手动进行数据收集，请导航到menu:系统[虚拟主机管理器]，选择适当的 "
+"VHM，然后单击  btn:[刷新数据]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-nutanix.adoc:25
@@ -21814,11 +21528,10 @@ msgid ""
 "[command]``virtual-host-gatherer`` tool are located at [path]``/var/log/rhn/"
 "gatherer.log``."
 msgstr ""
-"{productname} 随附了一个名为 [command]``virtual-host-gatherer`` 的工具，可以"
-"使用相应 API 连接到 VHM 并请求虚拟主机的相关信息。  [command]``virtual-host-"
-"gatherer`` 计算机会维护可选模块的概念，每个模块可启用一个特定的 VHM。  "
-"Taskomatic 会在夜间自动调用此工具。  [command]``virtual-host-gatherer`` 工具"
-"的日志文件位于 [path]``/var/log/rhn/ gatherer.log``。"
+"{productname} 随附了一个名为 [command]``virtual-host-gatherer`` 的工具，可以使用相应 API 连接到 "
+"VHM 并请求虚拟主机的相关信息。[command]``virtual-host-gatherer`` 计算机会维护可选模块的概念，"
+"每个模块可启用一个特定的 VHM。Taskomatic 会在夜间自动调用此工具。[command]``virtual-host-gatherer`` "
+"工具的日志文件位于 [path]``/var/log/rhn/ gatherer.log``。"
 
 #. type: Title =
 #: modules/client-configuration/pages/vhm-vmware.adoc:1
@@ -21842,8 +21555,8 @@ msgid ""
 "inventory the available VM hosts.  Taskomatic can then begin data collection "
 "using the VMs API."
 msgstr ""
-"开始前，您需要在 {productname} 服务器上设置 VHM，然后清点可用的 VM 主机。  之"
-"后，Taskomatic 便可以开始使用 VM API 收集数据。"
+"开始前，您需要在 {productname} 服务器上设置 VHM，然后清点可用的 VM 主机。之后，Taskomatic 便可以开始使用 VM API "
+"收集数据。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-vmware.adoc:6
@@ -21862,9 +21575,8 @@ msgid ""
 "If you want to exclude any objects or resources, mark them with "
 "[parameter]``no-access``."
 msgstr ""
-"VMWare 主机使用访问权限角色和权限来控制对主机和 Guest 的访问。  请确保您要让 "
-"VHM 清点的任何 VMWare 对象或资源均至少具有[parameter]``只读``权限。   如果您"
-"要排除任何对象或资源，请将它们标记为[parameter]``无访问权限``。"
+"VMWare 主机使用访问权限角色和权限来控制对主机和 Guest 的访问。请确保您要让 VHM 清点的任何 VMWare "
+"对象或资源均至少具有[parameter]``只读``权限。如果您要排除任何对象或资源，请将它们标记为[parameter]``无访问权限``。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-vmware.adoc:8
@@ -21923,11 +21635,10 @@ msgid ""
 "certificates`` command on the command line, and restart the spacewalk "
 "services."
 msgstr ""
-"有时，在浏览器中使用 HTTPS 连接 ESXi 服务器可能会发生``证书无效``错误。  如果"
-"发生此情况，刷新来自虚拟主机服务器的数据将会失败。  要纠正该问题，请解压缩来"
-"自 ESXi 服务器的证书，然后将其复制到 [path]``/etc/pki/trust/ anchors``。  在"
-"命令行上运行 [command]``update-ca-certificates`` 命令以重新信任证书，然后重启"
-"动 spacewalk 服务。"
+"有时，在浏览器中使用 HTTPS 连接 ESXi "
+"服务器可能会发生``证书无效``错误。如果发生此情况，刷新来自虚拟主机服务器的数据将会失败。要纠正该问题，请解压缩来自 ESXi 服务器的证书，"
+"然后将其复制到 [path]``/etc/pki/trust/ anchors``。在命令行上运行 [command]``update-ca-"
+"certificates`` 命令以重新信任证书，然后重启动 spacewalk 服务。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/vhm-vmware.adoc:26
@@ -21976,7 +21687,7 @@ msgstr "如果下载的 CA 证书文件为 ``.zip`` 格式，请解压缩该存�
 msgid ""
 "The certificate files have a number as an extension.  For example, "
 "``certificate.0``."
-msgstr "证书文件的扩展名有多种。  例如，``certificate.0``。"
+msgstr "证书文件的扩展名有多种。例如，``certificate.0``。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-vmware.adoc:33
@@ -22020,8 +21731,8 @@ msgid ""
 "clusters that you have registered with {productname} by navigating to menu:"
 "Clusters[Overview] in the {webui}."
 msgstr ""
-"您可以使用 {productname} 直接管理 {caasp} 群集。  请在 {webui} 中导航到menu:"
-"群集[概览]，来管理您在 {productname} 中注册的群集。"
+"您可以使用 {productname} 直接管理 {caasp} 群集。请在 {webui} 中导航到menu:群集[概览]，来管理您在 "
+"{productname} 中注册的群集。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/virt-clusters.adoc:3
@@ -22036,8 +21747,8 @@ msgid ""
 "{caasp}{nbsp}4 provides an AutoYaST profile that you can use to autoinstall "
 "a node.  The profile is in the ``patterns-caasp-Management`` package."
 msgstr ""
-"{caasp}{nbsp}4 提供了一个 AutoYaST 配置文件，您可用来自动安装节点。  该配置文"
-"件包含在 ``patterns-caasp-Management`` 软件包中。"
+"{caasp}{nbsp}4 提供了一个 AutoYaST 配置文件，您可用来自动安装节点。该配置文件包含在 ``patterns-caasp-"
+"Management`` 软件包中。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/virt-clusters.adoc:14
@@ -22103,8 +21814,8 @@ msgid ""
 "``ssh-agent`` locally, or forward the `ssh-agent` to the management node "
 "from another machine:"
 msgstr ""
-"可以采用两种方式来搭配使用 ``ssh-agent`` 和 {caasp}。  在本地使用 ``ssh-"
-"agent``，或从另一个计算机将 `ssh-agent` 转发到管理节点："
+"可以采用两种方式来搭配使用 ``ssh-agent`` 和 {caasp}。在本地使用 ``ssh-agent``，或从另一个计算机将 `ssh-"
+"agent` 转发到管理节点："
 
 #. type: Block title
 #: modules/client-configuration/pages/virt-clusters.adoc:25
@@ -22193,9 +21904,8 @@ msgid ""
 "documentation.suse.com/suse-caasp/4.2/single-html/caasp-deployment/"
 "#_disabling_swap"
 msgstr ""
-"在向群集添加节点前，您可能需要手动进行一些配置。  检查系统是否专门作为 "
-"{caasp} 节点使用，以及交换功能是否关闭。  有关详细信息，请参见 https://"
-"documentation.suse.com/suse-caasp/4.2/single-html/caasp-deployment/"
+"在向群集添加节点前，您可能需要手动进行一些配置。检查系统是否专门作为 {caasp} 节点使用，以及交换功能是否关闭。有关详细信息，请参见 "
+"https://documentation.suse.com/suse-caasp/4.2/single-html/caasp-deployment/"
 "#_disabling_swap"
 
 #. type: Plain text
@@ -22226,10 +21936,8 @@ msgid ""
 "of virtual guests.  If you choose to, you can install several virtual hosts "
 "to manage groups of guests."
 msgstr ""
-"除了普通的传统客户端或 Salt 客户端外，您还可以使用 {productname} 管理虚拟化客"
-"户端。  在这种安装中，会在 {productname} 服务器上安装一个虚拟主机来管理任意数"
-"量的虚拟 Guest。  您可以安装多个虚拟主机来管理多组 Guest（如果您选择这么"
-"做）。"
+"除了普通的传统客户端或 Salt 客户端外，您还可以使用 {productname} 管理虚拟化客户端。在这种安装中，会在 {productname} "
+"服务器上安装一个虚拟主机来管理任意数量的虚拟 Guest。您可以安装多个虚拟主机来管理多组 Guest（如果您选择这么做）。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:3
@@ -22245,9 +21953,8 @@ msgid ""
 "enables you to autoinstall hosts and guests using {ay} or {kickstart}, and "
 "manage guests in the {webui}."
 msgstr ""
-"您可以直接在 {productname} 中管理 Xen 和 KVM 主机及 Guest。  采用这种方式，您"
-"可以使用 {ay} 或 {kickstart} 自动安装主机和 Guest，并在 {webui} 中管理 "
-"Guest。"
+"您可以直接在 {productname} 中管理 Xen 和 KVM 主机及 Guest。采用这种方式，您可以使用 {ay} 或 {kickstart} "
+"自动安装主机和 Guest，并在 {webui} 中管理 Guest。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:5
@@ -22266,9 +21973,8 @@ msgid ""
 "This gives you control over the hosts and guests, but in a more limited way "
 "than available with Xen and KVM."
 msgstr ""
-"对于 VMWare（包括 VMWare vSphere）和 Nutanix AHV，{productname} 需要您设置虚"
-"拟主机管理器 (VHM) 来控制 VM。   这样您便能够控制主机和 Guest，但与使用 Xen "
-"和 KVM 相比，控制程度会较为受限。"
+"对于 VMWare（包括 VMWare vSphere）和 Nutanix AHV，{productname} 需要您设置虚拟主机管理器 (VHM) "
+"来控制 VM。这样您便能够控制主机和 Guest，但与使用 Xen 和 KVM 相比，控制程度会较为受限。"
 
 #. So I looked it up in their docs: "VMWare vSphere is a suite of virtualization applications that includes ESXi and vCenter Server". So I think using "VMWare vSphere" implies ESXi and vCenter without having to spell them out. Happy to be proven wrong. --LKB 2019-07-10
 #. type: Plain text
@@ -22279,9 +21985,8 @@ msgid ""
 "configuration file for the VM, you can upload that configuration file to "
 "{productname} and manage it with a VHM."
 msgstr ""
-"{productname} 不直接支持其他第三方虚拟化提供者。  不过，如果您的提供者允许您"
-"导出 VM 的 JSON 配置文件，您可以将该配置文件上载到 {productname} 并使用 VHM "
-"进行管理。"
+"{productname} 不直接支持其他第三方虚拟化提供者。不过，如果您的提供者允许您导出 VM 的 JSON 配置文件，您可以将该配置文件上载到 "
+"{productname} 并使用 VHM 进行管理。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:8
@@ -22309,10 +22014,9 @@ msgid ""
 "Properties`` section.  If the ``Virtualization Host`` system type is not "
 "listed, click btn:[Edit These Properties] to assign it."
 msgstr ""
-"开始前，请确保已为要用作虚拟化主机的客户端指派``虚拟化主机``系统类型。  传统"
-"客户端和 Salt 客户端均可用作虚拟主机。  导航到menu:系统[系统列表]，然后单击要"
-"用作虚拟化主机的客户端的名称。  [guimenu]``系统属性``部分会列出系统类型。  如"
-"果未列出``虚拟化主机``系统类型，请单击  btn:[编辑这些属性] 指派该系统类型。"
+"开始前，请确保已为要用作虚拟化主机的客户端指派``虚拟化主机``系统类型。传统客户端和 Salt 客户端均可用作虚拟主机。导航到menu:系统[系统列表]"
+"，然后单击要用作虚拟化主机的客户端的名称。[guimenu]``系统属性``部分会列出系统类型。如果未列出``虚拟化主机``系统类型，请单击  "
+"btn:[编辑这些属性] 指派该系统类型。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:11
@@ -22322,9 +22026,8 @@ msgid ""
 "the client.  The [guimenu]``Virtualization`` tab allows you to create and "
 "manage virtual guests, and manage storage pools and virtual networks."
 msgstr ""
-"客户端具有``虚拟化主机``系统类型后，该客户端的“系统细节”页面中便会显示"
-"[guimenu]``虚拟化``选项卡。  [guimenu]``虚拟化``选项卡可用于创建和管理虚拟 "
-"Guest，以及管理储存池和虚拟网络。"
+"客户端具有``虚拟化主机``系统类型后，该客户端的“系统细节”页面中便会显示[guimenu]``虚拟化``选项卡。[guimenu]``虚拟化``"
+"选项卡可用于创建和管理虚拟 Guest，以及管理储存池和虚拟网络。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/virtualization.adoc:12
@@ -22403,9 +22106,7 @@ msgid ""
 "In the [guimenu]``Architecture`` field, select the emulated CPU architecture "
 "to use on the guest.  By default, the architecture selected matches the "
 "virtual host."
-msgstr ""
-"在[guimenu]``体系结构``字段中，选择要在 Guest 上使用的模拟 CPU 体系结构。  默"
-"认会选择与虚拟主机匹配的体系结构。"
+msgstr "在[guimenu]``体系结构``字段中，选择要在 Guest 上使用的模拟 CPU 体系结构。默认会选择与虚拟主机匹配的体系结构。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:24
@@ -22413,9 +22114,7 @@ msgid ""
 "In the [guimenu]``Auto-installation Profile`` field, select the auto-"
 "installation tool to use to install the guest.  Leave this field blank if "
 "you do not want to use auto-installation."
-msgstr ""
-"在[guimenu]``自动安装配置文件``字段中，选择要用于安装 Guest 的自动安装工"
-"具。  如果不想使用自动安装，请将此字段留空。"
+msgstr "在[guimenu]``自动安装配置文件``字段中，选择要用于安装 Guest 的自动安装工具。如果不想使用自动安装，请将此字段留空。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:25
@@ -22425,9 +22124,8 @@ msgid ""
 "field, ensure you type the path to an operating system image.  If you do not "
 "do this, your guest is created with an empty disk."
 msgstr ""
-"在[guimenu]``磁盘``部分，填写要用于客户端的虚拟磁盘的细节。  在[guimenu]``源"
-"模板映像 URL`` 字段中，务必键入操作系统映像的路径。  如果不这么做，创建的 "
-"Guest 的磁盘将会是空磁盘。"
+"在[guimenu]``磁盘``部分，填写要用于客户端的虚拟磁盘的细节。在[guimenu]``源模板映像 URL`` "
+"字段中，务必键入操作系统映像的路径。如果不这么做，创建的 Guest 的磁盘将会是空磁盘。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:26
@@ -22436,8 +22134,7 @@ msgid ""
 "network interface to use with the client.  Leave the "
 "[guimenu]``MAC address`` field blank to generate a MAC address."
 msgstr ""
-"在[guimenu]``网络``部分，填写要用于客户端的虚拟网络接口的细节。  将 "
-"[guimenu]``MAC 地址``字段留空以生成 MAC 地址。"
+"在[guimenu]``网络``部分，填写要用于客户端的虚拟网络接口的细节。将 [guimenu]``MAC 地址``字段留空以生成 MAC 地址。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:27
@@ -22472,8 +22169,7 @@ msgid ""
 "location of the datacenter providing virtual machines.  For example, "
 "[systemitem]``US-East``, or [systemitem]``Asia``."
 msgstr ""
-"公有云提供商使用地区来定义提供虚拟机的数据中心的实际地理位置。  例如，"
-"[systemitem]``美国东部``或[systemitem]``亚洲``。"
+"公有云提供商使用地区来定义提供虚拟机的数据中心的实际地理位置。例如，[systemitem]``美国东部``或[systemitem]``亚洲``。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:32
@@ -22482,8 +22178,8 @@ msgid ""
 "[systemitem]``US-East`` region might contain zones called [systemitem]``us-"
 "east-2a`` and [systemitem]``us-east-2b``, among others."
 msgstr ""
-"地区又可以划分为多个区域。  例如，[systemitem]``美国东部``地区可能包含 "
-"[systemitem]``us-east-2a`` 和 [systemitem]``us-east-2b`` 等多个区域。"
+"地区又可以划分为多个区域。例如，[systemitem]``美国东部``地区可能包含 [systemitem]``us-east-2a`` 和 "
+"[systemitem]``us-east-2b`` 等多个区域。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:33
@@ -22492,9 +22188,7 @@ msgid ""
 "subscription to provide.  If all of your VMs are provided by the same zone, "
 "you are within the terms and conditions of the ``1-2 Virtual Machines`` "
 "subscription."
-msgstr ""
-"{suse} 使用虚拟机的区域来确定要提供的适当订阅。  如果您的所有 VM 均由同一区域"
-"提供，您便符合 ``1-2 虚拟机``订阅的条款和条件。"
+msgstr "{suse} 使用虚拟机的区域来确定要提供的适当订阅。如果您的所有 VM 均由同一区域提供，您便符合 ``1-2 虚拟机``订阅的条款和条件。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:34
@@ -22503,8 +22197,7 @@ msgid ""
 "same region, you might not meet the conditions of the ``1-2 Virtual "
 "Machines`` subscription.  In this case, check your subscription carefully."
 msgstr ""
-"如果您的 VM 是由不同区域提供的，那么即使它们在同一地区内，您可能也不符合 "
-"``1-2 虚拟机``订阅的条件。  在这种情况下，请仔细检查您的订阅。"
+"如果您的 VM 是由不同区域提供的，那么即使它们在同一地区内，您可能也不符合 ``1-2 虚拟机``订阅的条件。在这种情况下，请仔细检查您的订阅。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/virtualization.adoc:35
@@ -22514,8 +22207,8 @@ msgid ""
 "(pay as you go), their base products are excluded from the subscription "
 "matcher counting."
 msgstr ""
-"对于 BYOS（自带订阅）实例，所有安装的产品均会传递给订阅匹配器。  如果您的公有"
-"云实例为 PAYG（随用随附）类型，将会从订阅匹配器计算中排除这些实例的基础产品。"
+"对于 BYOS（自带订阅）实例，所有安装的产品均会传递给订阅匹配器。如果您的公有云实例为 "
+"PAYG（随用随附）类型，将会从订阅匹配器计算中排除这些实例的基础产品。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/virtualization.adoc:36
@@ -22552,8 +22245,8 @@ msgid ""
 "You can then set up autoinstallation using {ay} or {kickstart} for future "
 "virtual hosts, and for virtual guests."
 msgstr ""
-"开始前，您需要在 {productname} 服务器上设置虚拟主机。   然后，您便可为将来的"
-"虚拟主机和虚拟 Guest 设置使用 {ay} 或 {kickstart} 进行的自动安装。"
+"开始前，您需要在 {productname} 服务器上设置虚拟主机。然后，您便可为将来的虚拟主机和虚拟 Guest 设置使用 {ay} 或 "
+"{kickstart} 进行的自动安装。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:4
@@ -22605,11 +22298,9 @@ msgid ""
 "For more information about how to set this up, consult the relevant "
 "documentation for your operating system."
 msgstr ""
-"{productname} 使用 [systemitem]``libvirt`` 安装和管理 Guest。   您的主机上必"
-"须安装 [daemon]``libvirtd`` 软件包。  大多数情况下，默认设置通常足以满足要"
-"求，您无需进行调整。  不过，如果您要在 Guest 上以非 root 用户身份访问 VNC 控"
-"制台，则需要对配置进行一些更改。   有关如何设置此配置的详细信息，请参考适用于"
-"您的操作系统的相关文档。"
+"{productname} 使用 [systemitem]``libvirt`` 安装和管理 Guest。您的主机上必须安装 "
+"[daemon]``libvirtd`` 软件包。大多数情况下，默认设置通常足以满足要求，您无需进行调整。不过，如果您要在 Guest 上以非 root "
+"用户身份访问 VNC 控制台，则需要对配置进行一些更改。有关如何设置此配置的详细信息，请参考适用于您的操作系统的相关文档。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:10
@@ -22620,8 +22311,9 @@ msgid ""
 "a bootstrap script, see xref:client-configuration:registration-bootstrap."
 "adoc[]."
 msgstr ""
-"{productname} 服务器上需要有引导脚本。  引导脚本必须包含主机的激活密钥。  我们建议包含您的 GPG 密钥以增强安全性。  "
-"有关创建引导脚本的详细信息，请参见 xref:client-configuration:registration-bootstrap.adoc[]。"
+"{productname} 服务器上需要有引导脚本。引导脚本必须包含主机的激活密钥。我们建议包含您的 GPG "
+"密钥以增强安全性。有关创建引导脚本的详细信息，请参见 xref:client-configuration:registration-bootstrap."
+"adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:11
@@ -22630,9 +22322,8 @@ msgid ""
 "with the {productname} Server.  For more on client registration, see xref:"
 "client-configuration:registration-overview.adoc[]."
 msgstr ""
-"准备好引导脚本后，在主机上执行脚本以在 {productname} 服务器中注册该主机。  有"
-"关注册客户端的详细信息，请参见 xref:client-configuration:registration-"
-"overview.adoc[]。"
+"准备好引导脚本后，在主机上执行脚本以在 {productname} 服务器中注册该主机。有关注册客户端的详细信息，请参见 xref:client-"
+"configuration:registration-overview.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:12
@@ -22646,12 +22337,10 @@ msgid ""
 "check [guimenu]``Virtualization Host``, and click btn:[Update Properties] to "
 "save the changes.  Restart the Salt minion service to activate the change:"
 msgstr ""
-"对于 Salt 客户端，您需要启用[systemitem]``虚拟化主机``权利。  这样您便能即时"
-"看到 VM 变化。  要实现此目的，请在 {productname} {webui} 中导航到主机的"
-"[guimenu]``系统细节``页面，然后单击[guimenu]``属性``选项卡。  或者，您可以在"
-"注册密钥级别添加[systemitem]``虚拟化主机``权利。  在[guimenu]``附加系统类型``"
-"部分，选中[guimenu]``虚拟化主机``，然后单击  btn:[更新属性] 保存更改。  重启"
-"动 Salt 受控端服务以激活更改："
+"对于 Salt 客户端，您需要启用[systemitem]``虚拟化主机``权利。这样您便能即时看到 VM 变化。要实现此目的，请在 "
+"{productname} {webui} 中导航到主机的[guimenu]``系统细节``页面，然后单击[guimenu]``属性``选项卡。或者，您可"
+"以在注册密钥级别添加[systemitem]``虚拟化主机``权利。在[guimenu]``附加系统类型``部分，选中[guimenu]``虚拟化主机``"
+"，然后单击  btn:[更新属性] 保存更改。重启动 Salt 受控端服务以激活更改："
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:14
@@ -22666,12 +22355,11 @@ msgid ""
 "[daemon]``osad`` service receives commands using a jabber protocol, and "
 "executes commands instantly."
 msgstr ""
-"对于传统客户端，VM 主机默认使用 [systemitem]``rhnsd`` 服务检查有无安排的操"
-"作。  服务每四小时执行一次检查，以便平衡存在大量客户端的环境中的负载。  这可"
-"能会导致操作执行的时间最长延迟四小时。  您管理 VM Guest 时，这么长时间的延迟"
-"并不总是适宜，对于重引导 Guest 这样的操作而言更是如此。  要解决此问题，您可以"
-"禁用 [systemitem]``rhnsd`` 服务，然后启用  [daemon]``osad`` 服务。  "
-"[daemon]``osad`` 服务使用 jabber 协议接收命令并会即时执行命令。"
+"对于传统客户端，VM 主机默认使用 [systemitem]``rhnsd`` "
+"服务检查有无安排的操作。服务每四小时执行一次检查，以便平衡存在大量客户端的环境中的负载。这可能会导致操作执行的时间最长延迟四小时。您管理 VM "
+"Guest 时，这么长时间的延迟并不总是适宜，对于重引导 Guest 这样的操作而言更是如此。要解决此问题，您可以禁用 "
+"[systemitem]``rhnsd`` 服务，然后启用  [daemon]``osad`` 服务。[daemon]``osad`` 服务使用 "
+"jabber 协议接收命令并会即时执行命令。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:15
@@ -22720,11 +22408,10 @@ msgid ""
 "For more on creating activation keys, see xref:client-configuration:"
 "activation-keys.adoc[]."
 msgstr ""
-"您需要具有要将 Guest 注册到的 VM 主机以及每个 Guest 的激活密钥。  激活密钥必"
-"须具有[systemitem]``置备``和[systemitem]``虚拟化平台``权利。  激活密钥还必须"
-"具有访问 [package]``mgr-virtualization-host`` 和 [package]``mgr-osad`` 软件包"
-"的权限。   有关创建激活密钥的详细信息，请参见 xref:client-configuration: "
-"activation-keys.adoc[]。"
+"您需要具有要将 Guest 注册到的 VM 主机以及每个 Guest "
+"的激活密钥。激活密钥必须具有[systemitem]``置备``和[systemitem]``虚拟化平台``权利。激活密钥还必须具有访问 [package"
+"]``mgr-virtualization-host`` 和 [package]``mgr-osad`` 软件包的权限。有关创建激活密钥的详细信息，"
+"请参见 xref:client-configuration: activation-keys.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:21
@@ -22734,7 +22421,7 @@ msgid ""
 "bootstrap script, see xref:client-configuration:registration-bootstrap."
 "adoc[]."
 msgstr ""
-"如果您希望在安装后将 Guest 自动注册到 {productname} 中，则需要创建引导脚本。  有关创建引导脚本的详细信息，请参见 xref"
+"如果您希望在安装后将 Guest 自动注册到 {productname} 中，则需要创建引导脚本。有关创建引导脚本的详细信息，请参见 xref"
 ":client-configuration:registration-bootstrap.adoc[]。"
 
 #. type: delimited block =
@@ -22744,8 +22431,8 @@ msgid ""
 "Traditional clients.  Salt clients can be created using a template disk "
 "image, but not by using {ay} or {kickstart}."
 msgstr ""
-"仅当 VM Guest 配置为传统客户端时，才能自动安装 Guest。  Salt 客户端可以通过模"
-"板磁盘映像创建，但不能使用 {ay} 或 {kickstart} 创建。"
+"仅当 VM Guest 配置为传统客户端时，才能自动安装 Guest。Salt 客户端可以通过模板磁盘映像创建，但不能使用 {ay} 或 "
+"{kickstart} 创建。"
 
 #. type: Title ===
 #: modules/client-configuration/pages/virt-xenkvm.adoc:23
@@ -22761,7 +22448,7 @@ msgid ""
 "available from a mounted local or remote directory, or on a loop-mounted ISO "
 "image."
 msgstr ""
-"您需要在 VM 主机上创建可自动安装的发行套件，才能通过 {productname} 自动安装客户端。  可以在挂载的本地或远程目录提供发行套件，"
+"您需要在 VM 主机上创建可自动安装的发行套件，才能通过 {productname} 自动安装客户端。可以在挂载的本地或远程目录提供发行套件，"
 "也可以在以循环方式挂载的 ISO 映像中提供。"
 
 #. type: Plain text
@@ -22774,10 +22461,9 @@ msgid ""
 "autoinstallable distribution.  Therefore, for SLES systems, the "
 "autoinstallable distribution must be a complete installation source."
 msgstr ""
-"根据您在 Guest 上使用的是 SLES 还是 {rhel} 操作系统，可自动安装发行套件的配置"
-"有所不同。  {rhel} 安装的软件包从关联的基础频道提取。  用于安装 {suse} 系统的"
-"软件包从可自动安装的发行套件中提取。  因此，对于 SLES 系统，可自动安装的发行"
-"套件必须是完整的安装源。"
+"根据您在 Guest 上使用的是 SLES 还是 {rhel} 操作系统，可自动安装发行套件的配置有所不同。{rhel} "
+"安装的软件包从关联的基础频道提取。用于安装 {suse} 系统的软件包从可自动安装的发行套件中提取。因此，对于 SLES "
+"系统，可自动安装的发行套件必须是完整的安装源。"
 
 #. type: Block title
 #: modules/client-configuration/pages/virt-xenkvm.adoc:26
@@ -22812,8 +22498,8 @@ msgid ""
 "mounted ISO image.  Additionally, ensure that all files and directories are "
 "world-readable."
 msgstr ""
-"开始前，请确保 VM 主机可以使用您的安装媒体。  该媒体可以位于网络资源、本地目录或以循环方式挂载的 ISO 映像中。  "
-"此外，还需确保所有文件和目录都是全局可读的。"
+"开始前，请确保 VM 主机可以使用您的安装媒体。该媒体可以位于网络资源、本地目录或以循环方式挂载的 ISO "
+"映像中。此外，还需确保所有文件和目录都是全局可读的。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:34
@@ -23035,8 +22721,8 @@ msgid ""
 "profile you want to edit.  Make the desired changes and save your settings "
 "by clicking btn:[Create]."
 msgstr ""
-"创建自动安装配置文件后，您可以导航到menu:系统[自动安装 > 配置文件]，然后选择"
-"要编辑的配置文件进行编辑。  进行所需更改，然后单击  btn:[创建] 保存您的设置。"
+"创建自动安装配置文件后，您可以导航到menu:系统[自动安装 > 配置文件]，然后选择要编辑的配置文件进行编辑。进行所需更改，然后单击  btn:[创建]"
+" 保存您的设置。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/virt-xenkvm.adoc:67
@@ -23046,9 +22732,8 @@ msgid ""
 "options, potentially overwriting any custom settings.  Carefully review the "
 "[guimenu]``Partitioning`` tab to verify these settings before making changes."
 msgstr ""
-"如果您更改了现有 {kickstart} 配置文件的[guimenu]``虚拟化类型``，则可能也会修"
-"改引导加载程序和分区选项，并可能重写任何自定义设置。  请在更改前仔细查看"
-"[guimenu]``分区``选项卡以校验这些设置。"
+"如果您更改了现有 {kickstart} 配置文件的[guimenu]``虚拟化类型``，则可能也会修改引导加载程序和分区选项，并可能重写任何自定义设置。"
+"请在更改前仔细查看[guimenu]``分区``选项卡以校验这些设置。"
 
 #. type: Title ===
 #: modules/client-configuration/pages/virt-xenkvm.adoc:68
@@ -23064,9 +22749,8 @@ msgid ""
 "soon as they are installed, you can add a section to the autoinstallation "
 "profile that invokes a bootstrap script, and registers the guests."
 msgstr ""
-"自动安装 VM Guest 后，它们并不会注册到 {productname} 中。  如果您希望 Guest "
-"在安装后立即自动注册，您可以在自动安装配置文件中添加一段用于调用引导脚本并注"
-"册 Guest 的内容。"
+"自动安装 VM Guest 后，它们并不会注册到 {productname} 中。如果您希望 Guest 在安装后立即自动注册，"
+"您可以在自动安装配置文件中添加一段用于调用引导脚本并注册 Guest 的内容。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:70
@@ -23082,7 +22766,7 @@ msgid ""
 "registration-bootstrap.adoc[].  For instructions on how to do this for "
 "{kickstart], refer to the Red Hat documentation for your installation."
 msgstr ""
-"有关创建引导脚本的详细信息，请参见 xref:client-configuration:registration-bootstrap.adoc[]。  "
+"有关创建引导脚本的详细信息，请参见 xref:client-configuration:registration-bootstrap.adoc[]。"
 "有关如何针对 {kickstart} 执行此操作的说明，请参见适用于您的安装的 Red Hat 文档。"
 
 #. type: Block title
@@ -23189,9 +22873,8 @@ msgid ""
 "guest installation starts while another one is still running, the running "
 "installation is canceled."
 msgstr ""
-"每个 VM 主机一次只能安装一个 Guest。  如果您要安排多个自动安装，请务必安排合"
-"理的时间，确保下一个安装不会在现有安装完成前开始。  如果某个 Guest 安装在另一"
-"个安装仍在进行时开始，则正在进行的安装可能会被取消。"
+"每个 VM 主机一次只能安装一个 Guest。如果您要安排多个自动安装，请务必安排合理的时间，确保下一个安装不会在现有安装完成前开始。如果某个 "
+"Guest 安装在另一个安装仍在进行时开始，则正在进行的安装可能会被取消。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:83
@@ -23257,9 +22940,9 @@ msgid ""
 "traditional clients, you also need the [package]``mgr-cfg-actions`` package "
 "installed on your {productname} Server."
 msgstr ""
-"要执行这些操作，您需要将 Xen 或 KVM VM 主机注册到 {productname} 服务器中，并"
-"在主机上运行 [daemon]``libvirtd`` 服务。  对于传统客户端，您还需要在 "
-"{productname} 服务器上安装 [package]``mgr-cfg-actions`` 软件包。"
+"要执行这些操作，您需要将 Xen 或 KVM VM 主机注册到 {productname} 服务器中，并在主机上运行 "
+"[daemon]``libvirtd`` 服务。对于传统客户端，您还需要在 {productname} 服务器上安装 [package]``mgr-"
+"cfg-actions`` 软件包。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:92
@@ -23269,9 +22952,8 @@ msgid ""
 "[guimenu]``Virtualization`` tab to see all guests registered to this host, "
 "and access the management functions."
 msgstr ""
-"在 {productname} {webui} 中，导航到menu:系统[系统列表]，然后单击要管理的 "
-"Guest 的 VM 主机。  导航到[guimenu]``虚拟化``选项卡以查看所有注册到此主机中"
-"的 Guest，并访问管理功能。"
+"在 {productname} {webui} 中，导航到menu:系统[系统列表]，然后单击要管理的 Guest 的 VM "
+"主机。导航到[guimenu]``虚拟化``选项卡以查看所有注册到此主机中的 Guest，并访问管理功能。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:93
