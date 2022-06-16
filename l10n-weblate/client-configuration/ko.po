@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-05-04 09:04+0000\n"
-"PO-Revision-Date: 2022-06-16 05:13+0000\n"
+"PO-Revision-Date: 2022-06-16 10:13+0000\n"
 "Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-43-rc1/ko/>\n"
@@ -2752,9 +2752,9 @@ msgid ""
 "profiles#variables[Variables]."
 msgstr ""
 "{suse}는 사용자 정의 파일의 시작점으로 사용할 수 있는 {ay} 설치 파일의 템플릿을 제공합니다.  이 템플릿은 "
-"[path]``AutoYast``디렉토리의 link:https://github.com/SUSE/manager-build-profiles[]"
-"에서 확인할 수 있습니다.  이러한 각 프로파일은 사용하기 전 일부 변수를 설정해야 합니다.  필요한 변수는 스크립트에 포함된 "
-"[path]``README`` 파일에서 확인합니다.  {ay} 스크립트에서 변수 사용에 대한 자세한 설명은 xref:client-"
+"[path]``AutoYast`` 디렉토리의 link:https://github.com/SUSE/manager-build-"
+"profiles[]에서 확인할 수 있습니다.  이러한 각 프로파일은 사용하기 전 일부 변수를 설정해야 합니다.  필요한 변수는 스크립트에 "
+"포함된 [path]``README`` 파일에서 확인합니다.  {ay} 스크립트에서 변수 사용에 대한 자세한 설명은 xref:client-"
 "configuration:autoinst-profiles#variables[변수]를 참조하십시오."
 
 #. type: Plain text
@@ -2767,7 +2767,7 @@ msgstr "다음은 {productname}(으)로 설치하기 위한 {ay} 설치 파일�
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:44
 msgid "``<add-on>`` allows to add child channels to the installation"
-msgstr "``<add-on>``은(는) 설치에 하위 채널을 추가할 수 있습니다."
+msgstr "``<add-on>``은 설치에 하위 채널을 추가할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:45
@@ -2783,7 +2783,7 @@ msgid ""
 "``<general>$SNIPPET('spacewalk/sles_no_signature_checks')</general>` "
 "disables signature checks"
 msgstr ""
-"``<general>$SNIPPET('spacewalk/sles_no_signature_checks')</general>`` 은 서명 "
+"``<general>$SNIPPET('spacewalk/sles_no_signature_checks')</general>``은 서명 "
 "확인을 비활성화합니다."
 
 #. type: Plain text
@@ -2806,9 +2806,8 @@ msgid ""
 "init-scripts>`` allows the client to register to {productname} as a Salt "
 "minion."
 msgstr ""
-"``<init-scripts config:type=\"list\">$SNIPPET('spacewalk/minion_script')</"
-"init-scripts>`` 을 사용하면 클라이언트가 {productname}를 Salt minion으로 등록"
-"할 수 있습니다."
+"``<init-scripts config:type=\"list\">$SNIPPET('spacewalk/minion_script"
+"')</init-scripts>``을 사용하면 클라이언트가 {productname}를 Salt minion으로 등록할 수 있습니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-profiles.adoc:50
@@ -6131,8 +6130,8 @@ msgid ""
 "The [option]``install=`` parameter and the [option]``self_update=0 pt."
 "options=self_update`` parameter are added by default."
 msgstr ""
-"[option]``install=`` 파라미터와 [option]``self_update=0 pt."
-"options=self_update``파라미터가 기본적으로 추가됩니다."
+"[option]``install=`` 파라미터와 [option]``self_update=0 pt.options=self_update`` "
+"파라미터가 기본적으로 추가됩니다."
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:31
@@ -15060,7 +15059,7 @@ msgstr ""
 #: modules/client-configuration/pages/patch-management.adoc:5
 #, no-wrap
 msgid "Procedure: Creating a Custom Patch"
-msgstr "프로시저:사용자 정의 패치 생성"
+msgstr "프로시저: 사용자 정의 패치 생성"
 
 #. type: Plain text
 #: modules/client-configuration/pages/patch-management.adoc:6
