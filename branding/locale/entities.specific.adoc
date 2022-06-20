@@ -1,0 +1,7 @@
+:productname: SUSE Manager
+:productnumber: 4.3
+:docversion: 4.3
+:minorversion: 4.3
+:suma-content: True
+:uyuni-content: False
+
