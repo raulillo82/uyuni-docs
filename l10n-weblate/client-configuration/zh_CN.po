@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-03-20 15:44+0100\n"
-"PO-Revision-Date: 2022-06-15 05:13+0000\n"
-"Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
+"PO-Revision-Date: 2022-06-20 18:13+0000\n"
+"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-41/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -4226,8 +4226,7 @@ msgid ""
 "For more information on registering your clients, see xref:client-"
 "configuration:registration-overview.adoc[]."
 msgstr ""
-"有关注册客户端的详细信息，请参见 xref:client- configuration:registration-"
-"overview.adoc[]。"
+"有关注册客户端的详细信息，请参见 xref:client-configuration:registration-overview.adoc[]。"
 
 #. type: Title =
 #: modules/client-configuration/pages/clients-opensuse.adoc:1
@@ -7300,9 +7299,7 @@ msgstr "在开始前，需检查自动安装配置文件中引用的所有频道
 msgid ""
 "You can monitor the mirroring progress in [path]``/var/log/rhn/reposync/"
 "<channel-label>.log``."
-msgstr ""
-"您可以在 [path]``/var/log/rhn/reposync/ <channel-label>.log`` 中监控镜像进"
-"度。"
+msgstr "您可以在 [path]``/var/log/rhn/reposync/<channel-label>.log`` 中监控镜像进度。"
 
 #. type: Block title
 #: modules/client-configuration/pages/client-upgrades-major.adoc:60
@@ -12121,7 +12118,7 @@ msgid ""
 "xml`` package."
 msgstr ""
 "如果您要使用 {webui} 引导 Salt 客户端，则在开始前需确保客户端系统中已安装 Python。对于运行 {sles}{nbsp} 12 "
-"或更早版本的 Salt 客户端，还需要 [package]``python- xml`` 软件包。"
+"或更早版本的 Salt 客户端，还需要 [package]``python-xml`` 软件包。"
 
 #. type: Block title
 #: modules/client-configuration/pages/registration-bootstrap.adoc:7
@@ -12262,7 +12259,7 @@ msgid ""
 "configuration:tshoot-clients.adoc[]."
 msgstr ""
 "要注册并使用 {centos}{nbsp}6、{oracle}{nbsp}6、{rhel}{nbsp}6 或 {sleses}{nbsp}6 客户端，"
-"需要配置 {productname} 服务器以支持较旧类型的 SSL 加密。有关如何解决此错误的详细信息，请参见 xref:client- "
+"需要配置 {productname} 服务器以支持较旧类型的 SSL 加密。有关如何解决此错误的详细信息，请参见 xref:client-"
 "configuration:tshoot-clients.adoc[] 中的``注册较旧的客户端``。"
 
 #. type: Title ==
@@ -20729,8 +20726,7 @@ msgstr "单击 btn:[创建] 并从下拉菜单中选择 [guimenu]``Google Comput
 msgid ""
 "In the [guimenu]``Add a Google Conpute Engine Virtual Host Manager`` "
 "section, use these parameters:"
-msgstr ""
-"在[guimenu]``添加 Google Conpute Engine 虚拟主机管理器``部分，使用以下参数："
+msgstr "在[guimenu]``添加 Google Compute Engine 虚拟主机管理器``部分，使用以下参数："
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-gce.adoc:14
