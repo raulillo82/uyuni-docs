@@ -31,7 +31,7 @@
 :slepos: SUSE Linux Enterprise Point of Service
 :susemgrproxy: SUSE Manager Proxy
 :productnumber: 4.1
-:docversion: 4.1.10
+:docversion: 4.1.15
 :saltversion: 3002
 :webui: WebUI
 :sles-version: 15
