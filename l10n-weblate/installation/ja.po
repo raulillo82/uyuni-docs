@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-24 08:08+0000\n"
-"PO-Revision-Date: 2022-06-09 05:13+0000\n"
-"Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
+"PO-Revision-Date: 2022-06-20 21:15+0000\n"
+"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-installation-manager-42-mu-427/ja/>\n"
 "Language: ja\n"
@@ -3904,9 +3904,7 @@ msgstr ""
 msgid ""
 "Click btn:[Add Hardware] to create three new virtual disks with these "
 "specifications."
-msgstr ""
-"［btn:[ハードウェアの追加]］をクリックし、これらを指定して新しい仮想ディスク"
-"を3つ作成します。"
+msgstr "btn:[ハードウェアの追加]をクリックし、これらを指定して新しい仮想ディスクを3つ作成します。"
 
 #. type: Plain text
 #: modules/installation/pages/install-vm.adoc:16
@@ -3946,9 +3944,7 @@ msgstr ""
 #. type: Plain text
 #: modules/installation/pages/install-vm.adoc:19
 msgid "Click btn:[Begin Installation] to boot the new VM from the JeOS image."
-msgstr ""
-"［btn:[Begin Installation]］（インストールの開始）をクリックし、JeOSイメージ"
-"から新しいVMをブートします。"
+msgstr "btn:[Begin Installation]（インストールの開始）をクリックし、JeOSイメージから新しいVMをブートします。"
 
 #. type: Plain text
 #: modules/installation/pages/install-vm.adoc:20
