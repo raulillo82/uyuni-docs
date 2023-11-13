@@ -25,7 +25,7 @@
 - Updated Twitter handle reference in documentation UI
 - Started with removing traditional client documentation in Client
   Configuration Guide and removed cross references to other Guides
-- Changed installation of Uyuni Proxy with openSUSE Leap instructions to
+- Changed installation of Uyuni Proxy with openSUSE Leap instructions to 
   refer to Leap 15.5
 - Fixed parser error with ifeval or url tag in Image management section
   of Administration Guide
